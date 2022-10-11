@@ -1,0 +1,2 @@
+<def f='MOS/kernel/filesystem/filesystem.c' l='29' ll='40' type='size_t vfs_io_ops_read(io_t * io, void * buf, size_t count)'/>
+<use f='MOS/kernel/filesystem/filesystem.c' l='56' u='r'/>

@@ -1,0 +1,2 @@
+<dec f='MOS/include/lib/stdlib.h' l='10' type='s32 abs(s32 x)'/>
+<def f='MOS/lib/stdlib.c' l='13' ll='16' type='s32 abs(s32 x)'/>

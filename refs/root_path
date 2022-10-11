@@ -1,0 +1,6 @@
+<dec f='MOS/include/mos/filesystem/pathutils.h' l='10' type='fsnode_t'/>
+<def f='MOS/kernel/filesystem/pathutils.c' l='22' ll='29' type='fsnode_t'/>
+<use f='MOS/kernel/filesystem/pathutils.c' l='44' u='a' c='impl_path_get_subpath'/>
+<use f='MOS/kernel/filesystem/pathutils.c' l='87' u='a' c='path_find_fsnode'/>
+<use f='MOS/kernel/filesystem/pathutils.c' l='111' u='a' c='path_resolve'/>
+<use f='MOS/kernel/kernel_init.c' l='28' u='a' c='mount_initrd'/>

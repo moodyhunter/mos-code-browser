@@ -1,0 +1,5 @@
+<dec f='MOS/arch/x86/include/mos/x86/acpi/acpi_types.h' l='205' type='u32'/>
+<offset>288</offset>
+<use f='MOS/arch/x86/interrupt/apic.c' l='100' u='r' c='apic_enable'/>
+<use f='MOS/arch/x86/x86_platform.c' l='103' u='r' c='x86_start_kernel'/>
+<use f='MOS/arch/x86/x86_platform.c' l='103' u='r' c='x86_start_kernel'/>

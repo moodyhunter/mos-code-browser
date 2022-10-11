@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>cpio.h source code [MOS/include/mos/filesystem/cpio/cpio.h] - Woboq Code Browser</title>
+<link rel="stylesheet" href="/mos-code-browser/data/qtcreator.css" title="QtCreator"/>
+<link rel="alternate stylesheet" href="/mos-code-browser/data/kdevelop.css" title="KDevelop"/>
+<script type="text/javascript" src="/mos-code-browser/data/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="/mos-code-browser/data/jquery/jquery-ui.min.js"></script>
+<script>var file = 'MOS/include/mos/filesystem/cpio/cpio.h'; var root_path = '../../../../..'; var data_path = '/mos-code-browser/data'; var ecma_script_api_version = 2;</script>
+<script src='/mos-code-browser/data/codebrowser.js'></script>
+</head>
+<body><div id='header'><h1 id='breadcrumb'><span>Browse the source code of </span><a href='../../../..'>MOS</a>/<a href='../../..'>include</a>/<a href='../..'>mos</a>/<a href='..'>filesystem</a>/<a href='./'>cpio</a>/<a href='cpio.h.html'>cpio.h</a></h1></div>
+<hr/><div id='content'><table class="code">
+<tr><th id="1">1</th><td><i>// SPDX-License-Identifier: GPL-3.0-or-later</i></td></tr>
+<tr><th id="2">2</th><td></td></tr>
+<tr><th id="3">3</th><td><u>#pragma once</u></td></tr>
+<tr><th id="4">4</th><td></td></tr>
+<tr><th id="5">5</th><td><u>#include <a href="../filesystem.h.html">"mos/filesystem/filesystem.h"</a></u></td></tr>
+<tr><th id="6">6</th><td><u>#include <a href="../../types.h.html">"mos/types.h"</a></u></td></tr>
+<tr><th id="7">7</th><td></td></tr>
+<tr><th id="8">8</th><td><b>typedef</b> <b>struct</b></td></tr>
+<tr><th id="9">9</th><td>{</td></tr>
+<tr><th id="10">10</th><td>    <em>char</em> <dfn class="decl field" id="(anonymous)::magic" title='(anonymous struct)::magic' data-ref="(anonymous)::magic" data-ref-filename="(anonymous)..magic">magic</dfn>[<var>6</var>];</td></tr>
+<tr><th id="11">11</th><td>    <em>char</em> <dfn class="decl field" id="(anonymous)::ino" title='(anonymous struct)::ino' data-ref="(anonymous)::ino" data-ref-filename="(anonymous)..ino">ino</dfn>[<var>8</var>];</td></tr>
+<tr><th id="12">12</th><td>    <em>char</em> <dfn class="decl field" id="(anonymous)::mode" title='(anonymous struct)::mode' data-ref="(anonymous)::mode" data-ref-filename="(anonymous)..mode">mode</dfn>[<var>8</var>];</td></tr>
+<tr><th id="13">13</th><td>    <em>char</em> <dfn class="decl field" id="(anonymous)::uid" title='(anonymous struct)::uid' data-ref="(anonymous)::uid" data-ref-filename="(anonymous)..uid">uid</dfn>[<var>8</var>];</td></tr>
+<tr><th id="14">14</th><td>    <em>char</em> <dfn class="decl field" id="(anonymous)::gid" title='(anonymous struct)::gid' data-ref="(anonymous)::gid" data-ref-filename="(anonymous)..gid">gid</dfn>[<var>8</var>];</td></tr>
+<tr><th id="15">15</th><td>    <em>char</em> <dfn class="decl field" id="(anonymous)::nlink" title='(anonymous struct)::nlink' data-ref="(anonymous)::nlink" data-ref-filename="(anonymous)..nlink">nlink</dfn>[<var>8</var>];</td></tr>
+<tr><th id="16">16</th><td>    <em>char</em> <dfn class="decl field" id="(anonymous)::mtime" title='(anonymous struct)::mtime' data-ref="(anonymous)::mtime" data-ref-filename="(anonymous)..mtime">mtime</dfn>[<var>8</var>];</td></tr>
+<tr><th id="17">17</th><td></td></tr>
+<tr><th id="18">18</th><td>    <em>char</em> <dfn class="decl field" id="(anonymous)::filesize" title='(anonymous struct)::filesize' data-ref="(anonymous)::filesize" data-ref-filename="(anonymous)..filesize">filesize</dfn>[<var>8</var>];</td></tr>
+<tr><th id="19">19</th><td>    <em>char</em> <dfn class="decl field" id="(anonymous)::devmajor" title='(anonymous struct)::devmajor' data-ref="(anonymous)::devmajor" data-ref-filename="(anonymous)..devmajor">devmajor</dfn>[<var>8</var>];</td></tr>
+<tr><th id="20">20</th><td>    <em>char</em> <dfn class="decl field" id="(anonymous)::devminor" title='(anonymous struct)::devminor' data-ref="(anonymous)::devminor" data-ref-filename="(anonymous)..devminor">devminor</dfn>[<var>8</var>];</td></tr>
+<tr><th id="21">21</th><td>    <em>char</em> <dfn class="decl field" id="(anonymous)::rdevmajor" title='(anonymous struct)::rdevmajor' data-ref="(anonymous)::rdevmajor" data-ref-filename="(anonymous)..rdevmajor">rdevmajor</dfn>[<var>8</var>];</td></tr>
+<tr><th id="22">22</th><td>    <em>char</em> <dfn class="decl field" id="(anonymous)::rdevminor" title='(anonymous struct)::rdevminor' data-ref="(anonymous)::rdevminor" data-ref-filename="(anonymous)..rdevminor">rdevminor</dfn>[<var>8</var>];</td></tr>
+<tr><th id="23">23</th><td></td></tr>
+<tr><th id="24">24</th><td>    <em>char</em> <dfn class="decl field" id="(anonymous)::namesize" title='(anonymous struct)::namesize' data-ref="(anonymous)::namesize" data-ref-filename="(anonymous)..namesize">namesize</dfn>[<var>8</var>];</td></tr>
+<tr><th id="25">25</th><td>    <em>char</em> <dfn class="decl field" id="(anonymous)::check" title='(anonymous struct)::check' data-ref="(anonymous)::check" data-ref-filename="(anonymous)..check">check</dfn>[<var>8</var>];</td></tr>
+<tr><th id="26">26</th><td>} <dfn class="typedef" id="cpio_newc_header_t" title='cpio_newc_header_t' data-type='struct cpio_newc_header_t' data-ref="cpio_newc_header_t" data-ref-filename="cpio_newc_header_t">cpio_newc_header_t</dfn>;</td></tr>
+<tr><th id="27">27</th><td></td></tr>
+<tr><th id="28">28</th><td><b>typedef</b> <b>struct</b></td></tr>
+<tr><th id="29">29</th><td>{</td></tr>
+<tr><th id="30">30</th><td>    <a class="typedef" href="#cpio_newc_header_t" title='cpio_newc_header_t' data-type='struct cpio_newc_header_t' data-ref="cpio_newc_header_t" data-ref-filename="cpio_newc_header_t">cpio_newc_header_t</a> <dfn class="decl field" id="(anonymous)::header" title='(anonymous struct)::header' data-ref="(anonymous)::header" data-ref-filename="(anonymous)..header">header</dfn>;</td></tr>
+<tr><th id="31">31</th><td>    <span class='typedef' title='size_t' data-type='unsigned long' data-ref="size_t" data-ref-filename="size_t">size_t</span> <dfn class="decl field" id="(anonymous)::header_offset" title='(anonymous struct)::header_offset' data-ref="(anonymous)::header_offset" data-ref-filename="(anonymous)..header_offset">header_offset</dfn>;</td></tr>
+<tr><th id="32">32</th><td></td></tr>
+<tr><th id="33">33</th><td>    <span class='typedef' title='size_t' data-type='unsigned long' data-ref="size_t" data-ref-filename="size_t">size_t</span> <dfn class="decl field" id="(anonymous)::name_offset" title='(anonymous struct)::name_offset' data-ref="(anonymous)::name_offset" data-ref-filename="(anonymous)..name_offset">name_offset</dfn>;</td></tr>
+<tr><th id="34">34</th><td>    <span class='typedef' title='size_t' data-type='unsigned long' data-ref="size_t" data-ref-filename="size_t">size_t</span> <dfn class="decl field" id="(anonymous)::name_length" title='(anonymous struct)::name_length' data-ref="(anonymous)::name_length" data-ref-filename="(anonymous)..name_length">name_length</dfn>;</td></tr>
+<tr><th id="35">35</th><td></td></tr>
+<tr><th id="36">36</th><td>    <span class='typedef' title='size_t' data-type='unsigned long' data-ref="size_t" data-ref-filename="size_t">size_t</span> <dfn class="decl field" id="(anonymous)::data_offset" title='(anonymous struct)::data_offset' data-ref="(anonymous)::data_offset" data-ref-filename="(anonymous)..data_offset">data_offset</dfn>;</td></tr>
+<tr><th id="37">37</th><td>    <span class='typedef' title='size_t' data-type='unsigned long' data-ref="size_t" data-ref-filename="size_t">size_t</span> <dfn class="decl field" id="(anonymous)::data_length" title='(anonymous struct)::data_length' data-ref="(anonymous)::data_length" data-ref-filename="(anonymous)..data_length">data_length</dfn>;</td></tr>
+<tr><th id="38">38</th><td>} <dfn class="typedef" id="cpio_metadata_t" title='cpio_metadata_t' data-type='struct cpio_metadata_t' data-ref="cpio_metadata_t" data-ref-filename="cpio_metadata_t">cpio_metadata_t</dfn>;</td></tr>
+<tr><th id="39">39</th><td></td></tr>
+<tr><th id="40">40</th><td><a class="macro" href="../../compiler.h.html#22" title="_Static_assert" data-ref="_M/static_assert">static_assert</a>(<b>sizeof</b>(<a class="typedef" href="#cpio_newc_header_t" title='cpio_newc_header_t' data-type='struct cpio_newc_header_t' data-ref="cpio_newc_header_t" data-ref-filename="cpio_newc_header_t">cpio_newc_header_t</a>) == <var>110</var>, <q>"cpio_newc_header has wrong size"</q>);</td></tr>
+<tr><th id="41">41</th><td></td></tr>
+<tr><th id="42">42</th><td><b>extern</b> <a class="typedef" href="../filesystem.h.html#filesystem_t" title='filesystem_t' data-type='struct _filesystem' data-ref="filesystem_t" data-ref-filename="filesystem_t">filesystem_t</a> <dfn class="decl" id="fs_cpio" title='fs_cpio' data-ref="fs_cpio" data-ref-filename="fs_cpio">fs_cpio</dfn>;</td></tr>
+<tr><th id="43">43</th><td></td></tr>
+</table><hr/><p id='footer'>
+Generated while processing <a href='../../../../kernel/filesystem/cpio/cpio.c.html'>MOS/kernel/filesystem/cpio/cpio.c</a><br/>Generated on <em>2022-Oct-11</em> from project MOS<br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
+<br/>Generator usage only permitted with license.</p>
+</div></body></html>

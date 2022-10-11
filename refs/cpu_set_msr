@@ -1,0 +1,2 @@
+<def f='MOS/arch/x86/include/mos/x86/cpu/cpu.h' l='14' ll='17' macro='1' type='void cpu_set_msr(u32 msr, u32 lo, u32 hi)'/>
+<use f='MOS/arch/x86/interrupt/apic.c' l='37' u='c' c='apic_set_base_addr'/>

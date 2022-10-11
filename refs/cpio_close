@@ -1,0 +1,2 @@
+<def f='MOS/kernel/filesystem/cpio/cpio.c' l='140' ll='144' macro='1' type='_Bool cpio_close(file_t * file)'/>
+<use f='MOS/kernel/filesystem/cpio/cpio.c' l='223' u='r'/>

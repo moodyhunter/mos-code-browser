@@ -1,0 +1,12 @@
+<dec f='MOS/include/mos/printk.h' l='29' type='5'/>
+<use f='MOS/kernel/kernel_init.c' l='109' macro='1' u='r' c='mos_start_kernel'/>
+<use f='MOS/kernel/kernel_init.c' l='110' macro='1' u='r' c='mos_start_kernel'/>
+<use f='MOS/kernel/kernel_init.c' l='111' macro='1' u='r' c='mos_start_kernel'/>
+<use f='MOS/kernel/kernel_init.c' l='112' macro='1' u='r' c='mos_start_kernel'/>
+<use f='MOS/kernel/kernel_init.c' l='113' macro='1' u='r' c='mos_start_kernel'/>
+<use f='MOS/kernel/kernel_init.c' l='114' macro='1' u='r' c='mos_start_kernel'/>
+<use f='MOS/kernel/panic.c' l='52' macro='1' u='r' c='mos_kpanic'/>
+<use f='MOS/kernel/panic.c' l='56' macro='1' u='r' c='mos_kpanic'/>
+<use f='MOS/kernel/panic.c' l='57' macro='1' u='r' c='mos_kpanic'/>
+<use f='MOS/kernel/panic.c' l='58' macro='1' u='r' c='mos_kpanic'/>
+<use f='MOS/kernel/printk.c' l='21' c='deduce_level_color'/>

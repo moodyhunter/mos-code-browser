@@ -1,0 +1,2 @@
+<def f='MOS/arch/x86/boot/multiboot/startup.c' l='42' macro='1' type='const uintptr_t'/>
+<use f='MOS/arch/x86/boot/multiboot/startup.c' l='165' u='r' c='x86_startup'/>

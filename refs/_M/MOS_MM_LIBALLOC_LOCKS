@@ -1,0 +1,18 @@
+<dec f='MOS/build/include/mos/kconfig.h' l='13'/>
+<doc f='MOS/build/include/mos/kconfig.h' l='12'>// defined in /home/runner/work/MOS/MOS/CMakeLists.txt</doc>
+<use f='MOS/include/mos/mm/liballoc.h' l='8' u='c'/>
+<use f='MOS/kernel/mm/liballoc.c' l='173' u='c'/>
+<use f='MOS/kernel/mm/liballoc.c' l='197' u='c'/>
+<use f='MOS/kernel/mm/liballoc.c' l='205' u='c'/>
+<use f='MOS/kernel/mm/liballoc.c' l='296' u='c'/>
+<use f='MOS/kernel/mm/liballoc.c' l='333' u='c'/>
+<use f='MOS/kernel/mm/liballoc.c' l='381' u='c'/>
+<use f='MOS/kernel/mm/liballoc.c' l='421' u='c'/>
+<use f='MOS/kernel/mm/liballoc.c' l='463' u='c'/>
+<use f='MOS/kernel/mm/liballoc.c' l='490' u='c'/>
+<use f='MOS/kernel/mm/liballoc.c' l='516' u='c'/>
+<use f='MOS/kernel/mm/liballoc.c' l='566' u='c'/>
+<use f='MOS/kernel/mm/liballoc.c' l='599' u='c'/>
+<use f='MOS/kernel/mm/liballoc.c' l='626' u='c'/>
+<use f='MOS/kernel/mm/liballoc.c' l='640' u='c'/>
+<use f='MOS/kernel/mm/liballoc.c' l='645' u='c'/>

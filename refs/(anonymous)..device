@@ -1,0 +1,8 @@
+<dec f='MOS/arch/x86/include/mos/x86/devices/serial_console.h' l='10' type='serial_device_t'/>
+<use f='MOS/arch/x86/devices/serial_console.c' l='25' u='a' c='serial_console_setup'/>
+<use f='MOS/arch/x86/devices/serial_console.c' l='31' u='a' c='serial_console_write'/>
+<use f='MOS/arch/x86/devices/serial_console.c' l='32' u='a' c='serial_console_write'/>
+<use f='MOS/arch/x86/devices/serial_console.c' l='39' u='a' c='serial_console_read'/>
+<use f='MOS/arch/x86/devices/serial_console.c' l='80' u='a' c='serial_console_set_color'/>
+<offset>0</offset>
+<use f='MOS/arch/x86/x86_platform.c' l='30' u='w'/>

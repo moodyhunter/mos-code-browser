@@ -1,0 +1,3 @@
+<dec f='MOS/arch/x86/include/mos/x86/mm/mm.h' l='17' type='void x86_mem_init(const multiboot_memory_map_t * map_entry, u32 count)'/>
+<def f='MOS/arch/x86/mm/mm.c' l='31' ll='83' type='void x86_mem_init(const multiboot_memory_map_t * map_entry, u32 count)'/>
+<use f='MOS/arch/x86/x86_platform.c' l='85' u='c' c='x86_start_kernel'/>

@@ -1,0 +1,8 @@
+<dec f='MOS/include/mos/device/console.h' l='12' type='0'/>
+<use f='MOS/include/mos/device/console.h' l='20' u='r'/>
+<use f='MOS/arch/x86/devices/serial_console.c' l='46' u='r' c='get_ansi_color'/>
+<use f='MOS/arch/x86/devices/text_mode_console.c' l='31'/>
+<use f='MOS/kernel/printk.c' l='14' u='r' c='deduce_level_color'/>
+<use f='MOS/kernel/printk.c' l='44' c='lprintk'/>
+<use f='MOS/tests/test_engine.c' l='46' u='r' c='mos_test_engine_log'/>
+<use f='MOS/tests/test_engine.c' l='54' u='r' c='mos_test_engine_log'/>

@@ -1,0 +1,5 @@
+<dec f='MOS/include/mos/filesystem/filesystem.h' l='94'/>
+<use f='MOS/kernel/filesystem/pathutils.c' l='36' u='c'/>
+<use f='MOS/kernel/filesystem/pathutils.c' l='75' u='c'/>
+<use f='MOS/kernel/filesystem/pathutils.c' l='77' u='c'/>
+<use f='MOS/kernel/filesystem/pathutils.c' l='108' u='c'/>

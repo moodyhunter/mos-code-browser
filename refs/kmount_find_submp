@@ -1,0 +1,4 @@
+<dec f='MOS/include/mos/filesystem/mount.h' l='43' type='mountpoint_t * kmount_find_submp(mountpoint_t * mp, fsnode_t * path)'/>
+<use f='MOS/kernel/filesystem/mount.c' l='21' u='c' c='kmount_add_mp'/>
+<use f='MOS/kernel/filesystem/mount.c' l='93' u='c' c='kmount_find_mp'/>
+<def f='MOS/kernel/filesystem/mount.c' l='96' ll='114' type='mountpoint_t * kmount_find_submp(mountpoint_t * mp, fsnode_t * path)'/>

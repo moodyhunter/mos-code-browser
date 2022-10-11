@@ -1,0 +1,7 @@
+<dec f='MOS/arch/x86/include/mos/x86/acpi/acpi.h' l='8' type='acpi_rsdt_t *'/>
+<def f='MOS/arch/x86/acpi/acpi.c' l='17' type='acpi_rsdt_t *'/>
+<use f='MOS/arch/x86/acpi/acpi.c' l='50' u='w' c='x86_acpi_init'/>
+<use f='MOS/arch/x86/acpi/acpi.c' l='51' u='r' c='x86_acpi_init'/>
+<use f='MOS/arch/x86/acpi/acpi.c' l='54' u='r' c='x86_acpi_init'/>
+<use f='MOS/arch/x86/acpi/acpi.c' l='56' u='r' c='x86_acpi_init'/>
+<use f='MOS/arch/x86/acpi/acpi.c' l='59' u='r' c='x86_acpi_init'/>

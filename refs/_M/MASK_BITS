@@ -1,0 +1,5 @@
+<dec f='MOS/include/mos/mos_global.h' l='32'/>
+<use f='MOS/arch/x86/gdt/gdt.c' l='38' u='c'/>
+<use f='MOS/arch/x86/gdt/gdt.c' l='39' u='c'/>
+<use f='MOS/arch/x86/gdt/gdt.c' l='40' u='c'/>
+<use f='MOS/arch/x86/gdt/gdt.c' l='41' u='c'/>

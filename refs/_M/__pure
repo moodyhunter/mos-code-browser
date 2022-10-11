@@ -1,0 +1,7 @@
+<dec f='MOS/include/mos/mos_global.h' l='14'/>
+<use f='MOS/include/lib/string.h' l='6' u='c'/>
+<use f='MOS/include/lib/structures/hashmap_common.h' l='11' u='c'/>
+<use f='MOS/include/lib/structures/hashmap_common.h' l='12' u='c'/>
+<use f='MOS/include/lib/hash.h' l='8' u='c'/>
+<use f='MOS/lib/structures/hashmap_common.c' l='8' u='c'/>
+<use f='MOS/lib/structures/hashmap_common.c' l='13' u='c'/>

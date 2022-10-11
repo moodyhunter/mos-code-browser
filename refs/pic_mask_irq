@@ -1,0 +1,2 @@
+<dec f='MOS/arch/x86/include/mos/x86/interrupt/pic.h' l='18' type='void pic_mask_irq(x86_irq_enum_t irq)'/>
+<def f='MOS/arch/x86/interrupt/pic.c' l='47' ll='57' type='void pic_mask_irq(x86_irq_enum_t irq)'/>

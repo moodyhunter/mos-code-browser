@@ -1,0 +1,4 @@
+<dec f='MOS/include/lib/structures/hashmap.h' l='29' type='void * hashmap_remove(hashmap_t * map, const void * key)'/>
+<def f='MOS/lib/structures/hashmap.c' l='90' ll='117' type='void * hashmap_remove(hashmap_t * map, const void * key)'/>
+<use f='MOS/tests/hashmap/test_hashmap.c' l='149' u='c' c='hashmap_remove_function'/>
+<use f='MOS/tests/hashmap/test_hashmap.c' l='155' u='c' c='hashmap_remove_function'/>

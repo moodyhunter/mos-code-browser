@@ -1,0 +1,2 @@
+<dec f='MOS/include/mos/printk.h' l='73' type='void printk(const char * format)'/>
+<def f='MOS/kernel/printk.c' l='27' ll='40' type='void printk(const char * fmt)'/>

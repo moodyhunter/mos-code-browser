@@ -1,0 +1,14 @@
+<dec f='MOS/build/include/mos/kconfig.h' l='14'/>
+<use f='MOS/kernel/mm/liballoc.c' l='87' u='c'/>
+<use f='MOS/kernel/mm/liballoc.c' l='149' u='c'/>
+<use f='MOS/kernel/mm/liballoc.c' l='164' u='c'/>
+<use f='MOS/kernel/mm/liballoc.c' l='176' u='c'/>
+<use f='MOS/kernel/mm/liballoc.c' l='181' u='c'/>
+<use f='MOS/kernel/mm/liballoc.c' l='247' u='c'/>
+<use f='MOS/kernel/mm/liballoc.c' l='300' u='c'/>
+<use f='MOS/kernel/mm/liballoc.c' l='336' u='c'/>
+<use f='MOS/kernel/mm/liballoc.c' l='384' u='c'/>
+<use f='MOS/kernel/mm/liballoc.c' l='424' u='c'/>
+<use f='MOS/kernel/mm/liballoc.c' l='440' u='c'/>
+<use f='MOS/kernel/mm/liballoc.c' l='469' u='c'/>
+<use f='MOS/kernel/mm/paging.c' l='15' u='c'/>

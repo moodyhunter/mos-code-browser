@@ -1,0 +1,24 @@
+<dec f='MOS/include/lib/structures/stack.h' l='11' type='const uintptr_t'/>
+<dec f='MOS/arch/x86/include/mos/x86/gdt/gdt_types.h' l='36' type='gdt_entry32_t *'/>
+<dec f='MOS/arch/x86/include/mos/x86/interrupt/idt_types.h' l='23' type='idt_entry32_t *'/>
+<offset>16</offset>
+<use f='MOS/arch/x86/gdt/gdt.c' l='82' u='w' c='x86_gdt_init'/>
+<use f='MOS/arch/x86/interrupt/idt.c' l='49' u='w' c='x86_idt_init'/>
+<use f='MOS/lib/structures/stack.c' l='14' u='a' c='stack_init'/>
+<use f='MOS/lib/structures/stack.c' l='27' u='r' c='stack_grow'/>
+<use f='MOS/lib/structures/stack.c' l='40' u='r' c='stack_push'/>
+<use f='MOS/lib/structures/stack.c' l='53' u='r' c='stack_pop'/>
+<use f='MOS/tests/downwards_stack/test_downwards_stack.c' l='11' u='r' c='stack_init_deinit'/>
+<use f='MOS/tests/downwards_stack/test_downwards_stack.c' l='11' u='r' c='stack_init_deinit'/>
+<use f='MOS/tests/downwards_stack/test_downwards_stack.c' l='16' u='r' c='stack_init_deinit'/>
+<use f='MOS/tests/downwards_stack/test_downwards_stack.c' l='16' u='r' c='stack_init_deinit'/>
+<use f='MOS/tests/downwards_stack/test_downwards_stack.c' l='30' u='r' c='stack_push_pop_stack'/>
+<use f='MOS/tests/downwards_stack/test_downwards_stack.c' l='30' u='r' c='stack_push_pop_stack'/>
+<use f='MOS/tests/downwards_stack/test_downwards_stack.c' l='35' u='r' c='stack_push_pop_stack'/>
+<use f='MOS/tests/downwards_stack/test_downwards_stack.c' l='35' u='r' c='stack_push_pop_stack'/>
+<use f='MOS/tests/downwards_stack/test_downwards_stack.c' l='41' u='r' c='stack_push_pop_stack'/>
+<use f='MOS/tests/downwards_stack/test_downwards_stack.c' l='41' u='r' c='stack_push_pop_stack'/>
+<use f='MOS/tests/downwards_stack/test_downwards_stack.c' l='47' u='r' c='stack_push_pop_stack'/>
+<use f='MOS/tests/downwards_stack/test_downwards_stack.c' l='47' u='r' c='stack_push_pop_stack'/>
+<use f='MOS/tests/downwards_stack/test_downwards_stack.c' l='62' u='r' c='stack_push_pop_stack'/>
+<use f='MOS/tests/downwards_stack/test_downwards_stack.c' l='62' u='r' c='stack_push_pop_stack'/>

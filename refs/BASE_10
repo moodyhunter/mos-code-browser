@@ -1,0 +1,5 @@
+<dec f='MOS/lib/stdio_impl.c' l='64' type='10'/>
+<use f='MOS/lib/stdio_impl.c' l='210' u='r' c='printf_diouxX'/>
+<use f='MOS/lib/stdio_impl.c' l='228' u='r' c='printf_diouxX'/>
+<use f='MOS/lib/stdio_impl.c' l='262' u='r' c='printf_diouxX'/>
+<use f='MOS/lib/stdio_impl.c' l='303' c='printf_diouxX'/>

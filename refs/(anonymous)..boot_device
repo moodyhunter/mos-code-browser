@@ -1,0 +1,3 @@
+<dec f='MOS/arch/x86/include/mos/x86/boot/multiboot.h' l='130' type='u32'/>
+<offset>96</offset>
+<doc f='MOS/arch/x86/include/mos/x86/boot/multiboot.h' l='129'>/* &quot;root&quot; partition */</doc>

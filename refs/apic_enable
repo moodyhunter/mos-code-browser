@@ -1,0 +1,3 @@
+<dec f='MOS/arch/x86/include/mos/x86/interrupt/apic.h' l='56' type='void apic_enable()'/>
+<use f='MOS/arch/x86/cpu/smp.c' l='107' u='c' c='x86_smp_init'/>
+<def f='MOS/arch/x86/interrupt/apic.c' l='88' ll='118' type='void apic_enable()'/>

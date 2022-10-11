@@ -1,0 +1,10 @@
+<dec f='MOS/include/mos/device/console.h' l='18' type='6'/>
+<use f='MOS/include/mos/device/console.h' l='26' u='r'/>
+<use f='MOS/arch/x86/devices/serial_console.c' l='52' u='r' c='get_ansi_color'/>
+<use f='MOS/kernel/printk.c' l='20' u='r' c='deduce_level_color'/>
+<use f='MOS/tests/printf/test_printf.c' l='630' macro='1' u='r' c='printf_tests_github'/>
+<use f='MOS/tests/printf/test_printf.c' l='636' macro='1' u='r' c='printf_tests_github'/>
+<use f='MOS/tests/printf/test_printf.c' l='653' macro='1' u='r' c='printf_tests_github'/>
+<use f='MOS/tests/printf/test_printf.c' l='670' macro='1' u='r' c='printf_tests_github'/>
+<use f='MOS/tests/test_engine.c' l='92' macro='1' u='r' c='mos_test_engine_run_tests'/>
+<use f='MOS/tests/test_engine.c' l='103' macro='1' u='r' c='mos_test_engine_run_tests'/>

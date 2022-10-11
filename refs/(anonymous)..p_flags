@@ -1,0 +1,3 @@
+<dec f='MOS/include/mos/elf/elf.h' l='134' type='u32'/>
+<offset>32</offset>
+<doc f='MOS/include/mos/elf/elf.h' l='134'>// Segment independent flags (64-bit only)</doc>

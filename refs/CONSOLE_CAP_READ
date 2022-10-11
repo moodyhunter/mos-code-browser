@@ -1,0 +1,2 @@
+<dec f='MOS/include/mos/device/console.h' l='35' type='4'/>
+<use f='MOS/arch/x86/devices/serial_console.c' l='17' u='r' c='serial_console_setup'/>

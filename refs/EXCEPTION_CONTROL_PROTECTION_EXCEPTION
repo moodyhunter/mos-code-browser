@@ -1,0 +1,2 @@
+<dec f='MOS/arch/x86/include/mos/x86/x86_interrupt.h' l='38' type='21'/>
+<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='132' c='isr_handle_exception'/>

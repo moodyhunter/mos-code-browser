@@ -1,0 +1,6 @@
+pmem_freelist_add_region|pmem_freelist_add_region
+pmem_freelist_dump|pmem_freelist_dump
+pmem_freelist_find_free|pmem_freelist_find_free
+pmem_freelist_remove_region|pmem_freelist_remove_region
+pmem_freelist_setup|pmem_freelist_setup
+pmem_freelist_size|pmem_freelist_size

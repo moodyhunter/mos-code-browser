@@ -1,0 +1,10 @@
+<def f='MOS/include/mos/device/block.h' l='7' ll='13'/>
+<use f='MOS/include/mos/device/block.h' l='10'/>
+<use f='MOS/include/mos/device/block.h' l='11'/>
+<use f='MOS/include/mos/device/block.h' l='7'/>
+<size>32</size>
+<mbr r='_blockdev::name' o='0' t='const char *'/>
+<mbr r='_blockdev::read' o='64' t='size_t (*)(struct _blockdev *, void *, size_t, size_t)'/>
+<mbr r='_blockdev::write' o='128' t='size_t (*)(struct _blockdev *, const void *, size_t, size_t)'/>
+<mbr r='_blockdev::data' o='192' t='void *'/>
+<use f='MOS/include/mos/filesystem/filesystem.h' l='12'/>

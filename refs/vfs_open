@@ -1,0 +1,4 @@
+<dec f='MOS/include/mos/filesystem/filesystem.h' l='104' type='file_t * vfs_open(const char * path, file_open_flags flags)'/>
+<def f='MOS/kernel/filesystem/filesystem.c' l='62' ll='75' type='file_t * vfs_open(const char * path, file_open_flags flags)'/>
+<doc f='MOS/kernel/filesystem/filesystem.c' l='60'>// END: filesystem&apos;s io_t operations</doc>
+<use f='MOS/kernel/kernel_init.c' l='94' u='c' c='mos_start_kernel'/>

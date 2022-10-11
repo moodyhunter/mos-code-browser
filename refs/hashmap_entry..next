@@ -1,0 +1,11 @@
+<dec f='MOS/lib/structures/hashmap.c' l='13' type='hashmap_entry_t *'/>
+<use f='MOS/lib/structures/hashmap.c' l='41' u='r' c='hashmap_deinit'/>
+<use f='MOS/lib/structures/hashmap.c' l='63' u='r' c='hashmap_put'/>
+<use f='MOS/lib/structures/hashmap.c' l='68' u='w' c='hashmap_put'/>
+<use f='MOS/lib/structures/hashmap.c' l='85' u='r' c='hashmap_get'/>
+<use f='MOS/lib/structures/hashmap.c' l='102' u='r' c='hashmap_remove'/>
+<use f='MOS/lib/structures/hashmap.c' l='106' u='w' c='hashmap_remove'/>
+<use f='MOS/lib/structures/hashmap.c' l='106' u='r' c='hashmap_remove'/>
+<use f='MOS/lib/structures/hashmap.c' l='114' u='r' c='hashmap_remove'/>
+<use f='MOS/lib/structures/hashmap.c' l='129' u='r' c='hashmap_foreach'/>
+<offset>128</offset>

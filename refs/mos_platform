@@ -1,0 +1,30 @@
+<dec f='MOS/include/mos/platform/platform.h' l='94' type='mos_platform_t *const'/>
+<use f='MOS/arch/x86/cpu/smp.c' l='56' macro='1' u='r' c='ap_begin_exec'/>
+<use f='MOS/arch/x86/cpu/smp.c' l='113' macro='1' u='r' c='x86_smp_init'/>
+<def f='MOS/arch/x86/x86_platform.c' l='175' type='mos_platform_t *const'/>
+<use f='MOS/kernel/kernel_init.c' l='144' u='r' c='mos_start_kernel'/>
+<use f='MOS/kernel/ksyscall.c' l='38' macro='1' u='r' c='ksyscall_io_write'/>
+<use f='MOS/kernel/ksyscall.c' l='38' macro='1' u='r' c='ksyscall_io_write'/>
+<use f='MOS/kernel/mm/paging.c' l='28' u='r' c='kpage_alloc'/>
+<use f='MOS/kernel/mm/paging.c' l='31' u='r' c='kpage_alloc'/>
+<use f='MOS/kernel/mm/paging.c' l='31' u='r' c='kpage_alloc'/>
+<use f='MOS/kernel/mm/paging.c' l='50' u='r' c='kpage_free'/>
+<use f='MOS/kernel/mm/paging.c' l='52' u='r' c='kpage_free'/>
+<use f='MOS/kernel/mm/paging.c' l='52' u='r' c='kpage_free'/>
+<use f='MOS/kernel/panic.c' l='44' u='r' c='mos_kpanic'/>
+<use f='MOS/kernel/panic.c' l='65' u='r' c='mos_kpanic'/>
+<use f='MOS/kernel/tasks/process.c' l='58' u='r' c='create_process'/>
+<use f='MOS/kernel/tasks/schedule.c' l='16' macro='1' u='r' c='schedule_to_thread'/>
+<use f='MOS/kernel/tasks/schedule.c' l='16' macro='1' u='r' c='schedule_to_thread'/>
+<use f='MOS/kernel/tasks/schedule.c' l='17' u='r' c='schedule_to_thread'/>
+<use f='MOS/kernel/tasks/schedule.c' l='17' macro='1' u='r' c='schedule_to_thread'/>
+<use f='MOS/kernel/tasks/schedule.c' l='17' macro='1' u='r' c='schedule_to_thread'/>
+<use f='MOS/kernel/tasks/schedule.c' l='32' u='r' c='jump_to_scheduler'/>
+<use f='MOS/kernel/tasks/schedule.c' l='32' macro='1' u='r' c='jump_to_scheduler'/>
+<use f='MOS/kernel/tasks/schedule.c' l='32' macro='1' u='r' c='jump_to_scheduler'/>
+<use f='MOS/kernel/tasks/schedule.c' l='32' macro='1' u='r' c='jump_to_scheduler'/>
+<use f='MOS/kernel/tasks/schedule.c' l='32' macro='1' u='r' c='jump_to_scheduler'/>
+<use f='MOS/kernel/tasks/thread.c' l='69' u='r' c='create_thread'/>
+<use f='MOS/kernel/tasks/thread.c' l='70' u='r' c='create_thread'/>
+<use f='MOS/tests/test_engine.c' l='129' u='r' c='mos_test_engine_run_tests'/>
+<use f='MOS/tests/test_engine.c' l='131' u='r' c='mos_test_engine_run_tests'/>

@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>stdlib.h source code [MOS/include/lib/stdlib.h] - Woboq Code Browser</title>
+<link rel="stylesheet" href="/mos-code-browser/data/qtcreator.css" title="QtCreator"/>
+<link rel="alternate stylesheet" href="/mos-code-browser/data/kdevelop.css" title="KDevelop"/>
+<script type="text/javascript" src="/mos-code-browser/data/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="/mos-code-browser/data/jquery/jquery-ui.min.js"></script>
+<script>var file = 'MOS/include/lib/stdlib.h'; var root_path = '../../..'; var data_path = '/mos-code-browser/data'; var ecma_script_api_version = 2;</script>
+<script src='/mos-code-browser/data/codebrowser.js'></script>
+</head>
+<body><div id='header'><h1 id='breadcrumb'><span>Browse the source code of </span><a href='../..'>MOS</a>/<a href='..'>include</a>/<a href='./'>lib</a>/<a href='stdlib.h.html'>stdlib.h</a></h1></div>
+<hr/><div id='content'><table class="code">
+<tr><th id="1">1</th><td><i>// SPDX-License-Identifier: GPL-3.0-or-later</i></td></tr>
+<tr><th id="2">2</th><td></td></tr>
+<tr><th id="3">3</th><td><u>#pragma once</u></td></tr>
+<tr><th id="4">4</th><td></td></tr>
+<tr><th id="5">5</th><td><u>#include <a href="../mos/types.h.html">"mos/types.h"</a></u></td></tr>
+<tr><th id="6">6</th><td></td></tr>
+<tr><th id="7">7</th><td><u>#include &lt;limits.h&gt;</u></td></tr>
+<tr><th id="8">8</th><td><u>#include &lt;stddef.h&gt;</u></td></tr>
+<tr><th id="9">9</th><td></td></tr>
+<tr><th id="10">10</th><td><a class="typedef" href="../mos/types.h.html#s32" title='s32' data-type='int' data-ref="s32" data-ref-filename="s32">s32</a> <dfn class="decl fn" id="abs" title='abs' data-ref="abs" data-ref-filename="abs">abs</dfn>(<a class="typedef" href="../mos/types.h.html#s32" title='s32' data-type='int' data-ref="s32" data-ref-filename="s32">s32</a> <dfn class="local col3 decl" id="3x" title='x' data-type='s32' data-ref="3x" data-ref-filename="3x">x</dfn>);</td></tr>
+<tr><th id="11">11</th><td><em>long</em> <dfn class="decl fn" id="labs" title='labs' data-ref="labs" data-ref-filename="labs">labs</dfn>(<em>long</em> <dfn class="local col4 decl" id="4x" title='x' data-type='long' data-ref="4x" data-ref-filename="4x">x</dfn>);</td></tr>
+<tr><th id="12">12</th><td><a class="typedef" href="../mos/types.h.html#s64" title='s64' data-type='long long' data-ref="s64" data-ref-filename="s64">s64</a> <dfn class="decl fn" id="llabs" title='llabs' data-ref="llabs" data-ref-filename="llabs">llabs</dfn>(<a class="typedef" href="../mos/types.h.html#s64" title='s64' data-type='long long' data-ref="s64" data-ref-filename="s64">s64</a> <dfn class="local col5 decl" id="5x" title='x' data-type='s64' data-ref="5x" data-ref-filename="5x">x</dfn>);</td></tr>
+<tr><th id="13">13</th><td><a class="typedef" href="../mos/types.h.html#s32" title='s32' data-type='int' data-ref="s32" data-ref-filename="s32">s32</a> <dfn class="decl fn" id="atoi" title='atoi' data-ref="atoi" data-ref-filename="atoi">atoi</dfn>(<em>const</em> <em>char</em> *<dfn class="local col6 decl" id="6nptr" title='nptr' data-type='const char *' data-ref="6nptr" data-ref-filename="6nptr">nptr</dfn>);</td></tr>
+<tr><th id="14">14</th><td></td></tr>
+<tr><th id="15">15</th><td><em>void</em> <dfn class="decl fn" id="format_size" title='format_size' data-ref="format_size" data-ref-filename="format_size">format_size</dfn>(<em>char</em> *<dfn class="local col7 decl" id="7buf" title='buf' data-type='char *' data-ref="7buf" data-ref-filename="7buf">buf</dfn>, <span class='typedef' title='size_t' data-type='unsigned long' data-ref="size_t" data-ref-filename="size_t">size_t</span> <dfn class="local col8 decl" id="8buf_size" title='buf_size' data-type='size_t' data-ref="8buf_size" data-ref-filename="8buf_size">buf_size</dfn>, <a class="typedef" href="../mos/types.h.html#u64" title='u64' data-type='unsigned long long' data-ref="u64" data-ref-filename="u64">u64</a> <dfn class="local col9 decl" id="9size" title='size' data-type='u64' data-ref="9size" data-ref-filename="9size">size</dfn>);</td></tr>
+<tr><th id="16">16</th><td></td></tr>
+<tr><th id="17">17</th><td><u>#define <dfn class="macro" id="_M/MIN" data-ref="_M/MIN">MIN</dfn>(a, b) ((a) &lt; (b) ? (a) : (b))</u></td></tr>
+<tr><th id="18">18</th><td><u>#define <dfn class="macro" id="_M/MAX" data-ref="_M/MAX">MAX</dfn>(a, b) ((a) &gt; (b) ? (a) : (b))</u></td></tr>
+<tr><th id="19">19</th><td></td></tr>
+</table><hr/><p id='footer'>
+Generated while processing <a href='../../arch/x86/mm/mm.c.html'>MOS/arch/x86/mm/mm.c</a><br/>Generated on <em>2022-Oct-11</em> from project MOS<br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
+<br/>Generator usage only permitted with license.</p>
+</div></body></html>

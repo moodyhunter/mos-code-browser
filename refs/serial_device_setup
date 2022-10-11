@@ -1,0 +1,3 @@
+<dec f='MOS/arch/x86/include/mos/x86/devices/serial.h' l='125' type='_Bool serial_device_setup(serial_device_t * device)'/>
+<def f='MOS/arch/x86/devices/serial.c' l='85' ll='114' macro='1' type='_Bool serial_device_setup(serial_device_t * device)'/>
+<use f='MOS/arch/x86/devices/serial_console.c' l='25' u='c' c='serial_console_setup'/>

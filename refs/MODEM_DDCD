@@ -1,0 +1,2 @@
+<dec f='MOS/arch/x86/include/mos/x86/devices/serial.h' l='92' type='8'/>
+<doc f='MOS/arch/x86/include/mos/x86/devices/serial.h' l='92'>// Data Carrier Detect input has changed since last read.</doc>

@@ -1,0 +1,1 @@
+<def f='MOS/arch/x86/include/mos/x86/devices/port.h' l='41' ll='44' macro='1' type='void port_outl(x86_port_t port, u32 value)'/>

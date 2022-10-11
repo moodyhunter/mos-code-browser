@@ -1,0 +1,23 @@
+<dec f='MOS/include/mos/filesystem/filesystem.h' l='82' macro='1' type='tree_node_t'/>
+<offset>0</offset>
+<use f='MOS/kernel/filesystem/filesystem.c' l='23' macro='1' u='a' c='vfs_io_ops_close'/>
+<use f='MOS/kernel/filesystem/filesystem.c' l='137' macro='1' u='a' c='vfs_path_open'/>
+<use f='MOS/kernel/filesystem/filesystem.c' l='174' macro='1' u='a' c='vfs_path_readlink'/>
+<use f='MOS/kernel/filesystem/filesystem.c' l='194' macro='1' u='a' c='file_io_cleanup'/>
+<use f='MOS/kernel/filesystem/pathutils.c' l='24' u='w'/>
+<use f='MOS/kernel/filesystem/pathutils.c' l='40' macro='1' u='a' c='impl_path_get_subpath'/>
+<use f='MOS/kernel/filesystem/pathutils.c' l='55' macro='1' u='a' c='impl_path_get_subpath'/>
+<use f='MOS/kernel/filesystem/pathutils.c' l='61' macro='1' u='a' c='impl_path_get_subpath'/>
+<use f='MOS/kernel/filesystem/pathutils.c' l='61' macro='1' u='a' c='impl_path_get_subpath'/>
+<use f='MOS/kernel/filesystem/pathutils.c' l='143' macro='1' u='a' c='path_verify_prefix'/>
+<use f='MOS/kernel/filesystem/pathutils.c' l='143' macro='1' u='a' c='path_verify_prefix'/>
+<use f='MOS/kernel/filesystem/pathutils.c' l='143' macro='1' u='a' c='path_verify_prefix'/>
+<use f='MOS/kernel/filesystem/pathutils.c' l='164' macro='1' u='a' c='path_to_string_relative'/>
+<use f='MOS/tests/fs_api/test_fs_api.c' l='14' u='w' c='test_fs_api_path_is_prefix'/>
+<use f='MOS/tests/fs_api/test_fs_api.c' l='15' macro='1' u='a' c='test_fs_api_path_is_prefix'/>
+<use f='MOS/tests/fs_api/test_fs_api.c' l='24' u='w' c='test_fs_api_path_is_prefix'/>
+<use f='MOS/tests/fs_api/test_fs_api.c' l='25' macro='1' u='a' c='test_fs_api_path_is_prefix'/>
+<use f='MOS/tests/fs_api/test_fs_api.c' l='34' u='w' c='test_fs_api_path_is_prefix'/>
+<use f='MOS/tests/fs_api/test_fs_api.c' l='35' macro='1' u='a' c='test_fs_api_path_is_prefix'/>
+<use f='MOS/tests/fs_api/test_fs_api.c' l='44' u='w' c='test_fs_api_path_is_prefix'/>
+<use f='MOS/tests/fs_api/test_fs_api.c' l='45' macro='1' u='a' c='test_fs_api_path_is_prefix'/>

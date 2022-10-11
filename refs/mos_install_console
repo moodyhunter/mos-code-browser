@@ -1,0 +1,4 @@
+<dec f='MOS/include/mos/device/console.h' l='72' type='void mos_install_console(console_t * con)'/>
+<use f='MOS/arch/x86/x86_platform.c' l='68' u='c' c='x86_start_kernel'/>
+<use f='MOS/arch/x86/x86_platform.c' l='126' u='c' c='x86_start_kernel'/>
+<def f='MOS/kernel/device/console.c' l='28' ll='45' type='void mos_install_console(console_t * con)'/>

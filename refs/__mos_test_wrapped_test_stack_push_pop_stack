@@ -1,0 +1,2 @@
+<def f='MOS/tests/downwards_stack/test_downwards_stack.c' l='21' macro='1' type='void __mos_test_wrapped_test_stack_push_pop_stack(TestResult * result)'/>
+<use f='MOS/tests/downwards_stack/test_downwards_stack.c' l='21' macro='1'/>

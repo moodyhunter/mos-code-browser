@@ -1,0 +1,1 @@
+<def f='MOS/include/mos/filesystem/filesystem.h' l='54' ll='66' macro='1' type='void file_format_perm(file_permissions_t perms, char * buf)'/>

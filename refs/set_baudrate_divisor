@@ -1,0 +1,2 @@
+<def f='MOS/arch/x86/devices/serial.c' l='14' ll='31' type='void set_baudrate_divisor(int com, serial_baud_rate divisor)'/>
+<use f='MOS/arch/x86/devices/serial.c' l='90' u='c' c='serial_device_setup'/>

@@ -1,0 +1,2 @@
+<dec f='MOS/arch/x86/include/mos/x86/devices/serial.h' l='52' type='3'/>
+<doc f='MOS/arch/x86/include/mos/x86/devices/serial.h' l='52'>// Parity bit always 1</doc>

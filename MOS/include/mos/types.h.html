@@ -1,0 +1,93 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>types.h source code [MOS/include/mos/types.h] - Woboq Code Browser</title>
+<link rel="stylesheet" href="/mos-code-browser/data/qtcreator.css" title="QtCreator"/>
+<link rel="alternate stylesheet" href="/mos-code-browser/data/kdevelop.css" title="KDevelop"/>
+<script type="text/javascript" src="/mos-code-browser/data/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="/mos-code-browser/data/jquery/jquery-ui.min.js"></script>
+<script>var file = 'MOS/include/mos/types.h'; var root_path = '../../..'; var data_path = '/mos-code-browser/data'; var ecma_script_api_version = 2;</script>
+<script src='/mos-code-browser/data/codebrowser.js'></script>
+</head>
+<body><div id='header'><h1 id='breadcrumb'><span>Browse the source code of </span><a href='../..'>MOS</a>/<a href='..'>include</a>/<a href='./'>mos</a>/<a href='types.h.html'>types.h</a></h1></div>
+<hr/><div id='content'><table class="code">
+<tr><th id="1">1</th><td><i>// SPDX-License-Identifier: GPL-3.0-or-later</i></td></tr>
+<tr><th id="2">2</th><td></td></tr>
+<tr><th id="3">3</th><td><u>#pragma once</u></td></tr>
+<tr><th id="4">4</th><td></td></tr>
+<tr><th id="5">5</th><td><u>#include <a href="mos_global.h.html">"mos/mos_global.h"</a></u></td></tr>
+<tr><th id="6">6</th><td></td></tr>
+<tr><th id="7">7</th><td><u>#include &lt;stdbool.h&gt;</u></td></tr>
+<tr><th id="8">8</th><td><u>#include &lt;stddef.h&gt;</u></td></tr>
+<tr><th id="9">9</th><td></td></tr>
+<tr><th id="10">10</th><td><b>typedef</b> <em>signed</em> <em>char</em> <dfn class="typedef" id="s8" title='s8' data-type='signed char' data-ref="s8" data-ref-filename="s8">s8</dfn>;</td></tr>
+<tr><th id="11">11</th><td><b>typedef</b> <em>unsigned</em> <em>char</em> <dfn class="typedef" id="u8" title='u8' data-type='unsigned char' data-ref="u8" data-ref-filename="u8">u8</dfn>;</td></tr>
+<tr><th id="12">12</th><td><b>typedef</b> <em>signed</em> <em>short</em> <dfn class="typedef" id="s16" title='s16' data-type='short' data-ref="s16" data-ref-filename="s16">s16</dfn>;</td></tr>
+<tr><th id="13">13</th><td><b>typedef</b> <em>unsigned</em> <em>short</em> <dfn class="typedef" id="u16" title='u16' data-type='unsigned short' data-ref="u16" data-ref-filename="u16">u16</dfn>;</td></tr>
+<tr><th id="14">14</th><td><b>typedef</b> <em>int</em> <dfn class="typedef" id="s32" title='s32' data-type='int' data-ref="s32" data-ref-filename="s32">s32</dfn>;</td></tr>
+<tr><th id="15">15</th><td><b>typedef</b> <em>unsigned</em> <em>int</em> <dfn class="typedef" id="u32" title='u32' data-type='unsigned int' data-ref="u32" data-ref-filename="u32">u32</dfn>;</td></tr>
+<tr><th id="16">16</th><td><b>typedef</b> <em>signed</em> <em>long</em> <em>long</em> <em>int</em> <dfn class="typedef" id="s64" title='s64' data-type='long long' data-ref="s64" data-ref-filename="s64">s64</dfn>;</td></tr>
+<tr><th id="17">17</th><td><b>typedef</b> <em>unsigned</em> <em>long</em> <em>long</em> <dfn class="typedef" id="u64" title='u64' data-type='unsigned long long' data-ref="u64" data-ref-filename="u64">u64</dfn>;</td></tr>
+<tr><th id="18">18</th><td><b>typedef</b> <em>float</em> <dfn class="typedef" id="f32" title='f32' data-type='float' data-ref="f32" data-ref-filename="f32">f32</dfn>;</td></tr>
+<tr><th id="19">19</th><td><b>typedef</b> <em>double</em> <dfn class="typedef" id="f64" title='f64' data-type='double' data-ref="f64" data-ref-filename="f64">f64</dfn>;</td></tr>
+<tr><th id="20">20</th><td><b>typedef</b> <em>long</em> <em>double</em> <dfn class="typedef" id="f80" title='f80' data-type='long double' data-ref="f80" data-ref-filename="f80">f80</dfn>;</td></tr>
+<tr><th id="21">21</th><td></td></tr>
+<tr><th id="22">22</th><td><b>typedef</b> <em>unsigned</em> <em>long</em> <dfn class="typedef" id="uintptr_t" title='uintptr_t' data-type='unsigned long' data-ref="uintptr_t" data-ref-filename="uintptr_t">uintptr_t</dfn>;</td></tr>
+<tr><th id="23">23</th><td><a class="macro" href="compiler.h.html#22" title="_Static_assert" data-ref="_M/static_assert">static_assert</a>(<b>sizeof</b>(<a class="typedef" href="#uintptr_t" title='uintptr_t' data-type='unsigned long' data-ref="uintptr_t" data-ref-filename="uintptr_t">uintptr_t</a>) == <b>sizeof</b>(<em>void</em> *), <q>"uintptr_t is not the same size as a pointer"</q>);</td></tr>
+<tr><th id="24">24</th><td></td></tr>
+<tr><th id="25">25</th><td><i>// reg_t represents a register value</i></td></tr>
+<tr><th id="26">26</th><td><b>typedef</b> <em>unsigned</em> <em>long</em> <dfn class="typedef" id="reg_t" title='reg_t' data-type='unsigned long' data-ref="reg_t" data-ref-filename="reg_t">reg_t</dfn>;</td></tr>
+<tr><th id="27">27</th><td><b>typedef</b> <a class="typedef" href="#u16" title='u16' data-type='unsigned short' data-ref="u16" data-ref-filename="u16">u16</a> <dfn class="typedef" id="reg16_t" title='reg16_t' data-type='u16' data-ref="reg16_t" data-ref-filename="reg16_t">reg16_t</dfn>;</td></tr>
+<tr><th id="28">28</th><td><b>typedef</b> <a class="typedef" href="#u32" title='u32' data-type='unsigned int' data-ref="u32" data-ref-filename="u32">u32</a> <dfn class="typedef" id="reg32_t" title='reg32_t' data-type='u32' data-ref="reg32_t" data-ref-filename="reg32_t">reg32_t</dfn>;</td></tr>
+<tr><th id="29">29</th><td><b>typedef</b> <a class="typedef" href="#u64" title='u64' data-type='unsigned long long' data-ref="u64" data-ref-filename="u64">u64</a> <dfn class="typedef" id="reg64_t" title='reg64_t' data-type='u64' data-ref="reg64_t" data-ref-filename="reg64_t">reg64_t</dfn>;</td></tr>
+<tr><th id="30">30</th><td></td></tr>
+<tr><th id="31">31</th><td><u>#<span data-ppcond="31">ifdef</span> <span class="macro" data-ref="_M/MOS_32BITS">MOS_32BITS</span></u></td></tr>
+<tr><th id="32">32</th><td><u>#define PTR_FMT "0x%8.8lx"</u></td></tr>
+<tr><th id="33">33</th><td><u>#<span data-ppcond="31">elif</span> defined(<a class="macro" href="compiler.h.html#26" data-ref="_M/MOS_64BITS">MOS_64BITS</a>)</u></td></tr>
+<tr><th id="34">34</th><td><u>#define <dfn class="macro" id="_M/PTR_FMT" data-ref="_M/PTR_FMT">PTR_FMT</dfn> "0x%16.16lx"</u></td></tr>
+<tr><th id="35">35</th><td><u>#<span data-ppcond="31">else</span></u></td></tr>
+<tr><th id="36">36</th><td><u>#error "Something is wrong with the architecture"</u></td></tr>
+<tr><th id="37">37</th><td><u>#<span data-ppcond="31">endif</span></u></td></tr>
+<tr><th id="38">38</th><td></td></tr>
+<tr><th id="39">39</th><td><b>typedef</b> <b>union</b></td></tr>
+<tr><th id="40">40</th><td>{</td></tr>
+<tr><th id="41">41</th><td>    <b>struct</b></td></tr>
+<tr><th id="42">42</th><td>    {</td></tr>
+<tr><th id="43">43</th><td>        <span class="macro" title="_Bool" data-ref="_M/bool">bool</span> <dfn class="decl field" id="(anonymousunion)::(anonymous)::b0" title='(anonymous union)::(anonymous struct)::b0' data-ref="(anonymousunion)::(anonymous)::b0" data-ref-filename="(anonymousunion)..(anonymous)..b0">b0</dfn> : <var>1</var>;</td></tr>
+<tr><th id="44">44</th><td>        <span class="macro" title="_Bool" data-ref="_M/bool">bool</span> <dfn class="decl field" id="(anonymousunion)::(anonymous)::b1" title='(anonymous union)::(anonymous struct)::b1' data-ref="(anonymousunion)::(anonymous)::b1" data-ref-filename="(anonymousunion)..(anonymous)..b1">b1</dfn> : <var>1</var>;</td></tr>
+<tr><th id="45">45</th><td>        <span class="macro" title="_Bool" data-ref="_M/bool">bool</span> <dfn class="decl field" id="(anonymousunion)::(anonymous)::b2" title='(anonymous union)::(anonymous struct)::b2' data-ref="(anonymousunion)::(anonymous)::b2" data-ref-filename="(anonymousunion)..(anonymous)..b2">b2</dfn> : <var>1</var>;</td></tr>
+<tr><th id="46">46</th><td>        <span class="macro" title="_Bool" data-ref="_M/bool">bool</span> <dfn class="decl field" id="(anonymousunion)::(anonymous)::b3" title='(anonymous union)::(anonymous struct)::b3' data-ref="(anonymousunion)::(anonymous)::b3" data-ref-filename="(anonymousunion)..(anonymous)..b3">b3</dfn> : <var>1</var>;</td></tr>
+<tr><th id="47">47</th><td>        <span class="macro" title="_Bool" data-ref="_M/bool">bool</span> <dfn class="decl field" id="(anonymousunion)::(anonymous)::b4" title='(anonymous union)::(anonymous struct)::b4' data-ref="(anonymousunion)::(anonymous)::b4" data-ref-filename="(anonymousunion)..(anonymous)..b4">b4</dfn> : <var>1</var>;</td></tr>
+<tr><th id="48">48</th><td>        <span class="macro" title="_Bool" data-ref="_M/bool">bool</span> <dfn class="decl field" id="(anonymousunion)::(anonymous)::b5" title='(anonymous union)::(anonymous struct)::b5' data-ref="(anonymousunion)::(anonymous)::b5" data-ref-filename="(anonymousunion)..(anonymous)..b5">b5</dfn> : <var>1</var>;</td></tr>
+<tr><th id="49">49</th><td>        <span class="macro" title="_Bool" data-ref="_M/bool">bool</span> <dfn class="decl field" id="(anonymousunion)::(anonymous)::b6" title='(anonymous union)::(anonymous struct)::b6' data-ref="(anonymousunion)::(anonymous)::b6" data-ref-filename="(anonymousunion)..(anonymous)..b6">b6</dfn> : <var>1</var>;</td></tr>
+<tr><th id="50">50</th><td>        <span class="macro" title="_Bool" data-ref="_M/bool">bool</span> <dfn class="decl field" id="(anonymousunion)::(anonymous)::msb" title='(anonymous union)::(anonymous struct)::msb' data-ref="(anonymousunion)::(anonymous)::msb" data-ref-filename="(anonymousunion)..(anonymous)..msb">msb</dfn> : <var>1</var>;</td></tr>
+<tr><th id="51">51</th><td>    } <a class="macro" href="mos_global.h.html#12" title="__attribute__((__packed__))" data-ref="_M/__packed">__packed</a> <dfn class="decl field" id="(anonymous)::bits" title='(anonymous union)::bits' data-ref="(anonymous)::bits" data-ref-filename="(anonymous)..bits">bits</dfn>;</td></tr>
+<tr><th id="52">52</th><td>    <a class="typedef" href="#u8" title='u8' data-type='unsigned char' data-ref="u8" data-ref-filename="u8">u8</a> <dfn class="decl field" id="(anonymous)::byte" title='(anonymous union)::byte' data-ref="(anonymous)::byte" data-ref-filename="(anonymous)..byte">byte</dfn>;</td></tr>
+<tr><th id="53">53</th><td>} <dfn class="typedef" id="byte_t" title='byte_t' data-type='union byte_t' data-ref="byte_t" data-ref-filename="byte_t">byte_t</dfn>;</td></tr>
+<tr><th id="54">54</th><td></td></tr>
+<tr><th id="55">55</th><td><a class="macro" href="compiler.h.html#22" title="_Static_assert" data-ref="_M/static_assert">static_assert</a>(<b>sizeof</b>(<a class="typedef" href="#byte_t" title='byte_t' data-type='union byte_t' data-ref="byte_t" data-ref-filename="byte_t">byte_t</a>) == <var>1</var>, <q>"byte_t is not 1 byte"</q>);</td></tr>
+<tr><th id="56">56</th><td></td></tr>
+<tr><th id="57">57</th><td><i>// clang-format off</i></td></tr>
+<tr><th id="58">58</th><td><u>#define <dfn class="macro" id="_M/new_named_type" data-ref="_M/new_named_type">new_named_type</dfn>(base, name, type) typedef struct { base name; } __packed type</u></td></tr>
+<tr><th id="59">59</th><td><i>// clang-format on</i></td></tr>
+<tr><th id="60">60</th><td></td></tr>
+<tr><th id="61">61</th><td><u>#define <dfn class="macro" id="_M/newtype" data-ref="_M/newtype">newtype</dfn>(type, name) new_named_type(type, name, name##_t)</u></td></tr>
+<tr><th id="62">62</th><td><u>#define <dfn class="macro" id="_M/newptrtype" data-ref="_M/newptrtype">newptrtype</dfn>(name)    new_named_type(<a class="typedef" href="#uintptr_t" title='uintptr_t' data-type='unsigned long' data-ref="uintptr_t" data-ref-filename="uintptr_t">uintptr_t</a>, <dfn class="decl field" id="(anonymous)::ptr" title='(anonymous struct)::ptr' data-ref="(anonymous)::ptr" data-ref-filename="(anonymous)..ptr">ptr</dfn>, name)</u></td></tr>
+<tr><th id="63">63</th><td></td></tr>
+<tr><th id="64">64</th><td><b>typedef</b> <a class="typedef" href="#u32" title='u32' data-type='unsigned int' data-ref="u32" data-ref-filename="u32">u32</a> <dfn class="typedef" id="id_t" title='id_t' data-type='u32' data-ref="id_t" data-ref-filename="id_t">id_t</dfn>;</td></tr>
+<tr><th id="65">65</th><td><b>typedef</b> <a class="typedef" href="#u32" title='u32' data-type='unsigned int' data-ref="u32" data-ref-filename="u32">u32</a> <dfn class="typedef" id="fd_t" title='fd_t' data-type='u32' data-ref="fd_t" data-ref-filename="fd_t">fd_t</dfn>;</td></tr>
+<tr><th id="66">66</th><td></td></tr>
+<tr><th id="67">67</th><td><a class="macro" href="#62" title="typedef struct { uintptr_t ptr; } __attribute__((__packed__)) paging_handle_t" data-ref="_M/newptrtype">newptrtype</a>(<dfn class="typedef" id="paging_handle_t" title='paging_handle_t' data-type='struct paging_handle_t' data-ref="paging_handle_t" data-ref-filename="paging_handle_t">paging_handle_t</dfn>);</td></tr>
+<tr><th id="68">68</th><td></td></tr>
+<tr><th id="69">69</th><td><a class="macro" href="#61" title="typedef struct { id_t uid; } __attribute__((__packed__)) uid_t" data-ref="_M/newtype">newtype</a>(<a class="typedef" href="#id_t" title='id_t' data-type='u32' data-ref="id_t" data-ref-filename="id_t">id_t</a>, <dfn class="decl field" id="(anonymous)::uid" title='(anonymous struct)::uid' data-ref="(anonymous)::uid" data-ref-filename="(anonymous)..uid">uid</dfn>);</td></tr>
+<tr><th id="70">70</th><td><a class="macro" href="#61" title="typedef struct { id_t gid; } __attribute__((__packed__)) gid_t" data-ref="_M/newtype">newtype</a>(<a class="typedef" href="#id_t" title='id_t' data-type='u32' data-ref="id_t" data-ref-filename="id_t">id_t</a>, <dfn class="decl field" id="(anonymous)::gid" title='(anonymous struct)::gid' data-ref="(anonymous)::gid" data-ref-filename="(anonymous)..gid">gid</dfn>);</td></tr>
+<tr><th id="71">71</th><td><a class="macro" href="#61" title="typedef struct { id_t process_id; } __attribute__((__packed__)) process_id_t" data-ref="_M/newtype">newtype</a>(<a class="typedef" href="#id_t" title='id_t' data-type='u32' data-ref="id_t" data-ref-filename="id_t">id_t</a>, <dfn class="decl field" id="(anonymous)::process_id" title='(anonymous struct)::process_id' data-ref="(anonymous)::process_id" data-ref-filename="(anonymous)..process_id">process_id</dfn>);</td></tr>
+<tr><th id="72">72</th><td><a class="macro" href="#61" title="typedef struct { id_t thread_id; } __attribute__((__packed__)) thread_id_t" data-ref="_M/newtype">newtype</a>(<a class="typedef" href="#id_t" title='id_t' data-type='u32' data-ref="id_t" data-ref-filename="id_t">id_t</a>, <dfn class="decl field" id="(anonymous)::thread_id" title='(anonymous struct)::thread_id' data-ref="(anonymous)::thread_id" data-ref-filename="(anonymous)..thread_id">thread_id</dfn>);</td></tr>
+<tr><th id="73">73</th><td></td></tr>
+<tr><th id="74">74</th><td><a class="macro" href="#61" title="typedef struct { u64 atomic; } __attribute__((__packed__)) atomic_t" data-ref="_M/newtype">newtype</a>(<a class="typedef" href="#u64" title='u64' data-type='unsigned long long' data-ref="u64" data-ref-filename="u64">u64</a>, <dfn class="decl field" id="(anonymous)::atomic" title='(anonymous struct)::atomic' data-ref="(anonymous)::atomic" data-ref-filename="(anonymous)..atomic">atomic</dfn>);</td></tr>
+<tr><th id="75">75</th><td><a class="macro" href="#61" title="typedef struct { size_t hash; } __attribute__((__packed__)) hash_t" data-ref="_M/newtype">newtype</a>(<span class='typedef' title='size_t' data-type='unsigned long' data-ref="size_t" data-ref-filename="size_t">size_t</span>, <dfn class="decl field" id="(anonymous)::hash" title='(anonymous struct)::hash' data-ref="(anonymous)::hash" data-ref-filename="(anonymous)..hash">hash</dfn>);</td></tr>
+<tr><th id="76">76</th><td></td></tr>
+</table><hr/><p id='footer'>
+Generated while processing <a href='../../arch/x86/acpi/acpi.c.html'>MOS/arch/x86/acpi/acpi.c</a><br/>Generated on <em>2022-Oct-11</em> from project MOS<br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
+<br/>Generator usage only permitted with license.</p>
+</div></body></html>

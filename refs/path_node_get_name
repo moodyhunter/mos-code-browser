@@ -1,0 +1,2 @@
+<def f='MOS/kernel/filesystem/pathutils.c' l='11' ll='16' type='void path_node_get_name(const tree_node_t * node, char ** name, size_t * name_len)'/>
+<use f='MOS/kernel/filesystem/pathutils.c' l='19' u='r'/>

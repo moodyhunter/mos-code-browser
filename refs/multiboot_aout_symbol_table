@@ -1,0 +1,8 @@
+<def f='MOS/arch/x86/include/mos/x86/boot/multiboot.h' l='86' ll='92'/>
+<use f='MOS/arch/x86/include/mos/x86/boot/multiboot.h' l='86'/>
+<size>16</size>
+<doc f='MOS/arch/x86/include/mos/x86/boot/multiboot.h' l='85'>/* The symbol table for a.out.  */</doc>
+<mbr r='multiboot_aout_symbol_table::tabsize' o='0' t='u32'/>
+<mbr r='multiboot_aout_symbol_table::strsize' o='32' t='u32'/>
+<mbr r='multiboot_aout_symbol_table::addr' o='64' t='u32'/>
+<mbr r='multiboot_aout_symbol_table::reserved' o='96' t='u32'/>

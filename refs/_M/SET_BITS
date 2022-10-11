@@ -1,0 +1,10 @@
+<dec f='MOS/include/mos/mos_global.h' l='33'/>
+<use f='MOS/arch/x86/interrupt/apic.c' l='61' u='c'/>
+<use f='MOS/arch/x86/interrupt/apic.c' l='69' u='c'/>
+<use f='MOS/arch/x86/interrupt/apic.c' l='70' u='c'/>
+<use f='MOS/arch/x86/interrupt/apic.c' l='71' u='c'/>
+<use f='MOS/arch/x86/interrupt/apic.c' l='72' u='c'/>
+<use f='MOS/arch/x86/interrupt/apic.c' l='73' u='c'/>
+<use f='MOS/arch/x86/interrupt/apic.c' l='74' u='c'/>
+<use f='MOS/arch/x86/interrupt/apic.c' l='75' u='c'/>
+<use f='MOS/arch/x86/interrupt/apic.c' l='76' u='c'/>

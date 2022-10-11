@@ -1,0 +1,5 @@
+<dec f='MOS/include/mos/elf/elf.h' l='102' type='u16'/>
+<dec f='MOS/include/mos/elf/elf.h' l='107' type='u16'/>
+<offset>16</offset>
+<use f='MOS/kernel/kernel_init.c' l='128' u='r' c='mos_start_kernel'/>
+<use f='MOS/kernel/kernel_init.c' l='130' u='r' c='mos_start_kernel'/>

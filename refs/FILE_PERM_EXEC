@@ -1,0 +1,4 @@
+<dec f='MOS/include/mos/filesystem/filesystem.h' l='44' type='1'/>
+<use f='MOS/include/mos/filesystem/filesystem.h' l='58' u='r' c='file_format_perm'/>
+<use f='MOS/include/mos/filesystem/filesystem.h' l='61' u='r' c='file_format_perm'/>
+<use f='MOS/include/mos/filesystem/filesystem.h' l='64' u='r' c='file_format_perm'/>

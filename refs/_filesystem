@@ -1,0 +1,13 @@
+<use f='MOS/include/mos/filesystem/filesystem.h' l='9'/>
+<def f='MOS/include/mos/filesystem/mount.h' l='9' ll='24'/>
+<use f='MOS/include/mos/filesystem/mount.h' l='9'/>
+<size>72</size>
+<mbr r='_filesystem::name' o='0' t='const char *'/>
+<mbr r='_filesystem::op_mount' o='64' t='_Bool (*)(blockdev_t *, fsnode_t *)'/>
+<mbr r='_filesystem::op_unmount' o='128' t='_Bool (*)(mountpoint_t *)'/>
+<mbr r='_filesystem::op_open' o='192' t='_Bool (*)(const mountpoint_t *, const fsnode_t *, file_open_flags, file_t *)'/>
+<mbr r='_filesystem::op_close' o='256' t='_Bool (*)(file_t *)'/>
+<mbr r='_filesystem::op_read' o='320' t='size_t (*)(blockdev_t *, file_t *, void *, size_t)'/>
+<mbr r='_filesystem::op_write' o='384' t='size_t (*)(blockdev_t *, file_t *, const void *, size_t)'/>
+<mbr r='_filesystem::op_stat' o='448' t='_Bool (*)(const mountpoint_t *, const fsnode_t *, file_stat_t *)'/>
+<mbr r='_filesystem::op_readlink' o='512' t='_Bool (*)(const mountpoint_t *, const fsnode_t *, char *, size_t)'/>

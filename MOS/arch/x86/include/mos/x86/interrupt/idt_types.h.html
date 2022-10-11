@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>idt_types.h source code [MOS/arch/x86/include/mos/x86/interrupt/idt_types.h] - Woboq Code Browser</title>
+<link rel="stylesheet" href="/mos-code-browser/data/qtcreator.css" title="QtCreator"/>
+<link rel="alternate stylesheet" href="/mos-code-browser/data/kdevelop.css" title="KDevelop"/>
+<script type="text/javascript" src="/mos-code-browser/data/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="/mos-code-browser/data/jquery/jquery-ui.min.js"></script>
+<script>var file = 'MOS/arch/x86/include/mos/x86/interrupt/idt_types.h'; var root_path = '../../../../../../..'; var data_path = '/mos-code-browser/data'; var ecma_script_api_version = 2;</script>
+<script src='/mos-code-browser/data/codebrowser.js'></script>
+</head>
+<body><div id='header'><h1 id='breadcrumb'><span>Browse the source code of </span><a href='../../../../../..'>MOS</a>/<a href='../../../../..'>arch</a>/<a href='../../../..'>x86</a>/<a href='../../..'>include</a>/<a href='../..'>mos</a>/<a href='..'>x86</a>/<a href='./'>interrupt</a>/<a href='idt_types.h.html'>idt_types.h</a></h1></div>
+<hr/><div id='content'><table class="code">
+<tr><th id="1">1</th><td><i>// SPDX-License-Identifier: GPL-3.0-or-later</i></td></tr>
+<tr><th id="2">2</th><td></td></tr>
+<tr><th id="3">3</th><td><u>#pragma once</u></td></tr>
+<tr><th id="4">4</th><td></td></tr>
+<tr><th id="5">5</th><td><u>#include <a href="../../../../../../include/mos/types.h.html">"mos/types.h"</a></u></td></tr>
+<tr><th id="6">6</th><td></td></tr>
+<tr><th id="7">7</th><td><b>typedef</b> <b>struct</b></td></tr>
+<tr><th id="8">8</th><td>{</td></tr>
+<tr><th id="9">9</th><td>    <a class="typedef" href="../../../../../../include/mos/types.h.html#u16" title='u16' data-type='unsigned short' data-ref="u16" data-ref-filename="u16">u16</a> <dfn class="decl field" id="(anonymous)::isr_low" title='(anonymous struct)::isr_low' data-ref="(anonymous)::isr_low" data-ref-filename="(anonymous)..isr_low">isr_low</dfn>; <i>// The lower 16 bits of the ISR's address</i></td></tr>
+<tr><th id="10">10</th><td>    <a class="typedef" href="../../../../../../include/mos/types.h.html#u16" title='u16' data-type='unsigned short' data-ref="u16" data-ref-filename="u16">u16</a> <dfn class="decl field" id="(anonymous)::segment" title='(anonymous struct)::segment' data-ref="(anonymous)::segment" data-ref-filename="(anonymous)..segment">segment</dfn>; <i>// The GDT segment selector that the CPU will load into CS before calling the ISR</i></td></tr>
+<tr><th id="11">11</th><td>    <a class="typedef" href="../../../../../../include/mos/types.h.html#u32" title='u32' data-type='unsigned int' data-ref="u32" data-ref-filename="u32">u32</a> <dfn class="decl field" id="(anonymous)::args" title='(anonymous struct)::args' data-ref="(anonymous)::args" data-ref-filename="(anonymous)..args">args</dfn> : <var>5</var>;</td></tr>
+<tr><th id="12">12</th><td>    <a class="typedef" href="../../../../../../include/mos/types.h.html#u32" title='u32' data-type='unsigned int' data-ref="u32" data-ref-filename="u32">u32</a> <dfn class="decl field" id="(anonymous)::reserved" title='(anonymous struct)::reserved' data-ref="(anonymous)::reserved" data-ref-filename="(anonymous)..reserved">reserved</dfn> : <var>3</var>;</td></tr>
+<tr><th id="13">13</th><td>    <a class="typedef" href="../../../../../../include/mos/types.h.html#u32" title='u32' data-type='unsigned int' data-ref="u32" data-ref-filename="u32">u32</a> <dfn class="decl field" id="(anonymous)::type" title='(anonymous struct)::type' data-ref="(anonymous)::type" data-ref-filename="(anonymous)..type">type</dfn> : <var>4</var>; <i>// The type of interrupt</i></td></tr>
+<tr><th id="14">14</th><td>    <a class="typedef" href="../../../../../../include/mos/types.h.html#u32" title='u32' data-type='unsigned int' data-ref="u32" data-ref-filename="u32">u32</a> <dfn class="decl field" id="(anonymous)::s" title='(anonymous struct)::s' data-ref="(anonymous)::s" data-ref-filename="(anonymous)..s">s</dfn> : <var>1</var>;</td></tr>
+<tr><th id="15">15</th><td>    <a class="typedef" href="../../../../../../include/mos/types.h.html#u32" title='u32' data-type='unsigned int' data-ref="u32" data-ref-filename="u32">u32</a> <dfn class="decl field" id="(anonymous)::dpl" title='(anonymous struct)::dpl' data-ref="(anonymous)::dpl" data-ref-filename="(anonymous)..dpl">dpl</dfn> : <var>2</var>;</td></tr>
+<tr><th id="16">16</th><td>    <a class="typedef" href="../../../../../../include/mos/types.h.html#u32" title='u32' data-type='unsigned int' data-ref="u32" data-ref-filename="u32">u32</a> <dfn class="decl field" id="(anonymous)::present" title='(anonymous struct)::present' data-ref="(anonymous)::present" data-ref-filename="(anonymous)..present">present</dfn> : <var>1</var>;</td></tr>
+<tr><th id="17">17</th><td>    <a class="typedef" href="../../../../../../include/mos/types.h.html#u32" title='u32' data-type='unsigned int' data-ref="u32" data-ref-filename="u32">u32</a> <dfn class="decl field" id="(anonymous)::isr_high" title='(anonymous struct)::isr_high' data-ref="(anonymous)::isr_high" data-ref-filename="(anonymous)..isr_high">isr_high</dfn> : <var>16</var>; <i>// The upper 16 bits of the ISR's address</i></td></tr>
+<tr><th id="18">18</th><td>} <a class="macro" href="../../../../../../include/mos/mos_global.h.html#12" title="__attribute__((__packed__))" data-ref="_M/__packed">__packed</a> <dfn class="typedef" id="idt_entry32_t" title='idt_entry32_t' data-type='struct idt_entry32_t' data-ref="idt_entry32_t" data-ref-filename="idt_entry32_t">idt_entry32_t</dfn>;</td></tr>
+<tr><th id="19">19</th><td></td></tr>
+<tr><th id="20">20</th><td><b>typedef</b> <b>struct</b></td></tr>
+<tr><th id="21">21</th><td>{</td></tr>
+<tr><th id="22">22</th><td>    <a class="typedef" href="../../../../../../include/mos/types.h.html#u16" title='u16' data-type='unsigned short' data-ref="u16" data-ref-filename="u16">u16</a> <dfn class="decl field" id="(anonymous)::limit" title='(anonymous struct)::limit' data-ref="(anonymous)::limit" data-ref-filename="(anonymous)..limit">limit</dfn>;</td></tr>
+<tr><th id="23">23</th><td>    <a class="typedef" href="#idt_entry32_t" title='idt_entry32_t' data-type='struct idt_entry32_t' data-ref="idt_entry32_t" data-ref-filename="idt_entry32_t">idt_entry32_t</a> *<dfn class="decl field" id="(anonymous)::base" title='(anonymous struct)::base' data-ref="(anonymous)::base" data-ref-filename="(anonymous)..base">base</dfn>;</td></tr>
+<tr><th id="24">24</th><td>} <a class="macro" href="../../../../../../include/mos/mos_global.h.html#12" title="__attribute__((__packed__))" data-ref="_M/__packed">__packed</a> <dfn class="typedef" id="idtr32_t" title='idtr32_t' data-type='struct idtr32_t' data-ref="idtr32_t" data-ref-filename="idtr32_t">idtr32_t</dfn>;</td></tr>
+<tr><th id="25">25</th><td></td></tr>
+<tr><th id="26">26</th><td><a class="macro" href="../../../../../../include/mos/compiler.h.html#22" title="_Static_assert" data-ref="_M/static_assert">static_assert</a>(<b>sizeof</b>(<a class="typedef" href="#idt_entry32_t" title='idt_entry32_t' data-type='struct idt_entry32_t' data-ref="idt_entry32_t" data-ref-filename="idt_entry32_t">idt_entry32_t</a>) == <var>8</var>, <q>"idt_entry32_t is not 8 bytes"</q>);</td></tr>
+<tr><th id="27">27</th><td><a class="macro" href="../../../../../../include/mos/compiler.h.html#22" title="_Static_assert" data-ref="_M/static_assert">static_assert</a>(<b>sizeof</b>(<a class="typedef" href="#idtr32_t" title='idtr32_t' data-type='struct idtr32_t' data-ref="idtr32_t" data-ref-filename="idtr32_t">idtr32_t</a>) == <var>6</var>, <q>"idtr32_t is not 6 bytes"</q>);</td></tr>
+<tr><th id="28">28</th><td></td></tr>
+</table><hr/><p id='footer'>
+Generated while processing <a href='../../../../acpi/acpi.c.html'>MOS/arch/x86/acpi/acpi.c</a><br/>Generated on <em>2022-Oct-11</em> from project MOS<br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
+<br/>Generator usage only permitted with license.</p>
+</div></body></html>

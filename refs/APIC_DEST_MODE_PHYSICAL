@@ -1,0 +1,5 @@
+<dec f='MOS/arch/x86/include/mos/x86/interrupt/apic.h' l='43' type='0'/>
+<use f='MOS/arch/x86/cpu/smp.c' l='70' u='r' c='x86_cpu_start'/>
+<use f='MOS/arch/x86/cpu/smp.c' l='72' u='r' c='x86_cpu_start'/>
+<use f='MOS/arch/x86/cpu/smp.c' l='78' u='r' c='x86_cpu_start'/>
+<use f='MOS/arch/x86/cpu/smp.c' l='80' u='r' c='x86_cpu_start'/>

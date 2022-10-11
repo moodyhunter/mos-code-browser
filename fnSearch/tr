@@ -1,0 +1,5 @@
+tree_add_child|tree_add_child
+tree_find_child_by_name|tree_find_child_by_name
+tree_find_common_prefix|tree_find_common_prefix
+tree_remove_if|tree_remove_if
+tree_trace_to_root|tree_trace_to_root

@@ -1,0 +1,4 @@
+<dec f='MOS/include/mos/filesystem/filesystem.h' l='83' type='atomic_t'/>
+<offset>192</offset>
+<use f='MOS/kernel/filesystem/pathutils.c' l='178' u='m' c='path_treeop_decrement_refcount'/>
+<use f='MOS/kernel/filesystem/pathutils.c' l='185' u='m' c='path_treeop_increment_refcount'/>

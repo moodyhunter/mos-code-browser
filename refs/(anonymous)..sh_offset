@@ -1,0 +1,3 @@
+<dec f='MOS/include/mos/elf/elf.h' l='194' type='uintptr_t'/>
+<offset>192</offset>
+<doc f='MOS/include/mos/elf/elf.h' l='194'>// Offset of the section in the file</doc>

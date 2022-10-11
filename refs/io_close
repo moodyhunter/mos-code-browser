@@ -1,0 +1,3 @@
+<dec f='MOS/include/mos/io/io.h' l='45' type='void io_close(io_t * io)'/>
+<use f='MOS/kernel/io/io.c' l='27' u='c' c='io_unref'/>
+<def f='MOS/kernel/io/io.c' l='61' ll='79' type='void io_close(io_t * io)'/>

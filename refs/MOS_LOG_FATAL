@@ -1,0 +1,6 @@
+<dec f='MOS/include/mos/printk.h' l='28' type='6'/>
+<use f='MOS/kernel/panic.c' l='39' macro='1' u='r' c='mos_kpanic'/>
+<use f='MOS/kernel/panic.c' l='53' macro='1' u='r' c='mos_kpanic'/>
+<use f='MOS/kernel/panic.c' l='54' macro='1' u='r' c='mos_kpanic'/>
+<use f='MOS/kernel/panic.c' l='55' macro='1' u='r' c='mos_kpanic'/>
+<use f='MOS/kernel/printk.c' l='22' c='deduce_level_color'/>

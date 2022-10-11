@@ -1,0 +1,5 @@
+<dec f='MOS/build/include/mos/ksyscall/dispatcher.h' l='25' type='fd_t ksyscall_file_open(const char * file_path, file_open_flags flags)'/>
+<use f='MOS/build/include/mos/ksyscall/dispatcher.h' l='27' u='c' c='dispatch_ksyscall'/>
+<dec f='MOS/build/include/mos/ksyscall/decl.h' l='13' type='fd_t ksyscall_file_open(const char * file_path, file_open_flags flags)'/>
+<def f='MOS/kernel/ksyscall.c' l='13' macro='1' type='fd_t ksyscall_file_open(const char * path, file_open_flags flags)'/>
+<doc f='MOS/build/include/mos/ksyscall/decl.h' l='12'>// ksyscall2 #1: file_open</doc>

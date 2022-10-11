@@ -1,0 +1,2 @@
+<dec f='MOS/include/mos/filesystem/filesystem.h' l='105' type='_Bool vfs_stat(const char * path, file_stat_t *restrict stat)'/>
+<def f='MOS/kernel/filesystem/filesystem.c' l='77' ll='87' macro='1' type='_Bool vfs_stat(const char * path, file_stat_t *restrict stat)'/>

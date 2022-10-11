@@ -1,0 +1,8 @@
+<def f='MOS/arch/x86/boot/multiboot/startup.c' l='47' macro='1' type='uintptr_t'/>
+<use f='MOS/arch/x86/boot/multiboot/startup.c' l='64' u='r' c='print_debug_info'/>
+<use f='MOS/arch/x86/boot/multiboot/startup.c' l='65' u='r' c='print_debug_info'/>
+<use f='MOS/arch/x86/boot/multiboot/startup.c' l='66' u='r' c='print_debug_info'/>
+<use f='MOS/arch/x86/boot/multiboot/startup.c' l='67' u='r' c='print_debug_info'/>
+<use f='MOS/arch/x86/boot/multiboot/startup.c' l='68' u='r' c='print_debug_info'/>
+<use f='MOS/arch/x86/boot/multiboot/startup.c' l='69' u='r' c='print_debug_info'/>
+<use f='MOS/arch/x86/boot/multiboot/startup.c' l='181' u='w' c='x86_startup'/>

@@ -1,0 +1,7 @@
+<use f='MOS/include/lib/structures/hashmap.h' l='11'/>
+<def f='MOS/lib/structures/hashmap.c' l='9' ll='14'/>
+<use f='MOS/lib/structures/hashmap.c' l='9'/>
+<size>24</size>
+<mbr r='hashmap_entry::key' o='0' t='const void *'/>
+<mbr r='hashmap_entry::value' o='64' t='void *'/>
+<mbr r='hashmap_entry::next' o='128' t='hashmap_entry_t *'/>

@@ -1,0 +1,8 @@
+<dec f='MOS/arch/x86/include/mos/x86/boot/multiboot.h' l='133' type='const char *'/>
+<dec f='MOS/arch/x86/include/mos/x86/boot/multiboot.h' l='213' type='u32'/>
+<offset>64</offset>
+<doc f='MOS/arch/x86/include/mos/x86/boot/multiboot.h' l='132'>/* Kernel command line */</doc>
+<doc f='MOS/arch/x86/include/mos/x86/boot/multiboot.h' l='212'>/* Module command line */</doc>
+<use f='MOS/arch/x86/boot/multiboot/startup.c' l='142' u='r' c='x86_startup'/>
+<use f='MOS/arch/x86/boot/multiboot/startup.c' l='142' u='r' c='x86_startup'/>
+<use f='MOS/arch/x86/x86_platform.c' l='82' u='r' c='x86_start_kernel'/>

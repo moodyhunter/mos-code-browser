@@ -1,0 +1,5 @@
+<dec f='MOS/include/mos/platform/platform.h' l='44' type='thread_t *'/>
+<offset>64</offset>
+<use f='MOS/kernel/ksyscall.c' l='38' macro='1' u='r' c='ksyscall_io_write'/>
+<use f='MOS/kernel/tasks/schedule.c' l='16' macro='1' u='w' c='schedule_to_thread'/>
+<use f='MOS/kernel/tasks/schedule.c' l='32' macro='1' u='r' c='jump_to_scheduler'/>

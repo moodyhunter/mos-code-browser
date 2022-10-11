@@ -1,0 +1,3 @@
+<dec f='MOS/include/mos/elf/elf.h' l='140' type='uintptr_t'/>
+<offset>320</offset>
+<doc f='MOS/include/mos/elf/elf.h' l='140'>// Size of the segment in memory (may be 0)</doc>

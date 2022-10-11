@@ -1,0 +1,5 @@
+<def f='MOS/include/mos/boot/startup.h' l='45' ll='49' macro='1' type='void mos_startup_map_identity(uintptr_t paddr, size_t nbytes, vm_flags flags)'/>
+<use f='MOS/arch/x86/boot/multiboot/startup.c' l='138' u='c' c='x86_startup'/>
+<use f='MOS/arch/x86/boot/multiboot/startup.c' l='142' u='c' c='x86_startup'/>
+<use f='MOS/arch/x86/boot/multiboot/startup.c' l='145' u='c' c='x86_startup'/>
+<use f='MOS/arch/x86/boot/multiboot/startup.c' l='156' u='c' c='x86_startup'/>

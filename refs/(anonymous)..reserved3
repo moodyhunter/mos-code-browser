@@ -1,0 +1,4 @@
+<dec f='MOS/arch/x86/include/mos/x86/acpi/acpi_types.h' l='112' type='u8 [3]'/>
+<offset>1096</offset>
+<dec f='MOS/arch/x86/include/mos/x86/cpu/cpuid.h' l='155' type='u32'/>
+<offset>32</offset>

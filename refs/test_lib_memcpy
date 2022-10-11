@@ -1,0 +1,3 @@
+<dec f='MOS/tests/memops/test_memops.c' l='7' type='void test_lib_memcpy(TestResult * , _Bool * , _Bool * )'/>
+<use f='MOS/tests/memops/test_memops.c' l='7' u='c' c='__mos_test_wrapped_test_test_lib_memcpy'/>
+<def f='MOS/tests/memops/test_memops.c' l='7' ll='22' macro='1' type='void test_lib_memcpy(TestResult * _MT_result, _Bool * _mt_test_skipped, _Bool * _mt_loop_leave)'/>

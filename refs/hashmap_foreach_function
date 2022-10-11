@@ -1,0 +1,3 @@
+<dec f='MOS/tests/hashmap/test_hashmap.c' l='183' type='void hashmap_foreach_function(TestResult * , _Bool * , _Bool * )'/>
+<use f='MOS/tests/hashmap/test_hashmap.c' l='183' u='c' c='__mos_test_wrapped_test_hashmap_foreach_function'/>
+<def f='MOS/tests/hashmap/test_hashmap.c' l='183' ll='211' macro='1' type='void hashmap_foreach_function(TestResult * _MT_result, _Bool * _mt_test_skipped, _Bool * _mt_loop_leave)'/>

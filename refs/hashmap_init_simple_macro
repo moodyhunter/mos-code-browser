@@ -1,0 +1,3 @@
+<dec f='MOS/tests/hashmap/test_hashmap.c' l='9' type='void hashmap_init_simple_macro(TestResult * , _Bool * , _Bool * )'/>
+<use f='MOS/tests/hashmap/test_hashmap.c' l='9' u='c' c='__mos_test_wrapped_test_hashmap_init_simple_macro'/>
+<def f='MOS/tests/hashmap/test_hashmap.c' l='9' ll='20' macro='1' type='void hashmap_init_simple_macro(TestResult * _MT_result, _Bool * _mt_test_skipped, _Bool * _mt_loop_leave)'/>

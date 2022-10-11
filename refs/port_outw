@@ -1,0 +1,2 @@
+<def f='MOS/arch/x86/include/mos/x86/devices/port.h' l='36' ll='39' macro='1' type='void port_outw(x86_port_t port, u16 value)'/>
+<use f='MOS/arch/x86/acpi/acpi.c' l='25' u='c' c='x86_shutdown_vm'/>

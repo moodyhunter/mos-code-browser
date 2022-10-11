@@ -1,0 +1,26 @@
+<dec f='MOS/include/lib/structures/list.h' l='24' type='void list_node_append(list_node_t * head, list_node_t * item)'/>
+<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='77' u='c' c='x86_install_interrupt_handler'/>
+<use f='MOS/kernel/device/console.c' l='36' u='c' c='mos_install_console'/>
+<use f='MOS/kernel/panic.c' l='95' u='c' c='mos_install_kpanic_hook'/>
+<def f='MOS/lib/structures/list.c' l='41' ll='45' type='void list_node_append(list_node_t * head, list_node_t * item)'/>
+<use f='MOS/tests/linked_list/test_linked_list.c' l='34' u='c' c='test_list_init'/>
+<use f='MOS/tests/linked_list/test_linked_list.c' l='47' u='c' c='test_list_node_append'/>
+<use f='MOS/tests/linked_list/test_linked_list.c' l='48' u='c' c='test_list_node_append'/>
+<use f='MOS/tests/linked_list/test_linked_list.c' l='49' u='c' c='test_list_node_append'/>
+<use f='MOS/tests/linked_list/test_linked_list.c' l='50' u='c' c='test_list_node_append'/>
+<use f='MOS/tests/linked_list/test_linked_list.c' l='51' u='c' c='test_list_node_append'/>
+<use f='MOS/tests/linked_list/test_linked_list.c' l='115' u='c' c='test_list_node_insert'/>
+<use f='MOS/tests/linked_list/test_linked_list.c' l='116' u='c' c='test_list_node_insert'/>
+<use f='MOS/tests/linked_list/test_linked_list.c' l='117' u='c' c='test_list_node_insert'/>
+<use f='MOS/tests/linked_list/test_linked_list.c' l='118' u='c' c='test_list_node_insert'/>
+<use f='MOS/tests/linked_list/test_linked_list.c' l='119' u='c' c='test_list_node_insert'/>
+<use f='MOS/tests/linked_list/test_linked_list.c' l='152' u='c' c='test_list_remove'/>
+<use f='MOS/tests/linked_list/test_linked_list.c' l='153' u='c' c='test_list_remove'/>
+<use f='MOS/tests/linked_list/test_linked_list.c' l='154' u='c' c='test_list_remove'/>
+<use f='MOS/tests/linked_list/test_linked_list.c' l='155' u='c' c='test_list_remove'/>
+<use f='MOS/tests/linked_list/test_linked_list.c' l='156' u='c' c='test_list_remove'/>
+<use f='MOS/tests/linked_list/test_linked_list.c' l='194' u='c' c='test_list_foreach'/>
+<use f='MOS/tests/linked_list/test_linked_list.c' l='195' u='c' c='test_list_foreach'/>
+<use f='MOS/tests/linked_list/test_linked_list.c' l='196' u='c' c='test_list_foreach'/>
+<use f='MOS/tests/linked_list/test_linked_list.c' l='197' u='c' c='test_list_foreach'/>
+<use f='MOS/tests/linked_list/test_linked_list.c' l='198' u='c' c='test_list_foreach'/>

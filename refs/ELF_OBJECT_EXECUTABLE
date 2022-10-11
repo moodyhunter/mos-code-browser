@@ -1,0 +1,2 @@
+<dec f='MOS/include/mos/elf/elf.h' l='67' type='2'/>
+<use f='MOS/kernel/kernel_init.c' l='121' u='r' c='mos_start_kernel'/>

@@ -1,0 +1,8 @@
+<dec f='MOS/include/mos/mm/mm_types.h' l='11' type='uintptr_t'/>
+<use f='MOS/arch/x86/devices/initrd_blockdev.c' l='30' u='r' c='initrd_read'/>
+<offset>128</offset>
+<use f='MOS/arch/x86/x86_platform.c' l='132' u='w' c='x86_start_kernel'/>
+<dec f='MOS/include/mos/elf/elf.h' l='137' type='uintptr_t'/>
+<offset>128</offset>
+<doc f='MOS/include/mos/elf/elf.h' l='137'>// Virtual address of the segment</doc>
+<use f='MOS/kernel/kernel_init.c' l='144' u='r' c='mos_start_kernel'/>

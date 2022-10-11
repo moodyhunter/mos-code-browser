@@ -1,0 +1,7 @@
+<dec f='MOS/include/mos/types.h' l='70' type='id_t'/>
+<offset>0</offset>
+<dec f='MOS/include/mos/filesystem/cpio/cpio.h' l='14' type='char [8]'/>
+<use f='MOS/kernel/filesystem/cpio/cpio.c' l='157' u='w' c='cpio_stat'/>
+<use f='MOS/kernel/filesystem/cpio/cpio.c' l='157' u='r' c='cpio_stat'/>
+<use f='MOS/kernel/filesystem/cpio/cpio.c' l='157' u='r' c='cpio_stat'/>
+<offset>240</offset>

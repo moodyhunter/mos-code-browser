@@ -1,0 +1,10 @@
+<dec f='MOS/include/mos/constants.h' l='12'/>
+<use f='MOS/arch/x86/boot/multiboot/startup.c' l='160' u='c'/>
+<use f='MOS/arch/x86/boot/multiboot/startup.c' l='163' u='c'/>
+<use f='MOS/arch/x86/boot/multiboot/startup.c' l='166' u='c'/>
+<use f='MOS/arch/x86/mm/paging.c' l='51' u='c'/>
+<use f='MOS/arch/x86/mm/paging.c' l='57' u='c'/>
+<use f='MOS/arch/x86/mm/paging.c' l='63' u='c'/>
+<use f='MOS/arch/x86/mm/paging.c' l='70' u='c'/>
+<use f='MOS/arch/x86/mm/paging.c' l='202' u='c'/>
+<use f='MOS/arch/x86/mm/paging_impl.c' l='188' u='c'/>

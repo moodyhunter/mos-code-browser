@@ -1,0 +1,5 @@
+<dec f='MOS/build/include/mos/ksyscall/dispatcher.h' l='21' type='u32 ksyscall_panic()'/>
+<use f='MOS/build/include/mos/ksyscall/dispatcher.h' l='23' u='c' c='dispatch_ksyscall'/>
+<dec f='MOS/build/include/mos/ksyscall/decl.h' l='10' type='u32 ksyscall_panic()'/>
+<def f='MOS/kernel/ksyscall.c' l='50' macro='1' type='u32 ksyscall_panic()'/>
+<doc f='MOS/build/include/mos/ksyscall/decl.h' l='9'>// ksyscall0 #0: panic</doc>

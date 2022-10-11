@@ -1,0 +1,2 @@
+<def f='MOS/kernel/filesystem/filesystem.c' l='55' ll='59' type='io_op_t'/>
+<use f='MOS/kernel/filesystem/filesystem.c' l='138' u='a' c='vfs_path_open'/>

@@ -1,0 +1,3 @@
+<dec f='MOS/arch/x86/include/mos/x86/acpi/acpi_types.h' l='225' type='generic_addr_t'/>
+<dec f='MOS/arch/x86/include/mos/x86/boot/multiboot.h' l='99' type='u32'/>
+<offset>64</offset>

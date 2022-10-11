@@ -1,0 +1,25 @@
+<def f='MOS/lib/stdio_impl.c' l='185' ll='189' type='void buf_putchar(char ** pbuf, char c)'/>
+<use f='MOS/lib/stdio_impl.c' l='305' u='c' c='printf_diouxX'/>
+<use f='MOS/lib/stdio_impl.c' l='309' u='c' c='printf_diouxX'/>
+<use f='MOS/lib/stdio_impl.c' l='334' u='c' c='printf_diouxX'/>
+<use f='MOS/lib/stdio_impl.c' l='336' u='c' c='printf_diouxX'/>
+<use f='MOS/lib/stdio_impl.c' l='338' u='c' c='printf_diouxX'/>
+<use f='MOS/lib/stdio_impl.c' l='340' u='c' c='printf_diouxX'/>
+<use f='MOS/lib/stdio_impl.c' l='348' u='c' c='printf_diouxX'/>
+<use f='MOS/lib/stdio_impl.c' l='350' u='c' c='printf_diouxX'/>
+<use f='MOS/lib/stdio_impl.c' l='356' u='c' c='printf_diouxX'/>
+<use f='MOS/lib/stdio_impl.c' l='358' u='c' c='printf_diouxX'/>
+<use f='MOS/lib/stdio_impl.c' l='361' u='c' c='printf_diouxX'/>
+<use f='MOS/lib/stdio_impl.c' l='363' u='c' c='printf_diouxX'/>
+<use f='MOS/lib/stdio_impl.c' l='419' u='c' c='printf_cs'/>
+<use f='MOS/lib/stdio_impl.c' l='421' u='c' c='printf_cs'/>
+<use f='MOS/lib/stdio_impl.c' l='426' u='c' c='printf_cs'/>
+<use f='MOS/lib/stdio_impl.c' l='428' u='c' c='printf_cs'/>
+<use f='MOS/lib/stdio_impl.c' l='522' u='c' c='vsnprintf'/>
+<use f='MOS/lib/stdio_impl.c' l='523' u='c' c='vsnprintf'/>
+<use f='MOS/lib/stdio_impl.c' l='544' u='c' c='vsnprintf'/>
+<use f='MOS/lib/stdio_impl.c' l='556' u='c' c='vsnprintf'/>
+<use f='MOS/lib/stdio_impl.c' l='557' u='c' c='vsnprintf'/>
+<use f='MOS/lib/stdio_impl.c' l='564' u='c' c='vsnprintf'/>
+<use f='MOS/lib/stdio_impl.c' l='568' u='c' c='vsnprintf'/>
+<doc f='MOS/lib/stdio_impl.c' l='184'>// writes a character into the buffer, and increses the buffer pointer</doc>

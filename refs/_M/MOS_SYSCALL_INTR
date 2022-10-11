@@ -1,0 +1,5 @@
+<dec f='MOS/include/mos/constants.h' l='15'/>
+<use f='MOS/arch/x86/interrupt/idt.c' l='45' u='c'/>
+<use f='MOS/arch/x86/interrupt/idt.c' l='45' u='c'/>
+<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='89' u='c'/>
+<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='93' u='c'/>

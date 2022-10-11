@@ -1,0 +1,3 @@
+<dec f='MOS/arch/x86/mm/pmem_freelist.c' l='23' type='const char'/>
+<use f='MOS/arch/x86/mm/pmem_freelist.c' l='24' u='a'/>
+<use f='MOS/arch/x86/mm/pmem_freelist.c' l='25' u='a'/>

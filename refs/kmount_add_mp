@@ -1,0 +1,2 @@
+<def f='MOS/kernel/filesystem/mount.c' l='12' ll='32' type='void kmount_add_mp(mountpoint_t * new_mp)'/>
+<use f='MOS/kernel/filesystem/mount.c' l='57' u='c' c='kmount'/>

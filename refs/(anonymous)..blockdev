@@ -1,0 +1,6 @@
+<dec f='MOS/arch/x86/include/mos/x86/devices/initrd_blockdev.h' l='12' type='blockdev_t'/>
+<use f='MOS/arch/x86/devices/initrd_blockdev.c' l='11' u='m' c='initrd_blockdev_preinstall'/>
+<use f='MOS/arch/x86/devices/initrd_blockdev.c' l='12' u='m' c='initrd_blockdev_preinstall'/>
+<use f='MOS/arch/x86/devices/initrd_blockdev.c' l='13' u='m' c='initrd_blockdev_preinstall'/>
+<offset>384</offset>
+<use f='MOS/arch/x86/x86_platform.c' l='135' u='a' c='x86_start_kernel'/>

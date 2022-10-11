@@ -1,0 +1,2 @@
+<dec f='MOS/include/mos/tasks/task_type.h' l='13' type='0'/>
+<use f='MOS/kernel/tasks/thread.c' l='58' u='r' c='create_thread'/>

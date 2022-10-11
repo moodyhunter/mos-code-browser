@@ -1,0 +1,2 @@
+<dec f='MOS/arch/x86/cpu/smp.c' l='23' type='1'/>
+<use f='MOS/arch/x86/cpu/smp.c' l='74' u='r' c='x86_cpu_start'/>

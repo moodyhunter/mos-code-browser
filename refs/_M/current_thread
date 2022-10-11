@@ -1,0 +1,4 @@
+<dec f='MOS/include/mos/platform/platform.h' l='97'/>
+<use f='MOS/kernel/ksyscall.c' l='38' u='c'/>
+<use f='MOS/kernel/tasks/schedule.c' l='16' u='c'/>
+<use f='MOS/kernel/tasks/schedule.c' l='32' u='c'/>

@@ -1,0 +1,2 @@
+<dec f='MOS/include/mos/filesystem/mount.h' l='40' type='_Bool kunmount(mountpoint_t * mountpoint)'/>
+<def f='MOS/kernel/filesystem/mount.c' l='61' ll='86' macro='1' type='_Bool kunmount(mountpoint_t * mountpoint)'/>

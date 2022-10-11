@@ -1,0 +1,6 @@
+<dec f='MOS/arch/x86/include/mos/x86/mm/mm.h' l='13' type='size_t'/>
+<def f='MOS/arch/x86/mm/mm.c' l='15' type='size_t'/>
+<use f='MOS/arch/x86/mm/mm.c' l='64' u='w' c='x86_mem_init'/>
+<use f='MOS/arch/x86/mm/mm.c' l='80' u='r' c='x86_mem_init'/>
+<use f='MOS/arch/x86/mm/mm.c' l='81' u='r' c='x86_mem_init'/>
+<use f='MOS/arch/x86/mm/pmem_freelist.c' l='30' u='r' c='pmem_freelist_size'/>

@@ -1,0 +1,3 @@
+<dec f='MOS/include/mos/io/io.h' l='42' type='size_t io_read(io_t * io, void * buf, size_t count)'/>
+<def f='MOS/kernel/io/io.c' l='30' ll='44' type='size_t io_read(io_t * io, void * buf, size_t count)'/>
+<use f='MOS/kernel/kernel_init.c' l='100' u='c' c='mos_start_kernel'/>

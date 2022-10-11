@@ -1,0 +1,5 @@
+<def f='MOS/arch/x86/include/mos/x86/delays.h' l='8' ll='19' macro='1' type='u64 rdtsc()'/>
+<use f='MOS/arch/x86/include/mos/x86/delays.h' l='23' u='c' c='mdelay'/>
+<use f='MOS/arch/x86/include/mos/x86/delays.h' l='24' u='c' c='mdelay'/>
+<use f='MOS/arch/x86/include/mos/x86/delays.h' l='30' u='c' c='udelay'/>
+<use f='MOS/arch/x86/include/mos/x86/delays.h' l='31' u='c' c='udelay'/>

@@ -1,0 +1,4 @@
+<def f='MOS/kernel/filesystem/cpio/cpio.c' l='25' ll='81' macro='1' type='_Bool cpio_read_metadata(blockdev_t * dev, const char * target, cpio_metadata_t * metadata)'/>
+<use f='MOS/kernel/filesystem/cpio/cpio.c' l='123' u='c' c='cpio_open'/>
+<use f='MOS/kernel/filesystem/cpio/cpio.c' l='150' u='c' c='cpio_stat'/>
+<use f='MOS/kernel/filesystem/cpio/cpio.c' l='187' u='c' c='cpio_readlink'/>

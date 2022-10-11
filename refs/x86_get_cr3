@@ -1,0 +1,2 @@
+<def f='MOS/arch/x86/include/mos/x86/cpu/cpu.h' l='24' ll='29' macro='1' type='reg_t x86_get_cr3()'/>
+<use f='MOS/arch/x86/x86_platform.c' l='92' u='c' c='x86_start_kernel'/>

@@ -1,0 +1,2 @@
+<dec f='MOS/arch/x86/include/mos/x86/boot/multiboot.h' l='28'/>
+<doc f='MOS/arch/x86/include/mos/x86/boot/multiboot.h' l='27'>// How many bytes from the start of the file we search for the header.</doc>

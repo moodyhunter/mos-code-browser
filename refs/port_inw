@@ -1,0 +1,1 @@
+<def f='MOS/arch/x86/include/mos/x86/devices/port.h' l='17' ll='22' macro='1' type='u16 port_inw(x86_port_t port)'/>

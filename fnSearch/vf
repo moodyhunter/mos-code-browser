@@ -1,0 +1,9 @@
+vfs_io_ops_close|vfs_io_ops_close
+vfs_io_ops_read|vfs_io_ops_read
+vfs_io_ops_write|vfs_io_ops_write
+vfs_open|vfs_open
+vfs_path_open|vfs_path_open
+vfs_path_readlink|vfs_path_readlink
+vfs_path_stat|vfs_path_stat
+vfs_readlink|vfs_readlink
+vfs_stat|vfs_stat

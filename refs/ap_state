@@ -1,0 +1,8 @@
+<def f='MOS/arch/x86/cpu/smp.c' l='20' ll='29' type='volatile enum (anonymous enum at /home/runner/work/MOS/MOS/arch/x86/cpu/smp.c:20:10)'/>
+<use f='MOS/arch/x86/cpu/smp.c' l='69' u='w' c='x86_cpu_start'/>
+<use f='MOS/arch/x86/cpu/smp.c' l='74' u='w' c='x86_cpu_start'/>
+<use f='MOS/arch/x86/cpu/smp.c' l='64' u='r' c='x86_cpu_start'/>
+<use f='MOS/arch/x86/cpu/smp.c' l='87' u='w' c='x86_cpu_start'/>
+<use f='MOS/arch/x86/cpu/smp.c' l='64' u='r' c='x86_cpu_start'/>
+<use f='MOS/arch/x86/cpu/smp.c' l='91' u='w' c='x86_cpu_start'/>
+<use f='MOS/arch/x86/cpu/smp.c' l='64' u='r' c='x86_cpu_start'/>

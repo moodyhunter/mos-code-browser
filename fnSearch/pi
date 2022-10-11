@@ -1,0 +1,4 @@
+pic_disable|pic_disable
+pic_mask_irq|pic_mask_irq
+pic_remap_irq|pic_remap_irq
+pic_unmask_irq|pic_unmask_irq

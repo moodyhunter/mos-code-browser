@@ -1,0 +1,6 @@
+<def f='MOS/arch/x86/devices/serial.c' l='61' ll='73' type='void serial_set_modem_options(int com, serial_modem_control_t control, _Bool enable)'/>
+<use f='MOS/arch/x86/devices/serial.c' l='95' u='c' c='serial_device_setup'/>
+<use f='MOS/arch/x86/devices/serial.c' l='96' u='c' c='serial_device_setup'/>
+<use f='MOS/arch/x86/devices/serial.c' l='103' u='c' c='serial_device_setup'/>
+<use f='MOS/arch/x86/devices/serial.c' l='106' u='c' c='serial_device_setup'/>
+<use f='MOS/arch/x86/devices/serial.c' l='111' u='c' c='serial_device_setup'/>

@@ -1,0 +1,5 @@
+<dec f='MOS/arch/x86/include/mos/x86/gdt/gdt_types.h' l='21' type='u32'/>
+<offset>43</offset>
+<doc f='MOS/arch/x86/include/mos/x86/gdt/gdt_types.h' l='21'>// 1 for code, 0 for data</doc>
+<use f='MOS/arch/x86/gdt/gdt.c' l='49' u='w' c='gdt32_set_entry'/>
+<use f='MOS/arch/x86/gdt/gdt.c' l='79' u='w' c='x86_gdt_init'/>

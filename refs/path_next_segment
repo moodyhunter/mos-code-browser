@@ -1,0 +1,4 @@
+<dec f='MOS/include/mos/filesystem/pathutils.h' l='13' type='const char * path_next_segment(const char * path, size_t * segment_len)'/>
+<doc f='MOS/include/mos/filesystem/pathutils.h' l='12'>// Path string operations</doc>
+<def f='MOS/kernel/filesystem/pathutils.c' l='71' ll='82' type='const char * path_next_segment(const char * path, size_t * segment_len)'/>
+<use f='MOS/kernel/filesystem/pathutils.c' l='115' u='c' c='path_resolve'/>

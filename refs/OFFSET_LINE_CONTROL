@@ -1,0 +1,11 @@
+<dec f='MOS/arch/x86/include/mos/x86/devices/serial.h' l='23' type='3'/>
+<use f='MOS/arch/x86/devices/serial.c' l='17' u='r' c='set_baudrate_divisor'/>
+<use f='MOS/arch/x86/devices/serial.c' l='20' u='r' c='set_baudrate_divisor'/>
+<use f='MOS/arch/x86/devices/serial.c' l='30' u='r' c='set_baudrate_divisor'/>
+<use f='MOS/arch/x86/devices/serial.c' l='35' u='r' c='set_data_bits'/>
+<use f='MOS/arch/x86/devices/serial.c' l='37' u='r' c='set_data_bits'/>
+<use f='MOS/arch/x86/devices/serial.c' l='42' u='r' c='set_stop_bits'/>
+<use f='MOS/arch/x86/devices/serial.c' l='44' u='r' c='set_stop_bits'/>
+<use f='MOS/arch/x86/devices/serial.c' l='49' u='r' c='set_parity'/>
+<use f='MOS/arch/x86/devices/serial.c' l='51' u='r' c='set_parity'/>
+<doc f='MOS/arch/x86/include/mos/x86/devices/serial.h' l='23'>// Line Control Register</doc>

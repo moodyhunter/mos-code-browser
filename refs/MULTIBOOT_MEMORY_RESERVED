@@ -1,0 +1,2 @@
+<dec f='MOS/arch/x86/include/mos/x86/boot/multiboot.h' l='106' type='2'/>
+<use f='MOS/arch/x86/mm/mm.c' l='65' c='x86_mem_init'/>

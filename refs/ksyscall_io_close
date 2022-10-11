@@ -1,0 +1,4 @@
+<dec f='MOS/build/include/mos/ksyscall/dispatcher.h' l='41' type='_Bool ksyscall_io_close(fd_t fd)'/>
+<use f='MOS/build/include/mos/ksyscall/dispatcher.h' l='43' u='c' c='dispatch_ksyscall'/>
+<dec f='MOS/build/include/mos/ksyscall/decl.h' l='25' type='_Bool ksyscall_io_close(fd_t fd)'/>
+<def f='MOS/kernel/ksyscall.c' l='44' macro='1' type='_Bool ksyscall_io_close(fd_t fd)'/>

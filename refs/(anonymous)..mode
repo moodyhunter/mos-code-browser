@@ -1,0 +1,6 @@
+<dec f='MOS/include/mos/filesystem/cpio/cpio.h' l='12' type='char [8]'/>
+<use f='MOS/kernel/filesystem/cpio/cpio.c' l='160' u='r' c='cpio_stat'/>
+<use f='MOS/kernel/filesystem/cpio/cpio.c' l='160' u='r' c='cpio_stat'/>
+<use f='MOS/kernel/filesystem/cpio/cpio.c' l='190' u='r' c='cpio_readlink'/>
+<use f='MOS/kernel/filesystem/cpio/cpio.c' l='190' u='r' c='cpio_readlink'/>
+<offset>112</offset>

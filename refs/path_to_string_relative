@@ -1,0 +1,5 @@
+<dec f='MOS/include/mos/filesystem/pathutils.h' l='14' type='const char * path_to_string_relative(const fsnode_t * root, const fsnode_t * end)'/>
+<use f='MOS/kernel/filesystem/cpio/cpio.c' l='114' u='c' c='cpio_open'/>
+<use f='MOS/kernel/filesystem/cpio/cpio.c' l='148' u='c' c='cpio_stat'/>
+<use f='MOS/kernel/filesystem/cpio/cpio.c' l='185' u='c' c='cpio_readlink'/>
+<def f='MOS/kernel/filesystem/pathutils.c' l='146' ll='172' type='const char * path_to_string_relative(const fsnode_t * root, const fsnode_t * leaf)'/>

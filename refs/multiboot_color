@@ -1,0 +1,5 @@
+<def f='MOS/arch/x86/include/mos/x86/boot/multiboot.h' l='199' ll='204'/>
+<size>3</size>
+<mbr r='multiboot_color::red' o='0' t='u8'/>
+<mbr r='multiboot_color::green' o='8' t='u8'/>
+<mbr r='multiboot_color::blue' o='16' t='u8'/>

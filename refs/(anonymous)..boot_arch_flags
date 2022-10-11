@@ -1,0 +1,3 @@
+<dec f='MOS/arch/x86/include/mos/x86/acpi/acpi_types.h' l='103' type='u16'/>
+<offset>880</offset>
+<doc f='MOS/arch/x86/include/mos/x86/acpi/acpi_types.h' l='102'>// reserved in ACPI 1.0; used since ACPI 2.0+</doc>

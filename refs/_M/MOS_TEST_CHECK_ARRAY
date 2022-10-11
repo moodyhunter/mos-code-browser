@@ -1,0 +1,10 @@
+<dec f='MOS/tests/test_engine_impl.h' l='207'/>
+<doc f='MOS/tests/test_engine_impl.h' l='198'>/*
+ * Check if every value in the actual array is equal to corresponding value
+ * in the expected array.
+ *
+ * Arguments:
+ *   - expected         - expected array pointer
+ *   - actual           - actual array pointer
+ *   - elements         - number of array elements
+ */</doc>

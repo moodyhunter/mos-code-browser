@@ -1,0 +1,21 @@
+<dec f='MOS/include/lib/string.h' l='6' type='size_t strlen(const char * str)'/>
+<use f='MOS/arch/x86/devices/serial_console.c' l='32' u='c' c='serial_console_write'/>
+<use f='MOS/arch/x86/devices/serial_console.c' l='80' u='c' c='serial_console_set_color'/>
+<use f='MOS/kernel/filesystem/pathutils.c' l='15' u='c' c='path_node_get_name'/>
+<use f='MOS/kernel/filesystem/pathutils.c' l='79' u='c' c='path_next_segment'/>
+<use f='MOS/kernel/filesystem/pathutils.c' l='152' u='c' c='path_to_string_relative'/>
+<use f='MOS/kernel/filesystem/pathutils.c' l='160' u='c' c='path_to_string_relative'/>
+<use f='MOS/kernel/printk.c' l='34' u='c' c='printk'/>
+<use f='MOS/kernel/printk.c' l='52' u='c' c='lprintk'/>
+<use f='MOS/lib/stdio_impl.c' l='315' u='c' c='printf_diouxX'/>
+<use f='MOS/lib/stdio_impl.c' l='327' u='c' c='printf_diouxX'/>
+<use f='MOS/lib/stdio_impl.c' l='327' u='c' c='printf_diouxX'/>
+<use f='MOS/lib/stdio_impl.c' l='408' u='c' c='printf_cs'/>
+<def f='MOS/lib/string.c' l='8' ll='14' type='size_t strlen(const char * str)'/>
+<use f='MOS/lib/string.c' l='134' u='c' c='strtoll'/>
+<use f='MOS/lib/structures/hashmap_common.c' l='10' u='c' c='hashmap_hash_string'/>
+<use f='MOS/tests/test_engine.c' l='54' u='c' c='mos_test_engine_log'/>
+<use f='MOS/tests/test_engine.c' l='101' u='c' c='mos_test_engine_run_tests'/>
+<def f='MOS/userspace/init/main.c' l='10' ll='16' type='int strlen(const char * str)'/>
+<use f='MOS/userspace/init/main.c' l='20' u='c' c='print'/>
+<use f='MOS/userspace/init/main.c' l='21' u='c' c='print'/>

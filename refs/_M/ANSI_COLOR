@@ -1,0 +1,25 @@
+<dec f='MOS/include/lib/ansi_colors.h' l='39'/>
+<use f='MOS/arch/x86/devices/serial_console.c' l='46' u='c'/>
+<use f='MOS/arch/x86/devices/serial_console.c' l='47' u='c'/>
+<use f='MOS/arch/x86/devices/serial_console.c' l='48' u='c'/>
+<use f='MOS/arch/x86/devices/serial_console.c' l='49' u='c'/>
+<use f='MOS/arch/x86/devices/serial_console.c' l='50' u='c'/>
+<use f='MOS/arch/x86/devices/serial_console.c' l='51' u='c'/>
+<use f='MOS/arch/x86/devices/serial_console.c' l='52' u='c'/>
+<use f='MOS/arch/x86/devices/serial_console.c' l='53' u='c'/>
+<use f='MOS/arch/x86/devices/serial_console.c' l='54' u='c'/>
+<use f='MOS/arch/x86/devices/serial_console.c' l='55' u='c'/>
+<use f='MOS/arch/x86/devices/serial_console.c' l='56' u='c'/>
+<use f='MOS/arch/x86/devices/serial_console.c' l='57' u='c'/>
+<use f='MOS/arch/x86/devices/serial_console.c' l='58' u='c'/>
+<use f='MOS/arch/x86/devices/serial_console.c' l='59' u='c'/>
+<use f='MOS/arch/x86/devices/serial_console.c' l='60' u='c'/>
+<use f='MOS/arch/x86/devices/serial_console.c' l='61' u='c'/>
+<use f='MOS/arch/x86/devices/serial_console.c' l='68' u='c'/>
+<doc f='MOS/include/lib/ansi_colors.h' l='32'>// USAGE:
+//
+// ANSI_COLOR(foreground)                       // a foreground color
+// ANSI_COLOR(foreground, style)                // a foreground color with style
+// ANSI_COLOR(foreground, style, background)    // a foreground color with style and a background color
+//
+// &quot;_&quot; is to prevent the &quot;must specify at least one argument for &apos;...&apos; parameter of variadic macro&quot; warning</doc>

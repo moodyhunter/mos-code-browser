@@ -1,0 +1,7 @@
+<def f='MOS/kernel/mm/liballoc.c' l='54' ll='62'/>
+<use f='MOS/kernel/mm/liballoc.c' l='56'/>
+<use f='MOS/kernel/mm/liballoc.c' l='57'/>
+<use f='MOS/kernel/mm/liballoc.c' l='54'/>
+<use f='MOS/kernel/mm/liballoc.c' l='69'/>
+<size>48</size>
+<doc f='MOS/kernel/mm/liballoc.c' l='53'>// A structure found at the top of all system allocated memory blocks. It details the usage of the memory block.</doc>

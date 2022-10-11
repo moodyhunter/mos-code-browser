@@ -1,0 +1,4 @@
+<def f='MOS/arch/x86/mm/pmem_freelist.c' l='16' ll='21'/>
+<use f='MOS/arch/x86/mm/pmem_freelist.c' l='18'/>
+<use f='MOS/arch/x86/mm/pmem_freelist.c' l='16'/>
+<size>24</size>

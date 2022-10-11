@@ -1,0 +1,3 @@
+<def f='MOS/kernel/filesystem/pathutils.c' l='32' ll='69' type='fsnode_t * impl_path_get_subpath(fsnode_t * cwd, const char * path, size_t path_len)'/>
+<use f='MOS/kernel/filesystem/pathutils.c' l='117' u='c' c='path_resolve'/>
+<doc f='MOS/kernel/filesystem/pathutils.c' l='30'>// Private functions</doc>

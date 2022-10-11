@@ -1,0 +1,3 @@
+<dec f='MOS/tests/cmdline_parser/test_cmdline_parser.c' l='6' type='void simple_cmdline(TestResult * , _Bool * , _Bool * )'/>
+<use f='MOS/tests/cmdline_parser/test_cmdline_parser.c' l='6' u='c' c='__mos_test_wrapped_test_simple_cmdline'/>
+<def f='MOS/tests/cmdline_parser/test_cmdline_parser.c' l='6' ll='15' macro='1' type='void simple_cmdline(TestResult * _MT_result, _Bool * _mt_test_skipped, _Bool * _mt_loop_leave)'/>

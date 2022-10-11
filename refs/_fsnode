@@ -1,0 +1,7 @@
+<use f='MOS/include/mos/filesystem/filesystem.h' l='10'/>
+<def f='MOS/include/mos/filesystem/filesystem.h' l='80' ll='85'/>
+<use f='MOS/include/mos/filesystem/filesystem.h' l='80'/>
+<size>40</size>
+<mbr r='_fsnode::tree_node' o='0' t='tree_node_t'/>
+<mbr r='_fsnode::refcount' o='192' t='atomic_t'/>
+<mbr r='_fsnode::name' o='256' t='const char *'/>

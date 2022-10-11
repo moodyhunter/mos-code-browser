@@ -1,0 +1,2 @@
+<def f='MOS/tests/printf/test_printf.c' l='120' macro='1' type='void __mos_test_wrapped_test_integer_with_precision(TestResult * result)'/>
+<use f='MOS/tests/printf/test_printf.c' l='120' macro='1'/>

@@ -1,0 +1,2 @@
+<dec f='MOS/arch/x86/include/mos/x86/devices/serial.h' l='89' type='1'/>
+<doc f='MOS/arch/x86/include/mos/x86/devices/serial.h' l='89'>// Clear To Send input has changed since last read.</doc>

@@ -1,0 +1,6 @@
+port_inb|port_inb
+port_inl|port_inl
+port_inw|port_inw
+port_outb|port_outb
+port_outl|port_outl
+port_outw|port_outw

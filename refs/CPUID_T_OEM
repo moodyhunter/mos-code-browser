@@ -1,0 +1,2 @@
+<dec f='MOS/arch/x86/include/mos/x86/cpu/cpuid.h' l='17' type='0'/>
+<use f='MOS/arch/x86/cpu/cpuid.c' l='8' u='r'/>

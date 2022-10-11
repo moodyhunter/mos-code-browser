@@ -1,0 +1,3 @@
+<dec f='MOS/arch/x86/include/mos/x86/tasks/tss_types.h' l='9' type='u32'/>
+<offset>64</offset>
+<use f='MOS/arch/x86/tasks/tss.c' l='15' u='w' c='x86_tss_init'/>

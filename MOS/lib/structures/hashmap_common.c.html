@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>hashmap_common.c source code [MOS/lib/structures/hashmap_common.c] - Woboq Code Browser</title>
+<link rel="stylesheet" href="/mos-code-browser/data/qtcreator.css" title="QtCreator"/>
+<link rel="alternate stylesheet" href="/mos-code-browser/data/kdevelop.css" title="KDevelop"/>
+<script type="text/javascript" src="/mos-code-browser/data/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="/mos-code-browser/data/jquery/jquery-ui.min.js"></script>
+<script>var file = 'MOS/lib/structures/hashmap_common.c'; var root_path = '../../..'; var data_path = '/mos-code-browser/data'; var ecma_script_api_version = 2;</script>
+<script src='/mos-code-browser/data/codebrowser.js'></script>
+</head>
+<body><div id='header'><h1 id='breadcrumb'><span>Browse the source code of </span><a href='../..'>MOS</a>/<a href='..'>lib</a>/<a href='./'>structures</a>/<a href='hashmap_common.c.html'>hashmap_common.c</a></h1></div>
+<hr/><div id='content'><table class="code">
+<tr><th id="1">1</th><td><i>// SPDX-License-Identifier: GPL-3.0-or-later</i></td></tr>
+<tr><th id="2">2</th><td></td></tr>
+<tr><th id="3">3</th><td><u>#include <a href="../../include/lib/structures/hashmap_common.h.html">"lib/structures/hashmap_common.h"</a></u></td></tr>
+<tr><th id="4">4</th><td></td></tr>
+<tr><th id="5">5</th><td><u>#include <a href="../../include/lib/hash.h.html">"lib/hash.h"</a></u></td></tr>
+<tr><th id="6">6</th><td><u>#include <a href="../../include/lib/string.h.html">"lib/string.h"</a></u></td></tr>
+<tr><th id="7">7</th><td></td></tr>
+<tr><th id="8">8</th><td><a class="typedef" href="../../include/mos/types.h.html#75" title='hash_t' data-type='struct hash_t' data-ref="hash_t" data-ref-filename="hash_t">hash_t</a> <a class="macro" href="../../include/mos/mos_global.h.html#14" title="__attribute__((__pure__))" data-ref="_M/__pure">__pure</a> <dfn class="decl def fn" id="hashmap_hash_string" title='hashmap_hash_string' data-ref="hashmap_hash_string" data-ref-filename="hashmap_hash_string">hashmap_hash_string</dfn>(<em>const</em> <em>void</em> *<dfn class="local col8 decl" id="8key" title='key' data-type='const void *' data-ref="8key" data-ref-filename="8key">key</dfn>)</td></tr>
+<tr><th id="9">9</th><td>{</td></tr>
+<tr><th id="10">10</th><td>    <b>return</b> <a class="ref fn" href="../../include/lib/hash.h.html#string_hash" title='string_hash' data-ref="string_hash" data-ref-filename="string_hash">string_hash</a>((<em>const</em> <em>char</em> *) <a class="local col8 ref" href="#8key" title='key' data-ref="8key" data-ref-filename="8key">key</a>, <a class="ref fn" href="../../include/lib/string.h.html#strlen" title='strlen' data-ref="strlen" data-ref-filename="strlen">strlen</a>((<em>const</em> <em>char</em> *) <a class="local col8 ref" href="#8key" title='key' data-ref="8key" data-ref-filename="8key">key</a>));</td></tr>
+<tr><th id="11">11</th><td>}</td></tr>
+<tr><th id="12">12</th><td></td></tr>
+<tr><th id="13">13</th><td><em>int</em> <a class="macro" href="../../include/mos/mos_global.h.html#14" title="__attribute__((__pure__))" data-ref="_M/__pure">__pure</a> <dfn class="decl def fn" id="hashmap_compare_string" title='hashmap_compare_string' data-ref="hashmap_compare_string" data-ref-filename="hashmap_compare_string">hashmap_compare_string</dfn>(<em>const</em> <em>void</em> *<dfn class="local col9 decl" id="9key1" title='key1' data-type='const void *' data-ref="9key1" data-ref-filename="9key1">key1</dfn>, <em>const</em> <em>void</em> *<dfn class="local col0 decl" id="10key2" title='key2' data-type='const void *' data-ref="10key2" data-ref-filename="10key2">key2</dfn>)</td></tr>
+<tr><th id="14">14</th><td>{</td></tr>
+<tr><th id="15">15</th><td>    <b>return</b> <a class="ref fn" href="../../include/lib/string.h.html#strcmp" title='strcmp' data-ref="strcmp" data-ref-filename="strcmp">strcmp</a>((<em>const</em> <em>char</em> *) <a class="local col9 ref" href="#9key1" title='key1' data-ref="9key1" data-ref-filename="9key1">key1</a>, (<em>const</em> <em>char</em> *) <a class="local col0 ref" href="#10key2" title='key2' data-ref="10key2" data-ref-filename="10key2">key2</a>) == <var>0</var>;</td></tr>
+<tr><th id="16">16</th><td>}</td></tr>
+<tr><th id="17">17</th><td></td></tr>
+</table><hr/><p id='footer'>
+Generated on <em>2022-Oct-11</em> from project MOS<br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
+<br/>Generator usage only permitted with license.</p>
+</div></body></html>

@@ -1,0 +1,3 @@
+<dec f='MOS/arch/x86/include/mos/x86/devices/serial_console.h' l='16' type='int serial_console_read(console_t * console, char * str, size_t len)'/>
+<use f='MOS/arch/x86/devices/serial_console.c' l='16' u='r' c='serial_console_setup'/>
+<def f='MOS/arch/x86/devices/serial_console.c' l='36' ll='40' type='int serial_console_read(console_t * console, char * str, size_t len)'/>

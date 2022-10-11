@@ -1,0 +1,2 @@
+<dec f='MOS/include/mos/printk.h' l='17'/>
+<use f='MOS/kernel/device/block.c' l='28' u='c'/>

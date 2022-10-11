@@ -1,0 +1,12 @@
+pg_copy_page|pg_copy_page
+pg_do_map_page|pg_do_map_page
+pg_do_map_pages|pg_do_map_pages
+pg_do_unmap_page|pg_do_unmap_page
+pg_do_unmap_pages|pg_do_unmap_pages
+pg_flush_tlb|pg_flush_tlb
+pg_map_pages|pg_map_pages
+pg_page_alloc|pg_page_alloc
+pg_page_flag|pg_page_flag
+pg_page_free|pg_page_free
+pg_page_get_mapped_paddr|pg_page_get_mapped_paddr
+pg_unmap_pages|pg_unmap_pages

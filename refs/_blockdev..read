@@ -1,0 +1,8 @@
+<dec f='MOS/include/mos/device/block.h' l='10' type='size_t (*)(struct _blockdev *, void *, size_t, size_t)'/>
+<use f='MOS/arch/x86/devices/initrd_blockdev.c' l='12' u='w' c='initrd_blockdev_preinstall'/>
+<offset>64</offset>
+<use f='MOS/kernel/filesystem/cpio/cpio.c' l='35' u='r' c='cpio_read_metadata'/>
+<use f='MOS/kernel/filesystem/cpio/cpio.c' l='48' u='r' c='cpio_read_metadata'/>
+<use f='MOS/kernel/filesystem/cpio/cpio.c' l='88' u='r' c='cpio_mount'/>
+<use f='MOS/kernel/filesystem/cpio/cpio.c' l='136' u='r' c='cpio_read'/>
+<use f='MOS/kernel/filesystem/cpio/cpio.c' l='207' u='r' c='cpio_readlink'/>

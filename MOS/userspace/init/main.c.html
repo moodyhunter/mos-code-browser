@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>main.c source code [MOS/userspace/init/main.c] - Woboq Code Browser</title>
+<link rel="stylesheet" href="/mos-code-browser/data/qtcreator.css" title="QtCreator"/>
+<link rel="alternate stylesheet" href="/mos-code-browser/data/kdevelop.css" title="KDevelop"/>
+<script type="text/javascript" src="/mos-code-browser/data/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="/mos-code-browser/data/jquery/jquery-ui.min.js"></script>
+<script>var file = 'MOS/userspace/init/main.c'; var root_path = '../../..'; var data_path = '/mos-code-browser/data'; var ecma_script_api_version = 2;</script>
+<script src='/mos-code-browser/data/codebrowser.js'></script>
+</head>
+<body><div id='header'><h1 id='breadcrumb'><span>Browse the source code of </span><a href='../..'>MOS</a>/<a href='..'>userspace</a>/<a href='./'>init</a>/<a href='main.c.html'>main.c</a></h1></div>
+<hr/><div id='content'><table class="code">
+<tr><th id="1">1</th><td><i>// SPDX-License-Identifier: GPL-3.0-or-later</i></td></tr>
+<tr><th id="2">2</th><td></td></tr>
+<tr><th id="3">3</th><td><u>#include <a href="../../build/include/mos/ksyscall/usermode.h.html">"mos/ksyscall/usermode.h"</a></u></td></tr>
+<tr><th id="4">4</th><td><u>#include <a href="../../include/mos/types.h.html">"mos/types.h"</a></u></td></tr>
+<tr><th id="5">5</th><td></td></tr>
+<tr><th id="6">6</th><td><u>#define <dfn class="macro" id="_M/stdin" data-ref="_M/stdin">stdin</dfn>  0</u></td></tr>
+<tr><th id="7">7</th><td><u>#define <dfn class="macro" id="_M/stdout" data-ref="_M/stdout">stdout</dfn> 1</u></td></tr>
+<tr><th id="8">8</th><td><u>#define <dfn class="macro" id="_M/stderr" data-ref="_M/stderr">stderr</dfn> 2</u></td></tr>
+<tr><th id="9">9</th><td></td></tr>
+<tr><th id="10">10</th><td><em>int</em> <dfn class="decl def fn" id="strlen" title='strlen' data-ref="strlen" data-ref-filename="strlen">strlen</dfn>(<em>const</em> <em>char</em> *<dfn class="local col5 decl" id="35str" title='str' data-type='const char *' data-ref="35str" data-ref-filename="35str">str</dfn>)</td></tr>
+<tr><th id="11">11</th><td>{</td></tr>
+<tr><th id="12">12</th><td>    <em>int</em> <dfn class="local col6 decl" id="36len" title='len' data-type='int' data-ref="36len" data-ref-filename="36len">len</dfn> = <var>0</var>;</td></tr>
+<tr><th id="13">13</th><td>    <b>while</b> (<a class="local col5 ref" href="#35str" title='str' data-ref="35str" data-ref-filename="35str">str</a>[<a class="local col6 ref" href="#36len" title='len' data-ref="36len" data-ref-filename="36len">len</a>])</td></tr>
+<tr><th id="14">14</th><td>        <a class="local col6 ref" href="#36len" title='len' data-ref="36len" data-ref-filename="36len">len</a>++;</td></tr>
+<tr><th id="15">15</th><td>    <b>return</b> <a class="local col6 ref" href="#36len" title='len' data-ref="36len" data-ref-filename="36len">len</a>;</td></tr>
+<tr><th id="16">16</th><td>}</td></tr>
+<tr><th id="17">17</th><td></td></tr>
+<tr><th id="18">18</th><td><em>void</em> <dfn class="decl def fn" id="print" title='print' data-ref="print" data-ref-filename="print">print</dfn>(<em>const</em> <em>char</em> *<dfn class="local col7 decl" id="37str" title='str' data-type='const char *' data-ref="37str" data-ref-filename="37str">str</dfn>)</td></tr>
+<tr><th id="19">19</th><td>{</td></tr>
+<tr><th id="20">20</th><td>    <a class="ref fn" href="../../build/include/mos/ksyscall/usermode.h.html#invoke_ksyscall_io_write" title='invoke_ksyscall_io_write' data-ref="invoke_ksyscall_io_write" data-ref-filename="invoke_ksyscall_io_write">invoke_ksyscall_io_write</a>(<a class="macro" href="#7" title="1" data-ref="_M/stdout">stdout</a>, <a class="local col7 ref" href="#37str" title='str' data-ref="37str" data-ref-filename="37str">str</a>, <a class="ref fn" href="#strlen" title='strlen' data-ref="strlen" data-ref-filename="strlen">strlen</a>(<a class="local col7 ref" href="#37str" title='str' data-ref="37str" data-ref-filename="37str">str</a>), <var>0</var>);</td></tr>
+<tr><th id="21">21</th><td>    <a class="ref fn" href="../../build/include/mos/ksyscall/usermode.h.html#invoke_ksyscall_io_write" title='invoke_ksyscall_io_write' data-ref="invoke_ksyscall_io_write" data-ref-filename="invoke_ksyscall_io_write">invoke_ksyscall_io_write</a>(<a class="macro" href="#8" title="2" data-ref="_M/stderr">stderr</a>, <a class="local col7 ref" href="#37str" title='str' data-ref="37str" data-ref-filename="37str">str</a>, <a class="ref fn" href="#strlen" title='strlen' data-ref="strlen" data-ref-filename="strlen">strlen</a>(<a class="local col7 ref" href="#37str" title='str' data-ref="37str" data-ref-filename="37str">str</a>), <var>0</var>);</td></tr>
+<tr><th id="22">22</th><td>}</td></tr>
+<tr><th id="23">23</th><td></td></tr>
+<tr><th id="24">24</th><td><em>void</em> <dfn class="decl def fn" id="_start" title='_start' data-ref="_start" data-ref-filename="_start">_start</dfn>(<em>void</em>)</td></tr>
+<tr><th id="25">25</th><td>{</td></tr>
+<tr><th id="26">26</th><td>    <em>const</em> <em>char</em> *<dfn class="local col8 decl" id="38x" title='x' data-type='const char *' data-ref="38x" data-ref-filename="38x">x</dfn> = <q>"Hello, world! MOS userspace '/bin/init'"</q>;</td></tr>
+<tr><th id="27">27</th><td>    <a class="ref fn" href="#print" title='print' data-ref="print" data-ref-filename="print">print</a>(<a class="local col8 ref" href="#38x" title='x' data-ref="38x" data-ref-filename="38x">x</a>);</td></tr>
+<tr><th id="28">28</th><td></td></tr>
+<tr><th id="29">29</th><td>    <b>while</b> (<span class="macro" title="1" data-ref="_M/true">true</span>)</td></tr>
+<tr><th id="30">30</th><td>    {</td></tr>
+<tr><th id="31">31</th><td>        <a class="ref fn" href="#print" title='print' data-ref="print" data-ref-filename="print">print</a>(<q>"yielding cpu..."</q>);</td></tr>
+<tr><th id="32">32</th><td>        <a class="ref fn" href="../../build/include/mos/ksyscall/usermode.h.html#invoke_ksyscall_yield_cpu" title='invoke_ksyscall_yield_cpu' data-ref="invoke_ksyscall_yield_cpu" data-ref-filename="invoke_ksyscall_yield_cpu">invoke_ksyscall_yield_cpu</a>();</td></tr>
+<tr><th id="33">33</th><td>        <a class="ref fn" href="#print" title='print' data-ref="print" data-ref-filename="print">print</a>(<q>"we are back!"</q>);</td></tr>
+<tr><th id="34">34</th><td>    }</td></tr>
+<tr><th id="35">35</th><td>}</td></tr>
+<tr><th id="36">36</th><td></td></tr>
+</table><hr/><p id='footer'>
+Generated on <em>2022-Oct-11</em> from project MOS<br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
+<br/>Generator usage only permitted with license.</p>
+</div></body></html>

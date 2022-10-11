@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>context.h source code [MOS/arch/x86/include/mos/x86/tasks/context.h] - Woboq Code Browser</title>
+<link rel="stylesheet" href="/mos-code-browser/data/qtcreator.css" title="QtCreator"/>
+<link rel="alternate stylesheet" href="/mos-code-browser/data/kdevelop.css" title="KDevelop"/>
+<script type="text/javascript" src="/mos-code-browser/data/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="/mos-code-browser/data/jquery/jquery-ui.min.js"></script>
+<script>var file = 'MOS/arch/x86/include/mos/x86/tasks/context.h'; var root_path = '../../../../../../..'; var data_path = '/mos-code-browser/data'; var ecma_script_api_version = 2;</script>
+<script src='/mos-code-browser/data/codebrowser.js'></script>
+</head>
+<body><div id='header'><h1 id='breadcrumb'><span>Browse the source code of </span><a href='../../../../../..'>MOS</a>/<a href='../../../../..'>arch</a>/<a href='../../../..'>x86</a>/<a href='../../..'>include</a>/<a href='../..'>mos</a>/<a href='..'>x86</a>/<a href='./'>tasks</a>/<a href='context.h.html'>context.h</a></h1></div>
+<hr/><div id='content'><table class="code">
+<tr><th id="1">1</th><td><i>// SPDX-License-Identifier: GPL-3.0-or-later</i></td></tr>
+<tr><th id="2">2</th><td></td></tr>
+<tr><th id="3">3</th><td><u>#pragma once</u></td></tr>
+<tr><th id="4">4</th><td></td></tr>
+<tr><th id="5">5</th><td><u>#include <a href="../../../../../../include/mos/tasks/task_type.h.html">"mos/tasks/task_type.h"</a></u></td></tr>
+<tr><th id="6">6</th><td><u>#include <a href="../../../../../../include/mos/types.h.html">"mos/types.h"</a></u></td></tr>
+<tr><th id="7">7</th><td></td></tr>
+<tr><th id="8">8</th><td><em>void</em> <a class="decl fn" href="../../../../tasks/context.c.html#x86_setup_thread_context" title='x86_setup_thread_context' data-ref="x86_setup_thread_context" data-ref-filename="x86_setup_thread_context" id="x86_setup_thread_context">x86_setup_thread_context</a>(<a class="typedef" href="../../../../../../include/mos/tasks/task_type.h.html#thread_t" title='thread_t' data-type='struct _thread' data-ref="thread_t" data-ref-filename="thread_t">thread_t</a> *<dfn class="local col1 decl" id="1thread" title='thread' data-type='thread_t *' data-ref="1thread" data-ref-filename="1thread">thread</dfn>, <a class="typedef" href="../../../../../../include/mos/tasks/task_type.h.html#thread_entry_t" title='thread_entry_t' data-type='void (*)(void *)' data-ref="thread_entry_t" data-ref-filename="thread_entry_t">thread_entry_t</a> <dfn class="local col2 decl" id="2entry" title='entry' data-type='thread_entry_t' data-ref="2entry" data-ref-filename="2entry">entry</dfn>, <em>void</em> *<dfn class="local col3 decl" id="3arg" title='arg' data-type='void *' data-ref="3arg" data-ref-filename="3arg">arg</dfn>);</td></tr>
+<tr><th id="9">9</th><td></td></tr>
+<tr><th id="10">10</th><td><em>void</em> <a class="decl fn" href="../../../../tasks/context.c.html#x86_context_switch" title='x86_context_switch' data-ref="x86_context_switch" data-ref-filename="x86_context_switch" id="x86_context_switch">x86_context_switch</a>(<a class="typedef" href="../../../../../../include/mos/types.h.html#uintptr_t" title='uintptr_t' data-type='unsigned long' data-ref="uintptr_t" data-ref-filename="uintptr_t">uintptr_t</a> *<dfn class="local col4 decl" id="4old_stack" title='old_stack' data-type='uintptr_t *' data-ref="4old_stack" data-ref-filename="4old_stack">old_stack</dfn>, <a class="typedef" href="../../../../../../include/mos/tasks/task_type.h.html#thread_t" title='thread_t' data-type='struct _thread' data-ref="thread_t" data-ref-filename="thread_t">thread_t</a> *<dfn class="local col5 decl" id="5to" title='to' data-type='thread_t *' data-ref="5to" data-ref-filename="5to">to</dfn>);</td></tr>
+<tr><th id="11">11</th><td><em>void</em> <a class="decl fn" href="../../../../tasks/context.c.html#x86_context_switch_to_scheduler" title='x86_context_switch_to_scheduler' data-ref="x86_context_switch_to_scheduler" data-ref-filename="x86_context_switch_to_scheduler" id="x86_context_switch_to_scheduler">x86_context_switch_to_scheduler</a>(<a class="typedef" href="../../../../../../include/mos/types.h.html#uintptr_t" title='uintptr_t' data-type='unsigned long' data-ref="uintptr_t" data-ref-filename="uintptr_t">uintptr_t</a> *<dfn class="local col6 decl" id="6old_stack" title='old_stack' data-type='uintptr_t *' data-ref="6old_stack" data-ref-filename="6old_stack">old_stack</dfn>, <a class="typedef" href="../../../../../../include/mos/types.h.html#uintptr_t" title='uintptr_t' data-type='unsigned long' data-ref="uintptr_t" data-ref-filename="uintptr_t">uintptr_t</a> <dfn class="local col7 decl" id="7new_stack" title='new_stack' data-type='uintptr_t' data-ref="7new_stack" data-ref-filename="7new_stack">new_stack</dfn>);</td></tr>
+<tr><th id="12">12</th><td></td></tr>
+</table><hr/><p id='footer'>
+Generated while processing <a href='../../../../tasks/context.c.html'>MOS/arch/x86/tasks/context.c</a><br/>Generated on <em>2022-Oct-11</em> from project MOS<br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
+<br/>Generator usage only permitted with license.</p>
+</div></body></html>

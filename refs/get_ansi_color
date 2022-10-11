@@ -1,0 +1,2 @@
+<def f='MOS/arch/x86/devices/serial_console.c' l='42' ll='71' type='void get_ansi_color(char * buf, standard_color_t fg, standard_color_t bg)'/>
+<use f='MOS/arch/x86/devices/serial_console.c' l='79' u='c' c='serial_console_set_color'/>

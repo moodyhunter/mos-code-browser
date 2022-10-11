@@ -1,0 +1,4 @@
+<dec f='MOS/arch/x86/include/mos/x86/interrupt/idt_types.h' l='17' type='u32'/>
+<offset>48</offset>
+<doc f='MOS/arch/x86/include/mos/x86/interrupt/idt_types.h' l='17'>// The upper 16 bits of the ISR&apos;s address</doc>
+<use f='MOS/arch/x86/interrupt/idt.c' l='26' u='w' c='idt_set_descriptor'/>

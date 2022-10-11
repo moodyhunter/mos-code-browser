@@ -1,0 +1,6 @@
+<dec f='MOS/arch/x86/include/mos/x86/devices/serial.h' l='133' type='int serial_device_write(serial_device_t * device, const char * data, size_t length)'/>
+<use f='MOS/arch/x86/devices/serial.c' l='104' u='c' c='serial_device_setup'/>
+<def f='MOS/arch/x86/devices/serial.c' l='130' ll='140' type='int serial_device_write(serial_device_t * device, const char * data, size_t length)'/>
+<use f='MOS/arch/x86/devices/serial_console.c' l='31' u='c' c='serial_console_write'/>
+<use f='MOS/arch/x86/devices/serial_console.c' l='32' u='c' c='serial_console_write'/>
+<use f='MOS/arch/x86/devices/serial_console.c' l='80' u='c' c='serial_console_set_color'/>

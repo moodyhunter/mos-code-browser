@@ -1,0 +1,3 @@
+<dec f='MOS/arch/x86/include/mos/x86/boot/multiboot.h' l='69' type='u32'/>
+<offset>64</offset>
+<doc f='MOS/arch/x86/include/mos/x86/boot/multiboot.h' l='68'>/* The above fields plus this one must equal 0 mod 2^32. */</doc>

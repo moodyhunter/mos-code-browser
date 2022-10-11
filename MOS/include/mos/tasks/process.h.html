@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>process.h source code [MOS/include/mos/tasks/process.h] - Woboq Code Browser</title>
+<link rel="stylesheet" href="/mos-code-browser/data/qtcreator.css" title="QtCreator"/>
+<link rel="alternate stylesheet" href="/mos-code-browser/data/kdevelop.css" title="KDevelop"/>
+<script type="text/javascript" src="/mos-code-browser/data/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="/mos-code-browser/data/jquery/jquery-ui.min.js"></script>
+<script>var file = 'MOS/include/mos/tasks/process.h'; var root_path = '../../../..'; var data_path = '/mos-code-browser/data'; var ecma_script_api_version = 2;</script>
+<script src='/mos-code-browser/data/codebrowser.js'></script>
+</head>
+<body><div id='header'><h1 id='breadcrumb'><span>Browse the source code of </span><a href='../../..'>MOS</a>/<a href='../..'>include</a>/<a href='..'>mos</a>/<a href='./'>tasks</a>/<a href='process.h.html'>process.h</a></h1></div>
+<hr/><div id='content'><table class="code">
+<tr><th id="1">1</th><td><i>// SPDX-License-Identifier: GPL-3.0-or-later</i></td></tr>
+<tr><th id="2">2</th><td></td></tr>
+<tr><th id="3">3</th><td><u>#pragma once</u></td></tr>
+<tr><th id="4">4</th><td></td></tr>
+<tr><th id="5">5</th><td><u>#include <a href="task_type.h.html">"mos/tasks/task_type.h"</a></u></td></tr>
+<tr><th id="6">6</th><td><u>#include <a href="../types.h.html">"mos/types.h"</a></u></td></tr>
+<tr><th id="7">7</th><td></td></tr>
+<tr><th id="8">8</th><td><em>void</em> <dfn class="decl fn" id="process_init" title='process_init' data-ref="process_init" data-ref-filename="process_init">process_init</dfn>();</td></tr>
+<tr><th id="9">9</th><td><em>void</em> <dfn class="decl fn" id="process_deinit" title='process_deinit' data-ref="process_deinit" data-ref-filename="process_deinit">process_deinit</dfn>();</td></tr>
+<tr><th id="10">10</th><td></td></tr>
+<tr><th id="11">11</th><td><a class="typedef" href="task_type.h.html#process_t" title='process_t' data-type='struct process_t' data-ref="process_t" data-ref-filename="process_t">process_t</a> *<dfn class="decl fn" id="create_process" title='create_process' data-ref="create_process" data-ref-filename="create_process">create_process</dfn>(<a class="typedef" href="../types.h.html#71" title='process_id_t' data-type='struct process_id_t' data-ref="process_id_t" data-ref-filename="process_id_t">process_id_t</a> <dfn class="local col5 decl" id="5parent_pid" title='parent_pid' data-type='process_id_t' data-ref="5parent_pid" data-ref-filename="5parent_pid">parent_pid</dfn>, <a class="typedef" href="../types.h.html#69" title='uid_t' data-type='struct uid_t' data-ref="uid_t" data-ref-filename="uid_t">uid_t</a> <dfn class="local col6 decl" id="6effective_uid" title='effective_uid' data-type='uid_t' data-ref="6effective_uid" data-ref-filename="6effective_uid">effective_uid</dfn>, <a class="typedef" href="task_type.h.html#thread_entry_t" title='thread_entry_t' data-type='void (*)(void *)' data-ref="thread_entry_t" data-ref-filename="thread_entry_t">thread_entry_t</a> <dfn class="local col7 decl" id="7entry" title='entry' data-type='thread_entry_t' data-ref="7entry" data-ref-filename="7entry">entry</dfn>, <em>void</em> *<dfn class="local col8 decl" id="8arg" title='arg' data-type='void *' data-ref="8arg" data-ref-filename="8arg">arg</dfn>);</td></tr>
+<tr><th id="12">12</th><td><a class="typedef" href="task_type.h.html#process_t" title='process_t' data-type='struct process_t' data-ref="process_t" data-ref-filename="process_t">process_t</a> *<dfn class="decl fn" id="get_process" title='get_process' data-ref="get_process" data-ref-filename="get_process">get_process</dfn>(<a class="typedef" href="../types.h.html#71" title='process_id_t' data-type='struct process_id_t' data-ref="process_id_t" data-ref-filename="process_id_t">process_id_t</a> <dfn class="local col9 decl" id="9pid" title='pid' data-type='process_id_t' data-ref="9pid" data-ref-filename="9pid">pid</dfn>);</td></tr>
+<tr><th id="13">13</th><td></td></tr>
+</table><hr/><p id='footer'>
+Generated while processing <a href='../../../kernel/kernel_init.c.html'>MOS/kernel/kernel_init.c</a><br/>Generated on <em>2022-Oct-11</em> from project MOS<br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
+<br/>Generator usage only permitted with license.</p>
+</div></body></html>

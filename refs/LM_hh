@@ -1,0 +1,5 @@
+<dec f='MOS/lib/stdio_impl.c' l='12' type='1'/>
+<use f='MOS/lib/stdio_impl.c' l='133' u='r' c='parse_printf_flags'/>
+<use f='MOS/lib/stdio_impl.c' l='234' c='printf_diouxX'/>
+<use f='MOS/lib/stdio_impl.c' l='464' c='vsnprintf'/>
+<doc f='MOS/lib/stdio_impl.c' l='11'>// char</doc>

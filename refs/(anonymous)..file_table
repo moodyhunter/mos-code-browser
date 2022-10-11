@@ -1,0 +1,6 @@
+<dec f='MOS/include/mos/tasks/task_type.h' l='32' type='io_t *[256]'/>
+<offset>192</offset>
+<use f='MOS/kernel/ksyscall.c' l='39' u='r' c='ksyscall_io_write'/>
+<use f='MOS/kernel/tasks/task_io.c' l='57' u='w' c='process_stdio_setup'/>
+<use f='MOS/kernel/tasks/task_io.c' l='58' u='w' c='process_stdio_setup'/>
+<use f='MOS/kernel/tasks/task_io.c' l='59' u='w' c='process_stdio_setup'/>

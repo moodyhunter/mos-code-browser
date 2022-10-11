@@ -1,0 +1,2 @@
+<def f='MOS/kernel/filesystem/cpio/cpio.c' l='106' ll='110' macro='1' type='_Bool cpio_unmount(mountpoint_t * mountpoint)'/>
+<use f='MOS/kernel/filesystem/cpio/cpio.c' l='219' u='r'/>

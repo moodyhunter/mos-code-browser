@@ -1,0 +1,2 @@
+<dec f='MOS/arch/x86/include/mos/x86/interrupt/apic.h' l='17'/>
+<use f='MOS/arch/x86/interrupt/apic.c' l='78' u='c'/>

@@ -1,0 +1,22 @@
+<dec f='MOS/include/lib/containers.h' l='20' type='tree_node_t *'/>
+<offset>0</offset>
+<use f='MOS/kernel/filesystem/filesystem.c' l='174' macro='1' u='r' c='vfs_path_readlink'/>
+<use f='MOS/kernel/filesystem/pathutils.c' l='25' u='w'/>
+<use f='MOS/kernel/filesystem/pathutils.c' l='40' macro='1' u='r' c='impl_path_get_subpath'/>
+<use f='MOS/kernel/filesystem/pathutils.c' l='164' u='r' c='path_to_string_relative'/>
+<use f='MOS/lib/structures/tree.c' l='14' u='r' c='tree_add_child'/>
+<use f='MOS/lib/structures/tree.c' l='17' u='w' c='tree_add_child'/>
+<use f='MOS/lib/structures/tree.c' l='56' u='r' c='tree_find_common_prefix'/>
+<use f='MOS/lib/structures/tree.c' l='56' u='r' c='tree_find_common_prefix'/>
+<use f='MOS/lib/structures/tree.c' l='58' u='r' c='tree_find_common_prefix'/>
+<use f='MOS/lib/structures/tree.c' l='60' u='r' c='tree_find_common_prefix'/>
+<use f='MOS/lib/structures/tree.c' l='62' u='r' c='tree_find_common_prefix'/>
+<use f='MOS/lib/structures/tree.c' l='62' u='r' c='tree_find_common_prefix'/>
+<use f='MOS/lib/structures/tree.c' l='63' u='r' c='tree_find_common_prefix'/>
+<use f='MOS/lib/structures/tree.c' l='64' u='r' c='tree_find_common_prefix'/>
+<use f='MOS/lib/structures/tree.c' l='64' u='r' c='tree_find_common_prefix'/>
+<use f='MOS/lib/structures/tree.c' l='72' u='r' c='tree_trace_to_root'/>
+<use f='MOS/tests/fs_api/test_fs_api.c' l='15' u='w' c='test_fs_api_path_is_prefix'/>
+<use f='MOS/tests/fs_api/test_fs_api.c' l='25' u='w' c='test_fs_api_path_is_prefix'/>
+<use f='MOS/tests/fs_api/test_fs_api.c' l='35' u='w' c='test_fs_api_path_is_prefix'/>
+<use f='MOS/tests/fs_api/test_fs_api.c' l='45' u='w' c='test_fs_api_path_is_prefix'/>

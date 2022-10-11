@@ -1,0 +1,3 @@
+<dec f='MOS/include/lib/structures/list.h' l='25' type='void list_node_insert_before(list_node_t * element, list_node_t * item)'/>
+<def f='MOS/lib/structures/list.c' l='47' ll='50' type='void list_node_insert_before(list_node_t * element, list_node_t * item)'/>
+<use f='MOS/tests/linked_list/test_linked_list.c' l='122' u='c' c='test_list_node_insert'/>

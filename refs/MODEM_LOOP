@@ -1,0 +1,5 @@
+<dec f='MOS/arch/x86/include/mos/x86/devices/serial.h' l='72' type='16'/>
+<use f='MOS/arch/x86/devices/serial.c' l='70' c='serial_set_modem_options'/>
+<use f='MOS/arch/x86/devices/serial.c' l='103' u='r' c='serial_device_setup'/>
+<use f='MOS/arch/x86/devices/serial.c' l='106' u='r' c='serial_device_setup'/>
+<doc f='MOS/arch/x86/include/mos/x86/devices/serial.h' l='72'>// Loopback</doc>

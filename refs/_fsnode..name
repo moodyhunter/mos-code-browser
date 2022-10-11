@@ -1,0 +1,37 @@
+<dec f='MOS/include/mos/filesystem/filesystem.h' l='84' type='const char *'/>
+<offset>256</offset>
+<use f='MOS/kernel/filesystem/filesystem.c' l='19' u='r' c='vfs_io_ops_close'/>
+<use f='MOS/kernel/filesystem/filesystem.c' l='35' u='r' c='vfs_io_ops_read'/>
+<use f='MOS/kernel/filesystem/filesystem.c' l='48' u='r' c='vfs_io_ops_write'/>
+<use f='MOS/kernel/filesystem/filesystem.c' l='108' u='r' c='vfs_path_open'/>
+<use f='MOS/kernel/filesystem/filesystem.c' l='112' u='r' c='vfs_path_open'/>
+<use f='MOS/kernel/filesystem/filesystem.c' l='117' u='r' c='vfs_path_open'/>
+<use f='MOS/kernel/filesystem/filesystem.c' l='133' u='r' c='vfs_path_open'/>
+<use f='MOS/kernel/filesystem/filesystem.c' l='148' u='r' c='vfs_path_readlink'/>
+<use f='MOS/kernel/filesystem/filesystem.c' l='155' u='r' c='vfs_path_readlink'/>
+<use f='MOS/kernel/filesystem/filesystem.c' l='161' u='r' c='vfs_path_readlink'/>
+<use f='MOS/kernel/filesystem/filesystem.c' l='168' u='r' c='vfs_path_readlink'/>
+<use f='MOS/kernel/filesystem/filesystem.c' l='183' u='r' c='vfs_path_stat'/>
+<use f='MOS/kernel/filesystem/mount.c' l='24' u='r' c='kmount_add_mp'/>
+<use f='MOS/kernel/filesystem/mount.c' l='40' u='r' c='kmount'/>
+<use f='MOS/kernel/filesystem/mount.c' l='53' u='r' c='kmount'/>
+<use f='MOS/kernel/filesystem/mount.c' l='65' u='r' c='kunmount'/>
+<use f='MOS/kernel/filesystem/mount.c' l='70' u='r' c='kunmount'/>
+<use f='MOS/kernel/filesystem/mount.c' l='76' u='r' c='kunmount'/>
+<use f='MOS/kernel/filesystem/mount.c' l='105' u='r' c='kmount_find_submp'/>
+<use f='MOS/kernel/filesystem/mount.c' l='107' u='r' c='kmount_find_submp'/>
+<use f='MOS/kernel/filesystem/mount.c' l='107' u='r' c='kmount_find_submp'/>
+<use f='MOS/kernel/filesystem/pathutils.c' l='14' u='r' c='path_node_get_name'/>
+<use f='MOS/kernel/filesystem/pathutils.c' l='15' u='r' c='path_node_get_name'/>
+<use f='MOS/kernel/filesystem/pathutils.c' l='23' u='w'/>
+<use f='MOS/kernel/filesystem/pathutils.c' l='60' u='w' c='impl_path_get_subpath'/>
+<use f='MOS/kernel/filesystem/pathutils.c' l='152' u='r' c='path_to_string_relative'/>
+<use f='MOS/kernel/filesystem/pathutils.c' l='152' u='r' c='path_to_string_relative'/>
+<use f='MOS/kernel/filesystem/pathutils.c' l='160' u='r' c='path_to_string_relative'/>
+<use f='MOS/kernel/filesystem/pathutils.c' l='162' u='r' c='path_to_string_relative'/>
+<use f='MOS/kernel/filesystem/pathutils.c' l='177' u='r' c='path_treeop_decrement_refcount'/>
+<use f='MOS/kernel/filesystem/pathutils.c' l='184' u='r' c='path_treeop_increment_refcount'/>
+<use f='MOS/tests/fs_api/test_fs_api.c' l='13' u='w' c='test_fs_api_path_is_prefix'/>
+<use f='MOS/tests/fs_api/test_fs_api.c' l='23' u='w' c='test_fs_api_path_is_prefix'/>
+<use f='MOS/tests/fs_api/test_fs_api.c' l='33' u='w' c='test_fs_api_path_is_prefix'/>
+<use f='MOS/tests/fs_api/test_fs_api.c' l='43' u='w' c='test_fs_api_path_is_prefix'/>

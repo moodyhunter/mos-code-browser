@@ -1,0 +1,2 @@
+<def f='MOS/kernel/filesystem/cpio/cpio.c' l='83' ll='104' macro='1' type='_Bool cpio_mount(blockdev_t * dev, fsnode_t * path)'/>
+<use f='MOS/kernel/filesystem/cpio/cpio.c' l='218' u='r'/>

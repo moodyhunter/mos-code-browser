@@ -1,0 +1,3 @@
+<dec f='MOS/arch/x86/include/mos/x86/boot/multiboot.h' l='157' type='u32'/>
+<offset>576</offset>
+<doc f='MOS/arch/x86/include/mos/x86/boot/multiboot.h' l='156'>/* Boot Loader Name */</doc>

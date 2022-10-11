@@ -1,0 +1,13 @@
+<dec f='MOS/include/mos/types.h' l='51' type='struct (anonymous struct at /home/runner/work/MOS/MOS/include/mos/types.h:41:5)'/>
+<offset>0</offset>
+<use f='MOS/arch/x86/devices/serial.c' l='18' u='m' c='set_baudrate_divisor'/>
+<use f='MOS/arch/x86/devices/serial.c' l='29' u='m' c='set_baudrate_divisor'/>
+<use f='MOS/arch/x86/devices/serial.c' l='43' u='m' c='set_stop_bits'/>
+<use f='MOS/arch/x86/devices/serial.c' l='66' u='m' c='serial_set_modem_options'/>
+<use f='MOS/arch/x86/devices/serial.c' l='67' u='m' c='serial_set_modem_options'/>
+<use f='MOS/arch/x86/devices/serial.c' l='68' u='m' c='serial_set_modem_options'/>
+<use f='MOS/arch/x86/devices/serial.c' l='69' u='m' c='serial_set_modem_options'/>
+<use f='MOS/arch/x86/devices/serial.c' l='70' u='m' c='serial_set_modem_options'/>
+<dec f='MOS/include/mos/elf/elf.h' l='53' type='elf_bits'/>
+<use f='MOS/kernel/elf/elf.c' l='19' u='r' c='mos_elf_verify_header'/>
+<offset>32</offset>

@@ -1,0 +1,12 @@
+cpu_get_msr|cpu_get_msr
+cpu_set_msr|cpu_set_msr
+cpuid_get_manufacturer|cpuid_get_manufacturer
+cpuid_get_processor_info|cpuid_get_processor_info
+cpio_close|cpio_close
+cpio_mount|cpio_mount
+cpio_open|cpio_open
+cpio_read|cpio_read
+cpio_read_metadata|cpio_read_metadata
+cpio_readlink|cpio_readlink
+cpio_stat|cpio_stat
+cpio_unmount|cpio_unmount

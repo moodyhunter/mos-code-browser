@@ -1,0 +1,2 @@
+<dec f='MOS/include/lib/string.h' l='15' type='void strcpy(char * dest, const char * src)'/>
+<def f='MOS/lib/string.c' l='94' ll='99' type='void strcpy(char * dest, const char * src)'/>

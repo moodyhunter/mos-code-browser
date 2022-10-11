@@ -1,0 +1,4 @@
+<dec f='MOS/arch/x86/include/mos/x86/mm/pmem_freelist.h' l='15' type='size_t pmem_freelist_add_region(uintptr_t start_addr, size_t size_bytes)'/>
+<use f='MOS/arch/x86/mm/paging_impl.c' l='135' u='c' c='pg_unmap_pages'/>
+<use f='MOS/arch/x86/mm/pmem_freelist.c' l='68' u='c' c='pmem_freelist_setup'/>
+<def f='MOS/arch/x86/mm/pmem_freelist.c' l='77' ll='156' type='size_t pmem_freelist_add_region(uintptr_t start_addr, size_t size_bytes)'/>

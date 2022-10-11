@@ -1,0 +1,9 @@
+<dec f='MOS/include/mos/filesystem/cpio/cpio.h' l='37' type='size_t'/>
+<use f='MOS/kernel/filesystem/cpio/cpio.c' l='70' u='w' c='cpio_read_metadata'/>
+<use f='MOS/kernel/filesystem/cpio/cpio.c' l='136' u='r' c='cpio_read'/>
+<use f='MOS/kernel/filesystem/cpio/cpio.c' l='136' u='r' c='cpio_read'/>
+<use f='MOS/kernel/filesystem/cpio/cpio.c' l='154' u='r' c='cpio_stat'/>
+<use f='MOS/kernel/filesystem/cpio/cpio.c' l='199' u='r' c='cpio_readlink'/>
+<use f='MOS/kernel/filesystem/cpio/cpio.c' l='205' u='r' c='cpio_readlink'/>
+<use f='MOS/kernel/filesystem/cpio/cpio.c' l='205' u='r' c='cpio_readlink'/>
+<offset>1152</offset>

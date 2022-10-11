@@ -1,0 +1,5 @@
+<dec f='MOS/include/mos/mm/liballoc.h' l='31' type='void liballoc_free(const void * ptr)'/>
+<use f='MOS/include/mos/mm/kmalloc.h' l='25' u='c' c='kfree'/>
+<def f='MOS/kernel/mm/liballoc.c' l='476' ll='569' type='void liballoc_free(const void * ptr)'/>
+<use f='MOS/kernel/mm/liballoc.c' l='586' u='c' c='liballoc_realloc'/>
+<use f='MOS/kernel/mm/liballoc.c' l='652' u='c' c='liballoc_realloc'/>

@@ -1,0 +1,2 @@
+<dec f='MOS/arch/x86/gdt/gdt.c' l='30' type='0'/>
+<use f='MOS/arch/x86/gdt/gdt.c' l='73' u='r' c='x86_gdt_init'/>

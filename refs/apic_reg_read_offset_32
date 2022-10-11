@@ -1,0 +1,6 @@
+<dec f='MOS/arch/x86/include/mos/x86/interrupt/apic.h' l='60' type='u32 apic_reg_read_offset_32(u32 offset)'/>
+<use f='MOS/arch/x86/cpu/cpu.c' l='9' u='c' c='x86_cpu_get_id'/>
+<def f='MOS/arch/x86/interrupt/apic.c' l='40' ll='43' type='u32 apic_reg_read_offset_32(u32 offset)'/>
+<use f='MOS/arch/x86/interrupt/apic.c' l='61' u='c' c='apic_wait_sent'/>
+<use f='MOS/arch/x86/interrupt/apic.c' l='112' u='c' c='apic_enable'/>
+<use f='MOS/arch/x86/interrupt/apic.c' l='114' u='c' c='apic_enable'/>

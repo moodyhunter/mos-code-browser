@@ -1,0 +1,7 @@
+<dec f='MOS/include/mos/io/io.h' l='24' type='size_t (*)(io_t *, const void *, size_t)'/>
+<offset>192</offset>
+<use f='MOS/kernel/filesystem/filesystem.c' l='57' u='w'/>
+<use f='MOS/kernel/io/io.c' l='53' u='r' c='io_write'/>
+<use f='MOS/kernel/io/io.c' l='58' u='r' c='io_write'/>
+<use f='MOS/kernel/tasks/task_io.c' l='40' u='w'/>
+<use f='MOS/kernel/tasks/task_io.c' l='41' u='w'/>

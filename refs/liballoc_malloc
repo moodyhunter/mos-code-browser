@@ -1,0 +1,7 @@
+<dec f='MOS/include/mos/mm/liballoc.h' l='28' type='void * liballoc_malloc(size_t size)'/>
+<use f='MOS/include/mos/mm/kmalloc.h' l='10' u='c' c='kmalloc'/>
+<def f='MOS/kernel/mm/liballoc.c' l='186' ll='474' type='void * liballoc_malloc(size_t req_size)'/>
+<use f='MOS/kernel/mm/liballoc.c' l='208' u='c' c='liballoc_malloc'/>
+<use f='MOS/kernel/mm/liballoc.c' l='575' u='c' c='liballoc_calloc'/>
+<use f='MOS/kernel/mm/liballoc.c' l='592' u='c' c='liballoc_realloc'/>
+<use f='MOS/kernel/mm/liballoc.c' l='650' u='c' c='liballoc_realloc'/>

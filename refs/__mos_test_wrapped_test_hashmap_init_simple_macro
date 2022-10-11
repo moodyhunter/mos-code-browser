@@ -1,0 +1,2 @@
+<def f='MOS/tests/hashmap/test_hashmap.c' l='9' macro='1' type='void __mos_test_wrapped_test_hashmap_init_simple_macro(TestResult * result)'/>
+<use f='MOS/tests/hashmap/test_hashmap.c' l='9' macro='1' u='r'/>

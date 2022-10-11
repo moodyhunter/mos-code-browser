@@ -1,0 +1,14 @@
+<def f='MOS/arch/x86/include/mos/x86/boot/multiboot.h' l='60' ll='83'/>
+<size>48</size>
+<mbr r='multiboot_header::magic' o='0' t='u32'/>
+<mbr r='multiboot_header::flags' o='32' t='u32'/>
+<mbr r='multiboot_header::checksum' o='64' t='u32'/>
+<mbr r='multiboot_header::header_addr' o='96' t='u32'/>
+<mbr r='multiboot_header::load_addr' o='128' t='u32'/>
+<mbr r='multiboot_header::load_end_addr' o='160' t='u32'/>
+<mbr r='multiboot_header::bss_end_addr' o='192' t='u32'/>
+<mbr r='multiboot_header::entry_addr' o='224' t='u32'/>
+<mbr r='multiboot_header::mode_type' o='256' t='u32'/>
+<mbr r='multiboot_header::width' o='288' t='u32'/>
+<mbr r='multiboot_header::height' o='320' t='u32'/>
+<mbr r='multiboot_header::depth' o='352' t='u32'/>

@@ -1,0 +1,2 @@
+<def f='MOS/tests/linked_list/test_linked_list.c' l='173' macro='1' type='void __mos_test_wrapped_test_test_list_macros(TestResult * result)'/>
+<use f='MOS/tests/linked_list/test_linked_list.c' l='173' macro='1'/>
