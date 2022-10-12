@@ -1,6 +1,5 @@
 <dec f='MOS/arch/x86/include/mos/x86/mm/paging.h' l='11' type='x86_pg_infra_t *'/>
-<use f='MOS/arch/x86/cpu/smp.c' l='50' u='r' c='ap_begin_exec'/>
-<use f='MOS/arch/x86/cpu/smp.c' l='71' u='r' c='x86_cpu_start'/>
+<use f='MOS/arch/x86/cpu/smp.c' l='51' u='r' c='ap_begin_exec'/>
 <use f='MOS/arch/x86/interrupt/apic.c' l='112' u='r' c='apic_enable'/>
 <def f='MOS/arch/x86/mm/paging.c' l='23' type='x86_pg_infra_t *'/>
 <use f='MOS/arch/x86/mm/paging.c' l='33' u='r' c='x86_mm_prepare_paging'/>

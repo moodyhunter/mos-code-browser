@@ -1,4 +1,4 @@
 <dec f='MOS/arch/x86/include/mos/x86/interrupt/apic.h' l='57' type='void apic_interrupt(u8 vec, u8 dest, apic_delivery_mode_t delivery_mode, apic_dest_mode_t dest_mode, apic_shorthand_t shorthand)'/>
-<use f='MOS/arch/x86/cpu/smp.c' l='82' u='c' c='x86_cpu_start'/>
-<use f='MOS/arch/x86/cpu/smp.c' l='84' u='c' c='x86_cpu_start'/>
+<use f='MOS/arch/x86/cpu/smp.c' l='89' u='c' c='x86_cpu_start'/>
+<use f='MOS/arch/x86/cpu/smp.c' l='91' u='c' c='x86_cpu_start'/>
 <def f='MOS/arch/x86/interrupt/apic.c' l='88' ll='91' type='void apic_interrupt(u8 vec, u8 dest, apic_delivery_mode_t delivery_mode, apic_dest_mode_t dest_mode, apic_shorthand_t shorthand)'/>

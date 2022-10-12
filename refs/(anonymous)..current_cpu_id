@@ -1,7 +1,7 @@
 <dec f='MOS/include/mos/platform/platform.h' l='70' type='u32 (*const)(void)'/>
 <offset>3712</offset>
-<use f='MOS/arch/x86/cpu/smp.c' l='58' macro='1' u='r' c='ap_begin_exec'/>
-<use f='MOS/arch/x86/cpu/smp.c' l='110' macro='1' u='r' c='x86_smp_init'/>
+<use f='MOS/arch/x86/cpu/smp.c' l='59' macro='1' u='r' c='ap_begin_exec'/>
+<use f='MOS/arch/x86/cpu/smp.c' l='117' macro='1' u='r' c='x86_smp_init'/>
 <use f='MOS/arch/x86/x86_platform.c' l='148' u='w'/>
 <use f='MOS/kernel/ksyscall.c' l='38' macro='1' u='r' c='ksyscall_io_write'/>
 <use f='MOS/kernel/tasks/schedule.c' l='16' macro='1' u='r' c='schedule_to_thread'/>
