@@ -1,5 +1,6 @@
 cpu_get_msr|cpu_get_msr
 cpu_set_msr|cpu_set_msr
+cpuid_get_brand_string|cpuid_get_brand_string
 cpuid_get_manufacturer|cpuid_get_manufacturer
 cpuid_get_processor_info|cpuid_get_processor_info
 cpio_close|cpio_close

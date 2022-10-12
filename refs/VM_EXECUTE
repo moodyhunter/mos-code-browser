@@ -1,4 +1,4 @@
 <dec f='MOS/include/mos/platform/platform.h' l='31' type='64'/>
-<use f='MOS/arch/x86/boot/multiboot/startup.c' l='156' u='r' c='x86_startup'/>
-<use f='MOS/arch/x86/boot/multiboot/startup.c' l='160' u='r' c='x86_startup'/>
+<use f='MOS/arch/x86/boot/multiboot/startup.c' l='158' u='r' c='x86_startup'/>
+<use f='MOS/arch/x86/boot/multiboot/startup.c' l='162' u='r' c='x86_startup'/>
 <use f='MOS/arch/x86/mm/paging.c' l='52' u='r' c='x86_mm_prepare_paging'/>

@@ -2,5 +2,5 @@
 <use f='MOS/arch/x86/acpi/acpi.c' l='41' u='c' c='x86_acpi_init'/>
 <use f='MOS/arch/x86/acpi/acpi.c' l='44' u='c' c='x86_acpi_init'/>
 <def f='MOS/arch/x86/acpi/acpi.c' l='142' ll='171' type='acpi_rsdp_t * find_acpi_rsdp(uintptr_t start, size_t size)'/>
-<use f='MOS/arch/x86/boot/multiboot/startup.c' l='184' u='c' c='x86_startup'/>
 <use f='MOS/arch/x86/boot/multiboot/startup.c' l='186' u='c' c='x86_startup'/>
+<use f='MOS/arch/x86/boot/multiboot/startup.c' l='188' u='c' c='x86_startup'/>

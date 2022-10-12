@@ -1,4 +1,7 @@
 <dec f='MOS/arch/x86/include/mos/x86/mm/paging.h' l='11' type='x86_pg_infra_t *'/>
+<use f='MOS/arch/x86/cpu/smp.c' l='50' u='r' c='ap_begin_exec'/>
+<use f='MOS/arch/x86/cpu/smp.c' l='71' u='r' c='x86_cpu_start'/>
+<use f='MOS/arch/x86/interrupt/apic.c' l='112' u='r' c='apic_enable'/>
 <def f='MOS/arch/x86/mm/paging.c' l='23' type='x86_pg_infra_t *'/>
 <use f='MOS/arch/x86/mm/paging.c' l='33' u='r' c='x86_mm_prepare_paging'/>
 <use f='MOS/arch/x86/mm/paging.c' l='36' u='r' c='x86_mm_prepare_paging'/>
@@ -17,7 +20,5 @@
 <use f='MOS/arch/x86/x86_platform.c' l='59' u='r' c='x86_kpanic_hook'/>
 <use f='MOS/arch/x86/x86_platform.c' l='88' u='r' c='x86_start_kernel'/>
 <use f='MOS/arch/x86/x86_platform.c' l='97' u='r' c='x86_start_kernel'/>
-<use f='MOS/arch/x86/x86_platform.c' l='103' u='r' c='x86_start_kernel'/>
-<use f='MOS/arch/x86/x86_platform.c' l='105' u='r' c='x86_start_kernel'/>
-<use f='MOS/arch/x86/x86_platform.c' l='114' u='r' c='x86_start_kernel'/>
-<use f='MOS/arch/x86/x86_platform.c' l='121' u='r' c='x86_start_kernel'/>
+<use f='MOS/arch/x86/x86_platform.c' l='110' u='r' c='x86_start_kernel'/>
+<use f='MOS/arch/x86/x86_platform.c' l='117' u='r' c='x86_start_kernel'/>

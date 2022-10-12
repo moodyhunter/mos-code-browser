@@ -1,6 +1,6 @@
 <def f='MOS/include/mos/boot/startup.h' l='51' ll='55' macro='1' type='void mos_startup_map_bios(uintptr_t paddr, size_t nbytes, vm_flags flags)'/>
-<use f='MOS/arch/x86/boot/multiboot/startup.c' l='148' u='c' c='x86_startup'/>
-<use f='MOS/arch/x86/boot/multiboot/startup.c' l='151' u='c' c='x86_startup'/>
-<use f='MOS/arch/x86/boot/multiboot/startup.c' l='152' u='c' c='x86_startup'/>
-<use f='MOS/arch/x86/boot/multiboot/startup.c' l='196' u='c' c='x86_startup'/>
-<use f='MOS/arch/x86/interrupt/apic.c' l='103' u='c' c='apic_enable'/>
+<use f='MOS/arch/x86/boot/multiboot/startup.c' l='150' u='c' c='x86_startup'/>
+<use f='MOS/arch/x86/boot/multiboot/startup.c' l='153' u='c' c='x86_startup'/>
+<use f='MOS/arch/x86/boot/multiboot/startup.c' l='154' u='c' c='x86_startup'/>
+<use f='MOS/arch/x86/boot/multiboot/startup.c' l='198' u='c' c='x86_startup'/>
+<use f='MOS/arch/x86/interrupt/apic.c' l='111' u='c' c='apic_enable'/>

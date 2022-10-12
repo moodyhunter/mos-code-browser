@@ -1,7 +1,6 @@
 <def f='MOS/include/mos/boot/startup.h' l='31' ll='35' macro='1' type='void mos_startup_map_pages(uintptr_t vaddr, uintptr_t paddr, size_t npages, vm_flags flags)'/>
 <use f='MOS/include/mos/boot/startup.h' l='42' u='c' c='mos_startup_map_bytes'/>
-<use f='MOS/arch/x86/boot/multiboot/startup.c' l='160' u='c' c='x86_startup'/>
-<use f='MOS/arch/x86/boot/multiboot/startup.c' l='163' u='c' c='x86_startup'/>
-<use f='MOS/arch/x86/boot/multiboot/startup.c' l='166' u='c' c='x86_startup'/>
-<use f='MOS/arch/x86/boot/multiboot/startup.c' l='173' u='c' c='x86_startup'/>
-<use f='MOS/arch/x86/cpu/smp.c' l='129' u='c' c='x86_smp_init'/>
+<use f='MOS/arch/x86/boot/multiboot/startup.c' l='162' u='c' c='x86_startup'/>
+<use f='MOS/arch/x86/boot/multiboot/startup.c' l='165' u='c' c='x86_startup'/>
+<use f='MOS/arch/x86/boot/multiboot/startup.c' l='168' u='c' c='x86_startup'/>
+<use f='MOS/arch/x86/boot/multiboot/startup.c' l='175' u='c' c='x86_startup'/>

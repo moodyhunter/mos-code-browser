@@ -1,5 +1,5 @@
 <dec f='MOS/include/mos/platform/platform.h' l='61' type='u32'/>
 <offset>416</offset>
-<use f='MOS/arch/x86/cpu/smp.c' l='112' u='w' c='x86_smp_init'/>
-<use f='MOS/arch/x86/cpu/smp.c' l='113' u='r' c='x86_smp_init'/>
-<use f='MOS/arch/x86/cpu/smp.c' l='135' u='r' c='x86_smp_init'/>
+<use f='MOS/arch/x86/cpu/smp.c' l='109' u='w' c='x86_smp_init'/>
+<use f='MOS/arch/x86/cpu/smp.c' l='110' u='r' c='x86_smp_init'/>
+<use f='MOS/arch/x86/cpu/smp.c' l='132' u='r' c='x86_smp_init'/>

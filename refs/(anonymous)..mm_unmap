@@ -1,3 +1,3 @@
 <dec f='MOS/include/mos/platform/platform.h' l='86' type='void (*const)(paging_handle_t, uintptr_t, size_t)'/>
 <offset>4416</offset>
-<use f='MOS/arch/x86/x86_platform.c' l='167' u='w'/>
+<use f='MOS/arch/x86/x86_platform.c' l='163' u='w'/>

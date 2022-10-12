@@ -1,0 +1,6 @@
+<dec f='MOS/arch/x86/include/mos/x86/cpu/smp.h' l='5'/>
+<use f='MOS/arch/x86/cpu/smp.c' l='82' u='c'/>
+<use f='MOS/arch/x86/cpu/smp.c' l='84' u='c'/>
+<use f='MOS/arch/x86/cpu/smp.c' l='126' u='c'/>
+<use f='MOS/arch/x86/cpu/smp.c' l='126' u='c'/>
+<use f='MOS/arch/x86/cpu/smp.c' l='127' u='c'/>

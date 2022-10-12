@@ -1,0 +1,2 @@
+<dec f='MOS/arch/x86/cpu/smp.c' l='135' type='const void'/>
+<use f='MOS/arch/x86/cpu/smp.c' l='136' u='a' c='x86_smp_init'/>

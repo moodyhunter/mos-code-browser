@@ -1,6 +1,7 @@
 <dec f='MOS/include/mos/printk.h' l='60'/>
-<use f='MOS/arch/x86/interrupt/apic.c' l='47' u='c'/>
-<use f='MOS/arch/x86/interrupt/apic.c' l='53' u='c'/>
+<use f='MOS/arch/x86/interrupt/apic.c' l='45' u='c'/>
+<use f='MOS/arch/x86/interrupt/apic.c' l='52' u='c'/>
+<use f='MOS/arch/x86/interrupt/apic.c' l='58' u='c'/>
 <use f='MOS/arch/x86/mm/paging.c' l='30' u='c'/>
 <use f='MOS/arch/x86/mm/paging.c' l='48' u='c'/>
 <use f='MOS/arch/x86/mm/paging.c' l='54' u='c'/>

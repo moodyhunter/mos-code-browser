@@ -1,6 +1,6 @@
 <dec f='MOS/arch/x86/include/mos/x86/boot/multiboot.h' l='146' type='u32'/>
 <offset>384</offset>
 <doc f='MOS/arch/x86/include/mos/x86/boot/multiboot.h' l='145'>/* Memory Mapping buffer */</doc>
-<use f='MOS/arch/x86/boot/multiboot/startup.c' l='145' u='r' c='x86_startup'/>
-<use f='MOS/arch/x86/boot/multiboot/startup.c' l='190' u='r' c='x86_startup'/>
+<use f='MOS/arch/x86/boot/multiboot/startup.c' l='147' u='r' c='x86_startup'/>
+<use f='MOS/arch/x86/boot/multiboot/startup.c' l='192' u='r' c='x86_startup'/>
 <use f='MOS/arch/x86/x86_platform.c' l='84' u='r' c='x86_start_kernel'/>

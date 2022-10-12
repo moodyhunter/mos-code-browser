@@ -5,4 +5,4 @@
 <use f='MOS/arch/x86/boot/multiboot/startup.c' l='67' u='r' c='print_debug_info'/>
 <use f='MOS/arch/x86/boot/multiboot/startup.c' l='68' u='r' c='print_debug_info'/>
 <use f='MOS/arch/x86/boot/multiboot/startup.c' l='69' u='r' c='print_debug_info'/>
-<use f='MOS/arch/x86/boot/multiboot/startup.c' l='181' u='w' c='x86_startup'/>
+<use f='MOS/arch/x86/boot/multiboot/startup.c' l='183' u='w' c='x86_startup'/>

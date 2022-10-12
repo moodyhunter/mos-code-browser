@@ -9,9 +9,9 @@
 <dec f='MOS/arch/x86/include/mos/x86/boot/multiboot.h' l='227' type='u16'/>
 <offset>96</offset>
 <doc f='MOS/arch/x86/include/mos/x86/boot/multiboot.h' l='122'>/* Multiboot info version number */</doc>
-<use f='MOS/arch/x86/boot/multiboot/startup.c' l='133' u='r' c='x86_startup'/>
-<use f='MOS/arch/x86/boot/multiboot/startup.c' l='141' u='r' c='x86_startup'/>
-<use f='MOS/arch/x86/boot/multiboot/startup.c' l='168' u='r' c='x86_startup'/>
+<use f='MOS/arch/x86/boot/multiboot/startup.c' l='135' u='r' c='x86_startup'/>
+<use f='MOS/arch/x86/boot/multiboot/startup.c' l='143' u='r' c='x86_startup'/>
+<use f='MOS/arch/x86/boot/multiboot/startup.c' l='170' u='r' c='x86_startup'/>
 <use f='MOS/arch/x86/x86_platform.c' l='81' u='r' c='x86_start_kernel'/>
 <dec f='MOS/include/mos/elf/elf.h' l='97' type='u32'/>
 <offset>384</offset>

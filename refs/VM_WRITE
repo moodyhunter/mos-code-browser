@@ -1,11 +1,12 @@
 <dec f='MOS/include/mos/platform/platform.h' l='26' type='2'/>
 <use f='MOS/arch/x86/boot/multiboot/startup.c' l='109' u='r' c='mos_startup_map_single_page'/>
 <use f='MOS/arch/x86/boot/multiboot/startup.c' l='115' u='r' c='mos_startup_map_single_page'/>
-<use f='MOS/arch/x86/boot/multiboot/startup.c' l='148' u='r' c='x86_startup'/>
-<use f='MOS/arch/x86/boot/multiboot/startup.c' l='156' u='r' c='x86_startup'/>
-<use f='MOS/arch/x86/boot/multiboot/startup.c' l='166' u='r' c='x86_startup'/>
-<use f='MOS/arch/x86/cpu/smp.c' l='129' u='r' c='x86_smp_init'/>
-<use f='MOS/arch/x86/interrupt/apic.c' l='103' u='r' c='apic_enable'/>
+<use f='MOS/arch/x86/boot/multiboot/startup.c' l='150' u='r' c='x86_startup'/>
+<use f='MOS/arch/x86/boot/multiboot/startup.c' l='158' u='r' c='x86_startup'/>
+<use f='MOS/arch/x86/boot/multiboot/startup.c' l='168' u='r' c='x86_startup'/>
+<use f='MOS/arch/x86/cpu/smp.c' l='126' u='r' c='x86_smp_init'/>
+<use f='MOS/arch/x86/interrupt/apic.c' l='111' u='r' c='apic_enable'/>
+<use f='MOS/arch/x86/interrupt/apic.c' l='112' u='r' c='apic_enable'/>
 <use f='MOS/arch/x86/mm/paging.c' l='41' u='r' c='x86_mm_prepare_paging'/>
 <use f='MOS/arch/x86/mm/paging.c' l='45' u='r' c='x86_mm_prepare_paging'/>
 <use f='MOS/arch/x86/mm/paging.c' l='64' u='r' c='x86_mm_prepare_paging'/>

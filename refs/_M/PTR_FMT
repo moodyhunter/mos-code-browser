@@ -1,6 +1,6 @@
 <dec f='MOS/include/mos/types.h' l='34'/>
-<use f='MOS/arch/x86/cpu/smp.c' l='139' u='c'/>
-<use f='MOS/arch/x86/interrupt/apic.c' l='101' u='c'/>
+<use f='MOS/arch/x86/cpu/smp.c' l='137' u='c'/>
+<use f='MOS/arch/x86/interrupt/apic.c' l='106' u='c'/>
 <use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='162' u='c'/>
 <use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='162' u='c'/>
 <use f='MOS/arch/x86/mm/paging.c' l='81' u='c'/>

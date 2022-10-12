@@ -1,5 +1,5 @@
 <dec f='MOS/include/mos/platform/platform.h' l='25' type='1'/>
 <doc f='MOS/include/mos/platform/platform.h' l='24'>// VM_PRESENT = 1 &lt;&lt; 0,</doc>
-<use f='MOS/arch/x86/boot/multiboot/startup.c' l='151' u='r' c='x86_startup'/>
-<use f='MOS/arch/x86/boot/multiboot/startup.c' l='152' u='r' c='x86_startup'/>
-<use f='MOS/arch/x86/boot/multiboot/startup.c' l='156' u='r' c='x86_startup'/>
+<use f='MOS/arch/x86/boot/multiboot/startup.c' l='153' u='r' c='x86_startup'/>
+<use f='MOS/arch/x86/boot/multiboot/startup.c' l='154' u='r' c='x86_startup'/>
+<use f='MOS/arch/x86/boot/multiboot/startup.c' l='158' u='r' c='x86_startup'/>

@@ -1,4 +1,4 @@
 <dec f='MOS/arch/x86/include/mos/x86/x86_platform.h' l='23'/>
 <use f='MOS/arch/x86/acpi/acpi.c' l='44' u='c'/>
-<use f='MOS/arch/x86/boot/multiboot/startup.c' l='151' u='c'/>
-<use f='MOS/arch/x86/boot/multiboot/startup.c' l='186' u='c'/>
+<use f='MOS/arch/x86/boot/multiboot/startup.c' l='153' u='c'/>
+<use f='MOS/arch/x86/boot/multiboot/startup.c' l='188' u='c'/>

@@ -1,4 +1,4 @@
 <dec f='MOS/arch/x86/include/mos/x86/acpi/acpi_types.h' l='141' type='u8'/>
 <offset>24</offset>
-<use f='MOS/arch/x86/cpu/smp.c' l='120' u='r' c='x86_smp_init'/>
-<use f='MOS/arch/x86/cpu/smp.c' l='121' u='r' c='x86_smp_init'/>
+<use f='MOS/arch/x86/cpu/smp.c' l='117' u='r' c='x86_smp_init'/>
+<use f='MOS/arch/x86/cpu/smp.c' l='118' u='r' c='x86_smp_init'/>

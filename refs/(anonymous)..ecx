@@ -2,11 +2,14 @@
 <offset>320</offset>
 <dec f='MOS/arch/x86/include/mos/x86/cpu/cpuid.h' l='11' type='u32'/>
 <dec f='MOS/arch/x86/include/mos/x86/cpu/cpuid.h' l='102' type='union (anonymous union at /home/runner/work/MOS/MOS/arch/x86/include/mos/x86/cpu/cpuid.h:61:5)'/>
+<offset>64</offset>
 <use f='MOS/arch/x86/cpu/cpuid.c' l='16' c='x86_call_cpuid'/>
 <use f='MOS/arch/x86/cpu/cpuid.c' l='26' u='r' c='cpuid_get_manufacturer'/>
 <use f='MOS/arch/x86/cpu/cpuid.c' l='36' u='m' c='cpuid_get_processor_info'/>
 <use f='MOS/arch/x86/cpu/cpuid.c' l='36' u='r' c='cpuid_get_processor_info'/>
-<offset>64</offset>
+<use f='MOS/arch/x86/cpu/cpuid.c' l='46' u='r' c='cpuid_get_brand_string'/>
+<use f='MOS/arch/x86/cpu/cpuid.c' l='51' u='r' c='cpuid_get_brand_string'/>
+<use f='MOS/arch/x86/cpu/cpuid.c' l='56' u='r' c='cpuid_get_brand_string'/>
 <dec f='MOS/arch/x86/include/mos/x86/tasks/tss_types.h' l='17' type='u32'/>
 <offset>352</offset>
 <use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='95' u='r' c='x86_handle_interrupt'/>

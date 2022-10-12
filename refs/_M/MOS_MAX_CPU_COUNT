@@ -1,2 +1,2 @@
 <dec f='MOS/build/include/mos/kconfig.h' l='17'/>
-<use f='MOS/arch/x86/cpu/smp.c' l='32' u='c'/>
+<use f='MOS/arch/x86/cpu/smp.c' l='30' u='c'/>

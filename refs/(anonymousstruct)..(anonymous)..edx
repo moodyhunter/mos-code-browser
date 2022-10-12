@@ -1,4 +1,4 @@
 <dec f='MOS/arch/x86/include/mos/x86/cpu/cpuid.h' l='143' type='struct (anonymous struct at /home/runner/work/MOS/MOS/arch/x86/include/mos/x86/cpu/cpuid.h:106:9)'/>
 <offset>0</offset>
-<use f='MOS/arch/x86/interrupt/apic.c' l='94' u='m' c='apic_enable'/>
-<use f='MOS/arch/x86/interrupt/apic.c' l='97' u='m' c='apic_enable'/>
+<use f='MOS/arch/x86/interrupt/apic.c' l='99' u='m' c='apic_enable'/>
+<use f='MOS/arch/x86/interrupt/apic.c' l='102' u='m' c='apic_enable'/>

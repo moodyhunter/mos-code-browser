@@ -1,2 +1,2 @@
-<def f='MOS/arch/x86/interrupt/apic.c' l='33' ll='38' type='void apic_set_base_addr(uintptr_t base_addr)'/>
-<use f='MOS/arch/x86/interrupt/apic.c' l='106' u='c' c='apic_enable'/>
+<def f='MOS/arch/x86/interrupt/apic.c' l='36' ll='41' type='void apic_set_base_addr(uintptr_t base_addr)'/>
+<use f='MOS/arch/x86/interrupt/apic.c' l='108' u='c' c='apic_enable'/>

@@ -1,5 +1,5 @@
 <dec f='MOS/include/mos/platform/platform.h' l='82' type='void *(*const)(paging_handle_t, size_t, pagealloc_flags)'/>
 <offset>4160</offset>
-<use f='MOS/arch/x86/x86_platform.c' l='163' u='w'/>
+<use f='MOS/arch/x86/x86_platform.c' l='159' u='w'/>
 <use f='MOS/kernel/mm/paging.c' l='28' u='r' c='kpage_alloc'/>
 <use f='MOS/kernel/mm/paging.c' l='31' u='r' c='kpage_alloc'/>

@@ -1,5 +1,4 @@
 <dec f='MOS/include/mos/platform/platform.h' l='37' type='0'/>
-<use f='MOS/arch/x86/cpu/smp.c' l='138' u='r' c='x86_smp_init'/>
 <use f='MOS/arch/x86/mm/paging.c' l='193' u='r' c='x86_um_pgd_create'/>
 <use f='MOS/kernel/kernel_init.c' l='99' u='r' c='mos_start_kernel'/>
 <use f='MOS/kernel/kernel_init.c' l='139' u='r' c='mos_start_kernel'/>

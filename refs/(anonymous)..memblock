@@ -4,4 +4,4 @@
 <use f='MOS/arch/x86/devices/initrd_blockdev.c' l='28' u='m' c='initrd_read'/>
 <use f='MOS/arch/x86/devices/initrd_blockdev.c' l='30' u='m' c='initrd_read'/>
 <offset>0</offset>
-<use f='MOS/arch/x86/x86_platform.c' l='132' u='w' c='x86_start_kernel'/>
+<use f='MOS/arch/x86/x86_platform.c' l='128' u='w' c='x86_start_kernel'/>

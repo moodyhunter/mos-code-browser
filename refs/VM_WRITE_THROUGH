@@ -1,1 +1,2 @@
 <dec f='MOS/include/mos/platform/platform.h' l='28' type='8'/>
+<use f='MOS/arch/x86/boot/multiboot/startup.c' l='118' u='r' c='mos_startup_map_single_page'/>

@@ -2,3 +2,6 @@
 <def f='MOS/arch/x86/cpu/cpuid.c' l='14' ll='17' type='void x86_call_cpuid(u32 eax, x86_cpuid_info_t * cpuid)'/>
 <use f='MOS/arch/x86/cpu/cpuid.c' l='23' u='c' c='cpuid_get_manufacturer'/>
 <use f='MOS/arch/x86/cpu/cpuid.c' l='33' u='c' c='cpuid_get_processor_info'/>
+<use f='MOS/arch/x86/cpu/cpuid.c' l='43' u='c' c='cpuid_get_brand_string'/>
+<use f='MOS/arch/x86/cpu/cpuid.c' l='48' u='c' c='cpuid_get_brand_string'/>
+<use f='MOS/arch/x86/cpu/cpuid.c' l='53' u='c' c='cpuid_get_brand_string'/>

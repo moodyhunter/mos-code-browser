@@ -1,3 +1,3 @@
 <dec f='MOS/arch/x86/include/mos/x86/cpu/cpuid.h' l='159' type='void cpuid_get_manufacturer(char * manufacturer)'/>
 <def f='MOS/arch/x86/cpu/cpuid.c' l='19' ll='28' type='void cpuid_get_manufacturer(char * manufacturer)'/>
-<use f='MOS/arch/x86/cpu/smp.c' l='38' u='c' c='print_cpu_info'/>
+<use f='MOS/arch/x86/cpu/smp.c' l='36' u='c' c='print_cpu_info'/>
