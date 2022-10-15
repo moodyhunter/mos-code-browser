@@ -15,3 +15,17 @@
 <use f='MOS/lib/structures/stack.c' l='60' u='r' c='stack_pop'/>
 <use f='MOS/lib/structures/stack.c' l='61' u='w' c='stack_pop'/>
 <use f='MOS/lib/structures/stack.c' l='61' u='r' c='stack_pop'/>
+<use f='MOS/tests/downwards_stack/test_downwards_stack.c' l='12' u='r' c='stack_init_deinit'/>
+<use f='MOS/tests/downwards_stack/test_downwards_stack.c' l='12' u='r' c='stack_init_deinit'/>
+<use f='MOS/tests/downwards_stack/test_downwards_stack.c' l='17' u='r' c='stack_init_deinit'/>
+<use f='MOS/tests/downwards_stack/test_downwards_stack.c' l='17' u='r' c='stack_init_deinit'/>
+<use f='MOS/tests/downwards_stack/test_downwards_stack.c' l='29' u='r' c='stack_push_pop_stack'/>
+<use f='MOS/tests/downwards_stack/test_downwards_stack.c' l='29' u='r' c='stack_push_pop_stack'/>
+<use f='MOS/tests/downwards_stack/test_downwards_stack.c' l='36' u='r' c='stack_push_pop_stack'/>
+<use f='MOS/tests/downwards_stack/test_downwards_stack.c' l='36' u='r' c='stack_push_pop_stack'/>
+<use f='MOS/tests/downwards_stack/test_downwards_stack.c' l='42' u='r' c='stack_push_pop_stack'/>
+<use f='MOS/tests/downwards_stack/test_downwards_stack.c' l='42' u='r' c='stack_push_pop_stack'/>
+<use f='MOS/tests/downwards_stack/test_downwards_stack.c' l='48' u='r' c='stack_push_pop_stack'/>
+<use f='MOS/tests/downwards_stack/test_downwards_stack.c' l='48' u='r' c='stack_push_pop_stack'/>
+<use f='MOS/tests/downwards_stack/test_downwards_stack.c' l='63' u='r' c='stack_push_pop_stack'/>
+<use f='MOS/tests/downwards_stack/test_downwards_stack.c' l='63' u='r' c='stack_push_pop_stack'/>

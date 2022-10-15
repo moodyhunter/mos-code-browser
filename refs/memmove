@@ -2,3 +2,6 @@
 <use f='MOS/arch/x86/devices/text_mode_console.c' l='35' u='c' c='screen_scroll'/>
 <use f='MOS/arch/x86/mm/pmem_freelist.c' l='255' u='c' c='pmem_freelist_remove_region'/>
 <def f='MOS/lib/string.c' l='63' ll='84' type='void * memmove(void * dest, const void * source, size_t length)'/>
+<use f='MOS/tests/memops/test_memops.c' l='32' u='c' c='test_lib_memmove_simple'/>
+<use f='MOS/tests/memops/test_memops.c' l='47' u='c' c='test_memmove_overlapped'/>
+<use f='MOS/tests/memops/test_memops.c' l='63' u='c' c='test_memmove_overlapped_backwards'/>

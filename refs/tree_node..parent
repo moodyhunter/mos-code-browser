@@ -16,3 +16,7 @@
 <use f='MOS/lib/structures/tree.c' l='64' u='r' c='tree_find_common_prefix'/>
 <use f='MOS/lib/structures/tree.c' l='64' u='r' c='tree_find_common_prefix'/>
 <use f='MOS/lib/structures/tree.c' l='72' u='r' c='tree_trace_to_root'/>
+<use f='MOS/tests/fs_api/test_fs_api.c' l='15' u='w' c='test_fs_api_path_is_prefix'/>
+<use f='MOS/tests/fs_api/test_fs_api.c' l='25' u='w' c='test_fs_api_path_is_prefix'/>
+<use f='MOS/tests/fs_api/test_fs_api.c' l='35' u='w' c='test_fs_api_path_is_prefix'/>
+<use f='MOS/tests/fs_api/test_fs_api.c' l='45' u='w' c='test_fs_api_path_is_prefix'/>

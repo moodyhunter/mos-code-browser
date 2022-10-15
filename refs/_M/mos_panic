@@ -26,3 +26,5 @@
 <use f='MOS/kernel/mm/paging.c' l='51' u='c'/>
 <use f='MOS/kernel/stack_protector.c' l='10' u='c'/>
 <use f='MOS/lib/structures/hashmap.c' l='21' u='c'/>
+<use f='MOS/tests/test_engine.c' l='69' u='c'/>
+<use f='MOS/tests/test_engine.c' l='120' u='c'/>

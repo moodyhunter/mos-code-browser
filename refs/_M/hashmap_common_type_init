@@ -1,1 +1,8 @@
 <dec f='MOS/include/lib/structures/hashmap_common.h' l='8'/>
+<use f='MOS/tests/hashmap/test_hashmap.c' l='12' u='c'/>
+<use f='MOS/tests/hashmap/test_hashmap.c' l='25' u='c'/>
+<use f='MOS/tests/hashmap/test_hashmap.c' l='42' u='c'/>
+<use f='MOS/tests/hashmap/test_hashmap.c' l='69' u='c'/>
+<use f='MOS/tests/hashmap/test_hashmap.c' l='106' u='c'/>
+<use f='MOS/tests/hashmap/test_hashmap.c' l='138' u='c'/>
+<use f='MOS/tests/hashmap/test_hashmap.c' l='186' u='c'/>

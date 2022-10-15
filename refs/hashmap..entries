@@ -11,3 +11,5 @@
 <use f='MOS/lib/structures/hashmap.c' l='94' u='r' c='hashmap_remove'/>
 <use f='MOS/lib/structures/hashmap.c' l='102' u='r' c='hashmap_remove'/>
 <use f='MOS/lib/structures/hashmap.c' l='124' u='r' c='hashmap_foreach'/>
+<use f='MOS/tests/hashmap/test_hashmap.c' l='18' u='r' c='hashmap_init_simple_macro'/>
+<use f='MOS/tests/hashmap/test_hashmap.c' l='18' u='r' c='hashmap_init_simple_macro'/>

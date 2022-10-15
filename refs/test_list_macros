@@ -1,0 +1,3 @@
+<dec f='MOS/tests/linked_list/test_linked_list.c' l='173' type='void test_list_macros(TestResult * , _Bool * , _Bool * )'/>
+<use f='MOS/tests/linked_list/test_linked_list.c' l='173' u='c' c='__mos_test_wrapped_test_test_list_macros'/>
+<def f='MOS/tests/linked_list/test_linked_list.c' l='173' ll='184' macro='1' type='void test_list_macros(TestResult * _MT_result, _Bool * _mt_test_skipped, _Bool * _mt_loop_leave)'/>

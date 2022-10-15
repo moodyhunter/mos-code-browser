@@ -15,3 +15,5 @@ mos_kernel_mm_init|mos_kernel_mm_init
 mos_install_kpanic_hook|mos_install_kpanic_hook
 mos_kpanic|mos_kpanic
 mos_kwarn|mos_kwarn
+mos_test_engine_log|mos_test_engine_log
+mos_test_engine_run_tests|mos_test_engine_run_tests

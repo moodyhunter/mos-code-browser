@@ -1,0 +1,8 @@
+<dec f='MOS/tests/test_engine_impl.h' l='109'/>
+<doc f='MOS/tests/test_engine_impl.h' l='102'>/*
+ * Test force fail
+ *
+ * Arguments:
+ *   - format           - message printf format
+ *   - args... [opt]    - arguments
+ */</doc>

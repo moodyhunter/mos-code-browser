@@ -6,3 +6,4 @@
 <use f='MOS/kernel/kernel_init.c' l='68' macro='1' u='r' c='dump_cmdline'/>
 <use f='MOS/kernel/kernel_init.c' l='103' macro='1' u='r' c='mos_start_kernel'/>
 <use f='MOS/kernel/printk.c' l='19' c='deduce_level_color'/>
+<use f='MOS/tests/test_engine.c' l='126' macro='1' u='r' c='mos_test_engine_run_tests'/>

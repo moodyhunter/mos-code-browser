@@ -1,0 +1,3 @@
+<dec f='MOS/tests/test_engine_impl.h' l='299' type='const mos_test_func_t []'/>
+<doc f='MOS/tests/test_engine_impl.h' l='298'>// Defined by the linker, do not rename.</doc>
+<use f='MOS/tests/test_engine.c' l='84' macro='1' u='r' c='mos_test_engine_run_tests'/>

@@ -3,3 +3,27 @@
 <use f='MOS/kernel/tasks/process.c' l='90' u='c' c='allocate_process'/>
 <use f='MOS/kernel/tasks/thread.c' l='77' u='c' c='create_thread'/>
 <def f='MOS/lib/structures/hashmap.c' l='49' ll='72' type='void * hashmap_put(hashmap_t * map, const void * key, void * value)'/>
+<use f='MOS/tests/hashmap/test_hashmap.c' l='30' u='c' c='hashmap_put_single'/>
+<use f='MOS/tests/hashmap/test_hashmap.c' l='47' u='c' c='hashmap_get_function'/>
+<use f='MOS/tests/hashmap/test_hashmap.c' l='52' u='c' c='hashmap_get_function'/>
+<use f='MOS/tests/hashmap/test_hashmap.c' l='57' u='c' c='hashmap_get_function'/>
+<use f='MOS/tests/hashmap/test_hashmap.c' l='74' u='c' c='hashmap_put_multiple'/>
+<use f='MOS/tests/hashmap/test_hashmap.c' l='80' u='c' c='hashmap_put_multiple'/>
+<use f='MOS/tests/hashmap/test_hashmap.c' l='86' u='c' c='hashmap_put_multiple'/>
+<use f='MOS/tests/hashmap/test_hashmap.c' l='93' u='c' c='hashmap_put_multiple'/>
+<use f='MOS/tests/hashmap/test_hashmap.c' l='111' u='c' c='hashmap_put_overflow'/>
+<use f='MOS/tests/hashmap/test_hashmap.c' l='117' u='c' c='hashmap_put_overflow'/>
+<use f='MOS/tests/hashmap/test_hashmap.c' l='124' u='c' c='hashmap_put_overflow'/>
+<use f='MOS/tests/hashmap/test_hashmap.c' l='143' u='c' c='hashmap_remove_function'/>
+<use f='MOS/tests/hashmap/test_hashmap.c' l='190' u='c' c='hashmap_foreach_function'/>
+<use f='MOS/tests/hashmap/test_hashmap.c' l='191' u='c' c='hashmap_foreach_function'/>
+<use f='MOS/tests/hashmap/test_hashmap.c' l='192' u='c' c='hashmap_foreach_function'/>
+<use f='MOS/tests/hashmap/test_hashmap.c' l='193' u='c' c='hashmap_foreach_function'/>
+<use f='MOS/tests/hashmap/test_hashmap.c' l='194' u='c' c='hashmap_foreach_function'/>
+<use f='MOS/tests/hashmap/test_hashmap.c' l='195' u='c' c='hashmap_foreach_function'/>
+<use f='MOS/tests/hashmap/test_hashmap.c' l='196' u='c' c='hashmap_foreach_function'/>
+<use f='MOS/tests/hashmap/test_hashmap.c' l='197' u='c' c='hashmap_foreach_function'/>
+<use f='MOS/tests/hashmap/test_hashmap.c' l='198' u='c' c='hashmap_foreach_function'/>
+<use f='MOS/tests/hashmap/test_hashmap.c' l='199' u='c' c='hashmap_foreach_function'/>
+<use f='MOS/tests/hashmap/test_hashmap.c' l='200' u='c' c='hashmap_foreach_function'/>
+<use f='MOS/tests/hashmap/test_hashmap.c' l='201' u='c' c='hashmap_foreach_function'/>

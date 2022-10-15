@@ -120,3 +120,6 @@
 <use f='MOS/kernel/tasks/schedule.c' l='26' macro='1' u='c' c='scheduler'/>
 <use f='MOS/kernel/tasks/task_io.c' l='26' u='c' c='stdout_write'/>
 <use f='MOS/kernel/tasks/task_io.c' l='36' u='c' c='stderr_write'/>
+<use f='MOS/tests/test_engine.c' l='67' u='c' c='test_engine_warning_handler'/>
+<use f='MOS/tests/test_engine.c' l='68' u='c' c='test_engine_warning_handler'/>
+<use f='MOS/tests/test_engine.c' l='126' macro='1' u='c' c='mos_test_engine_run_tests'/>

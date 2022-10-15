@@ -32,3 +32,7 @@
 <use f='MOS/kernel/filesystem/pathutils.c' l='162' u='r' c='path_to_string_relative'/>
 <use f='MOS/kernel/filesystem/pathutils.c' l='177' u='r' c='path_treeop_decrement_refcount'/>
 <use f='MOS/kernel/filesystem/pathutils.c' l='184' u='r' c='path_treeop_increment_refcount'/>
+<use f='MOS/tests/fs_api/test_fs_api.c' l='13' u='w' c='test_fs_api_path_is_prefix'/>
+<use f='MOS/tests/fs_api/test_fs_api.c' l='23' u='w' c='test_fs_api_path_is_prefix'/>
+<use f='MOS/tests/fs_api/test_fs_api.c' l='33' u='w' c='test_fs_api_path_is_prefix'/>
+<use f='MOS/tests/fs_api/test_fs_api.c' l='43' u='w' c='test_fs_api_path_is_prefix'/>

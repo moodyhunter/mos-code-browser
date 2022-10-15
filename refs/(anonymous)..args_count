@@ -8,3 +8,15 @@
 <offset>0</offset>
 <use f='MOS/kernel/kernel_init.c' l='51' u='r' c='dump_cmdline'/>
 <use f='MOS/kernel/kernel_init.c' l='52' u='r' c='dump_cmdline'/>
+<use f='MOS/tests/cmdline_parser/test_cmdline_parser.c' l='11' u='r' c='simple_cmdline'/>
+<use f='MOS/tests/cmdline_parser/test_cmdline_parser.c' l='11' u='r' c='simple_cmdline'/>
+<use f='MOS/tests/cmdline_parser/test_cmdline_parser.c' l='22' u='r' c='two_arguments'/>
+<use f='MOS/tests/cmdline_parser/test_cmdline_parser.c' l='22' u='r' c='two_arguments'/>
+<use f='MOS/tests/cmdline_parser/test_cmdline_parser.c' l='35' u='r' c='many_arguments'/>
+<use f='MOS/tests/cmdline_parser/test_cmdline_parser.c' l='35' u='r' c='many_arguments'/>
+<use f='MOS/tests/cmdline_parser/test_cmdline_parser.c' l='64' u='r' c='one_arg_with_an_option'/>
+<use f='MOS/tests/cmdline_parser/test_cmdline_parser.c' l='64' u='r' c='one_arg_with_an_option'/>
+<use f='MOS/tests/cmdline_parser/test_cmdline_parser.c' l='77' u='r' c='one_arg_with_multiple_options'/>
+<use f='MOS/tests/cmdline_parser/test_cmdline_parser.c' l='77' u='r' c='one_arg_with_multiple_options'/>
+<use f='MOS/tests/cmdline_parser/test_cmdline_parser.c' l='99' u='r' c='multi_args_with_multiple_options'/>
+<use f='MOS/tests/cmdline_parser/test_cmdline_parser.c' l='99' u='r' c='multi_args_with_multiple_options'/>

@@ -1,2 +1,8 @@
 <dec f='MOS/include/mos/cmdline.h' l='39' type='void mos_cmdline_destroy(cmdline_t * cmdline)'/>
 <def f='MOS/kernel/cmdline.c' l='88' ll='107' type='void mos_cmdline_destroy(cmdline_t * cmdline)'/>
+<use f='MOS/tests/cmdline_parser/test_cmdline_parser.c' l='14' u='c' c='simple_cmdline'/>
+<use f='MOS/tests/cmdline_parser/test_cmdline_parser.c' l='27' u='c' c='two_arguments'/>
+<use f='MOS/tests/cmdline_parser/test_cmdline_parser.c' l='56' u='c' c='many_arguments'/>
+<use f='MOS/tests/cmdline_parser/test_cmdline_parser.c' l='69' u='c' c='one_arg_with_an_option'/>
+<use f='MOS/tests/cmdline_parser/test_cmdline_parser.c' l='90' u='c' c='one_arg_with_multiple_options'/>
+<use f='MOS/tests/cmdline_parser/test_cmdline_parser.c' l='138' u='c' c='multi_args_with_multiple_options'/>
