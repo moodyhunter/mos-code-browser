@@ -2,3 +2,4 @@
 <use f='MOS/arch/x86/cpu/smp.c' l='133' u='c'/>
 <use f='MOS/arch/x86/cpu/smp.c' l='134' u='c'/>
 <use f='MOS/arch/x86/interrupt/apic.c' l='111' u='c'/>
+<use f='MOS/userspace/init/main.c' l='44' u='c'/>

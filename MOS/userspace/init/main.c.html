@@ -54,29 +54,24 @@
 <tr><th id="41">41</th><td>    <a class="ref fn" href="../../build/include/mos/ksyscall/usermode.h.html#invoke_ksyscall_io_write" title='invoke_ksyscall_io_write' data-ref="invoke_ksyscall_io_write" data-ref-filename="invoke_ksyscall_io_write">invoke_ksyscall_io_write</a>(<a class="macro" href="#10" title="2" data-ref="_M/stderr">stderr</a>, <a class="local col8 ref" href="#38str" title='str' data-ref="38str" data-ref-filename="38str">str</a>, <a class="ref fn" href="#strlen" title='strlen' data-ref="strlen" data-ref-filename="strlen">strlen</a>(<a class="local col8 ref" href="#38str" title='str' data-ref="38str" data-ref-filename="38str">str</a>), <var>0</var>);</td></tr>
 <tr><th id="42">42</th><td>}</td></tr>
 <tr><th id="43">43</th><td></td></tr>
-<tr><th id="44">44</th><td><em>volatile</em> <em>char</em> <dfn class="decl def" id="buf" title='buf' data-ref="buf" data-ref-filename="buf">buf</dfn>[<var>256</var>];</td></tr>
-<tr><th id="45">45</th><td><em>volatile</em> <em>char</em> <dfn class="decl def" id="buf2" title='buf2' data-ref="buf2" data-ref-filename="buf2">buf2</dfn>[<var>256</var>] = <q>"Hello, World!\n"</q>;</td></tr>
-<tr><th id="46">46</th><td><em>const</em> <em>char</em> *<dfn class="decl def" id="x" title='x' data-ref="x" data-ref-filename="x">x</dfn> = <q>"Hello, world! MOS userspace 'init': "</q> <span class="macro" title="&quot;/home/runner/work/MOS/MOS/userspace/init/main.c&quot;" data-ref="_M/__FILE__">__FILE__</span> <q>"\n"</q>;</td></tr>
-<tr><th id="47">47</th><td></td></tr>
-<tr><th id="48">48</th><td><em>void</em> <dfn class="decl def fn" id="_start" title='_start' data-ref="_start" data-ref-filename="_start">_start</dfn>(<em>void</em>)</td></tr>
-<tr><th id="49">49</th><td>{</td></tr>
-<tr><th id="50">50</th><td>    <a class="ref fn" href="#print" title='print' data-ref="print" data-ref-filename="print">print</a>(<a class="ref" href="#x" title='x' data-ref="x" data-ref-filename="x">x</a>);</td></tr>
-<tr><th id="51">51</th><td>    <em>int</em> <dfn class="local col9 decl" id="39fd" title='fd' data-type='int' data-ref="39fd" data-ref-filename="39fd">fd</dfn> = <a class="ref fn" href="../../build/include/mos/ksyscall/usermode.h.html#invoke_ksyscall_file_open" title='invoke_ksyscall_file_open' data-ref="invoke_ksyscall_file_open" data-ref-filename="invoke_ksyscall_file_open">invoke_ksyscall_file_open</a>(<q>"/assets/msg.txt"</q>, <a class="enum" href="../../include/mos/filesystem/filesystem.h.html#FILE_OPEN_READ" title='FILE_OPEN_READ' data-ref="FILE_OPEN_READ" data-ref-filename="FILE_OPEN_READ">FILE_OPEN_READ</a>);</td></tr>
-<tr><th id="52">52</th><td>    <b>if</b> (<a class="local col9 ref" href="#39fd" title='fd' data-ref="39fd" data-ref-filename="39fd">fd</a> &lt; <var>0</var>)</td></tr>
-<tr><th id="53">53</th><td>    {</td></tr>
-<tr><th id="54">54</th><td>        <a class="ref fn" href="#print_err" title='print_err' data-ref="print_err" data-ref-filename="print_err">print_err</a>(<q>"Failed to open /assets/msg.txt"</q>);</td></tr>
-<tr><th id="55">55</th><td>    }</td></tr>
-<tr><th id="56">56</th><td>    <b>else</b></td></tr>
-<tr><th id="57">57</th><td>    {</td></tr>
-<tr><th id="58">58</th><td>        <em>char</em> <dfn class="local col0 decl" id="40buf" title='buf' data-type='char [512]' data-ref="40buf" data-ref-filename="40buf">buf</dfn>[<var>512</var>] = { <var>0</var> };</td></tr>
-<tr><th id="59">59</th><td>        <a class="ref fn" href="../../build/include/mos/ksyscall/usermode.h.html#invoke_ksyscall_io_read" title='invoke_ksyscall_io_read' data-ref="invoke_ksyscall_io_read" data-ref-filename="invoke_ksyscall_io_read">invoke_ksyscall_io_read</a>(<a class="local col9 ref" href="#39fd" title='fd' data-ref="39fd" data-ref-filename="39fd">fd</a>, <a class="local col0 ref" href="#40buf" title='buf' data-ref="40buf" data-ref-filename="40buf">buf</a>, <var>512</var>, <var>0</var>);</td></tr>
-<tr><th id="60">60</th><td>        <a class="ref fn" href="#print" title='print' data-ref="print" data-ref-filename="print">print</a>(<a class="local col0 ref" href="#40buf" title='buf' data-ref="40buf" data-ref-filename="40buf">buf</a>);</td></tr>
-<tr><th id="61">61</th><td>        <a class="ref fn" href="../../build/include/mos/ksyscall/usermode.h.html#invoke_ksyscall_io_close" title='invoke_ksyscall_io_close' data-ref="invoke_ksyscall_io_close" data-ref-filename="invoke_ksyscall_io_close">invoke_ksyscall_io_close</a>(<a class="local col9 ref" href="#39fd" title='fd' data-ref="39fd" data-ref-filename="39fd">fd</a>);</td></tr>
-<tr><th id="62">62</th><td>    }</td></tr>
-<tr><th id="63">63</th><td>    <b>while</b> (<var>1</var>)</td></tr>
-<tr><th id="64">64</th><td>        <a class="ref fn" href="../../build/include/mos/ksyscall/usermode.h.html#invoke_ksyscall_yield_cpu" title='invoke_ksyscall_yield_cpu' data-ref="invoke_ksyscall_yield_cpu" data-ref-filename="invoke_ksyscall_yield_cpu">invoke_ksyscall_yield_cpu</a>();</td></tr>
-<tr><th id="65">65</th><td>}</td></tr>
-<tr><th id="66">66</th><td></td></tr>
+<tr><th id="44">44</th><td><em>char</em> <dfn class="decl def" id="buf" title='buf' data-ref="buf" data-ref-filename="buf">buf</dfn>[<var>2</var> <a class="macro" href="../../include/mos/constants.h.html#22" title="* 1024 * 1" data-ref="_M/KB">KB</a>] = { <var>0</var> };</td></tr>
+<tr><th id="45">45</th><td></td></tr>
+<tr><th id="46">46</th><td><em>void</em> <dfn class="decl def fn" id="_start" title='_start' data-ref="_start" data-ref-filename="_start">_start</dfn>(<em>void</em>)</td></tr>
+<tr><th id="47">47</th><td>{</td></tr>
+<tr><th id="48">48</th><td>    <em>int</em> <dfn class="local col9 decl" id="39fd" title='fd' data-type='int' data-ref="39fd" data-ref-filename="39fd">fd</dfn> = <a class="ref fn" href="../../build/include/mos/ksyscall/usermode.h.html#invoke_ksyscall_file_open" title='invoke_ksyscall_file_open' data-ref="invoke_ksyscall_file_open" data-ref-filename="invoke_ksyscall_file_open">invoke_ksyscall_file_open</a>(<q>"/assets/msg.txt"</q>, <a class="enum" href="../../include/mos/filesystem/filesystem.h.html#FILE_OPEN_READ" title='FILE_OPEN_READ' data-ref="FILE_OPEN_READ" data-ref-filename="FILE_OPEN_READ">FILE_OPEN_READ</a>);</td></tr>
+<tr><th id="49">49</th><td>    <b>if</b> (<a class="local col9 ref" href="#39fd" title='fd' data-ref="39fd" data-ref-filename="39fd">fd</a> &lt; <var>0</var>)</td></tr>
+<tr><th id="50">50</th><td>        <a class="ref fn" href="#print_err" title='print_err' data-ref="print_err" data-ref-filename="print_err">print_err</a>(<q>"Failed to open /assets/msg.txt"</q>);</td></tr>
+<tr><th id="51">51</th><td>    <b>else</b></td></tr>
+<tr><th id="52">52</th><td>    {</td></tr>
+<tr><th id="53">53</th><td>        <span class='typedef' title='size_t' data-type='unsigned long' data-ref="size_t" data-ref-filename="size_t">size_t</span> <dfn class="local col0 decl" id="40read" title='read' data-type='size_t' data-ref="40read" data-ref-filename="40read">read</dfn> = <a class="ref fn" href="../../build/include/mos/ksyscall/usermode.h.html#invoke_ksyscall_io_read" title='invoke_ksyscall_io_read' data-ref="invoke_ksyscall_io_read" data-ref-filename="invoke_ksyscall_io_read">invoke_ksyscall_io_read</a>(<a class="local col9 ref" href="#39fd" title='fd' data-ref="39fd" data-ref-filename="39fd">fd</a>, <a class="ref" href="#buf" title='buf' data-ref="buf" data-ref-filename="buf">buf</a>, <var>512</var>, <var>0</var>);</td></tr>
+<tr><th id="54">54</th><td>        <a class="ref fn" href="#print" title='print' data-ref="print" data-ref-filename="print">print</a>(<q>"\n"</q>);</td></tr>
+<tr><th id="55">55</th><td>        <a class="ref fn" href="../../build/include/mos/ksyscall/usermode.h.html#invoke_ksyscall_io_write" title='invoke_ksyscall_io_write' data-ref="invoke_ksyscall_io_write" data-ref-filename="invoke_ksyscall_io_write">invoke_ksyscall_io_write</a>(<a class="macro" href="#9" title="1" data-ref="_M/stdout">stdout</a>, <a class="ref" href="#buf" title='buf' data-ref="buf" data-ref-filename="buf">buf</a>, <a class="local col0 ref" href="#40read" title='read' data-ref="40read" data-ref-filename="40read">read</a>, <var>0</var>);</td></tr>
+<tr><th id="56">56</th><td>        <a class="ref fn" href="../../build/include/mos/ksyscall/usermode.h.html#invoke_ksyscall_io_close" title='invoke_ksyscall_io_close' data-ref="invoke_ksyscall_io_close" data-ref-filename="invoke_ksyscall_io_close">invoke_ksyscall_io_close</a>(<a class="local col9 ref" href="#39fd" title='fd' data-ref="39fd" data-ref-filename="39fd">fd</a>);</td></tr>
+<tr><th id="57">57</th><td>    }</td></tr>
+<tr><th id="58">58</th><td>    <b>while</b> (<var>1</var>)</td></tr>
+<tr><th id="59">59</th><td>        <a class="ref fn" href="../../build/include/mos/ksyscall/usermode.h.html#invoke_ksyscall_yield_cpu" title='invoke_ksyscall_yield_cpu' data-ref="invoke_ksyscall_yield_cpu" data-ref-filename="invoke_ksyscall_yield_cpu">invoke_ksyscall_yield_cpu</a>();</td></tr>
+<tr><th id="60">60</th><td>}</td></tr>
+<tr><th id="61">61</th><td></td></tr>
 </table><hr/><p id='footer'>
 Generated on <em>2022-Oct-15</em> from project MOS<br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
 <br/>Generator usage only permitted with license.</p>
