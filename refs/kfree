@@ -24,15 +24,3 @@
 <use f='MOS/lib/structures/hashmap.c' l='42' u='c' c='hashmap_deinit'/>
 <use f='MOS/lib/structures/hashmap.c' l='46' u='c' c='hashmap_deinit'/>
 <use f='MOS/lib/structures/hashmap.c' l='109' u='c' c='hashmap_remove'/>
-<use f='MOS/tests/downwards_stack/test_downwards_stack.c' l='77' u='c' c='stack_push_pop_stack'/>
-<use f='MOS/tests/kmalloc/test_kmalloc.c' l='12' u='c' c='kmalloc_single'/>
-<use f='MOS/tests/kmalloc/test_kmalloc.c' l='24' u='c' c='kmalloc_stress'/>
-<use f='MOS/tests/kmalloc/test_kmalloc.c' l='34' u='c' c='kmalloc_large'/>
-<use f='MOS/tests/kmalloc/test_kmalloc.c' l='39' u='c' c='kmalloc_large'/>
-<use f='MOS/tests/kmalloc/test_kmalloc.c' l='73' u='c' c='kmalloc_a_lot'/>
-<use f='MOS/tests/memops/test_memops.c' l='20' u='c' c='test_lib_memcpy'/>
-<use f='MOS/tests/memops/test_memops.c' l='21' u='c' c='test_lib_memcpy'/>
-<use f='MOS/tests/memops/test_memops.c' l='36' u='c' c='test_lib_memmove_simple'/>
-<use f='MOS/tests/memops/test_memops.c' l='37' u='c' c='test_lib_memmove_simple'/>
-<use f='MOS/tests/memops/test_memops.c' l='52' u='c' c='test_memmove_overlapped'/>
-<use f='MOS/tests/memops/test_memops.c' l='73' u='c' c='test_memmove_overlapped_backwards'/>

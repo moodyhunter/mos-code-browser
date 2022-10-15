@@ -1,4 +1,1 @@
 <dec f='MOS/include/lib/structures/list.h' l='8'/>
-<use f='MOS/tests/linked_list/test_linked_list.c' l='179' u='c'/>
-<use f='MOS/tests/linked_list/test_linked_list.c' l='180' u='c'/>
-<use f='MOS/tests/linked_list/test_linked_list.c' l='181' u='c'/>

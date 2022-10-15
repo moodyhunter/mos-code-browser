@@ -2,3 +2,4 @@
 <use f='MOS/include/mos/printk.h' l='51' u='c'/>
 <use f='MOS/arch/x86/mm/paging.c' l='73' u='c'/>
 <use f='MOS/arch/x86/x86_platform.c' l='112' u='c'/>
+<use f='MOS/kernel/elf/elf.c' l='100' u='c'/>

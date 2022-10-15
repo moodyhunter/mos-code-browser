@@ -1,12 +1,3 @@
 <dec f='MOS/include/lib/structures/hashmap_common.h' l='11' type='hash_t hashmap_hash_string(const void * key)'/>
 <use f='MOS/kernel/device/block.c' l='16' u='c' c='hashmap_blockdev_hash'/>
 <def f='MOS/lib/structures/hashmap_common.c' l='8' ll='11' type='hash_t hashmap_hash_string(const void * key)'/>
-<use f='MOS/tests/hashmap/test_hashmap.c' l='12' macro='1' u='r' c='hashmap_init_simple_macro'/>
-<use f='MOS/tests/hashmap/test_hashmap.c' l='16' u='r' c='hashmap_init_simple_macro'/>
-<use f='MOS/tests/hashmap/test_hashmap.c' l='16' c='hashmap_init_simple_macro'/>
-<use f='MOS/tests/hashmap/test_hashmap.c' l='25' macro='1' u='r' c='hashmap_put_single'/>
-<use f='MOS/tests/hashmap/test_hashmap.c' l='42' macro='1' u='r' c='hashmap_get_function'/>
-<use f='MOS/tests/hashmap/test_hashmap.c' l='69' macro='1' u='r' c='hashmap_put_multiple'/>
-<use f='MOS/tests/hashmap/test_hashmap.c' l='106' macro='1' u='r' c='hashmap_put_overflow'/>
-<use f='MOS/tests/hashmap/test_hashmap.c' l='138' macro='1' u='r' c='hashmap_remove_function'/>
-<use f='MOS/tests/hashmap/test_hashmap.c' l='186' macro='1' u='r' c='hashmap_foreach_function'/>

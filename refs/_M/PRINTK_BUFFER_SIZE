@@ -7,5 +7,3 @@
 <use f='MOS/kernel/printk.c' l='32' u='c'/>
 <use f='MOS/kernel/printk.c' l='47' u='c'/>
 <use f='MOS/kernel/printk.c' l='50' u='c'/>
-<use f='MOS/tests/test_engine.c' l='59' u='c'/>
-<use f='MOS/tests/test_engine.c' l='66' u='c'/>

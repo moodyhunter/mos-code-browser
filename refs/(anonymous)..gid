@@ -1,4 +1,4 @@
-<dec f='MOS/include/mos/types.h' l='73' type='id_t'/>
+<dec f='MOS/include/mos/types.h' l='72' type='id_t'/>
 <offset>0</offset>
 <dec f='MOS/include/mos/filesystem/filesystem.h' l='68' type='gid_t'/>
 <offset>160</offset>

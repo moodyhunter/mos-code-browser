@@ -1,3 +1,2 @@
 <dec f='MOS/include/mos/panic.h' l='12' type='void kwarn_handler_remove()'/>
 <def f='MOS/kernel/panic.c' l='26' ll='32' type='void kwarn_handler_remove()'/>
-<use f='MOS/tests/test_engine.c' l='123' u='c' c='mos_test_engine_run_tests'/>

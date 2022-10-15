@@ -9,7 +9,3 @@
 <use f='MOS/kernel/filesystem/pathutils.c' l='143' u='c'/>
 <use f='MOS/kernel/filesystem/pathutils.c' l='143' u='c'/>
 <use f='MOS/kernel/filesystem/pathutils.c' l='164' u='c'/>
-<use f='MOS/tests/fs_api/test_fs_api.c' l='15' u='c'/>
-<use f='MOS/tests/fs_api/test_fs_api.c' l='25' u='c'/>
-<use f='MOS/tests/fs_api/test_fs_api.c' l='35' u='c'/>
-<use f='MOS/tests/fs_api/test_fs_api.c' l='45' u='c'/>

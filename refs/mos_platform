@@ -2,7 +2,7 @@
 <use f='MOS/arch/x86/cpu/smp.c' l='59' macro='1' u='r' c='ap_begin_exec'/>
 <use f='MOS/arch/x86/cpu/smp.c' l='117' macro='1' u='r' c='x86_smp_init'/>
 <def f='MOS/arch/x86/x86_platform.c' l='171' type='mos_platform_t *const'/>
-<use f='MOS/kernel/elf/elf.c' l='90' u='r' c='create_elf_process'/>
+<use f='MOS/kernel/elf/elf.c' l='91' u='r' c='create_elf_process'/>
 <use f='MOS/kernel/ksyscall.c' l='17' macro='1' u='r' c='ksyscall_file_open'/>
 <use f='MOS/kernel/ksyscall.c' l='17' macro='1' u='r' c='ksyscall_file_open'/>
 <use f='MOS/kernel/ksyscall.c' l='29' macro='1' u='r' c='ksyscall_io_read'/>
@@ -36,5 +36,3 @@
 <use f='MOS/kernel/tasks/schedule.c' l='32' macro='1' u='r' c='jump_to_scheduler'/>
 <use f='MOS/kernel/tasks/thread.c' l='69' u='r' c='create_thread'/>
 <use f='MOS/kernel/tasks/thread.c' l='70' u='r' c='create_thread'/>
-<use f='MOS/tests/test_engine.c' l='129' u='r' c='mos_test_engine_run_tests'/>
-<use f='MOS/tests/test_engine.c' l='131' u='r' c='mos_test_engine_run_tests'/>

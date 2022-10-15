@@ -1,2 +1,0 @@
-<def f='MOS/tests/printf/test_printf.c' l='11' macro='1' type='_Bool'/>
-<use f='MOS/tests/printf/test_printf.c' l='670' u='r' c='printf_tests_github'/>

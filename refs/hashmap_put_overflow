@@ -1,3 +1,0 @@
-<dec f='MOS/tests/hashmap/test_hashmap.c' l='102' type='void hashmap_put_overflow(TestResult * , _Bool * , _Bool * )'/>
-<use f='MOS/tests/hashmap/test_hashmap.c' l='102' u='c' c='__mos_test_wrapped_test_hashmap_put_overflow'/>
-<def f='MOS/tests/hashmap/test_hashmap.c' l='102' ll='132' macro='1' type='void hashmap_put_overflow(TestResult * _MT_result, _Bool * _mt_test_skipped, _Bool * _mt_loop_leave)'/>

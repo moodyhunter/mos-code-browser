@@ -1,2 +1,2 @@
 <dec f='MOS/include/mos/elf/elf.h' l='216' type='4'/>
-<use f='MOS/kernel/elf/elf.c' l='27' u='r' c='elf_verify_header'/>
+<use f='MOS/kernel/elf/elf.c' l='28' u='r' c='elf_verify_header'/>

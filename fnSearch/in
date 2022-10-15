@@ -1,7 +1,3 @@
 initrd_blockdev_preinstall|initrd_blockdev_preinstall
 initrd_read|initrd_read
 initrd_write|initrd_write
-integer_extreme_case|integer_extreme_case
-integer_left_justified|integer_left_justified
-integer_no_precision|integer_no_precision
-integer_with_precision|integer_with_precision

@@ -3,4 +3,3 @@
 <doc f='MOS/include/mos/platform/platform.h' l='68'>// cpu</doc>
 <use f='MOS/arch/x86/x86_platform.c' l='147' u='w'/>
 <use f='MOS/kernel/panic.c' l='65' u='r' c='mos_kpanic'/>
-<use f='MOS/tests/test_engine.c' l='129' u='r' c='mos_test_engine_run_tests'/>

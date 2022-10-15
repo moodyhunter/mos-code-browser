@@ -1,2 +1,0 @@
-<def f='MOS/tests/hashmap/test_hashmap.c' l='166' ll='172' macro='1' type='_Bool test_foreach_function(const void * key, void * value)'/>
-<use f='MOS/tests/hashmap/test_hashmap.c' l='204' u='r' c='hashmap_foreach_function'/>

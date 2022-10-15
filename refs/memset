@@ -14,8 +14,3 @@
 <def f='MOS/lib/string.c' l='86' ll='92' type='void * memset(void * s, int c, size_t n)'/>
 <use f='MOS/lib/structures/hashmap.c' l='26' u='c' c='hashmap_init'/>
 <use f='MOS/lib/structures/stack.c' l='21' u='c' c='stack_deinit'/>
-<use f='MOS/tests/kmalloc/test_kmalloc.c' l='11' u='c' c='kmalloc_single'/>
-<use f='MOS/tests/kmalloc/test_kmalloc.c' l='23' u='c' c='kmalloc_stress'/>
-<use f='MOS/tests/kmalloc/test_kmalloc.c' l='33' u='c' c='kmalloc_large'/>
-<use f='MOS/tests/kmalloc/test_kmalloc.c' l='38' u='c' c='kmalloc_large'/>
-<use f='MOS/tests/kmalloc/test_kmalloc.c' l='68' u='c' c='kmalloc_a_lot'/>

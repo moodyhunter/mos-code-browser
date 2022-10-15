@@ -3,4 +3,3 @@
 <use f='MOS/arch/x86/boot/multiboot/startup.c' l='67' u='r' c='print_debug_info'/>
 <use f='MOS/arch/x86/devices/serial_console.c' l='53' u='r' c='get_ansi_color'/>
 <use f='MOS/kernel/printk.c' l='18' u='r' c='deduce_level_color'/>
-<use f='MOS/tests/test_engine.c' l='46' u='r' c='mos_test_engine_log'/>

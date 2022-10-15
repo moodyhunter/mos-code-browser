@@ -7,5 +7,4 @@ process_deinit|process_deinit
 process_init|process_init
 process_remove_fd|process_remove_fd
 process_stdio_setup|process_stdio_setup
-printf_tests_github|printf_tests_github
 print|print

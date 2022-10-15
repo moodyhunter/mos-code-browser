@@ -1,4 +1,4 @@
-<dec f='MOS/include/mos/types.h' l='72' type='id_t'/>
+<dec f='MOS/include/mos/types.h' l='71' type='id_t'/>
 <offset>0</offset>
 <dec f='MOS/include/mos/filesystem/filesystem.h' l='67' type='uid_t'/>
 <offset>128</offset>
@@ -8,4 +8,5 @@
 <use f='MOS/kernel/filesystem/cpio/cpio.c' l='156' u='r' c='cpio_stat'/>
 <use f='MOS/kernel/filesystem/cpio/cpio.c' l='156' u='r' c='cpio_stat'/>
 <offset>176</offset>
+<use f='MOS/kernel/kernel_init.c' l='93' u='w' c='mos_start_kernel'/>
 <use f='MOS/kernel/tasks/process.c' l='51' u='r' c='allocate_process'/>

@@ -75,10 +75,9 @@
 <use f='MOS/arch/x86/x86_platform.c' l='104' macro='1' u='c' c='x86_start_kernel'/>
 <use f='MOS/kernel/device/console.c' l='37' macro='1' u='c' c='mos_install_console'/>
 <use f='MOS/kernel/device/console.c' l='41' macro='1' u='c' c='mos_install_console'/>
-<use f='MOS/kernel/elf/elf.c' l='56' macro='1' u='c' c='create_elf_process'/>
-<use f='MOS/kernel/elf/elf.c' l='63' macro='1' u='c' c='create_elf_process'/>
-<use f='MOS/kernel/elf/elf.c' l='72' macro='1' u='c' c='create_elf_process'/>
-<use f='MOS/kernel/elf/elf.c' l='103' macro='1' u='c' c='create_elf_process'/>
+<use f='MOS/kernel/elf/elf.c' l='57' macro='1' u='c' c='create_elf_process'/>
+<use f='MOS/kernel/elf/elf.c' l='64' macro='1' u='c' c='create_elf_process'/>
+<use f='MOS/kernel/elf/elf.c' l='73' macro='1' u='c' c='create_elf_process'/>
 <use f='MOS/kernel/filesystem/cpio/cpio.c' l='101' macro='1' u='c' c='cpio_mount'/>
 <use f='MOS/kernel/filesystem/cpio/cpio.c' l='115' macro='1' u='c' c='cpio_open'/>
 <use f='MOS/kernel/filesystem/filesystem.c' l='112' macro='1' u='c' c='vfs_path_open'/>
@@ -91,17 +90,17 @@
 <use f='MOS/kernel/io/io.c' l='22' macro='1' u='c' c='io_unref'/>
 <use f='MOS/kernel/io/io.c' l='34' macro='1' u='c' c='io_read'/>
 <use f='MOS/kernel/io/io.c' l='50' macro='1' u='c' c='io_write'/>
-<use f='MOS/kernel/kernel_init.c' l='23' macro='1' u='c' c='mount_initrd'/>
-<use f='MOS/kernel/kernel_init.c' l='29' macro='1' u='c' c='mount_initrd'/>
-<use f='MOS/kernel/kernel_init.c' l='42' macro='1' u='c' c='cmdline_get_init_path'/>
-<use f='MOS/kernel/kernel_init.c' l='49' macro='1' u='c' c='dump_cmdline'/>
+<use f='MOS/kernel/kernel_init.c' l='24' macro='1' u='c' c='mount_initrd'/>
+<use f='MOS/kernel/kernel_init.c' l='30' macro='1' u='c' c='mount_initrd'/>
+<use f='MOS/kernel/kernel_init.c' l='43' macro='1' u='c' c='cmdline_get_init_path'/>
 <use f='MOS/kernel/kernel_init.c' l='50' macro='1' u='c' c='dump_cmdline'/>
-<use f='MOS/kernel/kernel_init.c' l='54' macro='1' u='c' c='dump_cmdline'/>
-<use f='MOS/kernel/kernel_init.c' l='61' macro='1' u='c' c='dump_cmdline'/>
+<use f='MOS/kernel/kernel_init.c' l='51' macro='1' u='c' c='dump_cmdline'/>
+<use f='MOS/kernel/kernel_init.c' l='55' macro='1' u='c' c='dump_cmdline'/>
 <use f='MOS/kernel/kernel_init.c' l='62' macro='1' u='c' c='dump_cmdline'/>
-<use f='MOS/kernel/kernel_init.c' l='67' macro='1' u='c' c='dump_cmdline'/>
-<use f='MOS/kernel/kernel_init.c' l='74' macro='1' u='c' c='mos_start_kernel'/>
-<use f='MOS/kernel/kernel_init.c' l='99' macro='1' u='c' c='mos_start_kernel'/>
+<use f='MOS/kernel/kernel_init.c' l='63' macro='1' u='c' c='dump_cmdline'/>
+<use f='MOS/kernel/kernel_init.c' l='68' macro='1' u='c' c='dump_cmdline'/>
+<use f='MOS/kernel/kernel_init.c' l='75' macro='1' u='c' c='mos_start_kernel'/>
+<use f='MOS/kernel/kernel_init.c' l='101' macro='1' u='c' c='mos_start_kernel'/>
 <use f='MOS/kernel/ksyscall.c' l='56' macro='1' u='c' c='ksyscall_exit'/>
 <use f='MOS/kernel/panic.c' l='22' macro='1' u='c' c='kwarn_handler_set'/>
 <use f='MOS/kernel/panic.c' l='28' macro='1' u='c' c='kwarn_handler_remove'/>
@@ -118,8 +117,5 @@
 <def f='MOS/kernel/printk.c' l='42' ll='70' type='void lprintk(int loglevel, const char * fmt)'/>
 <use f='MOS/kernel/tasks/process.c' l='51' macro='1' u='c' c='allocate_process'/>
 <use f='MOS/kernel/tasks/schedule.c' l='26' macro='1' u='c' c='scheduler'/>
-<use f='MOS/kernel/tasks/task_io.c' l='26' macro='1' u='c' c='stdout_write'/>
-<use f='MOS/kernel/tasks/task_io.c' l='36' macro='1' u='c' c='stderr_write'/>
-<use f='MOS/tests/test_engine.c' l='67' u='c' c='test_engine_warning_handler'/>
-<use f='MOS/tests/test_engine.c' l='68' u='c' c='test_engine_warning_handler'/>
-<use f='MOS/tests/test_engine.c' l='126' macro='1' u='c' c='mos_test_engine_run_tests'/>
+<use f='MOS/kernel/tasks/task_io.c' l='26' u='c' c='stdout_write'/>
+<use f='MOS/kernel/tasks/task_io.c' l='36' u='c' c='stderr_write'/>

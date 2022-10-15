@@ -1,2 +1,0 @@
-<def f='MOS/tests/memops/test_memops.c' l='24' macro='1' type='void __mos_test_wrapped_test_test_lib_memmove_simple(TestResult * result)'/>
-<use f='MOS/tests/memops/test_memops.c' l='24' macro='1'/>

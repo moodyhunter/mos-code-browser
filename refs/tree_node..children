@@ -6,7 +6,3 @@
 <use f='MOS/lib/structures/tree.c' l='19' u='r' c='tree_add_child'/>
 <use f='MOS/lib/structures/tree.c' l='20' u='r' c='tree_add_child'/>
 <use f='MOS/lib/structures/tree.c' l='39' u='r' c='tree_find_child_by_name'/>
-<use f='MOS/tests/fs_api/test_fs_api.c' l='17' u='w' c='test_fs_api_path_is_prefix'/>
-<use f='MOS/tests/fs_api/test_fs_api.c' l='27' u='w' c='test_fs_api_path_is_prefix'/>
-<use f='MOS/tests/fs_api/test_fs_api.c' l='37' u='w' c='test_fs_api_path_is_prefix'/>
-<use f='MOS/tests/fs_api/test_fs_api.c' l='47' u='w' c='test_fs_api_path_is_prefix'/>

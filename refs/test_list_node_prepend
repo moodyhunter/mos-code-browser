@@ -1,3 +1,0 @@
-<dec f='MOS/tests/linked_list/test_linked_list.c' l='71' type='void test_list_node_prepend(TestResult * , _Bool * , _Bool * )'/>
-<use f='MOS/tests/linked_list/test_linked_list.c' l='71' u='c' c='__mos_test_wrapped_test_test_list_node_prepend'/>
-<def f='MOS/tests/linked_list/test_linked_list.c' l='71' ll='100' macro='1' type='void test_list_node_prepend(TestResult * _MT_result, _Bool * _mt_test_skipped, _Bool * _mt_loop_leave)'/>

@@ -113,17 +113,6 @@ MOS/include/lib/hash.h
 MOS/lib/structures/list.c
 MOS/lib/structures/stack.c
 MOS/lib/structures/tree.c
-MOS/tests/cmdline_parser/test_cmdline_parser.c
-MOS/tests/test_engine.h
-MOS/tests/test_engine_impl.h
-MOS/tests/downwards_stack/test_downwards_stack.c
-MOS/tests/fs_api/test_fs_api.c
-MOS/tests/hashmap/test_hashmap.c
-MOS/tests/kmalloc/test_kmalloc.c
-MOS/tests/linked_list/test_linked_list.c
-MOS/tests/memops/test_memops.c
-MOS/tests/printf/test_printf.c
-MOS/tests/test_engine.c
 MOS/userspace/init/main.c
 MOS/build/include/mos/ksyscall/usermode.h
 MOS/arch/x86/include/mos/platform_syscall.h

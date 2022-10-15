@@ -1,3 +1,0 @@
-<dec f='MOS/tests/printf/test_printf.c' l='386' type='void integer_extreme_case(TestResult * , _Bool * , _Bool * )'/>
-<use f='MOS/tests/printf/test_printf.c' l='386' u='c' c='__mos_test_wrapped_test_integer_extreme_case'/>
-<def f='MOS/tests/printf/test_printf.c' l='386' ll='393' macro='1' type='void integer_extreme_case(TestResult * _MT_result, _Bool * _mt_test_skipped, _Bool * _mt_loop_leave)'/>

@@ -1,3 +1,3 @@
-<dec f='MOS/include/mos/elf/elf.h' l='222' type='process_t * create_elf_process(const char * path)'/>
-<def f='MOS/kernel/elf/elf.c' l='38' ll='114' type='process_t * create_elf_process(const char * path)'/>
-<use f='MOS/kernel/kernel_init.c' l='92' u='c' c='mos_start_kernel'/>
+<dec f='MOS/include/mos/elf/elf.h' l='222' type='process_t * create_elf_process(const char * path, uid_t effective_uid)'/>
+<def f='MOS/kernel/elf/elf.c' l='39' ll='117' type='process_t * create_elf_process(const char * path, uid_t effective_uid)'/>
+<use f='MOS/kernel/kernel_init.c' l='94' u='c' c='mos_start_kernel'/>

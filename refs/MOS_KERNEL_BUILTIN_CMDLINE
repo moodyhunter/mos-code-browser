@@ -1,3 +1,3 @@
 <dec f='MOS/build/include/mos/kconfig.h' l='10' type='const char *'/>
 <def f='MOS/build/kconfig.c' l='11' type='const char *'/>
-<use f='MOS/kernel/kernel_init.c' l='67' u='r' c='dump_cmdline'/>
+<use f='MOS/kernel/kernel_init.c' l='68' u='r' c='dump_cmdline'/>

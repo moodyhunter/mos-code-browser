@@ -1,2 +1,0 @@
-<def f='MOS/tests/linked_list/test_linked_list.c' l='186' macro='1' type='void __mos_test_wrapped_test_test_list_foreach(TestResult * result)'/>
-<use f='MOS/tests/linked_list/test_linked_list.c' l='186' macro='1'/>

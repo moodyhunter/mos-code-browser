@@ -1,7 +1,4 @@
 <dec f='MOS/include/mos/elf/elf.h' l='96' type='size_t'/>
 <dec f='MOS/include/mos/elf/elf.h' l='202' type='uintptr_t'/>
-<use f='MOS/kernel/elf/elf.c' l='99' u='r' c='create_elf_process'/>
-<use f='MOS/kernel/elf/elf.c' l='99' u='r' c='create_elf_process'/>
-<use f='MOS/kernel/elf/elf.c' l='102' u='r' c='create_elf_process'/>
 <offset>192</offset>
 <doc f='MOS/include/mos/elf/elf.h' l='202'>// Offset of the section in the file</doc>

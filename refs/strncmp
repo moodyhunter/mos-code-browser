@@ -6,7 +6,7 @@
 <use f='MOS/arch/x86/acpi/acpi.c' l='146' u='c' c='find_acpi_rsdp'/>
 <use f='MOS/kernel/cmdline.c' l='47' u='c' c='mos_cmdline_create'/>
 <use f='MOS/kernel/cmdline.c' l='53' u='c' c='mos_cmdline_create'/>
-<use f='MOS/kernel/elf/elf.c' l='20' u='c' c='elf_verify_header'/>
+<use f='MOS/kernel/elf/elf.c' l='21' u='c' c='elf_verify_header'/>
 <use f='MOS/kernel/filesystem/cpio/cpio.c' l='37' u='c' c='cpio_read_metadata'/>
 <use f='MOS/kernel/filesystem/cpio/cpio.c' l='50' u='c' c='cpio_read_metadata'/>
 <use f='MOS/kernel/filesystem/cpio/cpio.c' l='95' u='c' c='cpio_mount'/>
@@ -14,4 +14,3 @@
 <use f='MOS/kernel/filesystem/pathutils.c' l='48' u='c' c='impl_path_get_subpath'/>
 <def f='MOS/lib/string.c' l='24' ll='37' type='s32 strncmp(const char * str1, const char * str2, size_t n)'/>
 <use f='MOS/lib/structures/tree.c' l='44' u='c' c='tree_find_child_by_name'/>
-<use f='MOS/tests/test_engine.c' l='101' u='c' c='mos_test_engine_run_tests'/>

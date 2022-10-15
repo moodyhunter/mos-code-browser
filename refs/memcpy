@@ -8,4 +8,3 @@
 <def f='MOS/lib/string.c' l='39' ll='61' type='void * memcpy(void *restrict dest, const void *restrict src, size_t n)'/>
 <use f='MOS/lib/structures/stack.c' l='47' u='c' c='stack_push'/>
 <use f='MOS/lib/structures/stack.c' l='60' u='c' c='stack_pop'/>
-<use f='MOS/tests/memops/test_memops.c' l='15' u='c' c='test_lib_memcpy'/>

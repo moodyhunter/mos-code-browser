@@ -4,7 +4,7 @@
 <use f='MOS/kernel/cmdline.c' l='112' u='r' c='mos_cmdline_get_arg'/>
 <use f='MOS/kernel/cmdline.c' l='114' u='r' c='mos_cmdline_get_arg'/>
 <use f='MOS/kernel/cmdline.c' l='115' u='r' c='mos_cmdline_get_arg'/>
-<use f='MOS/kernel/kernel_init.c' l='50' u='r' c='dump_cmdline'/>
 <use f='MOS/kernel/kernel_init.c' l='51' u='r' c='dump_cmdline'/>
-<use f='MOS/kernel/kernel_init.c' l='53' u='r' c='dump_cmdline'/>
-<use f='MOS/kernel/kernel_init.c' l='72' u='w' c='mos_start_kernel'/>
+<use f='MOS/kernel/kernel_init.c' l='52' u='r' c='dump_cmdline'/>
+<use f='MOS/kernel/kernel_init.c' l='54' u='r' c='dump_cmdline'/>
+<use f='MOS/kernel/kernel_init.c' l='73' u='w' c='mos_start_kernel'/>
