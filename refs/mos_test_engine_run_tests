@@ -1,3 +1,2 @@
 <dec f='MOS/kernel/kernel_init.c' l='17' type='void mos_test_engine_run_tests()'/>
-<use f='MOS/kernel/kernel_init.c' l='83' u='c' c='mos_start_kernel'/>
 <doc f='MOS/kernel/kernel_init.c' l='17'>// defined in tests/test_engine.c</doc>

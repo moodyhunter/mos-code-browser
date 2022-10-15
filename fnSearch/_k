@@ -1,8 +1,0 @@
-_ksyscall_exit|_ksyscall_exit
-_ksyscall_file_open|_ksyscall_file_open
-_ksyscall_file_stat|_ksyscall_file_stat
-_ksyscall_io_close|_ksyscall_io_close
-_ksyscall_io_read|_ksyscall_io_read
-_ksyscall_io_write|_ksyscall_io_write
-_ksyscall_panic|_ksyscall_panic
-_ksyscall_yield_cpu|_ksyscall_yield_cpu

@@ -1,0 +1,6 @@
+<dec f='MOS/include/mos/tasks/task_type.h' l='41' type='char [4]'/>
+<offset>0</offset>
+<use f='MOS/kernel/tasks/thread.c' l='56' u='w' c='create_thread'/>
+<use f='MOS/kernel/tasks/thread.c' l='57' u='w' c='create_thread'/>
+<use f='MOS/kernel/tasks/thread.c' l='58' u='w' c='create_thread'/>
+<use f='MOS/kernel/tasks/thread.c' l='59' u='w' c='create_thread'/>

@@ -1,7 +1,8 @@
-<def f='MOS/include/mos/tasks/task_type.h' l='38' ll='45'/>
-<use f='MOS/include/mos/tasks/task_type.h' l='38'/>
+<def f='MOS/include/mos/tasks/task_type.h' l='39' ll='47'/>
+<use f='MOS/include/mos/tasks/task_type.h' l='39'/>
 <size>56</size>
-<mbr r='_thread::id' o='0' t='thread_id_t'/>
+<mbr r='_thread::magic' o='0' t='char [4]'/>
+<mbr r='_thread::id' o='32' t='thread_id_t'/>
 <mbr r='_thread::owner' o='64' t='process_t *'/>
 <mbr r='_thread::status' o='128' t='thread_status_t'/>
 <mbr r='_thread::stack' o='192' t='downwards_stack_t'/>

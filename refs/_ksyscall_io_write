@@ -1,2 +1,0 @@
-<def f='MOS/build/include/mos/ksyscall/usermode.h' l='30' ll='33' macro='1' type='size_t _ksyscall_io_write(fd_t fd, const void * buffer, size_t size, size_t offset)'/>
-<use f='MOS/userspace/init/main.c' l='36' u='c' c='print'/>

@@ -1,0 +1,2 @@
+<def f='MOS/userspace/init/main.c' l='39' ll='42' type='void print_err(const char * str)'/>
+<use f='MOS/userspace/init/main.c' l='54' u='c' c='_start'/>

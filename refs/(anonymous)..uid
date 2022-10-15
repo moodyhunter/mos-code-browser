@@ -8,5 +8,4 @@
 <use f='MOS/kernel/filesystem/cpio/cpio.c' l='156' u='r' c='cpio_stat'/>
 <use f='MOS/kernel/filesystem/cpio/cpio.c' l='156' u='r' c='cpio_stat'/>
 <offset>176</offset>
-<use f='MOS/kernel/kernel_init.c' l='93' u='w' c='mos_start_kernel'/>
-<use f='MOS/kernel/tasks/process.c' l='51' u='r' c='allocate_process'/>
+<use f='MOS/kernel/kernel_init.c' l='95' u='w' c='mos_start_kernel'/>

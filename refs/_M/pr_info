@@ -32,4 +32,5 @@
 <use f='MOS/kernel/kernel_init.c' l='62' u='c'/>
 <use f='MOS/kernel/kernel_init.c' l='63' u='c'/>
 <use f='MOS/kernel/kernel_init.c' l='75' u='c'/>
+<use f='MOS/kernel/kernel_init.c' l='97' u='c'/>
 <use f='MOS/kernel/ksyscall.c' l='56' u='c'/>

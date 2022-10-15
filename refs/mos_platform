@@ -23,7 +23,7 @@
 <use f='MOS/kernel/mm/paging.c' l='52' u='r' c='kpage_free'/>
 <use f='MOS/kernel/panic.c' l='44' u='r' c='mos_kpanic'/>
 <use f='MOS/kernel/panic.c' l='65' u='r' c='mos_kpanic'/>
-<use f='MOS/kernel/tasks/process.c' l='64' u='r' c='allocate_process'/>
+<use f='MOS/kernel/tasks/process.c' l='84' u='r' c='allocate_process'/>
 <use f='MOS/kernel/tasks/schedule.c' l='16' macro='1' u='r' c='schedule_to_thread'/>
 <use f='MOS/kernel/tasks/schedule.c' l='16' macro='1' u='r' c='schedule_to_thread'/>
 <use f='MOS/kernel/tasks/schedule.c' l='17' u='r' c='schedule_to_thread'/>
@@ -34,5 +34,5 @@
 <use f='MOS/kernel/tasks/schedule.c' l='32' macro='1' u='r' c='jump_to_scheduler'/>
 <use f='MOS/kernel/tasks/schedule.c' l='32' macro='1' u='r' c='jump_to_scheduler'/>
 <use f='MOS/kernel/tasks/schedule.c' l='32' macro='1' u='r' c='jump_to_scheduler'/>
-<use f='MOS/kernel/tasks/thread.c' l='69' u='r' c='create_thread'/>
-<use f='MOS/kernel/tasks/thread.c' l='70' u='r' c='create_thread'/>
+<use f='MOS/kernel/tasks/thread.c' l='74' u='r' c='create_thread'/>
+<use f='MOS/kernel/tasks/thread.c' l='75' u='r' c='create_thread'/>

@@ -1,2 +1,2 @@
-<dec f='MOS/include/mos/filesystem/filesystem.h' l='101' type='fsnode_t * vfs_readlink(const char * path)'/>
+<dec f='MOS/include/mos/filesystem/filesystem.h' l='100' type='fsnode_t * vfs_readlink(const char * path)'/>
 <def f='MOS/kernel/filesystem/filesystem.c' l='89' ll='101' type='fsnode_t * vfs_readlink(const char * path)'/>

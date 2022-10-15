@@ -27,11 +27,11 @@
 <use f='MOS/kernel/filesystem/filesystem.c' l='121' u='r' c='vfs_path_open'/>
 <use f='MOS/kernel/filesystem/filesystem.c' l='159' u='r' c='vfs_path_readlink'/>
 <use f='MOS/kernel/filesystem/pathutils.c' l='126' u='r' c='path_resolve'/>
-<dec f='MOS/include/mos/tasks/task_io.h' l='18' type='stdio_type'/>
+<dec f='MOS/include/mos/tasks/task_io.h' l='17' type='stdio_type'/>
 <offset>256</offset>
 <use f='MOS/kernel/tasks/task_io.c' l='13' u='r' c='stdin_read'/>
 <use f='MOS/kernel/tasks/task_io.c' l='25' u='r' c='stdout_write'/>
 <use f='MOS/kernel/tasks/task_io.c' l='35' u='r' c='stderr_write'/>
-<use f='MOS/kernel/tasks/task_io.c' l='50' u='w' c='process_stdio_setup'/>
-<use f='MOS/kernel/tasks/task_io.c' l='51' u='w' c='process_stdio_setup'/>
+<use f='MOS/kernel/tasks/task_io.c' l='47' u='w' c='process_stdio_setup'/>
 <use f='MOS/kernel/tasks/task_io.c' l='52' u='w' c='process_stdio_setup'/>
+<use f='MOS/kernel/tasks/task_io.c' l='57' u='w' c='process_stdio_setup'/>

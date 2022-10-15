@@ -8,3 +8,4 @@ process_init|process_init
 process_remove_fd|process_remove_fd
 process_stdio_setup|process_stdio_setup
 print|print
+print_err|print_err

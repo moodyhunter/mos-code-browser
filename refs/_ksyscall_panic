@@ -1,2 +1,0 @@
-<def f='MOS/build/include/mos/ksyscall/usermode.h' l='10' ll='13' macro='1' type='void _ksyscall_panic()'/>
-<use f='MOS/userspace/init/main.c' l='16' u='c' c='__stack_chk_fail'/>

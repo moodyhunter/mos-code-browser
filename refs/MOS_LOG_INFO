@@ -32,5 +32,6 @@
 <use f='MOS/kernel/kernel_init.c' l='62' macro='1' u='r' c='dump_cmdline'/>
 <use f='MOS/kernel/kernel_init.c' l='63' macro='1' u='r' c='dump_cmdline'/>
 <use f='MOS/kernel/kernel_init.c' l='75' macro='1' u='r' c='mos_start_kernel'/>
+<use f='MOS/kernel/kernel_init.c' l='97' macro='1' u='r' c='mos_start_kernel'/>
 <use f='MOS/kernel/ksyscall.c' l='56' macro='1' u='r' c='ksyscall_exit'/>
 <use f='MOS/kernel/printk.c' l='18' c='deduce_level_color'/>

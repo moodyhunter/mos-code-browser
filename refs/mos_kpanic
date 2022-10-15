@@ -53,8 +53,8 @@
 <use f='MOS/kernel/filesystem/pathutils.c' l='36' macro='1' u='c' c='impl_path_get_subpath'/>
 <use f='MOS/kernel/filesystem/pathutils.c' l='98' macro='1' u='c' c='path_resolve'/>
 <use f='MOS/kernel/kernel_init.c' l='64' macro='1' u='c' c='dump_cmdline'/>
-<use f='MOS/kernel/kernel_init.c' l='89' macro='1' u='c' c='mos_start_kernel'/>
-<use f='MOS/kernel/kernel_init.c' l='104' macro='1' u='c' c='mos_start_kernel'/>
+<use f='MOS/kernel/kernel_init.c' l='91' macro='1' u='c' c='mos_start_kernel'/>
+<use f='MOS/kernel/kernel_init.c' l='106' macro='1' u='c' c='mos_start_kernel'/>
 <use f='MOS/kernel/ksyscall.c' l='47' macro='1' u='c' c='ksyscall_panic'/>
 <use f='MOS/kernel/ksyscall.c' l='54' macro='1' u='c' c='ksyscall_exit'/>
 <use f='MOS/kernel/ksyscall.c' l='59' macro='1' u='c' c='ksyscall_exit'/>
@@ -65,9 +65,9 @@
 <use f='MOS/kernel/mm/paging.c' l='51' macro='1' u='c' c='kpage_free'/>
 <def f='MOS/kernel/panic.c' l='34' ll='69' macro='1' type='void mos_kpanic(const char * func, u32 line, const char * fmt)'/>
 <use f='MOS/kernel/stack_protector.c' l='10' macro='1' u='c' c='__stack_chk_fail'/>
-<use f='MOS/kernel/tasks/process.c' l='71' macro='1' u='c' c='allocate_process'/>
-<use f='MOS/kernel/tasks/process.c' l='85' macro='1' u='c' c='process_add_fd'/>
-<use f='MOS/kernel/tasks/process.c' l='99' macro='1' u='c' c='process_remove_fd'/>
+<use f='MOS/kernel/tasks/process.c' l='91' macro='1' u='c' c='allocate_process'/>
+<use f='MOS/kernel/tasks/process.c' l='105' macro='1' u='c' c='process_add_fd'/>
+<use f='MOS/kernel/tasks/process.c' l='119' macro='1' u='c' c='process_remove_fd'/>
 <use f='MOS/kernel/tasks/schedule.c' l='15' macro='1' u='c' c='schedule_to_thread'/>
 <use f='MOS/kernel/tasks/task_io.c' l='13' macro='1' u='c' c='stdin_read'/>
 <use f='MOS/kernel/tasks/task_io.c' l='25' macro='1' u='c' c='stdout_write'/>

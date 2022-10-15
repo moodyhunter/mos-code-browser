@@ -100,7 +100,8 @@
 <use f='MOS/kernel/kernel_init.c' l='63' macro='1' u='c' c='dump_cmdline'/>
 <use f='MOS/kernel/kernel_init.c' l='68' macro='1' u='c' c='dump_cmdline'/>
 <use f='MOS/kernel/kernel_init.c' l='75' macro='1' u='c' c='mos_start_kernel'/>
-<use f='MOS/kernel/kernel_init.c' l='101' macro='1' u='c' c='mos_start_kernel'/>
+<use f='MOS/kernel/kernel_init.c' l='97' macro='1' u='c' c='mos_start_kernel'/>
+<use f='MOS/kernel/kernel_init.c' l='103' macro='1' u='c' c='mos_start_kernel'/>
 <use f='MOS/kernel/ksyscall.c' l='56' macro='1' u='c' c='ksyscall_exit'/>
 <use f='MOS/kernel/panic.c' l='22' macro='1' u='c' c='kwarn_handler_set'/>
 <use f='MOS/kernel/panic.c' l='28' macro='1' u='c' c='kwarn_handler_remove'/>
@@ -115,7 +116,7 @@
 <use f='MOS/kernel/panic.c' l='87' u='c' c='mos_kwarn'/>
 <use f='MOS/kernel/panic.c' l='88' u='c' c='mos_kwarn'/>
 <def f='MOS/kernel/printk.c' l='42' ll='70' type='void lprintk(int loglevel, const char * fmt)'/>
-<use f='MOS/kernel/tasks/process.c' l='51' macro='1' u='c' c='allocate_process'/>
+<use f='MOS/kernel/tasks/process.c' l='69' macro='1' u='c' c='allocate_process'/>
 <use f='MOS/kernel/tasks/schedule.c' l='26' macro='1' u='c' c='scheduler'/>
 <use f='MOS/kernel/tasks/task_io.c' l='26' u='c' c='stdout_write'/>
 <use f='MOS/kernel/tasks/task_io.c' l='36' u='c' c='stderr_write'/>

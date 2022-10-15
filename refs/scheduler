@@ -1,3 +1,3 @@
 <dec f='MOS/include/mos/tasks/schedule.h' l='7' type='void scheduler()'/>
-<use f='MOS/kernel/kernel_init.c' l='103' u='c' c='mos_start_kernel'/>
+<use f='MOS/kernel/kernel_init.c' l='105' u='c' c='mos_start_kernel'/>
 <def f='MOS/kernel/tasks/schedule.c' l='21' ll='28' macro='1' type='void scheduler()'/>

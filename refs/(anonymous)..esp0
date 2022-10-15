@@ -1,4 +1,4 @@
 <dec f='MOS/arch/x86/include/mos/x86/tasks/tss_types.h' l='9' type='u32'/>
 <offset>32</offset>
-<use f='MOS/kernel/kernel_init.c' l='100' u='w' c='mos_start_kernel'/>
-<use f='MOS/kernel/kernel_init.c' l='101' u='r' c='mos_start_kernel'/>
+<use f='MOS/kernel/kernel_init.c' l='102' u='w' c='mos_start_kernel'/>
+<use f='MOS/kernel/kernel_init.c' l='103' u='r' c='mos_start_kernel'/>

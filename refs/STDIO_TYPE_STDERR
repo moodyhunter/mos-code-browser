@@ -1,3 +1,3 @@
-<dec f='MOS/include/mos/tasks/task_io.h' l='12' type='2'/>
+<dec f='MOS/include/mos/tasks/task_io.h' l='11' type='2'/>
 <use f='MOS/kernel/tasks/task_io.c' l='35' u='r' c='stderr_write'/>
-<use f='MOS/kernel/tasks/task_io.c' l='52' u='r' c='process_stdio_setup'/>
+<use f='MOS/kernel/tasks/task_io.c' l='57' u='r' c='process_stdio_setup'/>

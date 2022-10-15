@@ -7,6 +7,7 @@
 <use f='MOS/kernel/filesystem/pathutils.c' l='160' u='c' c='path_to_string_relative'/>
 <use f='MOS/kernel/printk.c' l='34' u='c' c='printk'/>
 <use f='MOS/kernel/printk.c' l='52' u='c' c='lprintk'/>
+<use f='MOS/kernel/tasks/process.c' l='79' u='c' c='allocate_process'/>
 <use f='MOS/lib/stdio_impl.c' l='315' u='c' c='printf_diouxX'/>
 <use f='MOS/lib/stdio_impl.c' l='327' u='c' c='printf_diouxX'/>
 <use f='MOS/lib/stdio_impl.c' l='327' u='c' c='printf_diouxX'/>
@@ -16,3 +17,4 @@
 <use f='MOS/lib/structures/hashmap_common.c' l='10' u='c' c='hashmap_hash_string'/>
 <def f='MOS/userspace/init/main.c' l='26' ll='32' type='int strlen(const char * str)'/>
 <use f='MOS/userspace/init/main.c' l='36' u='c' c='print'/>
+<use f='MOS/userspace/init/main.c' l='41' u='c' c='print_err'/>

@@ -1,6 +1,6 @@
-<dec f='MOS/include/mos/tasks/task_type.h' l='32' type='paging_handle_t'/>
-<offset>128</offset>
+<dec f='MOS/include/mos/tasks/task_type.h' l='33' type='paging_handle_t'/>
+<offset>224</offset>
 <use f='MOS/arch/x86/tasks/context.c' l='23' u='m' c='x86_context_switch'/>
 <use f='MOS/kernel/elf/elf.c' l='92' u='r' c='create_elf_process'/>
-<use f='MOS/kernel/tasks/process.c' l='64' u='w' c='allocate_process'/>
-<use f='MOS/kernel/tasks/thread.c' l='69' u='r' c='create_thread'/>
+<use f='MOS/kernel/tasks/process.c' l='84' u='w' c='allocate_process'/>
+<use f='MOS/kernel/tasks/thread.c' l='74' u='r' c='create_thread'/>

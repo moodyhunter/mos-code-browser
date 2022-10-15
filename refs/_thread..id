@@ -1,6 +1,6 @@
-<dec f='MOS/include/mos/tasks/task_type.h' l='40' type='thread_id_t'/>
-<offset>0</offset>
-<use f='MOS/kernel/tasks/process.c' l='68' u='r' c='allocate_process'/>
+<dec f='MOS/include/mos/tasks/task_type.h' l='42' type='thread_id_t'/>
+<offset>32</offset>
+<use f='MOS/kernel/tasks/process.c' l='88' u='r' c='allocate_process'/>
 <use f='MOS/kernel/tasks/schedule.c' l='15' u='m' c='schedule_to_thread'/>
-<use f='MOS/kernel/tasks/thread.c' l='56' u='w' c='create_thread'/>
-<use f='MOS/kernel/tasks/thread.c' l='72' u='a' c='create_thread'/>
+<use f='MOS/kernel/tasks/thread.c' l='60' u='w' c='create_thread'/>
+<use f='MOS/kernel/tasks/thread.c' l='77' u='a' c='create_thread'/>
