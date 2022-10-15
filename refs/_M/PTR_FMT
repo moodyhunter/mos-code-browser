@@ -55,5 +55,5 @@
 <use f='MOS/arch/x86/mm/pmem_freelist.c' l='240' u='c'/>
 <use f='MOS/arch/x86/mm/pmem_freelist.c' l='282' u='c'/>
 <use f='MOS/arch/x86/x86_platform.c' l='51' u='c'/>
-<use f='MOS/kernel/kernel_init.c' l='119' u='c'/>
-<use f='MOS/kernel/kernel_init.c' l='188' u='c'/>
+<use f='MOS/kernel/elf/elf.c' l='72' u='c'/>
+<use f='MOS/kernel/kernel_init.c' l='99' u='c'/>

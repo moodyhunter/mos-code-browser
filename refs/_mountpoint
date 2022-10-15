@@ -1,6 +1,6 @@
-<use f='MOS/include/mos/filesystem/mount.h' l='8'/>
-<def f='MOS/include/mos/filesystem/mount.h' l='26' ll='37'/>
-<use f='MOS/include/mos/filesystem/mount.h' l='26'/>
+<use f='MOS/include/mos/filesystem/mount.h' l='9'/>
+<def f='MOS/include/mos/filesystem/mount.h' l='27' ll='38'/>
+<use f='MOS/include/mos/filesystem/mount.h' l='27'/>
 <size>64</size>
 <mbr r='_mountpoint::refcount' o='0' t='atomic_t'/>
 <mbr r='_mountpoint::path' o='64' t='fsnode_t *'/>

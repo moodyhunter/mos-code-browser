@@ -1,0 +1,2 @@
+<def f='MOS/build/include/mos/ksyscall/usermode.h' l='40' ll='43' macro='1' type='void _ksyscall_exit(u32 exit_code)'/>
+<use f='MOS/userspace/init/main.c' l='52' u='c' c='_start'/>

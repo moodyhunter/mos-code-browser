@@ -1,4 +1,4 @@
-<dec f='MOS/include/mos/filesystem/mount.h' l='17' type='_Bool (*)(file_t *)'/>
+<dec f='MOS/include/mos/filesystem/mount.h' l='18' type='_Bool (*)(file_t *)'/>
 <use f='MOS/kernel/filesystem/cpio/cpio.c' l='223' u='w'/>
 <offset>256</offset>
 <use f='MOS/kernel/filesystem/filesystem.c' l='22' u='r' c='vfs_io_ops_close'/>

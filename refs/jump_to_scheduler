@@ -1,3 +1,4 @@
 <dec f='MOS/include/mos/tasks/schedule.h' l='8' type='void jump_to_scheduler()'/>
-<use f='MOS/kernel/ksyscall.c' l='63' u='c' c='ksyscall_yield_cpu'/>
+<use f='MOS/kernel/ksyscall.c' l='58' u='c' c='ksyscall_exit'/>
+<use f='MOS/kernel/ksyscall.c' l='64' u='c' c='ksyscall_yield_cpu'/>
 <def f='MOS/kernel/tasks/schedule.c' l='30' ll='33' type='void jump_to_scheduler()'/>

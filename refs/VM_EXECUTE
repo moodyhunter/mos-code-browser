@@ -2,4 +2,4 @@
 <use f='MOS/arch/x86/boot/multiboot/startup.c' l='158' u='r' c='x86_startup'/>
 <use f='MOS/arch/x86/boot/multiboot/startup.c' l='162' u='r' c='x86_startup'/>
 <use f='MOS/arch/x86/mm/paging.c' l='52' u='r' c='x86_mm_prepare_paging'/>
-<use f='MOS/kernel/kernel_init.c' l='133' u='r' c='create_elf_process'/>
+<use f='MOS/kernel/elf/elf.c' l='86' u='r' c='create_elf_process'/>

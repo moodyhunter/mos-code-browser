@@ -12,7 +12,7 @@
 <use f='MOS/lib/stdio_impl.c' l='327' u='c' c='printf_diouxX'/>
 <use f='MOS/lib/stdio_impl.c' l='408' u='c' c='printf_cs'/>
 <def f='MOS/lib/string.c' l='8' ll='14' type='size_t strlen(const char * str)'/>
-<use f='MOS/lib/string.c' l='134' u='c' c='strtoll'/>
+<use f='MOS/lib/string.c' l='154' u='c' c='strtoll'/>
 <use f='MOS/lib/structures/hashmap_common.c' l='10' u='c' c='hashmap_hash_string'/>
 <use f='MOS/tests/test_engine.c' l='54' u='c' c='mos_test_engine_log'/>
 <use f='MOS/tests/test_engine.c' l='101' u='c' c='mos_test_engine_run_tests'/>

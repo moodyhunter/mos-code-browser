@@ -1,5 +1,5 @@
-<def f='MOS/include/mos/filesystem/filesystem.h' l='87' ll='92'/>
-<use f='MOS/include/mos/filesystem/filesystem.h' l='87'/>
+<def f='MOS/include/mos/filesystem/filesystem.h' l='82' ll='87'/>
+<use f='MOS/include/mos/filesystem/filesystem.h' l='82'/>
 <size>48</size>
 <mbr r='_file::io' o='0' t='io_t'/>
 <mbr r='_file::pdata' o='256' t='void *'/>

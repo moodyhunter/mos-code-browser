@@ -1,5 +1,5 @@
 <dec f='MOS/include/mos/io/io.h' l='25' type='void (*)(io_t *)'/>
 <offset>256</offset>
 <use f='MOS/kernel/filesystem/filesystem.c' l='58' u='w'/>
-<use f='MOS/kernel/io/io.c' l='68' u='r' c='io_close'/>
-<use f='MOS/kernel/io/io.c' l='78' u='r' c='io_close'/>
+<use f='MOS/kernel/io/io.c' l='69' u='r' c='io_close'/>
+<use f='MOS/kernel/io/io.c' l='80' u='r' c='io_close'/>

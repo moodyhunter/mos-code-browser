@@ -1,7 +1,7 @@
 <dec f='MOS/include/mos/cmdline.h' l='41' type='cmdline_arg_t * mos_cmdline_get_arg(const char * arg)'/>
 <def f='MOS/kernel/cmdline.c' l='109' ll='118' type='cmdline_arg_t * mos_cmdline_get_arg(const char * option_name)'/>
-<use f='MOS/kernel/kernel_init.c' l='38' u='c' c='cmdline_get_init_path'/>
-<use f='MOS/kernel/kernel_init.c' l='167' u='c' c='mos_start_kernel'/>
+<use f='MOS/kernel/kernel_init.c' l='35' u='c' c='cmdline_get_init_path'/>
+<use f='MOS/kernel/kernel_init.c' l='81' u='c' c='mos_start_kernel'/>
 <use f='MOS/tests/test_engine.c' l='81' u='c' c='mos_test_engine_run_tests'/>
 <use f='MOS/tests/test_engine.c' l='82' u='c' c='mos_test_engine_run_tests'/>
 <use f='MOS/tests/test_engine.c' l='128' u='c' c='mos_test_engine_run_tests'/>

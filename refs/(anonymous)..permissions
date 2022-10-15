@@ -1,4 +1,4 @@
-<dec f='MOS/include/mos/filesystem/filesystem.h' l='71' type='file_permissions_t'/>
+<dec f='MOS/include/mos/filesystem/filesystem.h' l='66' type='file_permissions_t'/>
 <offset>32</offset>
 <use f='MOS/kernel/filesystem/cpio/cpio.c' l='161' u='m' c='cpio_stat'/>
 <use f='MOS/kernel/filesystem/cpio/cpio.c' l='162' u='m' c='cpio_stat'/>

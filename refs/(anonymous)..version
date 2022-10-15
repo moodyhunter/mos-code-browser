@@ -1,6 +1,6 @@
 <dec f='MOS/arch/x86/include/mos/x86/boot/multiboot.h' l='222' type='u16'/>
 <offset>0</offset>
-<dec f='MOS/include/mos/elf/elf.h' l='55' type='elf_version_type'/>
-<dec f='MOS/include/mos/elf/elf.h' l='91' type='u32'/>
-<use f='MOS/kernel/elf/elf.c' l='25' u='r' c='elf_verify_header'/>
+<dec f='MOS/include/mos/elf/elf.h' l='56' type='elf_version_type'/>
+<dec f='MOS/include/mos/elf/elf.h' l='92' type='u32'/>
+<use f='MOS/kernel/elf/elf.c' l='29' u='r' c='elf_verify_header'/>
 <offset>160</offset>

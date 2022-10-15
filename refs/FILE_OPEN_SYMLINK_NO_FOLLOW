@@ -1,2 +1,2 @@
-<dec f='MOS/include/mos/filesystem/filesystem.h' l='18' type='4'/>
+<dec f='MOS/include/mos/filesystem/filesystem.h' l='13' type='4'/>
 <use f='MOS/kernel/filesystem/filesystem.c' l='123' u='r' c='vfs_path_open'/>

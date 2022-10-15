@@ -3,4 +3,4 @@
 <use f='MOS/arch/x86/boot/multiboot/startup.c' l='153' u='r' c='x86_startup'/>
 <use f='MOS/arch/x86/boot/multiboot/startup.c' l='154' u='r' c='x86_startup'/>
 <use f='MOS/arch/x86/boot/multiboot/startup.c' l='158' u='r' c='x86_startup'/>
-<use f='MOS/kernel/kernel_init.c' l='131' u='r' c='create_elf_process'/>
+<use f='MOS/kernel/elf/elf.c' l='84' u='r' c='create_elf_process'/>

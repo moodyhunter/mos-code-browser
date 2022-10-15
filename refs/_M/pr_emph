@@ -1,8 +1,8 @@
 <dec f='MOS/include/mos/printk.h' l='46'/>
 <use f='MOS/arch/x86/mm/pmem_freelist.c' l='64' u='c'/>
 <use f='MOS/arch/x86/mm/pmem_freelist.c' l='70' u='c'/>
-<use f='MOS/kernel/kernel_init.c' l='52' u='c'/>
-<use f='MOS/kernel/kernel_init.c' l='53' u='c'/>
-<use f='MOS/kernel/kernel_init.c' l='70' u='c'/>
-<use f='MOS/kernel/kernel_init.c' l='188' u='c'/>
+<use f='MOS/kernel/kernel_init.c' l='49' u='c'/>
+<use f='MOS/kernel/kernel_init.c' l='50' u='c'/>
+<use f='MOS/kernel/kernel_init.c' l='67' u='c'/>
+<use f='MOS/kernel/kernel_init.c' l='99' u='c'/>
 <use f='MOS/tests/test_engine.c' l='126' u='c'/>

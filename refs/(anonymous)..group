@@ -1,6 +1,6 @@
-<dec f='MOS/include/mos/filesystem/filesystem.h' l='50' type='file_perm_t'/>
-<use f='MOS/include/mos/filesystem/filesystem.h' l='59' u='r' c='file_format_perm'/>
-<use f='MOS/include/mos/filesystem/filesystem.h' l='60' u='r' c='file_format_perm'/>
-<use f='MOS/include/mos/filesystem/filesystem.h' l='61' u='r' c='file_format_perm'/>
+<dec f='MOS/include/mos/filesystem/filesystem.h' l='45' type='file_perm_t'/>
+<use f='MOS/include/mos/filesystem/filesystem.h' l='54' u='r' c='file_format_perm'/>
+<use f='MOS/include/mos/filesystem/filesystem.h' l='55' u='r' c='file_format_perm'/>
+<use f='MOS/include/mos/filesystem/filesystem.h' l='56' u='r' c='file_format_perm'/>
 <offset>32</offset>
 <use f='MOS/kernel/filesystem/cpio/cpio.c' l='162' u='w' c='cpio_stat'/>

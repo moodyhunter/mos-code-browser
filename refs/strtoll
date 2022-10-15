@@ -1,2 +1,2 @@
-<dec f='MOS/include/lib/string.h' l='21' type='s64 strtoll(const char * str, char ** endptr, int base)'/>
-<def f='MOS/lib/string.c' l='132' ll='135' type='s64 strtoll(const char * str, char ** endptr, int base)'/>
+<dec f='MOS/include/lib/string.h' l='22' type='s64 strtoll(const char * str, char ** endptr, int base)'/>
+<def f='MOS/lib/string.c' l='152' ll='155' type='s64 strtoll(const char * str, char ** endptr, int base)'/>

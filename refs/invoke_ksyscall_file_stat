@@ -1,1 +1,0 @@
-<def f='MOS/build/include/mos/ksyscall/usermode.h' l='20' ll='23' macro='1' type='_Bool invoke_ksyscall_file_stat(const char * file_path, file_stat_t * stat)'/>

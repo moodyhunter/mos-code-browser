@@ -1,4 +1,4 @@
-<dec f='MOS/include/mos/filesystem/filesystem.h' l='91' type='fsnode_t *'/>
+<dec f='MOS/include/mos/filesystem/filesystem.h' l='86' type='fsnode_t *'/>
 <offset>320</offset>
 <use f='MOS/kernel/filesystem/filesystem.c' l='16' u='r' c='vfs_io_ops_close'/>
 <use f='MOS/kernel/filesystem/filesystem.c' l='19' u='r' c='vfs_io_ops_close'/>

@@ -1,8 +1,8 @@
-<dec f='MOS/include/mos/elf/elf.h' l='87' type='elf_identity_t'/>
-<use f='MOS/kernel/elf/elf.c' l='13' u='m' c='elf_verify_header'/>
-<use f='MOS/kernel/elf/elf.c' l='16' u='m' c='elf_verify_header'/>
-<use f='MOS/kernel/elf/elf.c' l='19' u='m' c='elf_verify_header'/>
-<use f='MOS/kernel/elf/elf.c' l='22' u='m' c='elf_verify_header'/>
-<use f='MOS/kernel/elf/elf.c' l='25' u='m' c='elf_verify_header'/>
-<use f='MOS/kernel/elf/elf.c' l='28' u='m' c='elf_verify_header'/>
+<dec f='MOS/include/mos/elf/elf.h' l='88' type='elf_identity_t'/>
+<use f='MOS/kernel/elf/elf.c' l='17' u='m' c='elf_verify_header'/>
+<use f='MOS/kernel/elf/elf.c' l='20' u='m' c='elf_verify_header'/>
+<use f='MOS/kernel/elf/elf.c' l='23' u='m' c='elf_verify_header'/>
+<use f='MOS/kernel/elf/elf.c' l='26' u='m' c='elf_verify_header'/>
+<use f='MOS/kernel/elf/elf.c' l='29' u='m' c='elf_verify_header'/>
+<use f='MOS/kernel/elf/elf.c' l='32' u='m' c='elf_verify_header'/>
 <offset>0</offset>

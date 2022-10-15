@@ -1,8 +1,8 @@
-<dec f='MOS/include/lib/string.h' l='19' type='const char * duplicate_string_n(const char * src, size_t len)'/>
+<dec f='MOS/include/lib/string.h' l='20' type='const char * duplicate_string_n(const char * src, size_t len)'/>
 <use f='MOS/kernel/cmdline.c' l='33' u='c' c='mos_cmdline_create'/>
 <use f='MOS/kernel/cmdline.c' l='67' u='c' c='mos_cmdline_create'/>
 <use f='MOS/kernel/filesystem/pathutils.c' l='60' u='c' c='impl_path_get_subpath'/>
 <use f='MOS/kernel/filesystem/pathutils.c' l='149' u='c' c='path_to_string_relative'/>
 <use f='MOS/kernel/filesystem/pathutils.c' l='152' u='c' c='path_to_string_relative'/>
 <use f='MOS/kernel/filesystem/pathutils.c' l='169' u='c' c='path_to_string_relative'/>
-<def f='MOS/lib/string.c' l='124' ll='130' type='const char * duplicate_string_n(const char * src, size_t len)'/>
+<def f='MOS/lib/string.c' l='144' ll='150' type='const char * duplicate_string_n(const char * src, size_t len)'/>

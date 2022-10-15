@@ -1,4 +1,4 @@
-<dec f='MOS/include/mos/filesystem/filesystem.h' l='90' type='void *'/>
+<dec f='MOS/include/mos/filesystem/filesystem.h' l='85' type='void *'/>
 <offset>256</offset>
 <use f='MOS/kernel/filesystem/cpio/cpio.c' l='128' u='w' c='cpio_open'/>
 <use f='MOS/kernel/filesystem/cpio/cpio.c' l='129' u='r' c='cpio_open'/>

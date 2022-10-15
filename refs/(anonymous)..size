@@ -1,3 +1,10 @@
 <dec f='MOS/arch/x86/include/mos/x86/boot/multiboot.h' l='98' type='u32'/>
 <dec f='MOS/arch/x86/include/mos/x86/boot/multiboot.h' l='114' type='u32'/>
 <offset>0</offset>
+<dec f='MOS/include/mos/filesystem/filesystem.h' l='72' type='size_t'/>
+<offset>256</offset>
+<use f='MOS/kernel/filesystem/cpio/cpio.c' l='154' u='w' c='cpio_stat'/>
+<use f='MOS/kernel/filesystem/filesystem.c' l='138' u='r' c='vfs_path_open'/>
+<use f='MOS/kernel/filesystem/filesystem.c' l='165' u='r' c='vfs_path_readlink'/>
+<use f='MOS/kernel/filesystem/filesystem.c' l='166' u='r' c='vfs_path_readlink'/>
+<use f='MOS/kernel/filesystem/filesystem.c' l='171' u='r' c='vfs_path_readlink'/>

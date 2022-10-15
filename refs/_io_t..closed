@@ -1,4 +1,4 @@
 <dec f='MOS/include/mos/io/io.h' l='30' type='_Bool'/>
 <offset>0</offset>
 <use f='MOS/kernel/io/io.c' l='63' u='r' c='io_close'/>
-<use f='MOS/kernel/io/io.c' l='77' u='w' c='io_close'/>
+<use f='MOS/kernel/io/io.c' l='79' u='w' c='io_close'/>

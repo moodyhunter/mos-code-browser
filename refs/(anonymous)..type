@@ -12,14 +12,26 @@
 <use f='MOS/arch/x86/cpu/smp.c' l='119' macro='1' u='r' c='x86_smp_init'/>
 <use f='MOS/arch/x86/cpu/smp.c' l='121' u='r' c='x86_smp_init'/>
 <use f='MOS/arch/x86/interrupt/idt.c' l='30' u='w' c='idt_set_descriptor'/>
+<dec f='MOS/include/mos/filesystem/filesystem.h' l='65' type='file_type_t'/>
+<offset>0</offset>
 <use f='MOS/arch/x86/mm/mm.c' l='57' u='r' c='x86_mem_init'/>
 <use f='MOS/arch/x86/mm/mm.c' l='62' u='r' c='x86_mem_init'/>
 <use f='MOS/arch/x86/mm/mm.c' l='69' u='r' c='x86_mem_init'/>
+<use f='MOS/kernel/filesystem/cpio/cpio.c' l='171' u='w' c='cpio_stat'/>
+<use f='MOS/kernel/filesystem/cpio/cpio.c' l='172' u='w' c='cpio_stat'/>
+<use f='MOS/kernel/filesystem/cpio/cpio.c' l='173' u='w' c='cpio_stat'/>
+<use f='MOS/kernel/filesystem/cpio/cpio.c' l='174' u='w' c='cpio_stat'/>
+<use f='MOS/kernel/filesystem/cpio/cpio.c' l='175' u='w' c='cpio_stat'/>
+<use f='MOS/kernel/filesystem/cpio/cpio.c' l='176' u='w' c='cpio_stat'/>
+<use f='MOS/kernel/filesystem/cpio/cpio.c' l='177' u='w' c='cpio_stat'/>
+<use f='MOS/kernel/filesystem/filesystem.c' l='121' u='r' c='vfs_path_open'/>
+<use f='MOS/kernel/filesystem/filesystem.c' l='159' u='r' c='vfs_path_readlink'/>
+<use f='MOS/kernel/filesystem/pathutils.c' l='126' u='r' c='path_resolve'/>
 <dec f='MOS/include/mos/tasks/task_io.h' l='18' type='stdio_type'/>
 <offset>256</offset>
-<use f='MOS/kernel/tasks/task_io.c' l='12' u='r' c='stdin_read'/>
-<use f='MOS/kernel/tasks/task_io.c' l='24' u='r' c='stdout_write'/>
-<use f='MOS/kernel/tasks/task_io.c' l='34' u='r' c='stderr_write'/>
-<use f='MOS/kernel/tasks/task_io.c' l='49' u='w' c='process_stdio_setup'/>
+<use f='MOS/kernel/tasks/task_io.c' l='13' u='r' c='stdin_read'/>
+<use f='MOS/kernel/tasks/task_io.c' l='25' u='r' c='stdout_write'/>
+<use f='MOS/kernel/tasks/task_io.c' l='35' u='r' c='stderr_write'/>
 <use f='MOS/kernel/tasks/task_io.c' l='50' u='w' c='process_stdio_setup'/>
 <use f='MOS/kernel/tasks/task_io.c' l='51' u='w' c='process_stdio_setup'/>
+<use f='MOS/kernel/tasks/task_io.c' l='52' u='w' c='process_stdio_setup'/>

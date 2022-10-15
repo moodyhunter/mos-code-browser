@@ -1,9 +1,8 @@
 <dec f='MOS/include/mos/platform/platform.h' l='97'/>
-<use f='MOS/kernel/ksyscall.c' l='14' u='c'/>
-<use f='MOS/kernel/ksyscall.c' l='15' u='c'/>
-<use f='MOS/kernel/ksyscall.c' l='28' u='c'/>
-<use f='MOS/kernel/ksyscall.c' l='35' u='c'/>
-<use f='MOS/kernel/ksyscall.c' l='40' u='c'/>
+<use f='MOS/kernel/ksyscall.c' l='17' u='c'/>
+<use f='MOS/kernel/ksyscall.c' l='29' u='c'/>
+<use f='MOS/kernel/ksyscall.c' l='36' u='c'/>
+<use f='MOS/kernel/ksyscall.c' l='41' u='c'/>
 <use f='MOS/kernel/ksyscall.c' l='52' u='c'/>
 <use f='MOS/kernel/ksyscall.c' l='57' u='c'/>
 <use f='MOS/kernel/tasks/schedule.c' l='16' u='c'/>

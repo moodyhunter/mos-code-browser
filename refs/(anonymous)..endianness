@@ -1,3 +1,3 @@
-<dec f='MOS/include/mos/elf/elf.h' l='54' type='elf_endianness'/>
-<use f='MOS/kernel/elf/elf.c' l='22' u='r' c='elf_verify_header'/>
+<dec f='MOS/include/mos/elf/elf.h' l='55' type='elf_endianness'/>
+<use f='MOS/kernel/elf/elf.c' l='26' u='r' c='elf_verify_header'/>
 <offset>40</offset>

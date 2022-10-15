@@ -1,4 +1,4 @@
-<dec f='MOS/include/mos/filesystem/mount.h' l='11' type='const char *'/>
+<dec f='MOS/include/mos/filesystem/mount.h' l='12' type='const char *'/>
 <use f='MOS/kernel/filesystem/cpio/cpio.c' l='217' u='w'/>
 <offset>0</offset>
 <use f='MOS/kernel/filesystem/filesystem.c' l='112' u='r' c='vfs_path_open'/>

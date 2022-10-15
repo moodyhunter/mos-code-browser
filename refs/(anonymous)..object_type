@@ -1,3 +1,3 @@
-<dec f='MOS/include/mos/elf/elf.h' l='88' type='elf_object_type'/>
+<dec f='MOS/include/mos/elf/elf.h' l='89' type='elf_object_type'/>
+<use f='MOS/kernel/elf/elf.c' l='54' u='r' c='create_elf_process'/>
 <offset>128</offset>
-<use f='MOS/kernel/kernel_init.c' l='89' u='r' c='open_elf_executable'/>

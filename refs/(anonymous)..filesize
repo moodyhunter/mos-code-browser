@@ -1,4 +1,4 @@
-<dec f='MOS/include/mos/filesystem/cpio/cpio.h' l='18' type='char [8]'/>
+<dec f='MOS/include/mos/filesystem/cpio/cpio.h' l='19' type='char [8]'/>
 <use f='MOS/kernel/filesystem/cpio/cpio.c' l='66' u='r' c='cpio_read_metadata'/>
 <use f='MOS/kernel/filesystem/cpio/cpio.c' l='66' u='r' c='cpio_read_metadata'/>
 <offset>432</offset>

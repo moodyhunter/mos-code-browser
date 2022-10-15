@@ -76,6 +76,8 @@ MOS/include/lib/structures/hashmap_common.h
 MOS/kernel/device/console.c
 MOS/kernel/elf/elf.c
 MOS/include/mos/elf/elf.h
+MOS/include/mos/mm/paging.h
+MOS/include/mos/tasks/process.h
 MOS/kernel/filesystem/cpio/cpio.c
 MOS/include/mos/filesystem/cpio/cpio.h
 MOS/include/mos/filesystem/mount.h
@@ -86,8 +88,6 @@ MOS/kernel/filesystem/mount.c
 MOS/kernel/filesystem/pathutils.c
 MOS/kernel/io/io.c
 MOS/kernel/kernel_init.c
-MOS/include/mos/mm/paging.h
-MOS/include/mos/tasks/process.h
 MOS/include/mos/tasks/schedule.h
 MOS/include/mos/tasks/thread.h
 MOS/kernel/ksyscall.c

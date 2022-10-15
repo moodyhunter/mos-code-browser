@@ -1,2 +1,0 @@
-<def f='MOS/kernel/kernel_init.c' l='73' ll='108' type='elf_header_t * open_elf_executable(const char * path)'/>
-<use f='MOS/kernel/kernel_init.c' l='178' u='c' c='mos_start_kernel'/>

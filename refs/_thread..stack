@@ -1,4 +1,4 @@
-<dec f='MOS/include/mos/tasks/task_type.h' l='42' type='downwards_stack_t'/>
+<dec f='MOS/include/mos/tasks/task_type.h' l='43' type='downwards_stack_t'/>
 <offset>192</offset>
 <use f='MOS/arch/x86/tasks/context.c' l='15' u='a' c='x86_setup_thread_context'/>
 <use f='MOS/arch/x86/tasks/context.c' l='16' u='a' c='x86_setup_thread_context'/>

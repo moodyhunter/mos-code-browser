@@ -1,6 +1,6 @@
-<dec f='MOS/include/mos/elf/elf.h' l='102' type='u16'/>
-<dec f='MOS/include/mos/elf/elf.h' l='107' type='u16'/>
+<dec f='MOS/include/mos/elf/elf.h' l='103' type='u16'/>
+<dec f='MOS/include/mos/elf/elf.h' l='108' type='u16'/>
+<use f='MOS/kernel/elf/elf.c' l='71' u='r' c='create_elf_process'/>
+<use f='MOS/kernel/elf/elf.c' l='99' u='r' c='create_elf_process'/>
+<use f='MOS/kernel/elf/elf.c' l='102' u='r' c='create_elf_process'/>
 <offset>0</offset>
-<use f='MOS/kernel/kernel_init.c' l='118' u='r' c='create_elf_process'/>
-<use f='MOS/kernel/kernel_init.c' l='146' u='r' c='create_elf_process'/>
-<use f='MOS/kernel/kernel_init.c' l='149' u='r' c='create_elf_process'/>

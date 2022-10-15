@@ -1,3 +1,3 @@
-<dec f='MOS/include/mos/filesystem/mount.h' l='20' type='size_t (*)(blockdev_t *, file_t *, const void *, size_t)'/>
+<dec f='MOS/include/mos/filesystem/mount.h' l='21' type='size_t (*)(blockdev_t *, file_t *, const void *, size_t)'/>
 <offset>384</offset>
 <use f='MOS/kernel/filesystem/filesystem.c' l='51' u='r' c='vfs_io_ops_write'/>

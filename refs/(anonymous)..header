@@ -1,6 +1,6 @@
 <dec f='MOS/arch/x86/include/mos/x86/acpi/acpi_types.h' l='235' type='acpi_sdt_header_t'/>
 <offset>0</offset>
-<dec f='MOS/include/mos/filesystem/cpio/cpio.h' l='30' type='cpio_newc_header_t'/>
+<dec f='MOS/include/mos/filesystem/cpio/cpio.h' l='31' type='cpio_newc_header_t'/>
 <use f='MOS/kernel/filesystem/cpio/cpio.c' l='54' u='w' c='cpio_read_metadata'/>
 <use f='MOS/kernel/filesystem/cpio/cpio.c' l='156' u='m' c='cpio_stat'/>
 <use f='MOS/kernel/filesystem/cpio/cpio.c' l='156' u='m' c='cpio_stat'/>

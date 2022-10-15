@@ -1,4 +1,4 @@
-<dec f='MOS/include/mos/filesystem/mount.h' l='28' type='atomic_t'/>
+<dec f='MOS/include/mos/filesystem/mount.h' l='29' type='atomic_t'/>
 <offset>0</offset>
 <use f='MOS/kernel/filesystem/mount.c' l='63' u='m' c='kunmount'/>
 <use f='MOS/kernel/filesystem/mount.c' l='65' u='m' c='kunmount'/>

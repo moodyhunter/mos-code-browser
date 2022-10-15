@@ -1,4 +1,4 @@
-<dec f='MOS/include/mos/filesystem/filesystem.h' l='42' type='4'/>
-<use f='MOS/include/mos/filesystem/filesystem.h' l='56' u='r' c='file_format_perm'/>
-<use f='MOS/include/mos/filesystem/filesystem.h' l='59' u='r' c='file_format_perm'/>
-<use f='MOS/include/mos/filesystem/filesystem.h' l='62' u='r' c='file_format_perm'/>
+<dec f='MOS/include/mos/filesystem/filesystem.h' l='37' type='4'/>
+<use f='MOS/include/mos/filesystem/filesystem.h' l='51' u='r' c='file_format_perm'/>
+<use f='MOS/include/mos/filesystem/filesystem.h' l='54' u='r' c='file_format_perm'/>
+<use f='MOS/include/mos/filesystem/filesystem.h' l='57' u='r' c='file_format_perm'/>

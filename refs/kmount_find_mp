@@ -1,4 +1,4 @@
-<dec f='MOS/include/mos/filesystem/mount.h' l='42' type='mountpoint_t * kmount_find_mp(fsnode_t * path)'/>
+<dec f='MOS/include/mos/filesystem/mount.h' l='43' type='mountpoint_t * kmount_find_mp(fsnode_t * path)'/>
 <use f='MOS/kernel/filesystem/filesystem.c' l='16' u='c' c='vfs_io_ops_close'/>
 <use f='MOS/kernel/filesystem/filesystem.c' l='32' u='c' c='vfs_io_ops_read'/>
 <use f='MOS/kernel/filesystem/filesystem.c' l='45' u='c' c='vfs_io_ops_write'/>

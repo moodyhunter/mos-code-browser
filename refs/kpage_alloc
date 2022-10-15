@@ -1,6 +1,6 @@
 <dec f='MOS/include/mos/mm/paging.h' l='8' type='void * kpage_alloc(size_t npages, pagealloc_flags type)'/>
-<use f='MOS/kernel/kernel_init.c' l='83' u='c' c='open_elf_executable'/>
-<use f='MOS/kernel/kernel_init.c' l='187' u='c' c='mos_start_kernel'/>
+<use f='MOS/kernel/elf/elf.c' l='48' u='c' c='create_elf_process'/>
+<use f='MOS/kernel/kernel_init.c' l='98' u='c' c='mos_start_kernel'/>
 <use f='MOS/kernel/mm/liballoc.c' l='132' u='c' c='allocate_new_pages_for'/>
 <def f='MOS/kernel/mm/paging.c' l='20' ll='36' type='void * kpage_alloc(size_t npages, pagealloc_flags type)'/>
 <use f='MOS/kernel/tasks/thread.c' l='62' u='c' c='create_thread'/>
