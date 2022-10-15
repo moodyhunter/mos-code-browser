@@ -1,0 +1,2 @@
+<dec f='MOS/include/mos/tasks/task_type.h' l='17' type='4'/>
+<use f='MOS/kernel/ksyscall.c' l='57' u='r' c='ksyscall_exit'/>

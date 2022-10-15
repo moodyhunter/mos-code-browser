@@ -1,3 +1,4 @@
-<dec f='MOS/include/mos/elf/elf.h' l='186' type='u32'/>
+<dec f='MOS/include/mos/elf/elf.h' l='193' type='u32'/>
 <offset>0</offset>
-<doc f='MOS/include/mos/elf/elf.h' l='186'>// Section name (string table (.shstrtab) index)</doc>
+<doc f='MOS/include/mos/elf/elf.h' l='193'>// Section name (string table (.shstrtab) index)</doc>
+<use f='MOS/kernel/kernel_init.c' l='150' u='r' c='create_elf_process'/>

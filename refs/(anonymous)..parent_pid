@@ -1,3 +1,3 @@
 <dec f='MOS/include/mos/tasks/task_type.h' l='29' type='process_id_t'/>
 <offset>32</offset>
-<use f='MOS/kernel/tasks/process.c' l='56' u='w' c='create_process'/>
+<use f='MOS/kernel/tasks/process.c' l='56' u='w' c='allocate_process'/>

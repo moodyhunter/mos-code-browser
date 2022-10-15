@@ -12,9 +12,9 @@
 <use f='MOS/arch/x86/gdt/gdt.c' l='36' macro='1' u='c' c='gdt32_set_entry'/>
 <use f='MOS/arch/x86/interrupt/apic.c' l='100' macro='1' u='c' c='apic_enable'/>
 <use f='MOS/arch/x86/interrupt/apic.c' l='103' macro='1' u='c' c='apic_enable'/>
-<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='106' macro='1' u='c' c='isr_handle_exception'/>
-<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='162' macro='1' u='c' c='isr_handle_exception'/>
-<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='185' macro='1' u='c' c='isr_handle_exception'/>
+<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='102' macro='1' u='c' c='x86_handle_exception'/>
+<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='158' macro='1' u='c' c='x86_handle_exception'/>
+<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='181' macro='1' u='c' c='x86_handle_exception'/>
 <use f='MOS/arch/x86/mm/mm.c' l='22' macro='1' u='c' c='mem_add_region'/>
 <use f='MOS/arch/x86/mm/mm.c' l='69' macro='1' u='c' c='x86_mem_init'/>
 <use f='MOS/arch/x86/mm/paging.c' l='29' macro='1' u='c' c='x86_mm_prepare_paging'/>
@@ -52,16 +52,12 @@
 <use f='MOS/kernel/filesystem/pathutils.c' l='36' macro='1' u='c' c='impl_path_get_subpath'/>
 <use f='MOS/kernel/filesystem/pathutils.c' l='98' macro='1' u='c' c='path_resolve'/>
 <use f='MOS/kernel/kernel_init.c' l='66' macro='1' u='c' c='dump_cmdline'/>
-<use f='MOS/kernel/kernel_init.c' l='91' macro='1' u='c' c='mos_start_kernel'/>
-<use f='MOS/kernel/kernel_init.c' l='96' macro='1' u='c' c='mos_start_kernel'/>
-<use f='MOS/kernel/kernel_init.c' l='101' macro='1' u='c' c='mos_start_kernel'/>
-<use f='MOS/kernel/kernel_init.c' l='115' macro='1' u='c' c='mos_start_kernel'/>
-<use f='MOS/kernel/kernel_init.c' l='118' macro='1' u='c' c='mos_start_kernel'/>
-<use f='MOS/kernel/kernel_init.c' l='122' macro='1' u='c' c='mos_start_kernel'/>
-<use f='MOS/kernel/kernel_init.c' l='133' macro='1' u='c' c='mos_start_kernel'/>
-<use f='MOS/kernel/kernel_init.c' l='134' macro='1' u='c' c='mos_start_kernel'/>
-<use f='MOS/kernel/kernel_init.c' l='147' macro='1' u='c' c='mos_start_kernel'/>
-<use f='MOS/kernel/ksyscall.c' l='52' macro='1' u='c' c='ksyscall_panic'/>
+<use f='MOS/kernel/kernel_init.c' l='86' macro='1' u='c' c='open_elf_executable'/>
+<use f='MOS/kernel/kernel_init.c' l='174' macro='1' u='c' c='mos_start_kernel'/>
+<use f='MOS/kernel/kernel_init.c' l='180' macro='1' u='c' c='mos_start_kernel'/>
+<use f='MOS/kernel/kernel_init.c' l='191' macro='1' u='c' c='mos_start_kernel'/>
+<use f='MOS/kernel/ksyscall.c' l='46' macro='1' u='c' c='ksyscall_panic'/>
+<use f='MOS/kernel/ksyscall.c' l='54' macro='1' u='c' c='ksyscall_exit'/>
 <use f='MOS/kernel/mm/liballoc.c' l='162' macro='1' u='c' c='liballoc_init'/>
 <use f='MOS/kernel/mm/liballoc.c' l='211' macro='1' u='c' c='liballoc_malloc'/>
 <use f='MOS/kernel/mm/liballoc.c' l='573' macro='1' u='c' c='liballoc_calloc'/>
@@ -69,7 +65,7 @@
 <use f='MOS/kernel/mm/paging.c' l='51' macro='1' u='c' c='kpage_free'/>
 <def f='MOS/kernel/panic.c' l='34' ll='69' macro='1' type='void mos_kpanic(const char * func, u32 line, const char * fmt)'/>
 <use f='MOS/kernel/stack_protector.c' l='10' macro='1' u='c' c='__stack_chk_fail'/>
-<use f='MOS/kernel/tasks/process.c' l='65' macro='1' u='c' c='create_process'/>
+<use f='MOS/kernel/tasks/process.c' l='65' macro='1' u='c' c='allocate_process'/>
 <use f='MOS/kernel/tasks/schedule.c' l='15' macro='1' u='c' c='schedule_to_thread'/>
 <use f='MOS/kernel/tasks/task_io.c' l='12' macro='1' u='c' c='stdin_read'/>
 <use f='MOS/kernel/tasks/task_io.c' l='24' macro='1' u='c' c='stdout_write'/>

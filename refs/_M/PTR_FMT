@@ -1,8 +1,8 @@
 <dec f='MOS/include/mos/types.h' l='34'/>
 <use f='MOS/arch/x86/cpu/smp.c' l='144' u='c'/>
 <use f='MOS/arch/x86/interrupt/apic.c' l='106' u='c'/>
-<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='162' u='c'/>
-<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='162' u='c'/>
+<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='158' u='c'/>
+<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='158' u='c'/>
 <use f='MOS/arch/x86/mm/paging.c' l='81' u='c'/>
 <use f='MOS/arch/x86/mm/paging.c' l='102' u='c'/>
 <use f='MOS/arch/x86/mm/paging.c' l='102' u='c'/>
@@ -55,4 +55,5 @@
 <use f='MOS/arch/x86/mm/pmem_freelist.c' l='240' u='c'/>
 <use f='MOS/arch/x86/mm/pmem_freelist.c' l='282' u='c'/>
 <use f='MOS/arch/x86/x86_platform.c' l='51' u='c'/>
-<use f='MOS/kernel/kernel_init.c' l='140' u='c'/>
+<use f='MOS/kernel/kernel_init.c' l='119' u='c'/>
+<use f='MOS/kernel/kernel_init.c' l='188' u='c'/>

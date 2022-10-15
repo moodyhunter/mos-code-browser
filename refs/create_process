@@ -1,3 +1,0 @@
-<dec f='MOS/include/mos/tasks/process.h' l='11' type='process_t * create_process(process_id_t parent_pid, uid_t effective_uid, thread_entry_t entry, void * arg)'/>
-<use f='MOS/kernel/kernel_init.c' l='142' u='c' c='mos_start_kernel'/>
-<def f='MOS/kernel/tasks/process.c' l='48' ll='67' type='process_t * create_process(process_id_t parent_pid, uid_t euid, thread_entry_t entry, void * arg)'/>

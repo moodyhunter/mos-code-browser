@@ -7,3 +7,4 @@
 <use f='MOS/kernel/panic.c' l='34' u='c'/>
 <use f='MOS/kernel/stack_protector.c' l='8' u='c'/>
 <use f='MOS/kernel/tasks/schedule.c' l='21' u='c'/>
+<use f='MOS/userspace/init/main.c' l='14' u='c'/>

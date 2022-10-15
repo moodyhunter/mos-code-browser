@@ -1,11 +1,11 @@
 <dec f='MOS/include/mos/printk.h' l='30' type='4'/>
-<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='99' macro='1' u='r' c='x86_handle_interrupt'/>
-<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='232' macro='1' u='r' c='isr_handle_irq'/>
+<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='96' macro='1' u='r' c='x86_handle_interrupt'/>
+<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='228' macro='1' u='r' c='x86_handle_irq'/>
 <use f='MOS/arch/x86/mm/mm.c' l='46' macro='1' u='r' c='x86_mem_init'/>
 <use f='MOS/arch/x86/mm/mm.c' l='54' macro='1' u='r' c='x86_mem_init'/>
 <use f='MOS/arch/x86/x86_platform.c' l='51' macro='1' u='r' c='do_backtrace'/>
 <use f='MOS/kernel/filesystem/mount.c' l='81' macro='1' u='r' c='kunmount'/>
-<use f='MOS/kernel/kernel_init.c' l='45' macro='1' u='r' c='get_init_path'/>
+<use f='MOS/kernel/kernel_init.c' l='45' macro='1' u='r' c='cmdline_get_init_path'/>
 <use f='MOS/kernel/panic.c' l='22' macro='1' u='r' c='kwarn_handler_set'/>
 <use f='MOS/kernel/panic.c' l='28' macro='1' u='r' c='kwarn_handler_remove'/>
 <use f='MOS/kernel/panic.c' l='87' u='r' c='mos_kwarn'/>

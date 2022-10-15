@@ -1,0 +1,4 @@
+<dec f='MOS/include/mos/elf/elf.h' l='134' type='4'/>
+<doc f='MOS/include/mos/elf/elf.h' l='134'>// Readable</doc>
+<use f='MOS/kernel/kernel_init.c' l='120' u='r' c='create_elf_process'/>
+<use f='MOS/kernel/kernel_init.c' l='131' u='r' c='create_elf_process'/>

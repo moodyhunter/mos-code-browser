@@ -2,9 +2,21 @@
 <use f='MOS/arch/x86/cpu/smp.c' l='59' macro='1' u='r' c='ap_begin_exec'/>
 <use f='MOS/arch/x86/cpu/smp.c' l='117' macro='1' u='r' c='x86_smp_init'/>
 <def f='MOS/arch/x86/x86_platform.c' l='171' type='mos_platform_t *const'/>
-<use f='MOS/kernel/kernel_init.c' l='144' u='r' c='mos_start_kernel'/>
-<use f='MOS/kernel/ksyscall.c' l='38' macro='1' u='r' c='ksyscall_io_write'/>
-<use f='MOS/kernel/ksyscall.c' l='38' macro='1' u='r' c='ksyscall_io_write'/>
+<use f='MOS/kernel/kernel_init.c' l='137' u='r' c='create_elf_process'/>
+<use f='MOS/kernel/ksyscall.c' l='14' macro='1' u='r' c='ksyscall_file_open'/>
+<use f='MOS/kernel/ksyscall.c' l='14' macro='1' u='r' c='ksyscall_file_open'/>
+<use f='MOS/kernel/ksyscall.c' l='15' macro='1' u='r' c='ksyscall_file_open'/>
+<use f='MOS/kernel/ksyscall.c' l='15' macro='1' u='r' c='ksyscall_file_open'/>
+<use f='MOS/kernel/ksyscall.c' l='28' macro='1' u='r' c='ksyscall_io_read'/>
+<use f='MOS/kernel/ksyscall.c' l='28' macro='1' u='r' c='ksyscall_io_read'/>
+<use f='MOS/kernel/ksyscall.c' l='35' macro='1' u='r' c='ksyscall_io_write'/>
+<use f='MOS/kernel/ksyscall.c' l='35' macro='1' u='r' c='ksyscall_io_write'/>
+<use f='MOS/kernel/ksyscall.c' l='40' macro='1' u='r' c='ksyscall_io_close'/>
+<use f='MOS/kernel/ksyscall.c' l='40' macro='1' u='r' c='ksyscall_io_close'/>
+<use f='MOS/kernel/ksyscall.c' l='52' macro='1' u='r' c='ksyscall_exit'/>
+<use f='MOS/kernel/ksyscall.c' l='52' macro='1' u='r' c='ksyscall_exit'/>
+<use f='MOS/kernel/ksyscall.c' l='57' macro='1' u='r' c='ksyscall_exit'/>
+<use f='MOS/kernel/ksyscall.c' l='57' macro='1' u='r' c='ksyscall_exit'/>
 <use f='MOS/kernel/mm/paging.c' l='28' u='r' c='kpage_alloc'/>
 <use f='MOS/kernel/mm/paging.c' l='31' u='r' c='kpage_alloc'/>
 <use f='MOS/kernel/mm/paging.c' l='31' u='r' c='kpage_alloc'/>
@@ -13,7 +25,7 @@
 <use f='MOS/kernel/mm/paging.c' l='52' u='r' c='kpage_free'/>
 <use f='MOS/kernel/panic.c' l='44' u='r' c='mos_kpanic'/>
 <use f='MOS/kernel/panic.c' l='65' u='r' c='mos_kpanic'/>
-<use f='MOS/kernel/tasks/process.c' l='58' u='r' c='create_process'/>
+<use f='MOS/kernel/tasks/process.c' l='58' u='r' c='allocate_process'/>
 <use f='MOS/kernel/tasks/schedule.c' l='16' macro='1' u='r' c='schedule_to_thread'/>
 <use f='MOS/kernel/tasks/schedule.c' l='16' macro='1' u='r' c='schedule_to_thread'/>
 <use f='MOS/kernel/tasks/schedule.c' l='17' u='r' c='schedule_to_thread'/>

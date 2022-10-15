@@ -1,0 +1,2 @@
+<def f='MOS/userspace/init/main.c' l='42' type='const char *'/>
+<use f='MOS/userspace/init/main.c' l='46' u='r' c='_start'/>

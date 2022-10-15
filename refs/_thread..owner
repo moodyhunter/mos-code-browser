@@ -1,5 +1,10 @@
 <dec f='MOS/include/mos/tasks/task_type.h' l='40' type='process_t *'/>
 <offset>64</offset>
 <use f='MOS/arch/x86/tasks/context.c' l='23' u='r' c='x86_context_switch'/>
-<use f='MOS/kernel/ksyscall.c' l='39' u='r' c='ksyscall_io_write'/>
+<use f='MOS/kernel/ksyscall.c' l='14' u='r' c='ksyscall_file_open'/>
+<use f='MOS/kernel/ksyscall.c' l='15' u='r' c='ksyscall_file_open'/>
+<use f='MOS/kernel/ksyscall.c' l='28' u='r' c='ksyscall_io_read'/>
+<use f='MOS/kernel/ksyscall.c' l='35' u='r' c='ksyscall_io_write'/>
+<use f='MOS/kernel/ksyscall.c' l='40' u='r' c='ksyscall_io_close'/>
+<use f='MOS/kernel/ksyscall.c' l='52' u='r' c='ksyscall_exit'/>
 <use f='MOS/kernel/tasks/thread.c' l='57' u='w' c='create_thread'/>

@@ -1,3 +1,9 @@
-<dec f='MOS/include/mos/elf/elf.h' l='134' type='u32'/>
+<dec f='MOS/include/mos/elf/elf.h' l='141' type='u32'/>
 <offset>32</offset>
-<doc f='MOS/include/mos/elf/elf.h' l='134'>// Segment independent flags (64-bit only)</doc>
+<doc f='MOS/include/mos/elf/elf.h' l='141'>// Segment independent flags (64-bit only)</doc>
+<use f='MOS/kernel/kernel_init.c' l='120' u='r' c='create_elf_process'/>
+<use f='MOS/kernel/kernel_init.c' l='121' u='r' c='create_elf_process'/>
+<use f='MOS/kernel/kernel_init.c' l='122' u='r' c='create_elf_process'/>
+<use f='MOS/kernel/kernel_init.c' l='131' u='r' c='create_elf_process'/>
+<use f='MOS/kernel/kernel_init.c' l='132' u='r' c='create_elf_process'/>
+<use f='MOS/kernel/kernel_init.c' l='133' u='r' c='create_elf_process'/>

@@ -1,3 +1,4 @@
 <dec f='MOS/include/mos/tasks/task_type.h' l='33' type='size_t'/>
 <offset>16576</offset>
+<use f='MOS/kernel/ksyscall.c' l='14' u='w' c='ksyscall_file_open'/>
 <use f='MOS/kernel/tasks/task_io.c' l='60' u='w' c='process_stdio_setup'/>

@@ -1,6 +1,9 @@
 <dec f='MOS/include/mos/tasks/task_type.h' l='32' type='io_t *[256]'/>
 <offset>192</offset>
-<use f='MOS/kernel/ksyscall.c' l='39' u='r' c='ksyscall_io_write'/>
+<use f='MOS/kernel/ksyscall.c' l='15' u='w' c='ksyscall_file_open'/>
+<use f='MOS/kernel/ksyscall.c' l='28' u='r' c='ksyscall_io_read'/>
+<use f='MOS/kernel/ksyscall.c' l='35' u='r' c='ksyscall_io_write'/>
+<use f='MOS/kernel/ksyscall.c' l='40' u='r' c='ksyscall_io_close'/>
 <use f='MOS/kernel/tasks/task_io.c' l='57' u='w' c='process_stdio_setup'/>
 <use f='MOS/kernel/tasks/task_io.c' l='58' u='w' c='process_stdio_setup'/>
 <use f='MOS/kernel/tasks/task_io.c' l='59' u='w' c='process_stdio_setup'/>

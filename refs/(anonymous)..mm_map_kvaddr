@@ -1,5 +1,5 @@
 <dec f='MOS/include/mos/platform/platform.h' l='85' type='void (*const)(paging_handle_t, uintptr_t, uintptr_t, size_t, vm_flags)'/>
 <offset>4352</offset>
 <use f='MOS/arch/x86/x86_platform.c' l='162' u='w'/>
-<use f='MOS/kernel/kernel_init.c' l='144' u='r' c='mos_start_kernel'/>
+<use f='MOS/kernel/kernel_init.c' l='137' u='r' c='create_elf_process'/>
 <use f='MOS/kernel/tasks/thread.c' l='69' u='r' c='create_thread'/>

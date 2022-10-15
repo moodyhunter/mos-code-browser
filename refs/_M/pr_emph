@@ -4,5 +4,5 @@
 <use f='MOS/kernel/kernel_init.c' l='52' u='c'/>
 <use f='MOS/kernel/kernel_init.c' l='53' u='c'/>
 <use f='MOS/kernel/kernel_init.c' l='70' u='c'/>
-<use f='MOS/kernel/kernel_init.c' l='140' u='c'/>
+<use f='MOS/kernel/kernel_init.c' l='188' u='c'/>
 <use f='MOS/tests/test_engine.c' l='126' u='c'/>

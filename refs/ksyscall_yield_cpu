@@ -1,5 +1,5 @@
 <dec f='MOS/build/include/mos/ksyscall/dispatcher.h' l='49' type='void ksyscall_yield_cpu()'/>
 <use f='MOS/build/include/mos/ksyscall/dispatcher.h' l='51' u='c' c='dispatch_ksyscall'/>
 <dec f='MOS/build/include/mos/ksyscall/decl.h' l='31' type='void ksyscall_yield_cpu()'/>
-<def f='MOS/kernel/ksyscall.c' l='62' macro='1' type='void ksyscall_yield_cpu()'/>
+<def f='MOS/kernel/ksyscall.c' l='61' macro='1' type='void ksyscall_yield_cpu()'/>
 <doc f='MOS/build/include/mos/ksyscall/decl.h' l='30'>// ksyscall0 #7: yield_cpu</doc>

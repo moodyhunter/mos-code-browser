@@ -26,4 +26,5 @@
 <use f='MOS/kernel/filesystem/mount.c' l='16' u='c'/>
 <use f='MOS/kernel/io/io.c' l='34' u='c'/>
 <use f='MOS/kernel/io/io.c' l='50' u='c'/>
+<use f='MOS/kernel/kernel_init.c' l='150' u='c'/>
 <use f='MOS/kernel/tasks/schedule.c' l='26' u='c'/>

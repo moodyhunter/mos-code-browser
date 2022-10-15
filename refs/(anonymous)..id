@@ -3,5 +3,6 @@
 <offset>0</offset>
 <use f='MOS/arch/x86/cpu/smp.c' l='59' u='w' c='ap_begin_exec'/>
 <use f='MOS/arch/x86/cpu/smp.c' l='117' u='w' c='x86_smp_init'/>
-<use f='MOS/kernel/tasks/process.c' l='54' u='w' c='create_process'/>
-<use f='MOS/kernel/tasks/process.c' l='64' u='a' c='create_process'/>
+<use f='MOS/kernel/ksyscall.c' l='52' u='m' c='ksyscall_exit'/>
+<use f='MOS/kernel/tasks/process.c' l='54' u='w' c='allocate_process'/>
+<use f='MOS/kernel/tasks/process.c' l='64' u='a' c='allocate_process'/>

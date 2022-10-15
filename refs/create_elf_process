@@ -1,0 +1,2 @@
+<def f='MOS/kernel/kernel_init.c' l='110' ll='154' type='process_t * create_elf_process(elf_header_t * elf)'/>
+<use f='MOS/kernel/kernel_init.c' l='181' u='c' c='mos_start_kernel'/>

@@ -9,7 +9,6 @@ mos_cmdline_create|mos_cmdline_create
 mos_cmdline_destroy|mos_cmdline_destroy
 mos_cmdline_get_arg|mos_cmdline_get_arg
 mos_install_console|mos_install_console
-mos_elf_verify_header|mos_elf_verify_header
 mos_start_kernel|mos_start_kernel
 mount_initrd|mount_initrd
 mos_kernel_mm_init|mos_kernel_mm_init

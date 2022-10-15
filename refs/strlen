@@ -16,6 +16,6 @@
 <use f='MOS/lib/structures/hashmap_common.c' l='10' u='c' c='hashmap_hash_string'/>
 <use f='MOS/tests/test_engine.c' l='54' u='c' c='mos_test_engine_log'/>
 <use f='MOS/tests/test_engine.c' l='101' u='c' c='mos_test_engine_run_tests'/>
-<def f='MOS/userspace/init/main.c' l='10' ll='16' type='int strlen(const char * str)'/>
-<use f='MOS/userspace/init/main.c' l='20' u='c' c='print'/>
-<use f='MOS/userspace/init/main.c' l='21' u='c' c='print'/>
+<def f='MOS/userspace/init/main.c' l='26' ll='32' type='int strlen(const char * str)'/>
+<use f='MOS/userspace/init/main.c' l='36' u='c' c='print'/>
+<use f='MOS/userspace/init/main.c' l='37' u='c' c='print'/>

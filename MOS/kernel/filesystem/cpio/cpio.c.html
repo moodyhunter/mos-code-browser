@@ -126,7 +126,7 @@
 <tr><th id="113">113</th><td>{</td></tr>
 <tr><th id="114">114</th><td>    <em>const</em> <em>char</em> *<dfn class="local col9 decl" id="79strpath" title='strpath' data-type='const char *' data-ref="79strpath" data-ref-filename="79strpath">strpath</dfn> = <a class="ref fn" href="../../../include/mos/filesystem/pathutils.h.html#path_to_string_relative" title='path_to_string_relative' data-ref="path_to_string_relative" data-ref-filename="path_to_string_relative">path_to_string_relative</a>(<a class="local col5 ref" href="#75mp" title='mp' data-ref="75mp" data-ref-filename="75mp">mp</a>-&gt;<a class="ref field" href="../../../include/mos/filesystem/mount.h.html#_mountpoint::path" title='_mountpoint::path' data-ref="_mountpoint::path" data-ref-filename="_mountpoint..path">path</a>, <a class="local col6 ref" href="#76path" title='path' data-ref="76path" data-ref-filename="76path">path</a>);</td></tr>
 <tr><th id="115">115</th><td>    <a class="macro" href="../../../include/mos/printk.h.html#44" title="lprintk(MOS_LOG_INFO, &quot;%-20s | &quot; &quot;cpio_open: %s&quot; &quot;\n&quot;, &quot;cpio.c&quot; &quot;:&quot; &quot;115&quot;, strpath)" data-ref="_M/pr_info">pr_info</a>(<q>"cpio_open: %s"</q>, <a class="local col9 ref" href="#79strpath" title='strpath' data-ref="79strpath" data-ref-filename="79strpath">strpath</a>);</td></tr>
-<tr><th id="116">116</th><td>    <b>if</b> (<a class="local col7 ref" href="#77flags" title='flags' data-ref="77flags" data-ref-filename="77flags">flags</a> &amp; <a class="enum" href="../../../include/mos/filesystem/filesystem.h.html#OPEN_WRITE" title='OPEN_WRITE' data-ref="OPEN_WRITE" data-ref-filename="OPEN_WRITE">OPEN_WRITE</a>)</td></tr>
+<tr><th id="116">116</th><td>    <b>if</b> (<a class="local col7 ref" href="#77flags" title='flags' data-ref="77flags" data-ref-filename="77flags">flags</a> &amp; <a class="enum" href="../../../include/mos/filesystem/filesystem.h.html#FILE_OPEN_WRITE" title='FILE_OPEN_WRITE' data-ref="FILE_OPEN_WRITE" data-ref-filename="FILE_OPEN_WRITE">FILE_OPEN_WRITE</a>)</td></tr>
 <tr><th id="117">117</th><td>    {</td></tr>
 <tr><th id="118">118</th><td>        <a class="macro" href="../../../include/mos/printk.h.html#63" title="mos_kwarn(__func__, 118, &quot;WARN: &quot; &quot;cpio_open: write not supported&quot; &quot;\n&quot;)" data-ref="_M/mos_warn">mos_warn</a>(<q>"cpio_open: write not supported"</q>);</td></tr>
 <tr><th id="119">119</th><td>        <b>return</b> <span class="macro" title="0" data-ref="_M/false">false</span>;</td></tr>
@@ -240,6 +240,6 @@
 <tr><th id="227">227</th><td>};</td></tr>
 <tr><th id="228">228</th><td></td></tr>
 </table><hr/><p id='footer'>
-Generated on <em>2022-Oct-13</em> from project MOS<br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
+Generated on <em>2022-Oct-15</em> from project MOS<br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
 <br/>Generator usage only permitted with license.</p>
 </div></body></html>

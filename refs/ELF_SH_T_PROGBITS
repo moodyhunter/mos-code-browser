@@ -1,4 +1,2 @@
-<dec f='MOS/include/mos/elf/elf.h' l='150' type='1'/>
-<doc f='MOS/include/mos/elf/elf.h' l='150'>// Program data</doc>
-<use f='MOS/kernel/kernel_init.c' l='130' u='r' c='mos_start_kernel'/>
-<use f='MOS/kernel/kernel_init.c' l='133' u='r' c='mos_start_kernel'/>
+<dec f='MOS/include/mos/elf/elf.h' l='157' type='1'/>
+<doc f='MOS/include/mos/elf/elf.h' l='157'>// Program data</doc>

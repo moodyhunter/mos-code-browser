@@ -1,3 +1,5 @@
 <dec f='MOS/include/mos/io/io.h' l='45' type='void io_close(io_t * io)'/>
 <use f='MOS/kernel/io/io.c' l='27' u='c' c='io_unref'/>
 <def f='MOS/kernel/io/io.c' l='61' ll='79' type='void io_close(io_t * io)'/>
+<use f='MOS/kernel/kernel_init.c' l='106' u='c' c='open_elf_executable'/>
+<use f='MOS/kernel/ksyscall.c' l='40' u='c' c='ksyscall_io_close'/>
