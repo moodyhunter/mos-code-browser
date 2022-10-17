@@ -1,8 +1,0 @@
-<dec f='MOS/include/mos/types.h' l='74' type='id_t'/>
-<offset>0</offset>
-<use f='MOS/kernel/tasks/schedule.c' l='15' u='r' c='schedule_to_thread'/>
-<use f='MOS/kernel/tasks/schedule.c' l='15' u='r' c='schedule_to_thread'/>
-<use f='MOS/kernel/tasks/thread.c' l='25' u='r' c='hashmap_thread_hash'/>
-<use f='MOS/kernel/tasks/thread.c' l='30' u='r' c='hashmap_thread_equal'/>
-<use f='MOS/kernel/tasks/thread.c' l='30' u='r' c='hashmap_thread_equal'/>
-<use f='MOS/kernel/tasks/thread.c' l='50' u='w' c='new_thread_id'/>
