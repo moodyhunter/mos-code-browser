@@ -124,6 +124,9 @@ MOS/tests/linked_list/test_linked_list.c
 MOS/tests/memops/test_memops.c
 MOS/tests/printf/test_printf.c
 MOS/tests/test_engine.c
-MOS/userspace/init/main.c
+MOS/userspace/crt0.c
 MOS/build/include/mos/ksyscall/usermode.h
 MOS/arch/x86/include/mos/platform_syscall.h
+MOS/userspace/init/main.c
+MOS/userspace/ping-pong/ping.c
+MOS/userspace/ping-pong/pong.c

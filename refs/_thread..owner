@@ -6,4 +6,6 @@
 <use f='MOS/kernel/ksyscall.c' l='36' u='r' c='ksyscall_io_write'/>
 <use f='MOS/kernel/ksyscall.c' l='41' u='r' c='ksyscall_io_close'/>
 <use f='MOS/kernel/ksyscall.c' l='52' u='r' c='ksyscall_exit'/>
+<use f='MOS/kernel/ksyscall.c' l='57' u='r' c='ksyscall_exit'/>
+<use f='MOS/kernel/ksyscall.c' l='69' u='r' c='ksyscall_fork'/>
 <use f='MOS/kernel/tasks/thread.c' l='61' u='w' c='create_thread'/>

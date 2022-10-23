@@ -1,3 +1,5 @@
 <def f='MOS/include/mos/tasks/process.h' l='13' ll='16' macro='1' type='_Bool process_is_valid(process_t * process)'/>
-<use f='MOS/kernel/tasks/process.c' l='105' u='c' c='process_add_fd'/>
-<use f='MOS/kernel/tasks/process.c' l='119' u='c' c='process_remove_fd'/>
+<use f='MOS/kernel/tasks/process.c' l='105' u='c' c='process_attach_fd'/>
+<use f='MOS/kernel/tasks/process.c' l='119' u='c' c='process_detach_fd'/>
+<use f='MOS/kernel/tasks/process.c' l='129' u='c' c='process_handle_exit'/>
+<use f='MOS/kernel/tasks/process.c' l='141' u='c' c='process_handle_fork'/>

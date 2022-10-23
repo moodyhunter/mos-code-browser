@@ -1,2 +1,2 @@
 <def f='MOS/build/include/mos/ksyscall/usermode.h' l='45' ll='48' macro='1' type='void invoke_ksyscall_yield_cpu()'/>
-<use f='MOS/userspace/init/main.c' l='59' u='c' c='_start'/>
+<use f='MOS/userspace/init/main.c' l='60' u='c' c='main'/>

@@ -1,2 +1,2 @@
 <def f='MOS/build/include/mos/ksyscall/usermode.h' l='25' ll='28' macro='1' type='size_t invoke_ksyscall_io_read(fd_t fd, void * buffer, size_t size, size_t offset)'/>
-<use f='MOS/userspace/init/main.c' l='53' u='c' c='_start'/>
+<use f='MOS/userspace/init/main.c' l='53' u='c' c='main'/>

@@ -1,2 +1,2 @@
 <def f='MOS/userspace/init/main.c' l='34' ll='37' type='void print(const char * str)'/>
-<use f='MOS/userspace/init/main.c' l='54' u='c' c='_start'/>
+<use f='MOS/userspace/init/main.c' l='54' u='c' c='main'/>

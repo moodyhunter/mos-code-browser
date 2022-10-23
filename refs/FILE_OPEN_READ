@@ -1,4 +1,4 @@
 <dec f='MOS/include/mos/filesystem/filesystem.h' l='11' type='1'/>
 <use f='MOS/kernel/elf/elf.c' l='41' u='r' c='create_elf_process'/>
 <use f='MOS/kernel/filesystem/filesystem.c' l='138' u='r' c='vfs_path_open'/>
-<use f='MOS/userspace/init/main.c' l='48' u='r' c='_start'/>
+<use f='MOS/userspace/init/main.c' l='48' u='r' c='main'/>

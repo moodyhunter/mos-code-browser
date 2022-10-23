@@ -2,10 +2,12 @@ print_debug_info|print_debug_info
 print_cpu_info|print_cpu_info
 process_is_valid|process_is_valid
 printk|printk
-process_add_fd|process_add_fd
+process_attach_fd|process_attach_fd
 process_deinit|process_deinit
+process_detach_fd|process_detach_fd
+process_handle_exit|process_handle_exit
+process_handle_fork|process_handle_fork
 process_init|process_init
-process_remove_fd|process_remove_fd
 process_stdio_setup|process_stdio_setup
 printf_tests_github|printf_tests_github
 print|print
