@@ -15,11 +15,11 @@
 <use f='MOS/lib/stdio_impl.c' l='421' u='c' c='printf_cs'/>
 <use f='MOS/lib/stdio_impl.c' l='426' u='c' c='printf_cs'/>
 <use f='MOS/lib/stdio_impl.c' l='428' u='c' c='printf_cs'/>
-<use f='MOS/lib/stdio_impl.c' l='522' u='c' c='vsnprintf'/>
 <use f='MOS/lib/stdio_impl.c' l='523' u='c' c='vsnprintf'/>
-<use f='MOS/lib/stdio_impl.c' l='544' u='c' c='vsnprintf'/>
-<use f='MOS/lib/stdio_impl.c' l='556' u='c' c='vsnprintf'/>
+<use f='MOS/lib/stdio_impl.c' l='524' u='c' c='vsnprintf'/>
+<use f='MOS/lib/stdio_impl.c' l='545' u='c' c='vsnprintf'/>
 <use f='MOS/lib/stdio_impl.c' l='557' u='c' c='vsnprintf'/>
-<use f='MOS/lib/stdio_impl.c' l='564' u='c' c='vsnprintf'/>
-<use f='MOS/lib/stdio_impl.c' l='568' u='c' c='vsnprintf'/>
+<use f='MOS/lib/stdio_impl.c' l='558' u='c' c='vsnprintf'/>
+<use f='MOS/lib/stdio_impl.c' l='565' u='c' c='vsnprintf'/>
+<use f='MOS/lib/stdio_impl.c' l='569' u='c' c='vsnprintf'/>
 <doc f='MOS/lib/stdio_impl.c' l='184'>// writes a character into the buffer, and increses the buffer pointer</doc>
