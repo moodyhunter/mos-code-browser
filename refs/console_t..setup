@@ -1,4 +1,4 @@
 <dec f='MOS/include/mos/device/console.h' l='51' type='_Bool (*)(console_t *)'/>
 <offset>704</offset>
-<use f='MOS/arch/x86/x86_platform.c' l='31' u='w'/>
+<use f='MOS/arch/x86/x86_platform.c' l='30' u='w'/>
 <use f='MOS/kernel/device/console.c' l='31' u='r' c='mos_install_console'/>

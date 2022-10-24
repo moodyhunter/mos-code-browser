@@ -1,3 +1,3 @@
-<dec f='MOS/include/mos/platform/platform.h' l='58' type='struct (anonymous struct at /home/runner/work/MOS/MOS/include/mos/platform/platform.h:50:5)'/>
+<dec f='MOS/include/mos/platform/platform.h' l='73' type='struct (anonymous struct at /home/runner/work/MOS/MOS/include/mos/platform/platform.h:65:5)'/>
 <offset>0</offset>
-<use f='MOS/arch/x86/x86_platform.c' l='138' u='w'/>
+<use f='MOS/arch/x86/x86_platform.c' l='137' u='w'/>

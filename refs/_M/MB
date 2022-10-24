@@ -1,7 +1,7 @@
 <dec f='MOS/include/mos/constants.h' l='23'/>
 <use f='MOS/arch/x86/cpu/smp.c' l='143' u='c'/>
 <use f='MOS/arch/x86/mm/paging.c' l='41' u='c'/>
-<use f='MOS/arch/x86/mm/paging.c' l='199' u='c'/>
+<use f='MOS/arch/x86/mm/paging.c' l='200' u='c'/>
 <use f='MOS/tests/kmalloc/test_kmalloc.c' l='31' u='c'/>
 <use f='MOS/tests/kmalloc/test_kmalloc.c' l='33' u='c'/>
 <use f='MOS/tests/kmalloc/test_kmalloc.c' l='36' u='c'/>

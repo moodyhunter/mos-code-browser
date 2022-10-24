@@ -14,9 +14,9 @@
 <use f='MOS/arch/x86/interrupt/idt.c' l='30' u='w' c='idt_set_descriptor'/>
 <dec f='MOS/include/mos/filesystem/filesystem.h' l='65' type='file_type_t'/>
 <offset>0</offset>
-<use f='MOS/arch/x86/mm/mm.c' l='57' u='r' c='x86_mem_init'/>
-<use f='MOS/arch/x86/mm/mm.c' l='62' u='r' c='x86_mem_init'/>
-<use f='MOS/arch/x86/mm/mm.c' l='69' u='r' c='x86_mem_init'/>
+<use f='MOS/arch/x86/mm/mm.c' l='56' u='r' c='x86_mem_init'/>
+<use f='MOS/arch/x86/mm/mm.c' l='61' u='r' c='x86_mem_init'/>
+<use f='MOS/arch/x86/mm/mm.c' l='68' u='r' c='x86_mem_init'/>
 <use f='MOS/kernel/filesystem/cpio/cpio.c' l='171' u='w' c='cpio_stat'/>
 <use f='MOS/kernel/filesystem/cpio/cpio.c' l='172' u='w' c='cpio_stat'/>
 <use f='MOS/kernel/filesystem/cpio/cpio.c' l='173' u='w' c='cpio_stat'/>

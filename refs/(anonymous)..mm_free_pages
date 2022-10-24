@@ -1,5 +1,5 @@
-<dec f='MOS/include/mos/platform/platform.h' l='83' type='_Bool (*const)(paging_handle_t, uintptr_t, size_t)'/>
+<dec f='MOS/include/mos/platform/platform.h' l='98' type='_Bool (*const)(paging_handle_t, uintptr_t, size_t)'/>
 <offset>4224</offset>
-<use f='MOS/arch/x86/x86_platform.c' l='160' u='w'/>
+<use f='MOS/arch/x86/x86_platform.c' l='159' u='w'/>
 <use f='MOS/kernel/mm/paging.c' l='50' u='r' c='kpage_free'/>
 <use f='MOS/kernel/mm/paging.c' l='52' u='r' c='kpage_free'/>

@@ -33,7 +33,6 @@ MOS/arch/x86/include/mos/x86/delays.h
 MOS/arch/x86/include/mos/x86/interrupt/apic.h
 MOS/arch/x86/include/mos/x86/interrupt/pic.h
 MOS/arch/x86/include/mos/x86/mm/paging.h
-MOS/include/mos/mm/mm_types.h
 MOS/arch/x86/devices/initrd_blockdev.c
 MOS/arch/x86/include/mos/x86/devices/initrd_blockdev.h
 MOS/include/mos/device/block.h

@@ -1,7 +1,7 @@
 <dec f='MOS/include/mos/types.h' l='72' type='uintptr_t'/>
 <offset>0</offset>
 <use f='MOS/arch/x86/include/mos/x86/mm/paging_impl.h' l='64' u='r' c='x86_get_pg_infra'/>
-<use f='MOS/arch/x86/mm/paging.c' l='196' u='w' c='x86_um_pgd_create'/>
-<use f='MOS/arch/x86/mm/paging.c' l='217' u='r' c='x86_um_pgd_destroy'/>
+<use f='MOS/arch/x86/mm/paging.c' l='197' u='w' c='x86_um_pgd_create'/>
+<use f='MOS/arch/x86/mm/paging.c' l='218' u='r' c='x86_um_pgd_destroy'/>
 <use f='MOS/arch/x86/tasks/context.c' l='23' u='r' c='x86_context_switch'/>
-<use f='MOS/arch/x86/x86_platform.c' l='88' u='w' c='x86_start_kernel'/>
+<use f='MOS/arch/x86/x86_platform.c' l='87' u='w' c='x86_start_kernel'/>

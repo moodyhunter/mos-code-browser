@@ -7,8 +7,8 @@
 <use f='MOS/arch/x86/cpu/smp.c' l='144' macro='1' u='r' c='x86_smp_init'/>
 <use f='MOS/arch/x86/interrupt/apic.c' l='106' macro='1' u='r' c='apic_enable'/>
 <use f='MOS/arch/x86/interrupt/apic.c' l='124' macro='1' u='r' c='apic_enable'/>
-<use f='MOS/arch/x86/mm/mm.c' l='33' macro='1' u='r' c='x86_mem_init'/>
-<use f='MOS/arch/x86/mm/mm.c' l='82' macro='1' u='r' c='x86_mem_init'/>
+<use f='MOS/arch/x86/mm/mm.c' l='32' macro='1' u='r' c='x86_mem_init'/>
+<use f='MOS/arch/x86/mm/mm.c' l='81' macro='1' u='r' c='x86_mem_init'/>
 <use f='MOS/arch/x86/mm/paging.c' l='35' macro='1' u='r' c='x86_mm_prepare_paging'/>
 <use f='MOS/arch/x86/mm/paging.c' l='38' macro='1' u='r' c='x86_mm_prepare_paging'/>
 <use f='MOS/arch/x86/mm/paging.c' l='44' macro='1' u='r' c='x86_mm_prepare_paging'/>
@@ -20,8 +20,8 @@
 <use f='MOS/arch/x86/mm/paging.c' l='142' macro='1' u='r' c='x86_mm_dump_page_table'/>
 <use f='MOS/arch/x86/mm/pmem_freelist.c' l='35' macro='1' u='r' c='pmem_freelist_dump'/>
 <use f='MOS/arch/x86/mm/pmem_freelist.c' l='43' macro='1' u='r' c='pmem_freelist_dump'/>
-<use f='MOS/arch/x86/x86_platform.c' l='41' macro='1' u='r' c='do_backtrace'/>
-<use f='MOS/arch/x86/x86_platform.c' l='104' macro='1' u='r' c='x86_start_kernel'/>
+<use f='MOS/arch/x86/x86_platform.c' l='40' macro='1' u='r' c='do_backtrace'/>
+<use f='MOS/arch/x86/x86_platform.c' l='103' macro='1' u='r' c='x86_start_kernel'/>
 <use f='MOS/kernel/device/console.c' l='37' macro='1' u='r' c='mos_install_console'/>
 <use f='MOS/kernel/filesystem/cpio/cpio.c' l='101' macro='1' u='r' c='cpio_mount'/>
 <use f='MOS/kernel/filesystem/cpio/cpio.c' l='115' macro='1' u='r' c='cpio_open'/>

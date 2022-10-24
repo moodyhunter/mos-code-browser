@@ -3,7 +3,7 @@
 <use f='MOS/arch/x86/devices/serial_console.c' l='17' u='w' c='serial_console_setup'/>
 <use f='MOS/arch/x86/devices/serial_console.c' l='18' u='r' c='serial_console_setup'/>
 <use f='MOS/arch/x86/devices/text_mode_console.c' l='167' u='w'/>
-<use f='MOS/arch/x86/x86_platform.c' l='31' u='w'/>
+<use f='MOS/arch/x86/x86_platform.c' l='30' u='w'/>
 <use f='MOS/kernel/device/console.c' l='20' u='w'/>
 <use f='MOS/kernel/device/console.c' l='30' u='r' c='mos_install_console'/>
 <use f='MOS/kernel/device/console.c' l='33' u='r' c='mos_install_console'/>

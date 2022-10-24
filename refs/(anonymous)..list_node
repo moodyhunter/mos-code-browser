@@ -1,2 +1,2 @@
-<dec f='MOS/include/mos/mm/mm_types.h' l='10' macro='1' type='list_node_t'/>
+<dec f='MOS/include/mos/platform/platform.h' l='50' macro='1' type='list_node_t'/>
 <offset>0</offset>

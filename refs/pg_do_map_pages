@@ -2,9 +2,9 @@
 <use f='MOS/arch/x86/interrupt/apic.c' l='112' u='c' c='apic_enable'/>
 <use f='MOS/arch/x86/mm/paging.c' l='41' u='c' c='x86_mm_prepare_paging'/>
 <use f='MOS/arch/x86/mm/paging.c' l='45' u='c' c='x86_mm_prepare_paging'/>
-<use f='MOS/arch/x86/mm/paging.c' l='199' u='c' c='x86_um_pgd_create'/>
-<use f='MOS/arch/x86/mm/paging.c' l='242' u='c' c='x86_mm_pg_map_to_kvirt'/>
-<use f='MOS/arch/x86/mm/paging_impl.c' l='128' u='c' c='pg_map_pages'/>
-<def f='MOS/arch/x86/mm/paging_impl.c' l='148' ll='153' type='void pg_do_map_pages(x86_pg_infra_t * pg, uintptr_t vaddr_start, uintptr_t paddr_start, size_t n_page, vm_flags flags)'/>
-<use f='MOS/arch/x86/x86_platform.c' l='97' u='c' c='x86_start_kernel'/>
-<use f='MOS/arch/x86/x86_platform.c' l='110' u='c' c='x86_start_kernel'/>
+<use f='MOS/arch/x86/mm/paging.c' l='200' u='c' c='x86_um_pgd_create'/>
+<use f='MOS/arch/x86/mm/paging.c' l='243' u='c' c='x86_mm_pg_map_to_kvirt'/>
+<use f='MOS/arch/x86/mm/paging_impl.c' l='135' u='c' c='pg_map_pages'/>
+<def f='MOS/arch/x86/mm/paging_impl.c' l='155' ll='160' type='void pg_do_map_pages(x86_pg_infra_t * pg, uintptr_t vaddr_start, uintptr_t paddr_start, size_t n_page, vm_flags flags)'/>
+<use f='MOS/arch/x86/x86_platform.c' l='96' u='c' c='x86_start_kernel'/>
+<use f='MOS/arch/x86/x86_platform.c' l='109' u='c' c='x86_start_kernel'/>

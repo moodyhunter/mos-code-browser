@@ -1,7 +1,7 @@
 <dec f='MOS/arch/x86/include/mos/x86/mm/mm.h' l='11' type='size_t'/>
-<def f='MOS/arch/x86/mm/mm.c' l='12' type='size_t'/>
-<use f='MOS/arch/x86/mm/mm.c' l='21' u='r' c='mem_add_region'/>
-<use f='MOS/arch/x86/mm/mm.c' l='24' u='r' c='mem_add_region'/>
-<use f='MOS/arch/x86/mm/mm.c' l='28' u='w' c='mem_add_region'/>
+<def f='MOS/arch/x86/mm/mm.c' l='11' type='size_t'/>
+<use f='MOS/arch/x86/mm/mm.c' l='20' u='r' c='mem_add_region'/>
+<use f='MOS/arch/x86/mm/mm.c' l='23' u='r' c='mem_add_region'/>
+<use f='MOS/arch/x86/mm/mm.c' l='27' u='w' c='mem_add_region'/>
 <use f='MOS/arch/x86/mm/pmem_freelist.c' l='56' u='r' c='pmem_freelist_setup'/>
-<use f='MOS/arch/x86/x86_platform.c' l='105' u='r' c='x86_start_kernel'/>
+<use f='MOS/arch/x86/x86_platform.c' l='104' u='r' c='x86_start_kernel'/>

@@ -1,3 +1,3 @@
 <dec f='MOS/arch/x86/include/mos/x86/x86_interrupt.h' l='81' type='void x86_enable_interrupts()'/>
 <def f='MOS/arch/x86/interrupt/x86_interrupt.c' l='68' ll='71' type='void x86_enable_interrupts()'/>
-<use f='MOS/arch/x86/x86_platform.c' l='152'/>
+<use f='MOS/arch/x86/x86_platform.c' l='151'/>
