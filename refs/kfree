@@ -19,9 +19,9 @@
 <use f='MOS/kernel/filesystem/mount.c' l='52' u='c' c='kmount'/>
 <use f='MOS/kernel/filesystem/mount.c' l='84' u='c' c='kunmount'/>
 <use f='MOS/kernel/filesystem/pathutils.c' l='170' u='c' c='path_to_string_relative'/>
-<use f='MOS/kernel/tasks/process.c' l='46' u='c' c='process_deinit'/>
-<use f='MOS/kernel/tasks/process.c' l='70' u='c' c='allocate_process'/>
-<use f='MOS/kernel/tasks/thread.c' l='44' u='c' c='thread_deinit'/>
+<use f='MOS/kernel/tasks/process.c' l='47' u='c' c='process_deinit'/>
+<use f='MOS/kernel/tasks/process.c' l='68' u='c' c='process_new'/>
+<use f='MOS/kernel/tasks/thread.c' l='45' u='c' c='thread_deinit'/>
 <use f='MOS/lib/structures/hashmap.c' l='42' u='c' c='hashmap_deinit'/>
 <use f='MOS/lib/structures/hashmap.c' l='46' u='c' c='hashmap_deinit'/>
 <use f='MOS/lib/structures/hashmap.c' l='109' u='c' c='hashmap_remove'/>

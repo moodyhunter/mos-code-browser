@@ -6,7 +6,7 @@
 <use f='MOS/arch/x86/acpi/acpi.c' l='146' u='c' c='find_acpi_rsdp'/>
 <use f='MOS/kernel/cmdline.c' l='47' u='c' c='mos_cmdline_create'/>
 <use f='MOS/kernel/cmdline.c' l='53' u='c' c='mos_cmdline_create'/>
-<use f='MOS/kernel/elf/elf.c' l='21' u='c' c='elf_verify_header'/>
+<use f='MOS/kernel/elf/elf.c' l='22' u='c' c='elf_verify_header'/>
 <use f='MOS/kernel/filesystem/cpio/cpio.c' l='37' u='c' c='cpio_read_metadata'/>
 <use f='MOS/kernel/filesystem/cpio/cpio.c' l='50' u='c' c='cpio_read_metadata'/>
 <use f='MOS/kernel/filesystem/cpio/cpio.c' l='95' u='c' c='cpio_mount'/>

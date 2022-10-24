@@ -2,4 +2,4 @@
 <offset>4416</offset>
 <doc f='MOS/include/mos/platform/platform.h' l='103'>// process management</doc>
 <use f='MOS/arch/x86/x86_platform.c' l='165' u='w'/>
-<use f='MOS/kernel/tasks/thread.c' l='75' u='r' c='create_thread'/>
+<use f='MOS/kernel/tasks/thread.c' l='76' u='r' c='create_thread'/>

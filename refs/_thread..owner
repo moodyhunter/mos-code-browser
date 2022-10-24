@@ -1,6 +1,6 @@
-<dec f='MOS/include/mos/tasks/task_type.h' l='43' type='process_t *'/>
-<offset>64</offset>
+<dec f='MOS/include/mos/tasks/task_type.h' l='53' type='process_t *'/>
 <use f='MOS/arch/x86/tasks/context.c' l='23' u='r' c='x86_context_switch'/>
+<offset>64</offset>
 <use f='MOS/kernel/ksyscall.c' l='17' u='r' c='ksyscall_file_open'/>
 <use f='MOS/kernel/ksyscall.c' l='29' u='r' c='ksyscall_io_read'/>
 <use f='MOS/kernel/ksyscall.c' l='36' u='r' c='ksyscall_io_write'/>
@@ -8,4 +8,4 @@
 <use f='MOS/kernel/ksyscall.c' l='52' u='r' c='ksyscall_exit'/>
 <use f='MOS/kernel/ksyscall.c' l='57' u='r' c='ksyscall_exit'/>
 <use f='MOS/kernel/ksyscall.c' l='69' u='r' c='ksyscall_fork'/>
-<use f='MOS/kernel/tasks/thread.c' l='61' u='w' c='create_thread'/>
+<use f='MOS/kernel/tasks/thread.c' l='62' u='w' c='create_thread'/>

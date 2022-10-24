@@ -2,4 +2,4 @@
 <offset>4032</offset>
 <doc f='MOS/include/mos/platform/platform.h' l='93'>// memory management</doc>
 <use f='MOS/arch/x86/x86_platform.c' l='156' u='w'/>
-<use f='MOS/kernel/tasks/process.c' l='84' u='r' c='allocate_process'/>
+<use f='MOS/kernel/tasks/process.c' l='80' u='r' c='process_new'/>

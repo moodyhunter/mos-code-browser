@@ -1,13 +1,15 @@
-<dec f='MOS/include/mos/tasks/task_type.h' l='30' type='pid_t'/>
+<dec f='MOS/include/mos/tasks/task_type.h' l='32' type='pid_t'/>
 <offset>128</offset>
 <use f='MOS/kernel/ksyscall.c' l='52' u='r' c='ksyscall_exit'/>
 <use f='MOS/kernel/ksyscall.c' l='72' u='r' c='ksyscall_fork'/>
-<use f='MOS/kernel/tasks/process.c' l='59' u='w' c='allocate_process'/>
-<use f='MOS/kernel/tasks/process.c' l='61' u='r' c='allocate_process'/>
-<use f='MOS/kernel/tasks/process.c' l='63' u='r' c='allocate_process'/>
-<use f='MOS/kernel/tasks/process.c' l='69' u='r' c='allocate_process'/>
-<use f='MOS/kernel/tasks/process.c' l='73' u='r' c='allocate_process'/>
-<use f='MOS/kernel/tasks/process.c' l='90' u='a' c='allocate_process'/>
-<use f='MOS/kernel/tasks/process.c' l='109' u='r' c='process_attach_fd'/>
-<use f='MOS/kernel/tasks/process.c' l='130' u='r' c='process_handle_exit'/>
-<use f='MOS/kernel/tasks/process.c' l='142' u='r' c='process_handle_fork'/>
+<use f='MOS/kernel/tasks/process.c' l='60' u='w' c='process_new'/>
+<use f='MOS/kernel/tasks/process.c' l='62' u='r' c='process_new'/>
+<use f='MOS/kernel/tasks/process.c' l='63' u='r' c='process_new'/>
+<use f='MOS/kernel/tasks/process.c' l='66' u='r' c='process_new'/>
+<use f='MOS/kernel/tasks/process.c' l='67' u='r' c='process_new'/>
+<use f='MOS/kernel/tasks/process.c' l='85' u='a' c='process_new'/>
+<use f='MOS/kernel/tasks/process.c' l='104' u='r' c='process_attach_fd'/>
+<use f='MOS/kernel/tasks/process.c' l='126' u='r' c='process_attach_thread'/>
+<use f='MOS/kernel/tasks/process.c' l='140' u='r' c='process_handle_exit'/>
+<use f='MOS/kernel/tasks/process.c' l='142' u='r' c='process_handle_exit'/>
+<use f='MOS/kernel/tasks/process.c' l='158' u='r' c='process_handle_fork'/>

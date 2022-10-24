@@ -2,7 +2,7 @@
 <use f='MOS/arch/x86/cpu/smp.c' l='59' macro='1' u='r' c='ap_begin_exec'/>
 <use f='MOS/arch/x86/cpu/smp.c' l='117' macro='1' u='r' c='x86_smp_init'/>
 <def f='MOS/arch/x86/x86_platform.c' l='170' type='mos_platform_t *const'/>
-<use f='MOS/kernel/elf/elf.c' l='91' u='r' c='create_elf_process'/>
+<use f='MOS/kernel/elf/elf.c' l='92' u='r' c='create_elf_process'/>
 <use f='MOS/kernel/ksyscall.c' l='17' macro='1' u='r' c='ksyscall_file_open'/>
 <use f='MOS/kernel/ksyscall.c' l='17' macro='1' u='r' c='ksyscall_file_open'/>
 <use f='MOS/kernel/ksyscall.c' l='29' macro='1' u='r' c='ksyscall_io_read'/>
@@ -25,20 +25,18 @@
 <use f='MOS/kernel/mm/paging.c' l='52' u='r' c='kpage_free'/>
 <use f='MOS/kernel/panic.c' l='44' u='r' c='mos_kpanic'/>
 <use f='MOS/kernel/panic.c' l='65' u='r' c='mos_kpanic'/>
-<use f='MOS/kernel/tasks/process.c' l='84' u='r' c='allocate_process'/>
-<use f='MOS/kernel/tasks/process.c' l='136' macro='1' u='r' c='process_handle_exit'/>
-<use f='MOS/kernel/tasks/process.c' l='136' macro='1' u='r' c='process_handle_exit'/>
+<use f='MOS/kernel/tasks/process.c' l='80' u='r' c='process_new'/>
 <use f='MOS/kernel/tasks/schedule.c' l='16' macro='1' u='r' c='schedule_to_thread'/>
 <use f='MOS/kernel/tasks/schedule.c' l='16' macro='1' u='r' c='schedule_to_thread'/>
 <use f='MOS/kernel/tasks/schedule.c' l='17' u='r' c='schedule_to_thread'/>
 <use f='MOS/kernel/tasks/schedule.c' l='17' macro='1' u='r' c='schedule_to_thread'/>
 <use f='MOS/kernel/tasks/schedule.c' l='17' macro='1' u='r' c='schedule_to_thread'/>
-<use f='MOS/kernel/tasks/schedule.c' l='32' u='r' c='jump_to_scheduler'/>
-<use f='MOS/kernel/tasks/schedule.c' l='32' macro='1' u='r' c='jump_to_scheduler'/>
-<use f='MOS/kernel/tasks/schedule.c' l='32' macro='1' u='r' c='jump_to_scheduler'/>
-<use f='MOS/kernel/tasks/schedule.c' l='32' macro='1' u='r' c='jump_to_scheduler'/>
-<use f='MOS/kernel/tasks/schedule.c' l='32' macro='1' u='r' c='jump_to_scheduler'/>
-<use f='MOS/kernel/tasks/thread.c' l='74' u='r' c='create_thread'/>
+<use f='MOS/kernel/tasks/schedule.c' l='29' u='r' c='jump_to_scheduler'/>
+<use f='MOS/kernel/tasks/schedule.c' l='29' macro='1' u='r' c='jump_to_scheduler'/>
+<use f='MOS/kernel/tasks/schedule.c' l='29' macro='1' u='r' c='jump_to_scheduler'/>
+<use f='MOS/kernel/tasks/schedule.c' l='29' macro='1' u='r' c='jump_to_scheduler'/>
+<use f='MOS/kernel/tasks/schedule.c' l='29' macro='1' u='r' c='jump_to_scheduler'/>
 <use f='MOS/kernel/tasks/thread.c' l='75' u='r' c='create_thread'/>
+<use f='MOS/kernel/tasks/thread.c' l='76' u='r' c='create_thread'/>
 <use f='MOS/tests/test_engine.c' l='129' u='r' c='mos_test_engine_run_tests'/>
 <use f='MOS/tests/test_engine.c' l='131' u='r' c='mos_test_engine_run_tests'/>

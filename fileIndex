@@ -10,9 +10,6 @@ MOS/include/lib/containers.h
 MOS/include/lib/string.h
 MOS/include/mos/boot/startup.h
 MOS/include/mos/platform/platform.h
-MOS/include/mos/tasks/task_type.h
-MOS/include/lib/structures/stack.h
-MOS/include/mos/io/io.h
 MOS/include/mos/printk.h
 MOS/arch/x86/include/mos/x86/boot/multiboot.h
 MOS/arch/x86/include/mos/x86/cpu/cpu.h
@@ -52,6 +49,7 @@ MOS/arch/x86/interrupt/pic.c
 MOS/arch/x86/interrupt/x86_interrupt.c
 MOS/build/include/mos/ksyscall/dispatcher.h
 MOS/include/mos/filesystem/filesystem.h
+MOS/include/mos/io/io.h
 MOS/include/mos/mm/kmalloc.h
 MOS/include/mos/mm/liballoc.h
 MOS/arch/x86/mm/mm.c
@@ -63,6 +61,8 @@ MOS/arch/x86/mm/paging_impl.c
 MOS/arch/x86/mm/pmem_freelist.c
 MOS/arch/x86/tasks/context.c
 MOS/arch/x86/include/mos/x86/tasks/context.h
+MOS/include/mos/tasks/task_type.h
+MOS/include/lib/structures/stack.h
 MOS/arch/x86/tasks/tss.c
 MOS/arch/x86/x86_platform.c
 MOS/include/mos/panic.h

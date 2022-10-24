@@ -1,4 +1,4 @@
-<dec f='MOS/build/include/mos/kconfig.h' l='25'/>
+<dec f='MOS/build/include/mos/kconfig.h' l='26'/>
 <use f='MOS/include/mos/boot/startup.h' l='34' u='c'/>
 <use f='MOS/include/mos/boot/startup.h' l='34' u='c'/>
 <use f='MOS/include/mos/boot/startup.h' l='41' u='c'/>
@@ -52,9 +52,9 @@
 <use f='MOS/arch/x86/mm/pmem_freelist.c' l='230' u='c'/>
 <use f='MOS/arch/x86/x86_platform.c' l='95' u='c'/>
 <use f='MOS/arch/x86/x86_platform.c' l='109' u='c'/>
-<use f='MOS/kernel/elf/elf.c' l='48' u='c'/>
-<use f='MOS/kernel/elf/elf.c' l='95' u='c'/>
+<use f='MOS/kernel/elf/elf.c' l='49' u='c'/>
+<use f='MOS/kernel/elf/elf.c' l='96' u='c'/>
 <use f='MOS/kernel/kernel_init.c' l='102' u='c'/>
 <use f='MOS/kernel/mm/paging.c' l='14' u='c'/>
 <use f='MOS/kernel/mm/paging.c' l='32' u='c'/>
-<use f='MOS/kernel/tasks/thread.c' l='38' u='c'/>
+<use f='MOS/kernel/tasks/thread.c' l='39' u='c'/>

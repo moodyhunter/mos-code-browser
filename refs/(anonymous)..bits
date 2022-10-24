@@ -1,4 +1,4 @@
-<dec f='MOS/include/mos/types.h' l='51' type='struct (anonymous struct at /home/runner/work/MOS/MOS/include/mos/types.h:41:5)'/>
+<dec f='MOS/include/mos/types.h' l='55' type='struct (anonymous struct at /home/runner/work/MOS/MOS/include/mos/types.h:45:5)'/>
 <offset>0</offset>
 <use f='MOS/arch/x86/devices/serial.c' l='18' u='m' c='set_baudrate_divisor'/>
 <use f='MOS/arch/x86/devices/serial.c' l='29' u='m' c='set_baudrate_divisor'/>
@@ -9,5 +9,5 @@
 <use f='MOS/arch/x86/devices/serial.c' l='69' u='m' c='serial_set_modem_options'/>
 <use f='MOS/arch/x86/devices/serial.c' l='70' u='m' c='serial_set_modem_options'/>
 <dec f='MOS/include/mos/elf/elf.h' l='54' type='elf_bits'/>
-<use f='MOS/kernel/elf/elf.c' l='24' u='r' c='elf_verify_header'/>
+<use f='MOS/kernel/elf/elf.c' l='25' u='r' c='elf_verify_header'/>
 <offset>32</offset>

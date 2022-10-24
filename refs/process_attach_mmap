@@ -1,0 +1,3 @@
+<dec f='MOS/include/mos/tasks/process.h' l='25' type='void process_attach_mmap(process_t * process, vm_block_t block)'/>
+<use f='MOS/kernel/elf/elf.c' l='99' u='c' c='create_elf_process'/>
+<def f='MOS/kernel/tasks/process.c' l='130' ll='135' type='void process_attach_mmap(process_t * process, vm_block_t block)'/>

@@ -1,5 +1,5 @@
 <dec f='MOS/include/mos/platform/platform.h' l='53' type='size_t'/>
-<offset>256</offset>
+<offset>128</offset>
 <use f='MOS/arch/x86/devices/initrd_blockdev.c' l='20' u='r' c='initrd_read'/>
 <use f='MOS/arch/x86/devices/initrd_blockdev.c' l='27' u='r' c='initrd_read'/>
 <use f='MOS/arch/x86/devices/initrd_blockdev.c' l='28' u='r' c='initrd_read'/>
@@ -13,3 +13,4 @@
 <use f='MOS/arch/x86/x86_platform.c' l='109' u='r' c='x86_start_kernel'/>
 <use f='MOS/arch/x86/x86_platform.c' l='127' u='w' c='x86_start_kernel'/>
 <use f='MOS/kernel/mm/paging.c' l='32' u='r' c='kpage_alloc'/>
+<use f='MOS/kernel/tasks/process.c' l='174' u='r' c='process_dump_mmaps'/>

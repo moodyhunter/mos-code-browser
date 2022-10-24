@@ -1,2 +1,2 @@
 <def f='MOS/kernel/tasks/schedule.c' l='11' ll='19' macro='1' type='_Bool schedule_to_thread(const void * key, void * value)'/>
-<use f='MOS/kernel/tasks/schedule.c' l='25' u='r' c='scheduler'/>
+<use f='MOS/kernel/tasks/schedule.c' l='24' u='r' c='scheduler'/>

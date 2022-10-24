@@ -14,3 +14,6 @@
 <use f='MOS/kernel/mm/paging.c' l='32' u='m' c='kpage_alloc'/>
 <use f='MOS/kernel/mm/paging.c' l='32' u='m' c='kpage_alloc'/>
 <use f='MOS/kernel/mm/paging.c' l='35' u='m' c='kpage_alloc'/>
+<use f='MOS/kernel/tasks/process.c' l='172' u='m' c='process_dump_mmaps'/>
+<use f='MOS/kernel/tasks/process.c' l='173' u='m' c='process_dump_mmaps'/>
+<use f='MOS/kernel/tasks/process.c' l='174' u='m' c='process_dump_mmaps'/>

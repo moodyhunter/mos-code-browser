@@ -1,4 +1,4 @@
-<dec f='MOS/include/mos/types.h' l='52' type='u8'/>
+<dec f='MOS/include/mos/types.h' l='56' type='u8'/>
 <offset>0</offset>
 <use f='MOS/arch/x86/devices/serial.c' l='20' u='r' c='set_baudrate_divisor'/>
 <use f='MOS/arch/x86/devices/serial.c' l='30' u='r' c='set_baudrate_divisor'/>

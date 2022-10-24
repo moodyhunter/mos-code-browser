@@ -7,4 +7,4 @@
 <mbr r='hashmap::size' o='192' t='size_t'/>
 <mbr r='hashmap::hash_func' o='256' t='hashmap_hash_t'/>
 <mbr r='hashmap::key_compare_func' o='320' t='hashmap_key_compare_t'/>
-<use f='MOS/include/mos/tasks/thread.h' l='8'/>
+<use f='MOS/include/mos/tasks/thread.h' l='9'/>

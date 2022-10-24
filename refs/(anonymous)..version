@@ -2,5 +2,5 @@
 <offset>0</offset>
 <dec f='MOS/include/mos/elf/elf.h' l='56' type='elf_version_type'/>
 <dec f='MOS/include/mos/elf/elf.h' l='92' type='u32'/>
-<use f='MOS/kernel/elf/elf.c' l='30' u='r' c='elf_verify_header'/>
+<use f='MOS/kernel/elf/elf.c' l='31' u='r' c='elf_verify_header'/>
 <offset>160</offset>

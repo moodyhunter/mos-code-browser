@@ -2,5 +2,5 @@
 <offset>4288</offset>
 <doc f='MOS/include/mos/platform/platform.h' l='99'>// void (*const mm_flag_pages)(paging_handle_t table, uintptr_t vaddr, size_t n, vm_flags flags);</doc>
 <use f='MOS/arch/x86/x86_platform.c' l='161' u='w'/>
-<use f='MOS/kernel/elf/elf.c' l='91' u='r' c='create_elf_process'/>
-<use f='MOS/kernel/tasks/thread.c' l='74' u='r' c='create_thread'/>
+<use f='MOS/kernel/elf/elf.c' l='92' u='r' c='create_elf_process'/>
+<use f='MOS/kernel/tasks/thread.c' l='75' u='r' c='create_thread'/>
