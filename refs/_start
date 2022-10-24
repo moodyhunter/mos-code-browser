@@ -1,1 +1,1 @@
-<def f='MOS/userspace/crt0.c' l='7' ll='11' type='void _start()'/>
+<def f='MOS/userspace/libuserspace.c' l='22' ll='26' type='void _start()'/>
