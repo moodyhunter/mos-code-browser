@@ -1,13 +1,16 @@
-<dec f='MOS/include/mos/platform/platform.h' l='73' type='vmblock_t'/>
+<dec f='MOS/include/mos/platform/platform.h' l='75' type='vmblock_t'/>
 <offset>0</offset>
 <use f='MOS/kernel/tasks/process.c' l='135' u='w' c='process_attach_mmap'/>
-<use f='MOS/kernel/tasks/process.c' l='192' u='m' c='process_dump_mmaps'/>
-<use f='MOS/kernel/tasks/process.c' l='193' u='m' c='process_dump_mmaps'/>
-<use f='MOS/kernel/tasks/process.c' l='194' u='m' c='process_dump_mmaps'/>
-<use f='MOS/kernel/tasks/process.c' l='195' u='m' c='process_dump_mmaps'/>
-<use f='MOS/kernel/tasks/process.c' l='196' u='m' c='process_dump_mmaps'/>
+<use f='MOS/kernel/tasks/process.c' l='173' u='m' c='process_handle_fork'/>
+<use f='MOS/kernel/tasks/process.c' l='173' u='m' c='process_handle_fork'/>
+<use f='MOS/kernel/tasks/process.c' l='173' u='m' c='process_handle_fork'/>
 <use f='MOS/kernel/tasks/process.c' l='197' u='m' c='process_dump_mmaps'/>
 <use f='MOS/kernel/tasks/process.c' l='198' u='m' c='process_dump_mmaps'/>
 <use f='MOS/kernel/tasks/process.c' l='199' u='m' c='process_dump_mmaps'/>
 <use f='MOS/kernel/tasks/process.c' l='200' u='m' c='process_dump_mmaps'/>
 <use f='MOS/kernel/tasks/process.c' l='201' u='m' c='process_dump_mmaps'/>
+<use f='MOS/kernel/tasks/process.c' l='202' u='m' c='process_dump_mmaps'/>
+<use f='MOS/kernel/tasks/process.c' l='203' u='m' c='process_dump_mmaps'/>
+<use f='MOS/kernel/tasks/process.c' l='204' u='m' c='process_dump_mmaps'/>
+<use f='MOS/kernel/tasks/process.c' l='205' u='m' c='process_dump_mmaps'/>
+<use f='MOS/kernel/tasks/process.c' l='206' u='m' c='process_dump_mmaps'/>

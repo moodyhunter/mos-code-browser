@@ -1,4 +1,4 @@
-<dec f='MOS/include/mos/platform/platform.h' l='120' type='void (*const)(uintptr_t *, thread_t *)'/>
-<offset>4544</offset>
-<use f='MOS/arch/x86/x86_platform.c' l='167' u='w'/>
+<dec f='MOS/include/mos/platform/platform.h' l='123' type='void (*const)(uintptr_t *, thread_t *)'/>
+<offset>4608</offset>
+<use f='MOS/arch/x86/x86_platform.c' l='177' u='w'/>
 <use f='MOS/kernel/tasks/schedule.c' l='19' u='r' c='schedule_to_thread'/>

@@ -1,3 +1,3 @@
 <dec f='MOS/include/mos/tasks/process.h' l='25' type='void process_attach_thread(process_t * process, thread_t * thread)'/>
 <def f='MOS/kernel/tasks/process.c' l='123' ll='129' type='void process_attach_thread(process_t * process, thread_t * thread)'/>
-<use f='MOS/kernel/tasks/thread.c' l='80' u='c' c='create_thread'/>
+<use f='MOS/kernel/tasks/thread.c' l='77' u='c' c='create_thread'/>

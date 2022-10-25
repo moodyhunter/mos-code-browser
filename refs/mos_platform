@@ -1,9 +1,11 @@
-<dec f='MOS/include/mos/platform/platform.h' l='123' type='mos_platform_t *const'/>
+<dec f='MOS/include/mos/platform/platform.h' l='126' type='mos_platform_t *const'/>
 <use f='MOS/arch/x86/cpu/smp.c' l='59' macro='1' u='r' c='ap_begin_exec'/>
 <use f='MOS/arch/x86/cpu/smp.c' l='117' macro='1' u='r' c='x86_smp_init'/>
-<use f='MOS/arch/x86/x86_platform.c' l='58' macro='1' u='r' c='x86_kpanic_hook'/>
-<use f='MOS/arch/x86/x86_platform.c' l='58' macro='1' u='r' c='x86_kpanic_hook'/>
-<def f='MOS/arch/x86/x86_platform.c' l='171' type='mos_platform_t *const'/>
+<use f='MOS/arch/x86/x86_platform.c' l='65' macro='1' u='r' c='x86_kpanic_hook'/>
+<use f='MOS/arch/x86/x86_platform.c' l='65' macro='1' u='r' c='x86_kpanic_hook'/>
+<use f='MOS/arch/x86/x86_platform.c' l='67' macro='1' u='r' c='x86_kpanic_hook'/>
+<use f='MOS/arch/x86/x86_platform.c' l='67' macro='1' u='r' c='x86_kpanic_hook'/>
+<def f='MOS/arch/x86/x86_platform.c' l='181' type='mos_platform_t *const'/>
 <use f='MOS/kernel/elf/elf.c' l='93' u='r' c='create_elf_process'/>
 <use f='MOS/kernel/ksyscall.c' l='17' macro='1' u='r' c='ksyscall_file_open'/>
 <use f='MOS/kernel/ksyscall.c' l='17' macro='1' u='r' c='ksyscall_file_open'/>
@@ -28,6 +30,7 @@
 <use f='MOS/kernel/panic.c' l='44' u='r' c='mos_kpanic'/>
 <use f='MOS/kernel/panic.c' l='65' u='r' c='mos_kpanic'/>
 <use f='MOS/kernel/tasks/process.c' l='81' u='r' c='process_new'/>
+<use f='MOS/kernel/tasks/process.c' l='173' u='r' c='process_handle_fork'/>
 <use f='MOS/kernel/tasks/schedule.c' l='18' macro='1' u='r' c='schedule_to_thread'/>
 <use f='MOS/kernel/tasks/schedule.c' l='18' macro='1' u='r' c='schedule_to_thread'/>
 <use f='MOS/kernel/tasks/schedule.c' l='19' u='r' c='schedule_to_thread'/>
@@ -38,7 +41,7 @@
 <use f='MOS/kernel/tasks/schedule.c' l='32' macro='1' u='r' c='jump_to_scheduler'/>
 <use f='MOS/kernel/tasks/schedule.c' l='32' macro='1' u='r' c='jump_to_scheduler'/>
 <use f='MOS/kernel/tasks/schedule.c' l='32' macro='1' u='r' c='jump_to_scheduler'/>
-<use f='MOS/kernel/tasks/thread.c' l='75' u='r' c='create_thread'/>
-<use f='MOS/kernel/tasks/thread.c' l='77' u='r' c='create_thread'/>
+<use f='MOS/kernel/tasks/thread.c' l='72' u='r' c='create_thread'/>
+<use f='MOS/kernel/tasks/thread.c' l='74' u='r' c='create_thread'/>
 <use f='MOS/tests/test_engine.c' l='129' u='r' c='mos_test_engine_run_tests'/>
 <use f='MOS/tests/test_engine.c' l='131' u='r' c='mos_test_engine_run_tests'/>

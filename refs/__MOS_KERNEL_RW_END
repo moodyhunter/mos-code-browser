@@ -3,4 +3,4 @@
 <dec f='MOS/arch/x86/boot/multiboot/startup.c' l='27' type='const char'/>
 <use f='MOS/arch/x86/boot/multiboot/startup.c' l='42' u='a'/>
 <use f='MOS/arch/x86/mm/paging.c' l='62' u='a' c='x86_mm_prepare_paging'/>
-<use f='MOS/arch/x86/x86_platform.c' l='144' u='a'/>
+<use f='MOS/arch/x86/x86_platform.c' l='153' u='a'/>

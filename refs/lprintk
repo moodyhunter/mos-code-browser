@@ -51,11 +51,10 @@
 <use f='MOS/arch/x86/mm/paging.c' l='102' macro='1' u='c' c='page_table_dump_range'/>
 <use f='MOS/arch/x86/mm/paging.c' l='134' macro='1' u='c' c='page_table_dump_range'/>
 <use f='MOS/arch/x86/mm/paging.c' l='142' macro='1' u='c' c='x86_mm_dump_page_table'/>
-<use f='MOS/arch/x86/mm/paging_impl.c' l='78' macro='1' u='c' c='pg_page_alloc'/>
-<use f='MOS/arch/x86/mm/paging_impl.c' l='102' macro='1' u='c' c='pg_page_free'/>
-<use f='MOS/arch/x86/mm/paging_impl.c' l='109' macro='1' u='c' c='pg_page_flag'/>
-<use f='MOS/arch/x86/mm/paging_impl.c' l='158' macro='1' u='c' c='pg_do_map_pages'/>
-<use f='MOS/arch/x86/mm/paging_impl.c' l='165' macro='1' u='c' c='pg_do_unmap_pages'/>
+<use f='MOS/arch/x86/mm/paging_impl.c' l='97' macro='1' u='c' c='pg_page_free'/>
+<use f='MOS/arch/x86/mm/paging_impl.c' l='104' macro='1' u='c' c='pg_page_flag'/>
+<use f='MOS/arch/x86/mm/paging_impl.c' l='153' macro='1' u='c' c='pg_do_map_pages'/>
+<use f='MOS/arch/x86/mm/paging_impl.c' l='160' macro='1' u='c' c='pg_do_unmap_pages'/>
 <use f='MOS/arch/x86/mm/pmem_freelist.c' l='35' macro='1' u='c' c='pmem_freelist_dump'/>
 <use f='MOS/arch/x86/mm/pmem_freelist.c' l='43' macro='1' u='c' c='pmem_freelist_dump'/>
 <use f='MOS/arch/x86/mm/pmem_freelist.c' l='51' macro='1' u='c' c='pmem_freelist_setup'/>
@@ -70,9 +69,12 @@
 <use f='MOS/arch/x86/mm/pmem_freelist.c' l='217' macro='1' u='c' c='pmem_freelist_remove_region'/>
 <use f='MOS/arch/x86/mm/pmem_freelist.c' l='222' macro='1' u='c' c='pmem_freelist_remove_region'/>
 <use f='MOS/arch/x86/mm/pmem_freelist.c' l='282' macro='1' u='c' c='pmem_freelist_find_free'/>
-<use f='MOS/arch/x86/x86_platform.c' l='40' macro='1' u='c' c='do_backtrace'/>
-<use f='MOS/arch/x86/x86_platform.c' l='50' macro='1' u='c' c='do_backtrace'/>
-<use f='MOS/arch/x86/x86_platform.c' l='104' macro='1' u='c' c='x86_start_kernel'/>
+<use f='MOS/arch/x86/x86_platform.c' l='47' macro='1' u='c' c='do_backtrace'/>
+<use f='MOS/arch/x86/x86_platform.c' l='57' macro='1' u='c' c='do_backtrace'/>
+<use f='MOS/arch/x86/x86_platform.c' l='65' macro='1' u='c' c='x86_kpanic_hook'/>
+<use f='MOS/arch/x86/x86_platform.c' l='66' macro='1' u='c' c='x86_kpanic_hook'/>
+<use f='MOS/arch/x86/x86_platform.c' l='68' macro='1' u='c' c='x86_kpanic_hook'/>
+<use f='MOS/arch/x86/x86_platform.c' l='113' macro='1' u='c' c='x86_start_kernel'/>
 <use f='MOS/kernel/device/console.c' l='37' macro='1' u='c' c='mos_install_console'/>
 <use f='MOS/kernel/device/console.c' l='41' macro='1' u='c' c='mos_install_console'/>
 <use f='MOS/kernel/elf/elf.c' l='59' macro='1' u='c' c='create_elf_process'/>
@@ -102,7 +104,7 @@
 <use f='MOS/kernel/kernel_init.c' l='68' macro='1' u='c' c='dump_cmdline'/>
 <use f='MOS/kernel/kernel_init.c' l='75' macro='1' u='c' c='mos_start_kernel'/>
 <use f='MOS/kernel/kernel_init.c' l='97' macro='1' u='c' c='mos_start_kernel'/>
-<use f='MOS/kernel/kernel_init.c' l='103' macro='1' u='c' c='mos_start_kernel'/>
+<use f='MOS/kernel/kernel_init.c' l='105' macro='1' u='c' c='mos_start_kernel'/>
 <use f='MOS/kernel/ksyscall.c' l='56' macro='1' u='c' c='ksyscall_exit'/>
 <use f='MOS/kernel/panic.c' l='22' macro='1' u='c' c='kwarn_handler_set'/>
 <use f='MOS/kernel/panic.c' l='28' macro='1' u='c' c='kwarn_handler_remove'/>
@@ -122,7 +124,8 @@
 <use f='MOS/kernel/tasks/process.c' l='141' macro='1' u='c' c='process_handle_exit'/>
 <use f='MOS/kernel/tasks/process.c' l='143' macro='1' u='c' c='process_handle_exit'/>
 <use f='MOS/kernel/tasks/process.c' l='159' macro='1' u='c' c='process_handle_fork'/>
-<use f='MOS/kernel/tasks/process.c' l='190' macro='1' u='c' c='process_dump_mmaps'/>
+<use f='MOS/kernel/tasks/process.c' l='172' macro='1' u='c' c='process_handle_fork'/>
+<use f='MOS/kernel/tasks/process.c' l='195' macro='1' u='c' c='process_dump_mmaps'/>
 <use f='MOS/kernel/tasks/task_io.c' l='26' u='c' c='stdout_write'/>
 <use f='MOS/kernel/tasks/task_io.c' l='36' u='c' c='stderr_write'/>
 <use f='MOS/tests/test_engine.c' l='67' u='c' c='test_engine_warning_handler'/>

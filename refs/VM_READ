@@ -1,7 +1,11 @@
-<dec f='MOS/include/mos/platform/platform.h' l='26' type='1'/>
-<doc f='MOS/include/mos/platform/platform.h' l='25'>// VM_PRESENT = 1 &lt;&lt; 0,</doc>
+<dec f='MOS/include/mos/platform/platform.h' l='25' type='1'/>
 <use f='MOS/arch/x86/boot/multiboot/startup.c' l='153' u='r' c='x86_startup'/>
 <use f='MOS/arch/x86/boot/multiboot/startup.c' l='154' u='r' c='x86_startup'/>
 <use f='MOS/arch/x86/boot/multiboot/startup.c' l='158' u='r' c='x86_startup'/>
+<use f='MOS/arch/x86/mm/paging.c' l='202' u='r' c='x86_um_pgd_create'/>
+<use f='MOS/kernel/elf/elf.c' l='51' u='r' c='create_elf_process'/>
 <use f='MOS/kernel/elf/elf.c' l='87' u='r' c='create_elf_process'/>
-<use f='MOS/kernel/tasks/process.c' l='195' u='r' c='process_dump_mmaps'/>
+<use f='MOS/kernel/kernel_init.c' l='104' u='r' c='mos_start_kernel'/>
+<use f='MOS/kernel/mm/liballoc.c' l='132' u='r' c='allocate_new_pages_for'/>
+<use f='MOS/kernel/tasks/process.c' l='200' u='r' c='process_dump_mmaps'/>
+<use f='MOS/kernel/tasks/thread.c' l='61' u='r' c='create_thread'/>

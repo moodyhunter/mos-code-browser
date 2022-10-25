@@ -1,4 +1,4 @@
-<dec f='MOS/build/include/mos/kconfig.h' l='21'/>
+<dec f='MOS/build/include/mos/kconfig.h' l='23'/>
 <use f='MOS/kernel/filesystem/pathutils.c' l='155' u='c'/>
 <use f='MOS/kernel/filesystem/pathutils.c' l='156' u='c'/>
 <use f='MOS/kernel/filesystem/pathutils.c' l='169' u='c'/>

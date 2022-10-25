@@ -1,9 +1,9 @@
 <dec f='MOS/include/mos/mos_global.h' l='27'/>
 <use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='227' u='c'/>
-<use f='MOS/arch/x86/mm/paging_impl.c' l='189' u='c'/>
-<use f='MOS/arch/x86/mm/paging_impl.c' l='227' u='c'/>
+<use f='MOS/arch/x86/mm/paging_impl.c' l='181' u='c'/>
+<use f='MOS/arch/x86/mm/paging_impl.c' l='224' u='c'/>
+<use f='MOS/arch/x86/mm/paging_impl.c' l='250' u='c'/>
 <use f='MOS/arch/x86/mm/paging_impl.c' l='253' u='c'/>
-<use f='MOS/arch/x86/mm/paging_impl.c' l='256' u='c'/>
 <use f='MOS/kernel/device/block.c' l='26' u='c'/>
 <use f='MOS/kernel/device/console.c' l='39' u='c'/>
 <use f='MOS/kernel/elf/elf.c' l='101' u='c'/>

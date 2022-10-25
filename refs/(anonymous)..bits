@@ -1,4 +1,4 @@
-<dec f='MOS/include/mos/types.h' l='55' type='struct (anonymous struct at /home/runner/work/MOS/MOS/include/mos/types.h:45:5)'/>
+<dec f='MOS/include/mos/types.h' l='53' type='struct (anonymous struct at /home/runner/work/MOS/MOS/include/mos/types.h:43:5)'/>
 <offset>0</offset>
 <use f='MOS/arch/x86/devices/serial.c' l='18' u='m' c='set_baudrate_divisor'/>
 <use f='MOS/arch/x86/devices/serial.c' l='29' u='m' c='set_baudrate_divisor'/>

@@ -1,2 +1,2 @@
 <dec f='MOS/arch/x86/include/mos/x86/x86_interrupt.h' l='53' type='1'/>
-<use f='MOS/arch/x86/x86_platform.c' l='77' u='r' c='x86_start_kernel'/>
+<use f='MOS/arch/x86/x86_platform.c' l='86' u='r' c='x86_start_kernel'/>

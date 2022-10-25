@@ -20,6 +20,7 @@ x86_mem_init|x86_mem_init
 x86_mm_dump_page_table|x86_mm_dump_page_table
 x86_mm_enable_paging|x86_mm_enable_paging
 x86_mm_pg_alloc|x86_mm_pg_alloc
+x86_mm_pg_alloc_at|x86_mm_pg_alloc_at
 x86_mm_pg_flag|x86_mm_pg_flag
 x86_mm_pg_free|x86_mm_pg_free
 x86_mm_pg_map_to_kvirt|x86_mm_pg_map_to_kvirt

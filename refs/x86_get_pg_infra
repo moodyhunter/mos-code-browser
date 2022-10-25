@@ -1,7 +1,8 @@
 <def f='MOS/arch/x86/include/mos/x86/mm/paging_impl.h' l='62' ll='65' macro='1' type='x86_pg_infra_t * x86_get_pg_infra(paging_handle_t table)'/>
-<use f='MOS/arch/x86/mm/paging.c' l='235' u='c' c='x86_mm_pg_alloc'/>
-<use f='MOS/arch/x86/mm/paging.c' l='241' u='c' c='x86_mm_pg_free'/>
-<use f='MOS/arch/x86/mm/paging.c' l='247' u='c' c='x86_mm_pg_flag'/>
-<use f='MOS/arch/x86/mm/paging.c' l='253' u='c' c='x86_mm_pg_map_to_kvirt'/>
-<use f='MOS/arch/x86/mm/paging.c' l='269' u='c' c='x86_mm_pg_unmap'/>
-<use f='MOS/arch/x86/x86_platform.c' l='58' u='c' c='x86_kpanic_hook'/>
+<use f='MOS/arch/x86/mm/paging.c' l='236' u='c' c='x86_mm_pg_alloc'/>
+<use f='MOS/arch/x86/mm/paging.c' l='242' u='c' c='x86_mm_pg_alloc_at'/>
+<use f='MOS/arch/x86/mm/paging.c' l='248' u='c' c='x86_mm_pg_free'/>
+<use f='MOS/arch/x86/mm/paging.c' l='254' u='c' c='x86_mm_pg_flag'/>
+<use f='MOS/arch/x86/mm/paging.c' l='260' u='c' c='x86_mm_pg_map_to_kvirt'/>
+<use f='MOS/arch/x86/mm/paging.c' l='275' u='c' c='x86_mm_pg_unmap'/>
+<use f='MOS/arch/x86/x86_platform.c' l='67' u='c' c='x86_kpanic_hook'/>

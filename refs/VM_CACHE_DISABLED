@@ -1,10 +1,10 @@
-<dec f='MOS/include/mos/platform/platform.h' l='30' type='16'/>
+<dec f='MOS/include/mos/platform/platform.h' l='29' type='16'/>
 <use f='MOS/include/mos/boot/startup.h' l='54' u='r' c='mos_startup_map_bios'/>
 <use f='MOS/arch/x86/boot/multiboot/startup.c' l='117' u='r' c='mos_startup_map_single_page'/>
 <use f='MOS/arch/x86/interrupt/apic.c' l='111' u='r' c='apic_enable'/>
 <use f='MOS/arch/x86/interrupt/apic.c' l='112' u='r' c='apic_enable'/>
-<use f='MOS/arch/x86/mm/paging_impl.c' l='125' u='r' c='pg_page_flag'/>
-<use f='MOS/arch/x86/mm/paging_impl.c' l='126' u='r' c='pg_page_flag'/>
-<use f='MOS/arch/x86/mm/paging_impl.c' l='211' u='r' c='pg_do_map_page'/>
-<use f='MOS/arch/x86/mm/paging_impl.c' l='212' u='r' c='pg_do_map_page'/>
-<use f='MOS/kernel/tasks/process.c' l='199' u='r' c='process_dump_mmaps'/>
+<use f='MOS/arch/x86/mm/paging_impl.c' l='120' u='r' c='pg_page_flag'/>
+<use f='MOS/arch/x86/mm/paging_impl.c' l='121' u='r' c='pg_page_flag'/>
+<use f='MOS/arch/x86/mm/paging_impl.c' l='208' u='r' c='pg_do_map_page'/>
+<use f='MOS/arch/x86/mm/paging_impl.c' l='209' u='r' c='pg_do_map_page'/>
+<use f='MOS/kernel/tasks/process.c' l='204' u='r' c='process_dump_mmaps'/>
