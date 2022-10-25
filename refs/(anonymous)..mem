@@ -1,0 +1,19 @@
+<dec f='MOS/include/mos/platform/platform.h' l='67' type='memblock_t'/>
+<offset>0</offset>
+<use f='MOS/arch/x86/mm/paging.c' l='202' u='m' c='x86_um_pgd_create'/>
+<use f='MOS/arch/x86/mm/paging.c' l='258' u='w' c='x86_mm_pg_map_to_kvirt'/>
+<use f='MOS/arch/x86/mm/paging.c' l='259' u='w' c='x86_mm_pg_map_to_kvirt'/>
+<use f='MOS/arch/x86/mm/paging.c' l='260' u='w' c='x86_mm_pg_map_to_kvirt'/>
+<use f='MOS/arch/x86/mm/paging.c' l='261' u='w' c='x86_mm_pg_map_to_kvirt'/>
+<use f='MOS/arch/x86/mm/paging_impl.c' l='52' u='w' c='pg_page_alloc'/>
+<use f='MOS/arch/x86/mm/paging_impl.c' l='85' u='w' c='pg_page_alloc'/>
+<use f='MOS/arch/x86/mm/paging_impl.c' l='90' u='w' c='pg_page_alloc'/>
+<use f='MOS/arch/x86/mm/paging_impl.c' l='91' u='w' c='pg_page_alloc'/>
+<use f='MOS/arch/x86/mm/paging_impl.c' l='92' u='w' c='pg_page_alloc'/>
+<use f='MOS/arch/x86/mm/paging_impl.c' l='93' u='w' c='pg_page_alloc'/>
+<use f='MOS/kernel/mm/paging.c' l='32' u='m' c='kpage_alloc'/>
+<use f='MOS/kernel/mm/paging.c' l='32' u='m' c='kpage_alloc'/>
+<use f='MOS/kernel/mm/paging.c' l='35' u='m' c='kpage_alloc'/>
+<use f='MOS/kernel/tasks/process.c' l='192' u='m' c='process_dump_mmaps'/>
+<use f='MOS/kernel/tasks/process.c' l='193' u='m' c='process_dump_mmaps'/>
+<use f='MOS/kernel/tasks/process.c' l='194' u='m' c='process_dump_mmaps'/>

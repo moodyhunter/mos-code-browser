@@ -7,7 +7,7 @@
 <use f='MOS/kernel/filesystem/pathutils.c' l='160' u='c' c='path_to_string_relative'/>
 <use f='MOS/kernel/printk.c' l='34' u='c' c='printk'/>
 <use f='MOS/kernel/printk.c' l='52' u='c' c='lprintk'/>
-<use f='MOS/kernel/tasks/process.c' l='75' u='c' c='process_new'/>
+<use f='MOS/kernel/tasks/process.c' l='76' u='c' c='process_new'/>
 <use f='MOS/lib/stdio_impl.c' l='315' u='c' c='printf_diouxX'/>
 <use f='MOS/lib/stdio_impl.c' l='327' u='c' c='printf_diouxX'/>
 <use f='MOS/lib/stdio_impl.c' l='327' u='c' c='printf_diouxX'/>

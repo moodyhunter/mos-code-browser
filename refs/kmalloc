@@ -1,6 +1,6 @@
 <def f='MOS/include/mos/mm/kmalloc.h' l='8' ll='11' macro='1' type='void * kmalloc(size_t size)'/>
 <use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='75' u='c' c='x86_install_interrupt_handler'/>
-<use f='MOS/arch/x86/x86_platform.c' l='126' u='c' c='x86_start_kernel'/>
+<use f='MOS/arch/x86/x86_platform.c' l='127' u='c' c='x86_start_kernel'/>
 <use f='MOS/kernel/cmdline.c' l='13' u='c' c='mos_cmdline_create'/>
 <use f='MOS/kernel/cmdline.c' l='21' u='c' c='mos_cmdline_create'/>
 <use f='MOS/kernel/cmdline.c' l='42' u='c' c='mos_cmdline_create'/>
@@ -9,9 +9,9 @@
 <use f='MOS/kernel/filesystem/filesystem.c' l='92' u='c' c='vfs_readlink'/>
 <use f='MOS/kernel/filesystem/pathutils.c' l='155' u='c' c='path_to_string_relative'/>
 <use f='MOS/kernel/panic.c' l='93' u='c' c='mos_install_kpanic_hook'/>
-<use f='MOS/kernel/tasks/process.c' l='39' u='c' c='process_init'/>
-<use f='MOS/kernel/tasks/process.c' l='52' u='c' c='process_new'/>
-<use f='MOS/kernel/tasks/process.c' l='75' u='c' c='process_new'/>
+<use f='MOS/kernel/tasks/process.c' l='40' u='c' c='process_init'/>
+<use f='MOS/kernel/tasks/process.c' l='53' u='c' c='process_new'/>
+<use f='MOS/kernel/tasks/process.c' l='76' u='c' c='process_new'/>
 <use f='MOS/kernel/tasks/thread.c' l='36' u='c' c='thread_init'/>
 <use f='MOS/kernel/tasks/thread.c' l='56' u='c' c='create_thread'/>
 <use f='MOS/lib/string.c' l='146' u='c' c='duplicate_string_n'/>

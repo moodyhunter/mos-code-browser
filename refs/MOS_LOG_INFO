@@ -21,7 +21,7 @@
 <use f='MOS/arch/x86/mm/pmem_freelist.c' l='35' macro='1' u='r' c='pmem_freelist_dump'/>
 <use f='MOS/arch/x86/mm/pmem_freelist.c' l='43' macro='1' u='r' c='pmem_freelist_dump'/>
 <use f='MOS/arch/x86/x86_platform.c' l='40' macro='1' u='r' c='do_backtrace'/>
-<use f='MOS/arch/x86/x86_platform.c' l='103' macro='1' u='r' c='x86_start_kernel'/>
+<use f='MOS/arch/x86/x86_platform.c' l='104' macro='1' u='r' c='x86_start_kernel'/>
 <use f='MOS/kernel/device/console.c' l='37' macro='1' u='r' c='mos_install_console'/>
 <use f='MOS/kernel/filesystem/cpio/cpio.c' l='101' macro='1' u='r' c='cpio_mount'/>
 <use f='MOS/kernel/filesystem/cpio/cpio.c' l='115' macro='1' u='r' c='cpio_open'/>
@@ -35,7 +35,7 @@
 <use f='MOS/kernel/kernel_init.c' l='97' macro='1' u='r' c='mos_start_kernel'/>
 <use f='MOS/kernel/ksyscall.c' l='56' macro='1' u='r' c='ksyscall_exit'/>
 <use f='MOS/kernel/printk.c' l='18' c='deduce_level_color'/>
-<use f='MOS/kernel/tasks/process.c' l='126' macro='1' u='r' c='process_attach_thread'/>
-<use f='MOS/kernel/tasks/process.c' l='140' macro='1' u='r' c='process_handle_exit'/>
-<use f='MOS/kernel/tasks/process.c' l='158' macro='1' u='r' c='process_handle_fork'/>
-<use f='MOS/kernel/tasks/process.c' l='170' macro='1' u='r' c='process_dump_mmaps'/>
+<use f='MOS/kernel/tasks/process.c' l='127' macro='1' u='r' c='process_attach_thread'/>
+<use f='MOS/kernel/tasks/process.c' l='141' macro='1' u='r' c='process_handle_exit'/>
+<use f='MOS/kernel/tasks/process.c' l='159' macro='1' u='r' c='process_handle_fork'/>
+<use f='MOS/kernel/tasks/process.c' l='190' macro='1' u='r' c='process_dump_mmaps'/>

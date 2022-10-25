@@ -1,3 +1,3 @@
 <dec f='MOS/arch/x86/include/mos/x86/mm/pmem_freelist.h' l='13' type='uintptr_t pmem_freelist_find_free(size_t pages)'/>
-<use f='MOS/arch/x86/mm/paging_impl.c' l='79' u='c' c='pg_page_alloc'/>
+<use f='MOS/arch/x86/mm/paging_impl.c' l='80' u='c' c='pg_page_alloc'/>
 <def f='MOS/arch/x86/mm/pmem_freelist.c' l='273' ll='292' type='uintptr_t pmem_freelist_find_free(size_t pages)'/>

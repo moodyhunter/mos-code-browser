@@ -1,4 +1,4 @@
 <dec f='MOS/include/mos/tasks/task_type.h' l='43' type='thread_t *[64]'/>
 <offset>16896</offset>
-<use f='MOS/kernel/tasks/process.c' l='127' u='w' c='process_attach_thread'/>
-<use f='MOS/kernel/tasks/process.c' l='145' u='r' c='process_handle_exit'/>
+<use f='MOS/kernel/tasks/process.c' l='128' u='w' c='process_attach_thread'/>
+<use f='MOS/kernel/tasks/process.c' l='146' u='r' c='process_handle_exit'/>

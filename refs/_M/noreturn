@@ -1,6 +1,6 @@
 <dec f='MOS/include/mos/mos_global.h' l='21'/>
 <use f='MOS/arch/x86/include/mos/x86/acpi/acpi.h' l='14' u='c'/>
-<use f='MOS/include/mos/platform/platform.h' l='81' u='c'/>
+<use f='MOS/include/mos/platform/platform.h' l='95' u='c'/>
 <use f='MOS/include/mos/printk.h' l='76' u='c'/>
 <use f='MOS/arch/x86/acpi/acpi.c' l='22' u='c'/>
 <use f='MOS/build/include/mos/ksyscall/dispatcher.h' l='21' u='c'/>
@@ -12,5 +12,5 @@
 <use f='MOS/kernel/ksyscall.c' l='50' u='c'/>
 <use f='MOS/kernel/panic.c' l='34' u='c'/>
 <use f='MOS/kernel/stack_protector.c' l='8' u='c'/>
-<use f='MOS/kernel/tasks/schedule.c' l='21' u='c'/>
+<use f='MOS/kernel/tasks/schedule.c' l='24' u='c'/>
 <use f='MOS/userspace/libuserspace.c' l='10' u='c'/>

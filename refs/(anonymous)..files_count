@@ -1,4 +1,4 @@
 <dec f='MOS/include/mos/tasks/task_type.h' l='37' type='ssize_t'/>
 <offset>320</offset>
-<use f='MOS/kernel/tasks/process.c' l='101' u='w' c='process_attach_fd'/>
-<use f='MOS/kernel/tasks/process.c' l='115' u='r' c='process_detach_fd'/>
+<use f='MOS/kernel/tasks/process.c' l='102' u='w' c='process_attach_fd'/>
+<use f='MOS/kernel/tasks/process.c' l='116' u='r' c='process_detach_fd'/>

@@ -1,0 +1,2 @@
+<dec f='MOS/include/mos/platform/platform.h' l='47' type='3'/>
+<use f='MOS/kernel/tasks/process.c' l='186' c='process_dump_mmaps'/>

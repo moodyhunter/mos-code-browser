@@ -1,5 +1,5 @@
 <def f='MOS/include/mos/mm/kmalloc.h' l='23' ll='26' macro='1' type='void kfree(const void * ptr)'/>
-<use f='MOS/arch/x86/mm/paging.c' l='222' u='c' c='x86_um_pgd_destroy'/>
+<use f='MOS/arch/x86/mm/paging.c' l='230' u='c' c='x86_um_pgd_destroy'/>
 <use f='MOS/kernel/cmdline.c' l='93' u='c' c='mos_cmdline_destroy'/>
 <use f='MOS/kernel/cmdline.c' l='98' u='c' c='mos_cmdline_destroy'/>
 <use f='MOS/kernel/cmdline.c' l='99' u='c' c='mos_cmdline_destroy'/>
@@ -19,8 +19,8 @@
 <use f='MOS/kernel/filesystem/mount.c' l='52' u='c' c='kmount'/>
 <use f='MOS/kernel/filesystem/mount.c' l='84' u='c' c='kunmount'/>
 <use f='MOS/kernel/filesystem/pathutils.c' l='170' u='c' c='path_to_string_relative'/>
-<use f='MOS/kernel/tasks/process.c' l='47' u='c' c='process_deinit'/>
-<use f='MOS/kernel/tasks/process.c' l='68' u='c' c='process_new'/>
+<use f='MOS/kernel/tasks/process.c' l='48' u='c' c='process_deinit'/>
+<use f='MOS/kernel/tasks/process.c' l='69' u='c' c='process_new'/>
 <use f='MOS/kernel/tasks/thread.c' l='45' u='c' c='thread_deinit'/>
 <use f='MOS/lib/structures/hashmap.c' l='42' u='c' c='hashmap_deinit'/>
 <use f='MOS/lib/structures/hashmap.c' l='46' u='c' c='hashmap_deinit'/>

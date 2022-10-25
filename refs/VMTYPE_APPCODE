@@ -1,0 +1,3 @@
+<dec f='MOS/include/mos/platform/platform.h' l='44' type='0'/>
+<use f='MOS/kernel/elf/elf.c' l='104' u='r' c='create_elf_process'/>
+<use f='MOS/kernel/tasks/process.c' l='183' c='process_dump_mmaps'/>

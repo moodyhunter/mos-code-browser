@@ -1,10 +1,10 @@
 <dec f='MOS/include/mos/tasks/thread.h' l='12' type='hashmap_t *'/>
-<use f='MOS/kernel/tasks/schedule.c' l='24' u='r' c='scheduler'/>
+<use f='MOS/kernel/tasks/schedule.c' l='27' u='r' c='scheduler'/>
 <def f='MOS/kernel/tasks/thread.c' l='22' type='hashmap_t *'/>
 <use f='MOS/kernel/tasks/thread.c' l='36' u='w' c='thread_init'/>
 <use f='MOS/kernel/tasks/thread.c' l='37' u='r' c='thread_init'/>
 <use f='MOS/kernel/tasks/thread.c' l='38' u='r' c='thread_init'/>
 <use f='MOS/kernel/tasks/thread.c' l='44' u='r' c='thread_deinit'/>
 <use f='MOS/kernel/tasks/thread.c' l='45' u='r' c='thread_deinit'/>
-<use f='MOS/kernel/tasks/thread.c' l='78' u='r' c='create_thread'/>
-<use f='MOS/kernel/tasks/thread.c' l='85' u='r' c='get_thread'/>
+<use f='MOS/kernel/tasks/thread.c' l='79' u='r' c='create_thread'/>
+<use f='MOS/kernel/tasks/thread.c' l='86' u='r' c='get_thread'/>

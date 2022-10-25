@@ -1,4 +1,4 @@
-<dec f='MOS/include/mos/platform/platform.h' l='88' type='void (*const)(void)'/>
+<dec f='MOS/include/mos/platform/platform.h' l='102' type='void (*const)(void)'/>
 <offset>3776</offset>
-<doc f='MOS/include/mos/platform/platform.h' l='87'>// interrupt</doc>
-<use f='MOS/arch/x86/x86_platform.c' l='151' u='w'/>
+<doc f='MOS/include/mos/platform/platform.h' l='101'>// interrupt</doc>
+<use f='MOS/arch/x86/x86_platform.c' l='152' u='w'/>

@@ -1,16 +1,16 @@
-<dec f='MOS/include/mos/platform/platform.h' l='53' type='size_t'/>
+<dec f='MOS/include/mos/platform/platform.h' l='61' type='size_t'/>
 <offset>128</offset>
 <use f='MOS/arch/x86/devices/initrd_blockdev.c' l='20' u='r' c='initrd_read'/>
 <use f='MOS/arch/x86/devices/initrd_blockdev.c' l='27' u='r' c='initrd_read'/>
 <use f='MOS/arch/x86/devices/initrd_blockdev.c' l='28' u='r' c='initrd_read'/>
 <use f='MOS/arch/x86/mm/mm.c' l='25' u='w' c='mem_add_region'/>
-<use f='MOS/arch/x86/mm/paging.c' l='252' u='w' c='x86_mm_pg_map_to_kvirt'/>
-<use f='MOS/arch/x86/mm/paging_impl.c' l='92' u='w' c='pg_page_alloc'/>
+<use f='MOS/arch/x86/mm/paging.c' l='260' u='w' c='x86_mm_pg_map_to_kvirt'/>
+<use f='MOS/arch/x86/mm/paging_impl.c' l='93' u='w' c='pg_page_alloc'/>
 <use f='MOS/arch/x86/mm/pmem_freelist.c' l='62' u='r' c='pmem_freelist_setup'/>
 <use f='MOS/arch/x86/mm/pmem_freelist.c' l='64' u='r' c='pmem_freelist_setup'/>
 <use f='MOS/arch/x86/mm/pmem_freelist.c' l='64' u='r' c='pmem_freelist_setup'/>
 <use f='MOS/arch/x86/mm/pmem_freelist.c' l='68' u='r' c='pmem_freelist_setup'/>
-<use f='MOS/arch/x86/x86_platform.c' l='109' u='r' c='x86_start_kernel'/>
-<use f='MOS/arch/x86/x86_platform.c' l='127' u='w' c='x86_start_kernel'/>
+<use f='MOS/arch/x86/x86_platform.c' l='110' u='r' c='x86_start_kernel'/>
+<use f='MOS/arch/x86/x86_platform.c' l='128' u='w' c='x86_start_kernel'/>
 <use f='MOS/kernel/mm/paging.c' l='32' u='r' c='kpage_alloc'/>
-<use f='MOS/kernel/tasks/process.c' l='174' u='r' c='process_dump_mmaps'/>
+<use f='MOS/kernel/tasks/process.c' l='194' u='r' c='process_dump_mmaps'/>

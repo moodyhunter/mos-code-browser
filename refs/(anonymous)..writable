@@ -3,8 +3,8 @@
 <use f='MOS/arch/x86/boot/multiboot/startup.c' l='109' u='w' c='mos_startup_map_single_page'/>
 <use f='MOS/arch/x86/boot/multiboot/startup.c' l='115' u='w' c='mos_startup_map_single_page'/>
 <offset>1</offset>
-<use f='MOS/arch/x86/mm/paging.c' l='211' u='w' c='x86_um_pgd_create'/>
-<use f='MOS/arch/x86/mm/paging_impl.c' l='118' u='w' c='pg_page_flag'/>
+<use f='MOS/arch/x86/mm/paging.c' l='219' u='w' c='x86_um_pgd_create'/>
 <use f='MOS/arch/x86/mm/paging_impl.c' l='119' u='w' c='pg_page_flag'/>
-<use f='MOS/arch/x86/mm/paging_impl.c' l='204' u='w' c='pg_do_map_page'/>
+<use f='MOS/arch/x86/mm/paging_impl.c' l='120' u='w' c='pg_page_flag'/>
 <use f='MOS/arch/x86/mm/paging_impl.c' l='205' u='w' c='pg_do_map_page'/>
+<use f='MOS/arch/x86/mm/paging_impl.c' l='206' u='w' c='pg_do_map_page'/>
