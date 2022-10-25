@@ -1,3 +1,3 @@
 <dec f='MOS/arch/x86/include/mos/x86/mm/paging.h' l='19' type='vm_block_t x86_mm_pg_alloc(paging_handle_t pgt, size_t n, pagealloc_flags flags)'/>
-<def f='MOS/arch/x86/mm/paging.c' l='221' ll='225' type='vm_block_t x86_mm_pg_alloc(paging_handle_t pgt, size_t n, pagealloc_flags flags)'/>
+<def f='MOS/arch/x86/mm/paging.c' l='225' ll='229' type='vm_block_t x86_mm_pg_alloc(paging_handle_t pgt, size_t n, pagealloc_flags flags)'/>
 <use f='MOS/arch/x86/x86_platform.c' l='158'/>

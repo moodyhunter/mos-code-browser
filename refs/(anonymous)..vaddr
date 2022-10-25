@@ -2,7 +2,7 @@
 <offset>0</offset>
 <use f='MOS/arch/x86/devices/initrd_blockdev.c' l='30' u='r' c='initrd_read'/>
 <use f='MOS/arch/x86/mm/paging.c' l='194' u='r' c='x86_um_pgd_create'/>
-<use f='MOS/arch/x86/mm/paging.c' l='246' u='w' c='x86_mm_pg_map_to_kvirt'/>
+<use f='MOS/arch/x86/mm/paging.c' l='250' u='w' c='x86_mm_pg_map_to_kvirt'/>
 <use f='MOS/arch/x86/mm/paging_impl.c' l='90' u='w' c='pg_page_alloc'/>
 <use f='MOS/arch/x86/x86_platform.c' l='127' u='w' c='x86_start_kernel'/>
 <dec f='MOS/include/mos/elf/elf.h' l='145' type='uintptr_t'/>

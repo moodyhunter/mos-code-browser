@@ -4,6 +4,7 @@
 <use f='MOS/arch/x86/mm/paging.c' l='112' u='r' c='page_table_dump_range'/>
 <use f='MOS/arch/x86/mm/paging.c' l='147' u='m' c='x86_mm_dump_page_table'/>
 <use f='MOS/arch/x86/mm/paging.c' l='168' u='a' c='x86_mm_dump_page_table'/>
+<use f='MOS/arch/x86/mm/paging.c' l='203' u='r' c='x86_um_pgd_create'/>
 <use f='MOS/arch/x86/mm/paging_impl.c' l='116' u='m' c='pg_page_flag'/>
 <use f='MOS/arch/x86/mm/paging_impl.c' l='119' u='m' c='pg_page_flag'/>
 <use f='MOS/arch/x86/mm/paging_impl.c' l='122' u='m' c='pg_page_flag'/>

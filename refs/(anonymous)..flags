@@ -13,7 +13,7 @@
 <use f='MOS/arch/x86/boot/multiboot/startup.c' l='135' u='r' c='x86_startup'/>
 <use f='MOS/arch/x86/boot/multiboot/startup.c' l='143' u='r' c='x86_startup'/>
 <use f='MOS/arch/x86/boot/multiboot/startup.c' l='170' u='r' c='x86_startup'/>
-<use f='MOS/arch/x86/mm/paging.c' l='250' u='w' c='x86_mm_pg_map_to_kvirt'/>
+<use f='MOS/arch/x86/mm/paging.c' l='254' u='w' c='x86_mm_pg_map_to_kvirt'/>
 <use f='MOS/arch/x86/mm/paging_impl.c' l='93' u='w' c='pg_page_alloc'/>
 <use f='MOS/arch/x86/x86_platform.c' l='80' u='r' c='x86_start_kernel'/>
 <dec f='MOS/include/mos/elf/elf.h' l='98' type='u32'/>
