@@ -1,5 +1,5 @@
-<dec f='MOS/include/mos/platform/platform.h' l='121' type='void (*const)(thread_t *, thread_entry_t, void *)'/>
-<offset>4480</offset>
-<doc f='MOS/include/mos/platform/platform.h' l='120'>// process management</doc>
-<use f='MOS/arch/x86/x86_platform.c' l='176' u='w'/>
-<use f='MOS/kernel/tasks/thread.c' l='74' u='r' c='create_thread'/>
+<dec f='MOS/include/mos/platform/platform.h' l='122' type='void (*const)(thread_t *, thread_entry_t, void *)'/>
+<offset>5568</offset>
+<doc f='MOS/include/mos/platform/platform.h' l='121'>// process management</doc>
+<use f='MOS/arch/x86/x86_platform.c' l='179' u='w'/>
+<use f='MOS/kernel/tasks/thread.c' l='77' u='r' c='create_thread'/>

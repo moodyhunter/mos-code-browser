@@ -1,4 +1,4 @@
 <dec f='MOS/include/mos/tasks/process.h' l='19' type='process_t * process_new(process_t * parent, uid_t effective_uid, const char * name, thread_entry_t entry, void * arg)'/>
-<use f='MOS/kernel/elf/elf.c' l='70' u='c' c='create_elf_process'/>
+<use f='MOS/kernel/elf/elf.c' l='71' u='c' c='create_elf_process'/>
 <def f='MOS/kernel/tasks/process.c' l='51' ll='89' type='process_t * process_new(process_t * parent, uid_t euid, const char * name, thread_entry_t entry, void * arg)'/>
 <use f='MOS/kernel/tasks/process.c' l='164' u='c' c='process_handle_fork'/>

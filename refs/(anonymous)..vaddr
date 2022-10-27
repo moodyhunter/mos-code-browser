@@ -1,17 +1,23 @@
-<dec f='MOS/include/mos/platform/platform.h' l='59' type='uintptr_t'/>
-<dec f='MOS/include/mos/platform/platform.h' l='67' type='uintptr_t'/>
+<dec f='MOS/include/mos/platform/platform.h' l='60' type='uintptr_t'/>
+<dec f='MOS/include/mos/platform/platform.h' l='68' type='uintptr_t'/>
 <offset>0</offset>
 <use f='MOS/arch/x86/devices/initrd_blockdev.c' l='30' u='r' c='initrd_read'/>
 <use f='MOS/arch/x86/mm/paging.c' l='203' u='r' c='x86_um_pgd_create'/>
-<use f='MOS/arch/x86/mm/paging.c' l='265' u='w' c='x86_mm_pg_map_to_kvirt'/>
+<use f='MOS/arch/x86/mm/paging.c' l='269' u='w' c='x86_mm_copy_maps'/>
 <use f='MOS/arch/x86/mm/paging_impl.c' l='86' u='w' c='pg_page_alloc_at'/>
-<use f='MOS/arch/x86/x86_platform.c' l='137' u='w' c='x86_start_kernel'/>
+<use f='MOS/arch/x86/x86_platform.c' l='139' u='w' c='x86_start_kernel'/>
 <dec f='MOS/include/mos/elf/elf.h' l='145' type='uintptr_t'/>
-<use f='MOS/kernel/elf/elf.c' l='80' u='r' c='create_elf_process'/>
-<use f='MOS/kernel/elf/elf.c' l='95' u='r' c='create_elf_process'/>
+<use f='MOS/kernel/elf/elf.c' l='52' u='r' c='create_elf_process'/>
+<use f='MOS/kernel/elf/elf.c' l='81' u='r' c='create_elf_process'/>
+<use f='MOS/kernel/elf/elf.c' l='100' u='r' c='create_elf_process'/>
 <use f='MOS/kernel/elf/elf.c' l='102' u='r' c='create_elf_process'/>
+<use f='MOS/kernel/elf/elf.c' l='106' u='r' c='create_elf_process'/>
+<use f='MOS/kernel/elf/elf.c' l='123' u='r' c='create_elf_process'/>
 <offset>128</offset>
 <doc f='MOS/include/mos/elf/elf.h' l='145'>// Virtual address of the segment</doc>
-<use f='MOS/kernel/mm/paging.c' l='35' u='r' c='kpage_alloc'/>
-<use f='MOS/kernel/tasks/process.c' l='173' u='r' c='process_handle_fork'/>
-<use f='MOS/kernel/tasks/process.c' l='197' u='r' c='process_dump_mmaps'/>
+<use f='MOS/kernel/mm/paging.c' l='35' u='r' c='kheap_alloc_page'/>
+<use f='MOS/kernel/tasks/process.c' l='175' u='r' c='process_handle_fork'/>
+<use f='MOS/kernel/tasks/process.c' l='203' u='r' c='process_dump_mmaps'/>
+<use f='MOS/kernel/tasks/thread.c' l='69' u='r' c='create_thread'/>
+<use f='MOS/kernel/tasks/thread.c' l='74' u='r' c='create_thread'/>
+<use f='MOS/kernel/tasks/thread.c' l='83' u='r' c='create_thread'/>

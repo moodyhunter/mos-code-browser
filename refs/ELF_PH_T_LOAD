@@ -1,4 +1,4 @@
 <dec f='MOS/include/mos/elf/elf.h' l='117' type='1'/>
-<use f='MOS/kernel/elf/elf.c' l='79' u='r' c='create_elf_process'/>
-<use f='MOS/kernel/elf/elf.c' l='83' u='r' c='create_elf_process'/>
+<use f='MOS/kernel/elf/elf.c' l='80' u='r' c='create_elf_process'/>
+<use f='MOS/kernel/elf/elf.c' l='84' u='r' c='create_elf_process'/>
 <doc f='MOS/include/mos/elf/elf.h' l='117'>// Loadable segment</doc>

@@ -4,6 +4,10 @@
 <use f='MOS/arch/x86/cpu/smp.c' l='117' macro='1' u='a' c='x86_smp_init'/>
 <use f='MOS/arch/x86/x86_platform.c' l='65' macro='1' u='a' c='x86_kpanic_hook'/>
 <use f='MOS/arch/x86/x86_platform.c' l='67' macro='1' u='a' c='x86_kpanic_hook'/>
+<use f='MOS/arch/x86/x86_platform.c' l='69' macro='1' u='a' c='x86_kpanic_hook'/>
+<use f='MOS/kernel/elf/elf.c' l='51' macro='1' u='a' c='create_elf_process'/>
+<use f='MOS/kernel/elf/elf.c' l='99' macro='1' u='a' c='create_elf_process'/>
+<use f='MOS/kernel/kernel_init.c' l='74' macro='1' u='a' c='mos_start_kernel'/>
 <use f='MOS/kernel/ksyscall.c' l='17' macro='1' u='a' c='ksyscall_file_open'/>
 <use f='MOS/kernel/ksyscall.c' l='29' macro='1' u='a' c='ksyscall_io_read'/>
 <use f='MOS/kernel/ksyscall.c' l='36' macro='1' u='a' c='ksyscall_io_write'/>
@@ -15,3 +19,6 @@
 <use f='MOS/kernel/tasks/schedule.c' l='19' macro='1' u='a' c='schedule_to_thread'/>
 <use f='MOS/kernel/tasks/schedule.c' l='32' macro='1' u='a' c='jump_to_scheduler'/>
 <use f='MOS/kernel/tasks/schedule.c' l='32' macro='1' u='a' c='jump_to_scheduler'/>
+<use f='MOS/kernel/tasks/thread.c' l='68' macro='1' u='a' c='create_thread'/>
+<use f='MOS/kernel/tasks/thread.c' l='73' macro='1' u='a' c='create_thread'/>
+<use f='MOS/kernel/tasks/thread.c' l='83' macro='1' u='a' c='create_thread'/>

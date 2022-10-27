@@ -1,7 +1,6 @@
 <dec f='MOS/include/mos/printk.h' l='29' type='5'/>
-<use f='MOS/kernel/elf/elf.c' l='59' macro='1' u='r' c='create_elf_process'/>
-<use f='MOS/kernel/elf/elf.c' l='66' macro='1' u='r' c='create_elf_process'/>
-<use f='MOS/kernel/elf/elf.c' l='102' macro='1' u='r' c='create_elf_process'/>
+<use f='MOS/kernel/elf/elf.c' l='60' macro='1' u='r' c='create_elf_process'/>
+<use f='MOS/kernel/elf/elf.c' l='67' macro='1' u='r' c='create_elf_process'/>
 <use f='MOS/kernel/panic.c' l='52' macro='1' u='r' c='mos_kpanic'/>
 <use f='MOS/kernel/panic.c' l='56' macro='1' u='r' c='mos_kpanic'/>
 <use f='MOS/kernel/panic.c' l='57' macro='1' u='r' c='mos_kpanic'/>

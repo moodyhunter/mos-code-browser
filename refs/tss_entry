@@ -6,8 +6,8 @@
 <use f='MOS/arch/x86/tasks/tss.c' l='14' u='r' c='x86_tss_init'/>
 <use f='MOS/arch/x86/tasks/tss.c' l='15' u='m' c='x86_tss_init'/>
 <doc f='MOS/arch/x86/tasks/tss.c' l='7'>// TSS used by the system for ring-changing-interrupts</doc>
-<dec f='MOS/kernel/kernel_init.c' l='101' type='tss32_t'/>
-<use f='MOS/kernel/kernel_init.c' l='104' u='m' c='mos_start_kernel'/>
-<use f='MOS/kernel/kernel_init.c' l='105' u='m' c='mos_start_kernel'/>
-<doc f='MOS/kernel/kernel_init.c' l='99'>// the stack memory to be used if we enter the kernelmode by a trap / interrupt
+<dec f='MOS/kernel/kernel_init.c' l='103' type='tss32_t'/>
+<use f='MOS/kernel/kernel_init.c' l='106' u='m' c='mos_start_kernel'/>
+<use f='MOS/kernel/kernel_init.c' l='107' u='m' c='mos_start_kernel'/>
+<doc f='MOS/kernel/kernel_init.c' l='101'>// the stack memory to be used if we enter the kernelmode by a trap / interrupt
     // TODO: Per-process stack</doc>

@@ -1,5 +1,5 @@
 <dec f='MOS/include/mos/elf/elf.h' l='133' type='1'/>
-<use f='MOS/kernel/elf/elf.c' l='78' u='r' c='create_elf_process'/>
-<use f='MOS/kernel/elf/elf.c' l='89' u='r' c='create_elf_process'/>
-<use f='MOS/kernel/elf/elf.c' l='104' u='r' c='create_elf_process'/>
+<use f='MOS/kernel/elf/elf.c' l='79' u='r' c='create_elf_process'/>
+<use f='MOS/kernel/elf/elf.c' l='90' u='r' c='create_elf_process'/>
+<use f='MOS/kernel/elf/elf.c' l='107' u='r' c='create_elf_process'/>
 <doc f='MOS/include/mos/elf/elf.h' l='133'>// Executable</doc>

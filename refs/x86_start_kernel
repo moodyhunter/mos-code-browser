@@ -1,1 +1,1 @@
-<def f='MOS/arch/x86/x86_platform.c' l='73' ll='144' type='void x86_start_kernel(x86_startup_info * info)'/>
+<def f='MOS/arch/x86/x86_platform.c' l='75' ll='146' type='void x86_start_kernel(x86_startup_info * info)'/>

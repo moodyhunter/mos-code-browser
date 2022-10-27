@@ -3,6 +3,8 @@
 <use f='MOS/arch/x86/mm/paging.c' l='242' u='c' c='x86_mm_pg_alloc_at'/>
 <use f='MOS/arch/x86/mm/paging.c' l='248' u='c' c='x86_mm_pg_free'/>
 <use f='MOS/arch/x86/mm/paging.c' l='254' u='c' c='x86_mm_pg_flag'/>
-<use f='MOS/arch/x86/mm/paging.c' l='260' u='c' c='x86_mm_pg_map_to_kvirt'/>
-<use f='MOS/arch/x86/mm/paging.c' l='275' u='c' c='x86_mm_pg_unmap'/>
+<use f='MOS/arch/x86/mm/paging.c' l='260' u='c' c='x86_mm_copy_maps'/>
+<use f='MOS/arch/x86/mm/paging.c' l='261' u='c' c='x86_mm_copy_maps'/>
+<use f='MOS/arch/x86/mm/paging.c' l='279' u='c' c='x86_mm_pg_unmap'/>
 <use f='MOS/arch/x86/x86_platform.c' l='67' u='c' c='x86_kpanic_hook'/>
+<use f='MOS/arch/x86/x86_platform.c' l='69' u='c' c='x86_kpanic_hook'/>

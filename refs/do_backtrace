@@ -1,2 +1,2 @@
 <def f='MOS/arch/x86/x86_platform.c' l='42' ll='60' type='void do_backtrace(u32 max)'/>
-<use f='MOS/arch/x86/x86_platform.c' l='70' u='c' c='x86_kpanic_hook'/>
+<use f='MOS/arch/x86/x86_platform.c' l='72' u='c' c='x86_kpanic_hook'/>

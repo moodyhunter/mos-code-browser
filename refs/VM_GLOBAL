@@ -10,6 +10,7 @@
 <use f='MOS/arch/x86/mm/paging.c' l='209' u='r' c='x86_um_pgd_create'/>
 <use f='MOS/arch/x86/mm/paging_impl.c' l='123' u='r' c='pg_page_flag'/>
 <use f='MOS/arch/x86/mm/paging_impl.c' l='211' u='r' c='pg_do_map_page'/>
-<use f='MOS/arch/x86/x86_platform.c' l='106' u='r' c='x86_start_kernel'/>
-<use f='MOS/arch/x86/x86_platform.c' l='119' u='r' c='x86_start_kernel'/>
-<use f='MOS/kernel/tasks/process.c' l='205' u='r' c='process_dump_mmaps'/>
+<use f='MOS/arch/x86/mm/paging_impl.c' l='279' u='r' c='pg_page_get_flags'/>
+<use f='MOS/arch/x86/x86_platform.c' l='108' u='r' c='x86_start_kernel'/>
+<use f='MOS/arch/x86/x86_platform.c' l='121' u='r' c='x86_start_kernel'/>
+<use f='MOS/kernel/tasks/process.c' l='211' u='r' c='process_dump_mmaps'/>

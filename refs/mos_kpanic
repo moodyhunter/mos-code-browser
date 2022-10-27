@@ -32,6 +32,8 @@
 <use f='MOS/arch/x86/mm/paging_impl.c' l='226' macro='1' u='c' c='pg_do_unmap_page'/>
 <use f='MOS/arch/x86/mm/paging_impl.c' l='251' macro='1' u='c' c='pg_page_get_mapped_paddr'/>
 <use f='MOS/arch/x86/mm/paging_impl.c' l='254' macro='1' u='c' c='pg_page_get_mapped_paddr'/>
+<use f='MOS/arch/x86/mm/paging_impl.c' l='270' macro='1' u='c' c='pg_page_get_flags'/>
+<use f='MOS/arch/x86/mm/paging_impl.c' l='273' macro='1' u='c' c='pg_page_get_flags'/>
 <use f='MOS/arch/x86/mm/pmem_freelist.c' l='94' macro='1' u='c' c='pmem_freelist_add_region'/>
 <use f='MOS/arch/x86/mm/pmem_freelist.c' l='144' macro='1' u='c' c='pmem_freelist_add_region'/>
 <use f='MOS/arch/x86/mm/pmem_freelist.c' l='163' macro='1' u='c' c='pmem_freelist_remove_region'/>
@@ -41,7 +43,7 @@
 <use f='MOS/kernel/cmdline.c' l='70' macro='1' u='c' c='mos_cmdline_create'/>
 <use f='MOS/kernel/cmdline.c' l='111' macro='1' u='c' c='mos_cmdline_get_arg'/>
 <use f='MOS/kernel/device/block.c' l='28' macro='1' u='c' c='blockdev_register'/>
-<use f='MOS/kernel/elf/elf.c' l='54' macro='1' u='c' c='create_elf_process'/>
+<use f='MOS/kernel/elf/elf.c' l='55' macro='1' u='c' c='create_elf_process'/>
 <use f='MOS/kernel/filesystem/cpio/cpio.c' l='28' macro='1' u='c' c='cpio_read_metadata'/>
 <use f='MOS/kernel/filesystem/cpio/cpio.c' l='80' macro='1' u='c' c='cpio_read_metadata'/>
 <use f='MOS/kernel/filesystem/cpio/cpio.c' l='108' macro='1' u='c' c='cpio_unmount'/>
@@ -53,17 +55,18 @@
 <use f='MOS/kernel/filesystem/pathutils.c' l='35' macro='1' u='c' c='impl_path_get_subpath'/>
 <use f='MOS/kernel/filesystem/pathutils.c' l='36' macro='1' u='c' c='impl_path_get_subpath'/>
 <use f='MOS/kernel/filesystem/pathutils.c' l='98' macro='1' u='c' c='path_resolve'/>
-<use f='MOS/kernel/kernel_init.c' l='64' macro='1' u='c' c='dump_cmdline'/>
-<use f='MOS/kernel/kernel_init.c' l='91' macro='1' u='c' c='mos_start_kernel'/>
-<use f='MOS/kernel/kernel_init.c' l='108' macro='1' u='c' c='mos_start_kernel'/>
+<use f='MOS/kernel/kernel_init.c' l='65' macro='1' u='c' c='dump_cmdline'/>
+<use f='MOS/kernel/kernel_init.c' l='93' macro='1' u='c' c='mos_start_kernel'/>
+<use f='MOS/kernel/kernel_init.c' l='110' macro='1' u='c' c='mos_start_kernel'/>
 <use f='MOS/kernel/ksyscall.c' l='47' macro='1' u='c' c='ksyscall_panic'/>
 <use f='MOS/kernel/ksyscall.c' l='54' macro='1' u='c' c='ksyscall_exit'/>
 <use f='MOS/kernel/ksyscall.c' l='59' macro='1' u='c' c='ksyscall_exit'/>
 <use f='MOS/kernel/mm/liballoc.c' l='162' macro='1' u='c' c='liballoc_init'/>
 <use f='MOS/kernel/mm/liballoc.c' l='211' macro='1' u='c' c='liballoc_malloc'/>
 <use f='MOS/kernel/mm/liballoc.c' l='573' macro='1' u='c' c='liballoc_calloc'/>
-<use f='MOS/kernel/mm/paging.c' l='29' macro='1' u='c' c='kpage_alloc'/>
-<use f='MOS/kernel/mm/paging.c' l='51' macro='1' u='c' c='kpage_free'/>
+<use f='MOS/kernel/mm/paging.c' l='29' macro='1' u='c' c='kheap_alloc_page'/>
+<use f='MOS/kernel/mm/paging.c' l='40' macro='1' u='c' c='kheap_free_page'/>
+<use f='MOS/kernel/mm/paging.c' l='53' macro='1' u='c' c='kheap_free_page'/>
 <def f='MOS/kernel/panic.c' l='34' ll='69' macro='1' type='void mos_kpanic(const char * func, u32 line, const char * fmt)'/>
 <use f='MOS/kernel/stack_protector.c' l='10' macro='1' u='c' c='__stack_chk_fail'/>
 <use f='MOS/kernel/tasks/process.c' l='87' macro='1' u='c' c='process_new'/>
@@ -74,7 +77,7 @@
 <use f='MOS/kernel/tasks/process.c' l='133' macro='1' u='c' c='process_attach_mmap'/>
 <use f='MOS/kernel/tasks/process.c' l='140' macro='1' u='c' c='process_handle_exit'/>
 <use f='MOS/kernel/tasks/process.c' l='158' macro='1' u='c' c='process_handle_fork'/>
-<use f='MOS/kernel/tasks/process.c' l='192' macro='1' u='c' c='process_dump_mmaps'/>
+<use f='MOS/kernel/tasks/process.c' l='198' macro='1' u='c' c='process_dump_mmaps'/>
 <use f='MOS/kernel/tasks/schedule.c' l='15' macro='1' u='c' c='schedule_to_thread'/>
 <use f='MOS/kernel/tasks/task_io.c' l='13' macro='1' u='c' c='stdin_read'/>
 <use f='MOS/kernel/tasks/task_io.c' l='25' macro='1' u='c' c='stdout_write'/>

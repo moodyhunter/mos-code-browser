@@ -1,4 +1,4 @@
 <dec f='MOS/arch/x86/include/mos/x86/mm/paging.h' l='13' type='void x86_mm_enable_paging()'/>
 <use f='MOS/arch/x86/cpu/smp.c' l='51' u='c' c='ap_begin_exec'/>
 <def f='MOS/arch/x86/mm/paging.c' l='67' ll='77' type='void x86_mm_enable_paging()'/>
-<use f='MOS/arch/x86/x86_platform.c' l='126' u='c' c='x86_start_kernel'/>
+<use f='MOS/arch/x86/x86_platform.c' l='128' u='c' c='x86_start_kernel'/>

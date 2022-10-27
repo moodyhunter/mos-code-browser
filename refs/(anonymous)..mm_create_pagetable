@@ -1,5 +1,0 @@
-<dec f='MOS/include/mos/platform/platform.h' l='110' type='paging_handle_t (*const)()'/>
-<offset>4032</offset>
-<doc f='MOS/include/mos/platform/platform.h' l='109'>// memory management</doc>
-<use f='MOS/arch/x86/x86_platform.c' l='166' u='w'/>
-<use f='MOS/kernel/tasks/process.c' l='81' u='r' c='process_new'/>
