@@ -1,3 +1,3 @@
 <dec f='MOS/arch/x86/include/mos/x86/mm/paging_impl.h' l='71' type='void pg_page_flag(x86_pg_infra_t * pg, uintptr_t vaddr, size_t n, vm_flags flags)'/>
-<use f='MOS/arch/x86/mm/paging.c' l='255' u='c' c='x86_mm_pg_flag'/>
-<def f='MOS/arch/x86/mm/paging_impl.c' l='102' ll='126' type='void pg_page_flag(x86_pg_infra_t * pg, uintptr_t vaddr, size_t n, vm_flags flags)'/>
+<use f='MOS/arch/x86/mm/paging.c' l='254' u='c' c='x86_mm_pg_flag'/>
+<def f='MOS/arch/x86/mm/paging_impl.c' l='101' ll='128' type='void pg_page_flag(x86_pg_infra_t * pg, uintptr_t vaddr, size_t n, vm_flags flags)'/>

@@ -2,4 +2,4 @@
 <offset>128</offset>
 <dec f='MOS/arch/x86/include/mos/x86/tasks/tss_types.h' l='17' type='u32'/>
 <offset>544</offset>
-<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='198' u='r' c='x86_handle_exception'/>
+<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='212' u='r' c='x86_handle_exception'/>

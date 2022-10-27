@@ -1,3 +1,3 @@
 <dec f='MOS/arch/x86/include/mos/x86/x86_interrupt.h' l='45' type='32'/>
-<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='12'/>
-<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='102' u='r' c='x86_handle_exception'/>
+<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='13'/>
+<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='105' u='r' c='x86_handle_exception'/>

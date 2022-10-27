@@ -50,6 +50,7 @@ MOS/arch/x86/interrupt/x86_interrupt.c
 MOS/build/include/mos/ksyscall/dispatcher.h
 MOS/include/mos/filesystem/filesystem.h
 MOS/include/mos/io/io.h
+MOS/include/mos/mm/cow.h
 MOS/include/mos/mm/kmalloc.h
 MOS/include/mos/mm/liballoc.h
 MOS/arch/x86/mm/mm.c
@@ -75,7 +76,6 @@ MOS/include/lib/structures/hashmap_common.h
 MOS/kernel/device/console.c
 MOS/kernel/elf/elf.c
 MOS/include/mos/elf/elf.h
-MOS/include/mos/mm/paging.h
 MOS/include/mos/tasks/process.h
 MOS/kernel/filesystem/cpio/cpio.c
 MOS/include/mos/filesystem/cpio/cpio.h
@@ -91,8 +91,8 @@ MOS/include/mos/tasks/schedule.h
 MOS/include/mos/tasks/thread.h
 MOS/kernel/ksyscall.c
 MOS/build/include/mos/ksyscall/decl.h
+MOS/kernel/mm/cow.c
 MOS/kernel/mm/liballoc.c
-MOS/kernel/mm/paging.c
 MOS/kernel/panic.c
 MOS/include/lib/stdio.h
 MOS/kernel/printk.c

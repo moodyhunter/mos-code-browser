@@ -1,4 +1,4 @@
-<dec f='MOS/include/mos/platform/platform.h' l='63' type='_Bool'/>
+<dec f='MOS/include/mos/platform/platform.h' l='62' type='_Bool'/>
 <dec f='MOS/arch/x86/include/mos/x86/gdt/gdt_types.h' l='26' type='u32'/>
 <offset>52</offset>
 <doc f='MOS/arch/x86/include/mos/x86/gdt/gdt_types.h' l='26'>// only used in software; has no effect on hardware</doc>
@@ -6,4 +6,4 @@
 <use f='MOS/arch/x86/gdt/gdt.c' l='80' u='w' c='x86_gdt_init'/>
 <use f='MOS/arch/x86/mm/mm.c' l='26' u='w' c='mem_add_region'/>
 <use f='MOS/arch/x86/mm/pmem_freelist.c' l='59' u='r' c='pmem_freelist_setup'/>
-<use f='MOS/arch/x86/x86_platform.c' l='139' u='w' c='x86_start_kernel'/>
+<use f='MOS/arch/x86/x86_platform.c' l='142' u='w' c='x86_start_kernel'/>

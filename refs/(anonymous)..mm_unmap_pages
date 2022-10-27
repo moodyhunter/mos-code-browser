@@ -1,5 +1,6 @@
-<dec f='MOS/include/mos/platform/platform.h' l='117' type='void (*const)(paging_handle_t, uintptr_t, size_t)'/>
+<dec f='MOS/include/mos/platform/platform.h' l='121' type='void (*const)(paging_handle_t, uintptr_t, size_t)'/>
 <offset>5376</offset>
-<use f='MOS/arch/x86/x86_platform.c' l='174' u='w'/>
-<use f='MOS/kernel/elf/elf.c' l='123' u='r' c='create_elf_process'/>
-<use f='MOS/kernel/tasks/thread.c' l='83' u='r' c='create_thread'/>
+<use f='MOS/arch/x86/x86_platform.c' l='177' u='w'/>
+<use f='MOS/kernel/elf/elf.c' l='124' u='r' c='create_elf_process'/>
+<use f='MOS/kernel/mm/cow.c' l='32' u='r' c='copy_cow_pages'/>
+<use f='MOS/kernel/tasks/thread.c' l='82' u='r' c='create_thread'/>

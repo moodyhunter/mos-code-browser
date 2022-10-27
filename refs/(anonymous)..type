@@ -1,5 +1,5 @@
 <dec f='MOS/arch/x86/include/mos/x86/acpi/acpi_types.h' l='132' type='u8'/>
-<dec f='MOS/include/mos/platform/platform.h' l='77' type='vm_type'/>
+<dec f='MOS/include/mos/platform/platform.h' l='76' type='vm_type'/>
 <dec f='MOS/arch/x86/include/mos/x86/boot/multiboot.h' l='117' type='multiboot_memory_type_t'/>
 <dec f='MOS/arch/x86/include/mos/x86/interrupt/idt_types.h' l='13' type='u32'/>
 <use f='MOS/arch/x86/acpi/acpi.c' l='92' macro='1' u='r' c='x86_acpi_init'/>
@@ -32,7 +32,7 @@
 <use f='MOS/kernel/tasks/process.c' l='135' u='w' c='process_attach_mmap'/>
 <use f='MOS/kernel/tasks/process.c' l='172' u='r' c='process_handle_fork'/>
 <use f='MOS/kernel/tasks/process.c' l='176' u='r' c='process_handle_fork'/>
-<use f='MOS/kernel/tasks/process.c' l='192' u='r' c='process_dump_mmaps'/>
+<use f='MOS/kernel/tasks/process.c' l='189' u='r' c='process_dump_mmaps'/>
 <offset>256</offset>
 <use f='MOS/kernel/tasks/task_io.c' l='13' u='r' c='stdin_read'/>
 <use f='MOS/kernel/tasks/task_io.c' l='25' u='r' c='stdout_write'/>

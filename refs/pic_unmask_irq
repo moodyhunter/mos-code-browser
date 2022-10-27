@@ -1,6 +1,6 @@
 <dec f='MOS/arch/x86/include/mos/x86/interrupt/pic.h' l='19' type='void pic_unmask_irq(x86_irq_enum_t irq)'/>
 <def f='MOS/arch/x86/interrupt/pic.c' l='59' ll='69' type='void pic_unmask_irq(x86_irq_enum_t irq)'/>
-<use f='MOS/arch/x86/x86_platform.c' l='87' u='c' c='x86_start_kernel'/>
-<use f='MOS/arch/x86/x86_platform.c' l='88' u='c' c='x86_start_kernel'/>
-<use f='MOS/arch/x86/x86_platform.c' l='89' u='c' c='x86_start_kernel'/>
 <use f='MOS/arch/x86/x86_platform.c' l='90' u='c' c='x86_start_kernel'/>
+<use f='MOS/arch/x86/x86_platform.c' l='91' u='c' c='x86_start_kernel'/>
+<use f='MOS/arch/x86/x86_platform.c' l='92' u='c' c='x86_start_kernel'/>
+<use f='MOS/arch/x86/x86_platform.c' l='93' u='c' c='x86_start_kernel'/>

@@ -19,5 +19,5 @@
 <use f='MOS/arch/x86/cpu/smp.c' l='116' u='m' c='x86_smp_init'/>
 <dec f='MOS/arch/x86/include/mos/x86/tasks/tss_types.h' l='17' type='u32'/>
 <offset>416</offset>
-<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='92' u='r' c='x86_handle_interrupt'/>
-<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='197' u='r' c='x86_handle_exception'/>
+<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='93' u='r' c='x86_handle_interrupt'/>
+<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='211' u='r' c='x86_handle_exception'/>

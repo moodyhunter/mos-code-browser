@@ -1,4 +1,4 @@
-<dec f='MOS/include/mos/platform/platform.h' l='46' type='2'/>
+<dec f='MOS/include/mos/platform/platform.h' l='45' type='2'/>
 <use f='MOS/kernel/tasks/process.c' l='172' u='r' c='process_handle_fork'/>
-<use f='MOS/kernel/tasks/process.c' l='196' c='process_dump_mmaps'/>
-<use f='MOS/kernel/tasks/thread.c' l='76' u='r' c='create_thread'/>
+<use f='MOS/kernel/tasks/process.c' l='193' c='process_dump_mmaps'/>
+<use f='MOS/kernel/tasks/thread.c' l='75' u='r' c='create_thread'/>

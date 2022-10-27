@@ -1,9 +1,9 @@
 <dec f='MOS/arch/x86/include/mos/x86/mm/paging_impl.h' l='14' type='_Bool'/>
 <dec f='MOS/arch/x86/include/mos/x86/mm/paging_impl.h' l='35' type='_Bool'/>
 <offset>2</offset>
-<use f='MOS/arch/x86/mm/paging.c' l='221' u='w' c='x86_um_pgd_create'/>
+<use f='MOS/arch/x86/mm/paging.c' l='220' u='w' c='x86_um_pgd_create'/>
+<use f='MOS/arch/x86/mm/paging_impl.c' l='116' u='w' c='pg_page_flag'/>
 <use f='MOS/arch/x86/mm/paging_impl.c' l='117' u='w' c='pg_page_flag'/>
-<use f='MOS/arch/x86/mm/paging_impl.c' l='118' u='w' c='pg_page_flag'/>
-<use f='MOS/arch/x86/mm/paging_impl.c' l='205' u='w' c='pg_do_map_page'/>
-<use f='MOS/arch/x86/mm/paging_impl.c' l='206' u='w' c='pg_do_map_page'/>
-<use f='MOS/arch/x86/mm/paging_impl.c' l='277' u='r' c='pg_page_get_flags'/>
+<use f='MOS/arch/x86/mm/paging_impl.c' l='207' u='w' c='pg_do_map_page'/>
+<use f='MOS/arch/x86/mm/paging_impl.c' l='208' u='w' c='pg_do_map_page'/>
+<use f='MOS/arch/x86/mm/paging_impl.c' l='279' u='r' c='pg_page_get_flags'/>

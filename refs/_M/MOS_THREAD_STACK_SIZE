@@ -1,4 +1,4 @@
 <dec f='MOS/build/include/mos/kconfig.h' l='19'/>
+<use f='MOS/kernel/tasks/thread.c' l='32' u='c'/>
 <use f='MOS/kernel/tasks/thread.c' l='33' u='c'/>
-<use f='MOS/kernel/tasks/thread.c' l='34' u='c'/>
-<use f='MOS/kernel/tasks/thread.c' l='70' u='c'/>
+<use f='MOS/kernel/tasks/thread.c' l='69' u='c'/>

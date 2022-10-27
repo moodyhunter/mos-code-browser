@@ -1,6 +1,8 @@
-<dec f='MOS/include/mos/platform/platform.h' l='53' type='thread_t *'/>
+<dec f='MOS/include/mos/platform/platform.h' l='52' type='thread_t *'/>
 <offset>64</offset>
 <use f='MOS/arch/x86/x86_platform.c' l='65' macro='1' u='r' c='x86_kpanic_hook'/>
+<use f='MOS/arch/x86/x86_platform.c' l='65' macro='1' u='r' c='x86_kpanic_hook'/>
+<use f='MOS/arch/x86/x86_platform.c' l='66' macro='1' u='r' c='x86_kpanic_hook'/>
 <use f='MOS/arch/x86/x86_platform.c' l='69' macro='1' u='r' c='x86_kpanic_hook'/>
 <use f='MOS/kernel/ksyscall.c' l='17' macro='1' u='r' c='ksyscall_file_open'/>
 <use f='MOS/kernel/ksyscall.c' l='29' macro='1' u='r' c='ksyscall_io_read'/>
@@ -9,5 +11,8 @@
 <use f='MOS/kernel/ksyscall.c' l='52' macro='1' u='r' c='ksyscall_exit'/>
 <use f='MOS/kernel/ksyscall.c' l='57' macro='1' u='r' c='ksyscall_exit'/>
 <use f='MOS/kernel/ksyscall.c' l='69' macro='1' u='r' c='ksyscall_fork'/>
-<use f='MOS/kernel/tasks/schedule.c' l='18' macro='1' u='w' c='schedule_to_thread'/>
-<use f='MOS/kernel/tasks/schedule.c' l='32' macro='1' u='r' c='jump_to_scheduler'/>
+<use f='MOS/kernel/mm/cow.c' l='24' macro='1' u='r' c='copy_cow_pages'/>
+<use f='MOS/kernel/mm/cow.c' l='41' macro='1' u='r' c='cow_handle_page_fault'/>
+<use f='MOS/kernel/mm/cow.c' l='44' macro='1' u='r' c='cow_handle_page_fault'/>
+<use f='MOS/kernel/tasks/schedule.c' l='19' macro='1' u='w' c='schedule_to_thread'/>
+<use f='MOS/kernel/tasks/schedule.c' l='33' macro='1' u='r' c='jump_to_scheduler'/>

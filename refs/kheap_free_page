@@ -1,4 +1,2 @@
-<dec f='MOS/include/mos/mm/paging.h' l='9' type='_Bool kheap_free_page(void * ptr, size_t npages)'/>
-<use f='MOS/kernel/elf/elf.c' l='129' u='c' c='create_elf_process'/>
-<use f='MOS/kernel/mm/liballoc.c' l='552' u='c' c='liballoc_free'/>
-<def f='MOS/kernel/mm/paging.c' l='38' ll='55' macro='1' type='_Bool kheap_free_page(void * vptr, size_t npages)'/>
+<def f='MOS/kernel/mm/liballoc.c' l='80' ll='98' macro='1' type='_Bool kheap_free_page(void * vptr, size_t npages)'/>
+<use f='MOS/kernel/mm/liballoc.c' l='599' u='c' c='liballoc_free'/>

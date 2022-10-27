@@ -1,2 +1,2 @@
 <dec f='MOS/include/mos/tasks/thread.h' l='23' type='thread_t * get_thread(tid_t id)'/>
-<def f='MOS/kernel/tasks/thread.c' l='87' ll='90' type='thread_t * get_thread(tid_t tid)'/>
+<def f='MOS/kernel/tasks/thread.c' l='86' ll='89' type='thread_t * get_thread(tid_t tid)'/>

@@ -1,2 +1,2 @@
 <dec f='MOS/arch/x86/include/mos/x86/interrupt/pic.h' l='8'/>
-<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='214' u='c'/>
+<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='228' u='c'/>

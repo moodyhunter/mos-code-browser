@@ -1,4 +1,5 @@
 <dec f='MOS/build/include/mos/kconfig.h' l='26'/>
 <doc f='MOS/build/include/mos/kconfig.h' l='25'>// defined in /home/runner/work/MOS/MOS/arch/x86/mos_platform.cmake</doc>
 <use f='MOS/arch/x86/mm/paging_impl.c' l='28' u='c'/>
-<use f='MOS/kernel/mm/paging.c' l='40' u='c'/>
+<use f='MOS/kernel/mm/liballoc.c' l='72' u='c'/>
+<use f='MOS/kernel/mm/liballoc.c' l='82' u='c'/>

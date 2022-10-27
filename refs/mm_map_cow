@@ -1,0 +1,4 @@
+<dec f='MOS/include/mos/mm/cow.h' l='8' type='vmblock_t mm_map_cow(paging_handle_t from, uintptr_t fvaddr, paging_handle_t to, uintptr_t tvaddr, size_t npages)'/>
+<def f='MOS/kernel/mm/cow.c' l='15' ll='20' type='vmblock_t mm_map_cow(paging_handle_t from, uintptr_t fvaddr, paging_handle_t to, uintptr_t tvaddr, size_t npages)'/>
+<doc f='MOS/kernel/mm/cow.c' l='13'>// TODO: A global list of CoW blocks, so that we don&apos;t free them if they&apos;re still in use.</doc>
+<use f='MOS/kernel/tasks/process.c' l='175' u='c' c='process_handle_fork'/>
