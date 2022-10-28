@@ -44,6 +44,10 @@
 <use f='MOS/kernel/ksyscall.c' l='57' macro='1' u='r' c='ksyscall_exit'/>
 <use f='MOS/kernel/ksyscall.c' l='69' macro='1' u='r' c='ksyscall_fork'/>
 <use f='MOS/kernel/ksyscall.c' l='69' macro='1' u='r' c='ksyscall_fork'/>
+<use f='MOS/kernel/ksyscall.c' l='86' macro='1' u='r' c='ksyscall_get_pid'/>
+<use f='MOS/kernel/ksyscall.c' l='86' macro='1' u='r' c='ksyscall_get_pid'/>
+<use f='MOS/kernel/ksyscall.c' l='87' macro='1' u='r' c='ksyscall_get_pid'/>
+<use f='MOS/kernel/ksyscall.c' l='87' macro='1' u='r' c='ksyscall_get_pid'/>
 <use f='MOS/kernel/mm/cow.c' l='17' u='r' c='mm_map_cow'/>
 <use f='MOS/kernel/mm/cow.c' l='18' u='r' c='mm_map_cow'/>
 <use f='MOS/kernel/mm/cow.c' l='24' macro='1' u='r' c='copy_cow_pages'/>
