@@ -1,3 +1,3 @@
 <dec f='MOS/arch/x86/include/mos/x86/interrupt/pic.h' l='11'/>
 <use f='MOS/arch/x86/interrupt/pic.c' l='32' u='c'/>
-<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='246' u='c'/>
+<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='251' u='c'/>

@@ -13,8 +13,9 @@
 <use f='MOS/arch/x86/interrupt/apic.c' l='100' macro='1' u='c' c='apic_enable'/>
 <use f='MOS/arch/x86/interrupt/apic.c' l='103' macro='1' u='c' c='apic_enable'/>
 <use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='105' macro='1' u='c' c='x86_handle_exception'/>
-<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='172' macro='1' u='c' c='x86_handle_exception'/>
-<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='195' macro='1' u='c' c='x86_handle_exception'/>
+<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='155' macro='1' u='c' c='x86_handle_exception'/>
+<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='177' macro='1' u='c' c='x86_handle_exception'/>
+<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='200' macro='1' u='c' c='x86_handle_exception'/>
 <use f='MOS/arch/x86/mm/mm.c' l='21' macro='1' u='c' c='mem_add_region'/>
 <use f='MOS/arch/x86/mm/mm.c' l='68' macro='1' u='c' c='x86_mem_init'/>
 <use f='MOS/arch/x86/mm/paging.c' l='29' macro='1' u='c' c='x86_mm_prepare_paging'/>
@@ -39,8 +40,8 @@
 <use f='MOS/arch/x86/mm/pmem_freelist.c' l='144' macro='1' u='c' c='pmem_freelist_add_region'/>
 <use f='MOS/arch/x86/mm/pmem_freelist.c' l='163' macro='1' u='c' c='pmem_freelist_remove_region'/>
 <use f='MOS/arch/x86/mm/pmem_freelist.c' l='164' macro='1' u='c' c='pmem_freelist_remove_region'/>
-<use f='MOS/arch/x86/mm/pmem_freelist.c' l='240' macro='1' u='c' c='pmem_freelist_remove_region'/>
-<use f='MOS/arch/x86/mm/pmem_freelist.c' l='290' macro='1' u='c' c='pmem_freelist_find_free'/>
+<use f='MOS/arch/x86/mm/pmem_freelist.c' l='239' macro='1' u='c' c='pmem_freelist_remove_region'/>
+<use f='MOS/arch/x86/mm/pmem_freelist.c' l='289' macro='1' u='c' c='pmem_freelist_find_free'/>
 <use f='MOS/kernel/cmdline.c' l='70' macro='1' u='c' c='mos_cmdline_create'/>
 <use f='MOS/kernel/cmdline.c' l='111' macro='1' u='c' c='mos_cmdline_get_arg'/>
 <use f='MOS/kernel/device/block.c' l='28' macro='1' u='c' c='blockdev_register'/>
