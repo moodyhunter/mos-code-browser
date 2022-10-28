@@ -1,4 +1,4 @@
-<dec f='MOS/include/mos/tasks/task_type.h' l='53' type='process_t *'/>
+<dec f='MOS/include/mos/tasks/task_type.h' l='54' type='process_t *'/>
 <use f='MOS/arch/x86/tasks/context.c' l='23' u='r' c='x86_context_switch'/>
 <offset>64</offset>
 <use f='MOS/arch/x86/x86_platform.c' l='65' u='r' c='x86_kpanic_hook'/>
@@ -14,4 +14,5 @@
 <use f='MOS/kernel/ksyscall.c' l='87' u='r' c='ksyscall_get_pid'/>
 <use f='MOS/kernel/mm/cow.c' l='24' macro='1' u='r' c='copy_cow_pages'/>
 <use f='MOS/kernel/mm/cow.c' l='44' u='r' c='cow_handle_page_fault'/>
-<use f='MOS/kernel/tasks/thread.c' l='56' u='w' c='create_thread'/>
+<use f='MOS/kernel/tasks/process.c' l='132' u='r' c='process_attach_thread'/>
+<use f='MOS/kernel/tasks/thread.c' l='42' u='w' c='thread_allocate'/>

@@ -73,15 +73,16 @@
 <use f='MOS/kernel/mm/liballoc.c' l='620' macro='1' u='c' c='liballoc_calloc'/>
 <def f='MOS/kernel/panic.c' l='34' ll='69' macro='1' type='void mos_kpanic(const char * func, u32 line, const char * fmt)'/>
 <use f='MOS/kernel/stack_protector.c' l='10' macro='1' u='c' c='__stack_chk_fail'/>
-<use f='MOS/kernel/tasks/process.c' l='87' macro='1' u='c' c='process_new'/>
-<use f='MOS/kernel/tasks/process.c' l='101' macro='1' u='c' c='process_attach_fd'/>
-<use f='MOS/kernel/tasks/process.c' l='115' macro='1' u='c' c='process_detach_fd'/>
-<use f='MOS/kernel/tasks/process.c' l='125' macro='1' u='c' c='process_attach_thread'/>
-<use f='MOS/kernel/tasks/process.c' l='126' macro='1' u='c' c='process_attach_thread'/>
-<use f='MOS/kernel/tasks/process.c' l='133' macro='1' u='c' c='process_attach_mmap'/>
-<use f='MOS/kernel/tasks/process.c' l='140' macro='1' u='c' c='process_handle_exit'/>
-<use f='MOS/kernel/tasks/process.c' l='158' macro='1' u='c' c='process_handle_fork'/>
-<use f='MOS/kernel/tasks/process.c' l='195' macro='1' u='c' c='process_dump_mmaps'/>
+<use f='MOS/kernel/tasks/process.c' l='92' macro='1' u='c' c='process_new'/>
+<use f='MOS/kernel/tasks/process.c' l='106' macro='1' u='c' c='process_attach_fd'/>
+<use f='MOS/kernel/tasks/process.c' l='120' macro='1' u='c' c='process_detach_fd'/>
+<use f='MOS/kernel/tasks/process.c' l='130' macro='1' u='c' c='process_attach_thread'/>
+<use f='MOS/kernel/tasks/process.c' l='131' macro='1' u='c' c='process_attach_thread'/>
+<use f='MOS/kernel/tasks/process.c' l='132' macro='1' u='c' c='process_attach_thread'/>
+<use f='MOS/kernel/tasks/process.c' l='139' macro='1' u='c' c='process_attach_mmap'/>
+<use f='MOS/kernel/tasks/process.c' l='146' macro='1' u='c' c='process_handle_exit'/>
+<use f='MOS/kernel/tasks/process.c' l='164' macro='1' u='c' c='process_handle_fork'/>
+<use f='MOS/kernel/tasks/process.c' l='218' macro='1' u='c' c='process_dump_mmaps'/>
 <use f='MOS/kernel/tasks/schedule.c' l='16' macro='1' u='c' c='schedule_to_thread'/>
 <use f='MOS/kernel/tasks/task_io.c' l='13' macro='1' u='c' c='stdin_read'/>
 <use f='MOS/kernel/tasks/task_io.c' l='25' macro='1' u='c' c='stdout_write'/>

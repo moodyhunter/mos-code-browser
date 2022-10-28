@@ -56,9 +56,9 @@
 <use f='MOS/kernel/mm/liballoc.c' l='671' macro='1' u='c' c='liballoc_realloc'/>
 <use f='MOS/kernel/panic.c' l='30' macro='1' u='c' c='kwarn_handler_remove'/>
 <def f='MOS/kernel/panic.c' l='71' ll='89' type='void mos_kwarn(const char * func, u32 line, const char * fmt)'/>
-<use f='MOS/kernel/tasks/process.c' l='95' macro='1' u='c' c='process_get'/>
-<use f='MOS/kernel/tasks/process.c' l='105' macro='1' u='c' c='process_attach_fd'/>
-<use f='MOS/kernel/tasks/process.c' l='149' macro='1' u='c' c='process_handle_exit'/>
+<use f='MOS/kernel/tasks/process.c' l='100' macro='1' u='c' c='process_get'/>
+<use f='MOS/kernel/tasks/process.c' l='110' macro='1' u='c' c='process_attach_fd'/>
+<use f='MOS/kernel/tasks/process.c' l='155' macro='1' u='c' c='process_handle_exit'/>
 <use f='MOS/lib/stdio_impl.c' l='172' macro='1' u='c' c='parse_printf_flags'/>
 <use f='MOS/lib/stdio_impl.c' l='178' macro='1' u='c' c='parse_printf_flags'/>
 <use f='MOS/lib/stdio_impl.c' l='202' macro='1' u='c' c='printf_diouxX'/>

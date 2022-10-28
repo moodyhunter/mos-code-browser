@@ -1,0 +1,17 @@
+<use f='MOS/include/mos/tasks/task_type.h' l='27'/>
+<def f='MOS/include/mos/tasks/task_type.h' l='29' ll='48'/>
+<use f='MOS/include/mos/tasks/task_type.h' l='29'/>
+<size>2648</size>
+<mbr r='_process::magic' o='0' t='char [4]'/>
+<mbr r='_process::name' o='64' t='const char *'/>
+<mbr r='_process::pid' o='128' t='pid_t'/>
+<mbr r='_process::parent' o='192' t='process_t *'/>
+<mbr r='_process::effective_uid' o='256' t='uid_t'/>
+<mbr r='_process::pagetable' o='288' t='paging_handle_t'/>
+<mbr r='_process::files_count' o='384' t='ssize_t'/>
+<mbr r='_process::files' o='448' t='io_t *[256]'/>
+<mbr r='_process::main_thread' o='16832' t='thread_t *'/>
+<mbr r='_process::threads_count' o='16896' t='ssize_t'/>
+<mbr r='_process::threads' o='16960' t='thread_t *[64]'/>
+<mbr r='_process::mmaps_count' o='21056' t='ssize_t'/>
+<mbr r='_process::mmaps' o='21120' t='proc_vmblock_t *'/>

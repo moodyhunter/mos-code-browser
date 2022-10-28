@@ -1,4 +1,4 @@
-<dec f='MOS/include/mos/platform/platform.h' l='98' type='struct (anonymous struct at /home/runner/work/MOS/MOS/include/mos/platform/platform.h:98:5)'/>
+<dec f='MOS/include/mos/platform/platform.h' l='105' type='struct (anonymous struct at /home/runner/work/MOS/MOS/include/mos/platform/platform.h:105:5)'/>
 <offset>448</offset>
 <use f='MOS/arch/x86/cpu/smp.c' l='59' u='m' c='ap_begin_exec'/>
 <use f='MOS/arch/x86/cpu/smp.c' l='117' u='m' c='x86_smp_init'/>
@@ -28,6 +28,6 @@
 <use f='MOS/kernel/tasks/schedule.c' l='20' macro='1' u='m' c='schedule_to_thread'/>
 <use f='MOS/kernel/tasks/schedule.c' l='33' macro='1' u='m' c='jump_to_scheduler'/>
 <use f='MOS/kernel/tasks/schedule.c' l='33' macro='1' u='m' c='jump_to_scheduler'/>
-<use f='MOS/kernel/tasks/thread.c' l='67' macro='1' u='m' c='create_thread'/>
-<use f='MOS/kernel/tasks/thread.c' l='72' macro='1' u='m' c='create_thread'/>
-<use f='MOS/kernel/tasks/thread.c' l='82' macro='1' u='m' c='create_thread'/>
+<use f='MOS/kernel/tasks/thread.c' l='74' macro='1' u='m' c='thread_new'/>
+<use f='MOS/kernel/tasks/thread.c' l='79' macro='1' u='m' c='thread_new'/>
+<use f='MOS/kernel/tasks/thread.c' l='89' macro='1' u='m' c='thread_new'/>

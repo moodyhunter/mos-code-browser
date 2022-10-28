@@ -63,4 +63,4 @@
 <use f='MOS/kernel/mm/cow.c' l='34' u='c'/>
 <use f='MOS/kernel/mm/cow.c' l='50' u='c'/>
 <use f='MOS/kernel/mm/liballoc.c' l='54' u='c'/>
-<use f='MOS/kernel/tasks/thread.c' l='33' u='c'/>
+<use f='MOS/kernel/tasks/thread.c' l='54' u='c'/>

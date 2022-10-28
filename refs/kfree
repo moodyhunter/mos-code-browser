@@ -20,9 +20,9 @@
 <use f='MOS/kernel/filesystem/mount.c' l='84' u='c' c='kunmount'/>
 <use f='MOS/kernel/filesystem/pathutils.c' l='170' u='c' c='path_to_string_relative'/>
 <use f='MOS/kernel/mm/cow.c' l='36' u='c' c='copy_cow_pages'/>
-<use f='MOS/kernel/tasks/process.c' l='48' u='c' c='process_deinit'/>
-<use f='MOS/kernel/tasks/process.c' l='69' u='c' c='process_new'/>
-<use f='MOS/kernel/tasks/thread.c' l='39' u='c' c='thread_deinit'/>
+<use f='MOS/kernel/tasks/process.c' l='58' u='c' c='process_allocate'/>
+<use f='MOS/kernel/tasks/process.c' l='83' u='c' c='process_deinit'/>
+<use f='MOS/kernel/tasks/thread.c' l='60' u='c' c='thread_deinit'/>
 <use f='MOS/lib/structures/hashmap.c' l='42' u='c' c='hashmap_deinit'/>
 <use f='MOS/lib/structures/hashmap.c' l='46' u='c' c='hashmap_deinit'/>
 <use f='MOS/lib/structures/hashmap.c' l='109' u='c' c='hashmap_remove'/>

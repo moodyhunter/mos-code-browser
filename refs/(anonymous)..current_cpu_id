@@ -1,4 +1,4 @@
-<dec f='MOS/include/mos/platform/platform.h' l='106' type='u32 (*const)(void)'/>
+<dec f='MOS/include/mos/platform/platform.h' l='113' type='u32 (*const)(void)'/>
 <offset>4736</offset>
 <use f='MOS/arch/x86/cpu/smp.c' l='59' macro='1' u='r' c='ap_begin_exec'/>
 <use f='MOS/arch/x86/cpu/smp.c' l='117' macro='1' u='r' c='x86_smp_init'/>
@@ -29,6 +29,6 @@
 <use f='MOS/kernel/tasks/schedule.c' l='20' macro='1' u='r' c='schedule_to_thread'/>
 <use f='MOS/kernel/tasks/schedule.c' l='33' macro='1' u='r' c='jump_to_scheduler'/>
 <use f='MOS/kernel/tasks/schedule.c' l='33' macro='1' u='r' c='jump_to_scheduler'/>
-<use f='MOS/kernel/tasks/thread.c' l='67' macro='1' u='r' c='create_thread'/>
-<use f='MOS/kernel/tasks/thread.c' l='72' macro='1' u='r' c='create_thread'/>
-<use f='MOS/kernel/tasks/thread.c' l='82' macro='1' u='r' c='create_thread'/>
+<use f='MOS/kernel/tasks/thread.c' l='74' macro='1' u='r' c='thread_new'/>
+<use f='MOS/kernel/tasks/thread.c' l='79' macro='1' u='r' c='thread_new'/>
+<use f='MOS/kernel/tasks/thread.c' l='89' macro='1' u='r' c='thread_new'/>

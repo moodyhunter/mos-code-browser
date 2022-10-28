@@ -6,4 +6,4 @@
 <use f='MOS/kernel/panic.c' l='57' macro='1' u='r' c='mos_kpanic'/>
 <use f='MOS/kernel/panic.c' l='58' macro='1' u='r' c='mos_kpanic'/>
 <use f='MOS/kernel/printk.c' l='21' c='deduce_level_color'/>
-<use f='MOS/kernel/tasks/process.c' l='68' macro='1' u='r' c='process_new'/>
+<use f='MOS/kernel/tasks/process.c' l='57' macro='1' u='r' c='process_allocate'/>

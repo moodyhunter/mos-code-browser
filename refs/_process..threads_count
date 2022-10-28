@@ -1,0 +1,6 @@
+<dec f='MOS/include/mos/tasks/task_type.h' l='43' type='ssize_t'/>
+<offset>16896</offset>
+<use f='MOS/kernel/tasks/process.c' l='134' u='w' c='process_attach_thread'/>
+<use f='MOS/kernel/tasks/process.c' l='149' u='r' c='process_handle_exit'/>
+<use f='MOS/kernel/tasks/process.c' l='150' u='r' c='process_handle_exit'/>
+<use f='MOS/kernel/tasks/process.c' l='191' u='r' c='process_handle_fork'/>

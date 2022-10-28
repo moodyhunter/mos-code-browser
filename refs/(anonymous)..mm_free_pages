@@ -1,4 +1,4 @@
-<dec f='MOS/include/mos/platform/platform.h' l='122' type='void (*const)(paging_handle_t, uintptr_t, size_t)'/>
+<dec f='MOS/include/mos/platform/platform.h' l='129' type='void (*const)(paging_handle_t, uintptr_t, size_t)'/>
 <offset>5440</offset>
 <use f='MOS/arch/x86/x86_platform.c' l='178' u='w'/>
 <use f='MOS/kernel/elf/elf.c' l='130' u='r' c='create_elf_process'/>
