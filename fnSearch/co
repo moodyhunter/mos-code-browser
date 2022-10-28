@@ -1,1 +1,2 @@
+copy_cow_pages_inplace|copy_cow_pages_inplace
 cow_handle_page_fault|cow_handle_page_fault

@@ -1,3 +1,3 @@
 <dec f='MOS/include/mos/tasks/process.h' l='11' type='void process_init()'/>
 <use f='MOS/kernel/kernel_init.c' l='88' u='c' c='mos_start_kernel'/>
-<def f='MOS/kernel/tasks/process.c' l='73' ll='78' type='void process_init()'/>
+<def f='MOS/kernel/tasks/process.c' l='74' ll='79' type='void process_init()'/>

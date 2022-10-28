@@ -5,4 +5,4 @@
 <use f='MOS/kernel/panic.c' l='56' u='c'/>
 <use f='MOS/kernel/panic.c' l='57' u='c'/>
 <use f='MOS/kernel/panic.c' l='58' u='c'/>
-<use f='MOS/kernel/tasks/process.c' l='57' u='c'/>
+<use f='MOS/kernel/tasks/process.c' l='58' u='c'/>

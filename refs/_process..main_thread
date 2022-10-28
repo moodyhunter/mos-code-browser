@@ -1,4 +1,5 @@
 <dec f='MOS/include/mos/tasks/task_type.h' l='41' type='thread_t *'/>
 <offset>16832</offset>
-<use f='MOS/kernel/tasks/process.c' l='90' u='w' c='process_new'/>
-<use f='MOS/kernel/tasks/process.c' l='172' u='r' c='process_handle_fork'/>
+<use f='MOS/kernel/tasks/process.c' l='91' u='w' c='process_new'/>
+<use f='MOS/kernel/tasks/process.c' l='214' u='r' c='process_handle_fork'/>
+<use f='MOS/kernel/tasks/process.c' l='215' u='w' c='process_handle_fork'/>

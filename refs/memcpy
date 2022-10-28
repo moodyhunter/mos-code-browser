@@ -4,8 +4,8 @@
 <use f='MOS/arch/x86/devices/initrd_blockdev.c' l='30' u='c' c='initrd_read'/>
 <use f='MOS/kernel/filesystem/cpio/cpio.c' l='129' u='c' c='cpio_open'/>
 <use f='MOS/kernel/filesystem/pathutils.c' l='162' u='c' c='path_to_string_relative'/>
-<use f='MOS/kernel/mm/cow.c' l='30' u='c' c='copy_cow_pages'/>
-<use f='MOS/kernel/mm/cow.c' l='34' u='c' c='copy_cow_pages'/>
+<use f='MOS/kernel/mm/cow.c' l='30' u='c' c='copy_cow_pages_inplace'/>
+<use f='MOS/kernel/mm/cow.c' l='34' u='c' c='copy_cow_pages_inplace'/>
 <use f='MOS/kernel/mm/liballoc.c' l='698' u='c' c='liballoc_realloc'/>
 <def f='MOS/lib/string.c' l='39' ll='61' type='void * memcpy(void *restrict dest, const void *restrict src, size_t n)'/>
 <use f='MOS/lib/structures/stack.c' l='47' u='c' c='stack_push'/>

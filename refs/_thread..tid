@@ -1,7 +1,8 @@
 <dec f='MOS/include/mos/tasks/task_type.h' l='53' type='tid_t'/>
 <offset>32</offset>
-<use f='MOS/kernel/tasks/process.c' l='133' u='r' c='process_attach_thread'/>
-<use f='MOS/kernel/tasks/process.c' l='155' u='r' c='process_handle_exit'/>
+<use f='MOS/kernel/tasks/process.c' l='135' u='r' c='process_attach_thread'/>
+<use f='MOS/kernel/tasks/process.c' l='157' u='r' c='process_handle_exit'/>
+<use f='MOS/kernel/tasks/process.c' l='228' u='a' c='process_handle_fork'/>
 <use f='MOS/kernel/tasks/schedule.c' l='16' u='r' c='schedule_to_thread'/>
 <use f='MOS/kernel/tasks/thread.c' l='41' u='w' c='thread_allocate'/>
 <use f='MOS/kernel/tasks/thread.c' l='85' u='a' c='thread_new'/>

@@ -1,4 +1,4 @@
-<dec f='MOS/include/mos/platform/platform.h' l='143'/>
+<dec f='MOS/include/mos/platform/platform.h' l='148'/>
 <use f='MOS/arch/x86/x86_platform.c' l='66' u='c'/>
 <use f='MOS/kernel/ksyscall.c' l='17' u='c'/>
 <use f='MOS/kernel/ksyscall.c' l='29' u='c'/>
@@ -12,4 +12,4 @@
 <use f='MOS/kernel/mm/cow.c' l='41' u='c'/>
 <use f='MOS/kernel/mm/cow.c' l='44' u='c'/>
 <use f='MOS/kernel/tasks/schedule.c' l='19' u='c'/>
-<use f='MOS/kernel/tasks/schedule.c' l='33' u='c'/>
+<use f='MOS/kernel/tasks/schedule.c' l='34' u='c'/>

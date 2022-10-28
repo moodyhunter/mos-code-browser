@@ -1,5 +1,5 @@
 <dec f='MOS/include/mos/tasks/process.h' l='26' type='void process_attach_mmap(process_t * process, vmblock_t block, vm_type type, _Bool cow)'/>
 <use f='MOS/kernel/elf/elf.c' l='108' u='c' c='create_elf_process'/>
-<def f='MOS/kernel/tasks/process.c' l='137' ll='142' type='void process_attach_mmap(process_t * process, vmblock_t block, vm_type type, _Bool cow)'/>
-<use f='MOS/kernel/tasks/process.c' l='179' u='c' c='process_handle_fork'/>
+<def f='MOS/kernel/tasks/process.c' l='139' ll='144' type='void process_attach_mmap(process_t * process, vmblock_t block, vm_type type, _Bool cow)'/>
+<use f='MOS/kernel/tasks/process.c' l='189' u='c' c='process_handle_fork'/>
 <use f='MOS/kernel/tasks/thread.c' l='82' u='c' c='thread_new'/>

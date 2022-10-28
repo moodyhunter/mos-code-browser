@@ -1,2 +1,2 @@
-<dec f='MOS/include/mos/platform/platform.h' l='132' type='uintptr_t (*const)(paging_handle_t, uintptr_t)'/>
-<offset>5632</offset>
+<dec f='MOS/include/mos/platform/platform.h' l='137' type='uintptr_t (*const)(paging_handle_t, uintptr_t)'/>
+<offset>6656</offset>

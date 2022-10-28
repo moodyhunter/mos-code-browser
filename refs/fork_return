@@ -1,0 +1,2 @@
+<def f='MOS/kernel/tasks/process.c' l='164' ll='167' type='void fork_return()'/>
+<use f='MOS/kernel/tasks/process.c' l='224' c='process_handle_fork'/>

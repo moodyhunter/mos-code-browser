@@ -5,6 +5,6 @@
 <use f='MOS/arch/x86/mm/paging.c' l='253' u='c' c='x86_mm_pg_flag'/>
 <use f='MOS/arch/x86/mm/paging.c' l='259' u='c' c='x86_mm_copy_maps'/>
 <use f='MOS/arch/x86/mm/paging.c' l='260' u='c' c='x86_mm_copy_maps'/>
-<use f='MOS/arch/x86/mm/paging.c' l='287' u='c' c='x86_mm_pg_unmap'/>
+<use f='MOS/arch/x86/mm/paging.c' l='286' u='c' c='x86_mm_pg_unmap'/>
 <use f='MOS/arch/x86/x86_platform.c' l='69' u='c' c='x86_kpanic_hook'/>
 <use f='MOS/arch/x86/x86_platform.c' l='72' u='c' c='x86_kpanic_hook'/>

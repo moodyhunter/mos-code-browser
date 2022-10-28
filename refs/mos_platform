@@ -1,6 +1,8 @@
-<dec f='MOS/include/mos/platform/platform.h' l='140' type='mos_platform_t *const'/>
+<dec f='MOS/include/mos/platform/platform.h' l='145' type='mos_platform_t *const'/>
 <use f='MOS/arch/x86/cpu/smp.c' l='59' macro='1' u='r' c='ap_begin_exec'/>
 <use f='MOS/arch/x86/cpu/smp.c' l='117' macro='1' u='r' c='x86_smp_init'/>
+<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='84' macro='1' u='r' c='x86_handle_interrupt'/>
+<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='84' macro='1' u='r' c='x86_handle_interrupt'/>
 <use f='MOS/arch/x86/x86_platform.c' l='65' macro='1' u='r' c='x86_kpanic_hook'/>
 <use f='MOS/arch/x86/x86_platform.c' l='65' macro='1' u='r' c='x86_kpanic_hook'/>
 <use f='MOS/arch/x86/x86_platform.c' l='65' macro='1' u='r' c='x86_kpanic_hook'/>
@@ -48,13 +50,13 @@
 <use f='MOS/kernel/ksyscall.c' l='86' macro='1' u='r' c='ksyscall_get_pid'/>
 <use f='MOS/kernel/ksyscall.c' l='87' macro='1' u='r' c='ksyscall_get_pid'/>
 <use f='MOS/kernel/ksyscall.c' l='87' macro='1' u='r' c='ksyscall_get_pid'/>
-<use f='MOS/kernel/mm/cow.c' l='17' u='r' c='mm_map_cow'/>
-<use f='MOS/kernel/mm/cow.c' l='18' u='r' c='mm_map_cow'/>
-<use f='MOS/kernel/mm/cow.c' l='24' macro='1' u='r' c='copy_cow_pages'/>
-<use f='MOS/kernel/mm/cow.c' l='24' macro='1' u='r' c='copy_cow_pages'/>
-<use f='MOS/kernel/mm/cow.c' l='31' u='r' c='copy_cow_pages'/>
-<use f='MOS/kernel/mm/cow.c' l='32' u='r' c='copy_cow_pages'/>
-<use f='MOS/kernel/mm/cow.c' l='33' u='r' c='copy_cow_pages'/>
+<use f='MOS/kernel/mm/cow.c' l='17' u='r' c='mm_make_process_map_cow'/>
+<use f='MOS/kernel/mm/cow.c' l='18' u='r' c='mm_make_process_map_cow'/>
+<use f='MOS/kernel/mm/cow.c' l='24' macro='1' u='r' c='copy_cow_pages_inplace'/>
+<use f='MOS/kernel/mm/cow.c' l='24' macro='1' u='r' c='copy_cow_pages_inplace'/>
+<use f='MOS/kernel/mm/cow.c' l='31' u='r' c='copy_cow_pages_inplace'/>
+<use f='MOS/kernel/mm/cow.c' l='32' u='r' c='copy_cow_pages_inplace'/>
+<use f='MOS/kernel/mm/cow.c' l='33' u='r' c='copy_cow_pages_inplace'/>
 <use f='MOS/kernel/mm/cow.c' l='41' macro='1' u='r' c='cow_handle_page_fault'/>
 <use f='MOS/kernel/mm/cow.c' l='41' macro='1' u='r' c='cow_handle_page_fault'/>
 <use f='MOS/kernel/mm/cow.c' l='44' macro='1' u='r' c='cow_handle_page_fault'/>
@@ -67,17 +69,20 @@
 <use f='MOS/kernel/mm/liballoc.c' l='96' u='r' c='kheap_free_page'/>
 <use f='MOS/kernel/panic.c' l='44' u='r' c='mos_kpanic'/>
 <use f='MOS/kernel/panic.c' l='65' u='r' c='mos_kpanic'/>
-<use f='MOS/kernel/tasks/process.c' l='69' u='r' c='process_allocate'/>
+<use f='MOS/kernel/tasks/process.c' l='70' u='r' c='process_allocate'/>
+<use f='MOS/kernel/tasks/process.c' l='224' u='r' c='process_handle_fork'/>
 <use f='MOS/kernel/tasks/schedule.c' l='19' macro='1' u='r' c='schedule_to_thread'/>
 <use f='MOS/kernel/tasks/schedule.c' l='19' macro='1' u='r' c='schedule_to_thread'/>
-<use f='MOS/kernel/tasks/schedule.c' l='20' u='r' c='schedule_to_thread'/>
 <use f='MOS/kernel/tasks/schedule.c' l='20' macro='1' u='r' c='schedule_to_thread'/>
 <use f='MOS/kernel/tasks/schedule.c' l='20' macro='1' u='r' c='schedule_to_thread'/>
-<use f='MOS/kernel/tasks/schedule.c' l='33' u='r' c='jump_to_scheduler'/>
-<use f='MOS/kernel/tasks/schedule.c' l='33' macro='1' u='r' c='jump_to_scheduler'/>
-<use f='MOS/kernel/tasks/schedule.c' l='33' macro='1' u='r' c='jump_to_scheduler'/>
-<use f='MOS/kernel/tasks/schedule.c' l='33' macro='1' u='r' c='jump_to_scheduler'/>
-<use f='MOS/kernel/tasks/schedule.c' l='33' macro='1' u='r' c='jump_to_scheduler'/>
+<use f='MOS/kernel/tasks/schedule.c' l='21' u='r' c='schedule_to_thread'/>
+<use f='MOS/kernel/tasks/schedule.c' l='21' macro='1' u='r' c='schedule_to_thread'/>
+<use f='MOS/kernel/tasks/schedule.c' l='21' macro='1' u='r' c='schedule_to_thread'/>
+<use f='MOS/kernel/tasks/schedule.c' l='34' u='r' c='jump_to_scheduler'/>
+<use f='MOS/kernel/tasks/schedule.c' l='34' macro='1' u='r' c='jump_to_scheduler'/>
+<use f='MOS/kernel/tasks/schedule.c' l='34' macro='1' u='r' c='jump_to_scheduler'/>
+<use f='MOS/kernel/tasks/schedule.c' l='34' macro='1' u='r' c='jump_to_scheduler'/>
+<use f='MOS/kernel/tasks/schedule.c' l='34' macro='1' u='r' c='jump_to_scheduler'/>
 <use f='MOS/kernel/tasks/thread.c' l='74' u='r' c='thread_new'/>
 <use f='MOS/kernel/tasks/thread.c' l='74' macro='1' u='r' c='thread_new'/>
 <use f='MOS/kernel/tasks/thread.c' l='74' macro='1' u='r' c='thread_new'/>

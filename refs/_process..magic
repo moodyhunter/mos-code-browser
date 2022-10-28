@@ -4,7 +4,7 @@
 <use f='MOS/include/mos/tasks/process.h' l='16' u='r' c='process_is_valid'/>
 <use f='MOS/include/mos/tasks/process.h' l='16' u='r' c='process_is_valid'/>
 <use f='MOS/include/mos/tasks/process.h' l='16' u='r' c='process_is_valid'/>
-<use f='MOS/kernel/tasks/process.c' l='44' u='w' c='process_allocate'/>
 <use f='MOS/kernel/tasks/process.c' l='45' u='w' c='process_allocate'/>
 <use f='MOS/kernel/tasks/process.c' l='46' u='w' c='process_allocate'/>
 <use f='MOS/kernel/tasks/process.c' l='47' u='w' c='process_allocate'/>
+<use f='MOS/kernel/tasks/process.c' l='48' u='w' c='process_allocate'/>

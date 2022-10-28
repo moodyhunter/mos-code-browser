@@ -2,9 +2,9 @@
 <use f='MOS/arch/x86/mm/paging.c' l='211' u='c' c='x86_um_pgd_create'/>
 <use f='MOS/arch/x86/mm/paging.c' l='262' u='c' c='x86_mm_copy_maps'/>
 <use f='MOS/arch/x86/mm/paging.c' l='269' u='c' c='x86_mm_copy_maps'/>
-<use f='MOS/arch/x86/mm/paging_impl.c' l='138' u='c' c='pg_unmap_pages'/>
-<use f='MOS/arch/x86/mm/paging_impl.c' l='148' u='c' c='pg_copy_page'/>
-<use f='MOS/arch/x86/mm/paging_impl.c' l='192' u='c' c='pg_do_map_page'/>
-<def f='MOS/arch/x86/mm/paging_impl.c' l='242' ll='259' type='uintptr_t pg_page_get_mapped_paddr(x86_pg_infra_t * pg, uintptr_t vaddr)'/>
-<doc f='MOS/arch/x86/mm/paging_impl.c' l='241'>// !! TODO: read real address instead of assuming memory layout = x86_pg_infra_t</doc>
+<use f='MOS/arch/x86/mm/paging_impl.c' l='137' u='c' c='pg_unmap_pages'/>
+<use f='MOS/arch/x86/mm/paging_impl.c' l='147' u='c' c='pg_copy_page'/>
+<use f='MOS/arch/x86/mm/paging_impl.c' l='191' u='c' c='pg_do_map_page'/>
+<def f='MOS/arch/x86/mm/paging_impl.c' l='241' ll='258' type='uintptr_t pg_page_get_mapped_paddr(x86_pg_infra_t * pg, uintptr_t vaddr)'/>
+<doc f='MOS/arch/x86/mm/paging_impl.c' l='240'>// !! TODO: read real address instead of assuming memory layout = x86_pg_infra_t</doc>
 <use f='MOS/arch/x86/tasks/context.c' l='23' u='c' c='x86_context_switch'/>

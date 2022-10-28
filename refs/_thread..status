@@ -1,10 +1,9 @@
 <dec f='MOS/include/mos/tasks/task_type.h' l='55' type='thread_status_t'/>
 <offset>128</offset>
-<use f='MOS/kernel/tasks/process.c' l='153' u='r' c='process_handle_exit'/>
-<use f='MOS/kernel/tasks/process.c' l='158' u='w' c='process_handle_exit'/>
-<use f='MOS/kernel/tasks/process.c' l='172' u='w' c='process_handle_fork'/>
-<use f='MOS/kernel/tasks/process.c' l='194' u='r' c='process_handle_fork'/>
-<use f='MOS/kernel/tasks/process.c' l='198' u='w' c='process_handle_fork'/>
-<use f='MOS/kernel/tasks/process.c' l='198' u='r' c='process_handle_fork'/>
+<use f='MOS/kernel/tasks/process.c' l='155' u='r' c='process_handle_exit'/>
+<use f='MOS/kernel/tasks/process.c' l='160' u='w' c='process_handle_exit'/>
+<use f='MOS/kernel/tasks/process.c' l='208' u='r' c='process_handle_fork'/>
+<use f='MOS/kernel/tasks/process.c' l='212' u='w' c='process_handle_fork'/>
+<use f='MOS/kernel/tasks/process.c' l='212' u='r' c='process_handle_fork'/>
 <use f='MOS/kernel/tasks/schedule.c' l='17' u='r' c='schedule_to_thread'/>
 <use f='MOS/kernel/tasks/thread.c' l='43' u='w' c='thread_allocate'/>

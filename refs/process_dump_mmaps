@@ -1,4 +1,4 @@
 <dec f='MOS/include/mos/tasks/process.h' l='31' type='void process_dump_mmaps(process_t * process)'/>
-<use f='MOS/kernel/tasks/process.c' l='167' u='c' c='process_handle_fork'/>
-<use f='MOS/kernel/tasks/process.c' l='202' u='c' c='process_handle_fork'/>
-<def f='MOS/kernel/tasks/process.c' l='206' ll='238' type='void process_dump_mmaps(process_t * process)'/>
+<use f='MOS/kernel/tasks/process.c' l='174' u='c' c='process_handle_fork'/>
+<use f='MOS/kernel/tasks/process.c' l='231' u='c' c='process_handle_fork'/>
+<def f='MOS/kernel/tasks/process.c' l='236' ll='267' type='void process_dump_mmaps(process_t * process)'/>
