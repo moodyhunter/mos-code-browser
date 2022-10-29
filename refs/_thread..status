@@ -1,9 +1,18 @@
-<dec f='MOS/include/mos/tasks/task_type.h' l='55' type='thread_status_t'/>
+<dec f='MOS/include/mos/tasks/task_type.h' l='57' type='thread_status_t'/>
+<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='91' u='w' c='x86_handle_interrupt'/>
+<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='114' u='w' c='x86_handle_interrupt'/>
 <offset>128</offset>
+<use f='MOS/arch/x86/tasks/context.c' l='28' u='r' c='x86_switch_to_thread'/>
+<use f='MOS/arch/x86/tasks/context.c' l='31' u='r' c='x86_switch_to_thread'/>
+<use f='MOS/arch/x86/tasks/context.c' l='37' u='w' c='x86_switch_to_thread'/>
+<use f='MOS/kernel/tasks/fork.c' l='48' u='r' c='process_handle_fork'/>
+<use f='MOS/kernel/tasks/fork.c' l='52' u='w' c='process_handle_fork'/>
+<use f='MOS/kernel/tasks/fork.c' l='52' u='r' c='process_handle_fork'/>
+<use f='MOS/kernel/tasks/fork.c' l='55' u='r' c='process_handle_fork'/>
+<use f='MOS/kernel/tasks/fork.c' l='60' u='w' c='process_handle_fork'/>
 <use f='MOS/kernel/tasks/process.c' l='155' u='r' c='process_handle_exit'/>
 <use f='MOS/kernel/tasks/process.c' l='160' u='w' c='process_handle_exit'/>
-<use f='MOS/kernel/tasks/process.c' l='208' u='r' c='process_handle_fork'/>
-<use f='MOS/kernel/tasks/process.c' l='212' u='w' c='process_handle_fork'/>
-<use f='MOS/kernel/tasks/process.c' l='212' u='r' c='process_handle_fork'/>
-<use f='MOS/kernel/tasks/schedule.c' l='17' u='r' c='schedule_to_thread'/>
-<use f='MOS/kernel/tasks/thread.c' l='43' u='w' c='thread_allocate'/>
+<use f='MOS/kernel/tasks/schedule.c' l='18' u='r' c='schedule_to_thread'/>
+<use f='MOS/kernel/tasks/schedule.c' l='18' u='r' c='schedule_to_thread'/>
+<use f='MOS/kernel/tasks/schedule.c' l='18' u='r' c='schedule_to_thread'/>
+<use f='MOS/kernel/tasks/thread.c' l='44' u='w' c='thread_allocate'/>

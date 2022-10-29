@@ -1,8 +1,9 @@
 <dec f='MOS/include/lib/structures/stack.h' l='12' type='uintptr_t'/>
-<use f='MOS/arch/x86/tasks/context.c' l='26' u='r' c='x86_context_switch'/>
+<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='92' u='w' c='x86_handle_interrupt'/>
+<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='115' u='r' c='x86_handle_interrupt'/>
 <offset>64</offset>
-<use f='MOS/kernel/tasks/process.c' l='222' u='w' c='process_handle_fork'/>
-<use f='MOS/kernel/tasks/schedule.c' l='34' u='a' c='jump_to_scheduler'/>
+<use f='MOS/arch/x86/tasks/context.c' l='38' u='r' c='x86_switch_to_thread'/>
+<use f='MOS/kernel/tasks/schedule.c' l='36' u='a' c='jump_to_scheduler'/>
 <use f='MOS/lib/structures/stack.c' l='15' u='w' c='stack_init'/>
 <use f='MOS/lib/structures/stack.c' l='27' u='r' c='stack_grow'/>
 <use f='MOS/lib/structures/stack.c' l='33' u='w' c='stack_grow'/>

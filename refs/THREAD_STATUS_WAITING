@@ -1,1 +1,5 @@
-<dec f='MOS/include/mos/tasks/task_type.h' l='15' type='2'/>
+<dec f='MOS/include/mos/tasks/task_type.h' l='17' type='4'/>
+<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='91' u='r' c='x86_handle_interrupt'/>
+<doc f='MOS/include/mos/tasks/task_type.h' l='17'>// ?</doc>
+<use f='MOS/kernel/tasks/fork.c' l='58' c='process_handle_fork'/>
+<use f='MOS/kernel/tasks/schedule.c' l='18' u='r' c='schedule_to_thread'/>

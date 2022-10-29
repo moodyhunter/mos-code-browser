@@ -1,1 +1,5 @@
-<dec f='MOS/include/mos/tasks/task_type.h' l='14' type='1'/>
+<dec f='MOS/include/mos/tasks/task_type.h' l='16' type='3'/>
+<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='114' u='r' c='x86_handle_interrupt'/>
+<doc f='MOS/include/mos/tasks/task_type.h' l='16'>// Thread is currently running, this state is set by the scheduler</doc>
+<use f='MOS/arch/x86/tasks/context.c' l='37' u='r' c='x86_switch_to_thread'/>
+<use f='MOS/kernel/tasks/fork.c' l='64' c='process_handle_fork'/>

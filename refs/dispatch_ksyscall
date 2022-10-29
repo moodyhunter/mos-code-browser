@@ -1,2 +1,2 @@
 <def f='MOS/build/include/mos/ksyscall/dispatcher.h' l='9' ll='66' macro='1' type='long dispatch_ksyscall(const long number, long arg1, long arg2, long arg3, long arg4, long arg5, long arg6, long arg7, long arg8)'/>
-<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='94' u='c' c='x86_handle_interrupt'/>
+<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='103' u='c' c='x86_handle_interrupt'/>

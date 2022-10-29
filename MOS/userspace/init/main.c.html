@@ -45,14 +45,23 @@
 <tr><th id="31">31</th><td>        <a class="ref fn" href="../../build/include/mos/ksyscall/usermode.h.html#invoke_ksyscall_io_close" title='invoke_ksyscall_io_close' data-ref="invoke_ksyscall_io_close" data-ref-filename="invoke_ksyscall_io_close">invoke_ksyscall_io_close</a>(<a class="local col0 ref" href="#40fd" title='fd' data-ref="40fd" data-ref-filename="40fd">fd</a>);</td></tr>
 <tr><th id="32">32</th><td>    }</td></tr>
 <tr><th id="33">33</th><td></td></tr>
-<tr><th id="34">34</th><td>    <a class="ref fn" href="../../build/include/mos/ksyscall/usermode.h.html#invoke_ksyscall_fork" title='invoke_ksyscall_fork' data-ref="invoke_ksyscall_fork" data-ref-filename="invoke_ksyscall_fork">invoke_ksyscall_fork</a>();</td></tr>
+<tr><th id="34">34</th><td>    <a class="typedef" href="../../include/mos/types.h.html#pid_t" title='pid_t' data-type='id_t' data-ref="pid_t" data-ref-filename="pid_t">pid_t</a> <dfn class="local col2 decl" id="42pid" title='pid' data-type='pid_t' data-ref="42pid" data-ref-filename="42pid">pid</dfn> = <a class="ref fn" href="../../build/include/mos/ksyscall/usermode.h.html#invoke_ksyscall_fork" title='invoke_ksyscall_fork' data-ref="invoke_ksyscall_fork" data-ref-filename="invoke_ksyscall_fork">invoke_ksyscall_fork</a>();</td></tr>
 <tr><th id="35">35</th><td></td></tr>
-<tr><th id="36">36</th><td>    <b>while</b> (<var>1</var>)</td></tr>
-<tr><th id="37">37</th><td>        <a class="ref fn" href="../../build/include/mos/ksyscall/usermode.h.html#invoke_ksyscall_yield_cpu" title='invoke_ksyscall_yield_cpu' data-ref="invoke_ksyscall_yield_cpu" data-ref-filename="invoke_ksyscall_yield_cpu">invoke_ksyscall_yield_cpu</a>();</td></tr>
-<tr><th id="38">38</th><td></td></tr>
-<tr><th id="39">39</th><td>    <b>return</b> <var>0</var>;</td></tr>
-<tr><th id="40">40</th><td>}</td></tr>
-<tr><th id="41">41</th><td></td></tr>
+<tr><th id="36">36</th><td>    <b>if</b> (<a class="local col2 ref" href="#42pid" title='pid' data-ref="42pid" data-ref-filename="42pid">pid</a> == <var>0</var>)</td></tr>
+<tr><th id="37">37</th><td>    {</td></tr>
+<tr><th id="38">38</th><td>        <a class="ref fn" href="#print" title='print' data-ref="print" data-ref-filename="print">print</a>(<q>"Child process\n"</q>);</td></tr>
+<tr><th id="39">39</th><td>    }</td></tr>
+<tr><th id="40">40</th><td>    <b>else</b></td></tr>
+<tr><th id="41">41</th><td>    {</td></tr>
+<tr><th id="42">42</th><td>        <a class="ref fn" href="#print" title='print' data-ref="print" data-ref-filename="print">print</a>(<q>"Parent process\n"</q>);</td></tr>
+<tr><th id="43">43</th><td>    }</td></tr>
+<tr><th id="44">44</th><td></td></tr>
+<tr><th id="45">45</th><td>    <b>while</b> (<var>1</var>)</td></tr>
+<tr><th id="46">46</th><td>        <a class="ref fn" href="../../build/include/mos/ksyscall/usermode.h.html#invoke_ksyscall_yield_cpu" title='invoke_ksyscall_yield_cpu' data-ref="invoke_ksyscall_yield_cpu" data-ref-filename="invoke_ksyscall_yield_cpu">invoke_ksyscall_yield_cpu</a>();</td></tr>
+<tr><th id="47">47</th><td></td></tr>
+<tr><th id="48">48</th><td>    <b>return</b> <var>0</var>;</td></tr>
+<tr><th id="49">49</th><td>}</td></tr>
+<tr><th id="50">50</th><td></td></tr>
 </table><hr/><p id='footer'>
 Generated on <em>2022-Oct-29</em> from project MOS<br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
 <br/>Generator usage only permitted with license.</p>

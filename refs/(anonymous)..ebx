@@ -18,5 +18,5 @@
 <use f='MOS/arch/x86/cpu/smp.c' l='64' u='m' c='ap_begin_exec'/>
 <use f='MOS/arch/x86/cpu/smp.c' l='64' u='m' c='ap_begin_exec'/>
 <use f='MOS/arch/x86/cpu/smp.c' l='116' u='m' c='x86_smp_init'/>
-<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='94' u='r' c='x86_handle_interrupt'/>
-<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='217' u='r' c='x86_handle_exception'/>
+<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='103' u='r' c='x86_handle_interrupt'/>
+<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='238' u='r' c='x86_handle_exception'/>

@@ -1,6 +1,6 @@
-<use f='MOS/include/mos/tasks/task_type.h' l='27'/>
-<def f='MOS/include/mos/tasks/task_type.h' l='29' ll='48'/>
 <use f='MOS/include/mos/tasks/task_type.h' l='29'/>
+<def f='MOS/include/mos/tasks/task_type.h' l='31' ll='50'/>
+<use f='MOS/include/mos/tasks/task_type.h' l='31'/>
 <size>2648</size>
 <mbr r='_process::magic' o='0' t='char [4]'/>
 <mbr r='_process::name' o='64' t='const char *'/>

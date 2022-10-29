@@ -12,17 +12,17 @@
 <use f='MOS/arch/x86/gdt/gdt.c' l='36' macro='1' u='c' c='gdt32_set_entry'/>
 <use f='MOS/arch/x86/interrupt/apic.c' l='100' macro='1' u='c' c='apic_enable'/>
 <use f='MOS/arch/x86/interrupt/apic.c' l='103' macro='1' u='c' c='apic_enable'/>
-<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='106' macro='1' u='c' c='x86_handle_exception'/>
-<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='156' macro='1' u='c' c='x86_handle_exception'/>
-<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='178' macro='1' u='c' c='x86_handle_exception'/>
-<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='201' macro='1' u='c' c='x86_handle_exception'/>
+<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='123' macro='1' u='c' c='x86_handle_exception'/>
+<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='173' macro='1' u='c' c='x86_handle_exception'/>
+<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='199' macro='1' u='c' c='x86_handle_exception'/>
+<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='222' macro='1' u='c' c='x86_handle_exception'/>
 <use f='MOS/arch/x86/mm/mm.c' l='21' macro='1' u='c' c='mem_add_region'/>
 <use f='MOS/arch/x86/mm/mm.c' l='68' macro='1' u='c' c='x86_mem_init'/>
 <use f='MOS/arch/x86/mm/paging.c' l='29' macro='1' u='c' c='x86_mm_prepare_paging'/>
 <use f='MOS/arch/x86/mm/paging.c' l='90' macro='1' u='c' c='page_table_dump_range'/>
 <use f='MOS/arch/x86/mm/paging.c' l='113' macro='1' u='c' c='page_table_dump_range'/>
 <use f='MOS/arch/x86/mm/paging.c' l='133' macro='1' u='c' c='page_table_dump_range'/>
-<use f='MOS/arch/x86/mm/paging.c' l='270' macro='1' u='c' c='x86_mm_copy_maps'/>
+<use f='MOS/arch/x86/mm/paging.c' l='276' macro='1' u='c' c='x86_mm_copy_maps'/>
 <use f='MOS/arch/x86/mm/paging_impl.c' l='80' macro='1' u='c' c='pg_page_alloc_at'/>
 <use f='MOS/arch/x86/mm/paging_impl.c' l='109' macro='1' u='c' c='pg_page_flag'/>
 <use f='MOS/arch/x86/mm/paging_impl.c' l='110' macro='1' u='c' c='pg_page_flag'/>
@@ -63,8 +63,8 @@
 <use f='MOS/kernel/ksyscall.c' l='47' macro='1' u='c' c='ksyscall_panic'/>
 <use f='MOS/kernel/ksyscall.c' l='54' macro='1' u='c' c='ksyscall_exit'/>
 <use f='MOS/kernel/ksyscall.c' l='59' macro='1' u='c' c='ksyscall_exit'/>
-<use f='MOS/kernel/ksyscall.c' l='86' macro='1' u='c' c='ksyscall_get_pid'/>
-<use f='MOS/kernel/mm/cow.c' l='56' macro='1' u='c' c='cow_handle_page_fault'/>
+<use f='MOS/kernel/ksyscall.c' l='88' macro='1' u='c' c='ksyscall_get_pid'/>
+<use f='MOS/kernel/mm/cow.c' l='54' macro='1' u='c' c='cow_handle_page_fault'/>
 <use f='MOS/kernel/mm/liballoc.c' l='69' macro='1' u='c' c='kheap_alloc_page'/>
 <use f='MOS/kernel/mm/liballoc.c' l='72' macro='1' u='c' c='kheap_alloc_page'/>
 <use f='MOS/kernel/mm/liballoc.c' l='82' macro='1' u='c' c='kheap_free_page'/>
@@ -74,6 +74,8 @@
 <use f='MOS/kernel/mm/liballoc.c' l='620' macro='1' u='c' c='liballoc_calloc'/>
 <def f='MOS/kernel/panic.c' l='34' ll='69' macro='1' type='void mos_kpanic(const char * func, u32 line, const char * fmt)'/>
 <use f='MOS/kernel/stack_protector.c' l='10' macro='1' u='c' c='__stack_chk_fail'/>
+<use f='MOS/kernel/tasks/fork.c' l='13' macro='1' u='c' c='process_handle_fork'/>
+<use f='MOS/kernel/tasks/fork.c' l='66' macro='1' u='c' c='process_handle_fork'/>
 <use f='MOS/kernel/tasks/process.c' l='93' macro='1' u='c' c='process_new'/>
 <use f='MOS/kernel/tasks/process.c' l='107' macro='1' u='c' c='process_attach_fd'/>
 <use f='MOS/kernel/tasks/process.c' l='121' macro='1' u='c' c='process_detach_fd'/>
@@ -82,9 +84,8 @@
 <use f='MOS/kernel/tasks/process.c' l='134' macro='1' u='c' c='process_attach_thread'/>
 <use f='MOS/kernel/tasks/process.c' l='141' macro='1' u='c' c='process_attach_mmap'/>
 <use f='MOS/kernel/tasks/process.c' l='148' macro='1' u='c' c='process_handle_exit'/>
-<use f='MOS/kernel/tasks/process.c' l='171' macro='1' u='c' c='process_handle_fork'/>
-<use f='MOS/kernel/tasks/process.c' l='248' macro='1' u='c' c='process_dump_mmaps'/>
-<use f='MOS/kernel/tasks/schedule.c' l='16' macro='1' u='c' c='schedule_to_thread'/>
+<use f='MOS/kernel/tasks/process.c' l='181' macro='1' u='c' c='process_dump_mmaps'/>
+<use f='MOS/kernel/tasks/schedule.c' l='17' macro='1' u='c' c='schedule_to_thread'/>
 <use f='MOS/kernel/tasks/task_io.c' l='13' macro='1' u='c' c='stdin_read'/>
 <use f='MOS/kernel/tasks/task_io.c' l='25' macro='1' u='c' c='stdout_write'/>
 <use f='MOS/kernel/tasks/task_io.c' l='35' macro='1' u='c' c='stderr_write'/>

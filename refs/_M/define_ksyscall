@@ -8,5 +8,5 @@
 <use f='MOS/kernel/ksyscall.c' l='50' u='c'/>
 <use f='MOS/kernel/ksyscall.c' l='62' u='c'/>
 <use f='MOS/kernel/ksyscall.c' l='67' u='c'/>
-<use f='MOS/kernel/ksyscall.c' l='75' u='c'/>
-<use f='MOS/kernel/ksyscall.c' l='84' u='c'/>
+<use f='MOS/kernel/ksyscall.c' l='77' u='c'/>
+<use f='MOS/kernel/ksyscall.c' l='86' u='c'/>

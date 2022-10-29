@@ -1,5 +1,5 @@
-<dec f='MOS/include/mos/platform/platform.h' l='134' type='void (*const)(paging_handle_t, uintptr_t, size_t)'/>
-<offset>6464</offset>
+<dec f='MOS/include/mos/platform/platform.h' l='133' type='void (*const)(paging_handle_t, uintptr_t, size_t)'/>
+<offset>5440</offset>
 <use f='MOS/arch/x86/x86_platform.c' l='175' u='w'/>
 <use f='MOS/kernel/elf/elf.c' l='130' u='r' c='create_elf_process'/>
 <use f='MOS/kernel/mm/liballoc.c' l='94' u='r' c='kheap_free_page'/>

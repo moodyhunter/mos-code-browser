@@ -53,6 +53,8 @@ MOS/include/mos/io/io.h
 MOS/include/mos/mm/cow.h
 MOS/include/mos/mm/kmalloc.h
 MOS/include/mos/mm/liballoc.h
+MOS/include/mos/tasks/task_type.h
+MOS/include/lib/structures/stack.h
 MOS/arch/x86/mm/mm.c
 MOS/arch/x86/include/mos/x86/mm/mm.h
 MOS/include/lib/stdlib.h
@@ -62,8 +64,6 @@ MOS/arch/x86/mm/paging_impl.c
 MOS/arch/x86/mm/pmem_freelist.c
 MOS/arch/x86/tasks/context.c
 MOS/arch/x86/include/mos/x86/tasks/context.h
-MOS/include/mos/tasks/task_type.h
-MOS/include/lib/structures/stack.h
 MOS/arch/x86/tasks/tss.c
 MOS/arch/x86/x86_platform.c
 MOS/include/mos/panic.h
@@ -97,6 +97,7 @@ MOS/kernel/panic.c
 MOS/include/lib/stdio.h
 MOS/kernel/printk.c
 MOS/kernel/stack_protector.c
+MOS/kernel/tasks/fork.c
 MOS/kernel/tasks/process.c
 MOS/include/mos/tasks/task_io.h
 MOS/kernel/tasks/schedule.c

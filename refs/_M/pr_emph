@@ -1,4 +1,5 @@
 <dec f='MOS/include/mos/printk.h' l='46'/>
+<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='181' u='c'/>
 <use f='MOS/arch/x86/mm/pmem_freelist.c' l='64' u='c'/>
 <use f='MOS/arch/x86/mm/pmem_freelist.c' l='70' u='c'/>
 <use f='MOS/arch/x86/x86_platform.c' l='60' u='c'/>

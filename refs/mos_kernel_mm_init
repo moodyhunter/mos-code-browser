@@ -1,4 +1,4 @@
-<dec f='MOS/include/mos/platform/platform.h' l='152' type='void mos_kernel_mm_init()'/>
+<dec f='MOS/include/mos/platform/platform.h' l='151' type='void mos_kernel_mm_init()'/>
 <dec f='MOS/include/mos/mm/liballoc.h' l='26' type='void mos_kernel_mm_init()'/>
 <use f='MOS/arch/x86/x86_platform.c' l='123' u='c' c='x86_start_kernel'/>
 <def f='MOS/kernel/mm/liballoc.c' l='52' ll='58' type='void mos_kernel_mm_init()'/>

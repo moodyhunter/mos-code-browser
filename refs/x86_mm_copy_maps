@@ -1,3 +1,3 @@
-<dec f='MOS/arch/x86/include/mos/x86/mm/paging.h' l='24' type='vmblock_t x86_mm_copy_maps(paging_handle_t from, uintptr_t fvaddr, paging_handle_t to, uintptr_t tvaddr, size_t npages)'/>
-<def f='MOS/arch/x86/mm/paging.c' l='257' ll='282' type='vmblock_t x86_mm_copy_maps(paging_handle_t from, uintptr_t fvaddr, paging_handle_t to, uintptr_t tvaddr, size_t npages)'/>
+<dec f='MOS/arch/x86/include/mos/x86/mm/paging.h' l='25' type='vmblock_t x86_mm_copy_maps(paging_handle_t from, uintptr_t fvaddr, paging_handle_t to, uintptr_t tvaddr, size_t npages)'/>
+<def f='MOS/arch/x86/mm/paging.c' l='263' ll='288' type='vmblock_t x86_mm_copy_maps(paging_handle_t from, uintptr_t fvaddr, paging_handle_t to, uintptr_t tvaddr, size_t npages)'/>
 <use f='MOS/arch/x86/x86_platform.c' l='173'/>

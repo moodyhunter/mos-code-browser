@@ -1,6 +1,6 @@
-<dec f='MOS/include/mos/platform/platform.h' l='117' type='void (*const)(void)'/>
-<offset>5696</offset>
-<doc f='MOS/include/mos/platform/platform.h' l='116'>// cpu</doc>
+<dec f='MOS/include/mos/platform/platform.h' l='116' type='void (*const)(void)'/>
+<offset>4672</offset>
+<doc f='MOS/include/mos/platform/platform.h' l='115'>// cpu</doc>
 <use f='MOS/arch/x86/x86_platform.c' l='158' u='w'/>
 <use f='MOS/kernel/panic.c' l='65' u='r' c='mos_kpanic'/>
 <use f='MOS/tests/test_engine.c' l='129' u='r' c='mos_test_engine_run_tests'/>

@@ -1,11 +1,11 @@
-<dec f='MOS/include/mos/tasks/task_type.h' l='47' type='proc_vmblock_t *'/>
+<dec f='MOS/include/mos/tasks/task_type.h' l='49' type='proc_vmblock_t *'/>
 <offset>21120</offset>
-<use f='MOS/kernel/mm/cow.c' l='48' u='r' c='cow_handle_page_fault'/>
-<use f='MOS/kernel/mm/cow.c' l='55' u='r' c='cow_handle_page_fault'/>
-<use f='MOS/kernel/mm/cow.c' l='61' u='r' c='cow_handle_page_fault'/>
+<use f='MOS/kernel/mm/cow.c' l='46' u='r' c='cow_handle_page_fault'/>
+<use f='MOS/kernel/mm/cow.c' l='53' u='r' c='cow_handle_page_fault'/>
+<use f='MOS/kernel/mm/cow.c' l='60' u='r' c='cow_handle_page_fault'/>
+<use f='MOS/kernel/tasks/fork.c' l='23' u='r' c='process_handle_fork'/>
+<use f='MOS/kernel/tasks/fork.c' l='30' u='r' c='process_handle_fork'/>
 <use f='MOS/kernel/tasks/process.c' l='142' u='w' c='process_attach_mmap'/>
 <use f='MOS/kernel/tasks/process.c' l='142' u='r' c='process_attach_mmap'/>
 <use f='MOS/kernel/tasks/process.c' l='143' u='r' c='process_attach_mmap'/>
-<use f='MOS/kernel/tasks/process.c' l='181' u='r' c='process_handle_fork'/>
-<use f='MOS/kernel/tasks/process.c' l='192' u='r' c='process_handle_fork'/>
-<use f='MOS/kernel/tasks/process.c' l='240' u='r' c='process_dump_mmaps'/>
+<use f='MOS/kernel/tasks/process.c' l='173' u='r' c='process_dump_mmaps'/>

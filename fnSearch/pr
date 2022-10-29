@@ -2,6 +2,8 @@ print_debug_info|print_debug_info
 print_cpu_info|print_cpu_info
 process_is_valid|process_is_valid
 printk|printk
+process_handle_fork|process_handle_fork
+process_allocate|process_allocate
 process_attach_fd|process_attach_fd
 process_attach_mmap|process_attach_mmap
 process_attach_thread|process_attach_thread
@@ -10,7 +12,6 @@ process_detach_fd|process_detach_fd
 process_dump_mmaps|process_dump_mmaps
 process_get|process_get
 process_handle_exit|process_handle_exit
-process_handle_fork|process_handle_fork
 process_init|process_init
 process_new|process_new
 process_stdio_setup|process_stdio_setup

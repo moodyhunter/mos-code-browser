@@ -1,4 +1,5 @@
-<dec f='MOS/include/mos/platform/platform.h' l='148'/>
+<dec f='MOS/include/mos/platform/platform.h' l='147'/>
+<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='180' u='c'/>
 <use f='MOS/arch/x86/x86_platform.c' l='61' u='c'/>
 <use f='MOS/kernel/ksyscall.c' l='17' u='c'/>
 <use f='MOS/kernel/ksyscall.c' l='29' u='c'/>
@@ -7,9 +8,7 @@
 <use f='MOS/kernel/ksyscall.c' l='52' u='c'/>
 <use f='MOS/kernel/ksyscall.c' l='57' u='c'/>
 <use f='MOS/kernel/ksyscall.c' l='69' u='c'/>
-<use f='MOS/kernel/ksyscall.c' l='86' u='c'/>
-<use f='MOS/kernel/ksyscall.c' l='87' u='c'/>
-<use f='MOS/kernel/mm/cow.c' l='41' u='c'/>
-<use f='MOS/kernel/mm/cow.c' l='44' u='c'/>
-<use f='MOS/kernel/tasks/schedule.c' l='19' u='c'/>
-<use f='MOS/kernel/tasks/schedule.c' l='34' u='c'/>
+<use f='MOS/kernel/ksyscall.c' l='88' u='c'/>
+<use f='MOS/kernel/ksyscall.c' l='89' u='c'/>
+<use f='MOS/kernel/mm/cow.c' l='39' u='c'/>
+<use f='MOS/kernel/mm/cow.c' l='42' u='c'/>
