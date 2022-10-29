@@ -1,5 +1,5 @@
-<dec f='MOS/arch/x86/include/mos/x86/x86_platform.h' l='56' type='const char'/>
+<dec f='MOS/arch/x86/include/mos/x86/x86_platform.h' l='57' type='const char'/>
 <dec f='MOS/arch/x86/boot/multiboot/startup.c' l='22' type='const char'/>
 <use f='MOS/arch/x86/boot/multiboot/startup.c' l='37' u='a'/>
 <use f='MOS/arch/x86/mm/paging.c' l='49' u='a' c='x86_mm_prepare_paging'/>
-<use f='MOS/arch/x86/x86_platform.c' l='158' u='a'/>
+<use f='MOS/arch/x86/x86_platform.c' l='150' u='a'/>

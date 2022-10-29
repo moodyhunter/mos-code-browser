@@ -1,3 +1,3 @@
 <dec f='MOS/include/mos/platform/platform.h' l='149'/>
-<use f='MOS/arch/x86/x86_platform.c' l='70' u='c'/>
+<use f='MOS/arch/x86/x86_platform.c' l='64' u='c'/>
 <use f='MOS/kernel/mm/cow.c' l='24' u='c'/>

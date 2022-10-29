@@ -3,17 +3,17 @@
 <use f='MOS/arch/x86/cpu/smp.c' l='117' macro='1' u='r' c='x86_smp_init'/>
 <use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='84' macro='1' u='r' c='x86_handle_interrupt'/>
 <use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='84' macro='1' u='r' c='x86_handle_interrupt'/>
-<use f='MOS/arch/x86/x86_platform.c' l='66' macro='1' u='r' c='x86_kpanic_hook'/>
-<use f='MOS/arch/x86/x86_platform.c' l='66' macro='1' u='r' c='x86_kpanic_hook'/>
-<use f='MOS/arch/x86/x86_platform.c' l='66' macro='1' u='r' c='x86_kpanic_hook'/>
-<use f='MOS/arch/x86/x86_platform.c' l='66' macro='1' u='r' c='x86_kpanic_hook'/>
+<use f='MOS/arch/x86/x86_platform.c' l='60' macro='1' u='r' c='x86_kpanic_hook'/>
+<use f='MOS/arch/x86/x86_platform.c' l='60' macro='1' u='r' c='x86_kpanic_hook'/>
+<use f='MOS/arch/x86/x86_platform.c' l='60' macro='1' u='r' c='x86_kpanic_hook'/>
+<use f='MOS/arch/x86/x86_platform.c' l='60' macro='1' u='r' c='x86_kpanic_hook'/>
+<use f='MOS/arch/x86/x86_platform.c' l='61' macro='1' u='r' c='x86_kpanic_hook'/>
+<use f='MOS/arch/x86/x86_platform.c' l='61' macro='1' u='r' c='x86_kpanic_hook'/>
+<use f='MOS/arch/x86/x86_platform.c' l='64' macro='1' u='r' c='x86_kpanic_hook'/>
+<use f='MOS/arch/x86/x86_platform.c' l='64' macro='1' u='r' c='x86_kpanic_hook'/>
 <use f='MOS/arch/x86/x86_platform.c' l='67' macro='1' u='r' c='x86_kpanic_hook'/>
 <use f='MOS/arch/x86/x86_platform.c' l='67' macro='1' u='r' c='x86_kpanic_hook'/>
-<use f='MOS/arch/x86/x86_platform.c' l='70' macro='1' u='r' c='x86_kpanic_hook'/>
-<use f='MOS/arch/x86/x86_platform.c' l='70' macro='1' u='r' c='x86_kpanic_hook'/>
-<use f='MOS/arch/x86/x86_platform.c' l='73' macro='1' u='r' c='x86_kpanic_hook'/>
-<use f='MOS/arch/x86/x86_platform.c' l='73' macro='1' u='r' c='x86_kpanic_hook'/>
-<def f='MOS/arch/x86/x86_platform.c' l='192' type='mos_platform_t *const'/>
+<def f='MOS/arch/x86/x86_platform.c' l='184' type='mos_platform_t *const'/>
 <use f='MOS/kernel/elf/elf.c' l='50' u='r' c='create_elf_process'/>
 <use f='MOS/kernel/elf/elf.c' l='50' macro='1' u='r' c='create_elf_process'/>
 <use f='MOS/kernel/elf/elf.c' l='50' macro='1' u='r' c='create_elf_process'/>

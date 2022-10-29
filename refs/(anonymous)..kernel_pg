@@ -1,6 +1,6 @@
 <dec f='MOS/include/mos/platform/platform.h' l='112' type='paging_handle_t'/>
 <offset>5568</offset>
-<use f='MOS/arch/x86/x86_platform.c' l='103' u='m' c='x86_start_kernel'/>
+<use f='MOS/arch/x86/x86_platform.c' l='97' u='m' c='x86_start_kernel'/>
 <use f='MOS/kernel/kernel_init.c' l='73' u='r' c='mos_start_kernel'/>
 <use f='MOS/kernel/mm/liballoc.c' l='71' u='r' c='kheap_alloc_page'/>
 <use f='MOS/kernel/mm/liballoc.c' l='96' u='r' c='kheap_free_page'/>

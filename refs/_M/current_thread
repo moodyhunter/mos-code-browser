@@ -1,5 +1,5 @@
 <dec f='MOS/include/mos/platform/platform.h' l='148'/>
-<use f='MOS/arch/x86/x86_platform.c' l='67' u='c'/>
+<use f='MOS/arch/x86/x86_platform.c' l='61' u='c'/>
 <use f='MOS/kernel/ksyscall.c' l='17' u='c'/>
 <use f='MOS/kernel/ksyscall.c' l='29' u='c'/>
 <use f='MOS/kernel/ksyscall.c' l='36' u='c'/>

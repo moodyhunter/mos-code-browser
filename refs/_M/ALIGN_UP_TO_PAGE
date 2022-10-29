@@ -10,5 +10,5 @@
 <use f='MOS/arch/x86/mm/paging.c' l='201' u='c'/>
 <use f='MOS/arch/x86/mm/pmem_freelist.c' l='30' u='c'/>
 <use f='MOS/arch/x86/mm/pmem_freelist.c' l='79' u='c'/>
-<use f='MOS/arch/x86/x86_platform.c' l='111' u='c'/>
+<use f='MOS/arch/x86/x86_platform.c' l='105' u='c'/>
 <use f='MOS/kernel/elf/elf.c' l='102' u='c'/>

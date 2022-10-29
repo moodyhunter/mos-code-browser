@@ -18,6 +18,7 @@ MOS/arch/x86/include/mos/x86/x86_interrupt.h
 MOS/arch/x86/include/mos/x86/x86_platform.h
 MOS/arch/x86/include/mos/x86/gdt/gdt_types.h
 MOS/arch/x86/include/mos/x86/interrupt/idt_types.h
+MOS/arch/x86/include/mos/x86/tasks/tss_types.h
 MOS/arch/x86/boot/multiboot/startup.c
 MOS/include/mos/device/console.h
 MOS/arch/x86/include/mos/x86/mm/paging_impl.h
@@ -42,7 +43,6 @@ MOS/include/lib/structures/list.h
 MOS/arch/x86/devices/text_mode_console.c
 MOS/arch/x86/include/mos/x86/devices/text_mode_console.h
 MOS/arch/x86/gdt/gdt.c
-MOS/arch/x86/include/mos/x86/tasks/tss_types.h
 MOS/arch/x86/interrupt/apic.c
 MOS/arch/x86/interrupt/idt.c
 MOS/arch/x86/interrupt/pic.c

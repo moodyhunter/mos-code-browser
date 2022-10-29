@@ -2,5 +2,5 @@
 <use f='MOS/arch/x86/acpi/acpi.c' l='24' u='c' c='x86_shutdown_vm'/>
 <def f='MOS/arch/x86/interrupt/x86_interrupt.c' l='64' ll='67' type='void x86_disable_interrupts()'/>
 <use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='105' u='c' c='x86_handle_exception'/>
-<use f='MOS/arch/x86/x86_platform.c' l='83' u='c' c='x86_start_kernel'/>
-<use f='MOS/arch/x86/x86_platform.c' l='170'/>
+<use f='MOS/arch/x86/x86_platform.c' l='77' u='c' c='x86_start_kernel'/>
+<use f='MOS/arch/x86/x86_platform.c' l='162'/>

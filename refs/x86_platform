@@ -1,10 +1,10 @@
-<dec f='MOS/arch/x86/include/mos/x86/x86_platform.h' l='65' type='mos_platform_t'/>
+<dec f='MOS/arch/x86/include/mos/x86/x86_platform.h' l='66' type='mos_platform_t'/>
 <use f='MOS/arch/x86/cpu/smp.c' l='59' u='m' c='ap_begin_exec'/>
 <use f='MOS/arch/x86/cpu/smp.c' l='116' u='m' c='x86_smp_init'/>
 <use f='MOS/arch/x86/cpu/smp.c' l='117' u='m' c='x86_smp_init'/>
 <use f='MOS/arch/x86/cpu/smp.c' l='117' u='m' c='x86_smp_init'/>
 <use f='MOS/arch/x86/cpu/smp.c' l='131' u='m' c='x86_smp_init'/>
 <use f='MOS/arch/x86/cpu/smp.c' l='139' u='m' c='x86_smp_init'/>
-<use f='MOS/arch/x86/x86_platform.c' l='103' u='m' c='x86_start_kernel'/>
-<def f='MOS/arch/x86/x86_platform.c' l='156' ll='190' type='mos_platform_t'/>
-<use f='MOS/arch/x86/x86_platform.c' l='192' u='a'/>
+<use f='MOS/arch/x86/x86_platform.c' l='97' u='m' c='x86_start_kernel'/>
+<def f='MOS/arch/x86/x86_platform.c' l='148' ll='182' type='mos_platform_t'/>
+<use f='MOS/arch/x86/x86_platform.c' l='184' u='a'/>

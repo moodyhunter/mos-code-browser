@@ -1,2 +1,2 @@
-<dec f='MOS/arch/x86/include/mos/x86/x86_platform.h' l='75' type='void tss32_flush(u32 tss_selector)'/>
-<use f='MOS/arch/x86/x86_platform.c' l='138' u='c' c='x86_start_kernel'/>
+<dec f='MOS/arch/x86/include/mos/x86/x86_platform.h' l='77' type='void tss32_flush(u32 tss_selector)'/>
+<use f='MOS/arch/x86/tasks/tss.c' l='15' u='c' c='x86_tss_init'/>

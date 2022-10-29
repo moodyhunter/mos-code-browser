@@ -1,4 +1,4 @@
-<dec f='MOS/build/include/mos/kconfig.h' l='28'/>
+<dec f='MOS/build/include/mos/kconfig.h' l='29'/>
 <use f='MOS/include/mos/boot/startup.h' l='34' u='c'/>
 <use f='MOS/include/mos/boot/startup.h' l='34' u='c'/>
 <use f='MOS/include/mos/boot/startup.h' l='41' u='c'/>
@@ -51,9 +51,9 @@
 <use f='MOS/arch/x86/mm/pmem_freelist.c' l='196' u='c'/>
 <use f='MOS/arch/x86/mm/pmem_freelist.c' l='227' u='c'/>
 <use f='MOS/arch/x86/mm/pmem_freelist.c' l='229' u='c'/>
-<use f='MOS/arch/x86/x86_platform.c' l='111' u='c'/>
-<use f='MOS/arch/x86/x86_platform.c' l='125' u='c'/>
-<use f='MOS/arch/x86/x86_platform.c' l='135' u='c'/>
+<use f='MOS/arch/x86/x86_platform.c' l='105' u='c'/>
+<use f='MOS/arch/x86/x86_platform.c' l='119' u='c'/>
+<use f='MOS/arch/x86/x86_platform.c' l='127' u='c'/>
 <use f='MOS/kernel/elf/elf.c' l='49' u='c'/>
 <use f='MOS/kernel/elf/elf.c' l='102' u='c'/>
 <use f='MOS/kernel/mm/cow.c' l='25' u='c'/>

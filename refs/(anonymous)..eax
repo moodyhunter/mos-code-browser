@@ -1,4 +1,5 @@
-<dec f='MOS/arch/x86/include/mos/x86/x86_platform.h' l='40' type='reg32_t'/>
+<dec f='MOS/arch/x86/include/mos/x86/tasks/tss_types.h' l='17' type='u32'/>
+<dec f='MOS/arch/x86/include/mos/x86/x86_platform.h' l='41' type='reg32_t'/>
 <offset>352</offset>
 <dec f='MOS/arch/x86/include/mos/x86/cpu/cpuid.h' l='9' type='u32'/>
 <dec f='MOS/arch/x86/include/mos/x86/cpu/cpuid.h' l='41' type='union (anonymous union at /home/runner/work/MOS/MOS/arch/x86/include/mos/x86/cpu/cpuid.h:27:5)'/>
@@ -15,8 +16,6 @@
 <use f='MOS/arch/x86/cpu/smp.c' l='44' u='m' c='print_cpu_info'/>
 <use f='MOS/arch/x86/cpu/smp.c' l='44' u='m' c='print_cpu_info'/>
 <use f='MOS/arch/x86/cpu/smp.c' l='44' u='m' c='print_cpu_info'/>
-<dec f='MOS/arch/x86/include/mos/x86/tasks/tss_types.h' l='17' type='u32'/>
-<offset>320</offset>
 <use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='94' u='r' c='x86_handle_interrupt'/>
 <use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='95' u='w' c='x86_handle_interrupt'/>
 <use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='217' u='r' c='x86_handle_exception'/>

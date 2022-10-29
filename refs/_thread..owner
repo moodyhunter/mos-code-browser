@@ -1,8 +1,8 @@
 <dec f='MOS/include/mos/tasks/task_type.h' l='54' type='process_t *'/>
 <use f='MOS/arch/x86/tasks/context.c' l='25' u='r' c='x86_context_switch'/>
 <offset>64</offset>
-<use f='MOS/arch/x86/x86_platform.c' l='66' u='r' c='x86_kpanic_hook'/>
-<use f='MOS/arch/x86/x86_platform.c' l='70' macro='1' u='r' c='x86_kpanic_hook'/>
+<use f='MOS/arch/x86/x86_platform.c' l='60' u='r' c='x86_kpanic_hook'/>
+<use f='MOS/arch/x86/x86_platform.c' l='64' macro='1' u='r' c='x86_kpanic_hook'/>
 <use f='MOS/kernel/ksyscall.c' l='17' u='r' c='ksyscall_file_open'/>
 <use f='MOS/kernel/ksyscall.c' l='29' u='r' c='ksyscall_io_read'/>
 <use f='MOS/kernel/ksyscall.c' l='36' u='r' c='ksyscall_io_write'/>

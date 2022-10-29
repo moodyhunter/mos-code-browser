@@ -1,4 +1,4 @@
-<dec f='MOS/arch/x86/include/mos/x86/x86_platform.h' l='50' type='multiboot_info_t *'/>
+<dec f='MOS/arch/x86/include/mos/x86/x86_platform.h' l='51' type='multiboot_info_t *'/>
 <offset>32</offset>
 <use f='MOS/arch/x86/boot/multiboot/startup.c' l='135' u='r' c='x86_startup'/>
 <use f='MOS/arch/x86/boot/multiboot/startup.c' l='140' u='r' c='x86_startup'/>
@@ -13,4 +13,4 @@
 <use f='MOS/arch/x86/boot/multiboot/startup.c' l='172' u='r' c='x86_startup'/>
 <use f='MOS/arch/x86/boot/multiboot/startup.c' l='191' u='r' c='x86_startup'/>
 <use f='MOS/arch/x86/boot/multiboot/startup.c' l='192' u='r' c='x86_startup'/>
-<use f='MOS/arch/x86/x86_platform.c' l='81' u='r' c='x86_start_kernel'/>
+<use f='MOS/arch/x86/x86_platform.c' l='75' u='r' c='x86_start_kernel'/>

@@ -1,4 +1,5 @@
-<dec f='MOS/arch/x86/include/mos/x86/x86_platform.h' l='40' type='reg32_t'/>
+<dec f='MOS/arch/x86/include/mos/x86/tasks/tss_types.h' l='17' type='u32'/>
+<dec f='MOS/arch/x86/include/mos/x86/x86_platform.h' l='41' type='reg32_t'/>
 <offset>288</offset>
 <dec f='MOS/arch/x86/include/mos/x86/cpu/cpuid.h' l='12' type='u32'/>
 <dec f='MOS/arch/x86/include/mos/x86/cpu/cpuid.h' l='145' type='union (anonymous union at /home/runner/work/MOS/MOS/arch/x86/include/mos/x86/cpu/cpuid.h:104:5)'/>
@@ -10,8 +11,6 @@
 <use f='MOS/arch/x86/cpu/cpuid.c' l='47' u='r' c='cpuid_get_brand_string'/>
 <use f='MOS/arch/x86/cpu/cpuid.c' l='52' u='r' c='cpuid_get_brand_string'/>
 <use f='MOS/arch/x86/cpu/cpuid.c' l='57' u='r' c='cpuid_get_brand_string'/>
-<dec f='MOS/arch/x86/include/mos/x86/tasks/tss_types.h' l='17' type='u32'/>
-<offset>384</offset>
 <use f='MOS/arch/x86/interrupt/apic.c' l='99' u='m' c='apic_enable'/>
 <use f='MOS/arch/x86/interrupt/apic.c' l='102' u='m' c='apic_enable'/>
 <use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='94' u='r' c='x86_handle_interrupt'/>

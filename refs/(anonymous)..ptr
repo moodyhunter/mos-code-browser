@@ -4,4 +4,4 @@
 <use f='MOS/arch/x86/mm/paging.c' l='205' u='w' c='x86_um_pgd_create'/>
 <use f='MOS/arch/x86/mm/paging.c' l='230' u='r' c='x86_um_pgd_destroy'/>
 <use f='MOS/arch/x86/tasks/context.c' l='25' u='r' c='x86_context_switch'/>
-<use f='MOS/arch/x86/x86_platform.c' l='103' u='w' c='x86_start_kernel'/>
+<use f='MOS/arch/x86/x86_platform.c' l='97' u='w' c='x86_start_kernel'/>

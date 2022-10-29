@@ -5,4 +5,4 @@
 <use f='MOS/arch/x86/mm/paging_impl.c' l='84' u='c' c='pg_page_alloc_at'/>
 <def f='MOS/arch/x86/mm/paging_impl.c' l='129' ll='133' type='void pg_map_pages(x86_pg_infra_t * pg, uintptr_t vaddr_start, uintptr_t paddr_start, size_t n_page, vm_flags flags)'/>
 <use f='MOS/arch/x86/mm/paging_impl.c' l='148' u='c' c='pg_copy_page'/>
-<use f='MOS/arch/x86/x86_platform.c' l='112' u='c' c='x86_start_kernel'/>
+<use f='MOS/arch/x86/x86_platform.c' l='106' u='c' c='x86_start_kernel'/>

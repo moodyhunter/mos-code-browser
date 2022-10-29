@@ -5,8 +5,8 @@
 <use f='MOS/arch/x86/mm/paging.c' l='202' u='r' c='x86_um_pgd_create'/>
 <use f='MOS/arch/x86/mm/paging.c' l='276' u='w' c='x86_mm_copy_maps'/>
 <use f='MOS/arch/x86/mm/paging_impl.c' l='86' u='w' c='pg_page_alloc_at'/>
-<use f='MOS/arch/x86/x86_platform.c' l='135' u='r' c='x86_start_kernel'/>
-<use f='MOS/arch/x86/x86_platform.c' l='147' u='w' c='x86_start_kernel'/>
+<use f='MOS/arch/x86/x86_platform.c' l='127' u='r' c='x86_start_kernel'/>
+<use f='MOS/arch/x86/x86_platform.c' l='139' u='w' c='x86_start_kernel'/>
 <dec f='MOS/include/mos/elf/elf.h' l='145' type='uintptr_t'/>
 <use f='MOS/kernel/elf/elf.c' l='51' u='r' c='create_elf_process'/>
 <use f='MOS/kernel/elf/elf.c' l='80' u='r' c='create_elf_process'/>
