@@ -59,7 +59,7 @@
 <use f='MOS/kernel/filesystem/pathutils.c' l='98' macro='1' u='c' c='path_resolve'/>
 <use f='MOS/kernel/kernel_init.c' l='64' macro='1' u='c' c='dump_cmdline'/>
 <use f='MOS/kernel/kernel_init.c' l='92' macro='1' u='c' c='mos_start_kernel'/>
-<use f='MOS/kernel/kernel_init.c' l='110' macro='1' u='c' c='mos_start_kernel'/>
+<use f='MOS/kernel/kernel_init.c' l='101' macro='1' u='c' c='mos_start_kernel'/>
 <use f='MOS/kernel/ksyscall.c' l='47' macro='1' u='c' c='ksyscall_panic'/>
 <use f='MOS/kernel/ksyscall.c' l='54' macro='1' u='c' c='ksyscall_exit'/>
 <use f='MOS/kernel/ksyscall.c' l='59' macro='1' u='c' c='ksyscall_exit'/>

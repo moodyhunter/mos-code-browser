@@ -1,6 +1,6 @@
 <def f='MOS/include/mos/mm/kmalloc.h' l='8' ll='11' macro='1' type='void * kmalloc(size_t size)'/>
 <use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='76' u='c' c='x86_install_interrupt_handler'/>
-<use f='MOS/arch/x86/x86_platform.c' l='141' u='c' c='x86_start_kernel'/>
+<use f='MOS/arch/x86/x86_platform.c' l='146' u='c' c='x86_start_kernel'/>
 <use f='MOS/kernel/cmdline.c' l='13' u='c' c='mos_cmdline_create'/>
 <use f='MOS/kernel/cmdline.c' l='21' u='c' c='mos_cmdline_create'/>
 <use f='MOS/kernel/cmdline.c' l='42' u='c' c='mos_cmdline_create'/>

@@ -1,8 +1,7 @@
 <dec f='MOS/include/mos/platform/platform.h' l='130' type='vmblock_t (*const)(paging_handle_t, size_t, pgalloc_hints, vm_flags)'/>
 <offset>6208</offset>
-<use f='MOS/arch/x86/x86_platform.c' l='174' u='w'/>
+<use f='MOS/arch/x86/x86_platform.c' l='179' u='w'/>
 <use f='MOS/kernel/elf/elf.c' l='50' u='r' c='create_elf_process'/>
-<use f='MOS/kernel/kernel_init.c' l='105' u='r' c='mos_start_kernel'/>
 <use f='MOS/kernel/mm/liballoc.c' l='68' u='r' c='kheap_alloc_page'/>
 <use f='MOS/kernel/mm/liballoc.c' l='71' u='r' c='kheap_alloc_page'/>
 <use f='MOS/kernel/tasks/thread.c' l='74' u='r' c='thread_new'/>

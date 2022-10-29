@@ -1,3 +1,2 @@
 <dec f='MOS/include/mos/panic.h' l='10' type='void mos_install_kpanic_hook(kpanic_hook_t * hook)'/>
-<use f='MOS/arch/x86/x86_platform.c' l='135' u='c' c='x86_start_kernel'/>
 <def f='MOS/kernel/panic.c' l='91' ll='96' type='void mos_install_kpanic_hook(kpanic_hook_t * hook)'/>

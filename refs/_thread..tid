@@ -5,4 +5,4 @@
 <use f='MOS/kernel/tasks/process.c' l='228' u='a' c='process_handle_fork'/>
 <use f='MOS/kernel/tasks/schedule.c' l='16' u='r' c='schedule_to_thread'/>
 <use f='MOS/kernel/tasks/thread.c' l='41' u='w' c='thread_allocate'/>
-<use f='MOS/kernel/tasks/thread.c' l='85' u='a' c='thread_new'/>
+<use f='MOS/kernel/tasks/thread.c' l='84' u='a' c='thread_new'/>

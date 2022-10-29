@@ -20,16 +20,16 @@
 <tr><th id="7">7</th><td><i>// TSS used by the system for ring-changing-interrupts</i></td></tr>
 <tr><th id="8">8</th><td><a class="typedef" href="../include/mos/x86/tasks/tss_types.h.html#tss32_t" title='tss32_t' data-type='struct tss32_t' data-ref="tss32_t" data-ref-filename="tss32_t">tss32_t</a> <dfn class="decl def" id="tss_entry" title='tss_entry' data-ref="tss_entry" data-ref-filename="tss_entry">tss_entry</dfn>;</td></tr>
 <tr><th id="9">9</th><td></td></tr>
-<tr><th id="10">10</th><td><b>extern</b> <em>char</em> <dfn class="decl" id="stack_top" title='stack_top' data-ref="stack_top" data-ref-filename="stack_top">stack_top</dfn>;</td></tr>
-<tr><th id="11">11</th><td></td></tr>
-<tr><th id="12">12</th><td><em>void</em> <dfn class="decl def fn" id="x86_tss_init" title='x86_tss_init' data-ref="x86_tss_init" data-ref-filename="x86_tss_init">x86_tss_init</dfn>()</td></tr>
-<tr><th id="13">13</th><td>{</td></tr>
-<tr><th id="14">14</th><td>    <a class="ref fn" href="../../../include/lib/string.h.html#memset" title='memset' data-ref="memset" data-ref-filename="memset">memset</a>(&amp;<a class="ref" href="#tss_entry" title='tss_entry' data-ref="tss_entry" data-ref-filename="tss_entry">tss_entry</a>, <var>0</var>, <b>sizeof</b>(<a class="ref" href="#tss_entry" title='tss_entry' data-ref="tss_entry" data-ref-filename="tss_entry">tss_entry</a>));</td></tr>
-<tr><th id="15">15</th><td>    <a class="ref" href="#tss_entry" title='tss_entry' data-ref="tss_entry" data-ref-filename="tss_entry">tss_entry</a>.<a class="ref field" href="../include/mos/x86/tasks/tss_types.h.html#(anonymous)::ss0" title='(anonymous struct)::ss0' data-ref="(anonymous)::ss0" data-ref-filename="(anonymous)..ss0">ss0</a> = <a class="macro" href="../include/mos/x86/x86_platform.h.html#14" title="0x10" data-ref="_M/GDT_SEGMENT_KDATA">GDT_SEGMENT_KDATA</a>;</td></tr>
-<tr><th id="16">16</th><td>    <a class="ref fn" href="../include/mos/x86/x86_platform.h.html#tss32_flush" title='tss32_flush' data-ref="tss32_flush" data-ref-filename="tss32_flush">tss32_flush</a>(<a class="macro" href="../include/mos/x86/x86_platform.h.html#17" title="0x28" data-ref="_M/GDT_SEGMENT_TSS">GDT_SEGMENT_TSS</a>);</td></tr>
+<tr><th id="10">10</th><td><em>void</em> <dfn class="decl def fn" id="x86_tss_init" title='x86_tss_init' data-ref="x86_tss_init" data-ref-filename="x86_tss_init">x86_tss_init</dfn>()</td></tr>
+<tr><th id="11">11</th><td>{</td></tr>
+<tr><th id="12">12</th><td>    <a class="ref fn" href="../../../include/lib/string.h.html#memzero" title='memzero' data-ref="memzero" data-ref-filename="memzero">memzero</a>(&amp;<a class="ref" href="#tss_entry" title='tss_entry' data-ref="tss_entry" data-ref-filename="tss_entry">tss_entry</a>, <b>sizeof</b>(<a class="ref" href="#tss_entry" title='tss_entry' data-ref="tss_entry" data-ref-filename="tss_entry">tss_entry</a>));</td></tr>
+<tr><th id="13">13</th><td>    <a class="ref" href="#tss_entry" title='tss_entry' data-ref="tss_entry" data-ref-filename="tss_entry">tss_entry</a>.<a class="ref field" href="../include/mos/x86/tasks/tss_types.h.html#(anonymous)::ss0" title='(anonymous struct)::ss0' data-ref="(anonymous)::ss0" data-ref-filename="(anonymous)..ss0">ss0</a> = <a class="macro" href="../include/mos/x86/x86_platform.h.html#14" title="0x10" data-ref="_M/GDT_SEGMENT_KDATA">GDT_SEGMENT_KDATA</a>;</td></tr>
+<tr><th id="14">14</th><td>    <i>// we will use an allocated kernel heap for the stack later, when we have</i></td></tr>
+<tr><th id="15">15</th><td><i>    // kmalloc</i></td></tr>
+<tr><th id="16">16</th><td><i>    // so do not `tss32_flush` here</i></td></tr>
 <tr><th id="17">17</th><td>}</td></tr>
 <tr><th id="18">18</th><td></td></tr>
 </table><hr/><p id='footer'>
-Generated on <em>2022-Oct-28</em> from project MOS<br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
+Generated on <em>2022-Oct-29</em> from project MOS<br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
 <br/>Generator usage only permitted with license.</p>
 </div></body></html>

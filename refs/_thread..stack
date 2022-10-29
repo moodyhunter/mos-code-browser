@@ -1,8 +1,9 @@
 <dec f='MOS/include/mos/tasks/task_type.h' l='56' type='downwards_stack_t'/>
-<use f='MOS/arch/x86/tasks/context.c' l='15' u='a' c='x86_setup_thread_context'/>
 <use f='MOS/arch/x86/tasks/context.c' l='16' u='a' c='x86_setup_thread_context'/>
 <use f='MOS/arch/x86/tasks/context.c' l='17' u='a' c='x86_setup_thread_context'/>
-<use f='MOS/arch/x86/tasks/context.c' l='24' u='m' c='x86_context_switch'/>
+<use f='MOS/arch/x86/tasks/context.c' l='18' u='a' c='x86_setup_thread_context'/>
+<use f='MOS/arch/x86/tasks/context.c' l='19' u='a' c='x86_setup_thread_context'/>
+<use f='MOS/arch/x86/tasks/context.c' l='26' u='m' c='x86_context_switch'/>
 <offset>192</offset>
 <use f='MOS/kernel/tasks/process.c' l='211' u='w' c='process_handle_fork'/>
 <use f='MOS/kernel/tasks/process.c' l='211' u='r' c='process_handle_fork'/>

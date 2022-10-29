@@ -1,4 +1,4 @@
 <dec f='MOS/build/include/mos/kconfig.h' l='27'/>
 <use f='MOS/arch/x86/boot/multiboot/startup.c' l='175' u='c'/>
-<use f='MOS/arch/x86/x86_platform.c' l='107' u='c'/>
-<use f='MOS/arch/x86/x86_platform.c' l='142' u='c'/>
+<use f='MOS/arch/x86/x86_platform.c' l='108' u='c'/>
+<use f='MOS/arch/x86/x86_platform.c' l='147' u='c'/>

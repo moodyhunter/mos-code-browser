@@ -3,17 +3,17 @@
 <use f='MOS/arch/x86/cpu/smp.c' l='117' macro='1' u='r' c='x86_smp_init'/>
 <use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='84' macro='1' u='r' c='x86_handle_interrupt'/>
 <use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='84' macro='1' u='r' c='x86_handle_interrupt'/>
-<use f='MOS/arch/x86/x86_platform.c' l='65' macro='1' u='r' c='x86_kpanic_hook'/>
-<use f='MOS/arch/x86/x86_platform.c' l='65' macro='1' u='r' c='x86_kpanic_hook'/>
-<use f='MOS/arch/x86/x86_platform.c' l='65' macro='1' u='r' c='x86_kpanic_hook'/>
-<use f='MOS/arch/x86/x86_platform.c' l='65' macro='1' u='r' c='x86_kpanic_hook'/>
 <use f='MOS/arch/x86/x86_platform.c' l='66' macro='1' u='r' c='x86_kpanic_hook'/>
 <use f='MOS/arch/x86/x86_platform.c' l='66' macro='1' u='r' c='x86_kpanic_hook'/>
-<use f='MOS/arch/x86/x86_platform.c' l='69' macro='1' u='r' c='x86_kpanic_hook'/>
-<use f='MOS/arch/x86/x86_platform.c' l='69' macro='1' u='r' c='x86_kpanic_hook'/>
-<use f='MOS/arch/x86/x86_platform.c' l='72' macro='1' u='r' c='x86_kpanic_hook'/>
-<use f='MOS/arch/x86/x86_platform.c' l='72' macro='1' u='r' c='x86_kpanic_hook'/>
-<def f='MOS/arch/x86/x86_platform.c' l='187' type='mos_platform_t *const'/>
+<use f='MOS/arch/x86/x86_platform.c' l='66' macro='1' u='r' c='x86_kpanic_hook'/>
+<use f='MOS/arch/x86/x86_platform.c' l='66' macro='1' u='r' c='x86_kpanic_hook'/>
+<use f='MOS/arch/x86/x86_platform.c' l='67' macro='1' u='r' c='x86_kpanic_hook'/>
+<use f='MOS/arch/x86/x86_platform.c' l='67' macro='1' u='r' c='x86_kpanic_hook'/>
+<use f='MOS/arch/x86/x86_platform.c' l='70' macro='1' u='r' c='x86_kpanic_hook'/>
+<use f='MOS/arch/x86/x86_platform.c' l='70' macro='1' u='r' c='x86_kpanic_hook'/>
+<use f='MOS/arch/x86/x86_platform.c' l='73' macro='1' u='r' c='x86_kpanic_hook'/>
+<use f='MOS/arch/x86/x86_platform.c' l='73' macro='1' u='r' c='x86_kpanic_hook'/>
+<def f='MOS/arch/x86/x86_platform.c' l='192' type='mos_platform_t *const'/>
 <use f='MOS/kernel/elf/elf.c' l='50' u='r' c='create_elf_process'/>
 <use f='MOS/kernel/elf/elf.c' l='50' macro='1' u='r' c='create_elf_process'/>
 <use f='MOS/kernel/elf/elf.c' l='50' macro='1' u='r' c='create_elf_process'/>
@@ -30,8 +30,6 @@
 <use f='MOS/kernel/kernel_init.c' l='73' macro='1' u='r' c='mos_start_kernel'/>
 <use f='MOS/kernel/kernel_init.c' l='73' macro='1' u='r' c='mos_start_kernel'/>
 <use f='MOS/kernel/kernel_init.c' l='73' u='r' c='mos_start_kernel'/>
-<use f='MOS/kernel/kernel_init.c' l='105' u='r' c='mos_start_kernel'/>
-<use f='MOS/kernel/kernel_init.c' l='105' u='r' c='mos_start_kernel'/>
 <use f='MOS/kernel/ksyscall.c' l='17' macro='1' u='r' c='ksyscall_file_open'/>
 <use f='MOS/kernel/ksyscall.c' l='17' macro='1' u='r' c='ksyscall_file_open'/>
 <use f='MOS/kernel/ksyscall.c' l='29' macro='1' u='r' c='ksyscall_io_read'/>
@@ -70,6 +68,7 @@
 <use f='MOS/kernel/panic.c' l='44' u='r' c='mos_kpanic'/>
 <use f='MOS/kernel/panic.c' l='65' u='r' c='mos_kpanic'/>
 <use f='MOS/kernel/tasks/process.c' l='70' u='r' c='process_allocate'/>
+<use f='MOS/kernel/tasks/process.c' l='193' u='r' c='process_handle_fork'/>
 <use f='MOS/kernel/tasks/process.c' l='224' u='r' c='process_handle_fork'/>
 <use f='MOS/kernel/tasks/schedule.c' l='19' macro='1' u='r' c='schedule_to_thread'/>
 <use f='MOS/kernel/tasks/schedule.c' l='19' macro='1' u='r' c='schedule_to_thread'/>
@@ -86,13 +85,13 @@
 <use f='MOS/kernel/tasks/thread.c' l='74' u='r' c='thread_new'/>
 <use f='MOS/kernel/tasks/thread.c' l='74' macro='1' u='r' c='thread_new'/>
 <use f='MOS/kernel/tasks/thread.c' l='74' macro='1' u='r' c='thread_new'/>
-<use f='MOS/kernel/tasks/thread.c' l='79' u='r' c='thread_new'/>
-<use f='MOS/kernel/tasks/thread.c' l='79' macro='1' u='r' c='thread_new'/>
-<use f='MOS/kernel/tasks/thread.c' l='79' macro='1' u='r' c='thread_new'/>
+<use f='MOS/kernel/tasks/thread.c' l='77' u='r' c='thread_new'/>
 <use f='MOS/kernel/tasks/thread.c' l='80' u='r' c='thread_new'/>
-<use f='MOS/kernel/tasks/thread.c' l='83' u='r' c='thread_new'/>
-<use f='MOS/kernel/tasks/thread.c' l='89' u='r' c='thread_new'/>
-<use f='MOS/kernel/tasks/thread.c' l='89' macro='1' u='r' c='thread_new'/>
-<use f='MOS/kernel/tasks/thread.c' l='89' macro='1' u='r' c='thread_new'/>
+<use f='MOS/kernel/tasks/thread.c' l='80' macro='1' u='r' c='thread_new'/>
+<use f='MOS/kernel/tasks/thread.c' l='80' macro='1' u='r' c='thread_new'/>
+<use f='MOS/kernel/tasks/thread.c' l='81' u='r' c='thread_new'/>
+<use f='MOS/kernel/tasks/thread.c' l='88' u='r' c='thread_new'/>
+<use f='MOS/kernel/tasks/thread.c' l='88' macro='1' u='r' c='thread_new'/>
+<use f='MOS/kernel/tasks/thread.c' l='88' macro='1' u='r' c='thread_new'/>
 <use f='MOS/tests/test_engine.c' l='129' u='r' c='mos_test_engine_run_tests'/>
 <use f='MOS/tests/test_engine.c' l='131' u='r' c='mos_test_engine_run_tests'/>

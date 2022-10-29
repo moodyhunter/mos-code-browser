@@ -2,12 +2,11 @@
 <use f='MOS/arch/x86/gdt/gdt.c' l='73' u='a' c='x86_gdt_init'/>
 <use f='MOS/arch/x86/gdt/gdt.c' l='73' u='r' c='x86_gdt_init'/>
 <def f='MOS/arch/x86/tasks/tss.c' l='8' type='tss32_t'/>
-<use f='MOS/arch/x86/tasks/tss.c' l='14' u='a' c='x86_tss_init'/>
-<use f='MOS/arch/x86/tasks/tss.c' l='14' u='r' c='x86_tss_init'/>
-<use f='MOS/arch/x86/tasks/tss.c' l='15' u='m' c='x86_tss_init'/>
+<use f='MOS/arch/x86/tasks/tss.c' l='12' u='a' c='x86_tss_init'/>
+<use f='MOS/arch/x86/tasks/tss.c' l='12' u='r' c='x86_tss_init'/>
+<use f='MOS/arch/x86/tasks/tss.c' l='13' u='m' c='x86_tss_init'/>
 <doc f='MOS/arch/x86/tasks/tss.c' l='7'>// TSS used by the system for ring-changing-interrupts</doc>
-<dec f='MOS/kernel/kernel_init.c' l='102' type='tss32_t'/>
-<use f='MOS/kernel/kernel_init.c' l='106' u='m' c='mos_start_kernel'/>
-<use f='MOS/kernel/kernel_init.c' l='107' u='m' c='mos_start_kernel'/>
-<doc f='MOS/kernel/kernel_init.c' l='100'>// the stack memory to be used if we enter the kernelmode by a trap / interrupt
-    // TODO: Per-process stack</doc>
+<dec f='MOS/arch/x86/x86_platform.c' l='132' type='tss32_t'/>
+<use f='MOS/arch/x86/x86_platform.c' l='135' u='m' c='x86_start_kernel'/>
+<use f='MOS/arch/x86/x86_platform.c' l='137' u='m' c='x86_start_kernel'/>
+<doc f='MOS/arch/x86/x86_platform.c' l='131'>// the stack memory to be used if we enter the kernelmode by a trap / interrupt</doc>

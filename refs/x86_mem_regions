@@ -2,5 +2,5 @@
 <def f='MOS/arch/x86/mm/mm.c' l='10' type='memblock_t [32]'/>
 <use f='MOS/arch/x86/mm/mm.c' l='23' u='a' c='mem_add_region'/>
 <use f='MOS/arch/x86/mm/pmem_freelist.c' l='58' u='a' c='pmem_freelist_setup'/>
-<use f='MOS/arch/x86/x86_platform.c' l='120' u='m' c='x86_start_kernel'/>
-<use f='MOS/arch/x86/x86_platform.c' l='121' u='a' c='x86_start_kernel'/>
+<use f='MOS/arch/x86/x86_platform.c' l='121' u='m' c='x86_start_kernel'/>
+<use f='MOS/arch/x86/x86_platform.c' l='122' u='a' c='x86_start_kernel'/>
