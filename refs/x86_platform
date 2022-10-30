@@ -1,4 +1,4 @@
-<dec f='MOS/arch/x86/include/mos/x86/x86_platform.h' l='66' type='mos_platform_t'/>
+<dec f='MOS/arch/x86/include/mos/x86/x86_platform.h' l='67' type='mos_platform_t'/>
 <use f='MOS/arch/x86/cpu/smp.c' l='59' u='m' c='ap_begin_exec'/>
 <use f='MOS/arch/x86/cpu/smp.c' l='116' u='m' c='x86_smp_init'/>
 <use f='MOS/arch/x86/cpu/smp.c' l='117' u='m' c='x86_smp_init'/>

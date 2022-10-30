@@ -1,2 +1,2 @@
-<dec f='MOS/arch/x86/include/mos/x86/x86_platform.h' l='78' type='void gdt32_flush_only(gdt_ptr32_t * gdt_ptr)'/>
+<dec f='MOS/arch/x86/include/mos/x86/x86_platform.h' l='79' type='void gdt32_flush_only(gdt_ptr32_t * gdt_ptr)'/>
 <use f='MOS/arch/x86/gdt/gdt.c' l='89' u='c' c='x86_ap_gdt_init'/>
