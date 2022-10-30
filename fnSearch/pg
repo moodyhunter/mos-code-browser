@@ -1,4 +1,3 @@
-pg_copy_page|pg_copy_page
 pg_do_map_page|pg_do_map_page
 pg_do_map_pages|pg_do_map_pages
 pg_do_unmap_page|pg_do_unmap_page

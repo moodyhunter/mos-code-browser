@@ -14,10 +14,9 @@
 <use f='MOS/arch/x86/mm/paging.c' l='208' u='r' c='x86_um_pgd_create'/>
 <use f='MOS/arch/x86/mm/paging_impl.c' l='112' u='r' c='pg_page_flag'/>
 <use f='MOS/arch/x86/mm/paging_impl.c' l='113' u='r' c='pg_page_flag'/>
-<use f='MOS/arch/x86/mm/paging_impl.c' l='148' u='r' c='pg_copy_page'/>
-<use f='MOS/arch/x86/mm/paging_impl.c' l='203' u='r' c='pg_do_map_page'/>
-<use f='MOS/arch/x86/mm/paging_impl.c' l='204' u='r' c='pg_do_map_page'/>
-<use f='MOS/arch/x86/mm/paging_impl.c' l='277' u='r' c='pg_page_get_flags'/>
+<use f='MOS/arch/x86/mm/paging_impl.c' l='193' u='r' c='pg_do_map_page'/>
+<use f='MOS/arch/x86/mm/paging_impl.c' l='194' u='r' c='pg_do_map_page'/>
+<use f='MOS/arch/x86/mm/paging_impl.c' l='267' u='r' c='pg_page_get_flags'/>
 <use f='MOS/arch/x86/x86_platform.c' l='126' u='r' c='x86_start_kernel'/>
 <use f='MOS/kernel/elf/elf.c' l='50' u='r' c='create_elf_process'/>
 <use f='MOS/kernel/elf/elf.c' l='88' u='r' c='create_elf_process'/>
