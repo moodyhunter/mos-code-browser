@@ -1,6 +1,6 @@
 <dec f='MOS/arch/x86/include/mos/x86/devices/serial_console.h' l='11' type='console_t'/>
 <offset>192</offset>
-<use f='MOS/arch/x86/x86_platform.c' l='30' u='w'/>
 <use f='MOS/arch/x86/x86_platform.c' l='31' u='w'/>
 <use f='MOS/arch/x86/x86_platform.c' l='32' u='w'/>
-<use f='MOS/arch/x86/x86_platform.c' l='78' u='a' c='x86_start_kernel'/>
+<use f='MOS/arch/x86/x86_platform.c' l='33' u='w'/>
+<use f='MOS/arch/x86/x86_platform.c' l='94' u='a' c='x86_start_kernel'/>

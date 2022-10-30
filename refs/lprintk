@@ -30,9 +30,10 @@
 <use f='MOS/arch/x86/interrupt/apic.c' l='58' macro='1' u='c' c='apic_reg_write_offset_64'/>
 <use f='MOS/arch/x86/interrupt/apic.c' l='106' macro='1' u='c' c='apic_enable'/>
 <use f='MOS/arch/x86/interrupt/apic.c' l='124' macro='1' u='c' c='apic_enable'/>
-<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='108' macro='1' u='c' c='x86_handle_interrupt'/>
-<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='181' macro='1' u='c' c='x86_handle_exception'/>
-<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='269' macro='1' u='c' c='x86_handle_irq'/>
+<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='109' macro='1' u='c' c='x86_handle_interrupt'/>
+<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='117' macro='1' u='c' c='x86_handle_interrupt'/>
+<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='186' macro='1' u='c' c='x86_handle_exception'/>
+<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='280' macro='1' u='c' c='x86_handle_irq'/>
 <use f='MOS/arch/x86/mm/mm.c' l='32' macro='1' u='c' c='x86_mem_init'/>
 <use f='MOS/arch/x86/mm/mm.c' l='45' macro='1' u='c' c='x86_mem_init'/>
 <use f='MOS/arch/x86/mm/mm.c' l='53' macro='1' u='c' c='x86_mem_init'/>
@@ -49,13 +50,13 @@
 <use f='MOS/arch/x86/mm/paging.c' l='69' macro='1' u='c' c='x86_mm_enable_paging'/>
 <use f='MOS/arch/x86/mm/paging.c' l='71' macro='1' u='c' c='x86_mm_enable_paging'/>
 <use f='MOS/arch/x86/mm/paging.c' l='81' macro='1' u='c' c='page_table_dump_range'/>
-<use f='MOS/arch/x86/mm/paging.c' l='102' macro='1' u='c' c='page_table_dump_range'/>
-<use f='MOS/arch/x86/mm/paging.c' l='134' macro='1' u='c' c='page_table_dump_range'/>
-<use f='MOS/arch/x86/mm/paging.c' l='142' macro='1' u='c' c='x86_mm_dump_page_table'/>
-<use f='MOS/arch/x86/mm/paging_impl.c' l='96' macro='1' u='c' c='pg_page_free'/>
-<use f='MOS/arch/x86/mm/paging_impl.c' l='102' macro='1' u='c' c='pg_page_flag'/>
-<use f='MOS/arch/x86/mm/paging_impl.c' l='144' macro='1' u='c' c='pg_do_map_pages'/>
-<use f='MOS/arch/x86/mm/paging_impl.c' l='151' macro='1' u='c' c='pg_do_unmap_pages'/>
+<use f='MOS/arch/x86/mm/paging.c' l='105' macro='1' u='c' c='page_table_dump_range'/>
+<use f='MOS/arch/x86/mm/paging.c' l='138' macro='1' u='c' c='page_table_dump_range'/>
+<use f='MOS/arch/x86/mm/paging.c' l='147' macro='1' u='c' c='x86_mm_dump_page_table'/>
+<use f='MOS/arch/x86/mm/paging_impl.c' l='101' macro='1' u='c' c='pg_page_free'/>
+<use f='MOS/arch/x86/mm/paging_impl.c' l='107' macro='1' u='c' c='pg_page_flag'/>
+<use f='MOS/arch/x86/mm/paging_impl.c' l='149' macro='1' u='c' c='pg_do_map_pages'/>
+<use f='MOS/arch/x86/mm/paging_impl.c' l='156' macro='1' u='c' c='pg_do_unmap_pages'/>
 <use f='MOS/arch/x86/mm/pmem_freelist.c' l='35' macro='1' u='c' c='pmem_freelist_dump'/>
 <use f='MOS/arch/x86/mm/pmem_freelist.c' l='43' macro='1' u='c' c='pmem_freelist_dump'/>
 <use f='MOS/arch/x86/mm/pmem_freelist.c' l='51' macro='1' u='c' c='pmem_freelist_setup'/>
@@ -70,14 +71,15 @@
 <use f='MOS/arch/x86/mm/pmem_freelist.c' l='216' macro='1' u='c' c='pmem_freelist_remove_region'/>
 <use f='MOS/arch/x86/mm/pmem_freelist.c' l='221' macro='1' u='c' c='pmem_freelist_remove_region'/>
 <use f='MOS/arch/x86/mm/pmem_freelist.c' l='281' macro='1' u='c' c='pmem_freelist_find_free'/>
-<use f='MOS/arch/x86/x86_platform.c' l='42' macro='1' u='c' c='do_backtrace'/>
-<use f='MOS/arch/x86/x86_platform.c' l='52' macro='1' u='c' c='do_backtrace'/>
-<use f='MOS/arch/x86/x86_platform.c' l='60' macro='1' u='c' c='x86_kpanic_hook'/>
-<use f='MOS/arch/x86/x86_platform.c' l='63' macro='1' u='c' c='x86_kpanic_hook'/>
+<use f='MOS/arch/x86/x86_platform.c' l='43' macro='1' u='c' c='do_backtrace'/>
+<use f='MOS/arch/x86/x86_platform.c' l='53' macro='1' u='c' c='do_backtrace'/>
+<use f='MOS/arch/x86/x86_platform.c' l='65' macro='1' u='c' c='x86_kpanic_hook'/>
 <use f='MOS/arch/x86/x86_platform.c' l='66' macro='1' u='c' c='x86_kpanic_hook'/>
-<use f='MOS/arch/x86/x86_platform.c' l='68' macro='1' u='c' c='x86_kpanic_hook'/>
-<use f='MOS/arch/x86/x86_platform.c' l='113' macro='1' u='c' c='x86_start_kernel'/>
-<use f='MOS/arch/x86/x86_platform.c' l='128' macro='1' u='c' c='x86_start_kernel'/>
+<use f='MOS/arch/x86/x86_platform.c' l='73' macro='1' u='c' c='x86_kpanic_hook'/>
+<use f='MOS/arch/x86/x86_platform.c' l='79' macro='1' u='c' c='x86_kpanic_hook'/>
+<use f='MOS/arch/x86/x86_platform.c' l='83' macro='1' u='c' c='x86_kpanic_hook'/>
+<use f='MOS/arch/x86/x86_platform.c' l='129' macro='1' u='c' c='x86_start_kernel'/>
+<use f='MOS/arch/x86/x86_platform.c' l='144' macro='1' u='c' c='x86_start_kernel'/>
 <use f='MOS/kernel/device/console.c' l='37' macro='1' u='c' c='mos_install_console'/>
 <use f='MOS/kernel/device/console.c' l='41' macro='1' u='c' c='mos_install_console'/>
 <use f='MOS/kernel/elf/elf.c' l='59' macro='1' u='c' c='create_elf_process'/>
@@ -108,6 +110,7 @@
 <use f='MOS/kernel/kernel_init.c' l='98' macro='1' u='c' c='mos_start_kernel'/>
 <use f='MOS/kernel/ksyscall.c' l='56' macro='1' u='c' c='ksyscall_exit'/>
 <use f='MOS/kernel/mm/cow.c' l='56' macro='1' u='c' c='cow_handle_page_fault'/>
+<use f='MOS/kernel/mm/cow.c' l='64' macro='1' u='c' c='cow_handle_page_fault'/>
 <use f='MOS/kernel/panic.c' l='22' macro='1' u='c' c='kwarn_handler_set'/>
 <use f='MOS/kernel/panic.c' l='28' macro='1' u='c' c='kwarn_handler_remove'/>
 <use f='MOS/kernel/panic.c' l='39' macro='1' u='c' c='mos_kpanic'/>
@@ -118,17 +121,18 @@
 <use f='MOS/kernel/panic.c' l='56' macro='1' u='c' c='mos_kpanic'/>
 <use f='MOS/kernel/panic.c' l='57' macro='1' u='c' c='mos_kpanic'/>
 <use f='MOS/kernel/panic.c' l='58' macro='1' u='c' c='mos_kpanic'/>
-<use f='MOS/kernel/panic.c' l='87' u='c' c='mos_kwarn'/>
+<use f='MOS/kernel/panic.c' l='65' macro='1' u='c' c='mos_kpanic'/>
 <use f='MOS/kernel/panic.c' l='88' u='c' c='mos_kwarn'/>
+<use f='MOS/kernel/panic.c' l='89' u='c' c='mos_kwarn'/>
 <def f='MOS/kernel/printk.c' l='42' ll='70' type='void lprintk(int loglevel, const char * fmt)'/>
-<use f='MOS/kernel/tasks/fork.c' l='14' macro='1' u='c' c='process_handle_fork'/>
-<use f='MOS/kernel/tasks/fork.c' l='26' macro='1' u='c' c='process_handle_fork'/>
+<use f='MOS/kernel/tasks/fork.c' l='16' macro='1' u='c' c='process_handle_fork'/>
+<use f='MOS/kernel/tasks/fork.c' l='28' macro='1' u='c' c='process_handle_fork'/>
 <use f='MOS/kernel/tasks/process.c' l='58' macro='1' u='c' c='process_allocate'/>
 <use f='MOS/kernel/tasks/process.c' l='135' macro='1' u='c' c='process_attach_thread'/>
 <use f='MOS/kernel/tasks/process.c' l='149' macro='1' u='c' c='process_handle_exit'/>
 <use f='MOS/kernel/tasks/process.c' l='151' macro='1' u='c' c='process_handle_exit'/>
 <use f='MOS/kernel/tasks/process.c' l='166' macro='1' u='c' c='fork_return'/>
-<use f='MOS/kernel/tasks/process.c' l='184' macro='1' u='c' c='process_dump_mmaps'/>
+<use f='MOS/kernel/tasks/process.c' l='185' macro='1' u='c' c='process_dump_mmaps'/>
 <use f='MOS/kernel/tasks/task_io.c' l='26' u='c' c='stdout_write'/>
 <use f='MOS/kernel/tasks/task_io.c' l='36' u='c' c='stderr_write'/>
 <use f='MOS/tests/test_engine.c' l='67' u='c' c='test_engine_warning_handler'/>

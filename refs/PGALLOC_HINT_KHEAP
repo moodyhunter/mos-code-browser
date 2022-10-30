@@ -1,4 +1,5 @@
-<dec f='MOS/include/mos/platform/platform.h' l='37' type='1'/>
-<use f='MOS/arch/x86/mm/paging_impl.c' l='27' u='r' c='pg_page_alloc'/>
-<use f='MOS/arch/x86/x86_platform.c' l='126' u='r' c='x86_start_kernel'/>
+<dec f='MOS/include/mos/platform/platform.h' l='37' type='0'/>
+<use f='MOS/arch/x86/mm/paging.c' l='206' u='r' c='x86_um_pgd_create'/>
+<use f='MOS/arch/x86/mm/paging_impl.c' l='52' u='r' c='pg_page_get_free'/>
+<use f='MOS/arch/x86/x86_platform.c' l='142' u='r' c='x86_start_kernel'/>
 <use f='MOS/kernel/mm/liballoc.c' l='71' c='kheap_alloc_page'/>

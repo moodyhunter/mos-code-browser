@@ -1,4 +1,4 @@
-<dec f='MOS/include/mos/platform/platform.h' l='121' type='void (*const)(void)'/>
-<offset>4864</offset>
-<use f='MOS/arch/x86/x86_platform.c' l='162' u='w'/>
+<dec f='MOS/include/mos/platform/platform.h' l='118' type='void (*const)(void)'/>
+<offset>5888</offset>
+<use f='MOS/arch/x86/x86_platform.c' l='178' u='w'/>
 <use f='MOS/kernel/panic.c' l='44' u='r' c='mos_kpanic'/>

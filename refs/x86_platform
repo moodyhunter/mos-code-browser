@@ -5,6 +5,6 @@
 <use f='MOS/arch/x86/cpu/smp.c' l='117' u='m' c='x86_smp_init'/>
 <use f='MOS/arch/x86/cpu/smp.c' l='131' u='m' c='x86_smp_init'/>
 <use f='MOS/arch/x86/cpu/smp.c' l='139' u='m' c='x86_smp_init'/>
-<use f='MOS/arch/x86/x86_platform.c' l='97' u='m' c='x86_start_kernel'/>
-<def f='MOS/arch/x86/x86_platform.c' l='148' ll='183' type='mos_platform_t'/>
-<use f='MOS/arch/x86/x86_platform.c' l='185' u='a'/>
+<use f='MOS/arch/x86/x86_platform.c' l='113' u='m' c='x86_start_kernel'/>
+<def f='MOS/arch/x86/x86_platform.c' l='164' ll='200' type='mos_platform_t'/>
+<use f='MOS/arch/x86/x86_platform.c' l='202' u='a'/>

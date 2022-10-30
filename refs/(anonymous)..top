@@ -1,9 +1,11 @@
 <dec f='MOS/include/lib/structures/stack.h' l='11' type='uintptr_t'/>
 <offset>0</offset>
-<use f='MOS/lib/structures/stack.c' l='14' u='a' c='stack_init'/>
-<use f='MOS/lib/structures/stack.c' l='27' u='r' c='stack_grow'/>
-<use f='MOS/lib/structures/stack.c' l='40' u='r' c='stack_push'/>
-<use f='MOS/lib/structures/stack.c' l='53' u='r' c='stack_pop'/>
+<use f='MOS/arch/x86/tasks/context.c' l='36' u='r' c='x86_switch_to_thread'/>
+<use f='MOS/kernel/tasks/thread.c' l='89' u='r' c='thread_new'/>
+<use f='MOS/lib/structures/stack.c' l='13' u='w' c='stack_init'/>
+<use f='MOS/lib/structures/stack.c' l='26' u='r' c='stack_grow'/>
+<use f='MOS/lib/structures/stack.c' l='39' u='r' c='stack_push'/>
+<use f='MOS/lib/structures/stack.c' l='52' u='r' c='stack_pop'/>
 <use f='MOS/tests/downwards_stack/test_downwards_stack.c' l='11' u='r' c='stack_init_deinit'/>
 <use f='MOS/tests/downwards_stack/test_downwards_stack.c' l='11' u='r' c='stack_init_deinit'/>
 <use f='MOS/tests/downwards_stack/test_downwards_stack.c' l='16' u='r' c='stack_init_deinit'/>

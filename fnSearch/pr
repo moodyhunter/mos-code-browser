@@ -18,3 +18,4 @@ process_stdio_setup|process_stdio_setup
 printf_tests_github|printf_tests_github
 print|print
 print_err|print_err
+print_int|print_int

@@ -1,4 +1,15 @@
-<dec f='MOS/include/mos/platform/platform.h' l='148'/>
-<use f='MOS/arch/x86/x86_platform.c' l='64' u='c'/>
+<dec f='MOS/include/mos/platform/platform.h' l='146'/>
+<use f='MOS/arch/x86/x86_platform.c' l='67' u='c'/>
+<use f='MOS/arch/x86/x86_platform.c' l='68' u='c'/>
+<use f='MOS/kernel/ksyscall.c' l='17' u='c'/>
+<use f='MOS/kernel/ksyscall.c' l='29' u='c'/>
+<use f='MOS/kernel/ksyscall.c' l='36' u='c'/>
+<use f='MOS/kernel/ksyscall.c' l='41' u='c'/>
+<use f='MOS/kernel/ksyscall.c' l='52' u='c'/>
+<use f='MOS/kernel/ksyscall.c' l='57' u='c'/>
+<use f='MOS/kernel/ksyscall.c' l='69' u='c'/>
 <use f='MOS/kernel/ksyscall.c' l='74' u='c'/>
+<use f='MOS/kernel/ksyscall.c' l='88' u='c'/>
+<use f='MOS/kernel/ksyscall.c' l='89' u='c'/>
 <use f='MOS/kernel/mm/cow.c' l='23' u='c'/>
+<use f='MOS/kernel/mm/cow.c' l='42' u='c'/>

@@ -1,7 +1,20 @@
 <dec f='MOS/include/mos/types.h' l='74' type='uintptr_t'/>
 <offset>0</offset>
 <use f='MOS/arch/x86/include/mos/x86/mm/paging_impl.h' l='64' u='r' c='x86_get_pg_infra'/>
-<use f='MOS/arch/x86/mm/paging.c' l='205' u='w' c='x86_um_pgd_create'/>
-<use f='MOS/arch/x86/mm/paging.c' l='230' u='r' c='x86_um_pgd_destroy'/>
-<use f='MOS/arch/x86/tasks/context.c' l='24' u='r' c='x86_switch_to_thread'/>
-<use f='MOS/arch/x86/x86_platform.c' l='97' u='w' c='x86_start_kernel'/>
+<use f='MOS/arch/x86/mm/paging.c' l='210' u='w' c='x86_um_pgd_create'/>
+<use f='MOS/arch/x86/mm/paging.c' l='235' u='r' c='x86_um_pgd_destroy'/>
+<use f='MOS/arch/x86/tasks/context.c' l='35' u='r' c='x86_switch_to_thread'/>
+<use f='MOS/arch/x86/x86_platform.c' l='61' u='r' c='x86_kpanic_hook'/>
+<use f='MOS/arch/x86/x86_platform.c' l='68' u='r' c='x86_kpanic_hook'/>
+<use f='MOS/arch/x86/x86_platform.c' l='68' u='r' c='x86_kpanic_hook'/>
+<use f='MOS/arch/x86/x86_platform.c' l='113' u='w' c='x86_start_kernel'/>
+<use f='MOS/kernel/mm/memops.c' l='34' u='r' c='mm_copy_pages'/>
+<use f='MOS/kernel/mm/memops.c' l='34' u='r' c='mm_copy_pages'/>
+<use f='MOS/kernel/mm/memops.c' l='50' u='r' c='mm_copy_pages'/>
+<use f='MOS/kernel/mm/memops.c' l='50' u='r' c='mm_copy_pages'/>
+<use f='MOS/kernel/mm/memops.c' l='66' u='r' c='mm_copy_pages'/>
+<use f='MOS/kernel/mm/memops.c' l='66' u='r' c='mm_copy_pages'/>
+<use f='MOS/kernel/mm/memops.c' l='68' u='r' c='mm_copy_pages'/>
+<use f='MOS/kernel/mm/memops.c' l='68' u='r' c='mm_copy_pages'/>
+<use f='MOS/kernel/mm/memops.c' l='81' u='r' c='mm_copy_pages'/>
+<use f='MOS/kernel/mm/memops.c' l='81' u='r' c='mm_copy_pages'/>

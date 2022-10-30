@@ -3,4 +3,4 @@
 <use f='MOS/arch/x86/devices/initrd_blockdev.c' l='12' u='m' c='initrd_blockdev_preinstall'/>
 <use f='MOS/arch/x86/devices/initrd_blockdev.c' l='13' u='m' c='initrd_blockdev_preinstall'/>
 <offset>256</offset>
-<use f='MOS/arch/x86/x86_platform.c' l='142' u='a' c='x86_start_kernel'/>
+<use f='MOS/arch/x86/x86_platform.c' l='158' u='a' c='x86_start_kernel'/>

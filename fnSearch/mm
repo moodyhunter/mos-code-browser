@@ -1,1 +1,4 @@
 mm_make_process_map_cow|mm_make_process_map_cow
+mm_copy_pages|mm_copy_pages
+mm_map_proxy_space|mm_map_proxy_space
+mm_unmap_proxy_space|mm_unmap_proxy_space

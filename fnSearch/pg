@@ -9,5 +9,6 @@ pg_page_alloc_at|pg_page_alloc_at
 pg_page_flag|pg_page_flag
 pg_page_free|pg_page_free
 pg_page_get_flags|pg_page_get_flags
+pg_page_get_free|pg_page_get_free
 pg_page_get_mapped_paddr|pg_page_get_mapped_paddr
 pg_unmap_pages|pg_unmap_pages

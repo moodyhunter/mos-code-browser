@@ -1,0 +1,9 @@
+<dec f='MOS/include/mos/mm/memops.h' l='9' type='void mm_unmap_proxy_space(vmblock_t proxy_blk)'/>
+<def f='MOS/kernel/mm/memops.c' l='18' ll='21' type='void mm_unmap_proxy_space(vmblock_t proxy_blk)'/>
+<use f='MOS/kernel/mm/memops.c' l='44' u='c' c='mm_copy_pages'/>
+<use f='MOS/kernel/mm/memops.c' l='60' u='c' c='mm_copy_pages'/>
+<use f='MOS/kernel/mm/memops.c' l='78' u='c' c='mm_copy_pages'/>
+<use f='MOS/kernel/mm/memops.c' l='86' u='c' c='mm_copy_pages'/>
+<use f='MOS/kernel/mm/memops.c' l='94' u='c' c='mm_copy_pages'/>
+<use f='MOS/kernel/mm/memops.c' l='95' u='c' c='mm_copy_pages'/>
+<use f='MOS/kernel/tasks/thread.c' l='90' u='c' c='thread_new'/>

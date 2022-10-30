@@ -2,16 +2,16 @@
 <use f='MOS/arch/x86/devices/text_mode_console.c' l='36' u='c' c='screen_scroll'/>
 <use f='MOS/arch/x86/gdt/gdt.c' l='63' u='c' c='x86_gdt_init'/>
 <use f='MOS/arch/x86/mm/paging.c' l='33' u='c' c='x86_mm_prepare_paging'/>
-<use f='MOS/arch/x86/mm/paging.c' l='203' u='c' c='x86_um_pgd_create'/>
+<use f='MOS/arch/x86/mm/paging.c' l='208' u='c' c='x86_um_pgd_create'/>
 <use f='MOS/arch/x86/mm/pmem_freelist.c' l='53' u='c' c='pmem_freelist_setup'/>
 <use f='MOS/arch/x86/mm/pmem_freelist.c' l='224' u='c' c='pmem_freelist_remove_region'/>
 <use f='MOS/arch/x86/mm/pmem_freelist.c' l='255' u='c' c='pmem_freelist_remove_region'/>
 <use f='MOS/kernel/mm/liballoc.c' l='623' u='c' c='liballoc_calloc'/>
 <use f='MOS/kernel/tasks/process.c' l='77' u='c' c='process_init'/>
-<use f='MOS/kernel/tasks/thread.c' l='53' u='c' c='thread_init'/>
+<use f='MOS/kernel/tasks/thread.c' l='54' u='c' c='thread_init'/>
 <def f='MOS/lib/string.c' l='86' ll='92' type='void * memset(void * s, int c, size_t n)'/>
 <use f='MOS/lib/structures/hashmap.c' l='26' u='c' c='hashmap_init'/>
-<use f='MOS/lib/structures/stack.c' l='21' u='c' c='stack_deinit'/>
+<use f='MOS/lib/structures/stack.c' l='20' u='c' c='stack_deinit'/>
 <use f='MOS/tests/kmalloc/test_kmalloc.c' l='11' u='c' c='kmalloc_single'/>
 <use f='MOS/tests/kmalloc/test_kmalloc.c' l='23' u='c' c='kmalloc_stress'/>
 <use f='MOS/tests/kmalloc/test_kmalloc.c' l='33' u='c' c='kmalloc_large'/>

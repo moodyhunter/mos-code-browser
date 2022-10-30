@@ -1,0 +1,4 @@
+<def f='MOS/userspace/init/main.c' l='21' ll='37' type='void print_int(int i)'/>
+<use f='MOS/userspace/init/main.c' l='56' u='c' c='main'/>
+<use f='MOS/userspace/init/main.c' l='73' u='c' c='main'/>
+<use f='MOS/userspace/init/main.c' l='86' u='c' c='main'/>

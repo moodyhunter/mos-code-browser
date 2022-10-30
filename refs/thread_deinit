@@ -1,2 +1,2 @@
 <dec f='MOS/include/mos/tasks/thread.h' l='20' type='void thread_deinit()'/>
-<def f='MOS/kernel/tasks/thread.c' l='57' ll='61' type='void thread_deinit()'/>
+<def f='MOS/kernel/tasks/thread.c' l='58' ll='62' type='void thread_deinit()'/>

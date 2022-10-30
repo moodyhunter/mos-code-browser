@@ -19,5 +19,5 @@
 <use f='MOS/tests/test_engine.c' l='101' u='c' c='mos_test_engine_run_tests'/>
 <dec f='MOS/userspace/include/libuserspace.h' l='9' type='int strlen(const char * str)'/>
 <use f='MOS/userspace/init/main.c' l='11' u='c' c='print'/>
-<use f='MOS/userspace/init/main.c' l='16' u='c' c='print_err'/>
+<use f='MOS/userspace/init/main.c' l='17' u='c' c='print_err'/>
 <def f='MOS/userspace/libuserspace.c' l='28' ll='34' type='int strlen(const char * str)'/>

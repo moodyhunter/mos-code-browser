@@ -1,4 +1,4 @@
-<dec f='MOS/include/mos/platform/platform.h' l='24' type='0'/>
+<dec f='MOS/include/mos/platform/platform.h' l='25' type='2'/>
 <use f='MOS/arch/x86/boot/multiboot/startup.c' l='140' u='r' c='x86_startup'/>
 <use f='MOS/arch/x86/boot/multiboot/startup.c' l='144' u='r' c='x86_startup'/>
 <use f='MOS/arch/x86/boot/multiboot/startup.c' l='147' u='r' c='x86_startup'/>

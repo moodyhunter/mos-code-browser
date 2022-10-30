@@ -1,3 +1,4 @@
 <dec f='MOS/include/mos/tasks/task_type.h' l='15' type='2'/>
-<doc f='MOS/include/mos/tasks/task_type.h' l='15'>// Thread is ready to run, this state is set by the scheduler</doc>
-<use f='MOS/kernel/tasks/fork.c' l='57' c='process_handle_fork'/>
+<doc f='MOS/include/mos/tasks/task_type.h' l='15'>// thread can be scheduled</doc>
+<use f='MOS/kernel/tasks/schedule.c' l='15' u='r' c='mos_update_current'/>
+<use f='MOS/kernel/tasks/schedule.c' l='27' u='r' c='schedule_to_thread'/>

@@ -1,2 +1,2 @@
-<def f='MOS/userspace/init/main.c' l='14' ll='17' type='void print_err(const char * str)'/>
-<use f='MOS/userspace/init/main.c' l='25' u='c' c='main'/>
+<def f='MOS/userspace/init/main.c' l='15' ll='19' type='void print_err(const char * str)'/>
+<use f='MOS/userspace/init/main.c' l='46' u='c' c='main'/>

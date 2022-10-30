@@ -1,18 +1,14 @@
-<dec f='MOS/include/mos/tasks/task_type.h' l='57' type='thread_status_t'/>
-<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='91' u='w' c='x86_handle_interrupt'/>
-<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='114' u='w' c='x86_handle_interrupt'/>
-<offset>128</offset>
-<use f='MOS/arch/x86/tasks/context.c' l='28' u='r' c='x86_switch_to_thread'/>
-<use f='MOS/arch/x86/tasks/context.c' l='31' u='r' c='x86_switch_to_thread'/>
-<use f='MOS/arch/x86/tasks/context.c' l='37' u='w' c='x86_switch_to_thread'/>
-<use f='MOS/kernel/tasks/fork.c' l='48' u='r' c='process_handle_fork'/>
-<use f='MOS/kernel/tasks/fork.c' l='52' u='w' c='process_handle_fork'/>
-<use f='MOS/kernel/tasks/fork.c' l='52' u='r' c='process_handle_fork'/>
-<use f='MOS/kernel/tasks/fork.c' l='55' u='r' c='process_handle_fork'/>
-<use f='MOS/kernel/tasks/fork.c' l='60' u='w' c='process_handle_fork'/>
+<dec f='MOS/include/mos/tasks/task_type.h' l='58' type='thread_status_t'/>
+<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='116' u='r' c='x86_handle_interrupt'/>
+<offset>320</offset>
+<use f='MOS/arch/x86/tasks/context.c' l='39' u='r' c='x86_switch_to_thread'/>
+<use f='MOS/arch/x86/tasks/context.c' l='39' u='r' c='x86_switch_to_thread'/>
+<use f='MOS/kernel/tasks/fork.c' l='67' u='w' c='process_handle_fork'/>
 <use f='MOS/kernel/tasks/process.c' l='155' u='r' c='process_handle_exit'/>
 <use f='MOS/kernel/tasks/process.c' l='160' u='w' c='process_handle_exit'/>
-<use f='MOS/kernel/tasks/schedule.c' l='18' u='r' c='schedule_to_thread'/>
-<use f='MOS/kernel/tasks/schedule.c' l='18' u='r' c='schedule_to_thread'/>
-<use f='MOS/kernel/tasks/schedule.c' l='18' u='r' c='schedule_to_thread'/>
-<use f='MOS/kernel/tasks/thread.c' l='44' u='w' c='thread_allocate'/>
+<use f='MOS/kernel/tasks/schedule.c' l='15' u='w' c='mos_update_current'/>
+<use f='MOS/kernel/tasks/schedule.c' l='17' u='w' c='mos_update_current'/>
+<use f='MOS/kernel/tasks/schedule.c' l='27' u='r' c='schedule_to_thread'/>
+<use f='MOS/kernel/tasks/schedule.c' l='27' u='r' c='schedule_to_thread'/>
+<use f='MOS/kernel/tasks/schedule.c' l='27' u='r' c='schedule_to_thread'/>
+<use f='MOS/kernel/tasks/thread.c' l='45' u='w' c='thread_allocate'/>

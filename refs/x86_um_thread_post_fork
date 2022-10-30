@@ -1,2 +1,0 @@
-<dec f='MOS/arch/x86/tasks/context.c' l='11' type='void x86_um_thread_post_fork()'/>
-<use f='MOS/arch/x86/tasks/context.c' l='33' u='r' c='x86_switch_to_thread'/>

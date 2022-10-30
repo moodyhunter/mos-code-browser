@@ -1,4 +1,17 @@
-<def f='MOS/userspace/init/main.c' l='9' ll='12' type='void print(const char * str)'/>
-<use f='MOS/userspace/init/main.c' l='29' u='c' c='main'/>
-<use f='MOS/userspace/init/main.c' l='41' u='c' c='main'/>
-<use f='MOS/userspace/init/main.c' l='45' u='c' c='main'/>
+<def f='MOS/userspace/init/main.c' l='9' ll='13' type='void print(const char * str)'/>
+<use f='MOS/userspace/init/main.c' l='25' u='c' c='print_int'/>
+<use f='MOS/userspace/init/main.c' l='26' u='c' c='print_int'/>
+<use f='MOS/userspace/init/main.c' l='27' u='c' c='print_int'/>
+<use f='MOS/userspace/init/main.c' l='28' u='c' c='print_int'/>
+<use f='MOS/userspace/init/main.c' l='29' u='c' c='print_int'/>
+<use f='MOS/userspace/init/main.c' l='30' u='c' c='print_int'/>
+<use f='MOS/userspace/init/main.c' l='31' u='c' c='print_int'/>
+<use f='MOS/userspace/init/main.c' l='32' u='c' c='print_int'/>
+<use f='MOS/userspace/init/main.c' l='33' u='c' c='print_int'/>
+<use f='MOS/userspace/init/main.c' l='34' u='c' c='print_int'/>
+<use f='MOS/userspace/init/main.c' l='35' u='c' c='print_int'/>
+<use f='MOS/userspace/init/main.c' l='50' u='c' c='main'/>
+<use f='MOS/userspace/init/main.c' l='65' u='c' c='main'/>
+<use f='MOS/userspace/init/main.c' l='69' u='c' c='main'/>
+<use f='MOS/userspace/init/main.c' l='78' u='c' c='main'/>
+<use f='MOS/userspace/init/main.c' l='82' u='c' c='main'/>

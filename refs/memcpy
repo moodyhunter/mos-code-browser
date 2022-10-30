@@ -7,7 +7,16 @@
 <use f='MOS/kernel/mm/cow.c' l='28' u='c' c='copy_cow_pages_inplace'/>
 <use f='MOS/kernel/mm/cow.c' l='32' u='c' c='copy_cow_pages_inplace'/>
 <use f='MOS/kernel/mm/liballoc.c' l='698' u='c' c='liballoc_realloc'/>
+<use f='MOS/kernel/mm/memops.c' l='29' u='c' c='mm_copy_pages'/>
+<use f='MOS/kernel/mm/memops.c' l='37' u='c' c='mm_copy_pages'/>
+<use f='MOS/kernel/mm/memops.c' l='43' u='c' c='mm_copy_pages'/>
+<use f='MOS/kernel/mm/memops.c' l='53' u='c' c='mm_copy_pages'/>
+<use f='MOS/kernel/mm/memops.c' l='59' u='c' c='mm_copy_pages'/>
+<use f='MOS/kernel/mm/memops.c' l='71' u='c' c='mm_copy_pages'/>
+<use f='MOS/kernel/mm/memops.c' l='77' u='c' c='mm_copy_pages'/>
+<use f='MOS/kernel/mm/memops.c' l='85' u='c' c='mm_copy_pages'/>
+<use f='MOS/kernel/mm/memops.c' l='93' u='c' c='mm_copy_pages'/>
 <def f='MOS/lib/string.c' l='39' ll='61' type='void * memcpy(void *restrict dest, const void *restrict src, size_t n)'/>
-<use f='MOS/lib/structures/stack.c' l='47' u='c' c='stack_push'/>
-<use f='MOS/lib/structures/stack.c' l='60' u='c' c='stack_pop'/>
+<use f='MOS/lib/structures/stack.c' l='46' u='c' c='stack_push'/>
+<use f='MOS/lib/structures/stack.c' l='59' u='c' c='stack_pop'/>
 <use f='MOS/tests/memops/test_memops.c' l='15' u='c' c='test_lib_memcpy'/>

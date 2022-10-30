@@ -1,2 +1,4 @@
 <def f='MOS/build/include/mos/ksyscall/usermode.h' l='60' ll='63' macro='1' type='pid_t invoke_ksyscall_get_pid()'/>
-<use f='MOS/userspace/init/main.c' l='34' u='c' c='main'/>
+<use f='MOS/userspace/init/main.c' l='55' u='c' c='main'/>
+<use f='MOS/userspace/init/main.c' l='72' u='c' c='main'/>
+<use f='MOS/userspace/init/main.c' l='85' u='c' c='main'/>

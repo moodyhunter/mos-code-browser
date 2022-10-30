@@ -1,22 +1,24 @@
 <dec f='MOS/include/mos/tasks/task_type.h' l='56' type='process_t *'/>
-<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='181' macro='1' u='r' c='x86_handle_exception'/>
-<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='181' macro='1' u='r' c='x86_handle_exception'/>
+<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='186' macro='1' u='r' c='x86_handle_exception'/>
+<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='186' macro='1' u='r' c='x86_handle_exception'/>
 <offset>64</offset>
-<use f='MOS/arch/x86/tasks/context.c' l='24' u='r' c='x86_switch_to_thread'/>
-<use f='MOS/arch/x86/x86_platform.c' l='60' u='r' c='x86_kpanic_hook'/>
-<use f='MOS/arch/x86/x86_platform.c' l='64' macro='1' u='r' c='x86_kpanic_hook'/>
-<use f='MOS/kernel/ksyscall.c' l='17' u='r' c='ksyscall_file_open'/>
-<use f='MOS/kernel/ksyscall.c' l='29' u='r' c='ksyscall_io_read'/>
-<use f='MOS/kernel/ksyscall.c' l='36' u='r' c='ksyscall_io_write'/>
-<use f='MOS/kernel/ksyscall.c' l='41' u='r' c='ksyscall_io_close'/>
-<use f='MOS/kernel/ksyscall.c' l='52' u='r' c='ksyscall_exit'/>
-<use f='MOS/kernel/ksyscall.c' l='57' u='r' c='ksyscall_exit'/>
-<use f='MOS/kernel/ksyscall.c' l='69' u='r' c='ksyscall_fork'/>
+<use f='MOS/arch/x86/tasks/context.c' l='35' u='r' c='x86_switch_to_thread'/>
+<use f='MOS/arch/x86/x86_platform.c' l='65' macro='1' u='r' c='x86_kpanic_hook'/>
+<use f='MOS/arch/x86/x86_platform.c' l='65' macro='1' u='r' c='x86_kpanic_hook'/>
+<use f='MOS/arch/x86/x86_platform.c' l='67' macro='1' u='r' c='x86_kpanic_hook'/>
+<use f='MOS/arch/x86/x86_platform.c' l='68' macro='1' u='r' c='x86_kpanic_hook'/>
+<use f='MOS/kernel/ksyscall.c' l='17' macro='1' u='r' c='ksyscall_file_open'/>
+<use f='MOS/kernel/ksyscall.c' l='29' macro='1' u='r' c='ksyscall_io_read'/>
+<use f='MOS/kernel/ksyscall.c' l='36' macro='1' u='r' c='ksyscall_io_write'/>
+<use f='MOS/kernel/ksyscall.c' l='41' macro='1' u='r' c='ksyscall_io_close'/>
+<use f='MOS/kernel/ksyscall.c' l='52' macro='1' u='r' c='ksyscall_exit'/>
+<use f='MOS/kernel/ksyscall.c' l='57' macro='1' u='r' c='ksyscall_exit'/>
+<use f='MOS/kernel/ksyscall.c' l='69' macro='1' u='r' c='ksyscall_fork'/>
 <use f='MOS/kernel/ksyscall.c' l='74' macro='1' u='r' c='ksyscall_fork'/>
-<use f='MOS/kernel/ksyscall.c' l='88' u='r' c='ksyscall_get_pid'/>
-<use f='MOS/kernel/ksyscall.c' l='89' u='r' c='ksyscall_get_pid'/>
+<use f='MOS/kernel/ksyscall.c' l='88' macro='1' u='r' c='ksyscall_get_pid'/>
+<use f='MOS/kernel/ksyscall.c' l='89' macro='1' u='r' c='ksyscall_get_pid'/>
 <use f='MOS/kernel/mm/cow.c' l='23' macro='1' u='r' c='copy_cow_pages_inplace'/>
-<use f='MOS/kernel/mm/cow.c' l='42' u='r' c='cow_handle_page_fault'/>
+<use f='MOS/kernel/mm/cow.c' l='42' macro='1' u='r' c='cow_handle_page_fault'/>
 <use f='MOS/kernel/tasks/process.c' l='134' u='r' c='process_attach_thread'/>
-<use f='MOS/kernel/tasks/schedule.c' l='21' u='r' c='schedule_to_thread'/>
-<use f='MOS/kernel/tasks/thread.c' l='43' u='w' c='thread_allocate'/>
+<use f='MOS/kernel/tasks/schedule.c' l='18' u='r' c='mos_update_current'/>
+<use f='MOS/kernel/tasks/thread.c' l='44' u='w' c='thread_allocate'/>

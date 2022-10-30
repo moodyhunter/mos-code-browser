@@ -1,3 +1,3 @@
-<dec f='MOS/arch/x86/include/mos/x86/mm/paging_impl.h' l='69' type='void pg_page_free(x86_pg_infra_t * pg, uintptr_t vaddr, size_t n)'/>
-<use f='MOS/arch/x86/mm/paging.c' l='248' u='c' c='x86_mm_pg_free'/>
-<def f='MOS/arch/x86/mm/paging_impl.c' l='93' ll='98' type='void pg_page_free(x86_pg_infra_t * pg, uintptr_t vptr, size_t n_page)'/>
+<dec f='MOS/arch/x86/include/mos/x86/mm/paging_impl.h' l='71' type='void pg_page_free(x86_pg_infra_t * pg, uintptr_t vaddr, size_t n)'/>
+<use f='MOS/arch/x86/mm/paging.c' l='259' u='c' c='x86_mm_pg_free'/>
+<def f='MOS/arch/x86/mm/paging_impl.c' l='98' ll='103' type='void pg_page_free(x86_pg_infra_t * pg, uintptr_t vptr, size_t n_page)'/>

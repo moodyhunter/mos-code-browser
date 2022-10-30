@@ -1,5 +1,6 @@
 <dec f='MOS/arch/x86/include/mos/x86/tasks/tss_types.h' l='9' type='u32'/>
 <offset>32</offset>
+<use f='MOS/arch/x86/tasks/context.c' l='36' u='w' c='x86_switch_to_thread'/>
 <use f='MOS/arch/x86/tasks/tss.c' l='14' u='w' c='x86_tss_init'/>
-<use f='MOS/arch/x86/x86_platform.c' l='127' u='w' c='x86_start_kernel'/>
-<use f='MOS/arch/x86/x86_platform.c' l='128' u='r' c='x86_start_kernel'/>
+<use f='MOS/arch/x86/x86_platform.c' l='143' u='w' c='x86_start_kernel'/>
+<use f='MOS/arch/x86/x86_platform.c' l='144' u='r' c='x86_start_kernel'/>

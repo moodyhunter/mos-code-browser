@@ -23,48 +23,88 @@
 <tr><th id="9">9</th><td><em>void</em> <dfn class="decl def fn" id="print" title='print' data-ref="print" data-ref-filename="print">print</dfn>(<em>const</em> <em>char</em> *<dfn class="local col8 decl" id="38str" title='str' data-type='const char *' data-ref="38str" data-ref-filename="38str">str</dfn>)</td></tr>
 <tr><th id="10">10</th><td>{</td></tr>
 <tr><th id="11">11</th><td>    <a class="ref fn" href="../../build/include/mos/ksyscall/usermode.h.html#invoke_ksyscall_io_write" title='invoke_ksyscall_io_write' data-ref="invoke_ksyscall_io_write" data-ref-filename="invoke_ksyscall_io_write">invoke_ksyscall_io_write</a>(<a class="macro" href="../include/libuserspace.h.html#6" title="1" data-ref="_M/stdout">stdout</a>, <a class="local col8 ref" href="#38str" title='str' data-ref="38str" data-ref-filename="38str">str</a>, <a class="ref fn" href="../include/libuserspace.h.html#strlen" title='strlen' data-ref="strlen" data-ref-filename="strlen">strlen</a>(<a class="local col8 ref" href="#38str" title='str' data-ref="38str" data-ref-filename="38str">str</a>), <var>0</var>);</td></tr>
-<tr><th id="12">12</th><td>}</td></tr>
-<tr><th id="13">13</th><td></td></tr>
-<tr><th id="14">14</th><td><em>void</em> <dfn class="decl def fn" id="print_err" title='print_err' data-ref="print_err" data-ref-filename="print_err">print_err</dfn>(<em>const</em> <em>char</em> *<dfn class="local col9 decl" id="39str" title='str' data-type='const char *' data-ref="39str" data-ref-filename="39str">str</dfn>)</td></tr>
-<tr><th id="15">15</th><td>{</td></tr>
-<tr><th id="16">16</th><td>    <a class="ref fn" href="../../build/include/mos/ksyscall/usermode.h.html#invoke_ksyscall_io_write" title='invoke_ksyscall_io_write' data-ref="invoke_ksyscall_io_write" data-ref-filename="invoke_ksyscall_io_write">invoke_ksyscall_io_write</a>(<a class="macro" href="../include/libuserspace.h.html#7" title="2" data-ref="_M/stderr">stderr</a>, <a class="local col9 ref" href="#39str" title='str' data-ref="39str" data-ref-filename="39str">str</a>, <a class="ref fn" href="../include/libuserspace.h.html#strlen" title='strlen' data-ref="strlen" data-ref-filename="strlen">strlen</a>(<a class="local col9 ref" href="#39str" title='str' data-ref="39str" data-ref-filename="39str">str</a>), <var>0</var>);</td></tr>
-<tr><th id="17">17</th><td>}</td></tr>
-<tr><th id="18">18</th><td></td></tr>
-<tr><th id="19">19</th><td><em>static</em> <em>char</em> <dfn class="tu decl def" id="buf" title='buf' data-type='char [2048]' data-ref="buf" data-ref-filename="buf">buf</dfn>[<var>2</var> <a class="macro" href="../../include/mos/constants.h.html#22" title="* 1024 * 1" data-ref="_M/KB">KB</a>] = { <var>0</var> };</td></tr>
+<tr><th id="12">12</th><td>    <a class="ref fn" href="../../build/include/mos/ksyscall/usermode.h.html#invoke_ksyscall_io_write" title='invoke_ksyscall_io_write' data-ref="invoke_ksyscall_io_write" data-ref-filename="invoke_ksyscall_io_write">invoke_ksyscall_io_write</a>(<a class="macro" href="../include/libuserspace.h.html#6" title="1" data-ref="_M/stdout">stdout</a>, <q>"\n"</q>, <var>1</var>, <var>0</var>);</td></tr>
+<tr><th id="13">13</th><td>}</td></tr>
+<tr><th id="14">14</th><td></td></tr>
+<tr><th id="15">15</th><td><em>void</em> <dfn class="decl def fn" id="print_err" title='print_err' data-ref="print_err" data-ref-filename="print_err">print_err</dfn>(<em>const</em> <em>char</em> *<dfn class="local col9 decl" id="39str" title='str' data-type='const char *' data-ref="39str" data-ref-filename="39str">str</dfn>)</td></tr>
+<tr><th id="16">16</th><td>{</td></tr>
+<tr><th id="17">17</th><td>    <a class="ref fn" href="../../build/include/mos/ksyscall/usermode.h.html#invoke_ksyscall_io_write" title='invoke_ksyscall_io_write' data-ref="invoke_ksyscall_io_write" data-ref-filename="invoke_ksyscall_io_write">invoke_ksyscall_io_write</a>(<a class="macro" href="../include/libuserspace.h.html#7" title="2" data-ref="_M/stderr">stderr</a>, <a class="local col9 ref" href="#39str" title='str' data-ref="39str" data-ref-filename="39str">str</a>, <a class="ref fn" href="../include/libuserspace.h.html#strlen" title='strlen' data-ref="strlen" data-ref-filename="strlen">strlen</a>(<a class="local col9 ref" href="#39str" title='str' data-ref="39str" data-ref-filename="39str">str</a>), <var>0</var>);</td></tr>
+<tr><th id="18">18</th><td>    <a class="ref fn" href="../../build/include/mos/ksyscall/usermode.h.html#invoke_ksyscall_io_write" title='invoke_ksyscall_io_write' data-ref="invoke_ksyscall_io_write" data-ref-filename="invoke_ksyscall_io_write">invoke_ksyscall_io_write</a>(<a class="macro" href="../include/libuserspace.h.html#7" title="2" data-ref="_M/stderr">stderr</a>, <q>"\n"</q>, <var>1</var>, <var>0</var>);</td></tr>
+<tr><th id="19">19</th><td>}</td></tr>
 <tr><th id="20">20</th><td></td></tr>
-<tr><th id="21">21</th><td><em>int</em> <dfn class="decl def fn" id="main" title='main' data-ref="main" data-ref-filename="main">main</dfn>(<em>void</em>)</td></tr>
+<tr><th id="21">21</th><td><em>void</em> <dfn class="decl def fn" id="print_int" title='print_int' data-ref="print_int" data-ref-filename="print_int">print_int</dfn>(<em>int</em> <dfn class="local col0 decl" id="40i" title='i' data-type='int' data-ref="40i" data-ref-filename="40i">i</dfn>)</td></tr>
 <tr><th id="22">22</th><td>{</td></tr>
-<tr><th id="23">23</th><td>    <em>int</em> <dfn class="local col0 decl" id="40fd" title='fd' data-type='int' data-ref="40fd" data-ref-filename="40fd">fd</dfn> = <a class="ref fn" href="../../build/include/mos/ksyscall/usermode.h.html#invoke_ksyscall_file_open" title='invoke_ksyscall_file_open' data-ref="invoke_ksyscall_file_open" data-ref-filename="invoke_ksyscall_file_open">invoke_ksyscall_file_open</a>(<q>"/assets/msg.txt"</q>, <a class="enum" href="../../include/mos/filesystem/filesystem.h.html#FILE_OPEN_READ" title='FILE_OPEN_READ' data-ref="FILE_OPEN_READ" data-ref-filename="FILE_OPEN_READ">FILE_OPEN_READ</a>);</td></tr>
-<tr><th id="24">24</th><td>    <b>if</b> (<a class="local col0 ref" href="#40fd" title='fd' data-ref="40fd" data-ref-filename="40fd">fd</a> &lt; <var>0</var>)</td></tr>
-<tr><th id="25">25</th><td>        <a class="ref fn" href="#print_err" title='print_err' data-ref="print_err" data-ref-filename="print_err">print_err</a>(<q>"Failed to open /assets/msg.txt"</q>);</td></tr>
-<tr><th id="26">26</th><td>    <b>else</b></td></tr>
-<tr><th id="27">27</th><td>    {</td></tr>
-<tr><th id="28">28</th><td>        <span class='typedef' title='size_t' data-type='unsigned long' data-ref="size_t" data-ref-filename="size_t">size_t</span> <dfn class="local col1 decl" id="41read" title='read' data-type='size_t' data-ref="41read" data-ref-filename="41read">read</dfn> = <a class="ref fn" href="../../build/include/mos/ksyscall/usermode.h.html#invoke_ksyscall_io_read" title='invoke_ksyscall_io_read' data-ref="invoke_ksyscall_io_read" data-ref-filename="invoke_ksyscall_io_read">invoke_ksyscall_io_read</a>(<a class="local col0 ref" href="#40fd" title='fd' data-ref="40fd" data-ref-filename="40fd">fd</a>, <a class="tu ref" href="#buf" title='buf' data-use='r' data-ref="buf" data-ref-filename="buf">buf</a>, <var>512</var>, <var>0</var>);</td></tr>
-<tr><th id="29">29</th><td>        <a class="ref fn" href="#print" title='print' data-ref="print" data-ref-filename="print">print</a>(<q>"\n"</q>);</td></tr>
-<tr><th id="30">30</th><td>        <a class="ref fn" href="../../build/include/mos/ksyscall/usermode.h.html#invoke_ksyscall_io_write" title='invoke_ksyscall_io_write' data-ref="invoke_ksyscall_io_write" data-ref-filename="invoke_ksyscall_io_write">invoke_ksyscall_io_write</a>(<a class="macro" href="../include/libuserspace.h.html#6" title="1" data-ref="_M/stdout">stdout</a>, <a class="tu ref" href="#buf" title='buf' data-use='r' data-ref="buf" data-ref-filename="buf">buf</a>, <a class="local col1 ref" href="#41read" title='read' data-ref="41read" data-ref-filename="41read">read</a>, <var>0</var>);</td></tr>
-<tr><th id="31">31</th><td>        <a class="ref fn" href="../../build/include/mos/ksyscall/usermode.h.html#invoke_ksyscall_io_close" title='invoke_ksyscall_io_close' data-ref="invoke_ksyscall_io_close" data-ref-filename="invoke_ksyscall_io_close">invoke_ksyscall_io_close</a>(<a class="local col0 ref" href="#40fd" title='fd' data-ref="40fd" data-ref-filename="40fd">fd</a>);</td></tr>
-<tr><th id="32">32</th><td>    }</td></tr>
-<tr><th id="33">33</th><td></td></tr>
-<tr><th id="34">34</th><td>    <a class="typedef" href="../../include/mos/types.h.html#pid_t" title='pid_t' data-type='id_t' data-ref="pid_t" data-ref-filename="pid_t">pid_t</a> <dfn class="local col2 decl" id="42my_pid" title='my_pid' data-type='pid_t' data-ref="42my_pid" data-ref-filename="42my_pid">my_pid</dfn> = <a class="ref fn" href="../../build/include/mos/ksyscall/usermode.h.html#invoke_ksyscall_get_pid" title='invoke_ksyscall_get_pid' data-ref="invoke_ksyscall_get_pid" data-ref-filename="invoke_ksyscall_get_pid">invoke_ksyscall_get_pid</a>();</td></tr>
-<tr><th id="35">35</th><td>    <a class="macro" href="../../include/mos/mos_global.h.html#38" title="(void) (my_pid)" data-ref="_M/MOS_UNUSED">MOS_UNUSED</a>(<a class="local col2 ref" href="#42my_pid" title='my_pid' data-ref="42my_pid" data-ref-filename="42my_pid">my_pid</a>);</td></tr>
-<tr><th id="36">36</th><td></td></tr>
-<tr><th id="37">37</th><td>    <a class="typedef" href="../../include/mos/types.h.html#pid_t" title='pid_t' data-type='id_t' data-ref="pid_t" data-ref-filename="pid_t">pid_t</a> <dfn class="local col3 decl" id="43pid" title='pid' data-type='pid_t' data-ref="43pid" data-ref-filename="43pid">pid</dfn> = <a class="ref fn" href="../../build/include/mos/ksyscall/usermode.h.html#invoke_ksyscall_fork" title='invoke_ksyscall_fork' data-ref="invoke_ksyscall_fork" data-ref-filename="invoke_ksyscall_fork">invoke_ksyscall_fork</a>();</td></tr>
+<tr><th id="23">23</th><td>    <b>switch</b> (<a class="local col0 ref" href="#40i" title='i' data-ref="40i" data-ref-filename="40i">i</a>)</td></tr>
+<tr><th id="24">24</th><td>    {</td></tr>
+<tr><th id="25">25</th><td>        <b>case</b> <var>0</var>: <a class="ref fn" href="#print" title='print' data-ref="print" data-ref-filename="print">print</a>(<q>"0"</q>); <b>break</b>;</td></tr>
+<tr><th id="26">26</th><td>        <b>case</b> <var>1</var>: <a class="ref fn" href="#print" title='print' data-ref="print" data-ref-filename="print">print</a>(<q>"1"</q>); <b>break</b>;</td></tr>
+<tr><th id="27">27</th><td>        <b>case</b> <var>2</var>: <a class="ref fn" href="#print" title='print' data-ref="print" data-ref-filename="print">print</a>(<q>"2"</q>); <b>break</b>;</td></tr>
+<tr><th id="28">28</th><td>        <b>case</b> <var>3</var>: <a class="ref fn" href="#print" title='print' data-ref="print" data-ref-filename="print">print</a>(<q>"3"</q>); <b>break</b>;</td></tr>
+<tr><th id="29">29</th><td>        <b>case</b> <var>4</var>: <a class="ref fn" href="#print" title='print' data-ref="print" data-ref-filename="print">print</a>(<q>"4"</q>); <b>break</b>;</td></tr>
+<tr><th id="30">30</th><td>        <b>case</b> <var>5</var>: <a class="ref fn" href="#print" title='print' data-ref="print" data-ref-filename="print">print</a>(<q>"5"</q>); <b>break</b>;</td></tr>
+<tr><th id="31">31</th><td>        <b>case</b> <var>6</var>: <a class="ref fn" href="#print" title='print' data-ref="print" data-ref-filename="print">print</a>(<q>"6"</q>); <b>break</b>;</td></tr>
+<tr><th id="32">32</th><td>        <b>case</b> <var>7</var>: <a class="ref fn" href="#print" title='print' data-ref="print" data-ref-filename="print">print</a>(<q>"7"</q>); <b>break</b>;</td></tr>
+<tr><th id="33">33</th><td>        <b>case</b> <var>8</var>: <a class="ref fn" href="#print" title='print' data-ref="print" data-ref-filename="print">print</a>(<q>"8"</q>); <b>break</b>;</td></tr>
+<tr><th id="34">34</th><td>        <b>case</b> <var>9</var>: <a class="ref fn" href="#print" title='print' data-ref="print" data-ref-filename="print">print</a>(<q>"9"</q>); <b>break</b>;</td></tr>
+<tr><th id="35">35</th><td>        <b>case</b> <var>10</var>: <a class="ref fn" href="#print" title='print' data-ref="print" data-ref-filename="print">print</a>(<q>"10"</q>); <b>break</b>;</td></tr>
+<tr><th id="36">36</th><td>    }</td></tr>
+<tr><th id="37">37</th><td>}</td></tr>
 <tr><th id="38">38</th><td></td></tr>
-<tr><th id="39">39</th><td>    <b>if</b> (<a class="local col3 ref" href="#43pid" title='pid' data-ref="43pid" data-ref-filename="43pid">pid</a> == <var>0</var>)</td></tr>
-<tr><th id="40">40</th><td>    {</td></tr>
-<tr><th id="41">41</th><td>        <a class="ref fn" href="#print" title='print' data-ref="print" data-ref-filename="print">print</a>(<q>"Child process\n"</q>);</td></tr>
-<tr><th id="42">42</th><td>    }</td></tr>
-<tr><th id="43">43</th><td>    <b>else</b></td></tr>
-<tr><th id="44">44</th><td>    {</td></tr>
-<tr><th id="45">45</th><td>        <a class="ref fn" href="#print" title='print' data-ref="print" data-ref-filename="print">print</a>(<q>"Parent process\n"</q>);</td></tr>
-<tr><th id="46">46</th><td>    }</td></tr>
-<tr><th id="47">47</th><td></td></tr>
-<tr><th id="48">48</th><td>    <b>while</b> (<var>1</var>)</td></tr>
-<tr><th id="49">49</th><td>        <a class="ref fn" href="../../build/include/mos/ksyscall/usermode.h.html#invoke_ksyscall_yield_cpu" title='invoke_ksyscall_yield_cpu' data-ref="invoke_ksyscall_yield_cpu" data-ref-filename="invoke_ksyscall_yield_cpu">invoke_ksyscall_yield_cpu</a>();</td></tr>
-<tr><th id="50">50</th><td></td></tr>
-<tr><th id="51">51</th><td>    <b>return</b> <var>0</var>;</td></tr>
-<tr><th id="52">52</th><td>}</td></tr>
-<tr><th id="53">53</th><td></td></tr>
+<tr><th id="39">39</th><td><em>static</em> <em>char</em> <dfn class="tu decl def" id="buf" title='buf' data-type='char [2048]' data-ref="buf" data-ref-filename="buf">buf</dfn>[<var>2</var> <a class="macro" href="../../include/mos/constants.h.html#22" title="* 1024 * 1" data-ref="_M/KB">KB</a>] = { <var>0</var> };</td></tr>
+<tr><th id="40">40</th><td></td></tr>
+<tr><th id="41">41</th><td><em>int</em> <dfn class="decl def fn" id="main" title='main' data-ref="main" data-ref-filename="main">main</dfn>(<em>void</em>)</td></tr>
+<tr><th id="42">42</th><td>{</td></tr>
+<tr><th id="43">43</th><td>    <em>volatile</em> <em>int</em> <dfn class="local col1 decl" id="41mm" title='mm' data-type='volatile int' data-ref="41mm" data-ref-filename="41mm">mm</dfn> = <var>11</var>;</td></tr>
+<tr><th id="44">44</th><td>    <em>int</em> <dfn class="local col2 decl" id="42fd" title='fd' data-type='int' data-ref="42fd" data-ref-filename="42fd">fd</dfn> = <a class="ref fn" href="../../build/include/mos/ksyscall/usermode.h.html#invoke_ksyscall_file_open" title='invoke_ksyscall_file_open' data-ref="invoke_ksyscall_file_open" data-ref-filename="invoke_ksyscall_file_open">invoke_ksyscall_file_open</a>(<q>"/assets/msg.txt"</q>, <a class="enum" href="../../include/mos/filesystem/filesystem.h.html#FILE_OPEN_READ" title='FILE_OPEN_READ' data-ref="FILE_OPEN_READ" data-ref-filename="FILE_OPEN_READ">FILE_OPEN_READ</a>);</td></tr>
+<tr><th id="45">45</th><td>    <b>if</b> (<a class="local col2 ref" href="#42fd" title='fd' data-ref="42fd" data-ref-filename="42fd">fd</a> &lt; <var>0</var>)</td></tr>
+<tr><th id="46">46</th><td>        <a class="ref fn" href="#print_err" title='print_err' data-ref="print_err" data-ref-filename="print_err">print_err</a>(<q>"Failed to open /assets/msg.txt"</q>);</td></tr>
+<tr><th id="47">47</th><td>    <b>else</b></td></tr>
+<tr><th id="48">48</th><td>    {</td></tr>
+<tr><th id="49">49</th><td>        <span class='typedef' title='size_t' data-type='unsigned long' data-ref="size_t" data-ref-filename="size_t">size_t</span> <dfn class="local col3 decl" id="43read" title='read' data-type='size_t' data-ref="43read" data-ref-filename="43read">read</dfn> = <a class="ref fn" href="../../build/include/mos/ksyscall/usermode.h.html#invoke_ksyscall_io_read" title='invoke_ksyscall_io_read' data-ref="invoke_ksyscall_io_read" data-ref-filename="invoke_ksyscall_io_read">invoke_ksyscall_io_read</a>(<a class="local col2 ref" href="#42fd" title='fd' data-ref="42fd" data-ref-filename="42fd">fd</a>, <a class="tu ref" href="#buf" title='buf' data-use='r' data-ref="buf" data-ref-filename="buf">buf</a>, <var>512</var>, <var>0</var>);</td></tr>
+<tr><th id="50">50</th><td>        <a class="ref fn" href="#print" title='print' data-ref="print" data-ref-filename="print">print</a>(<q>"\n"</q>);</td></tr>
+<tr><th id="51">51</th><td>        <a class="ref fn" href="../../build/include/mos/ksyscall/usermode.h.html#invoke_ksyscall_io_write" title='invoke_ksyscall_io_write' data-ref="invoke_ksyscall_io_write" data-ref-filename="invoke_ksyscall_io_write">invoke_ksyscall_io_write</a>(<a class="macro" href="../include/libuserspace.h.html#6" title="1" data-ref="_M/stdout">stdout</a>, <a class="tu ref" href="#buf" title='buf' data-use='r' data-ref="buf" data-ref-filename="buf">buf</a>, <a class="local col3 ref" href="#43read" title='read' data-ref="43read" data-ref-filename="43read">read</a>, <var>0</var>);</td></tr>
+<tr><th id="52">52</th><td>        <a class="ref fn" href="../../build/include/mos/ksyscall/usermode.h.html#invoke_ksyscall_io_close" title='invoke_ksyscall_io_close' data-ref="invoke_ksyscall_io_close" data-ref-filename="invoke_ksyscall_io_close">invoke_ksyscall_io_close</a>(<a class="local col2 ref" href="#42fd" title='fd' data-ref="42fd" data-ref-filename="42fd">fd</a>);</td></tr>
+<tr><th id="53">53</th><td>    }</td></tr>
+<tr><th id="54">54</th><td></td></tr>
+<tr><th id="55">55</th><td>    <a class="typedef" href="../../include/mos/types.h.html#pid_t" title='pid_t' data-type='id_t' data-ref="pid_t" data-ref-filename="pid_t">pid_t</a> <dfn class="local col4 decl" id="44my_pid" title='my_pid' data-type='pid_t' data-ref="44my_pid" data-ref-filename="44my_pid">my_pid</dfn> = <a class="ref fn" href="../../build/include/mos/ksyscall/usermode.h.html#invoke_ksyscall_get_pid" title='invoke_ksyscall_get_pid' data-ref="invoke_ksyscall_get_pid" data-ref-filename="invoke_ksyscall_get_pid">invoke_ksyscall_get_pid</a>();</td></tr>
+<tr><th id="56">56</th><td>    <a class="ref fn" href="#print_int" title='print_int' data-ref="print_int" data-ref-filename="print_int">print_int</a>(<a class="local col4 ref" href="#44my_pid" title='my_pid' data-ref="44my_pid" data-ref-filename="44my_pid">my_pid</a>);</td></tr>
+<tr><th id="57">57</th><td></td></tr>
+<tr><th id="58">58</th><td>    <a class="typedef" href="../../include/mos/types.h.html#pid_t" title='pid_t' data-type='id_t' data-ref="pid_t" data-ref-filename="pid_t">pid_t</a> <dfn class="local col5 decl" id="45pid" title='pid' data-type='pid_t' data-ref="45pid" data-ref-filename="45pid">pid</dfn> = <a class="ref fn" href="../../build/include/mos/ksyscall/usermode.h.html#invoke_ksyscall_fork" title='invoke_ksyscall_fork' data-ref="invoke_ksyscall_fork" data-ref-filename="invoke_ksyscall_fork">invoke_ksyscall_fork</a>();</td></tr>
+<tr><th id="59">59</th><td></td></tr>
+<tr><th id="60">60</th><td>    <b>if</b> (<a class="local col1 ref" href="#41mm" title='mm' data-ref="41mm" data-ref-filename="41mm">mm</a> != <var>11</var>)</td></tr>
+<tr><th id="61">61</th><td>        <a class="ref fn" href="../../build/include/mos/ksyscall/usermode.h.html#invoke_ksyscall_panic" title='invoke_ksyscall_panic' data-ref="invoke_ksyscall_panic" data-ref-filename="invoke_ksyscall_panic">invoke_ksyscall_panic</a>();</td></tr>
+<tr><th id="62">62</th><td></td></tr>
+<tr><th id="63">63</th><td>    <b>if</b> (<a class="local col5 ref" href="#45pid" title='pid' data-ref="45pid" data-ref-filename="45pid">pid</a> == <var>0</var>)</td></tr>
+<tr><th id="64">64</th><td>    {</td></tr>
+<tr><th id="65">65</th><td>        <a class="ref fn" href="#print" title='print' data-ref="print" data-ref-filename="print">print</a>(<q>"Child process"</q>);</td></tr>
+<tr><th id="66">66</th><td>    }</td></tr>
+<tr><th id="67">67</th><td>    <b>else</b></td></tr>
+<tr><th id="68">68</th><td>    {</td></tr>
+<tr><th id="69">69</th><td>        <a class="ref fn" href="#print" title='print' data-ref="print" data-ref-filename="print">print</a>(<q>"Parent process"</q>);</td></tr>
+<tr><th id="70">70</th><td>    }</td></tr>
+<tr><th id="71">71</th><td></td></tr>
+<tr><th id="72">72</th><td>    <a class="typedef" href="../../include/mos/types.h.html#pid_t" title='pid_t' data-type='id_t' data-ref="pid_t" data-ref-filename="pid_t">pid_t</a> <dfn class="local col6 decl" id="46my_pid2" title='my_pid2' data-type='pid_t' data-ref="46my_pid2" data-ref-filename="46my_pid2">my_pid2</dfn> = <a class="ref fn" href="../../build/include/mos/ksyscall/usermode.h.html#invoke_ksyscall_get_pid" title='invoke_ksyscall_get_pid' data-ref="invoke_ksyscall_get_pid" data-ref-filename="invoke_ksyscall_get_pid">invoke_ksyscall_get_pid</a>();</td></tr>
+<tr><th id="73">73</th><td>    <a class="ref fn" href="#print_int" title='print_int' data-ref="print_int" data-ref-filename="print_int">print_int</a>(<a class="local col6 ref" href="#46my_pid2" title='my_pid2' data-ref="46my_pid2" data-ref-filename="46my_pid2">my_pid2</a>);</td></tr>
+<tr><th id="74">74</th><td></td></tr>
+<tr><th id="75">75</th><td>    <a class="typedef" href="../../include/mos/types.h.html#pid_t" title='pid_t' data-type='id_t' data-ref="pid_t" data-ref-filename="pid_t">pid_t</a> <dfn class="local col7 decl" id="47another_fork" title='another_fork' data-type='pid_t' data-ref="47another_fork" data-ref-filename="47another_fork">another_fork</dfn> = <a class="ref fn" href="../../build/include/mos/ksyscall/usermode.h.html#invoke_ksyscall_fork" title='invoke_ksyscall_fork' data-ref="invoke_ksyscall_fork" data-ref-filename="invoke_ksyscall_fork">invoke_ksyscall_fork</a>();</td></tr>
+<tr><th id="76">76</th><td>    <b>if</b> (<a class="local col7 ref" href="#47another_fork" title='another_fork' data-ref="47another_fork" data-ref-filename="47another_fork">another_fork</a> == <var>0</var>)</td></tr>
+<tr><th id="77">77</th><td>    {</td></tr>
+<tr><th id="78">78</th><td>        <a class="ref fn" href="#print" title='print' data-ref="print" data-ref-filename="print">print</a>(<q>"Child process"</q>);</td></tr>
+<tr><th id="79">79</th><td>    }</td></tr>
+<tr><th id="80">80</th><td>    <b>else</b></td></tr>
+<tr><th id="81">81</th><td>    {</td></tr>
+<tr><th id="82">82</th><td>        <a class="ref fn" href="#print" title='print' data-ref="print" data-ref-filename="print">print</a>(<q>"Parent process"</q>);</td></tr>
+<tr><th id="83">83</th><td>    }</td></tr>
+<tr><th id="84">84</th><td></td></tr>
+<tr><th id="85">85</th><td>    <a class="typedef" href="../../include/mos/types.h.html#pid_t" title='pid_t' data-type='id_t' data-ref="pid_t" data-ref-filename="pid_t">pid_t</a> <dfn class="local col8 decl" id="48haha" title='haha' data-type='pid_t' data-ref="48haha" data-ref-filename="48haha">haha</dfn> = <a class="ref fn" href="../../build/include/mos/ksyscall/usermode.h.html#invoke_ksyscall_get_pid" title='invoke_ksyscall_get_pid' data-ref="invoke_ksyscall_get_pid" data-ref-filename="invoke_ksyscall_get_pid">invoke_ksyscall_get_pid</a>();</td></tr>
+<tr><th id="86">86</th><td>    <a class="ref fn" href="#print_int" title='print_int' data-ref="print_int" data-ref-filename="print_int">print_int</a>(<a class="local col8 ref" href="#48haha" title='haha' data-ref="48haha" data-ref-filename="48haha">haha</a>);</td></tr>
+<tr><th id="87">87</th><td></td></tr>
+<tr><th id="88">88</th><td>    <b>while</b> (<var>1</var>)</td></tr>
+<tr><th id="89">89</th><td>        <a class="ref fn" href="../../build/include/mos/ksyscall/usermode.h.html#invoke_ksyscall_yield_cpu" title='invoke_ksyscall_yield_cpu' data-ref="invoke_ksyscall_yield_cpu" data-ref-filename="invoke_ksyscall_yield_cpu">invoke_ksyscall_yield_cpu</a>();</td></tr>
+<tr><th id="90">90</th><td></td></tr>
+<tr><th id="91">91</th><td>    <b>return</b> <var>0</var>;</td></tr>
+<tr><th id="92">92</th><td>}</td></tr>
+<tr><th id="93">93</th><td></td></tr>
 </table><hr/><p id='footer'>
 Generated on <em>2022-Oct-30</em> from project MOS<br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
 <br/>Generator usage only permitted with license.</p>

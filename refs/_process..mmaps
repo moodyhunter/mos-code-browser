@@ -3,8 +3,8 @@
 <use f='MOS/kernel/mm/cow.c' l='46' u='r' c='cow_handle_page_fault'/>
 <use f='MOS/kernel/mm/cow.c' l='53' u='r' c='cow_handle_page_fault'/>
 <use f='MOS/kernel/mm/cow.c' l='60' u='r' c='cow_handle_page_fault'/>
-<use f='MOS/kernel/tasks/fork.c' l='23' u='r' c='process_handle_fork'/>
-<use f='MOS/kernel/tasks/fork.c' l='30' u='r' c='process_handle_fork'/>
+<use f='MOS/kernel/tasks/fork.c' l='25' u='r' c='process_handle_fork'/>
+<use f='MOS/kernel/tasks/fork.c' l='43' u='r' c='process_handle_fork'/>
 <use f='MOS/kernel/tasks/process.c' l='142' u='w' c='process_attach_mmap'/>
 <use f='MOS/kernel/tasks/process.c' l='142' u='r' c='process_attach_mmap'/>
 <use f='MOS/kernel/tasks/process.c' l='143' u='r' c='process_attach_mmap'/>

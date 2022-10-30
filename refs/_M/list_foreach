@@ -1,5 +1,5 @@
 <dec f='MOS/include/lib/structures/list.h' l='17'/>
-<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='262' u='c'/>
+<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='273' u='c'/>
 <use f='MOS/kernel/panic.c' l='60' u='c'/>
 <use f='MOS/kernel/printk.c' l='36' u='c'/>
 <use f='MOS/kernel/printk.c' l='55' u='c'/>
