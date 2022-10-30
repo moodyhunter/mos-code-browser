@@ -14,4 +14,4 @@
 <use f='MOS/arch/x86/interrupt/apic.c' l='99' u='m' c='apic_enable'/>
 <use f='MOS/arch/x86/interrupt/apic.c' l='102' u='m' c='apic_enable'/>
 <use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='104' u='r' c='x86_handle_interrupt'/>
-<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='249' u='r' c='x86_handle_exception'/>
+<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='247' u='r' c='x86_handle_exception'/>

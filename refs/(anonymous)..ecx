@@ -12,4 +12,4 @@
 <use f='MOS/arch/x86/cpu/cpuid.c' l='51' u='r' c='cpuid_get_brand_string'/>
 <use f='MOS/arch/x86/cpu/cpuid.c' l='56' u='r' c='cpuid_get_brand_string'/>
 <use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='104' u='r' c='x86_handle_interrupt'/>
-<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='249' u='r' c='x86_handle_exception'/>
+<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='247' u='r' c='x86_handle_exception'/>

@@ -7,10 +7,10 @@
 <use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='92' macro='1' u='r' c='x86_handle_interrupt'/>
 <use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='112' macro='1' u='r' c='x86_handle_interrupt'/>
 <use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='114' macro='1' u='r' c='x86_handle_interrupt'/>
-<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='184' macro='1' u='r' c='x86_handle_exception'/>
-<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='186' macro='1' u='r' c='x86_handle_exception'/>
-<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='186' macro='1' u='r' c='x86_handle_exception'/>
-<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='186' macro='1' u='r' c='x86_handle_exception'/>
+<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='185' macro='1' u='r' c='x86_handle_exception'/>
+<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='187' macro='1' u='r' c='x86_handle_exception'/>
+<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='187' macro='1' u='r' c='x86_handle_exception'/>
+<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='187' macro='1' u='r' c='x86_handle_exception'/>
 <use f='MOS/arch/x86/tasks/context.c' l='37' macro='1' u='r' c='x86_switch_to_thread'/>
 <use f='MOS/arch/x86/x86_platform.c' l='61' macro='1' u='r' c='x86_kpanic_hook'/>
 <use f='MOS/arch/x86/x86_platform.c' l='63' macro='1' u='r' c='x86_kpanic_hook'/>
@@ -38,8 +38,8 @@
 <use f='MOS/kernel/ksyscall.c' l='88' macro='1' u='r' c='ksyscall_get_pid'/>
 <use f='MOS/kernel/ksyscall.c' l='89' macro='1' u='r' c='ksyscall_get_pid'/>
 <use f='MOS/kernel/mm/cow.c' l='23' macro='1' u='r' c='copy_cow_pages_inplace'/>
-<use f='MOS/kernel/mm/cow.c' l='39' macro='1' u='r' c='cow_handle_page_fault'/>
 <use f='MOS/kernel/mm/cow.c' l='42' macro='1' u='r' c='cow_handle_page_fault'/>
+<use f='MOS/kernel/mm/cow.c' l='48' macro='1' u='r' c='cow_handle_page_fault'/>
 <use f='MOS/kernel/mm/memops.c' l='13' macro='1' u='r' c='mm_map_proxy_space'/>
 <use f='MOS/kernel/mm/memops.c' l='14' macro='1' u='r' c='mm_map_proxy_space'/>
 <use f='MOS/kernel/mm/memops.c' l='20' macro='1' u='r' c='mm_unmap_proxy_space'/>

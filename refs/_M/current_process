@@ -12,4 +12,4 @@
 <use f='MOS/kernel/ksyscall.c' l='88' u='c'/>
 <use f='MOS/kernel/ksyscall.c' l='89' u='c'/>
 <use f='MOS/kernel/mm/cow.c' l='23' u='c'/>
-<use f='MOS/kernel/mm/cow.c' l='42' u='c'/>
+<use f='MOS/kernel/mm/cow.c' l='48' u='c'/>

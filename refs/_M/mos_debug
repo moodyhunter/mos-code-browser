@@ -26,6 +26,6 @@
 <use f='MOS/kernel/filesystem/pathutils.c' l='184' u='c'/>
 <use f='MOS/kernel/io/io.c' l='16' u='c'/>
 <use f='MOS/kernel/io/io.c' l='22' u='c'/>
-<use f='MOS/kernel/mm/cow.c' l='56' u='c'/>
+<use f='MOS/kernel/mm/cow.c' l='62' u='c'/>
 <use f='MOS/kernel/tasks/fork.c' l='28' u='c'/>
 <use f='MOS/kernel/tasks/process.c' l='151' u='c'/>
