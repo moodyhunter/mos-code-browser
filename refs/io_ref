@@ -1,4 +1,4 @@
 <dec f='MOS/include/mos/io/io.h' l='39' type='void io_ref(io_t * io)'/>
 <use f='MOS/kernel/filesystem/filesystem.c' l='139' u='c' c='vfs_path_open'/>
 <def f='MOS/kernel/io/io.c' l='14' ll='18' type='void io_ref(io_t * io)'/>
-<use f='MOS/kernel/tasks/fork.c' l='51' u='c' c='process_handle_fork'/>
+<use f='MOS/kernel/tasks/fork.c' l='53' u='c' c='process_handle_fork'/>

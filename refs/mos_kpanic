@@ -74,7 +74,7 @@
 <def f='MOS/kernel/panic.c' l='34' ll='70' macro='1' type='void mos_kpanic(const char * func, u32 line, const char * fmt)'/>
 <use f='MOS/kernel/stack_protector.c' l='10' macro='1' u='c' c='__stack_chk_fail'/>
 <use f='MOS/kernel/tasks/fork.c' l='15' macro='1' u='c' c='process_handle_fork'/>
-<use f='MOS/kernel/tasks/fork.c' l='33' macro='1' u='c' c='process_handle_fork'/>
+<use f='MOS/kernel/tasks/fork.c' l='35' macro='1' u='c' c='process_handle_fork'/>
 <use f='MOS/kernel/tasks/process.c' l='94' macro='1' u='c' c='process_new'/>
 <use f='MOS/kernel/tasks/process.c' l='108' macro='1' u='c' c='process_attach_fd'/>
 <use f='MOS/kernel/tasks/process.c' l='122' macro='1' u='c' c='process_detach_fd'/>

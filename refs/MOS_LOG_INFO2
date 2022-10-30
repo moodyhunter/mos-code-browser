@@ -55,7 +55,6 @@
 <use f='MOS/kernel/io/io.c' l='50' macro='1' u='r' c='io_write'/>
 <use f='MOS/kernel/mm/cow.c' l='62' macro='1' u='r' c='cow_handle_page_fault'/>
 <use f='MOS/kernel/printk.c' l='17' c='deduce_level_color'/>
-<use f='MOS/kernel/tasks/fork.c' l='16' macro='1' u='r' c='process_handle_fork'/>
-<use f='MOS/kernel/tasks/fork.c' l='26' macro='1' u='r' c='process_handle_fork'/>
+<use f='MOS/kernel/tasks/fork.c' l='28' macro='1' u='r' c='process_handle_fork'/>
 <use f='MOS/kernel/tasks/process.c' l='136' macro='1' u='r' c='process_attach_thread'/>
 <use f='MOS/kernel/tasks/process.c' l='152' macro='1' u='r' c='process_handle_exit'/>
