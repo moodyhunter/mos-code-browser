@@ -36,6 +36,9 @@
 <use f='MOS/kernel/ksyscall.c' l='74' macro='1' u='m' c='ksyscall_fork'/>
 <use f='MOS/kernel/ksyscall.c' l='88' macro='1' u='m' c='ksyscall_get_pid'/>
 <use f='MOS/kernel/ksyscall.c' l='89' macro='1' u='m' c='ksyscall_get_pid'/>
+<use f='MOS/kernel/ksyscall.c' l='94' macro='1' u='m' c='ksyscall_get_parent_pid'/>
+<use f='MOS/kernel/ksyscall.c' l='94' macro='1' u='m' c='ksyscall_get_parent_pid'/>
+<use f='MOS/kernel/ksyscall.c' l='95' macro='1' u='m' c='ksyscall_get_parent_pid'/>
 <use f='MOS/kernel/mm/cow.c' l='23' macro='1' u='m' c='copy_cow_pages_inplace'/>
 <use f='MOS/kernel/mm/cow.c' l='42' macro='1' u='m' c='cow_handle_page_fault'/>
 <use f='MOS/kernel/mm/cow.c' l='48' macro='1' u='m' c='cow_handle_page_fault'/>
@@ -43,7 +46,7 @@
 <use f='MOS/kernel/mm/memops.c' l='14' macro='1' u='m' c='mm_map_proxy_space'/>
 <use f='MOS/kernel/mm/memops.c' l='20' macro='1' u='m' c='mm_unmap_proxy_space'/>
 <use f='MOS/kernel/mm/memops.c' l='25' macro='1' u='m' c='mm_copy_pages'/>
-<use f='MOS/kernel/tasks/fork.c' l='61' macro='1' u='m' c='process_handle_fork'/>
+<use f='MOS/kernel/tasks/fork.c' l='59' macro='1' u='m' c='process_handle_fork'/>
 <use f='MOS/kernel/tasks/schedule.c' l='14' macro='1' u='m' c='mos_update_current'/>
 <use f='MOS/kernel/tasks/schedule.c' l='15' macro='1' u='m' c='mos_update_current'/>
 <use f='MOS/kernel/tasks/schedule.c' l='16' macro='1' u='m' c='mos_update_current'/>

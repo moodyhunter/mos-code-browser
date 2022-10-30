@@ -3,7 +3,7 @@
 <offset>64</offset>
 <use f='MOS/arch/x86/x86_platform.c' l='65' u='r' c='x86_kpanic_hook'/>
 <use f='MOS/kernel/kernel_init.c' l='98' u='r' c='mos_start_kernel'/>
-<use f='MOS/kernel/tasks/fork.c' l='20' u='r' c='process_handle_fork'/>
+<use f='MOS/kernel/tasks/fork.c' l='18' u='r' c='process_handle_fork'/>
 <use f='MOS/kernel/tasks/process.c' l='49' u='w' c='process_allocate'/>
-<use f='MOS/kernel/tasks/process.c' l='65' u='w' c='process_allocate'/>
-<use f='MOS/kernel/tasks/process.c' l='66' u='r' c='process_allocate'/>
+<use f='MOS/kernel/tasks/process.c' l='66' u='w' c='process_allocate'/>
+<use f='MOS/kernel/tasks/process.c' l='67' u='r' c='process_allocate'/>

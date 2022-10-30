@@ -62,6 +62,7 @@
 <use f='MOS/kernel/ksyscall.c' l='54' macro='1' u='c' c='ksyscall_exit'/>
 <use f='MOS/kernel/ksyscall.c' l='59' macro='1' u='c' c='ksyscall_exit'/>
 <use f='MOS/kernel/ksyscall.c' l='88' macro='1' u='c' c='ksyscall_get_pid'/>
+<use f='MOS/kernel/ksyscall.c' l='94' macro='1' u='c' c='ksyscall_get_parent_pid'/>
 <use f='MOS/kernel/mm/cow.c' l='60' macro='1' u='c' c='cow_handle_page_fault'/>
 <use f='MOS/kernel/mm/liballoc.c' l='69' macro='1' u='c' c='kheap_alloc_page'/>
 <use f='MOS/kernel/mm/liballoc.c' l='72' macro='1' u='c' c='kheap_alloc_page'/>
@@ -73,16 +74,16 @@
 <def f='MOS/kernel/panic.c' l='34' ll='70' macro='1' type='void mos_kpanic(const char * func, u32 line, const char * fmt)'/>
 <use f='MOS/kernel/stack_protector.c' l='10' macro='1' u='c' c='__stack_chk_fail'/>
 <use f='MOS/kernel/tasks/fork.c' l='15' macro='1' u='c' c='process_handle_fork'/>
-<use f='MOS/kernel/tasks/fork.c' l='35' macro='1' u='c' c='process_handle_fork'/>
-<use f='MOS/kernel/tasks/process.c' l='93' macro='1' u='c' c='process_new'/>
-<use f='MOS/kernel/tasks/process.c' l='107' macro='1' u='c' c='process_attach_fd'/>
-<use f='MOS/kernel/tasks/process.c' l='121' macro='1' u='c' c='process_detach_fd'/>
-<use f='MOS/kernel/tasks/process.c' l='132' macro='1' u='c' c='process_attach_thread'/>
+<use f='MOS/kernel/tasks/fork.c' l='33' macro='1' u='c' c='process_handle_fork'/>
+<use f='MOS/kernel/tasks/process.c' l='94' macro='1' u='c' c='process_new'/>
+<use f='MOS/kernel/tasks/process.c' l='108' macro='1' u='c' c='process_attach_fd'/>
+<use f='MOS/kernel/tasks/process.c' l='122' macro='1' u='c' c='process_detach_fd'/>
 <use f='MOS/kernel/tasks/process.c' l='133' macro='1' u='c' c='process_attach_thread'/>
 <use f='MOS/kernel/tasks/process.c' l='134' macro='1' u='c' c='process_attach_thread'/>
-<use f='MOS/kernel/tasks/process.c' l='141' macro='1' u='c' c='process_attach_mmap'/>
-<use f='MOS/kernel/tasks/process.c' l='148' macro='1' u='c' c='process_handle_exit'/>
-<use f='MOS/kernel/tasks/process.c' l='182' macro='1' u='c' c='process_dump_mmaps'/>
+<use f='MOS/kernel/tasks/process.c' l='135' macro='1' u='c' c='process_attach_thread'/>
+<use f='MOS/kernel/tasks/process.c' l='142' macro='1' u='c' c='process_attach_mmap'/>
+<use f='MOS/kernel/tasks/process.c' l='149' macro='1' u='c' c='process_handle_exit'/>
+<use f='MOS/kernel/tasks/process.c' l='183' macro='1' u='c' c='process_dump_mmaps'/>
 <use f='MOS/kernel/tasks/schedule.c' l='26' macro='1' u='c' c='schedule_to_thread'/>
 <use f='MOS/kernel/tasks/task_io.c' l='13' macro='1' u='c' c='stdin_read'/>
 <use f='MOS/kernel/tasks/task_io.c' l='25' macro='1' u='c' c='stdout_write'/>

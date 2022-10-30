@@ -1,4 +1,4 @@
 <dec f='MOS/include/mos/tasks/task_type.h' l='37' type='uid_t'/>
 <offset>256</offset>
-<use f='MOS/kernel/tasks/fork.c' l='20' u='r' c='process_handle_fork'/>
-<use f='MOS/kernel/tasks/process.c' l='69' u='w' c='process_allocate'/>
+<use f='MOS/kernel/tasks/fork.c' l='18' u='r' c='process_handle_fork'/>
+<use f='MOS/kernel/tasks/process.c' l='70' u='w' c='process_allocate'/>

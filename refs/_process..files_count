@@ -1,6 +1,6 @@
 <dec f='MOS/include/mos/tasks/task_type.h' l='40' type='ssize_t'/>
 <offset>384</offset>
-<use f='MOS/kernel/tasks/fork.c' l='50' u='r' c='process_handle_fork'/>
-<use f='MOS/kernel/tasks/process.c' l='108' u='w' c='process_attach_fd'/>
-<use f='MOS/kernel/tasks/process.c' l='122' u='r' c='process_detach_fd'/>
-<use f='MOS/kernel/tasks/process.c' l='126' u='w' c='process_detach_fd'/>
+<use f='MOS/kernel/tasks/fork.c' l='48' u='r' c='process_handle_fork'/>
+<use f='MOS/kernel/tasks/process.c' l='109' u='w' c='process_attach_fd'/>
+<use f='MOS/kernel/tasks/process.c' l='123' u='r' c='process_detach_fd'/>
+<use f='MOS/kernel/tasks/process.c' l='127' u='w' c='process_detach_fd'/>

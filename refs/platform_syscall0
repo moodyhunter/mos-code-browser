@@ -3,3 +3,4 @@
 <use f='MOS/build/include/mos/ksyscall/usermode.h' l='47' u='c' c='invoke_ksyscall_yield_cpu'/>
 <use f='MOS/build/include/mos/ksyscall/usermode.h' l='52' u='c' c='invoke_ksyscall_fork'/>
 <use f='MOS/build/include/mos/ksyscall/usermode.h' l='62' u='c' c='invoke_ksyscall_get_pid'/>
+<use f='MOS/build/include/mos/ksyscall/usermode.h' l='67' u='c' c='invoke_ksyscall_get_parent_pid'/>
