@@ -16,7 +16,7 @@
 <use f='MOS/kernel/elf/elf.c' l='105' u='r' c='create_elf_process'/>
 <use f='MOS/kernel/elf/elf.c' l='124' u='r' c='create_elf_process'/>
 <use f='MOS/kernel/elf/elf.c' l='130' u='r' c='create_elf_process'/>
-<offset>128</offset>
+<offset>96</offset>
 <doc f='MOS/include/mos/elf/elf.h' l='145'>// Virtual address of the segment</doc>
 <use f='MOS/kernel/mm/cow.c' l='53' u='r' c='cow_handle_page_fault'/>
 <use f='MOS/kernel/mm/cow.c' l='54' u='r' c='cow_handle_page_fault'/>

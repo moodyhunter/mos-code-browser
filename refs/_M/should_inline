@@ -1,4 +1,4 @@
-<dec f='MOS/include/mos/mos_global.h' l='23'/>
+<dec f='MOS/include/mos/mos_global.h' l='22'/>
 <use f='MOS/arch/x86/include/mos/x86/cpu/cpu.h' l='9' u='c'/>
 <use f='MOS/arch/x86/include/mos/x86/cpu/cpu.h' l='14' u='c'/>
 <use f='MOS/arch/x86/include/mos/x86/cpu/cpu.h' l='19' u='c'/>

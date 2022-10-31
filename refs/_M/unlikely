@@ -1,4 +1,4 @@
-<dec f='MOS/include/mos/mos_global.h' l='27'/>
+<dec f='MOS/include/mos/mos_global.h' l='26'/>
 <use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='116' u='c'/>
 <use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='277' u='c'/>
 <use f='MOS/arch/x86/mm/paging_impl.c' l='176' u='c'/>

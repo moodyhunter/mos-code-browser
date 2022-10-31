@@ -1,4 +1,4 @@
-<dec f='MOS/include/mos/mos_global.h' l='24'/>
+<dec f='MOS/include/mos/mos_global.h' l='23'/>
 <use f='MOS/include/mos/boot/startup.h' l='16' u='c'/>
 <use f='MOS/include/mos/boot/startup.h' l='23' u='c'/>
 <use f='MOS/include/mos/boot/startup.h' l='31' u='c'/>

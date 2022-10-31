@@ -1,4 +1,4 @@
-<dec f='MOS/include/mos/mos_global.h' l='21'/>
+<dec f='MOS/include/mos/mos_global.h' l='20'/>
 <use f='MOS/arch/x86/include/mos/x86/acpi/acpi.h' l='14' u='c'/>
 <use f='MOS/include/mos/platform/platform.h' l='110' u='c'/>
 <use f='MOS/include/mos/printk.h' l='76' u='c'/>

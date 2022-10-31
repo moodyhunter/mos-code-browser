@@ -3,8 +3,8 @@ MOS/arch/x86/include/mos/x86/acpi/acpi.h
 MOS/include/mos/types.h
 MOS/include/mos/mos_global.h
 MOS/include/mos/compiler.h
-MOS/include/mos/constants.h
 MOS/build/include/mos/kconfig.h
+MOS/include/mos/constants.h
 MOS/arch/x86/include/mos/x86/acpi/acpi_types.h
 MOS/include/lib/containers.h
 MOS/include/lib/string.h

@@ -1,4 +1,4 @@
 <dec f='MOS/include/mos/elf/elf.h' l='96' type='size_t'/>
 <dec f='MOS/include/mos/elf/elf.h' l='202' type='uintptr_t'/>
-<offset>192</offset>
+<offset>160</offset>
 <doc f='MOS/include/mos/elf/elf.h' l='202'>// Offset of the section in the file</doc>

@@ -1,6 +1,0 @@
-<dec f='MOS/include/mos/compiler.h' l='26'/>
-<use f='MOS/include/mos/constants.h' l='11' u='c'/>
-<use f='MOS/include/mos/types.h' l='33' u='a'/>
-<use f='MOS/arch/x86/include/mos/x86/delays.h' l='14' u='a'/>
-<use f='MOS/include/mos/elf/elf.h' l='141' u='a'/>
-<use f='MOS/include/mos/elf/elf.h' l='196' u='a'/>

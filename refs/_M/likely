@@ -1,4 +1,4 @@
-<dec f='MOS/include/mos/mos_global.h' l='26'/>
+<dec f='MOS/include/mos/mos_global.h' l='25'/>
 <use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='90' u='c'/>
 <use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='112' u='c'/>
 <use f='MOS/kernel/tasks/process.c' l='53' u='c'/>
