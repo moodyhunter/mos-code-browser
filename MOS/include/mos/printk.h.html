@@ -19,7 +19,7 @@
 <tr><th id="6">6</th><td><u>#include <a href="mos_global.h.html">"mos/mos_global.h"</a></u></td></tr>
 <tr><th id="7">7</th><td><u>#include <a href="types.h.html">"mos/types.h"</a></u></td></tr>
 <tr><th id="8">8</th><td></td></tr>
-<tr><th id="9">9</th><td><u>#<span data-ppcond="9">ifndef</span> <a class="macro" href="../../build/include/mos/kconfig.h.html#16" data-ref="_M/MOS_PRINTK_HAS_FILENAME">MOS_PRINTK_HAS_FILENAME</a></u></td></tr>
+<tr><th id="9">9</th><td><u>#<span data-ppcond="9">ifndef</span> <a class="macro" href="../../build/include/mos/kconfig.h.html#28" data-ref="_M/MOS_PRINTK_HAS_FILENAME">MOS_PRINTK_HAS_FILENAME</a></u></td></tr>
 <tr><th id="10">10</th><td><u>#error "MOS_PRINTK_HAS_FILENAME must be defined"</u></td></tr>
 <tr><th id="11">11</th><td><u>#<span data-ppcond="9">endif</span></u></td></tr>
 <tr><th id="12">12</th><td></td></tr>
@@ -47,7 +47,7 @@
 <tr><th id="34">34</th><td>    <dfn class="enum" id="MOS_LOG_DEFAULT" title='MOS_LOG_DEFAULT' data-ref="MOS_LOG_DEFAULT" data-ref-filename="MOS_LOG_DEFAULT">MOS_LOG_DEFAULT</dfn> = <a class="enum" href="#MOS_LOG_INFO" title='MOS_LOG_INFO' data-ref="MOS_LOG_INFO" data-ref-filename="MOS_LOG_INFO">MOS_LOG_INFO</a>,</td></tr>
 <tr><th id="35">35</th><td>} <dfn class="typedef" id="mos_log_level_t" title='mos_log_level_t' data-type='enum mos_log_level_t' data-ref="mos_log_level_t" data-ref-filename="mos_log_level_t">mos_log_level_t</dfn>;</td></tr>
 <tr><th id="36">36</th><td></td></tr>
-<tr><th id="37">37</th><td><u>#<span data-ppcond="37">if</span> <a class="macro" href="../../build/include/mos/kconfig.h.html#16" title="1" data-ref="_M/MOS_PRINTK_HAS_FILENAME">MOS_PRINTK_HAS_FILENAME</a></u></td></tr>
+<tr><th id="37">37</th><td><u>#<span data-ppcond="37">if</span> <a class="macro" href="../../build/include/mos/kconfig.h.html#28" title="1" data-ref="_M/MOS_PRINTK_HAS_FILENAME">MOS_PRINTK_HAS_FILENAME</a></u></td></tr>
 <tr><th id="38">38</th><td><u>#define <dfn class="macro" id="_M/lprintk_wrapper" data-ref="_M/lprintk_wrapper">lprintk_wrapper</dfn>(level, fmt, ...) lprintk(level, "%-20s | " fmt, MOS_FILE_LOCATION<span class='warning' title="token pasting of &apos;,&apos; and __VA_ARGS__ is a GNU extension">,</span> <span class='warning' title="token pasting of &apos;,&apos; and __VA_ARGS__ is a GNU extension">##</span>__VA_ARGS__)</u></td></tr>
 <tr><th id="39">39</th><td><u>#<span data-ppcond="37">else</span></u></td></tr>
 <tr><th id="40">40</th><td><u>#define lprintk_wrapper(level, fmt, ...) lprintk(level, "" fmt, ##__VA_ARGS__)</u></td></tr>
@@ -61,7 +61,7 @@
 <tr><th id="48">48</th><td><u>#define <dfn class="macro" id="_M/pr_emerg" data-ref="_M/pr_emerg">pr_emerg</dfn>(fmt, ...) lprintk_wrapper(MOS_LOG_EMERG, fmt "\n", ##__VA_ARGS__)</u></td></tr>
 <tr><th id="49">49</th><td><u>#define <dfn class="macro" id="_M/pr_fatal" data-ref="_M/pr_fatal">pr_fatal</dfn>(fmt, ...) lprintk_wrapper(MOS_LOG_FATAL, fmt "\n", ##__VA_ARGS__)</u></td></tr>
 <tr><th id="50">50</th><td></td></tr>
-<tr><th id="51">51</th><td><u>#<span data-ppcond="51">if</span> <a class="macro" href="../../build/include/mos/kconfig.h.html#15" title="0" data-ref="_M/MOS_DEBUG">MOS_DEBUG</a></u></td></tr>
+<tr><th id="51">51</th><td><u>#<span data-ppcond="51">if</span> <a class="macro" href="../../build/include/mos/kconfig.h.html#27" title="0" data-ref="_M/MOS_DEBUG">MOS_DEBUG</a></u></td></tr>
 <tr><th id="52">52</th><td><u>#define mos_debug(fmt, ...) pr_info2("%s: " fmt, __func__, ##__VA_ARGS__)</u></td></tr>
 <tr><th id="53">53</th><td><u>#<span data-ppcond="51">else</span></u></td></tr>
 <tr><th id="54">54</th><td><u>#define <dfn class="macro" id="_M/lprintk_noop" data-ref="_M/lprintk_noop">lprintk_noop</dfn>(level, fmt, ...)                                                                                                                                    \</u></td></tr>

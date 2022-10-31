@@ -1,4 +1,4 @@
-<dec f='MOS/build/include/mos/kconfig.h' l='22'/>
+<dec f='MOS/build/include/mos/kconfig.h' l='21'/>
 <use f='MOS/arch/x86/x86_platform.c' l='142' u='c'/>
 <use f='MOS/kernel/tasks/fork.c' l='33' u='c'/>
 <use f='MOS/kernel/tasks/thread.c' l='71' u='c'/>

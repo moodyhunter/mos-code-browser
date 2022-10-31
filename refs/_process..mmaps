@@ -1,5 +1,5 @@
 <dec f='MOS/include/mos/tasks/task_type.h' l='49' type='proc_vmblock_t *'/>
-<offset>21120</offset>
+<offset>70272</offset>
 <use f='MOS/kernel/mm/cow.c' l='52' u='r' c='cow_handle_page_fault'/>
 <use f='MOS/kernel/mm/cow.c' l='59' u='r' c='cow_handle_page_fault'/>
 <use f='MOS/kernel/mm/cow.c' l='66' u='r' c='cow_handle_page_fault'/>

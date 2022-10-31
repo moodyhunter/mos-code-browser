@@ -65,8 +65,8 @@
 <tr><th id="51">51</th><td></td></tr>
 <tr><th id="52">52</th><td><em>void</em> <dfn class="decl def fn" id="mos_kernel_mm_init" title='mos_kernel_mm_init' data-ref="mos_kernel_mm_init" data-ref-filename="mos_kernel_mm_init">mos_kernel_mm_init</dfn>()</td></tr>
 <tr><th id="53">53</th><td>{</td></tr>
-<tr><th id="54">54</th><td>    <a class="ref fn" href="#liballoc_init" title='liballoc_init' data-ref="liballoc_init" data-ref-filename="liballoc_init">liballoc_init</a>(<a class="macro" href="../../build/include/mos/kconfig.h.html#29" title="4096" data-ref="_M/MOS_PAGE_SIZE">MOS_PAGE_SIZE</a>);</td></tr>
-<tr><th id="55">55</th><td><u>#<span data-ppcond="55">if</span> <a class="macro" href="../../build/include/mos/kconfig.h.html#14" title="0" data-ref="_M/MOS_MM_LIBALLOC_DEBUG">MOS_MM_LIBALLOC_DEBUG</a></u></td></tr>
+<tr><th id="54">54</th><td>    <a class="ref fn" href="#liballoc_init" title='liballoc_init' data-ref="liballoc_init" data-ref-filename="liballoc_init">liballoc_init</a>(<a class="macro" href="../../build/include/mos/kconfig.h.html#16" title="4096" data-ref="_M/MOS_PAGE_SIZE">MOS_PAGE_SIZE</a>);</td></tr>
+<tr><th id="55">55</th><td><u>#<span data-ppcond="55">if</span> <a class="macro" href="../../build/include/mos/kconfig.h.html#26" title="0" data-ref="_M/MOS_MM_LIBALLOC_DEBUG">MOS_MM_LIBALLOC_DEBUG</a></u></td></tr>
 <tr><th id="56">56</th><td>    mos_install_kpanic_hook(liballoc_dump);</td></tr>
 <tr><th id="57">57</th><td><u>#<span data-ppcond="55">endif</span></u></td></tr>
 <tr><th id="58">58</th><td>}</td></tr>
@@ -83,7 +83,7 @@
 <tr><th id="69">69</th><td>        <a class="macro" href="../../include/mos/printk.h.html#64" title="mos_kpanic(__func__, 69, &quot;&quot; &quot;platform configuration error: alloc_page is NULL&quot;)" data-ref="_M/mos_panic">mos_panic</a>(<q>"platform configuration error: alloc_page is NULL"</q>);</td></tr>
 <tr><th id="70">70</th><td></td></tr>
 <tr><th id="71">71</th><td>    <a class="typedef" href="../../include/mos/platform/platform.h.html#vmblock_t" title='vmblock_t' data-type='struct vmblock_t' data-ref="vmblock_t" data-ref-filename="vmblock_t">vmblock_t</a> <dfn class="local col3 decl" id="3block" title='block' data-type='vmblock_t' data-ref="3block" data-ref-filename="3block">block</dfn> = <a class="ref" href="../../include/mos/platform/platform.h.html#mos_platform" title='mos_platform' data-ref="mos_platform" data-ref-filename="mos_platform">mos_platform</a>-&gt;<a class="ref field" href="../../include/mos/platform/platform.h.html#(anonymous)::mm_alloc_pages" title='(anonymous struct)::mm_alloc_pages' data-ref="(anonymous)::mm_alloc_pages" data-ref-filename="(anonymous)..mm_alloc_pages">mm_alloc_pages</a>(<a class="ref" href="../../include/mos/platform/platform.h.html#mos_platform" title='mos_platform' data-ref="mos_platform" data-ref-filename="mos_platform">mos_platform</a>-&gt;<a class="ref field" href="../../include/mos/platform/platform.h.html#(anonymous)::kernel_pg" title='(anonymous struct)::kernel_pg' data-ref="(anonymous)::kernel_pg" data-ref-filename="(anonymous)..kernel_pg">kernel_pg</a>, <a class="local col1 ref" href="#1npages" title='npages' data-ref="1npages" data-ref-filename="1npages">npages</a>, <a class="enum" href="../../include/mos/platform/platform.h.html#PGALLOC_HINT_KHEAP" title='PGALLOC_HINT_KHEAP' data-ref="PGALLOC_HINT_KHEAP" data-ref-filename="PGALLOC_HINT_KHEAP">PGALLOC_HINT_KHEAP</a>, <a class="local col2 ref" href="#2vmflags" title='vmflags' data-ref="2vmflags" data-ref-filename="2vmflags">vmflags</a>);</td></tr>
-<tr><th id="72">72</th><td>    <a class="macro" href="../../include/mos/printk.h.html#19" title="do { if (__builtin_expect(!!(!(block.vaddr &gt;= 0xD0000000)), 0)) mos_kpanic(__func__, 72, &quot;&quot; &quot;Assertion failed: %s \n&quot; &quot;only use this function to free kernel heap pages&quot;, &quot;block.vaddr &gt;= MOS_X86_HEAP_BASE_VADDR&quot;); } while (0)" data-ref="_M/MOS_ASSERT_X">MOS_ASSERT_X</a>(<a class="local col3 ref" href="#3block" title='block' data-ref="3block" data-ref-filename="3block">block</a>.<a class="ref field" href="../../include/mos/platform/platform.h.html#(anonymous)::vaddr" title='(anonymous struct)::vaddr' data-ref="(anonymous)::vaddr" data-ref-filename="(anonymous)..vaddr">vaddr</a> &gt;= <a class="macro" href="../../build/include/mos/kconfig.h.html#27" title="0xD0000000" data-ref="_M/MOS_X86_HEAP_BASE_VADDR">MOS_X86_HEAP_BASE_VADDR</a>, <q>"only use this function to free kernel heap pages"</q>);</td></tr>
+<tr><th id="72">72</th><td>    <a class="macro" href="../../include/mos/printk.h.html#19" title="do { if (__builtin_expect(!!(!(block.vaddr &gt;= 0xD0000000)), 0)) mos_kpanic(__func__, 72, &quot;&quot; &quot;Assertion failed: %s \n&quot; &quot;only use this function to free kernel heap pages&quot;, &quot;block.vaddr &gt;= MOS_X86_HEAP_BASE_VADDR&quot;); } while (0)" data-ref="_M/MOS_ASSERT_X">MOS_ASSERT_X</a>(<a class="local col3 ref" href="#3block" title='block' data-ref="3block" data-ref-filename="3block">block</a>.<a class="ref field" href="../../include/mos/platform/platform.h.html#(anonymous)::vaddr" title='(anonymous struct)::vaddr' data-ref="(anonymous)::vaddr" data-ref-filename="(anonymous)..vaddr">vaddr</a> &gt;= <a class="macro" href="../../build/include/mos/kconfig.h.html#31" title="0xD0000000" data-ref="_M/MOS_X86_HEAP_BASE_VADDR">MOS_X86_HEAP_BASE_VADDR</a>, <q>"only use this function to free kernel heap pages"</q>);</td></tr>
 <tr><th id="73">73</th><td></td></tr>
 <tr><th id="74">74</th><td>    <b>if</b> (<a class="macro" href="../../include/mos/mos_global.h.html#27" title="__builtin_expect(!!(block.npages &lt; npages), 0)" data-ref="_M/unlikely">unlikely</a>(<a class="local col3 ref" href="#3block" title='block' data-ref="3block" data-ref-filename="3block">block</a>.<a class="ref field" href="../../include/mos/platform/platform.h.html#(anonymous)::npages" title='(anonymous struct)::npages' data-ref="(anonymous)::npages" data-ref-filename="(anonymous)..npages">npages</a> &lt; <a class="local col1 ref" href="#1npages" title='npages' data-ref="1npages" data-ref-filename="1npages">npages</a>))</td></tr>
 <tr><th id="75">75</th><td>        <a class="macro" href="../../include/mos/printk.h.html#63" title="mos_kwarn(__func__, 75, &quot;WARN: &quot; &quot;failed to allocate %zu pages&quot; &quot;\n&quot;, npages)" data-ref="_M/mos_warn">mos_warn</a>(<q>"failed to allocate %zu pages"</q>, <a class="local col1 ref" href="#1npages" title='npages' data-ref="1npages" data-ref-filename="1npages">npages</a>);</td></tr>
@@ -93,7 +93,7 @@
 <tr><th id="79">79</th><td></td></tr>
 <tr><th id="80">80</th><td><span class="macro" title="_Bool" data-ref="_M/bool">bool</span> <dfn class="decl def fn" id="kheap_free_page" title='kheap_free_page' data-ref="kheap_free_page" data-ref-filename="kheap_free_page">kheap_free_page</dfn>(<em>void</em> *<dfn class="local col4 decl" id="4vptr" title='vptr' data-type='void *' data-ref="4vptr" data-ref-filename="4vptr">vptr</dfn>, <span class='typedef' title='size_t' data-type='unsigned long' data-ref="size_t" data-ref-filename="size_t">size_t</span> <dfn class="local col5 decl" id="5npages" title='npages' data-type='size_t' data-ref="5npages" data-ref-filename="5npages">npages</dfn>)</td></tr>
 <tr><th id="81">81</th><td>{</td></tr>
-<tr><th id="82">82</th><td>    <a class="macro" href="../../include/mos/printk.h.html#19" title="do { if (__builtin_expect(!!(!(vptr &gt;= (void *) 0xD0000000)), 0)) mos_kpanic(__func__, 82, &quot;&quot; &quot;Assertion failed: %s \n&quot; &quot;only use this function to free kernel heap pages&quot;, &quot;vptr &gt;= (void *) MOS_X86_HEAP_BASE_VADDR&quot;); } while (0)" data-ref="_M/MOS_ASSERT_X">MOS_ASSERT_X</a>(<a class="local col4 ref" href="#4vptr" title='vptr' data-ref="4vptr" data-ref-filename="4vptr">vptr</a> &gt;= (<em>void</em> *) <a class="macro" href="../../build/include/mos/kconfig.h.html#27" title="0xD0000000" data-ref="_M/MOS_X86_HEAP_BASE_VADDR">MOS_X86_HEAP_BASE_VADDR</a>, <q>"only use this function to free kernel heap pages"</q>);</td></tr>
+<tr><th id="82">82</th><td>    <a class="macro" href="../../include/mos/printk.h.html#19" title="do { if (__builtin_expect(!!(!(vptr &gt;= (void *) 0xD0000000)), 0)) mos_kpanic(__func__, 82, &quot;&quot; &quot;Assertion failed: %s \n&quot; &quot;only use this function to free kernel heap pages&quot;, &quot;vptr &gt;= (void *) MOS_X86_HEAP_BASE_VADDR&quot;); } while (0)" data-ref="_M/MOS_ASSERT_X">MOS_ASSERT_X</a>(<a class="local col4 ref" href="#4vptr" title='vptr' data-ref="4vptr" data-ref-filename="4vptr">vptr</a> &gt;= (<em>void</em> *) <a class="macro" href="../../build/include/mos/kconfig.h.html#31" title="0xD0000000" data-ref="_M/MOS_X86_HEAP_BASE_VADDR">MOS_X86_HEAP_BASE_VADDR</a>, <q>"only use this function to free kernel heap pages"</q>);</td></tr>
 <tr><th id="83">83</th><td></td></tr>
 <tr><th id="84">84</th><td>    <b>if</b> (<a class="macro" href="../../include/mos/mos_global.h.html#27" title="__builtin_expect(!!(vptr == ((void*)0)), 0)" data-ref="_M/unlikely">unlikely</a>(<a class="local col4 ref" href="#4vptr" title='vptr' data-ref="4vptr" data-ref-filename="4vptr">vptr</a> == <span class="macro" title="((void*)0)" data-ref="_M/NULL">NULL</span>))</td></tr>
 <tr><th id="85">85</th><td>    {</td></tr>
@@ -145,7 +145,7 @@
 <tr><th id="131">131</th><td><em>static</em> <span class='typedef' title='size_t' data-type='unsigned long' data-ref="size_t" data-ref-filename="size_t">size_t</span> <dfn class="tu decl def" id="l_errors" title='l_errors' data-type='size_t' data-ref="l_errors" data-ref-filename="l_errors">l_errors</dfn> = <var>0</var>;            <i  data-doc="l_errors">// Number of actual errors</i></td></tr>
 <tr><th id="132">132</th><td><em>static</em> <span class='typedef' title='size_t' data-type='unsigned long' data-ref="size_t" data-ref-filename="size_t">size_t</span> <dfn class="tu decl def" id="l_possible_overruns" title='l_possible_overruns' data-type='size_t' data-ref="l_possible_overruns" data-ref-filename="l_possible_overruns">l_possible_overruns</dfn> = <var>0</var>; <i  data-doc="l_possible_overruns">// Number of possible overruns</i></td></tr>
 <tr><th id="133">133</th><td></td></tr>
-<tr><th id="134">134</th><td><u>#<span data-ppcond="134">if</span> <a class="macro" href="../../build/include/mos/kconfig.h.html#14" title="0" data-ref="_M/MOS_MM_LIBALLOC_DEBUG">MOS_MM_LIBALLOC_DEBUG</a></u></td></tr>
+<tr><th id="134">134</th><td><u>#<span data-ppcond="134">if</span> <a class="macro" href="../../build/include/mos/kconfig.h.html#26" title="0" data-ref="_M/MOS_MM_LIBALLOC_DEBUG">MOS_MM_LIBALLOC_DEBUG</a></u></td></tr>
 <tr><th id="135">135</th><td><em>void</em> liballoc_dump()</td></tr>
 <tr><th id="136">136</th><td>{</td></tr>
 <tr><th id="137">137</th><td>    pr_info(<q>"--------------- Memory data ---------------"</q>);</td></tr>
@@ -207,7 +207,7 @@
 <tr><th id="193">193</th><td></td></tr>
 <tr><th id="194">194</th><td>    <a class="tu ref" href="#l_mem_allocated" title='l_mem_allocated' data-use='w' data-ref="l_mem_allocated" data-ref-filename="l_mem_allocated">l_mem_allocated</a> += <a class="local col8 ref" href="#8maj" title='maj' data-ref="8maj" data-ref-filename="8maj">maj</a>-&gt;<a class="tu ref field" href="#liballoc_block::size" title='liballoc_block::size' data-use='r' data-ref="liballoc_block::size" data-ref-filename="liballoc_block..size">size</a>;</td></tr>
 <tr><th id="195">195</th><td></td></tr>
-<tr><th id="196">196</th><td><u>#<span data-ppcond="196">if</span> <a class="macro" href="../../build/include/mos/kconfig.h.html#14" title="0" data-ref="_M/MOS_MM_LIBALLOC_DEBUG">MOS_MM_LIBALLOC_DEBUG</a></u></td></tr>
+<tr><th id="196">196</th><td><u>#<span data-ppcond="196">if</span> <a class="macro" href="../../build/include/mos/kconfig.h.html#26" title="0" data-ref="_M/MOS_MM_LIBALLOC_DEBUG">MOS_MM_LIBALLOC_DEBUG</a></u></td></tr>
 <tr><th id="197">197</th><td>    pr_info(<q>"liballoc: Allocated %u pages (%zu bytes) at %p for %u bytes to be used."</q>, st, maj-&gt;size, (<em>void</em> *) maj, size);</td></tr>
 <tr><th id="198">198</th><td>    pr_info(<q>"liballoc: Total memory usage = %i KB"</q>, (<em>int</em>) ((l_mem_allocated / (<var>1024</var>))));</td></tr>
 <tr><th id="199">199</th><td><u>#<span data-ppcond="196">endif</span></u></td></tr>
@@ -222,7 +222,7 @@
 <tr><th id="208">208</th><td></td></tr>
 <tr><th id="209">209</th><td>    <a class="macro" href="../../include/mos/printk.h.html#19" title="do { if (__builtin_expect(!!(!(l_memroot == ((void*)0))), 0)) mos_kpanic(__func__, 209, &quot;&quot; &quot;Assertion failed: %s \n&quot; &quot;liballoc_init() called twice&quot;, &quot;l_memroot == NULL&quot;); } while (0)" data-ref="_M/MOS_ASSERT_X">MOS_ASSERT_X</a>(<a class="tu ref" href="#l_memroot" title='l_memroot' data-use='r' data-ref="l_memroot" data-ref-filename="l_memroot">l_memroot</a> == <span class="macro" title="((void*)0)" data-ref="_M/NULL">NULL</span>, <q>"liballoc_init() called twice"</q>);</td></tr>
 <tr><th id="210">210</th><td></td></tr>
-<tr><th id="211">211</th><td><u>#<span data-ppcond="211">if</span> <a class="macro" href="../../build/include/mos/kconfig.h.html#14" title="0" data-ref="_M/MOS_MM_LIBALLOC_DEBUG">MOS_MM_LIBALLOC_DEBUG</a></u></td></tr>
+<tr><th id="211">211</th><td><u>#<span data-ppcond="211">if</span> <a class="macro" href="../../build/include/mos/kconfig.h.html#26" title="0" data-ref="_M/MOS_MM_LIBALLOC_DEBUG">MOS_MM_LIBALLOC_DEBUG</a></u></td></tr>
 <tr><th id="212">212</th><td>    pr_info(<q>"liballoc: initialization of liballoc "</q> VERSION <q>""</q>);</td></tr>
 <tr><th id="213">213</th><td>    <i>// atexit(liballoc_dump);</i></td></tr>
 <tr><th id="214">214</th><td><u>#<span data-ppcond="211">endif</span></u></td></tr>
@@ -231,15 +231,15 @@
 <tr><th id="217">217</th><td>    <a class="tu ref" href="#l_memroot" title='l_memroot' data-use='w' data-ref="l_memroot" data-ref-filename="l_memroot">l_memroot</a> = <a class="tu ref fn" href="#allocate_new_pages_for" title='allocate_new_pages_for' data-use='c' data-ref="allocate_new_pages_for" data-ref-filename="allocate_new_pages_for">allocate_new_pages_for</a>(<b>sizeof</b>(<a class="typedef" href="#liballoc_block_t" title='liballoc_block_t' data-type='struct liballoc_block' data-ref="liballoc_block_t" data-ref-filename="liballoc_block_t">liballoc_block_t</a>));</td></tr>
 <tr><th id="218">218</th><td>    <b>if</b> (<a class="tu ref" href="#l_memroot" title='l_memroot' data-use='r' data-ref="l_memroot" data-ref-filename="l_memroot">l_memroot</a> == <span class="macro" title="((void*)0)" data-ref="_M/NULL">NULL</span>)</td></tr>
 <tr><th id="219">219</th><td>    {</td></tr>
-<tr><th id="220">220</th><td><u>#<span data-ppcond="220">if</span> <a class="macro" href="../../build/include/mos/kconfig.h.html#13" title="0" data-ref="_M/MOS_MM_LIBALLOC_LOCKS">MOS_MM_LIBALLOC_LOCKS</a></u></td></tr>
+<tr><th id="220">220</th><td><u>#<span data-ppcond="220">if</span> <a class="macro" href="../../build/include/mos/kconfig.h.html#24" title="0" data-ref="_M/MOS_MM_LIBALLOC_LOCKS">MOS_MM_LIBALLOC_LOCKS</a></u></td></tr>
 <tr><th id="221">221</th><td>        liballoc_unlock();</td></tr>
 <tr><th id="222">222</th><td><u>#<span data-ppcond="220">endif</span></u></td></tr>
-<tr><th id="223">223</th><td><u>#<span data-ppcond="223">if</span> <a class="macro" href="../../build/include/mos/kconfig.h.html#14" title="0" data-ref="_M/MOS_MM_LIBALLOC_DEBUG">MOS_MM_LIBALLOC_DEBUG</a></u></td></tr>
+<tr><th id="223">223</th><td><u>#<span data-ppcond="223">if</span> <a class="macro" href="../../build/include/mos/kconfig.h.html#26" title="0" data-ref="_M/MOS_MM_LIBALLOC_DEBUG">MOS_MM_LIBALLOC_DEBUG</a></u></td></tr>
 <tr><th id="224">224</th><td>        pr_info(<q>"liballoc: initial l_memRoot initialization failed"</q>);</td></tr>
 <tr><th id="225">225</th><td><u>#<span data-ppcond="223">endif</span></u></td></tr>
 <tr><th id="226">226</th><td>    }</td></tr>
 <tr><th id="227">227</th><td></td></tr>
-<tr><th id="228">228</th><td><u>#<span data-ppcond="228">if</span> <a class="macro" href="../../build/include/mos/kconfig.h.html#14" title="0" data-ref="_M/MOS_MM_LIBALLOC_DEBUG">MOS_MM_LIBALLOC_DEBUG</a></u></td></tr>
+<tr><th id="228">228</th><td><u>#<span data-ppcond="228">if</span> <a class="macro" href="../../build/include/mos/kconfig.h.html#26" title="0" data-ref="_M/MOS_MM_LIBALLOC_DEBUG">MOS_MM_LIBALLOC_DEBUG</a></u></td></tr>
 <tr><th id="229">229</th><td>    pr_info(<q>"liballoc: set up first memory major %p"</q>, (<em>void</em> *) l_memroot);</td></tr>
 <tr><th id="230">230</th><td><u>#<span data-ppcond="228">endif</span></u></td></tr>
 <tr><th id="231">231</th><td>}</td></tr>
@@ -255,7 +255,7 @@
 <tr><th id="241">241</th><td>    }</td></tr>
 <tr><th id="242">242</th><td>    <i>// So, ideally, we really want an alignment of 0 or 1 in order to save space.</i></td></tr>
 <tr><th id="243">243</th><td></td></tr>
-<tr><th id="244">244</th><td><u>#<span data-ppcond="244">if</span> <a class="macro" href="../../build/include/mos/kconfig.h.html#13" title="0" data-ref="_M/MOS_MM_LIBALLOC_LOCKS">MOS_MM_LIBALLOC_LOCKS</a></u></td></tr>
+<tr><th id="244">244</th><td><u>#<span data-ppcond="244">if</span> <a class="macro" href="../../build/include/mos/kconfig.h.html#24" title="0" data-ref="_M/MOS_MM_LIBALLOC_LOCKS">MOS_MM_LIBALLOC_LOCKS</a></u></td></tr>
 <tr><th id="245">245</th><td>    liballoc_lock();</td></tr>
 <tr><th id="246">246</th><td><u>#<span data-ppcond="244">endif</span></u></td></tr>
 <tr><th id="247">247</th><td></td></tr>
@@ -263,7 +263,7 @@
 <tr><th id="249">249</th><td>    {</td></tr>
 <tr><th id="250">250</th><td>        <a class="macro" href="../../include/mos/printk.h.html#63" title="mos_kwarn(__func__, 250, &quot;WARN: &quot; &quot;liballoc: liballoc_malloc(0) called.&quot; &quot;\n&quot;)" data-ref="_M/mos_warn">mos_warn</a>(<q>"liballoc: liballoc_malloc(0) called."</q>);</td></tr>
 <tr><th id="251">251</th><td>        <a class="tu ref" href="#l_warnings" title='l_warnings' data-use='w' data-ref="l_warnings" data-ref-filename="l_warnings">l_warnings</a> += <var>1</var>;</td></tr>
-<tr><th id="252">252</th><td><u>#<span data-ppcond="252">if</span> <a class="macro" href="../../build/include/mos/kconfig.h.html#13" title="0" data-ref="_M/MOS_MM_LIBALLOC_LOCKS">MOS_MM_LIBALLOC_LOCKS</a></u></td></tr>
+<tr><th id="252">252</th><td><u>#<span data-ppcond="252">if</span> <a class="macro" href="../../build/include/mos/kconfig.h.html#24" title="0" data-ref="_M/MOS_MM_LIBALLOC_LOCKS">MOS_MM_LIBALLOC_LOCKS</a></u></td></tr>
 <tr><th id="253">253</th><td>        liballoc_unlock();</td></tr>
 <tr><th id="254">254</th><td><u>#<span data-ppcond="252">endif</span></u></td></tr>
 <tr><th id="255">255</th><td>        <b>return</b> <a class="ref fn" href="#liballoc_malloc" title='liballoc_malloc' data-ref="liballoc_malloc" data-ref-filename="liballoc_malloc">liballoc_malloc</a>(<var>1</var>);</td></tr>
@@ -305,7 +305,7 @@
 <tr><th id="291">291</th><td>        <i>// CASE 1:  There is not enough space in this major block.</i></td></tr>
 <tr><th id="292">292</th><td>        <b>if</b> (<a class="local col5 ref" href="#15diff" title='diff' data-ref="15diff" data-ref-filename="15diff">diff</a> <span class='warning' title="comparison of integers of different signs: &apos;s64&apos; (aka &apos;long long&apos;) and &apos;unsigned long&apos;">&lt;</span> (<a class="local col1 ref" href="#11size" title='size' data-ref="11size" data-ref-filename="11size">size</a> + <b>sizeof</b>(<a class="typedef" href="#liballoc_part_t" title='liballoc_part_t' data-type='struct liballoc_part' data-ref="liballoc_part_t" data-ref-filename="liballoc_part_t">liballoc_part_t</a>)))</td></tr>
 <tr><th id="293">293</th><td>        {</td></tr>
-<tr><th id="294">294</th><td><u>#<span data-ppcond="294">if</span> <a class="macro" href="../../build/include/mos/kconfig.h.html#14" title="0" data-ref="_M/MOS_MM_LIBALLOC_DEBUG">MOS_MM_LIBALLOC_DEBUG</a></u></td></tr>
+<tr><th id="294">294</th><td><u>#<span data-ppcond="294">if</span> <a class="macro" href="../../build/include/mos/kconfig.h.html#26" title="0" data-ref="_M/MOS_MM_LIBALLOC_DEBUG">MOS_MM_LIBALLOC_DEBUG</a></u></td></tr>
 <tr><th id="295">295</th><td>            pr_info(<q>"CASE 1: Insufficient space in block %p"</q>, (<em>void</em> *) block);</td></tr>
 <tr><th id="296">296</th><td><u>#<span data-ppcond="294">endif</span></u></td></tr>
 <tr><th id="297">297</th><td></td></tr>
@@ -354,11 +354,11 @@
 <tr><th id="340">340</th><td></td></tr>
 <tr><th id="341">341</th><td>            <a class="macro" href="#27" title="if (16 &gt; 1) { uintptr_t diff; p = (void *) ((uintptr_t) p + sizeof(char) * 16); diff = (uintptr_t) p &amp; (16 - 1); if (diff != 0) { diff = 16 - diff; p = (void *) ((uintptr_t) p + diff); } *((char *) ((uintptr_t) p - sizeof(char) * 16)) = diff + sizeof(char) * 16; }" data-ref="_M/LIBALLOC_ALIGN_PTR">LIBALLOC_ALIGN_PTR</a>(<a class="local col6 ref" href="#16p" title='p' data-ref="16p" data-ref-filename="16p">p</a>);</td></tr>
 <tr><th id="342">342</th><td></td></tr>
-<tr><th id="343">343</th><td><u>#<span data-ppcond="343">if</span> <a class="macro" href="../../build/include/mos/kconfig.h.html#13" title="0" data-ref="_M/MOS_MM_LIBALLOC_LOCKS">MOS_MM_LIBALLOC_LOCKS</a></u></td></tr>
+<tr><th id="343">343</th><td><u>#<span data-ppcond="343">if</span> <a class="macro" href="../../build/include/mos/kconfig.h.html#24" title="0" data-ref="_M/MOS_MM_LIBALLOC_LOCKS">MOS_MM_LIBALLOC_LOCKS</a></u></td></tr>
 <tr><th id="344">344</th><td>            liballoc_unlock(); <i>// release the lock</i></td></tr>
 <tr><th id="345">345</th><td><u>#<span data-ppcond="343">endif</span></u></td></tr>
 <tr><th id="346">346</th><td></td></tr>
-<tr><th id="347">347</th><td><u>#<span data-ppcond="347">if</span> <a class="macro" href="../../build/include/mos/kconfig.h.html#14" title="0" data-ref="_M/MOS_MM_LIBALLOC_DEBUG">MOS_MM_LIBALLOC_DEBUG</a></u></td></tr>
+<tr><th id="347">347</th><td><u>#<span data-ppcond="347">if</span> <a class="macro" href="../../build/include/mos/kconfig.h.html#26" title="0" data-ref="_M/MOS_MM_LIBALLOC_DEBUG">MOS_MM_LIBALLOC_DEBUG</a></u></td></tr>
 <tr><th id="348">348</th><td>            pr_info(<q>"liballoc: allocating %lu bytes at %p"</q>, size, p);</td></tr>
 <tr><th id="349">349</th><td><u>#<span data-ppcond="347">endif</span></u></td></tr>
 <tr><th id="350">350</th><td>            <b>return</b> <a class="local col6 ref" href="#16p" title='p' data-ref="16p" data-ref-filename="16p">p</a>;</td></tr>
@@ -391,10 +391,10 @@
 <tr><th id="377">377</th><td>                <em>void</em> *<dfn class="local col9 decl" id="19p" title='p' data-type='void *' data-ref="19p" data-ref-filename="19p">p</dfn> = (<em>void</em> *) ((<a class="typedef" href="../../include/mos/types.h.html#uintptr_t" title='uintptr_t' data-type='unsigned long' data-ref="uintptr_t" data-ref-filename="uintptr_t">uintptr_t</a>) (<a class="local col4 ref" href="#14block" title='block' data-ref="14block" data-ref-filename="14block">block</a>-&gt;<a class="tu ref field" href="#liballoc_block::first" title='liballoc_block::first' data-use='r' data-ref="liballoc_block::first" data-ref-filename="liballoc_block..first">first</a>) + <b>sizeof</b>(<a class="typedef" href="#liballoc_part_t" title='liballoc_part_t' data-type='struct liballoc_part' data-ref="liballoc_part_t" data-ref-filename="liballoc_part_t">liballoc_part_t</a>));</td></tr>
 <tr><th id="378">378</th><td>                <a class="macro" href="#27" title="if (16 &gt; 1) { uintptr_t diff; p = (void *) ((uintptr_t) p + sizeof(char) * 16); diff = (uintptr_t) p &amp; (16 - 1); if (diff != 0) { diff = 16 - diff; p = (void *) ((uintptr_t) p + diff); } *((char *) ((uintptr_t) p - sizeof(char) * 16)) = diff + sizeof(char) * 16; }" data-ref="_M/LIBALLOC_ALIGN_PTR">LIBALLOC_ALIGN_PTR</a>(<a class="local col9 ref" href="#19p" title='p' data-ref="19p" data-ref-filename="19p">p</a>);</td></tr>
 <tr><th id="379">379</th><td></td></tr>
-<tr><th id="380">380</th><td><u>#<span data-ppcond="380">if</span> <a class="macro" href="../../build/include/mos/kconfig.h.html#13" title="0" data-ref="_M/MOS_MM_LIBALLOC_LOCKS">MOS_MM_LIBALLOC_LOCKS</a></u></td></tr>
+<tr><th id="380">380</th><td><u>#<span data-ppcond="380">if</span> <a class="macro" href="../../build/include/mos/kconfig.h.html#24" title="0" data-ref="_M/MOS_MM_LIBALLOC_LOCKS">MOS_MM_LIBALLOC_LOCKS</a></u></td></tr>
 <tr><th id="381">381</th><td>                liballoc_unlock(); <i>// release the lock</i></td></tr>
 <tr><th id="382">382</th><td><u>#<span data-ppcond="380">endif</span></u></td></tr>
-<tr><th id="383">383</th><td><u>#<span data-ppcond="383">if</span> <a class="macro" href="../../build/include/mos/kconfig.h.html#14" title="0" data-ref="_M/MOS_MM_LIBALLOC_DEBUG">MOS_MM_LIBALLOC_DEBUG</a></u></td></tr>
+<tr><th id="383">383</th><td><u>#<span data-ppcond="383">if</span> <a class="macro" href="../../build/include/mos/kconfig.h.html#26" title="0" data-ref="_M/MOS_MM_LIBALLOC_DEBUG">MOS_MM_LIBALLOC_DEBUG</a></u></td></tr>
 <tr><th id="384">384</th><td>                pr_info(<q>"liballoc: allocating %lu bytes at %p"</q>, size, p);</td></tr>
 <tr><th id="385">385</th><td><u>#<span data-ppcond="383">endif</span></u></td></tr>
 <tr><th id="386">386</th><td>                <b>return</b> <a class="local col9 ref" href="#19p" title='p' data-ref="19p" data-ref-filename="19p">p</a>;</td></tr>
@@ -439,10 +439,10 @@
 <tr><th id="425">425</th><td>                    <em>void</em> *<dfn class="local col3 decl" id="23p" title='p' data-type='void *' data-ref="23p" data-ref-filename="23p">p</dfn> = (<em>void</em> *) ((<a class="typedef" href="../../include/mos/types.h.html#uintptr_t" title='uintptr_t' data-type='unsigned long' data-ref="uintptr_t" data-ref-filename="uintptr_t">uintptr_t</a>) <a class="local col1 ref" href="#21section" title='section' data-ref="21section" data-ref-filename="21section">section</a> + <b>sizeof</b>(<a class="typedef" href="#liballoc_part_t" title='liballoc_part_t' data-type='struct liballoc_part' data-ref="liballoc_part_t" data-ref-filename="liballoc_part_t">liballoc_part_t</a>));</td></tr>
 <tr><th id="426">426</th><td>                    <a class="macro" href="#27" title="if (16 &gt; 1) { uintptr_t diff; p = (void *) ((uintptr_t) p + sizeof(char) * 16); diff = (uintptr_t) p &amp; (16 - 1); if (diff != 0) { diff = 16 - diff; p = (void *) ((uintptr_t) p + diff); } *((char *) ((uintptr_t) p - sizeof(char) * 16)) = diff + sizeof(char) * 16; }" data-ref="_M/LIBALLOC_ALIGN_PTR">LIBALLOC_ALIGN_PTR</a>(<a class="local col3 ref" href="#23p" title='p' data-ref="23p" data-ref-filename="23p">p</a>);</td></tr>
 <tr><th id="427">427</th><td></td></tr>
-<tr><th id="428">428</th><td><u>#<span data-ppcond="428">if</span> <a class="macro" href="../../build/include/mos/kconfig.h.html#13" title="0" data-ref="_M/MOS_MM_LIBALLOC_LOCKS">MOS_MM_LIBALLOC_LOCKS</a></u></td></tr>
+<tr><th id="428">428</th><td><u>#<span data-ppcond="428">if</span> <a class="macro" href="../../build/include/mos/kconfig.h.html#24" title="0" data-ref="_M/MOS_MM_LIBALLOC_LOCKS">MOS_MM_LIBALLOC_LOCKS</a></u></td></tr>
 <tr><th id="429">429</th><td>                    liballoc_unlock(); <i>// release the lock</i></td></tr>
 <tr><th id="430">430</th><td><u>#<span data-ppcond="428">endif</span></u></td></tr>
-<tr><th id="431">431</th><td><u>#<span data-ppcond="431">if</span> <a class="macro" href="../../build/include/mos/kconfig.h.html#14" title="0" data-ref="_M/MOS_MM_LIBALLOC_DEBUG">MOS_MM_LIBALLOC_DEBUG</a></u></td></tr>
+<tr><th id="431">431</th><td><u>#<span data-ppcond="431">if</span> <a class="macro" href="../../build/include/mos/kconfig.h.html#26" title="0" data-ref="_M/MOS_MM_LIBALLOC_DEBUG">MOS_MM_LIBALLOC_DEBUG</a></u></td></tr>
 <tr><th id="432">432</th><td>                    pr_info(<q>"liballoc: allocating %lu bytes at %p"</q>, size, p);</td></tr>
 <tr><th id="433">433</th><td><u>#<span data-ppcond="431">endif</span></u></td></tr>
 <tr><th id="434">434</th><td>                    <b>return</b> <a class="local col3 ref" href="#23p" title='p' data-ref="23p" data-ref-filename="23p">p</a>;</td></tr>
@@ -479,10 +479,10 @@
 <tr><th id="465">465</th><td>                    <em>void</em> *<dfn class="local col7 decl" id="27p" title='p' data-type='void *' data-ref="27p" data-ref-filename="27p">p</dfn> = (<em>void</em> *) ((<a class="typedef" href="../../include/mos/types.h.html#uintptr_t" title='uintptr_t' data-type='unsigned long' data-ref="uintptr_t" data-ref-filename="uintptr_t">uintptr_t</a>) <a class="local col6 ref" href="#26new_min" title='new_min' data-ref="26new_min" data-ref-filename="26new_min">new_min</a> + <b>sizeof</b>(<a class="typedef" href="#liballoc_part_t" title='liballoc_part_t' data-type='struct liballoc_part' data-ref="liballoc_part_t" data-ref-filename="liballoc_part_t">liballoc_part_t</a>));</td></tr>
 <tr><th id="466">466</th><td>                    <a class="macro" href="#27" title="if (16 &gt; 1) { uintptr_t diff; p = (void *) ((uintptr_t) p + sizeof(char) * 16); diff = (uintptr_t) p &amp; (16 - 1); if (diff != 0) { diff = 16 - diff; p = (void *) ((uintptr_t) p + diff); } *((char *) ((uintptr_t) p - sizeof(char) * 16)) = diff + sizeof(char) * 16; }" data-ref="_M/LIBALLOC_ALIGN_PTR">LIBALLOC_ALIGN_PTR</a>(<a class="local col7 ref" href="#27p" title='p' data-ref="27p" data-ref-filename="27p">p</a>);</td></tr>
 <tr><th id="467">467</th><td></td></tr>
-<tr><th id="468">468</th><td><u>#<span data-ppcond="468">if</span> <a class="macro" href="../../build/include/mos/kconfig.h.html#13" title="0" data-ref="_M/MOS_MM_LIBALLOC_LOCKS">MOS_MM_LIBALLOC_LOCKS</a></u></td></tr>
+<tr><th id="468">468</th><td><u>#<span data-ppcond="468">if</span> <a class="macro" href="../../build/include/mos/kconfig.h.html#24" title="0" data-ref="_M/MOS_MM_LIBALLOC_LOCKS">MOS_MM_LIBALLOC_LOCKS</a></u></td></tr>
 <tr><th id="469">469</th><td>                    liballoc_unlock(); <i>// release the lock</i></td></tr>
 <tr><th id="470">470</th><td><u>#<span data-ppcond="468">endif</span></u></td></tr>
-<tr><th id="471">471</th><td><u>#<span data-ppcond="471">if</span> <a class="macro" href="../../build/include/mos/kconfig.h.html#14" title="0" data-ref="_M/MOS_MM_LIBALLOC_DEBUG">MOS_MM_LIBALLOC_DEBUG</a></u></td></tr>
+<tr><th id="471">471</th><td><u>#<span data-ppcond="471">if</span> <a class="macro" href="../../build/include/mos/kconfig.h.html#26" title="0" data-ref="_M/MOS_MM_LIBALLOC_DEBUG">MOS_MM_LIBALLOC_DEBUG</a></u></td></tr>
 <tr><th id="472">472</th><td>                    pr_info(<q>"liballoc: allocating %lu bytes at %p"</q>, size, p);</td></tr>
 <tr><th id="473">473</th><td><u>#<span data-ppcond="471">endif</span></u></td></tr>
 <tr><th id="474">474</th><td>                    <b>return</b> <a class="local col7 ref" href="#27p" title='p' data-ref="27p" data-ref-filename="27p">p</a>;</td></tr>
@@ -498,7 +498,7 @@
 <tr><th id="484">484</th><td>        <i>// CASE 5: Block full! Ensure next block and loop.</i></td></tr>
 <tr><th id="485">485</th><td>        <b>if</b> (<a class="local col4 ref" href="#14block" title='block' data-ref="14block" data-ref-filename="14block">block</a>-&gt;<a class="tu ref field" href="#liballoc_block::next" title='liballoc_block::next' data-use='r' data-ref="liballoc_block::next" data-ref-filename="liballoc_block..next">next</a> == <span class="macro" title="((void*)0)" data-ref="_M/NULL">NULL</span>)</td></tr>
 <tr><th id="486">486</th><td>        {</td></tr>
-<tr><th id="487">487</th><td><u>#<span data-ppcond="487">if</span> <a class="macro" href="../../build/include/mos/kconfig.h.html#14" title="0" data-ref="_M/MOS_MM_LIBALLOC_DEBUG">MOS_MM_LIBALLOC_DEBUG</a></u></td></tr>
+<tr><th id="487">487</th><td><u>#<span data-ppcond="487">if</span> <a class="macro" href="../../build/include/mos/kconfig.h.html#26" title="0" data-ref="_M/MOS_MM_LIBALLOC_DEBUG">MOS_MM_LIBALLOC_DEBUG</a></u></td></tr>
 <tr><th id="488">488</th><td>            pr_info(<q>"CASE 5: block full"</q>);</td></tr>
 <tr><th id="489">489</th><td><u>#<span data-ppcond="487">endif</span></u></td></tr>
 <tr><th id="490">490</th><td></td></tr>
@@ -521,13 +521,13 @@
 <tr><th id="507">507</th><td>        <a class="local col4 ref" href="#14block" title='block' data-ref="14block" data-ref-filename="14block">block</a> = <a class="local col4 ref" href="#14block" title='block' data-ref="14block" data-ref-filename="14block">block</a>-&gt;<a class="tu ref field" href="#liballoc_block::next" title='liballoc_block::next' data-use='r' data-ref="liballoc_block::next" data-ref-filename="liballoc_block..next">next</a>;</td></tr>
 <tr><th id="508">508</th><td>    } <i>// while (maj != NULL)</i></td></tr>
 <tr><th id="509">509</th><td></td></tr>
-<tr><th id="510">510</th><td><u>#<span data-ppcond="510">if</span> <a class="macro" href="../../build/include/mos/kconfig.h.html#13" title="0" data-ref="_M/MOS_MM_LIBALLOC_LOCKS">MOS_MM_LIBALLOC_LOCKS</a></u></td></tr>
+<tr><th id="510">510</th><td><u>#<span data-ppcond="510">if</span> <a class="macro" href="../../build/include/mos/kconfig.h.html#24" title="0" data-ref="_M/MOS_MM_LIBALLOC_LOCKS">MOS_MM_LIBALLOC_LOCKS</a></u></td></tr>
 <tr><th id="511">511</th><td>    liballoc_unlock(); <i>// release the lock</i></td></tr>
 <tr><th id="512">512</th><td><u>#<span data-ppcond="510">endif</span></u></td></tr>
 <tr><th id="513">513</th><td></td></tr>
 <tr><th id="514">514</th><td>    <a class="macro" href="../../include/mos/printk.h.html#63" title="mos_kwarn(__func__, 514, &quot;WARN: &quot; &quot;No memory available.&quot; &quot;\n&quot;)" data-ref="_M/mos_warn">mos_warn</a>(<q>"No memory available."</q>);</td></tr>
 <tr><th id="515">515</th><td></td></tr>
-<tr><th id="516">516</th><td><u>#<span data-ppcond="516">if</span> <a class="macro" href="../../build/include/mos/kconfig.h.html#14" title="0" data-ref="_M/MOS_MM_LIBALLOC_DEBUG">MOS_MM_LIBALLOC_DEBUG</a></u></td></tr>
+<tr><th id="516">516</th><td><u>#<span data-ppcond="516">if</span> <a class="macro" href="../../build/include/mos/kconfig.h.html#26" title="0" data-ref="_M/MOS_MM_LIBALLOC_DEBUG">MOS_MM_LIBALLOC_DEBUG</a></u></td></tr>
 <tr><th id="517">517</th><td>    liballoc_dump();</td></tr>
 <tr><th id="518">518</th><td><u>#<span data-ppcond="516">endif</span></u></td></tr>
 <tr><th id="519">519</th><td></td></tr>
@@ -548,7 +548,7 @@
 <tr><th id="534">534</th><td></td></tr>
 <tr><th id="535">535</th><td>    <a class="macro" href="#41" title="if (16 &gt; 1) { uintptr_t diff = *((char *) ((uintptr_t) ptr - sizeof(char) * 16)); if (diff &lt; (16 + sizeof(char) * 16)) ptr = (void *) ((uintptr_t) ptr - diff); }" data-ref="_M/LIBALLOC_UNALIGN_PTR">LIBALLOC_UNALIGN_PTR</a>(<a class="local col9 ref" href="#29ptr" title='ptr' data-ref="29ptr" data-ref-filename="29ptr">ptr</a>);</td></tr>
 <tr><th id="536">536</th><td></td></tr>
-<tr><th id="537">537</th><td><u>#<span data-ppcond="537">if</span> <a class="macro" href="../../build/include/mos/kconfig.h.html#13" title="0" data-ref="_M/MOS_MM_LIBALLOC_LOCKS">MOS_MM_LIBALLOC_LOCKS</a></u></td></tr>
+<tr><th id="537">537</th><td><u>#<span data-ppcond="537">if</span> <a class="macro" href="../../build/include/mos/kconfig.h.html#24" title="0" data-ref="_M/MOS_MM_LIBALLOC_LOCKS">MOS_MM_LIBALLOC_LOCKS</a></u></td></tr>
 <tr><th id="538">538</th><td>    liballoc_lock(); <i>// lockit</i></td></tr>
 <tr><th id="539">539</th><td><u>#<span data-ppcond="537">endif</span></u></td></tr>
 <tr><th id="540">540</th><td></td></tr>
@@ -574,7 +574,7 @@
 <tr><th id="560">560</th><td>        {</td></tr>
 <tr><th id="561">561</th><td>            <a class="macro" href="../../include/mos/printk.h.html#63" title="mos_kwarn(__func__, 561, &quot;WARN: &quot; &quot;liballoc: bad free(%p) called.&quot; &quot;\n&quot;, ptr)" data-ref="_M/mos_warn">mos_warn</a>(<q>"liballoc: bad free(%p) called."</q>, <a class="local col9 ref" href="#29ptr" title='ptr' data-ref="29ptr" data-ref-filename="29ptr">ptr</a>);</td></tr>
 <tr><th id="562">562</th><td>        }</td></tr>
-<tr><th id="563">563</th><td><u>#<span data-ppcond="563">if</span> <a class="macro" href="../../build/include/mos/kconfig.h.html#13" title="0" data-ref="_M/MOS_MM_LIBALLOC_LOCKS">MOS_MM_LIBALLOC_LOCKS</a></u></td></tr>
+<tr><th id="563">563</th><td><u>#<span data-ppcond="563">if</span> <a class="macro" href="../../build/include/mos/kconfig.h.html#24" title="0" data-ref="_M/MOS_MM_LIBALLOC_LOCKS">MOS_MM_LIBALLOC_LOCKS</a></u></td></tr>
 <tr><th id="564">564</th><td>        <i>// being lied to...</i></td></tr>
 <tr><th id="565">565</th><td>        liballoc_unlock(); <i>// release the lock</i></td></tr>
 <tr><th id="566">566</th><td><u>#<span data-ppcond="563">endif</span></u></td></tr>
@@ -624,7 +624,7 @@
 <tr><th id="610">610</th><td>        }</td></tr>
 <tr><th id="611">611</th><td>    }</td></tr>
 <tr><th id="612">612</th><td></td></tr>
-<tr><th id="613">613</th><td><u>#<span data-ppcond="613">if</span> <a class="macro" href="../../build/include/mos/kconfig.h.html#13" title="0" data-ref="_M/MOS_MM_LIBALLOC_LOCKS">MOS_MM_LIBALLOC_LOCKS</a></u></td></tr>
+<tr><th id="613">613</th><td><u>#<span data-ppcond="613">if</span> <a class="macro" href="../../build/include/mos/kconfig.h.html#24" title="0" data-ref="_M/MOS_MM_LIBALLOC_LOCKS">MOS_MM_LIBALLOC_LOCKS</a></u></td></tr>
 <tr><th id="614">614</th><td>    liballoc_unlock(); <i>// release the lock</i></td></tr>
 <tr><th id="615">615</th><td><u>#<span data-ppcond="613">endif</span></u></td></tr>
 <tr><th id="616">616</th><td>}</td></tr>
@@ -657,7 +657,7 @@
 <tr><th id="643">643</th><td>    <em>void</em> *<dfn class="local col1 decl" id="41ptr" title='ptr' data-type='void *' data-ref="41ptr" data-ref-filename="41ptr">ptr</dfn> = <a class="local col9 ref" href="#39p" title='p' data-ref="39p" data-ref-filename="39p">p</a>;</td></tr>
 <tr><th id="644">644</th><td>    <a class="macro" href="#41" title="if (16 &gt; 1) { uintptr_t diff = *((char *) ((uintptr_t) ptr - sizeof(char) * 16)); if (diff &lt; (16 + sizeof(char) * 16)) ptr = (void *) ((uintptr_t) ptr - diff); }" data-ref="_M/LIBALLOC_UNALIGN_PTR">LIBALLOC_UNALIGN_PTR</a>(<a class="local col1 ref" href="#41ptr" title='ptr' data-ref="41ptr" data-ref-filename="41ptr">ptr</a>);</td></tr>
 <tr><th id="645">645</th><td></td></tr>
-<tr><th id="646">646</th><td><u>#<span data-ppcond="646">if</span> <a class="macro" href="../../build/include/mos/kconfig.h.html#13" title="0" data-ref="_M/MOS_MM_LIBALLOC_LOCKS">MOS_MM_LIBALLOC_LOCKS</a></u></td></tr>
+<tr><th id="646">646</th><td><u>#<span data-ppcond="646">if</span> <a class="macro" href="../../build/include/mos/kconfig.h.html#24" title="0" data-ref="_M/MOS_MM_LIBALLOC_LOCKS">MOS_MM_LIBALLOC_LOCKS</a></u></td></tr>
 <tr><th id="647">647</th><td>    liballoc_lock(); <i>// lockit</i></td></tr>
 <tr><th id="648">648</th><td><u>#<span data-ppcond="646">endif</span></u></td></tr>
 <tr><th id="649">649</th><td></td></tr>
@@ -684,7 +684,7 @@
 <tr><th id="670">670</th><td>        {</td></tr>
 <tr><th id="671">671</th><td>            <a class="macro" href="../../include/mos/printk.h.html#63" title="mos_kwarn(__func__, 671, &quot;WARN: &quot; &quot;liballoc: Bad free(%p) called&quot; &quot;\n&quot;, ptr)" data-ref="_M/mos_warn">mos_warn</a>(<q>"liballoc: Bad free(%p) called"</q>, <a class="local col1 ref" href="#41ptr" title='ptr' data-ref="41ptr" data-ref-filename="41ptr">ptr</a>);</td></tr>
 <tr><th id="672">672</th><td>        }</td></tr>
-<tr><th id="673">673</th><td><u>#<span data-ppcond="673">if</span> <a class="macro" href="../../build/include/mos/kconfig.h.html#13" title="0" data-ref="_M/MOS_MM_LIBALLOC_LOCKS">MOS_MM_LIBALLOC_LOCKS</a></u></td></tr>
+<tr><th id="673">673</th><td><u>#<span data-ppcond="673">if</span> <a class="macro" href="../../build/include/mos/kconfig.h.html#24" title="0" data-ref="_M/MOS_MM_LIBALLOC_LOCKS">MOS_MM_LIBALLOC_LOCKS</a></u></td></tr>
 <tr><th id="674">674</th><td>        <i>// being lied to...</i></td></tr>
 <tr><th id="675">675</th><td>        liballoc_unlock(); <i>// release the lock</i></td></tr>
 <tr><th id="676">676</th><td><u>#<span data-ppcond="673">endif</span></u></td></tr>
@@ -698,12 +698,12 @@
 <tr><th id="684">684</th><td>    <b>if</b> (<a class="local col4 ref" href="#44real_size" title='real_size' data-ref="44real_size" data-ref-filename="44real_size">real_size</a> &gt;= <a class="local col0 ref" href="#40size" title='size' data-ref="40size" data-ref-filename="40size">size</a>)</td></tr>
 <tr><th id="685">685</th><td>    {</td></tr>
 <tr><th id="686">686</th><td>        <a class="local col3 ref" href="#43min" title='min' data-ref="43min" data-ref-filename="43min">min</a>-&gt;<a class="tu ref field" href="#liballoc_part::req_size" title='liballoc_part::req_size' data-use='w' data-ref="liballoc_part::req_size" data-ref-filename="liballoc_part..req_size">req_size</a> = <a class="local col0 ref" href="#40size" title='size' data-ref="40size" data-ref-filename="40size">size</a>;</td></tr>
-<tr><th id="687">687</th><td><u>#<span data-ppcond="687">if</span> <a class="macro" href="../../build/include/mos/kconfig.h.html#13" title="0" data-ref="_M/MOS_MM_LIBALLOC_LOCKS">MOS_MM_LIBALLOC_LOCKS</a></u></td></tr>
+<tr><th id="687">687</th><td><u>#<span data-ppcond="687">if</span> <a class="macro" href="../../build/include/mos/kconfig.h.html#24" title="0" data-ref="_M/MOS_MM_LIBALLOC_LOCKS">MOS_MM_LIBALLOC_LOCKS</a></u></td></tr>
 <tr><th id="688">688</th><td>        liballoc_unlock();</td></tr>
 <tr><th id="689">689</th><td><u>#<span data-ppcond="687">endif</span></u></td></tr>
 <tr><th id="690">690</th><td>        <b>return</b> <a class="local col9 ref" href="#39p" title='p' data-ref="39p" data-ref-filename="39p">p</a>;</td></tr>
 <tr><th id="691">691</th><td>    }</td></tr>
-<tr><th id="692">692</th><td><u>#<span data-ppcond="692">if</span> <a class="macro" href="../../build/include/mos/kconfig.h.html#13" title="0" data-ref="_M/MOS_MM_LIBALLOC_LOCKS">MOS_MM_LIBALLOC_LOCKS</a></u></td></tr>
+<tr><th id="692">692</th><td><u>#<span data-ppcond="692">if</span> <a class="macro" href="../../build/include/mos/kconfig.h.html#24" title="0" data-ref="_M/MOS_MM_LIBALLOC_LOCKS">MOS_MM_LIBALLOC_LOCKS</a></u></td></tr>
 <tr><th id="693">693</th><td>    liballoc_unlock();</td></tr>
 <tr><th id="694">694</th><td><u>#<span data-ppcond="692">endif</span></u></td></tr>
 <tr><th id="695">695</th><td></td></tr>

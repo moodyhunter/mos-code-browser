@@ -1,3 +1,2 @@
-<dec f='MOS/build/include/mos/kconfig.h' l='32'/>
-<doc f='MOS/build/include/mos/kconfig.h' l='31'>// defined in /home/runner/work/MOS/MOS/CMakeLists.txt</doc>
+<dec f='MOS/build/include/mos/kconfig.h' l='30'/>
 <use f='MOS/kernel/kernel_init.c' l='82' u='c'/>

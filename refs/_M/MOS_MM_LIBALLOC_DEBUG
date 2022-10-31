@@ -1,4 +1,4 @@
-<dec f='MOS/build/include/mos/kconfig.h' l='14'/>
+<dec f='MOS/build/include/mos/kconfig.h' l='26'/>
 <use f='MOS/kernel/mm/liballoc.c' l='55' u='c'/>
 <use f='MOS/kernel/mm/liballoc.c' l='134' u='c'/>
 <use f='MOS/kernel/mm/liballoc.c' l='196' u='c'/>
