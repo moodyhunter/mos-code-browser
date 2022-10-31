@@ -44,7 +44,7 @@
 <use f='MOS/arch/x86/mm/pmem_freelist.c' l='221' macro='1' u='r' c='pmem_freelist_remove_region'/>
 <use f='MOS/arch/x86/mm/pmem_freelist.c' l='281' macro='1' u='r' c='pmem_freelist_find_free'/>
 <use f='MOS/kernel/device/console.c' l='41' macro='1' u='r' c='mos_install_console'/>
-<use f='MOS/kernel/elf/elf.c' l='75' macro='1' u='r' c='create_elf_process'/>
+<use f='MOS/kernel/elf/elf.c' l='75' macro='1' u='r' c='process_create_from_elf'/>
 <use f='MOS/kernel/filesystem/filesystem.c' l='112' macro='1' u='r' c='vfs_path_open'/>
 <use f='MOS/kernel/filesystem/mount.c' l='16' macro='1' u='r' c='kmount_add_mp'/>
 <use f='MOS/kernel/filesystem/pathutils.c' l='177' macro='1' u='r' c='path_treeop_decrement_refcount'/>

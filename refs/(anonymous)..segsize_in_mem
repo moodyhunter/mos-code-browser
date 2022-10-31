@@ -1,4 +1,4 @@
 <dec f='MOS/include/mos/elf/elf.h' l='148' type='uintptr_t'/>
-<use f='MOS/kernel/elf/elf.c' l='102' u='r' c='create_elf_process'/>
+<use f='MOS/kernel/elf/elf.c' l='102' u='r' c='process_create_from_elf'/>
 <offset>288</offset>
 <doc f='MOS/include/mos/elf/elf.h' l='148'>// Size of the segment in memory (may be 0)</doc>

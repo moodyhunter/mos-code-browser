@@ -1,4 +1,4 @@
 <dec f='MOS/build/include/mos/ksyscall/dispatcher.h' l='33' type='size_t ksyscall_io_read(fd_t fd, void * buffer, size_t size, size_t offset)'/>
 <use f='MOS/build/include/mos/ksyscall/dispatcher.h' l='35' u='c' c='dispatch_ksyscall'/>
 <dec f='MOS/build/include/mos/ksyscall/decl.h' l='15' type='size_t ksyscall_io_read(fd_t fd, void * buffer, size_t size, size_t offset)'/>
-<def f='MOS/kernel/ksyscall.c' l='25' macro='1' type='size_t ksyscall_io_read(fd_t fd, void * buf, size_t count, size_t offset)'/>
+<def f='MOS/kernel/ksyscall.c' l='41' macro='1' type='size_t ksyscall_io_read(fd_t fd, void * buf, size_t count, size_t offset)'/>

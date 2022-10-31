@@ -4,7 +4,7 @@
 <use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='119' u='r' c='x86_handle_interrupt'/>
 <use f='MOS/arch/x86/tasks/context.c' l='44' u='r' c='x86_switch_to_thread'/>
 <use f='MOS/arch/x86/tasks/context.c' l='46' u='r' c='x86_switch_to_thread'/>
-<use f='MOS/kernel/tasks/schedule.c' l='46' u='a' c='jump_to_scheduler'/>
+<use f='MOS/kernel/tasks/schedule.c' l='50' u='a' c='jump_to_scheduler'/>
 <use f='MOS/kernel/tasks/thread.c' l='89' u='w' c='thread_new'/>
 <use f='MOS/kernel/tasks/thread.c' l='89' u='r' c='thread_new'/>
 <use f='MOS/lib/structures/stack.c' l='14' u='w' c='stack_init'/>

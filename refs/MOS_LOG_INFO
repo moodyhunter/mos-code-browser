@@ -33,8 +33,7 @@
 <use f='MOS/kernel/kernel_init.c' l='63' macro='1' u='r' c='dump_cmdline'/>
 <use f='MOS/kernel/kernel_init.c' l='75' macro='1' u='r' c='mos_start_kernel'/>
 <use f='MOS/kernel/kernel_init.c' l='97' macro='1' u='r' c='mos_start_kernel'/>
-<use f='MOS/kernel/ksyscall.c' l='56' macro='1' u='r' c='ksyscall_exit'/>
+<use f='MOS/kernel/ksyscall.c' l='73' macro='1' u='r' c='ksyscall_exit'/>
 <use f='MOS/kernel/printk.c' l='18' c='deduce_level_color'/>
 <use f='MOS/kernel/tasks/process.c' l='150' macro='1' u='r' c='process_handle_exit'/>
-<use f='MOS/kernel/tasks/process.c' l='167' macro='1' u='r' c='fork_return'/>
-<use f='MOS/kernel/tasks/process.c' l='186' macro='1' u='r' c='process_dump_mmaps'/>
+<use f='MOS/kernel/tasks/process.c' l='181' macro='1' u='r' c='process_dump_mmaps'/>

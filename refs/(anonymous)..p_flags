@@ -1,10 +1,10 @@
 <dec f='MOS/include/mos/elf/elf.h' l='150' type='u32'/>
-<use f='MOS/kernel/elf/elf.c' l='76' u='r' c='create_elf_process'/>
-<use f='MOS/kernel/elf/elf.c' l='77' u='r' c='create_elf_process'/>
-<use f='MOS/kernel/elf/elf.c' l='78' u='r' c='create_elf_process'/>
-<use f='MOS/kernel/elf/elf.c' l='87' u='r' c='create_elf_process'/>
-<use f='MOS/kernel/elf/elf.c' l='88' u='r' c='create_elf_process'/>
-<use f='MOS/kernel/elf/elf.c' l='89' u='r' c='create_elf_process'/>
-<use f='MOS/kernel/elf/elf.c' l='108' u='r' c='create_elf_process'/>
+<use f='MOS/kernel/elf/elf.c' l='76' u='r' c='process_create_from_elf'/>
+<use f='MOS/kernel/elf/elf.c' l='77' u='r' c='process_create_from_elf'/>
+<use f='MOS/kernel/elf/elf.c' l='78' u='r' c='process_create_from_elf'/>
+<use f='MOS/kernel/elf/elf.c' l='87' u='r' c='process_create_from_elf'/>
+<use f='MOS/kernel/elf/elf.c' l='88' u='r' c='process_create_from_elf'/>
+<use f='MOS/kernel/elf/elf.c' l='89' u='r' c='process_create_from_elf'/>
+<use f='MOS/kernel/elf/elf.c' l='108' u='r' c='process_create_from_elf'/>
 <offset>352</offset>
 <doc f='MOS/include/mos/elf/elf.h' l='150'>// Segment independent flags (32-bit only)</doc>

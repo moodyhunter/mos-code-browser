@@ -2,3 +2,4 @@
 <use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='116' u='r' c='x86_handle_interrupt'/>
 <doc f='MOS/include/mos/tasks/task_type.h' l='16'>// thread is currently running</doc>
 <use f='MOS/kernel/tasks/schedule.c' l='17' u='r' c='mos_update_current'/>
+<use f='MOS/kernel/tasks/schedule.c' l='21' u='r' c='mos_update_current'/>

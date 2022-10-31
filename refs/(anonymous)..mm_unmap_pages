@@ -1,6 +1,6 @@
 <dec f='MOS/include/mos/platform/platform.h' l='130' type='void (*const)(paging_handle_t, uintptr_t, size_t)'/>
 <offset>6464</offset>
 <use f='MOS/arch/x86/x86_platform.c' l='186' u='w'/>
-<use f='MOS/kernel/elf/elf.c' l='124' u='r' c='create_elf_process'/>
+<use f='MOS/kernel/elf/elf.c' l='124' u='r' c='process_create_from_elf'/>
 <use f='MOS/kernel/mm/cow.c' l='30' u='r' c='copy_cow_pages_inplace'/>
 <use f='MOS/kernel/mm/memops.c' l='20' u='r' c='mm_unmap_proxy_space'/>

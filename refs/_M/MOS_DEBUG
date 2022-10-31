@@ -2,4 +2,4 @@
 <use f='MOS/include/mos/printk.h' l='51' u='c'/>
 <use f='MOS/arch/x86/mm/paging.c' l='73' u='c'/>
 <use f='MOS/kernel/elf/elf.c' l='111' u='c'/>
-<use f='MOS/kernel/tasks/schedule.c' l='29' u='c'/>
+<use f='MOS/kernel/tasks/schedule.c' l='33' u='c'/>

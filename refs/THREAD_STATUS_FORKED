@@ -2,4 +2,4 @@
 <doc f='MOS/include/mos/tasks/task_type.h' l='14'>// forked, not ever started</doc>
 <use f='MOS/arch/x86/tasks/context.c' l='39' u='r' c='x86_switch_to_thread'/>
 <use f='MOS/kernel/tasks/fork.c' l='65' u='r' c='process_handle_fork'/>
-<use f='MOS/kernel/tasks/schedule.c' l='27' u='r' c='schedule_to_thread'/>
+<use f='MOS/kernel/tasks/schedule.c' l='31' u='r' c='schedule_to_thread'/>

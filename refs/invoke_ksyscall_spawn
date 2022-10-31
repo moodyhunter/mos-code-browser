@@ -1,0 +1,3 @@
+<def f='MOS/build/include/mos/ksyscall/usermode.h' l='70' ll='73' macro='1' type='pid_t invoke_ksyscall_spawn(const char * file_path, int argc, const char *const * argv)'/>
+<use f='MOS/userspace/init/main.c' l='63' u='c' c='main'/>
+<use f='MOS/userspace/init/main.c' l='64' u='c' c='main'/>

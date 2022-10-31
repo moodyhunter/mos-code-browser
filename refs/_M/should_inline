@@ -25,3 +25,4 @@
 <use f='MOS/build/include/mos/ksyscall/usermode.h' l='55' u='c'/>
 <use f='MOS/build/include/mos/ksyscall/usermode.h' l='60' u='c'/>
 <use f='MOS/build/include/mos/ksyscall/usermode.h' l='65' u='c'/>
+<use f='MOS/build/include/mos/ksyscall/usermode.h' l='70' u='c'/>

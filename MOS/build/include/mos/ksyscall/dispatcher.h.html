@@ -31,7 +31,7 @@
 <tr><th id="18">18</th><td>    (<em>void</em>) <a class="local col5 ref" href="#45arg8" title='arg8' data-ref="45arg8" data-ref-filename="45arg8">arg8</a>;</td></tr>
 <tr><th id="19">19</th><td>    </td></tr>
 <tr><th id="20">20</th><td>    <em>long</em> <dfn class="local col6 decl" id="46ret" title='ret' data-type='long' data-ref="46ret" data-ref-filename="46ret">ret</dfn> = <var>0</var>;</td></tr>
-<tr><th id="21">21</th><td>    <b>extern</b> <a class="macro" href="../../../../include/mos/mos_global.h.html#20" title="__attribute__((__noreturn__))" data-ref="_M/noreturn">noreturn</a> <em>void</em> <dfn class="decl fn" id="ksyscall_panic" title='ksyscall_panic' data-ref="ksyscall_panic" data-ref-filename="ksyscall_panic">ksyscall_panic</dfn>(<em>void</em>);</td></tr>
+<tr><th id="21">21</th><td>    <b>extern</b> <em>void</em> <dfn class="decl fn" id="ksyscall_panic" title='ksyscall_panic' data-ref="ksyscall_panic" data-ref-filename="ksyscall_panic">ksyscall_panic</dfn>(<em>void</em>);</td></tr>
 <tr><th id="22">22</th><td>    <b>if</b> (<a class="local col7 ref" href="#37number" title='number' data-ref="37number" data-ref-filename="37number">number</a> == <var>0</var>)</td></tr>
 <tr><th id="23">23</th><td>        <a class="ref fn" href="#ksyscall_panic" title='ksyscall_panic' data-ref="ksyscall_panic" data-ref-filename="ksyscall_panic">ksyscall_panic</a>();</td></tr>
 <tr><th id="24">24</th><td>    </td></tr>
@@ -79,9 +79,13 @@
 <tr><th id="66">66</th><td>    <b>if</b> (<a class="local col7 ref" href="#37number" title='number' data-ref="37number" data-ref-filename="37number">number</a> == <var>11</var>)</td></tr>
 <tr><th id="67">67</th><td>        <a class="local col6 ref" href="#46ret" title='ret' data-ref="46ret" data-ref-filename="46ret">ret</a> = (<em>long</em>) <a class="ref fn" href="#ksyscall_get_parent_pid" title='ksyscall_get_parent_pid' data-ref="ksyscall_get_parent_pid" data-ref-filename="ksyscall_get_parent_pid">ksyscall_get_parent_pid</a>();</td></tr>
 <tr><th id="68">68</th><td>    </td></tr>
-<tr><th id="69">69</th><td>    <b>return</b> <a class="local col6 ref" href="#46ret" title='ret' data-ref="46ret" data-ref-filename="46ret">ret</a>;</td></tr>
-<tr><th id="70">70</th><td>}</td></tr>
-<tr><th id="71">71</th><td></td></tr>
+<tr><th id="69">69</th><td>    <b>extern</b> <a class="typedef" href="../../../../include/mos/types.h.html#pid_t" title='pid_t' data-type='id_t' data-ref="pid_t" data-ref-filename="pid_t">pid_t</a> <dfn class="decl fn" id="ksyscall_spawn" title='ksyscall_spawn' data-ref="ksyscall_spawn" data-ref-filename="ksyscall_spawn">ksyscall_spawn</dfn>(<em>const</em> <em>char</em> *<dfn class="local col3 decl" id="63file_path" title='file_path' data-type='const char *' data-ref="63file_path" data-ref-filename="63file_path">file_path</dfn>, <em>int</em> <dfn class="local col4 decl" id="64argc" title='argc' data-type='int' data-ref="64argc" data-ref-filename="64argc">argc</dfn>, <em>const</em> <em>char</em> *<em>const</em> *<dfn class="local col5 decl" id="65argv" title='argv' data-type='const char *const *' data-ref="65argv" data-ref-filename="65argv">argv</dfn>);</td></tr>
+<tr><th id="70">70</th><td>    <b>if</b> (<a class="local col7 ref" href="#37number" title='number' data-ref="37number" data-ref-filename="37number">number</a> == <var>12</var>)</td></tr>
+<tr><th id="71">71</th><td>        <a class="local col6 ref" href="#46ret" title='ret' data-ref="46ret" data-ref-filename="46ret">ret</a> = (<em>long</em>) <a class="ref fn" href="#ksyscall_spawn" title='ksyscall_spawn' data-ref="ksyscall_spawn" data-ref-filename="ksyscall_spawn">ksyscall_spawn</a>((<em>const</em> <em>char</em> *) <a class="local col8 ref" href="#38arg1" title='arg1' data-ref="38arg1" data-ref-filename="38arg1">arg1</a>, (<em>int</em>) <a class="local col9 ref" href="#39arg2" title='arg2' data-ref="39arg2" data-ref-filename="39arg2">arg2</a>, (<em>const</em> <em>char</em> *<em>const</em> *) <a class="local col0 ref" href="#40arg3" title='arg3' data-ref="40arg3" data-ref-filename="40arg3">arg3</a>);</td></tr>
+<tr><th id="72">72</th><td>    </td></tr>
+<tr><th id="73">73</th><td>    <b>return</b> <a class="local col6 ref" href="#46ret" title='ret' data-ref="46ret" data-ref-filename="46ret">ret</a>;</td></tr>
+<tr><th id="74">74</th><td>}</td></tr>
+<tr><th id="75">75</th><td></td></tr>
 </table><hr/><p id='footer'>
 Generated while processing <a href='../../../../arch/x86/interrupt/x86_interrupt.c.html'>MOS/arch/x86/interrupt/x86_interrupt.c</a><br/>Generated on <em>2022-Oct-31</em> from project MOS<br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
 <br/>Generator usage only permitted with license.</p>
