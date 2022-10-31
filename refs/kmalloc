@@ -15,7 +15,7 @@
 <use f='MOS/kernel/tasks/process.c' l='77' u='c' c='process_init'/>
 <use f='MOS/kernel/tasks/thread.c' l='38' u='c' c='thread_allocate'/>
 <use f='MOS/kernel/tasks/thread.c' l='53' u='c' c='thread_init'/>
-<use f='MOS/lib/string.c' l='146' u='c' c='duplicate_string_n'/>
+<use f='MOS/lib/string.c' l='146' u='c' c='duplicate_string'/>
 <use f='MOS/lib/structures/hashmap.c' l='25' u='c' c='hashmap_init'/>
 <use f='MOS/lib/structures/hashmap.c' l='65' u='c' c='hashmap_put'/>
 <use f='MOS/tests/downwards_stack/test_downwards_stack.c' l='24' u='c' c='stack_push_pop_stack'/>
