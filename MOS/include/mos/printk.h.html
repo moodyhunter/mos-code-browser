@@ -29,11 +29,11 @@
 <tr><th id="16">16</th><td><u>#define <dfn class="macro" id="_M/MOS_UNREACHABLE" data-ref="_M/MOS_UNREACHABLE">MOS_UNREACHABLE</dfn>()          mos_panic("UNREACHABLE line %d reached in file: %s", __LINE__, __FILE__)</u></td></tr>
 <tr><th id="17">17</th><td><u>#define <dfn class="macro" id="_M/MOS_ASSERT_ONCE" data-ref="_M/MOS_ASSERT_ONCE">MOS_ASSERT_ONCE</dfn>(...)       MOS_ASSERT_X(once(), __VA_ARGS__)</u></td></tr>
 <tr><th id="18">18</th><td><u>#define <dfn class="macro" id="_M/MOS_ASSERT" data-ref="_M/MOS_ASSERT">MOS_ASSERT</dfn>(cond)           MOS_ASSERT_X(cond, "")</u></td></tr>
-<tr><th id="19">19</th><td><u>#define <dfn class="macro" id="_M/MOS_ASSERT_X" data-ref="_M/MOS_ASSERT_X">MOS_ASSERT_X</dfn>(cond, msg, ...)                                                                                                            \</u></td></tr>
-<tr><th id="20">20</th><td><u>    do                                                                                                                                          \</u></td></tr>
-<tr><th id="21">21</th><td><u>    {                                                                                                                                           \</u></td></tr>
-<tr><th id="22">22</th><td><u>        if (unlikely(!(cond)))                                                                                                                  \</u></td></tr>
-<tr><th id="23">23</th><td><u>            mos_panic("Assertion failed: %s \n" msg, #cond<span class='warning' title="token pasting of &apos;,&apos; and __VA_ARGS__ is a GNU extension">,</span> ##__VA_ARGS__);                                                                     \</u></td></tr>
+<tr><th id="19">19</th><td><u>#define <dfn class="macro" id="_M/MOS_ASSERT_X" data-ref="_M/MOS_ASSERT_X">MOS_ASSERT_X</dfn>(cond, msg, ...)                                                                                                                                     \</u></td></tr>
+<tr><th id="20">20</th><td><u>    do                                                                                                                                                                   \</u></td></tr>
+<tr><th id="21">21</th><td><u>    {                                                                                                                                                                    \</u></td></tr>
+<tr><th id="22">22</th><td><u>        if (unlikely(!(cond)))                                                                                                                                           \</u></td></tr>
+<tr><th id="23">23</th><td><u>            mos_panic("Assertion failed: %s \n" msg, #cond<span class='warning' title="token pasting of &apos;,&apos; and __VA_ARGS__ is a GNU extension">,</span> ##__VA_ARGS__);                                                                                              \</u></td></tr>
 <tr><th id="24">24</th><td><u>    } while (0)</u></td></tr>
 <tr><th id="25">25</th><td></td></tr>
 <tr><th id="26">26</th><td><b>typedef</b> <b>enum</b></td></tr>
@@ -64,11 +64,11 @@
 <tr><th id="51">51</th><td><u>#<span data-ppcond="51">if</span> <a class="macro" href="../../build/include/mos/kconfig.h.html#15" title="0" data-ref="_M/MOS_DEBUG">MOS_DEBUG</a></u></td></tr>
 <tr><th id="52">52</th><td><u>#define mos_debug(fmt, ...) pr_info2("%s: " fmt, __func__, ##__VA_ARGS__)</u></td></tr>
 <tr><th id="53">53</th><td><u>#<span data-ppcond="51">else</span></u></td></tr>
-<tr><th id="54">54</th><td><u>#define <dfn class="macro" id="_M/lprintk_noop" data-ref="_M/lprintk_noop">lprintk_noop</dfn>(level, fmt, ...)                                                                                                           \</u></td></tr>
-<tr><th id="55">55</th><td><u>    do                                                                                                                                          \</u></td></tr>
-<tr><th id="56">56</th><td><u>    {                                                                                                                                           \</u></td></tr>
-<tr><th id="57">57</th><td><u>        if (0)                                                                                                                                  \</u></td></tr>
-<tr><th id="58">58</th><td><u>            lprintk_wrapper(level, fmt, ##__VA_ARGS__);                                                                                         \</u></td></tr>
+<tr><th id="54">54</th><td><u>#define <dfn class="macro" id="_M/lprintk_noop" data-ref="_M/lprintk_noop">lprintk_noop</dfn>(level, fmt, ...)                                                                                                                                    \</u></td></tr>
+<tr><th id="55">55</th><td><u>    do                                                                                                                                                                   \</u></td></tr>
+<tr><th id="56">56</th><td><u>    {                                                                                                                                                                    \</u></td></tr>
+<tr><th id="57">57</th><td><u>        if (0)                                                                                                                                                           \</u></td></tr>
+<tr><th id="58">58</th><td><u>            lprintk_wrapper(level, fmt, ##__VA_ARGS__);                                                                                                                  \</u></td></tr>
 <tr><th id="59">59</th><td><u>    } while (0)</u></td></tr>
 <tr><th id="60">60</th><td><u>#define <dfn class="macro" id="_M/mos_debug" data-ref="_M/mos_debug">mos_debug</dfn>(fmt, ...) lprintk_noop(MOS_LOG_INFO2, fmt "\n", ##__VA_ARGS__)</u></td></tr>
 <tr><th id="61">61</th><td><u>#<span data-ppcond="51">endif</span></u></td></tr>
@@ -76,11 +76,11 @@
 <tr><th id="63">63</th><td><u>#define <dfn class="macro" id="_M/mos_warn" data-ref="_M/mos_warn">mos_warn</dfn>(fmt, ...)  mos_kwarn(__func__, __LINE__, "WARN: " fmt "\n", ##__VA_ARGS__)</u></td></tr>
 <tr><th id="64">64</th><td><u>#define <dfn class="macro" id="_M/mos_panic" data-ref="_M/mos_panic">mos_panic</dfn>(fmt, ...) mos_kpanic(__func__, __LINE__, "" fmt<span class='warning' title="token pasting of &apos;,&apos; and __VA_ARGS__ is a GNU extension">,</span> <span class='warning' title="token pasting of &apos;,&apos; and __VA_ARGS__ is a GNU extension">##</span>__VA_ARGS__)</u></td></tr>
 <tr><th id="65">65</th><td></td></tr>
-<tr><th id="66">66</th><td><u>#define <dfn class="macro" id="_M/mos_warn_once" data-ref="_M/mos_warn_once">mos_warn_once</dfn>(...)                                                                                                                      \</u></td></tr>
-<tr><th id="67">67</th><td><u>    do                                                                                                                                          \</u></td></tr>
-<tr><th id="68">68</th><td><u>    {                                                                                                                                           \</u></td></tr>
-<tr><th id="69">69</th><td><u>        if (once())                                                                                                                             \</u></td></tr>
-<tr><th id="70">70</th><td><u>            mos_warn(__VA_ARGS__);                                                                                                              \</u></td></tr>
+<tr><th id="66">66</th><td><u>#define <dfn class="macro" id="_M/mos_warn_once" data-ref="_M/mos_warn_once">mos_warn_once</dfn>(...)                                                                                                                                               \</u></td></tr>
+<tr><th id="67">67</th><td><u>    do                                                                                                                                                                   \</u></td></tr>
+<tr><th id="68">68</th><td><u>    {                                                                                                                                                                    \</u></td></tr>
+<tr><th id="69">69</th><td><u>        if (once())                                                                                                                                                      \</u></td></tr>
+<tr><th id="70">70</th><td><u>            mos_warn(__VA_ARGS__);                                                                                                                                       \</u></td></tr>
 <tr><th id="71">71</th><td><u>    } while (0)</u></td></tr>
 <tr><th id="72">72</th><td></td></tr>
 <tr><th id="73">73</th><td><a class="macro" href="mos_global.h.html#13" title="__attribute__((__format__(__printf__, 1, 2)))" data-ref="_M/__printf">__printf</a>(<var>1</var>, <var>2</var>) <em>void</em> <dfn class="decl fn" id="printk" title='printk' data-ref="printk" data-ref-filename="printk">printk</dfn>(<em>const</em> <em>char</em> *<dfn class="local col2 decl" id="122format" title='format' data-type='const char *' data-ref="122format" data-ref-filename="122format">format</dfn>, ...);</td></tr>

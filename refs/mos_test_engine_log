@@ -1,4 +1,4 @@
-<dec f='MOS/tests/test_engine_impl.h' l='13' type='void mos_test_engine_log(standard_color_t color, char symbol, char * format)'/>
+<dec f='MOS/tests/test_engine_impl.h' l='14' type='void mos_test_engine_log(standard_color_t color, char symbol, char * format)'/>
 <dec f='MOS/tests/test_engine.h' l='6' type='void mos_test_engine_log(standard_color_t color, char symbol, char * format)'/>
 <use f='MOS/tests/cmdline_parser/test_cmdline_parser.c' l='6' macro='1' u='c' c='__mos_test_wrapped_test_simple_cmdline'/>
 <use f='MOS/tests/cmdline_parser/test_cmdline_parser.c' l='6' macro='1' u='c' c='__mos_test_wrapped_test_simple_cmdline'/>
