@@ -2,7 +2,7 @@
 <offset>448</offset>
 <use f='MOS/kernel/ksyscall.c' l='29' u='r' c='ksyscall_io_read'/>
 <use f='MOS/kernel/ksyscall.c' l='36' u='r' c='ksyscall_io_write'/>
-<use f='MOS/kernel/tasks/fork.c' l='52' u='r' c='process_handle_fork'/>
+<use f='MOS/kernel/tasks/fork.c' l='50' u='r' c='process_handle_fork'/>
 <use f='MOS/kernel/tasks/process.c' l='116' u='w' c='process_attach_fd'/>
 <use f='MOS/kernel/tasks/process.c' l='125' u='r' c='process_detach_fd'/>
 <use f='MOS/kernel/tasks/process.c' l='126' u='w' c='process_detach_fd'/>

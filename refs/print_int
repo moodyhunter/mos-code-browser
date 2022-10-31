@@ -1,4 +1,6 @@
-<def f='MOS/userspace/init/main.c' l='21' ll='37' type='void print_int(int i)'/>
-<use f='MOS/userspace/init/main.c' l='56' u='c' c='main'/>
-<use f='MOS/userspace/init/main.c' l='73' u='c' c='main'/>
-<use f='MOS/userspace/init/main.c' l='86' u='c' c='main'/>
+<def f='MOS/userspace/init/main.c' l='26' ll='42' type='void print_int(int i)'/>
+<use f='MOS/userspace/init/main.c' l='61' u='c' c='main'/>
+<use f='MOS/userspace/init/main.c' l='80' u='c' c='main'/>
+<use f='MOS/userspace/init/main.c' l='81' u='c' c='main'/>
+<use f='MOS/userspace/init/main.c' l='95' u='c' c='main'/>
+<use f='MOS/userspace/init/main.c' l='96' u='c' c='main'/>

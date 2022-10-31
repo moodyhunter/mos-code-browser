@@ -16,6 +16,6 @@ process_init|process_init
 process_new|process_new
 process_stdio_setup|process_stdio_setup
 printf_tests_github|printf_tests_github
-print|print
 print_err|print_err
+print_impl|print_impl
 print_int|print_int

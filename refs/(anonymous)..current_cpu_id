@@ -47,7 +47,7 @@
 <use f='MOS/kernel/mm/memops.c' l='14' macro='1' u='r' c='mm_map_proxy_space'/>
 <use f='MOS/kernel/mm/memops.c' l='20' macro='1' u='r' c='mm_unmap_proxy_space'/>
 <use f='MOS/kernel/mm/memops.c' l='25' macro='1' u='r' c='mm_copy_pages'/>
-<use f='MOS/kernel/tasks/fork.c' l='61' macro='1' u='r' c='process_handle_fork'/>
+<use f='MOS/kernel/tasks/fork.c' l='59' macro='1' u='r' c='process_handle_fork'/>
 <use f='MOS/kernel/tasks/schedule.c' l='14' macro='1' u='r' c='mos_update_current'/>
 <use f='MOS/kernel/tasks/schedule.c' l='15' macro='1' u='r' c='mos_update_current'/>
 <use f='MOS/kernel/tasks/schedule.c' l='16' macro='1' u='r' c='mos_update_current'/>

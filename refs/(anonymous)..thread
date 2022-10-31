@@ -30,7 +30,7 @@
 <use f='MOS/kernel/mm/cow.c' l='23' macro='1' u='r' c='copy_cow_pages_inplace'/>
 <use f='MOS/kernel/mm/cow.c' l='42' macro='1' u='r' c='cow_handle_page_fault'/>
 <use f='MOS/kernel/mm/cow.c' l='48' macro='1' u='r' c='cow_handle_page_fault'/>
-<use f='MOS/kernel/tasks/fork.c' l='61' macro='1' u='r' c='process_handle_fork'/>
+<use f='MOS/kernel/tasks/fork.c' l='59' macro='1' u='r' c='process_handle_fork'/>
 <use f='MOS/kernel/tasks/schedule.c' l='14' macro='1' u='r' c='mos_update_current'/>
 <use f='MOS/kernel/tasks/schedule.c' l='15' macro='1' u='r' c='mos_update_current'/>
 <use f='MOS/kernel/tasks/schedule.c' l='16' macro='1' u='w' c='mos_update_current'/>
