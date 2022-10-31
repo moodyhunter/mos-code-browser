@@ -16,4 +16,3 @@ stack_pop|stack_pop
 stack_push|stack_push
 stack_init_deinit|stack_init_deinit
 stack_push_pop_stack|stack_push_pop_stack
-strlen|strlen
