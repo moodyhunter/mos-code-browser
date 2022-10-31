@@ -26,7 +26,7 @@
 <use f='MOS/kernel/elf/elf.c' l='98' macro='1' u='r' c='create_elf_process'/>
 <use f='MOS/kernel/elf/elf.c' l='124' macro='1' u='r' c='create_elf_process'/>
 <use f='MOS/kernel/elf/elf.c' l='130' macro='1' u='r' c='create_elf_process'/>
-<use f='MOS/kernel/kernel_init.c' l='73' macro='1' u='r' c='mos_start_kernel'/>
+<use f='MOS/kernel/kernel_init.c' l='72' macro='1' u='r' c='mos_start_kernel'/>
 <use f='MOS/kernel/ksyscall.c' l='17' macro='1' u='r' c='ksyscall_file_open'/>
 <use f='MOS/kernel/ksyscall.c' l='29' macro='1' u='r' c='ksyscall_io_read'/>
 <use f='MOS/kernel/ksyscall.c' l='36' macro='1' u='r' c='ksyscall_io_write'/>

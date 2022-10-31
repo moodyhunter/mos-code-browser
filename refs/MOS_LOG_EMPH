@@ -10,7 +10,6 @@
 <use f='MOS/arch/x86/x86_platform.c' l='144' macro='1' u='r' c='x86_start_kernel'/>
 <use f='MOS/kernel/kernel_init.c' l='50' macro='1' u='r' c='dump_cmdline'/>
 <use f='MOS/kernel/kernel_init.c' l='51' macro='1' u='r' c='dump_cmdline'/>
-<use f='MOS/kernel/kernel_init.c' l='68' macro='1' u='r' c='dump_cmdline'/>
 <use f='MOS/kernel/mm/cow.c' l='70' macro='1' u='r' c='cow_handle_page_fault'/>
 <use f='MOS/kernel/printk.c' l='19' c='deduce_level_color'/>
 <use f='MOS/tests/test_engine.c' l='126' macro='1' u='r' c='mos_test_engine_run_tests'/>

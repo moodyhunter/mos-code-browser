@@ -7,4 +7,4 @@
 <use f='MOS/kernel/kernel_init.c' l='51' u='r' c='dump_cmdline'/>
 <use f='MOS/kernel/kernel_init.c' l='52' u='r' c='dump_cmdline'/>
 <use f='MOS/kernel/kernel_init.c' l='54' u='r' c='dump_cmdline'/>
-<use f='MOS/kernel/kernel_init.c' l='74' u='w' c='mos_start_kernel'/>
+<use f='MOS/kernel/kernel_init.c' l='73' u='w' c='mos_start_kernel'/>
