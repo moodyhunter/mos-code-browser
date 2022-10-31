@@ -3,4 +3,4 @@
 <def f='MOS/arch/x86/interrupt/x86_interrupt.c' l='67' ll='70' type='void x86_disable_interrupts()'/>
 <use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='126' u='c' c='x86_handle_exception'/>
 <use f='MOS/arch/x86/x86_platform.c' l='93' u='c' c='x86_start_kernel'/>
-<use f='MOS/arch/x86/x86_platform.c' l='178'/>
+<use f='MOS/arch/x86/x86_platform.c' l='173'/>

@@ -1,4 +1,4 @@
-<dec f='MOS/include/mos/platform/platform.h' l='145'/>
+<dec f='MOS/include/mos/platform/platform.h' l='144'/>
 <use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='90' u='c'/>
 <use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='92' u='c'/>
 <use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='112' u='c'/>

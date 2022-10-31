@@ -29,4 +29,3 @@
 <use f='MOS/arch/x86/x86_platform.c' l='113' u='r' c='x86_start_kernel'/>
 <use f='MOS/arch/x86/x86_platform.c' l='122' u='r' c='x86_start_kernel'/>
 <use f='MOS/arch/x86/x86_platform.c' l='135' u='r' c='x86_start_kernel'/>
-<use f='MOS/arch/x86/x86_platform.c' l='142' u='r' c='x86_start_kernel'/>

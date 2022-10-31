@@ -51,7 +51,6 @@
 <use f='MOS/arch/x86/mm/pmem_freelist.c' l='229' u='c'/>
 <use f='MOS/arch/x86/x86_platform.c' l='121' u='c'/>
 <use f='MOS/arch/x86/x86_platform.c' l='135' u='c'/>
-<use f='MOS/arch/x86/x86_platform.c' l='143' u='c'/>
 <use f='MOS/kernel/elf/elf.c' l='49' u='c'/>
 <use f='MOS/kernel/elf/elf.c' l='102' u='c'/>
 <use f='MOS/kernel/mm/cow.c' l='24' u='c'/>
