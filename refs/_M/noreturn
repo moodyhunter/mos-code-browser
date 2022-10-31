@@ -1,10 +1,10 @@
-<dec f='MOS/include/mos/mos_global.h' l='20'/>
+<dec f='MOS/kernel/include/mos/mos_global.h' l='20'/>
 <use f='MOS/arch/x86/include/mos/x86/acpi/acpi.h' l='14' u='c'/>
-<use f='MOS/include/mos/platform/platform.h' l='110' u='c'/>
-<use f='MOS/include/mos/printk.h' l='76' u='c'/>
+<use f='MOS/kernel/include/mos/platform/platform.h' l='110' u='c'/>
+<use f='MOS/kernel/include/mos/printk.h' l='76' u='c'/>
 <use f='MOS/arch/x86/acpi/acpi.c' l='22' u='c'/>
 <use f='MOS/build/include/mos/ksyscall/dispatcher.h' l='45' u='c'/>
-<use f='MOS/include/mos/tasks/schedule.h' l='9' u='c'/>
+<use f='MOS/kernel/include/mos/tasks/schedule.h' l='9' u='c'/>
 <use f='MOS/build/include/mos/ksyscall/decl.h' l='21' u='c'/>
 <use f='MOS/kernel/ksyscall.c' l='67' u='c'/>
 <use f='MOS/kernel/panic.c' l='34' u='c'/>

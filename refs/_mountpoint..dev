@@ -1,4 +1,4 @@
-<dec f='MOS/include/mos/filesystem/mount.h' l='32' type='blockdev_t *'/>
+<dec f='MOS/kernel/include/mos/filesystem/mount.h' l='32' type='blockdev_t *'/>
 <use f='MOS/kernel/filesystem/cpio/cpio.c' l='123' u='r' c='cpio_open'/>
 <use f='MOS/kernel/filesystem/cpio/cpio.c' l='150' u='r' c='cpio_stat'/>
 <use f='MOS/kernel/filesystem/cpio/cpio.c' l='187' u='r' c='cpio_readlink'/>

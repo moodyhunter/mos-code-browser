@@ -1,4 +1,4 @@
-<dec f='MOS/include/mos/constants.h' l='23'/>
+<dec f='MOS/kernel/include/mos/constants.h' l='23'/>
 <use f='MOS/arch/x86/cpu/smp.c' l='143' u='c'/>
 <use f='MOS/arch/x86/mm/paging.c' l='41' u='c'/>
 <use f='MOS/arch/x86/mm/paging.c' l='213' u='c'/>

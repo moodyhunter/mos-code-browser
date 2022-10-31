@@ -1,4 +1,4 @@
-<dec f='MOS/include/lib/structures/hashmap.h' l='27' type='void * hashmap_put(hashmap_t * map, const void * key, void * value)'/>
+<dec f='MOS/lib/include/lib/structures/hashmap.h' l='27' type='void * hashmap_put(hashmap_t * map, const void * key, void * value)'/>
 <use f='MOS/kernel/device/block.c' l='33' u='c' c='blockdev_register'/>
 <use f='MOS/kernel/tasks/fork.c' l='72' u='c' c='process_handle_fork'/>
 <use f='MOS/kernel/tasks/fork.c' l='75' u='c' c='process_handle_fork'/>

@@ -1,2 +1,2 @@
-<dec f='MOS/include/mos/elf/elf.h' l='90' type='elf_machine_type'/>
+<dec f='MOS/kernel/include/mos/elf/elf.h' l='90' type='elf_machine_type'/>
 <offset>144</offset>

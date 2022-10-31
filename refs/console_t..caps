@@ -1,4 +1,4 @@
-<dec f='MOS/include/mos/device/console.h' l='49' type='console_caps_t'/>
+<dec f='MOS/kernel/include/mos/device/console.h' l='49' type='console_caps_t'/>
 <offset>640</offset>
 <use f='MOS/arch/x86/devices/serial_console.c' l='17' u='w' c='serial_console_setup'/>
 <use f='MOS/arch/x86/devices/serial_console.c' l='18' u='r' c='serial_console_setup'/>

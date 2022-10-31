@@ -1,4 +1,4 @@
-<dec f='MOS/include/mos/device/console.h' l='46' macro='1' type='list_node_t'/>
+<dec f='MOS/kernel/include/mos/device/console.h' l='46' macro='1' type='list_node_t'/>
 <offset>0</offset>
 <use f='MOS/arch/x86/devices/serial_console.c' l='23' macro='1' u='a' c='serial_console_setup'/>
 <use f='MOS/arch/x86/devices/text_mode_console.c' l='166' u='w'/>

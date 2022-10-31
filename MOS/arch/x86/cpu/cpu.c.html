@@ -17,7 +17,7 @@
 <tr><th id="4">4</th><td></td></tr>
 <tr><th id="5">5</th><td><u>#include <a href="../include/mos/x86/cpu/cpuid.h.html">"mos/x86/cpu/cpuid.h"</a></u></td></tr>
 <tr><th id="6">6</th><td></td></tr>
-<tr><th id="7">7</th><td><a class="typedef" href="../../../include/mos/types.h.html#u32" title='u32' data-type='unsigned int' data-ref="u32" data-ref-filename="u32">u32</a> <dfn class="decl def fn" id="x86_cpu_get_id" title='x86_cpu_get_id' data-ref="x86_cpu_get_id" data-ref-filename="x86_cpu_get_id">x86_cpu_get_id</dfn>(<em>void</em>)</td></tr>
+<tr><th id="7">7</th><td><a class="typedef" href="../../../kernel/include/mos/types.h.html#u32" title='u32' data-type='unsigned int' data-ref="u32" data-ref-filename="u32">u32</a> <dfn class="decl def fn" id="x86_cpu_get_id" title='x86_cpu_get_id' data-ref="x86_cpu_get_id" data-ref-filename="x86_cpu_get_id">x86_cpu_get_id</dfn>(<em>void</em>)</td></tr>
 <tr><th id="8">8</th><td>{</td></tr>
 <tr><th id="9">9</th><td>    <em>int</em> <dfn class="local col6 decl" id="6lapic_id" title='lapic_id' data-type='int' data-ref="6lapic_id" data-ref-filename="6lapic_id">lapic_id</dfn> = <var>0</var>;</td></tr>
 <tr><th id="10">10</th><td>    <b>__asm__</b> <em>volatile</em>(<q>"cpuid"</q> : <q>"=b"</q>(<a class="local col6 ref" href="#6lapic_id" title='lapic_id' data-ref="6lapic_id" data-ref-filename="6lapic_id">lapic_id</a>) : <q>"a"</q>(<var>0x01</var>), <q>"c"</q>(<var>0x00</var>) : <q>"edx"</q>);</td></tr>

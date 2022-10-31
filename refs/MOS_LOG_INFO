@@ -1,5 +1,5 @@
-<dec f='MOS/include/mos/printk.h' l='32' type='2'/>
-<use f='MOS/include/mos/printk.h' l='34'/>
+<dec f='MOS/kernel/include/mos/printk.h' l='32' type='2'/>
+<use f='MOS/kernel/include/mos/printk.h' l='34'/>
 <use f='MOS/arch/x86/acpi/acpi.c' l='162' macro='1' u='r' c='find_acpi_rsdp'/>
 <use f='MOS/arch/x86/cpu/smp.c' l='56' macro='1' u='r' c='ap_begin_exec'/>
 <use f='MOS/arch/x86/cpu/smp.c' l='104' macro='1' u='r' c='x86_smp_init'/>

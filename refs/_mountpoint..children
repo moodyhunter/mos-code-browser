@@ -1,4 +1,4 @@
-<dec f='MOS/include/mos/filesystem/mount.h' l='37' type='mountpoint_t **'/>
+<dec f='MOS/kernel/include/mos/filesystem/mount.h' l='37' type='mountpoint_t **'/>
 <offset>448</offset>
 <use f='MOS/kernel/filesystem/mount.c' l='30' u='w' c='kmount_add_mp'/>
 <use f='MOS/kernel/filesystem/mount.c' l='30' u='r' c='kmount_add_mp'/>

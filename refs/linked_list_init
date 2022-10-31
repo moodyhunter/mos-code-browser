@@ -1,4 +1,4 @@
-<dec f='MOS/include/lib/structures/list.h' l='19' type='void linked_list_init(list_node_t * head_node)'/>
+<dec f='MOS/lib/include/lib/structures/list.h' l='19' type='void linked_list_init(list_node_t * head_node)'/>
 <use f='MOS/arch/x86/devices/serial_console.c' l='23' u='c' c='serial_console_setup'/>
 <use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='64' u='c' c='x86_irq_handler_init'/>
 <def f='MOS/lib/structures/list.c' l='5' ll='9' type='void linked_list_init(list_node_t * node)'/>

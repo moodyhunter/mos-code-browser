@@ -1,4 +1,4 @@
-<dec f='MOS/include/lib/structures/hashmap_common.h' l='11' type='hash_t hashmap_hash_string(const void * key)'/>
+<dec f='MOS/lib/include/lib/structures/hashmap_common.h' l='11' type='hash_t hashmap_hash_string(const void * key)'/>
 <use f='MOS/kernel/device/block.c' l='16' u='c' c='hashmap_blockdev_hash'/>
 <def f='MOS/lib/structures/hashmap_common.c' l='8' ll='11' type='hash_t hashmap_hash_string(const void * key)'/>
 <use f='MOS/tests/hashmap/test_hashmap.c' l='12' macro='1' u='r' c='hashmap_init_simple_macro'/>

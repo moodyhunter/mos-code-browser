@@ -1,5 +1,5 @@
-<def f='MOS/include/mos/filesystem/mount.h' l='10' ll='25'/>
-<use f='MOS/include/mos/filesystem/mount.h' l='10'/>
+<def f='MOS/kernel/include/mos/filesystem/mount.h' l='10' ll='25'/>
+<use f='MOS/kernel/include/mos/filesystem/mount.h' l='10'/>
 <size>72</size>
 <mbr r='_filesystem::name' o='0' t='const char *'/>
 <mbr r='_filesystem::op_mount' o='64' t='_Bool (*)(blockdev_t *, fsnode_t *)'/>

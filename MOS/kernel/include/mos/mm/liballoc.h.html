@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>liballoc.h source code [MOS/kernel/include/mos/mm/liballoc.h] - Woboq Code Browser</title>
+<link rel="stylesheet" href="/mos-code-browser/data/qtcreator.css" title="QtCreator"/>
+<link rel="alternate stylesheet" href="/mos-code-browser/data/kdevelop.css" title="KDevelop"/>
+<script type="text/javascript" src="/mos-code-browser/data/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="/mos-code-browser/data/jquery/jquery-ui.min.js"></script>
+<script>var file = 'MOS/kernel/include/mos/mm/liballoc.h'; var root_path = '../../../../..'; var data_path = '/mos-code-browser/data'; var ecma_script_api_version = 2;</script>
+<script src='/mos-code-browser/data/codebrowser.js'></script>
+</head>
+<body><div id='header'><h1 id='breadcrumb'><span>Browse the source code of </span><a href='../../../..'>MOS</a>/<a href='../../..'>kernel</a>/<a href='../..'>include</a>/<a href='..'>mos</a>/<a href='./'>mm</a>/<a href='liballoc.h.html'>liballoc.h</a></h1></div>
+<hr/><div id='content'><table class="code">
+<tr><th id="1">1</th><td><i>// SPDX-License-Identifier: BSD-3-Clause</i></td></tr>
+<tr><th id="2">2</th><td><u>#pragma once</u></td></tr>
+<tr><th id="3">3</th><td></td></tr>
+<tr><th id="4">4</th><td><i class="doc">/**  Durand's Amazing Super Duper Memory functions.  */</i></td></tr>
+<tr><th id="5">5</th><td></td></tr>
+<tr><th id="6">6</th><td><u>#include <a href="../types.h.html">"mos/types.h"</a></u></td></tr>
+<tr><th id="7">7</th><td></td></tr>
+<tr><th id="8">8</th><td><u>#<span data-ppcond="8">if</span> <a class="macro" href="../../../../build/include/mos/kconfig.h.html#24" title="0" data-ref="_M/MOS_MM_LIBALLOC_LOCKS">MOS_MM_LIBALLOC_LOCKS</a></u></td></tr>
+<tr><th id="9">9</th><td><i class="doc">/** This function is supposed to lock the memory data structures.</i></td></tr>
+<tr><th id="10">10</th><td><i class="doc"> * It could be as simple as disabling interrupts or acquiring a spinlock.</i></td></tr>
+<tr><th id="11">11</th><td><i class="doc"> * It's up to you to decide.</i></td></tr>
+<tr><th id="12">12</th><td><i class="doc"> *</i></td></tr>
+<tr><th id="13">13</th><td><i class="doc"> * <span class="command">\return</span> 0 if the lock was acquired successfully. Anything else is failure.</i></td></tr>
+<tr><th id="14">14</th><td><i class="doc"> */</i></td></tr>
+<tr><th id="15">15</th><td><b>extern</b> <em>int</em> liballoc_lock();</td></tr>
+<tr><th id="16">16</th><td></td></tr>
+<tr><th id="17">17</th><td><i class="doc">/** This function unlocks what was previously locked by the liballoc_lock function.</i></td></tr>
+<tr><th id="18">18</th><td><i class="doc"> * If it disabled interrupts, it enables interrupts. If it had acquiried a spinlock,</i></td></tr>
+<tr><th id="19">19</th><td><i class="doc"> * it releases the spinlock. etc.</i></td></tr>
+<tr><th id="20">20</th><td><i class="doc"> *</i></td></tr>
+<tr><th id="21">21</th><td><i class="doc"> * <span class="command">\return</span> 0 if the lock was successfully released.</i></td></tr>
+<tr><th id="22">22</th><td><i class="doc"> */</i></td></tr>
+<tr><th id="23">23</th><td><b>extern</b> <em>int</em> liballoc_unlock();</td></tr>
+<tr><th id="24">24</th><td><u>#<span data-ppcond="8">endif</span></u></td></tr>
+<tr><th id="25">25</th><td></td></tr>
+<tr><th id="26">26</th><td><em>void</em> <a class="decl fn" href="../platform/platform.h.html#mos_kernel_mm_init" title='mos_kernel_mm_init' data-ref="mos_kernel_mm_init" data-ref-filename="mos_kernel_mm_init" id="mos_kernel_mm_init">mos_kernel_mm_init</a>(<em>void</em>);</td></tr>
+<tr><th id="27">27</th><td></td></tr>
+<tr><th id="28">28</th><td><em>void</em> <dfn class="decl fn" id="liballoc_dump" title='liballoc_dump' data-ref="liballoc_dump" data-ref-filename="liballoc_dump">liballoc_dump</dfn>();</td></tr>
+<tr><th id="29">29</th><td><em>void</em> <dfn class="decl fn" id="liballoc_init" title='liballoc_init' data-ref="liballoc_init" data-ref-filename="liballoc_init">liballoc_init</dfn>(<span class='typedef' title='size_t' data-type='unsigned long' data-ref="size_t" data-ref-filename="size_t">size_t</span> <dfn class="local col8 decl" id="78page_size" title='page_size' data-type='size_t' data-ref="78page_size" data-ref-filename="78page_size">page_size</dfn>);</td></tr>
+<tr><th id="30">30</th><td><em>void</em> *<dfn class="decl fn" id="liballoc_malloc" title='liballoc_malloc' data-ref="liballoc_malloc" data-ref-filename="liballoc_malloc">liballoc_malloc</dfn>(<span class='typedef' title='size_t' data-type='unsigned long' data-ref="size_t" data-ref-filename="size_t">size_t</span> <dfn class="local col9 decl" id="79size" title='size' data-type='size_t' data-ref="79size" data-ref-filename="79size">size</dfn>);</td></tr>
+<tr><th id="31">31</th><td><em>void</em> *<dfn class="decl fn" id="liballoc_realloc" title='liballoc_realloc' data-ref="liballoc_realloc" data-ref-filename="liballoc_realloc">liballoc_realloc</dfn>(<em>void</em> *<dfn class="local col0 decl" id="80ptr" title='ptr' data-type='void *' data-ref="80ptr" data-ref-filename="80ptr">ptr</dfn>, <span class='typedef' title='size_t' data-type='unsigned long' data-ref="size_t" data-ref-filename="size_t">size_t</span> <dfn class="local col1 decl" id="81size" title='size' data-type='size_t' data-ref="81size" data-ref-filename="81size">size</dfn>);</td></tr>
+<tr><th id="32">32</th><td><em>void</em> *<dfn class="decl fn" id="liballoc_calloc" title='liballoc_calloc' data-ref="liballoc_calloc" data-ref-filename="liballoc_calloc">liballoc_calloc</dfn>(<span class='typedef' title='size_t' data-type='unsigned long' data-ref="size_t" data-ref-filename="size_t">size_t</span> <dfn class="local col2 decl" id="82object" title='object' data-type='size_t' data-ref="82object" data-ref-filename="82object">object</dfn>, <span class='typedef' title='size_t' data-type='unsigned long' data-ref="size_t" data-ref-filename="size_t">size_t</span> <dfn class="local col3 decl" id="83n_objects" title='n_objects' data-type='size_t' data-ref="83n_objects" data-ref-filename="83n_objects">n_objects</dfn>);</td></tr>
+<tr><th id="33">33</th><td><em>void</em> <dfn class="decl fn" id="liballoc_free" title='liballoc_free' data-ref="liballoc_free" data-ref-filename="liballoc_free">liballoc_free</dfn>(<em>const</em> <em>void</em> *<dfn class="local col4 decl" id="84ptr" title='ptr' data-type='const void *' data-ref="84ptr" data-ref-filename="84ptr">ptr</dfn>);</td></tr>
+<tr><th id="34">34</th><td></td></tr>
+</table><hr/><p id='footer'>
+Generated while processing <a href='../../../../arch/x86/interrupt/x86_interrupt.c.html'>MOS/arch/x86/interrupt/x86_interrupt.c</a><br/>Generated on <em>2022-Oct-31</em> from project MOS<br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
+<br/>Generator usage only permitted with license.</p>
+</div></body></html>

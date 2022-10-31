@@ -1,4 +1,4 @@
-<dec f='MOS/include/mos/elf/elf.h' l='88' type='elf_identity_t'/>
+<dec f='MOS/kernel/include/mos/elf/elf.h' l='88' type='elf_identity_t'/>
 <use f='MOS/kernel/elf/elf.c' l='19' u='m' c='elf_verify_header'/>
 <use f='MOS/kernel/elf/elf.c' l='22' u='m' c='elf_verify_header'/>
 <use f='MOS/kernel/elf/elf.c' l='25' u='m' c='elf_verify_header'/>

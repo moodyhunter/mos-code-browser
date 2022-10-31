@@ -1,4 +1,4 @@
-<dec f='MOS/include/mos/tasks/task_type.h' l='56' type='process_t *'/>
+<dec f='MOS/kernel/include/mos/tasks/task_type.h' l='56' type='process_t *'/>
 <use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='187' macro='1' u='r' c='x86_handle_exception'/>
 <use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='187' macro='1' u='r' c='x86_handle_exception'/>
 <offset>64</offset>

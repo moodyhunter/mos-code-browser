@@ -1,4 +1,4 @@
-<dec f='MOS/include/lib/structures/hashmap_common.h' l='12' type='int hashmap_compare_string(const void * key1, const void * key2)'/>
+<dec f='MOS/lib/include/lib/structures/hashmap_common.h' l='12' type='int hashmap_compare_string(const void * key1, const void * key2)'/>
 <use f='MOS/kernel/device/block.c' l='21' u='c' c='hashmap_blockdev_compare'/>
 <def f='MOS/lib/structures/hashmap_common.c' l='13' ll='16' type='int hashmap_compare_string(const void * key1, const void * key2)'/>
 <use f='MOS/tests/hashmap/test_hashmap.c' l='12' macro='1' u='r' c='hashmap_init_simple_macro'/>

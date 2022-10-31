@@ -1,4 +1,4 @@
-<dec f='MOS/include/mos/filesystem/filesystem.h' l='96' type='_Bool vfs_path_readlink(fsnode_t * path, fsnode_t ** link)'/>
+<dec f='MOS/kernel/include/mos/filesystem/filesystem.h' l='96' type='_Bool vfs_path_readlink(fsnode_t * path, fsnode_t ** link)'/>
 <use f='MOS/kernel/filesystem/filesystem.c' l='93' u='c' c='vfs_readlink'/>
 <def f='MOS/kernel/filesystem/filesystem.c' l='143' ll='176' macro='1' type='_Bool vfs_path_readlink(fsnode_t * path, fsnode_t ** link)'/>
 <use f='MOS/kernel/filesystem/pathutils.c' l='129' u='c' c='path_resolve'/>

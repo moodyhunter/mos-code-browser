@@ -1,4 +1,4 @@
-<dec f='MOS/include/mos/io/io.h' l='37' type='void io_init(io_t * io, io_flags_t flags, size_t size, const io_op_t * ops)'/>
+<dec f='MOS/kernel/include/mos/io/io.h' l='37' type='void io_init(io_t * io, io_flags_t flags, size_t size, const io_op_t * ops)'/>
 <use f='MOS/kernel/filesystem/filesystem.c' l='138' u='c' c='vfs_path_open'/>
 <def f='MOS/kernel/io/io.c' l='7' ll='12' type='void io_init(io_t * io, io_flags_t flags, size_t size, const io_op_t * ops)'/>
 <use f='MOS/kernel/tasks/task_io.c' l='48' u='c' c='process_stdio_setup'/>

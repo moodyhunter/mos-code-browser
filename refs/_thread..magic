@@ -1,9 +1,9 @@
-<dec f='MOS/include/mos/tasks/task_type.h' l='54' type='char [4]'/>
+<dec f='MOS/kernel/include/mos/tasks/task_type.h' l='54' type='char [4]'/>
 <offset>0</offset>
-<use f='MOS/include/mos/tasks/thread.h' l='16' u='r' c='thread_is_valid'/>
-<use f='MOS/include/mos/tasks/thread.h' l='16' u='r' c='thread_is_valid'/>
-<use f='MOS/include/mos/tasks/thread.h' l='16' u='r' c='thread_is_valid'/>
-<use f='MOS/include/mos/tasks/thread.h' l='16' u='r' c='thread_is_valid'/>
+<use f='MOS/kernel/include/mos/tasks/thread.h' l='16' u='r' c='thread_is_valid'/>
+<use f='MOS/kernel/include/mos/tasks/thread.h' l='16' u='r' c='thread_is_valid'/>
+<use f='MOS/kernel/include/mos/tasks/thread.h' l='16' u='r' c='thread_is_valid'/>
+<use f='MOS/kernel/include/mos/tasks/thread.h' l='16' u='r' c='thread_is_valid'/>
 <use f='MOS/kernel/tasks/thread.c' l='39' u='w' c='thread_allocate'/>
 <use f='MOS/kernel/tasks/thread.c' l='40' u='w' c='thread_allocate'/>
 <use f='MOS/kernel/tasks/thread.c' l='41' u='w' c='thread_allocate'/>

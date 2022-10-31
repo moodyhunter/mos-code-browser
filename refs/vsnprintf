@@ -1,7 +1,7 @@
-<dec f='MOS/include/lib/stdio.h' l='18' type='int vsnprintf(char *restrict buf, size_t size, const char *restrict format, struct __va_list_tag * args)'/>
+<dec f='MOS/lib/include/lib/stdio.h' l='18' type='int vsnprintf(char *restrict buf, size_t size, const char *restrict format, struct __va_list_tag * args)'/>
 <use f='MOS/kernel/panic.c' l='49' u='c' c='mos_kpanic'/>
 <use f='MOS/kernel/panic.c' l='85' u='c' c='mos_kwarn'/>
-<doc f='MOS/include/lib/stdio.h' l='17'>// defined in stdio_impl.c</doc>
+<doc f='MOS/lib/include/lib/stdio.h' l='17'>// defined in stdio_impl.c</doc>
 <use f='MOS/kernel/printk.c' l='32' u='c' c='printk'/>
 <use f='MOS/kernel/printk.c' l='50' u='c' c='lprintk'/>
 <use f='MOS/lib/stdio.c' l='20' u='c' c='snprintf'/>

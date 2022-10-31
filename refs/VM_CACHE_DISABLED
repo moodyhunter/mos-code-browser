@@ -1,5 +1,5 @@
-<dec f='MOS/include/mos/platform/platform.h' l='30' type='64'/>
-<use f='MOS/include/mos/boot/startup.h' l='54' u='r' c='mos_startup_map_bios'/>
+<dec f='MOS/kernel/include/mos/platform/platform.h' l='30' type='64'/>
+<use f='MOS/kernel/include/mos/boot/startup.h' l='54' u='r' c='mos_startup_map_bios'/>
 <use f='MOS/arch/x86/boot/multiboot/startup.c' l='117' u='r' c='mos_startup_map_single_page'/>
 <use f='MOS/arch/x86/interrupt/apic.c' l='111' u='r' c='apic_enable'/>
 <use f='MOS/arch/x86/interrupt/apic.c' l='112' u='r' c='apic_enable'/>

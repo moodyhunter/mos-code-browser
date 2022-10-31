@@ -1,4 +1,4 @@
-<dec f='MOS/include/lib/containers.h' l='14' type='list_node_t *'/>
+<dec f='MOS/lib/include/lib/containers.h' l='14' type='list_node_t *'/>
 <offset>0</offset>
 <use f='MOS/arch/x86/devices/text_mode_console.c' l='166' macro='1' u='w'/>
 <use f='MOS/kernel/device/console.c' l='22' macro='1' u='w'/>

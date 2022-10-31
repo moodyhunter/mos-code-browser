@@ -1,0 +1,4 @@
+<dec f='MOS/lib/include/lib/mos_lib.h' l='10'/>
+<use f='MOS/lib/stdio_impl.c' l='243' u='c'/>
+<use f='MOS/lib/stdio_impl.c' l='311' u='c'/>
+<use f='MOS/lib/stdio_impl.c' l='474' u='c'/>

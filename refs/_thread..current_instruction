@@ -1,4 +1,4 @@
-<dec f='MOS/include/mos/tasks/task_type.h' l='60' type='uintptr_t'/>
+<dec f='MOS/kernel/include/mos/tasks/task_type.h' l='60' type='uintptr_t'/>
 <use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='94' u='w' c='x86_handle_interrupt'/>
 <use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='120' u='r' c='x86_handle_interrupt'/>
 <offset>576</offset>

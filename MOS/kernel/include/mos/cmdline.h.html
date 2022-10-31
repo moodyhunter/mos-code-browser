@@ -1,0 +1,59 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>cmdline.h source code [MOS/kernel/include/mos/cmdline.h] - Woboq Code Browser</title>
+<link rel="stylesheet" href="/mos-code-browser/data/qtcreator.css" title="QtCreator"/>
+<link rel="alternate stylesheet" href="/mos-code-browser/data/kdevelop.css" title="KDevelop"/>
+<script type="text/javascript" src="/mos-code-browser/data/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="/mos-code-browser/data/jquery/jquery-ui.min.js"></script>
+<script>var file = 'MOS/kernel/include/mos/cmdline.h'; var root_path = '../../../..'; var data_path = '/mos-code-browser/data'; var ecma_script_api_version = 2;</script>
+<script src='/mos-code-browser/data/codebrowser.js'></script>
+</head>
+<body><div id='header'><h1 id='breadcrumb'><span>Browse the source code of </span><a href='../../..'>MOS</a>/<a href='../..'>kernel</a>/<a href='..'>include</a>/<a href='./'>mos</a>/<a href='cmdline.h.html'>cmdline.h</a></h1></div>
+<hr/><div id='content'><table class="code">
+<tr><th id="1">1</th><td><i>// SPDX-License-Identifier: GPL-3.0-or-later</i></td></tr>
+<tr><th id="2">2</th><td></td></tr>
+<tr><th id="3">3</th><td><u>#pragma once</u></td></tr>
+<tr><th id="4">4</th><td></td></tr>
+<tr><th id="5">5</th><td><u>#include <a href="types.h.html">"mos/types.h"</a></u></td></tr>
+<tr><th id="6">6</th><td></td></tr>
+<tr><th id="7">7</th><td><b>typedef</b> <b>enum</b></td></tr>
+<tr><th id="8">8</th><td>{</td></tr>
+<tr><th id="9">9</th><td>    <dfn class="enum" id="CMDLINE_PARAM_TYPE_STRING" title='CMDLINE_PARAM_TYPE_STRING' data-ref="CMDLINE_PARAM_TYPE_STRING" data-ref-filename="CMDLINE_PARAM_TYPE_STRING">CMDLINE_PARAM_TYPE_STRING</dfn>,</td></tr>
+<tr><th id="10">10</th><td>    <dfn class="enum" id="CMDLINE_PARAM_TYPE_BOOL" title='CMDLINE_PARAM_TYPE_BOOL' data-ref="CMDLINE_PARAM_TYPE_BOOL" data-ref-filename="CMDLINE_PARAM_TYPE_BOOL">CMDLINE_PARAM_TYPE_BOOL</dfn>,</td></tr>
+<tr><th id="11">11</th><td>} <dfn class="typedef" id="option_value_type_t" title='option_value_type_t' data-type='enum option_value_type_t' data-ref="option_value_type_t" data-ref-filename="option_value_type_t">option_value_type_t</dfn>;</td></tr>
+<tr><th id="12">12</th><td></td></tr>
+<tr><th id="13">13</th><td><b>typedef</b> <b>struct</b></td></tr>
+<tr><th id="14">14</th><td>{</td></tr>
+<tr><th id="15">15</th><td>    <a class="typedef" href="#option_value_type_t" title='option_value_type_t' data-type='enum option_value_type_t' data-ref="option_value_type_t" data-ref-filename="option_value_type_t">option_value_type_t</a> <dfn class="decl field" id="(anonymous)::param_type" title='(anonymous struct)::param_type' data-ref="(anonymous)::param_type" data-ref-filename="(anonymous)..param_type">param_type</dfn>;</td></tr>
+<tr><th id="16">16</th><td>    <b>union</b></td></tr>
+<tr><th id="17">17</th><td>    {</td></tr>
+<tr><th id="18">18</th><td>        <em>const</em> <em>char</em> *<dfn class="decl field" id="(anonymousstruct)::(anonymous)::string" title='(anonymous struct)::(anonymous union)::string' data-ref="(anonymousstruct)::(anonymous)::string" data-ref-filename="(anonymousstruct)..(anonymous)..string">string</dfn>;</td></tr>
+<tr><th id="19">19</th><td>        <span class="macro" title="_Bool" data-ref="_M/bool">bool</span> <dfn class="decl field" id="(anonymousstruct)::(anonymous)::boolean" title='(anonymous struct)::(anonymous union)::boolean' data-ref="(anonymousstruct)::(anonymous)::boolean" data-ref-filename="(anonymousstruct)..(anonymous)..boolean">boolean</dfn>;</td></tr>
+<tr><th id="20">20</th><td>    } <dfn class="decl field" id="(anonymous)::val" title='(anonymous struct)::val' data-ref="(anonymous)::val" data-ref-filename="(anonymous)..val">val</dfn>;</td></tr>
+<tr><th id="21">21</th><td>} <dfn class="typedef" id="cmdline_param_t" title='cmdline_param_t' data-type='struct cmdline_param_t' data-ref="cmdline_param_t" data-ref-filename="cmdline_param_t">cmdline_param_t</dfn>;</td></tr>
+<tr><th id="22">22</th><td></td></tr>
+<tr><th id="23">23</th><td><b>typedef</b> <b>struct</b></td></tr>
+<tr><th id="24">24</th><td>{</td></tr>
+<tr><th id="25">25</th><td>    <em>const</em> <em>char</em> *<dfn class="decl field" id="(anonymous)::arg_name" title='(anonymous struct)::arg_name' data-ref="(anonymous)::arg_name" data-ref-filename="(anonymous)..arg_name">arg_name</dfn>;</td></tr>
+<tr><th id="26">26</th><td>    <span class='typedef' title='size_t' data-type='unsigned long' data-ref="size_t" data-ref-filename="size_t">size_t</span> <dfn class="decl field" id="(anonymous)::params_count" title='(anonymous struct)::params_count' data-ref="(anonymous)::params_count" data-ref-filename="(anonymous)..params_count">params_count</dfn>;</td></tr>
+<tr><th id="27">27</th><td>    <a class="typedef" href="#cmdline_param_t" title='cmdline_param_t' data-type='struct cmdline_param_t' data-ref="cmdline_param_t" data-ref-filename="cmdline_param_t">cmdline_param_t</a> **<dfn class="decl field" id="(anonymous)::params" title='(anonymous struct)::params' data-ref="(anonymous)::params" data-ref-filename="(anonymous)..params">params</dfn>;</td></tr>
+<tr><th id="28">28</th><td>} <dfn class="typedef" id="cmdline_arg_t" title='cmdline_arg_t' data-type='struct cmdline_arg_t' data-ref="cmdline_arg_t" data-ref-filename="cmdline_arg_t">cmdline_arg_t</dfn>;</td></tr>
+<tr><th id="29">29</th><td></td></tr>
+<tr><th id="30">30</th><td><b>typedef</b> <b>struct</b></td></tr>
+<tr><th id="31">31</th><td>{</td></tr>
+<tr><th id="32">32</th><td>    <span class='typedef' title='size_t' data-type='unsigned long' data-ref="size_t" data-ref-filename="size_t">size_t</span> <dfn class="decl field" id="(anonymous)::args_count" title='(anonymous struct)::args_count' data-ref="(anonymous)::args_count" data-ref-filename="(anonymous)..args_count">args_count</dfn>;</td></tr>
+<tr><th id="33">33</th><td>    <a class="typedef" href="#cmdline_arg_t" title='cmdline_arg_t' data-type='struct cmdline_arg_t' data-ref="cmdline_arg_t" data-ref-filename="cmdline_arg_t">cmdline_arg_t</a> **<dfn class="decl field" id="(anonymous)::arguments" title='(anonymous struct)::arguments' data-ref="(anonymous)::arguments" data-ref-filename="(anonymous)..arguments">arguments</dfn>;</td></tr>
+<tr><th id="34">34</th><td>} <dfn class="typedef" id="cmdline_t" title='cmdline_t' data-type='struct cmdline_t' data-ref="cmdline_t" data-ref-filename="cmdline_t">cmdline_t</dfn>;</td></tr>
+<tr><th id="35">35</th><td></td></tr>
+<tr><th id="36">36</th><td><b>extern</b> <a class="typedef" href="#cmdline_t" title='cmdline_t' data-type='struct cmdline_t' data-ref="cmdline_t" data-ref-filename="cmdline_t">cmdline_t</a> *<dfn class="decl" id="mos_cmdline" title='mos_cmdline' data-ref="mos_cmdline" data-ref-filename="mos_cmdline">mos_cmdline</dfn>;</td></tr>
+<tr><th id="37">37</th><td></td></tr>
+<tr><th id="38">38</th><td><a class="typedef" href="#cmdline_t" title='cmdline_t' data-type='struct cmdline_t' data-ref="cmdline_t" data-ref-filename="cmdline_t">cmdline_t</a> *<a class="decl fn" href="../../cmdline.c.html#mos_cmdline_create" title='mos_cmdline_create' data-ref="mos_cmdline_create" data-ref-filename="mos_cmdline_create" id="mos_cmdline_create">mos_cmdline_create</a>(<em>const</em> <em>char</em> *<dfn class="local col1 decl" id="1kcmdline" title='kcmdline' data-type='const char *' data-ref="1kcmdline" data-ref-filename="1kcmdline">kcmdline</dfn>);</td></tr>
+<tr><th id="39">39</th><td><em>void</em> <a class="decl fn" href="../../cmdline.c.html#mos_cmdline_destroy" title='mos_cmdline_destroy' data-ref="mos_cmdline_destroy" data-ref-filename="mos_cmdline_destroy" id="mos_cmdline_destroy">mos_cmdline_destroy</a>(<a class="typedef" href="#cmdline_t" title='cmdline_t' data-type='struct cmdline_t' data-ref="cmdline_t" data-ref-filename="cmdline_t">cmdline_t</a> *<dfn class="local col2 decl" id="2cmdline" title='cmdline' data-type='cmdline_t *' data-ref="2cmdline" data-ref-filename="2cmdline">cmdline</dfn>);</td></tr>
+<tr><th id="40">40</th><td></td></tr>
+<tr><th id="41">41</th><td><a class="typedef" href="#cmdline_arg_t" title='cmdline_arg_t' data-type='struct cmdline_arg_t' data-ref="cmdline_arg_t" data-ref-filename="cmdline_arg_t">cmdline_arg_t</a> *<a class="decl fn" href="../../cmdline.c.html#mos_cmdline_get_arg" title='mos_cmdline_get_arg' data-ref="mos_cmdline_get_arg" data-ref-filename="mos_cmdline_get_arg" id="mos_cmdline_get_arg">mos_cmdline_get_arg</a>(<em>const</em> <em>char</em> *<dfn class="local col3 decl" id="3arg" title='arg' data-type='const char *' data-ref="3arg" data-ref-filename="3arg">arg</dfn>);</td></tr>
+<tr><th id="42">42</th><td></td></tr>
+</table><hr/><p id='footer'>
+Generated while processing <a href='../../cmdline.c.html'>MOS/kernel/cmdline.c</a><br/>Generated on <em>2022-Oct-31</em> from project MOS<br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
+<br/>Generator usage only permitted with license.</p>
+</div></body></html>

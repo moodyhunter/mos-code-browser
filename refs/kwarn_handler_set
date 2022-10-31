@@ -1,3 +1,3 @@
-<dec f='MOS/include/mos/panic.h' l='11' type='void kwarn_handler_set(kmsg_handler_t * handler)'/>
+<dec f='MOS/kernel/include/mos/panic.h' l='11' type='void kwarn_handler_set(kmsg_handler_t * handler)'/>
 <def f='MOS/kernel/panic.c' l='20' ll='24' type='void kwarn_handler_set(kmsg_handler_t * handler)'/>
 <use f='MOS/tests/test_engine.c' l='77' u='c' c='mos_test_engine_run_tests'/>

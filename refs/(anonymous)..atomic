@@ -1,4 +1,4 @@
-<dec f='MOS/include/mos/types.h' l='77' type='u64'/>
+<dec f='MOS/kernel/include/mos/types.h' l='77' type='u64'/>
 <offset>0</offset>
 <use f='MOS/kernel/filesystem/mount.c' l='63' u='r' c='kunmount'/>
 <use f='MOS/kernel/filesystem/mount.c' l='65' u='r' c='kunmount'/>

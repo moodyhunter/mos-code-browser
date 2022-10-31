@@ -1,4 +1,4 @@
-<dec f='MOS/include/mos/platform/platform.h' l='54' type='void *'/>
+<dec f='MOS/kernel/include/mos/platform/platform.h' l='54' type='void *'/>
 <offset>128</offset>
 <use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='88' u='w' c='x86_handle_interrupt'/>
 <use f='MOS/arch/x86/tasks/context.c' l='37' u='r' c='x86_switch_to_thread'/>

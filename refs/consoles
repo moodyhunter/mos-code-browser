@@ -1,4 +1,4 @@
-<dec f='MOS/include/mos/device/console.h' l='71' type='list_node_t'/>
+<dec f='MOS/kernel/include/mos/device/console.h' l='71' type='list_node_t'/>
 <use f='MOS/kernel/device/console.c' l='22' u='a'/>
 <use f='MOS/kernel/device/console.c' l='22' u='a'/>
 <def f='MOS/kernel/device/console.c' l='26' type='list_node_t'/>

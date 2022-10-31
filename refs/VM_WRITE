@@ -1,4 +1,4 @@
-<dec f='MOS/include/mos/platform/platform.h' l='27' type='8'/>
+<dec f='MOS/kernel/include/mos/platform/platform.h' l='27' type='8'/>
 <use f='MOS/arch/x86/boot/multiboot/startup.c' l='109' u='r' c='mos_startup_map_single_page'/>
 <use f='MOS/arch/x86/boot/multiboot/startup.c' l='115' u='r' c='mos_startup_map_single_page'/>
 <use f='MOS/arch/x86/boot/multiboot/startup.c' l='150' u='r' c='x86_startup'/>

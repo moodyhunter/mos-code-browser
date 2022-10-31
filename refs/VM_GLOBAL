@@ -1,4 +1,4 @@
-<dec f='MOS/include/mos/platform/platform.h' l='31' type='128'/>
+<dec f='MOS/kernel/include/mos/platform/platform.h' l='31' type='128'/>
 <use f='MOS/arch/x86/boot/multiboot/startup.c' l='116' u='r' c='mos_startup_map_single_page'/>
 <use f='MOS/arch/x86/interrupt/apic.c' l='111' u='r' c='apic_enable'/>
 <use f='MOS/arch/x86/interrupt/apic.c' l='112' u='r' c='apic_enable'/>

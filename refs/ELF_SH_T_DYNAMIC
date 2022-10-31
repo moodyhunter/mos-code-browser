@@ -1,2 +1,2 @@
-<dec f='MOS/include/mos/elf/elf.h' l='163' type='6'/>
-<doc f='MOS/include/mos/elf/elf.h' l='163'>// Dynamic linking information</doc>
+<dec f='MOS/kernel/include/mos/elf/elf.h' l='163' type='6'/>
+<doc f='MOS/kernel/include/mos/elf/elf.h' l='163'>// Dynamic linking information</doc>

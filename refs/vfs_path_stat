@@ -1,4 +1,4 @@
-<dec f='MOS/include/mos/filesystem/filesystem.h' l='95' type='_Bool vfs_path_stat(fsnode_t * path, file_stat_t *restrict stat)'/>
+<dec f='MOS/kernel/include/mos/filesystem/filesystem.h' l='95' type='_Bool vfs_path_stat(fsnode_t * path, file_stat_t *restrict stat)'/>
 <use f='MOS/kernel/filesystem/filesystem.c' l='80' u='c' c='vfs_stat'/>
 <def f='MOS/kernel/filesystem/filesystem.c' l='178' ll='188' macro='1' type='_Bool vfs_path_stat(fsnode_t * path, file_stat_t *restrict stat)'/>
 <use f='MOS/kernel/filesystem/pathutils.c' l='125' u='c' c='path_resolve'/>

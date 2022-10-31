@@ -5,5 +5,5 @@
 <offset>5</offset>
 <use f='MOS/arch/x86/gdt/gdt.c' l='51' u='w' c='gdt32_set_entry'/>
 <use f='MOS/arch/x86/gdt/gdt.c' l='77' u='w' c='x86_gdt_init'/>
-<dec f='MOS/include/mos/filesystem/filesystem.h' l='18' type='u64'/>
+<dec f='MOS/kernel/include/mos/filesystem/filesystem.h' l='18' type='u64'/>
 <offset>0</offset>

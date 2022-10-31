@@ -1,4 +1,4 @@
-<use f='MOS/include/lib/structures/hashmap.h' l='11'/>
+<use f='MOS/lib/include/lib/structures/hashmap.h' l='11'/>
 <def f='MOS/lib/structures/hashmap.c' l='9' ll='14'/>
 <use f='MOS/lib/structures/hashmap.c' l='9'/>
 <size>24</size>

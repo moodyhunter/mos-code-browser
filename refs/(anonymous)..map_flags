@@ -1,6 +1,6 @@
-<dec f='MOS/include/mos/platform/platform.h' l='89' type='mmap_flags'/>
+<dec f='MOS/kernel/include/mos/platform/platform.h' l='89' type='mmap_flags'/>
 <offset>224</offset>
-<doc f='MOS/include/mos/platform/platform.h' l='86'>// if MMAP_COW is set, then the flags in vm contains &apos;original&apos; flags
+<doc f='MOS/kernel/include/mos/platform/platform.h' l='86'>// if MMAP_COW is set, then the flags in vm contains &apos;original&apos; flags
     // of this block. Which means if there&apos;re no VM_WRITE flag, then the block
     // should not be writable.</doc>
 <use f='MOS/kernel/mm/cow.c' l='59' u='r' c='cow_handle_page_fault'/>

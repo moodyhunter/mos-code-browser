@@ -1,4 +1,4 @@
-<dec f='MOS/include/mos/filesystem/filesystem.h' l='79' type='const char *'/>
+<dec f='MOS/kernel/include/mos/filesystem/filesystem.h' l='79' type='const char *'/>
 <offset>256</offset>
 <use f='MOS/kernel/elf/elf.c' l='70' u='r' c='process_create_from_elf'/>
 <use f='MOS/kernel/filesystem/filesystem.c' l='19' u='r' c='vfs_io_ops_close'/>

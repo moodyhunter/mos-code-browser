@@ -1,4 +1,4 @@
-<dec f='MOS/include/mos/tasks/task_type.h' l='57' type='downwards_stack_t'/>
+<dec f='MOS/kernel/include/mos/tasks/task_type.h' l='57' type='downwards_stack_t'/>
 <use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='93' u='m' c='x86_handle_interrupt'/>
 <use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='119' u='m' c='x86_handle_interrupt'/>
 <offset>128</offset>

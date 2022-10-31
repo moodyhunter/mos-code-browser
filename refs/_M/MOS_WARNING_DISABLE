@@ -1,4 +1,4 @@
-<dec f='MOS/include/mos/mos_global.h' l='44'/>
+<dec f='MOS/kernel/include/mos/mos_global.h' l='44'/>
 <use f='MOS/arch/x86/acpi/acpi.c' l='78' u='c'/>
 <use f='MOS/tests/printf/test_printf.c' l='39' u='c'/>
 <use f='MOS/tests/printf/test_printf.c' l='40' u='c'/>

@@ -1,2 +1,2 @@
-<dec f='MOS/include/mos/mm/memops.h' l='11' type='void mm_copy_pages(paging_handle_t from, uintptr_t src, paging_handle_t to, uintptr_t dst, size_t n_pages)'/>
+<dec f='MOS/kernel/include/mos/mm/memops.h' l='11' type='void mm_copy_pages(paging_handle_t from, uintptr_t src, paging_handle_t to, uintptr_t dst, size_t n_pages)'/>
 <def f='MOS/kernel/mm/memops.c' l='23' ll='98' type='void mm_copy_pages(paging_handle_t from, uintptr_t fvaddr, paging_handle_t to, uintptr_t tvaddr, size_t n_pages)'/>

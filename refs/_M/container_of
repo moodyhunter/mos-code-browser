@@ -1,4 +1,4 @@
-<dec f='MOS/include/lib/containers.h' l='7'/>
+<dec f='MOS/lib/include/lib/containers.h' l='7'/>
 <use f='MOS/arch/x86/acpi/acpi.c' l='50' u='c'/>
 <use f='MOS/arch/x86/acpi/acpi.c' l='64' u='c'/>
 <use f='MOS/arch/x86/acpi/acpi.c' l='70' u='c'/>

@@ -1,4 +1,4 @@
-<dec f='MOS/include/mos/device/console.h' l='48' type='char [64]'/>
+<dec f='MOS/kernel/include/mos/device/console.h' l='48' type='char [64]'/>
 <offset>128</offset>
 <use f='MOS/arch/x86/devices/text_mode_console.c' l='165' u='w'/>
 <use f='MOS/arch/x86/x86_platform.c' l='31' u='w'/>

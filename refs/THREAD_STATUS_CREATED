@@ -1,5 +1,5 @@
-<dec f='MOS/include/mos/tasks/task_type.h' l='13' type='0'/>
-<doc f='MOS/include/mos/tasks/task_type.h' l='13'>// created, not ever started</doc>
+<dec f='MOS/kernel/include/mos/tasks/task_type.h' l='13' type='0'/>
+<doc f='MOS/kernel/include/mos/tasks/task_type.h' l='13'>// created, not ever started</doc>
 <use f='MOS/arch/x86/tasks/context.c' l='39' u='r' c='x86_switch_to_thread'/>
 <use f='MOS/kernel/tasks/schedule.c' l='31' u='r' c='schedule_to_thread'/>
 <use f='MOS/kernel/tasks/thread.c' l='45' u='r' c='thread_allocate'/>

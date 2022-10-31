@@ -1,2 +1,2 @@
-<dec f='MOS/include/mos/filesystem/mount.h' l='33' type='void *'/>
+<dec f='MOS/kernel/include/mos/filesystem/mount.h' l='33' type='void *'/>
 <offset>256</offset>

@@ -1,4 +1,4 @@
-<dec f='MOS/include/mos/filesystem/pathutils.h' l='22' type='_Bool path_verify_prefix(const fsnode_t * path, const fsnode_t * prefix)'/>
+<dec f='MOS/kernel/include/mos/filesystem/pathutils.h' l='22' type='_Bool path_verify_prefix(const fsnode_t * path, const fsnode_t * prefix)'/>
 <def f='MOS/kernel/filesystem/pathutils.c' l='141' ll='144' macro='1' type='_Bool path_verify_prefix(const fsnode_t * path, const fsnode_t * prefix)'/>
 <use f='MOS/tests/fs_api/test_fs_api.c' l='53' u='c' c='test_fs_api_path_is_prefix'/>
 <use f='MOS/tests/fs_api/test_fs_api.c' l='56' u='c' c='test_fs_api_path_is_prefix'/>

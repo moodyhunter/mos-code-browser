@@ -1,4 +1,4 @@
-<dec f='MOS/include/mos/filesystem/filesystem.h' l='27' type='2'/>
+<dec f='MOS/kernel/include/mos/filesystem/filesystem.h' l='27' type='2'/>
 <use f='MOS/kernel/filesystem/cpio/cpio.c' l='173' u='r' c='cpio_stat'/>
 <use f='MOS/kernel/filesystem/filesystem.c' l='121' u='r' c='vfs_path_open'/>
 <use f='MOS/kernel/filesystem/filesystem.c' l='159' u='r' c='vfs_path_readlink'/>

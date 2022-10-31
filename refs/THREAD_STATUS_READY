@@ -1,4 +1,4 @@
-<dec f='MOS/include/mos/tasks/task_type.h' l='15' type='2'/>
-<doc f='MOS/include/mos/tasks/task_type.h' l='15'>// thread can be scheduled</doc>
+<dec f='MOS/kernel/include/mos/tasks/task_type.h' l='15' type='2'/>
+<doc f='MOS/kernel/include/mos/tasks/task_type.h' l='15'>// thread can be scheduled</doc>
 <use f='MOS/kernel/tasks/schedule.c' l='18' u='r' c='mos_update_current'/>
 <use f='MOS/kernel/tasks/schedule.c' l='31' u='r' c='schedule_to_thread'/>

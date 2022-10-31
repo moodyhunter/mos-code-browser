@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>containers.h source code [MOS/lib/include/lib/containers.h] - Woboq Code Browser</title>
+<meta name="woboq:interestingDefinitions" content="list_node,tree_node "/>
+<link rel="stylesheet" href="/mos-code-browser/data/qtcreator.css" title="QtCreator"/>
+<link rel="alternate stylesheet" href="/mos-code-browser/data/kdevelop.css" title="KDevelop"/>
+<script type="text/javascript" src="/mos-code-browser/data/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="/mos-code-browser/data/jquery/jquery-ui.min.js"></script>
+<script>var file = 'MOS/lib/include/lib/containers.h'; var root_path = '../../../..'; var data_path = '/mos-code-browser/data'; var ecma_script_api_version = 2;</script>
+<script src='/mos-code-browser/data/codebrowser.js'></script>
+</head>
+<body><div id='header'><h1 id='breadcrumb'><span>Browse the source code of </span><a href='../../..'>MOS</a>/<a href='../..'>lib</a>/<a href='..'>include</a>/<a href='./'>lib</a>/<a href='containers.h.html'>containers.h</a></h1></div>
+<hr/><div id='content'><table class="code">
+<tr><th id="1">1</th><td><i>// SPDX-License-Identifier: GPL-3.0-or-later</i></td></tr>
+<tr><th id="2">2</th><td></td></tr>
+<tr><th id="3">3</th><td><u>#pragma once</u></td></tr>
+<tr><th id="4">4</th><td></td></tr>
+<tr><th id="5">5</th><td><u>#include <a href="../../../kernel/include/mos/types.h.html">"mos/types.h"</a></u></td></tr>
+<tr><th id="6">6</th><td></td></tr>
+<tr><th id="7">7</th><td><u>#define <dfn class="macro" id="_M/container_of" data-ref="_M/container_of">container_of</dfn>(ptr, type, member) ((type *) (<span class='warning' title="cast to &apos;char *&apos; from smaller integer type &apos;unsigned int&apos;">(</span>char *) (ptr) - (offsetof(type, member))))</u></td></tr>
+<tr><th id="8">8</th><td></td></tr>
+<tr><th id="9">9</th><td><b>typedef</b> <b>struct</b> <a class="type" href="#list_node" title='list_node' data-ref="list_node" data-ref-filename="list_node">list_node</a> <dfn class="typedef" id="list_node_t" title='list_node_t' data-type='struct list_node' data-ref="list_node_t" data-ref-filename="list_node_t">list_node_t</dfn>;</td></tr>
+<tr><th id="10">10</th><td><b>typedef</b> <b>struct</b> <a class="type" href="#tree_node" title='tree_node' data-ref="tree_node" data-ref-filename="tree_node">tree_node</a> <dfn class="typedef" id="tree_node_t" title='tree_node_t' data-type='struct tree_node' data-ref="tree_node_t" data-ref-filename="tree_node_t">tree_node_t</dfn>;</td></tr>
+<tr><th id="11">11</th><td></td></tr>
+<tr><th id="12">12</th><td><b>struct</b> <dfn class="type def" id="list_node" title='list_node' data-ref="list_node" data-ref-filename="list_node">list_node</dfn></td></tr>
+<tr><th id="13">13</th><td>{</td></tr>
+<tr><th id="14">14</th><td>    <a class="typedef" href="#list_node_t" title='list_node_t' data-type='struct list_node' data-ref="list_node_t" data-ref-filename="list_node_t">list_node_t</a> *<dfn class="decl field" id="list_node::prev" title='list_node::prev' data-ref="list_node::prev" data-ref-filename="list_node..prev">prev</dfn>;</td></tr>
+<tr><th id="15">15</th><td>    <a class="typedef" href="#list_node_t" title='list_node_t' data-type='struct list_node' data-ref="list_node_t" data-ref-filename="list_node_t">list_node_t</a> *<dfn class="decl field" id="list_node::next" title='list_node::next' data-ref="list_node::next" data-ref-filename="list_node..next">next</dfn>;</td></tr>
+<tr><th id="16">16</th><td>};</td></tr>
+<tr><th id="17">17</th><td></td></tr>
+<tr><th id="18">18</th><td><b>typedef</b> <b>struct</b> <dfn class="type def" id="tree_node" title='tree_node' data-ref="tree_node" data-ref-filename="tree_node"><a class="type" href="#tree_node" title='tree_node' data-ref="tree_node" data-ref-filename="tree_node">tree_node</a></dfn></td></tr>
+<tr><th id="19">19</th><td>{</td></tr>
+<tr><th id="20">20</th><td>    <a class="typedef" href="#tree_node_t" title='tree_node_t' data-type='struct tree_node' data-ref="tree_node_t" data-ref-filename="tree_node_t">tree_node_t</a> *<dfn class="decl field" id="tree_node::parent" title='tree_node::parent' data-ref="tree_node::parent" data-ref-filename="tree_node..parent">parent</dfn>;</td></tr>
+<tr><th id="21">21</th><td>    <span class='typedef' title='size_t' data-type='unsigned long' data-ref="size_t" data-ref-filename="size_t">size_t</span> <dfn class="decl field" id="tree_node::n_children" title='tree_node::n_children' data-ref="tree_node::n_children" data-ref-filename="tree_node..n_children">n_children</dfn>;</td></tr>
+<tr><th id="22">22</th><td>    <a class="typedef" href="#tree_node_t" title='tree_node_t' data-type='struct tree_node' data-ref="tree_node_t" data-ref-filename="tree_node_t">tree_node_t</a> **<dfn class="decl field" id="tree_node::children" title='tree_node::children' data-ref="tree_node::children" data-ref-filename="tree_node..children">children</dfn>;</td></tr>
+<tr><th id="23">23</th><td>} <a class="typedef" href="#tree_node_t" title='tree_node_t' data-type='struct tree_node' data-ref="tree_node_t" data-ref-filename="tree_node_t">tree_node_t</a>;</td></tr>
+<tr><th id="24">24</th><td></td></tr>
+<tr><th id="25">25</th><td><u>#define <dfn class="macro" id="_M/as_linked_list" data-ref="_M/as_linked_list">as_linked_list</dfn> list_node_t list_node</u></td></tr>
+<tr><th id="26">26</th><td><u>#define <dfn class="macro" id="_M/as_tree" data-ref="_M/as_tree">as_tree</dfn>        tree_node_t tree_node</u></td></tr>
+<tr><th id="27">27</th><td></td></tr>
+<tr><th id="28">28</th><td><i>// clang-format off</i></td></tr>
+<tr><th id="29">29</th><td><u>#define <dfn class="macro" id="_M/LIST_HEAD_INIT" data-ref="_M/LIST_HEAD_INIT">LIST_HEAD_INIT</dfn>(container) { .prev = &amp;(container), .next = &amp;(container) }</u></td></tr>
+<tr><th id="30">30</th><td><i>// clang-format on</i></td></tr>
+<tr><th id="31">31</th><td></td></tr>
+<tr><th id="32">32</th><td><u>#define <dfn class="macro" id="_M/LIST_NODE_INIT" data-ref="_M/LIST_NODE_INIT">LIST_NODE_INIT</dfn>(container) LIST_HEAD_INIT(container.list_node)</u></td></tr>
+<tr><th id="33">33</th><td></td></tr>
+</table><hr/><p id='footer'>
+Generated while processing <a href='../../../arch/x86/acpi/acpi.c.html'>MOS/arch/x86/acpi/acpi.c</a><br/>Generated on <em>2022-Oct-31</em> from project MOS<br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
+<br/>Generator usage only permitted with license.</p>
+</div></body></html>

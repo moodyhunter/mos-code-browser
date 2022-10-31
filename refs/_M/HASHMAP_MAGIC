@@ -1,4 +1,4 @@
-<dec f='MOS/include/lib/structures/hashmap.h' l='5'/>
+<dec f='MOS/lib/include/lib/structures/hashmap.h' l='5'/>
 <use f='MOS/lib/structures/hashmap.c' l='19' u='c'/>
 <use f='MOS/lib/structures/hashmap.c' l='24' u='c'/>
 <use f='MOS/lib/structures/hashmap.c' l='35' u='c'/>

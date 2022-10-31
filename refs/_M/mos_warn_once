@@ -1,2 +1,2 @@
-<dec f='MOS/include/mos/printk.h' l='66'/>
+<dec f='MOS/kernel/include/mos/printk.h' l='66'/>
 <use f='MOS/kernel/io/io.c' l='40' u='c'/>

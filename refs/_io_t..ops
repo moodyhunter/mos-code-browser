@@ -1,4 +1,4 @@
-<dec f='MOS/include/mos/io/io.h' l='34' type='const io_op_t *'/>
+<dec f='MOS/kernel/include/mos/io/io.h' l='34' type='const io_op_t *'/>
 <offset>192</offset>
 <use f='MOS/kernel/io/io.c' l='11' u='w' c='io_init'/>
 <use f='MOS/kernel/io/io.c' l='38' u='r' c='io_read'/>

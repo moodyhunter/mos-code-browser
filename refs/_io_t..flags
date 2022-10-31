@@ -1,4 +1,4 @@
-<dec f='MOS/include/mos/io/io.h' l='32' type='io_flags_t'/>
+<dec f='MOS/kernel/include/mos/io/io.h' l='32' type='io_flags_t'/>
 <offset>96</offset>
 <use f='MOS/kernel/io/io.c' l='9' u='w' c='io_init'/>
 <use f='MOS/kernel/io/io.c' l='32' u='r' c='io_read'/>

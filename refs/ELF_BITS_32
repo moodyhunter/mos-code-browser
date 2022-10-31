@@ -1,2 +1,2 @@
-<dec f='MOS/include/mos/elf/elf.h' l='11' type='1'/>
-<use f='MOS/include/mos/elf/elf.h' l='14'/>
+<dec f='MOS/kernel/include/mos/elf/elf.h' l='11' type='1'/>
+<use f='MOS/kernel/include/mos/elf/elf.h' l='14'/>

@@ -1,5 +1,5 @@
-<dec f='MOS/include/mos/filesystem/pathutils.h' l='17' type='fsnode_t * path_find_fsnode(const char * path)'/>
-<doc f='MOS/include/mos/filesystem/pathutils.h' l='16'>// Create or find a node in the filesystem tree, with all symbolic links resolved.</doc>
+<dec f='MOS/kernel/include/mos/filesystem/pathutils.h' l='17' type='fsnode_t * path_find_fsnode(const char * path)'/>
+<doc f='MOS/kernel/include/mos/filesystem/pathutils.h' l='16'>// Create or find a node in the filesystem tree, with all symbolic links resolved.</doc>
 <use f='MOS/kernel/filesystem/filesystem.c' l='64' u='c' c='vfs_open'/>
 <use f='MOS/kernel/filesystem/filesystem.c' l='79' u='c' c='vfs_stat'/>
 <use f='MOS/kernel/filesystem/filesystem.c' l='91' u='c' c='vfs_readlink'/>

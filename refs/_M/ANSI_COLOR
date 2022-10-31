@@ -1,4 +1,4 @@
-<dec f='MOS/include/lib/ansi_colors.h' l='39'/>
+<dec f='MOS/lib/include/lib/ansi_colors.h' l='39'/>
 <use f='MOS/arch/x86/devices/serial_console.c' l='46' u='c'/>
 <use f='MOS/arch/x86/devices/serial_console.c' l='47' u='c'/>
 <use f='MOS/arch/x86/devices/serial_console.c' l='48' u='c'/>
@@ -16,7 +16,7 @@
 <use f='MOS/arch/x86/devices/serial_console.c' l='60' u='c'/>
 <use f='MOS/arch/x86/devices/serial_console.c' l='61' u='c'/>
 <use f='MOS/arch/x86/devices/serial_console.c' l='68' u='c'/>
-<doc f='MOS/include/lib/ansi_colors.h' l='32'>// USAGE:
+<doc f='MOS/lib/include/lib/ansi_colors.h' l='32'>// USAGE:
 //
 // ANSI_COLOR(foreground)                       // a foreground color
 // ANSI_COLOR(foreground, style)                // a foreground color with style

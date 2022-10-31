@@ -1,2 +1,2 @@
-<dec f='MOS/include/mos/filesystem/filesystem.h' l='20' type='u64'/>
+<dec f='MOS/kernel/include/mos/filesystem/filesystem.h' l='20' type='u64'/>
 <offset>128</offset>

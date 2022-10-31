@@ -1,2 +1,2 @@
-<dec f='MOS/include/lib/stdlib.h' l='11' type='long labs(long x)'/>
+<dec f='MOS/lib/include/lib/stdlib.h' l='11' type='long labs(long x)'/>
 <def f='MOS/lib/stdlib.c' l='18' ll='21' type='long labs(long x)'/>

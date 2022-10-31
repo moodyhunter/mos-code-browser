@@ -1,4 +1,4 @@
-<dec f='MOS/include/mos/cmdline.h' l='18' type='const char *'/>
+<dec f='MOS/kernel/include/mos/cmdline.h' l='18' type='const char *'/>
 <use f='MOS/kernel/cmdline.c' l='67' u='w' c='mos_cmdline_create'/>
 <use f='MOS/kernel/cmdline.c' l='98' u='r' c='mos_cmdline_destroy'/>
 <offset>0</offset>

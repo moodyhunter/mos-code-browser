@@ -1,4 +1,4 @@
-<dec f='MOS/include/mos/device/console.h' l='59' type='_Bool (*)(console_t *, standard_color_t *, standard_color_t *)'/>
+<dec f='MOS/kernel/include/mos/device/console.h' l='59' type='_Bool (*)(console_t *, standard_color_t *, standard_color_t *)'/>
 <offset>1024</offset>
 <use f='MOS/arch/x86/devices/serial_console.c' l='21' u='w' c='serial_console_setup'/>
 <use f='MOS/arch/x86/devices/text_mode_console.c' l='172' u='w'/>

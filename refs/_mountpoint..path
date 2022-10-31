@@ -1,4 +1,4 @@
-<dec f='MOS/include/mos/filesystem/mount.h' l='30' type='fsnode_t *'/>
+<dec f='MOS/kernel/include/mos/filesystem/mount.h' l='30' type='fsnode_t *'/>
 <use f='MOS/kernel/filesystem/cpio/cpio.c' l='114' u='r' c='cpio_open'/>
 <use f='MOS/kernel/filesystem/cpio/cpio.c' l='148' u='r' c='cpio_stat'/>
 <use f='MOS/kernel/filesystem/cpio/cpio.c' l='185' u='r' c='cpio_readlink'/>

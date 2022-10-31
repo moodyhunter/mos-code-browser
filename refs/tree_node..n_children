@@ -1,11 +1,11 @@
-<dec f='MOS/include/lib/containers.h' l='21' type='size_t'/>
+<dec f='MOS/lib/include/lib/containers.h' l='21' type='size_t'/>
 <offset>64</offset>
 <use f='MOS/kernel/filesystem/pathutils.c' l='26' u='w'/>
-<use f='MOS/lib/structures/tree.c' l='15' u='r' c='tree_add_child'/>
-<use f='MOS/lib/structures/tree.c' l='18' u='w' c='tree_add_child'/>
-<use f='MOS/lib/structures/tree.c' l='19' u='r' c='tree_add_child'/>
+<use f='MOS/lib/structures/tree.c' l='16' u='r' c='tree_add_child'/>
+<use f='MOS/lib/structures/tree.c' l='19' u='w' c='tree_add_child'/>
 <use f='MOS/lib/structures/tree.c' l='20' u='r' c='tree_add_child'/>
-<use f='MOS/lib/structures/tree.c' l='37' u='r' c='tree_find_child_by_name'/>
+<use f='MOS/lib/structures/tree.c' l='21' u='r' c='tree_add_child'/>
+<use f='MOS/lib/structures/tree.c' l='38' u='r' c='tree_find_child_by_name'/>
 <use f='MOS/tests/fs_api/test_fs_api.c' l='16' u='w' c='test_fs_api_path_is_prefix'/>
 <use f='MOS/tests/fs_api/test_fs_api.c' l='26' u='w' c='test_fs_api_path_is_prefix'/>
 <use f='MOS/tests/fs_api/test_fs_api.c' l='36' u='w' c='test_fs_api_path_is_prefix'/>

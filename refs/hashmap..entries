@@ -1,4 +1,4 @@
-<dec f='MOS/include/lib/structures/hashmap.h' l='16' type='hashmap_entry_t **'/>
+<dec f='MOS/lib/include/lib/structures/hashmap.h' l='16' type='hashmap_entry_t **'/>
 <offset>64</offset>
 <use f='MOS/lib/structures/hashmap.c' l='25' u='w' c='hashmap_init'/>
 <use f='MOS/lib/structures/hashmap.c' l='26' u='r' c='hashmap_init'/>

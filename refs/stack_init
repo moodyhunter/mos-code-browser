@@ -1,4 +1,4 @@
-<dec f='MOS/include/lib/structures/stack.h' l='16' type='void stack_init(downwards_stack_t * stack, void * mem_region_bottom, size_t size)'/>
+<dec f='MOS/lib/include/lib/structures/stack.h' l='16' type='void stack_init(downwards_stack_t * stack, void * mem_region_bottom, size_t size)'/>
 <use f='MOS/kernel/tasks/thread.c' l='72' u='c' c='thread_new'/>
 <use f='MOS/kernel/tasks/thread.c' l='80' u='c' c='thread_new'/>
 <use f='MOS/kernel/tasks/thread.c' l='86' u='c' c='thread_new'/>

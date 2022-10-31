@@ -1,4 +1,4 @@
-<dec f='MOS/include/mos/printk.h' l='31' type='3'/>
+<dec f='MOS/kernel/include/mos/printk.h' l='31' type='3'/>
 <use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='187' macro='1' u='r' c='x86_handle_exception'/>
 <use f='MOS/arch/x86/mm/pmem_freelist.c' l='64' macro='1' u='r' c='pmem_freelist_setup'/>
 <use f='MOS/arch/x86/mm/pmem_freelist.c' l='70' macro='1' u='r' c='pmem_freelist_setup'/>

@@ -1,8 +1,8 @@
-<dec f='MOS/include/mos/elf/elf.h' l='53' type='char [4]'/>
+<dec f='MOS/kernel/include/mos/elf/elf.h' l='53' type='char [4]'/>
 <use f='MOS/kernel/elf/elf.c' l='19' u='r' c='elf_verify_header'/>
 <use f='MOS/kernel/elf/elf.c' l='22' u='a' c='elf_verify_header'/>
 <offset>0</offset>
-<dec f='MOS/include/mos/filesystem/cpio/cpio.h' l='11' type='char [6]'/>
+<dec f='MOS/kernel/include/mos/filesystem/cpio/cpio.h' l='11' type='char [6]'/>
 <use f='MOS/kernel/filesystem/cpio/cpio.c' l='37' u='r' c='cpio_read_metadata'/>
 <use f='MOS/kernel/filesystem/cpio/cpio.c' l='37' u='r' c='cpio_read_metadata'/>
 <use f='MOS/kernel/filesystem/cpio/cpio.c' l='37' u='r' c='cpio_read_metadata'/>

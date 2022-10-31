@@ -1,4 +1,4 @@
-<dec f='MOS/include/mos/printk.h' l='18'/>
+<dec f='MOS/kernel/include/mos/printk.h' l='18'/>
 <use f='MOS/arch/x86/acpi/acpi.c' l='54' u='c'/>
 <use f='MOS/arch/x86/cpu/cpuid.c' l='21' u='c'/>
 <use f='MOS/arch/x86/devices/serial.c' l='11' u='c'/>
@@ -32,17 +32,3 @@
 <use f='MOS/kernel/tasks/task_io.c' l='13' u='c'/>
 <use f='MOS/kernel/tasks/task_io.c' l='25' u='c'/>
 <use f='MOS/kernel/tasks/task_io.c' l='35' u='c'/>
-<use f='MOS/lib/stdio_impl.c' l='194' u='c'/>
-<use f='MOS/lib/stdio_impl.c' l='195' u='c'/>
-<use f='MOS/lib/stdio_impl.c' l='196' u='c'/>
-<use f='MOS/lib/stdio_impl.c' l='371' u='c'/>
-<use f='MOS/lib/stdio_impl.c' l='372' u='c'/>
-<use f='MOS/lib/stdio_impl.c' l='373' u='c'/>
-<use f='MOS/lib/structures/hashmap.c' l='18' u='c'/>
-<use f='MOS/lib/structures/tree.c' l='12' u='c'/>
-<use f='MOS/lib/structures/tree.c' l='13' u='c'/>
-<use f='MOS/lib/structures/tree.c' l='14' u='c'/>
-<use f='MOS/lib/structures/tree.c' l='15' u='c'/>
-<use f='MOS/lib/structures/tree.c' l='16' u='c'/>
-<use f='MOS/lib/structures/tree.c' l='25' u='c'/>
-<use f='MOS/lib/structures/tree.c' l='26' u='c'/>

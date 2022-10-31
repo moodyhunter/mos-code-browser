@@ -1,4 +1,4 @@
-<dec f='MOS/include/mos/filesystem/filesystem.h' l='89'/>
+<dec f='MOS/kernel/include/mos/filesystem/filesystem.h' l='89'/>
 <use f='MOS/kernel/filesystem/pathutils.c' l='36' u='c'/>
 <use f='MOS/kernel/filesystem/pathutils.c' l='75' u='c'/>
 <use f='MOS/kernel/filesystem/pathutils.c' l='77' u='c'/>

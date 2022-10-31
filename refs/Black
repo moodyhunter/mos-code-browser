@@ -1,5 +1,5 @@
-<dec f='MOS/include/mos/device/console.h' l='12' type='0'/>
-<use f='MOS/include/mos/device/console.h' l='20' u='r'/>
+<dec f='MOS/kernel/include/mos/device/console.h' l='12' type='0'/>
+<use f='MOS/kernel/include/mos/device/console.h' l='20' u='r'/>
 <use f='MOS/arch/x86/devices/serial_console.c' l='46' u='r' c='get_ansi_color'/>
 <use f='MOS/arch/x86/devices/text_mode_console.c' l='31'/>
 <use f='MOS/kernel/printk.c' l='14' u='r' c='deduce_level_color'/>

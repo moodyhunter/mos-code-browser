@@ -1,2 +1,2 @@
-<dec f='MOS/include/mos/tasks/process.h' l='15' type='void process_deinit()'/>
+<dec f='MOS/kernel/include/mos/tasks/process.h' l='15' type='void process_deinit()'/>
 <def f='MOS/kernel/tasks/process.c' l='82' ll='86' type='void process_deinit()'/>

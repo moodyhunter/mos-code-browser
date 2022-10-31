@@ -1,2 +1,2 @@
-<dec f='MOS/include/mos/device/console.h' l='39' type='64'/>
+<dec f='MOS/kernel/include/mos/device/console.h' l='39' type='64'/>
 <use f='MOS/arch/x86/devices/text_mode_console.c' l='167' u='r'/>

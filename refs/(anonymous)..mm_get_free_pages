@@ -1,4 +1,4 @@
-<dec f='MOS/include/mos/platform/platform.h' l='128' type='vmblock_t (*const)(paging_handle_t, size_t, pgalloc_hints)'/>
+<dec f='MOS/kernel/include/mos/platform/platform.h' l='128' type='vmblock_t (*const)(paging_handle_t, size_t, pgalloc_hints)'/>
 <offset>6336</offset>
 <use f='MOS/arch/x86/x86_platform.c' l='184' u='w'/>
 <use f='MOS/kernel/mm/memops.c' l='13' u='r' c='mm_map_proxy_space'/>

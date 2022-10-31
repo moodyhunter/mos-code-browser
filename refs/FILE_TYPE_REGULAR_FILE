@@ -1,2 +1,2 @@
-<dec f='MOS/include/mos/filesystem/filesystem.h' l='25' type='0'/>
+<dec f='MOS/kernel/include/mos/filesystem/filesystem.h' l='25' type='0'/>
 <use f='MOS/kernel/filesystem/cpio/cpio.c' l='171' u='r' c='cpio_stat'/>

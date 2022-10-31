@@ -1,4 +1,4 @@
-<dec f='MOS/include/mos/tasks/process.h' l='26' type='fd_t process_attach_fd(process_t * process, io_t * file)'/>
+<dec f='MOS/kernel/include/mos/tasks/process.h' l='26' type='fd_t process_attach_fd(process_t * process, io_t * file)'/>
 <use f='MOS/kernel/elf/elf.c' l='121' u='c' c='process_create_from_elf'/>
 <use f='MOS/kernel/ksyscall.c' l='30' u='c' c='ksyscall_file_open'/>
 <use f='MOS/kernel/tasks/fork.c' l='52' u='c' c='process_handle_fork'/>

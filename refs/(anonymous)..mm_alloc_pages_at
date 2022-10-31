@@ -1,4 +1,4 @@
-<dec f='MOS/include/mos/platform/platform.h' l='127' type='vmblock_t (*const)(paging_handle_t, uintptr_t, size_t, vm_flags)'/>
+<dec f='MOS/kernel/include/mos/platform/platform.h' l='127' type='vmblock_t (*const)(paging_handle_t, uintptr_t, size_t, vm_flags)'/>
 <offset>6272</offset>
 <use f='MOS/arch/x86/x86_platform.c' l='183' u='w'/>
 <use f='MOS/kernel/mm/cow.c' l='31' u='r' c='copy_cow_pages_inplace'/>

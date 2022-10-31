@@ -1,6 +1,6 @@
-<dec f='MOS/include/lib/structures/tree.h' l='22' type='void tree_trace_to_root(const tree_node_t * node, void (*)(const tree_node_t *) trace_func)'/>
+<dec f='MOS/lib/include/lib/structures/tree.h' l='22' type='void tree_trace_to_root(const tree_node_t * node, void (*)(const tree_node_t *) trace_func)'/>
 <use f='MOS/kernel/filesystem/filesystem.c' l='23' u='c' c='vfs_io_ops_close'/>
 <use f='MOS/kernel/filesystem/filesystem.c' l='137' u='c' c='vfs_path_open'/>
 <use f='MOS/kernel/filesystem/filesystem.c' l='194' u='c' c='file_io_cleanup'/>
-<def f='MOS/lib/structures/tree.c' l='67' ll='73' type='void tree_trace_to_root(const tree_node_t * node, void (*)(const tree_node_t *) trace_func)'/>
-<use f='MOS/lib/structures/tree.c' l='72' u='c' c='tree_trace_to_root'/>
+<def f='MOS/lib/structures/tree.c' l='68' ll='74' type='void tree_trace_to_root(const tree_node_t * node, void (*)(const tree_node_t *) trace_func)'/>
+<use f='MOS/lib/structures/tree.c' l='73' u='c' c='tree_trace_to_root'/>

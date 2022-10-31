@@ -1,5 +1,5 @@
-<dec f='MOS/include/mos/constants.h' l='17'/>
-<use f='MOS/include/mos/boot/startup.h' l='54' u='c'/>
+<dec f='MOS/kernel/include/mos/constants.h' l='17'/>
+<use f='MOS/kernel/include/mos/boot/startup.h' l='54' u='c'/>
 <use f='MOS/arch/x86/acpi/acpi.c' l='50' u='c'/>
 <use f='MOS/arch/x86/acpi/acpi.c' l='59' u='c'/>
 <use f='MOS/arch/x86/boot/multiboot/startup.c' l='183' u='c'/>

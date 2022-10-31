@@ -1,5 +1,5 @@
-<def f='MOS/include/mos/filesystem/filesystem.h' l='75' ll='80'/>
-<use f='MOS/include/mos/filesystem/filesystem.h' l='75'/>
+<def f='MOS/kernel/include/mos/filesystem/filesystem.h' l='75' ll='80'/>
+<use f='MOS/kernel/include/mos/filesystem/filesystem.h' l='75'/>
 <size>40</size>
 <mbr r='_fsnode::tree_node' o='0' t='tree_node_t'/>
 <mbr r='_fsnode::refcount' o='192' t='atomic_t'/>

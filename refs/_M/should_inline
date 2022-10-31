@@ -1,4 +1,4 @@
-<dec f='MOS/include/mos/mos_global.h' l='22'/>
+<dec f='MOS/kernel/include/mos/mos_global.h' l='22'/>
 <use f='MOS/arch/x86/include/mos/x86/cpu/cpu.h' l='9' u='c'/>
 <use f='MOS/arch/x86/include/mos/x86/cpu/cpu.h' l='14' u='c'/>
 <use f='MOS/arch/x86/include/mos/x86/cpu/cpu.h' l='19' u='c'/>
@@ -7,12 +7,12 @@
 <use f='MOS/arch/x86/boot/multiboot/startup.c' l='62' u='c'/>
 <use f='MOS/arch/x86/boot/multiboot/startup.c' l='72' u='c'/>
 <use f='MOS/build/include/mos/ksyscall/dispatcher.h' l='9' u='c'/>
-<use f='MOS/include/mos/mm/kmalloc.h' l='8' u='c'/>
-<use f='MOS/include/mos/mm/kmalloc.h' l='13' u='c'/>
-<use f='MOS/include/mos/mm/kmalloc.h' l='18' u='c'/>
-<use f='MOS/include/mos/mm/kmalloc.h' l='23' u='c'/>
-<use f='MOS/include/mos/tasks/process.h' l='17' u='c'/>
-<use f='MOS/include/mos/tasks/thread.h' l='14' u='c'/>
+<use f='MOS/kernel/include/mos/mm/kmalloc.h' l='8' u='c'/>
+<use f='MOS/kernel/include/mos/mm/kmalloc.h' l='13' u='c'/>
+<use f='MOS/kernel/include/mos/mm/kmalloc.h' l='18' u='c'/>
+<use f='MOS/kernel/include/mos/mm/kmalloc.h' l='23' u='c'/>
+<use f='MOS/kernel/include/mos/tasks/process.h' l='17' u='c'/>
+<use f='MOS/kernel/include/mos/tasks/thread.h' l='14' u='c'/>
 <use f='MOS/build/include/mos/ksyscall/usermode.h' l='10' u='c'/>
 <use f='MOS/build/include/mos/ksyscall/usermode.h' l='15' u='c'/>
 <use f='MOS/build/include/mos/ksyscall/usermode.h' l='20' u='c'/>

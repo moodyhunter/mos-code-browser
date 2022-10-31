@@ -1,4 +1,4 @@
-<dec f='MOS/include/lib/structures/tree.h' l='14'/>
+<dec f='MOS/lib/include/lib/structures/tree.h' l='14'/>
 <use f='MOS/kernel/filesystem/filesystem.c' l='23' u='c'/>
 <use f='MOS/kernel/filesystem/filesystem.c' l='137' u='c'/>
 <use f='MOS/kernel/filesystem/filesystem.c' l='194' u='c'/>

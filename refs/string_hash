@@ -1,2 +1,2 @@
-<def f='MOS/include/lib/hash.h' l='8' ll='19' macro='1' type='hash_t string_hash(const char * s, const int n)'/>
+<def f='MOS/lib/include/lib/hash.h' l='8' ll='19' macro='1' type='hash_t string_hash(const char * s, const int n)'/>
 <use f='MOS/lib/structures/hashmap_common.c' l='10' u='c' c='hashmap_hash_string'/>

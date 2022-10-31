@@ -1,5 +1,5 @@
-<dec f='MOS/include/lib/containers.h' l='32'/>
-<doc f='MOS/include/lib/containers.h' l='30'>// clang-format on</doc>
+<dec f='MOS/lib/include/lib/containers.h' l='32'/>
+<doc f='MOS/lib/include/lib/containers.h' l='30'>// clang-format on</doc>
 <use f='MOS/arch/x86/devices/text_mode_console.c' l='166' u='c'/>
 <use f='MOS/kernel/device/console.c' l='26' u='c'/>
 <use f='MOS/tests/linked_list/test_linked_list.c' l='16' u='c'/>

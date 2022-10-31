@@ -1,4 +1,4 @@
-<dec f='MOS/include/mos/platform/platform.h' l='64' type='_Bool'/>
+<dec f='MOS/kernel/include/mos/platform/platform.h' l='64' type='_Bool'/>
 <dec f='MOS/arch/x86/include/mos/x86/gdt/gdt_types.h' l='26' type='u32'/>
 <offset>52</offset>
 <doc f='MOS/arch/x86/include/mos/x86/gdt/gdt_types.h' l='26'>// only used in software; has no effect on hardware</doc>

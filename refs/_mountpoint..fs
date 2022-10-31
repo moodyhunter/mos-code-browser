@@ -1,4 +1,4 @@
-<dec f='MOS/include/mos/filesystem/mount.h' l='31' type='filesystem_t *'/>
+<dec f='MOS/kernel/include/mos/filesystem/mount.h' l='31' type='filesystem_t *'/>
 <use f='MOS/kernel/filesystem/cpio/cpio.c' l='108' u='r' c='cpio_unmount'/>
 <offset>128</offset>
 <use f='MOS/kernel/filesystem/filesystem.c' l='22' u='r' c='vfs_io_ops_close'/>

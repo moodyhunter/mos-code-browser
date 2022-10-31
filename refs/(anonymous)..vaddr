@@ -1,5 +1,5 @@
-<dec f='MOS/include/mos/platform/platform.h' l='61' type='uintptr_t'/>
-<dec f='MOS/include/mos/platform/platform.h' l='69' type='uintptr_t'/>
+<dec f='MOS/kernel/include/mos/platform/platform.h' l='61' type='uintptr_t'/>
+<dec f='MOS/kernel/include/mos/platform/platform.h' l='69' type='uintptr_t'/>
 <offset>0</offset>
 <use f='MOS/arch/x86/devices/initrd_blockdev.c' l='30' u='r' c='initrd_read'/>
 <use f='MOS/arch/x86/mm/paging.c' l='207' u='r' c='x86_um_pgd_create'/>
@@ -8,7 +8,7 @@
 <use f='MOS/arch/x86/mm/paging_impl.c' l='41' u='w' c='pg_page_alloc_at'/>
 <use f='MOS/arch/x86/mm/paging_impl.c' l='95' u='w' c='pg_page_get_free'/>
 <use f='MOS/arch/x86/x86_platform.c' l='150' u='w' c='x86_start_kernel'/>
-<dec f='MOS/include/mos/elf/elf.h' l='145' type='uintptr_t'/>
+<dec f='MOS/kernel/include/mos/elf/elf.h' l='145' type='uintptr_t'/>
 <use f='MOS/kernel/elf/elf.c' l='51' u='r' c='process_create_from_elf'/>
 <use f='MOS/kernel/elf/elf.c' l='80' u='r' c='process_create_from_elf'/>
 <use f='MOS/kernel/elf/elf.c' l='99' u='r' c='process_create_from_elf'/>
@@ -17,7 +17,7 @@
 <use f='MOS/kernel/elf/elf.c' l='124' u='r' c='process_create_from_elf'/>
 <use f='MOS/kernel/elf/elf.c' l='130' u='r' c='process_create_from_elf'/>
 <offset>96</offset>
-<doc f='MOS/include/mos/elf/elf.h' l='145'>// Virtual address of the segment</doc>
+<doc f='MOS/kernel/include/mos/elf/elf.h' l='145'>// Virtual address of the segment</doc>
 <use f='MOS/kernel/mm/cow.c' l='53' u='r' c='cow_handle_page_fault'/>
 <use f='MOS/kernel/mm/cow.c' l='54' u='r' c='cow_handle_page_fault'/>
 <use f='MOS/kernel/mm/cow.c' l='62' u='r' c='cow_handle_page_fault'/>

@@ -1,4 +1,4 @@
-<dec f='MOS/include/mos/types.h' l='39'/>
+<dec f='MOS/kernel/include/mos/types.h' l='39'/>
 <use f='MOS/arch/x86/cpu/smp.c' l='144' u='c'/>
 <use f='MOS/arch/x86/interrupt/apic.c' l='106' u='c'/>
 <use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='177' u='c'/>

@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>mos_lib.h source code [MOS/lib/include/lib/mos_lib.h] - Woboq Code Browser</title>
+<link rel="stylesheet" href="/mos-code-browser/data/qtcreator.css" title="QtCreator"/>
+<link rel="alternate stylesheet" href="/mos-code-browser/data/kdevelop.css" title="KDevelop"/>
+<script type="text/javascript" src="/mos-code-browser/data/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="/mos-code-browser/data/jquery/jquery-ui.min.js"></script>
+<script>var file = 'MOS/lib/include/lib/mos_lib.h'; var root_path = '../../../..'; var data_path = '/mos-code-browser/data'; var ecma_script_api_version = 2;</script>
+<script src='/mos-code-browser/data/codebrowser.js'></script>
+</head>
+<body><div id='header'><h1 id='breadcrumb'><span>Browse the source code of </span><a href='../../..'>MOS</a>/<a href='../..'>lib</a>/<a href='..'>include</a>/<a href='./'>lib</a>/<a href='mos_lib.h.html'>mos_lib.h</a></h1></div>
+<hr/><div id='content'><table class="code">
+<tr><th id="1">1</th><td><i>// SPDX-License-Identifier: GPL-3.0-or-later</i></td></tr>
+<tr><th id="2">2</th><td></td></tr>
+<tr><th id="3">3</th><td><u>#pragma once</u></td></tr>
+<tr><th id="4">4</th><td></td></tr>
+<tr><th id="5">5</th><td><u>#<span data-ppcond="5">ifdef</span> <span class="macro" data-ref="_M/__MOS_KERNEL__">__MOS_KERNEL__</span></u></td></tr>
+<tr><th id="6">6</th><td><u>#include <a href="../../../kernel/include/mos/printk.h.html">"mos/printk.h"</a></u></td></tr>
+<tr><th id="7">7</th><td><u>#define <dfn class="macro" id="_M/MOS_LIB_ASSERT" data-ref="_M/MOS_LIB_ASSERT">MOS_LIB_ASSERT</dfn>(cond)             MOS_ASSERT(cond)</u></td></tr>
+<tr><th id="8">8</th><td><u>#define <dfn class="macro" id="_M/MOS_LIB_ASSERT_X" data-ref="_M/MOS_LIB_ASSERT_X">MOS_LIB_ASSERT_X</dfn>(cond, msg, ...) MOS_ASSERT_X(cond, msg, ##__VA_ARGS__)</u></td></tr>
+<tr><th id="9">9</th><td><u>#define <dfn class="macro" id="_M/MOS_LIB_UNIMPLEMENTED" data-ref="_M/MOS_LIB_UNIMPLEMENTED">MOS_LIB_UNIMPLEMENTED</dfn>(content)   MOS_UNIMPLEMENTED(content)</u></td></tr>
+<tr><th id="10">10</th><td><u>#define <dfn class="macro" id="_M/MOS_LIB_UNREACHABLE" data-ref="_M/MOS_LIB_UNREACHABLE">MOS_LIB_UNREACHABLE</dfn>()            MOS_UNREACHABLE()</u></td></tr>
+<tr><th id="11">11</th><td><u>#<span data-ppcond="5">else</span></u></td></tr>
+<tr><th id="12">12</th><td><u>#define MOS_LIB_ASSERT(cond)</u></td></tr>
+<tr><th id="13">13</th><td><u>#define MOS_LIB_ASSERT_X(cond, msg, ...)</u></td></tr>
+<tr><th id="14">14</th><td><u>#define MOS_LIB_UNIMPLEMENTED(content)</u></td></tr>
+<tr><th id="15">15</th><td><u>#define MOS_LIB_UNREACHABLE()</u></td></tr>
+<tr><th id="16">16</th><td><u>#define mos_warn(...)</u></td></tr>
+<tr><th id="17">17</th><td><u>#<span data-ppcond="5">endif</span></u></td></tr>
+<tr><th id="18">18</th><td></td></tr>
+</table><hr/><p id='footer'>
+Generated while processing <a href='../../stdio_impl.c.html'>MOS/lib/stdio_impl.c</a><br/>Generated on <em>2022-Oct-31</em> from project MOS<br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
+<br/>Generator usage only permitted with license.</p>
+</div></body></html>

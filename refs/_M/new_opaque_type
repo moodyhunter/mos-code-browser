@@ -1,5 +1,5 @@
-<dec f='MOS/include/mos/types.h' l='73'/>
-<use f='MOS/include/mos/types.h' l='77' u='c'/>
-<use f='MOS/include/mos/types.h' l='78' u='c'/>
-<use f='MOS/include/mos/types.h' l='81' u='w'/>
-<doc f='MOS/include/mos/types.h' l='71'>// clang-format on</doc>
+<dec f='MOS/kernel/include/mos/types.h' l='73'/>
+<use f='MOS/kernel/include/mos/types.h' l='77' u='c'/>
+<use f='MOS/kernel/include/mos/types.h' l='78' u='c'/>
+<use f='MOS/kernel/include/mos/types.h' l='81' u='w'/>
+<doc f='MOS/kernel/include/mos/types.h' l='71'>// clang-format on</doc>

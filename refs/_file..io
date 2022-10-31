@@ -1,4 +1,4 @@
-<dec f='MOS/include/mos/filesystem/filesystem.h' l='84' type='io_t'/>
+<dec f='MOS/kernel/include/mos/filesystem/filesystem.h' l='84' type='io_t'/>
 <offset>0</offset>
 <use f='MOS/kernel/elf/elf.c' l='49' u='m' c='process_create_from_elf'/>
 <use f='MOS/kernel/elf/elf.c' l='53' u='a' c='process_create_from_elf'/>

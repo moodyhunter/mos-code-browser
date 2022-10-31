@@ -1,5 +1,5 @@
 <dec f='MOS/arch/x86/include/mos/x86/acpi/acpi_types.h' l='57' type='u64'/>
-<dec f='MOS/include/mos/platform/platform.h' l='62' type='uintptr_t'/>
+<dec f='MOS/kernel/include/mos/platform/platform.h' l='62' type='uintptr_t'/>
 <offset>64</offset>
 <use f='MOS/arch/x86/mm/mm.c' l='24' u='w' c='mem_add_region'/>
 <use f='MOS/arch/x86/mm/pmem_freelist.c' l='62' u='r' c='pmem_freelist_setup'/>

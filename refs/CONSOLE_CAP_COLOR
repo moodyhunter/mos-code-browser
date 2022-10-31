@@ -1,4 +1,4 @@
-<dec f='MOS/include/mos/device/console.h' l='33' type='1'/>
+<dec f='MOS/kernel/include/mos/device/console.h' l='33' type='1'/>
 <use f='MOS/arch/x86/devices/serial_console.c' l='18' u='r' c='serial_console_setup'/>
 <use f='MOS/arch/x86/devices/text_mode_console.c' l='167' u='r'/>
 <use f='MOS/arch/x86/x86_platform.c' l='32' u='r'/>

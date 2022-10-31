@@ -1,5 +1,5 @@
-<dec f='MOS/include/mos/mm/liballoc.h' l='30' type='void * liballoc_malloc(size_t size)'/>
-<use f='MOS/include/mos/mm/kmalloc.h' l='10' u='c' c='kmalloc'/>
+<dec f='MOS/kernel/include/mos/mm/liballoc.h' l='30' type='void * liballoc_malloc(size_t size)'/>
+<use f='MOS/kernel/include/mos/mm/kmalloc.h' l='10' u='c' c='kmalloc'/>
 <def f='MOS/kernel/mm/liballoc.c' l='233' ll='521' type='void * liballoc_malloc(size_t req_size)'/>
 <use f='MOS/kernel/mm/liballoc.c' l='255' u='c' c='liballoc_malloc'/>
 <use f='MOS/kernel/mm/liballoc.c' l='622' u='c' c='liballoc_calloc'/>

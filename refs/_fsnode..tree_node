@@ -1,4 +1,4 @@
-<dec f='MOS/include/mos/filesystem/filesystem.h' l='77' macro='1' type='tree_node_t'/>
+<dec f='MOS/kernel/include/mos/filesystem/filesystem.h' l='77' macro='1' type='tree_node_t'/>
 <offset>0</offset>
 <use f='MOS/kernel/filesystem/filesystem.c' l='23' macro='1' u='a' c='vfs_io_ops_close'/>
 <use f='MOS/kernel/filesystem/filesystem.c' l='137' macro='1' u='a' c='vfs_path_open'/>

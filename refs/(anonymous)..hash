@@ -1,9 +1,9 @@
-<dec f='MOS/include/mos/types.h' l='78' type='size_t'/>
+<dec f='MOS/kernel/include/mos/types.h' l='78' type='size_t'/>
 <offset>0</offset>
 <use f='MOS/kernel/tasks/process.c' l='26' u='w' c='process_hash'/>
 <use f='MOS/kernel/tasks/thread.c' l='22' u='w' c='hashmap_thread_hash'/>
 <use f='MOS/lib/structures/hashmap.c' l='52' u='r' c='hashmap_put'/>
 <use f='MOS/lib/structures/hashmap.c' l='77' u='r' c='hashmap_get'/>
 <use f='MOS/lib/structures/hashmap.c' l='93' u='r' c='hashmap_remove'/>
-<use f='MOS/include/lib/hash.h' l='15' u='w' c='string_hash'/>
-<use f='MOS/include/lib/hash.h' l='15' u='r' c='string_hash'/>
+<use f='MOS/lib/include/lib/hash.h' l='15' u='w' c='string_hash'/>
+<use f='MOS/lib/include/lib/hash.h' l='15' u='r' c='string_hash'/>

@@ -1,3 +1,3 @@
-<dec f='MOS/include/mos/filesystem/filesystem.h' l='70' type='_Bool'/>
+<dec f='MOS/kernel/include/mos/filesystem/filesystem.h' l='70' type='_Bool'/>
 <offset>200</offset>
 <use f='MOS/kernel/filesystem/cpio/cpio.c' l='167' u='w' c='cpio_stat'/>

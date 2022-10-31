@@ -1,4 +1,4 @@
-<dec f='MOS/include/mos/tasks/task_type.h' l='38' type='paging_handle_t'/>
+<dec f='MOS/kernel/include/mos/tasks/task_type.h' l='38' type='paging_handle_t'/>
 <offset>288</offset>
 <use f='MOS/arch/x86/tasks/context.c' l='35' u='m' c='x86_switch_to_thread'/>
 <use f='MOS/arch/x86/x86_platform.c' l='67' u='r' c='x86_kpanic_hook'/>
