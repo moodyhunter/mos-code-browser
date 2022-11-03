@@ -1,4 +1,4 @@
-<dec f='MOS/build/include/mos/ksyscall/dispatcher.h' l='53' type='pid_t ksyscall_fork()'/>
-<use f='MOS/build/include/mos/ksyscall/dispatcher.h' l='55' u='c' c='dispatch_ksyscall'/>
-<dec f='MOS/build/include/mos/ksyscall/decl.h' l='25' type='pid_t ksyscall_fork()'/>
-<def f='MOS/kernel/ksyscall.c' l='84' macro='1' type='pid_t ksyscall_fork()'/>
+<dec f='MOS/build/include/mos/ksyscall/dispatcher.h' l='54' type='pid_t ksyscall_fork()'/>
+<use f='MOS/build/include/mos/ksyscall/dispatcher.h' l='56' u='c' c='dispatch_ksyscall'/>
+<dec f='MOS/build/include/mos/ksyscall/decl.h' l='26' type='pid_t ksyscall_fork()'/>
+<def f='MOS/kernel/ksyscall.c' l='85' macro='1' type='pid_t ksyscall_fork()'/>

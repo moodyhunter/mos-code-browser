@@ -1,3 +1,3 @@
 <dec f='MOS/kernel/include/mos/filesystem/filesystem.h' l='99' type='_Bool vfs_stat(const char * path, file_stat_t *restrict stat)'/>
 <def f='MOS/kernel/filesystem/filesystem.c' l='77' ll='87' macro='1' type='_Bool vfs_stat(const char * path, file_stat_t *restrict stat)'/>
-<use f='MOS/kernel/ksyscall.c' l='38' u='c' c='ksyscall_file_stat'/>
+<use f='MOS/kernel/ksyscall.c' l='39' u='c' c='ksyscall_file_stat'/>

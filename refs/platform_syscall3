@@ -1,2 +1,3 @@
 <def f='MOS/arch/x86/include/mos/platform_syscall.h' l='29' ll='34' macro='1' type='long platform_syscall3(long number, long arg1, long arg2, long arg3)'/>
-<use f='MOS/build/include/mos/ksyscall/usermode.h' l='72' u='c' c='invoke_ksyscall_spawn'/>
+<use f='MOS/build/include/mos/ksyscall/usermode.h' l='73' u='c' c='invoke_ksyscall_spawn'/>
+<use f='MOS/build/include/mos/ksyscall/usermode.h' l='78' u='c' c='invoke_ksyscall_create_thread'/>

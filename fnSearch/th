@@ -4,3 +4,4 @@ thread_deinit|thread_deinit
 thread_get|thread_get
 thread_init|thread_init
 thread_new|thread_new
+thread_work|thread_work

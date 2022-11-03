@@ -1,6 +1,6 @@
 <dec f='MOS/kernel/include/mos/platform/platform.h' l='143'/>
 <use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='88' u='c'/>
-<use f='MOS/arch/x86/tasks/context.c' l='37' u='c'/>
+<use f='MOS/arch/x86/tasks/context.c' l='39' u='c'/>
 <use f='MOS/arch/x86/x86_platform.c' l='61' u='c'/>
 <use f='MOS/arch/x86/x86_platform.c' l='68' u='c'/>
 <use f='MOS/arch/x86/x86_platform.c' l='84' u='c'/>
@@ -13,6 +13,6 @@
 <use f='MOS/kernel/mm/memops.c' l='14' u='c'/>
 <use f='MOS/kernel/mm/memops.c' l='20' u='c'/>
 <use f='MOS/kernel/mm/memops.c' l='25' u='c'/>
-<use f='MOS/kernel/tasks/schedule.c' l='22' u='c'/>
-<use f='MOS/kernel/tasks/schedule.c' l='36' u='c'/>
-<use f='MOS/kernel/tasks/schedule.c' l='49' u='c'/>
+<use f='MOS/kernel/tasks/schedule.c' l='23' u='c'/>
+<use f='MOS/kernel/tasks/schedule.c' l='37' u='c'/>
+<use f='MOS/kernel/tasks/schedule.c' l='50' u='c'/>

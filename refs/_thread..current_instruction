@@ -2,7 +2,7 @@
 <use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='94' u='w' c='x86_handle_interrupt'/>
 <use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='120' u='r' c='x86_handle_interrupt'/>
 <offset>576</offset>
-<use f='MOS/arch/x86/tasks/context.c' l='37' u='r' c='x86_switch_to_thread'/>
+<use f='MOS/arch/x86/tasks/context.c' l='39' u='r' c='x86_switch_to_thread'/>
 <use f='MOS/kernel/tasks/fork.c' l='66' u='w' c='process_handle_fork'/>
 <use f='MOS/kernel/tasks/fork.c' l='66' u='r' c='process_handle_fork'/>
 <use f='MOS/kernel/tasks/thread.c' l='67' u='w' c='thread_new'/>

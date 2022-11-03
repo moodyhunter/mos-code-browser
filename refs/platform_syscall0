@@ -1,6 +1,6 @@
 <def f='MOS/arch/x86/include/mos/platform_syscall.h' l='8' ll='13' macro='1' type='long platform_syscall0(long number)'/>
-<use f='MOS/build/include/mos/ksyscall/usermode.h' l='12' u='c' c='invoke_ksyscall_panic'/>
-<use f='MOS/build/include/mos/ksyscall/usermode.h' l='47' u='c' c='invoke_ksyscall_yield_cpu'/>
-<use f='MOS/build/include/mos/ksyscall/usermode.h' l='52' u='c' c='invoke_ksyscall_fork'/>
-<use f='MOS/build/include/mos/ksyscall/usermode.h' l='62' u='c' c='invoke_ksyscall_get_pid'/>
-<use f='MOS/build/include/mos/ksyscall/usermode.h' l='67' u='c' c='invoke_ksyscall_get_parent_pid'/>
+<use f='MOS/build/include/mos/ksyscall/usermode.h' l='13' u='c' c='invoke_ksyscall_panic'/>
+<use f='MOS/build/include/mos/ksyscall/usermode.h' l='48' u='c' c='invoke_ksyscall_yield_cpu'/>
+<use f='MOS/build/include/mos/ksyscall/usermode.h' l='53' u='c' c='invoke_ksyscall_fork'/>
+<use f='MOS/build/include/mos/ksyscall/usermode.h' l='63' u='c' c='invoke_ksyscall_get_pid'/>
+<use f='MOS/build/include/mos/ksyscall/usermode.h' l='68' u='c' c='invoke_ksyscall_get_parent_pid'/>

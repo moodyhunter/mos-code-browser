@@ -1,3 +1,3 @@
 <dec f='MOS/kernel/include/mos/tasks/process.h' l='27' type='_Bool process_detach_fd(process_t * process, fd_t fd)'/>
-<use f='MOS/kernel/ksyscall.c' l='63' u='c' c='ksyscall_io_close'/>
+<use f='MOS/kernel/ksyscall.c' l='64' u='c' c='ksyscall_io_close'/>
 <def f='MOS/kernel/tasks/process.c' l='120' ll='129' macro='1' type='_Bool process_detach_fd(process_t * process, fd_t fd)'/>

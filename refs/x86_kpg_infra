@@ -23,7 +23,7 @@
 <use f='MOS/arch/x86/mm/paging_impl.c' l='243' u='r' c='pg_page_get_mapped_paddr'/>
 <use f='MOS/arch/x86/mm/paging_impl.c' l='262' u='r' c='pg_page_get_flags'/>
 <use f='MOS/arch/x86/mm/paging_impl.c' l='262' u='r' c='pg_page_get_flags'/>
-<use f='MOS/arch/x86/tasks/context.c' l='35' u='r' c='x86_switch_to_thread'/>
+<use f='MOS/arch/x86/tasks/context.c' l='37' u='r' c='x86_switch_to_thread'/>
 <use f='MOS/arch/x86/x86_platform.c' l='61' u='r' c='x86_kpanic_hook'/>
 <use f='MOS/arch/x86/x86_platform.c' l='74' u='r' c='x86_kpanic_hook'/>
 <use f='MOS/arch/x86/x86_platform.c' l='113' u='r' c='x86_start_kernel'/>

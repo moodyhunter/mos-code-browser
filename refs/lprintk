@@ -106,7 +106,7 @@
 <use f='MOS/kernel/kernel_init.c' l='63' macro='1' u='c' c='dump_cmdline'/>
 <use f='MOS/kernel/kernel_init.c' l='75' macro='1' u='c' c='mos_start_kernel'/>
 <use f='MOS/kernel/kernel_init.c' l='97' macro='1' u='c' c='mos_start_kernel'/>
-<use f='MOS/kernel/ksyscall.c' l='73' macro='1' u='c' c='ksyscall_exit'/>
+<use f='MOS/kernel/ksyscall.c' l='74' macro='1' u='c' c='ksyscall_exit'/>
 <use f='MOS/kernel/mm/cow.c' l='62' macro='1' u='c' c='cow_handle_page_fault'/>
 <use f='MOS/kernel/mm/cow.c' l='70' macro='1' u='c' c='cow_handle_page_fault'/>
 <use f='MOS/kernel/panic.c' l='22' macro='1' u='c' c='kwarn_handler_set'/>

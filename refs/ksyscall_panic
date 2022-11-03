@@ -1,4 +1,4 @@
-<dec f='MOS/build/include/mos/ksyscall/dispatcher.h' l='21' type='void ksyscall_panic()'/>
-<use f='MOS/build/include/mos/ksyscall/dispatcher.h' l='23' u='c' c='dispatch_ksyscall'/>
-<dec f='MOS/build/include/mos/ksyscall/decl.h' l='9' type='void ksyscall_panic()'/>
-<def f='MOS/kernel/ksyscall.c' l='14' macro='1' type='void ksyscall_panic()'/>
+<dec f='MOS/build/include/mos/ksyscall/dispatcher.h' l='22' type='void ksyscall_panic()'/>
+<use f='MOS/build/include/mos/ksyscall/dispatcher.h' l='24' u='c' c='dispatch_ksyscall'/>
+<dec f='MOS/build/include/mos/ksyscall/decl.h' l='10' type='void ksyscall_panic()'/>
+<def f='MOS/kernel/ksyscall.c' l='15' macro='1' type='void ksyscall_panic()'/>

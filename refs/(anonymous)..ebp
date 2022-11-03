@@ -2,4 +2,4 @@
 <dec f='MOS/arch/x86/include/mos/x86/x86_platform.h' l='42' type='reg32_t'/>
 <offset>384</offset>
 <use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='248' u='r' c='x86_handle_exception'/>
-<use f='MOS/arch/x86/tasks/context.c' l='37' u='r' c='x86_switch_to_thread'/>
+<use f='MOS/arch/x86/tasks/context.c' l='39' u='r' c='x86_switch_to_thread'/>

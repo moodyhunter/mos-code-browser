@@ -58,11 +58,12 @@
 <use f='MOS/kernel/kernel_init.c' l='64' macro='1' u='c' c='dump_cmdline'/>
 <use f='MOS/kernel/kernel_init.c' l='91' macro='1' u='c' c='mos_start_kernel'/>
 <use f='MOS/kernel/kernel_init.c' l='100' macro='1' u='c' c='mos_start_kernel'/>
-<use f='MOS/kernel/ksyscall.c' l='17' macro='1' u='c' c='ksyscall_panic'/>
-<use f='MOS/kernel/ksyscall.c' l='71' macro='1' u='c' c='ksyscall_exit'/>
-<use f='MOS/kernel/ksyscall.c' l='76' macro='1' u='c' c='ksyscall_exit'/>
-<use f='MOS/kernel/ksyscall.c' l='104' macro='1' u='c' c='ksyscall_get_pid'/>
-<use f='MOS/kernel/ksyscall.c' l='110' macro='1' u='c' c='ksyscall_get_parent_pid'/>
+<use f='MOS/kernel/ksyscall.c' l='18' macro='1' u='c' c='ksyscall_panic'/>
+<use f='MOS/kernel/ksyscall.c' l='72' macro='1' u='c' c='ksyscall_exit'/>
+<use f='MOS/kernel/ksyscall.c' l='77' macro='1' u='c' c='ksyscall_exit'/>
+<use f='MOS/kernel/ksyscall.c' l='105' macro='1' u='c' c='ksyscall_get_pid'/>
+<use f='MOS/kernel/ksyscall.c' l='111' macro='1' u='c' c='ksyscall_get_parent_pid'/>
+<use f='MOS/kernel/ksyscall.c' l='128' macro='1' u='c' c='ksyscall_create_thread'/>
 <use f='MOS/kernel/mm/cow.c' l='60' macro='1' u='c' c='cow_handle_page_fault'/>
 <use f='MOS/kernel/mm/liballoc.c' l='69' macro='1' u='c' c='kheap_alloc_page'/>
 <use f='MOS/kernel/mm/liballoc.c' l='72' macro='1' u='c' c='kheap_alloc_page'/>
@@ -84,7 +85,7 @@
 <use f='MOS/kernel/tasks/process.c' l='142' macro='1' u='c' c='process_attach_mmap'/>
 <use f='MOS/kernel/tasks/process.c' l='149' macro='1' u='c' c='process_handle_exit'/>
 <use f='MOS/kernel/tasks/process.c' l='178' macro='1' u='c' c='process_dump_mmaps'/>
-<use f='MOS/kernel/tasks/schedule.c' l='30' macro='1' u='c' c='schedule_to_thread'/>
+<use f='MOS/kernel/tasks/schedule.c' l='31' macro='1' u='c' c='schedule_to_thread'/>
 <use f='MOS/kernel/tasks/task_io.c' l='13' macro='1' u='c' c='stdin_read'/>
 <use f='MOS/kernel/tasks/task_io.c' l='25' macro='1' u='c' c='stdout_write'/>
 <use f='MOS/kernel/tasks/task_io.c' l='35' macro='1' u='c' c='stderr_write'/>

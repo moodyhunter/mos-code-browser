@@ -1,3 +1,3 @@
 <dec f='MOS/kernel/include/mos/tasks/schedule.h' l='8' type='void mos_update_current(thread_t * thread)'/>
-<use f='MOS/arch/x86/tasks/context.c' l='41' u='c' c='x86_switch_to_thread'/>
-<def f='MOS/kernel/tasks/schedule.c' l='12' ll='23' type='void mos_update_current(thread_t * thread)'/>
+<use f='MOS/arch/x86/tasks/context.c' l='43' u='c' c='x86_switch_to_thread'/>
+<def f='MOS/kernel/tasks/schedule.c' l='12' ll='24' type='void mos_update_current(thread_t * thread)'/>

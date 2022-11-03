@@ -1,0 +1,2 @@
+<def f='MOS/build/include/mos/ksyscall/usermode.h' l='76' ll='79' macro='1' type='tid_t invoke_ksyscall_create_thread(const char * name, thread_entry_t entry, void * arg)'/>
+<use f='MOS/userspace/init/main.c' l='46' u='c' c='main'/>
