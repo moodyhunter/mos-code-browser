@@ -1,2 +1,2 @@
-<def f='MOS/tests/hashmap/test_hashmap.c' l='39' macro='1' type='void __mos_test_wrapped_test_hashmap_get_function(TestResult * result)'/>
+<def f='MOS/tests/hashmap/test_hashmap.c' l='39' macro='1' type='void __mos_test_wrapped_test_hashmap_get_function(mos_test_result_t * result)'/>
 <use f='MOS/tests/hashmap/test_hashmap.c' l='39' macro='1'/>

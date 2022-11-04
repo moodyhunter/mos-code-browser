@@ -1,4 +1,0 @@
-<dec f='MOS/build/include/mos/ksyscall/dispatcher.h' l='62' type='pid_t ksyscall_get_pid()'/>
-<use f='MOS/build/include/mos/ksyscall/dispatcher.h' l='64' u='c' c='dispatch_ksyscall'/>
-<dec f='MOS/build/include/mos/ksyscall/decl.h' l='30' type='pid_t ksyscall_get_pid()'/>
-<def f='MOS/kernel/ksyscall.c' l='103' macro='1' type='pid_t ksyscall_get_pid()'/>

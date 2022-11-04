@@ -1,5 +1,5 @@
-<dec f='MOS/lib/stdio_impl.c' l='20' type='5'/>
-<use f='MOS/lib/stdio_impl.c' l='148' u='r' c='parse_printf_flags'/>
-<use f='MOS/lib/stdio_impl.c' l='241' c='printf_diouxX'/>
-<use f='MOS/lib/stdio_impl.c' l='472' c='vsnprintf'/>
-<doc f='MOS/lib/stdio_impl.c' l='19'>// long double</doc>
+<dec f='MOS/lib/stdio_impl.c' l='21' type='5'/>
+<use f='MOS/lib/stdio_impl.c' l='149' u='r' c='parse_printf_flags'/>
+<use f='MOS/lib/stdio_impl.c' l='242' c='printf_diouxX'/>
+<use f='MOS/lib/stdio_impl.c' l='473' c='vsnprintf'/>
+<doc f='MOS/lib/stdio_impl.c' l='20'>// long double</doc>

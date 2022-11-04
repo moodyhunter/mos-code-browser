@@ -1,4 +1,4 @@
-<dec f='MOS/kernel/include/mos/cmdline.h' l='9' type='0'/>
+<dec f='MOS/kernel/include/mos/cmdline.h' l='11' type='0'/>
 <use f='MOS/kernel/cmdline.c' l='61' u='r' c='mos_cmdline_create'/>
 <use f='MOS/kernel/cmdline.c' l='97' u='r' c='mos_cmdline_destroy'/>
 <use f='MOS/kernel/kernel_init.c' l='40' u='r' c='cmdline_get_init_path'/>

@@ -1,6 +1,6 @@
-<dec f='MOS/kernel/include/mos/platform/platform.h' l='131' type='void (*const)(paging_handle_t, uintptr_t, size_t)'/>
-<offset>6528</offset>
-<use f='MOS/arch/x86/x86_platform.c' l='187' u='w'/>
+<dec f='MOS/kernel/include/mos/platform/platform.h' l='135' type='void (*const)(paging_handle_t, uintptr_t, size_t)'/>
+<offset>5504</offset>
+<use f='MOS/arch/x86/x86_platform.c' l='186' u='w'/>
 <use f='MOS/kernel/elf/elf.c' l='130' u='r' c='process_create_from_elf'/>
-<use f='MOS/kernel/mm/liballoc.c' l='94' u='r' c='kheap_free_page'/>
-<use f='MOS/kernel/mm/liballoc.c' l='96' u='r' c='kheap_free_page'/>
+<use f='MOS/kernel/mm/liballoc.c' l='95' u='r' c='kheap_free_page'/>
+<use f='MOS/kernel/mm/liballoc.c' l='97' u='r' c='kheap_free_page'/>

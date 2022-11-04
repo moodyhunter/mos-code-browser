@@ -11,7 +11,7 @@
 <use f='MOS/arch/x86/cpu/cpuid.c' l='47' u='r' c='cpuid_get_brand_string'/>
 <use f='MOS/arch/x86/cpu/cpuid.c' l='52' u='r' c='cpuid_get_brand_string'/>
 <use f='MOS/arch/x86/cpu/cpuid.c' l='57' u='r' c='cpuid_get_brand_string'/>
-<use f='MOS/arch/x86/interrupt/apic.c' l='99' u='m' c='apic_enable'/>
-<use f='MOS/arch/x86/interrupt/apic.c' l='102' u='m' c='apic_enable'/>
-<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='104' u='r' c='x86_handle_interrupt'/>
-<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='247' u='r' c='x86_handle_exception'/>
+<use f='MOS/arch/x86/interrupt/apic.c' l='98' u='m' c='apic_enable'/>
+<use f='MOS/arch/x86/interrupt/apic.c' l='101' u='m' c='apic_enable'/>
+<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='98' u='r' c='x86_dump_registers'/>
+<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='129' u='r' c='x86_handle_interrupt'/>

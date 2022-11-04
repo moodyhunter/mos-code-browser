@@ -1,2 +1,2 @@
-<def f='MOS/tests/printf/test_printf.c' l='386' macro='1' type='void __mos_test_wrapped_test_integer_extreme_case(TestResult * result)'/>
+<def f='MOS/tests/printf/test_printf.c' l='386' macro='1' type='void __mos_test_wrapped_test_integer_extreme_case(mos_test_result_t * result)'/>
 <use f='MOS/tests/printf/test_printf.c' l='386' macro='1'/>

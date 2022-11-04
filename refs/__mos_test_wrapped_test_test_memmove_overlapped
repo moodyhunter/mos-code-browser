@@ -1,2 +1,2 @@
-<def f='MOS/tests/memops/test_memops.c' l='40' macro='1' type='void __mos_test_wrapped_test_test_memmove_overlapped(TestResult * result)'/>
+<def f='MOS/tests/memops/test_memops.c' l='40' macro='1' type='void __mos_test_wrapped_test_test_memmove_overlapped(mos_test_result_t * result)'/>
 <use f='MOS/tests/memops/test_memops.c' l='40' macro='1'/>

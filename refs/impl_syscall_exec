@@ -1,0 +1,4 @@
+<dec f='MOS/build/include/mos/syscall/dispatcher.h' l='58' type='pid_t impl_syscall_exec(const char * file_path, const char *const * argv)'/>
+<use f='MOS/build/include/mos/syscall/dispatcher.h' l='60' u='c' c='dispatch_syscall'/>
+<dec f='MOS/build/include/mos/syscall/decl.h' l='28' type='pid_t impl_syscall_exec(const char * file_path, const char *const * argv)'/>
+<def f='MOS/kernel/ksyscall.c' l='95' macro='1' type='pid_t impl_syscall_exec(const char * path, const char *const * argv)'/>

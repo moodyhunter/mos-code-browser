@@ -3,7 +3,7 @@
 <use f='MOS/arch/x86/include/mos/x86/mm/paging_impl.h' l='64' u='r' c='x86_get_pg_infra'/>
 <use f='MOS/arch/x86/mm/paging.c' l='210' u='w' c='x86_um_pgd_create'/>
 <use f='MOS/arch/x86/mm/paging.c' l='235' u='r' c='x86_um_pgd_destroy'/>
-<use f='MOS/arch/x86/tasks/context.c' l='37' u='r' c='x86_switch_to_thread'/>
+<use f='MOS/arch/x86/tasks/context.c' l='45' u='r' c='x86_switch_to_thread'/>
 <use f='MOS/arch/x86/x86_platform.c' l='61' u='r' c='x86_kpanic_hook'/>
 <use f='MOS/arch/x86/x86_platform.c' l='68' u='r' c='x86_kpanic_hook'/>
 <use f='MOS/arch/x86/x86_platform.c' l='68' u='r' c='x86_kpanic_hook'/>

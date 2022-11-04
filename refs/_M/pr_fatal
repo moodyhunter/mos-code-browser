@@ -1,4 +1,4 @@
-<dec f='MOS/kernel/include/mos/printk.h' l='49'/>
+<dec f='MOS/kernel/include/mos/printk.h' l='50'/>
 <use f='MOS/kernel/panic.c' l='39' u='c'/>
 <use f='MOS/kernel/panic.c' l='53' u='c'/>
 <use f='MOS/kernel/panic.c' l='54' u='c'/>

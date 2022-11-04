@@ -1,2 +1,2 @@
 <dec f='MOS/lib/include/lib/structures/tree.h' l='17' type='void tree_remove_if(tree_node_t * node, _Bool (*)(const tree_node_t *) predicate)'/>
-<def f='MOS/lib/structures/tree.c' l='24' ll='30' type='void tree_remove_if(tree_node_t * node, _Bool (*)(const tree_node_t *) predicate)'/>
+<def f='MOS/lib/structures/tree.c' l='23' ll='29' type='void tree_remove_if(tree_node_t * node, _Bool (*)(const tree_node_t *) predicate)'/>

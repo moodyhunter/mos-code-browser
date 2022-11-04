@@ -1,2 +1,2 @@
-<def f='MOS/tests/cmdline_parser/test_cmdline_parser.c' l='6' macro='1' type='void __mos_test_wrapped_test_simple_cmdline(TestResult * result)'/>
+<def f='MOS/tests/cmdline_parser/test_cmdline_parser.c' l='6' macro='1' type='void __mos_test_wrapped_test_simple_cmdline(mos_test_result_t * result)'/>
 <use f='MOS/tests/cmdline_parser/test_cmdline_parser.c' l='6' macro='1' u='r'/>

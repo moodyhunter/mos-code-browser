@@ -1,5 +1,10 @@
-<def f='MOS/userspace/init/main.c' l='7' ll='15' type='void printf(const char * fmt)'/>
-<use f='MOS/userspace/init/main.c' l='22' u='c' c='thread_work'/>
-<use f='MOS/userspace/init/main.c' l='34' u='c' c='main'/>
-<use f='MOS/userspace/init/main.c' l='38' u='c' c='main'/>
-<use f='MOS/userspace/init/main.c' l='44' u='c' c='main'/>
+<def f='MOS/userspace/init/main.c' l='8' ll='16' type='void printf(const char * fmt)'/>
+<use f='MOS/userspace/init/main.c' l='24' u='c' c='thread_work'/>
+<use f='MOS/userspace/init/main.c' l='36' u='c' c='main'/>
+<use f='MOS/userspace/init/main.c' l='40' u='c' c='main'/>
+<use f='MOS/userspace/init/main.c' l='46' u='c' c='main'/>
+<use f='MOS/userspace/init/main.c' l='52' u='c' c='main'/>
+<use f='MOS/userspace/init/main.c' l='53' u='c' c='main'/>
+<use f='MOS/userspace/init/main.c' l='61' u='c' c='main'/>
+<use f='MOS/userspace/init/main.c' l='66' u='c' c='main'/>
+<use f='MOS/userspace/init/main.c' l='70' u='c' c='main'/>

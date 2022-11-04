@@ -1,4 +1,5 @@
 <dec f='MOS/arch/x86/include/mos/x86/tasks/tss_types.h' l='15' type='u32'/>
 <dec f='MOS/arch/x86/include/mos/x86/x86_platform.h' l='34' type='reg32_t'/>
 <offset>64</offset>
-<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='251' u='r' c='x86_handle_exception'/>
+<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='102' u='r' c='x86_dump_registers'/>
+<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='145' u='w' c='x86_handle_interrupt'/>

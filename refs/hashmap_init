@@ -10,4 +10,4 @@
 <use f='MOS/tests/hashmap/test_hashmap.c' l='69' macro='1' u='c' c='hashmap_put_multiple'/>
 <use f='MOS/tests/hashmap/test_hashmap.c' l='106' macro='1' u='c' c='hashmap_put_overflow'/>
 <use f='MOS/tests/hashmap/test_hashmap.c' l='138' macro='1' u='c' c='hashmap_remove_function'/>
-<use f='MOS/tests/hashmap/test_hashmap.c' l='186' macro='1' u='c' c='hashmap_foreach_function'/>
+<use f='MOS/tests/hashmap/test_hashmap.c' l='187' macro='1' u='c' c='hashmap_foreach_function'/>

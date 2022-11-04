@@ -1,4 +1,4 @@
 <dec f='MOS/arch/x86/include/mos/x86/interrupt/apic.h' l='61' type='void apic_reg_write_offset_32(u32 offset, u32 value)'/>
 <def f='MOS/arch/x86/interrupt/apic.c' l='50' ll='54' type='void apic_reg_write_offset_32(u32 offset, u32 value)'/>
-<use f='MOS/arch/x86/interrupt/apic.c' l='83' u='c' c='apic_interrupt_full'/>
-<use f='MOS/arch/x86/interrupt/apic.c' l='119' u='c' c='apic_enable'/>
+<use f='MOS/arch/x86/interrupt/apic.c' l='82' u='c' c='apic_interrupt_full'/>
+<use f='MOS/arch/x86/interrupt/apic.c' l='118' u='c' c='apic_enable'/>

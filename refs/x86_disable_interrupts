@@ -1,6 +1,5 @@
 <dec f='MOS/arch/x86/include/mos/x86/x86_interrupt.h' l='82' type='void x86_disable_interrupts()'/>
 <use f='MOS/arch/x86/acpi/acpi.c' l='24' u='c' c='x86_shutdown_vm'/>
-<def f='MOS/arch/x86/interrupt/x86_interrupt.c' l='67' ll='70' type='void x86_disable_interrupts()'/>
-<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='126' u='c' c='x86_handle_exception'/>
+<def f='MOS/arch/x86/interrupt/x86_interrupt.c' l='68' ll='71' type='void x86_disable_interrupts()'/>
 <use f='MOS/arch/x86/x86_platform.c' l='93' u='c' c='x86_start_kernel'/>
-<use f='MOS/arch/x86/x86_platform.c' l='173'/>
+<use f='MOS/arch/x86/x86_platform.c' l='172'/>

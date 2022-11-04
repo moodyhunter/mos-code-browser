@@ -44,7 +44,7 @@
 <use f='MOS/tests/hashmap/test_hashmap.c' l='144' u='r' c='hashmap_remove_function'/>
 <use f='MOS/tests/hashmap/test_hashmap.c' l='150' u='r' c='hashmap_remove_function'/>
 <use f='MOS/tests/hashmap/test_hashmap.c' l='150' u='r' c='hashmap_remove_function'/>
-<use f='MOS/tests/hashmap/test_hashmap.c' l='157' u='r' c='hashmap_remove_function'/>
-<use f='MOS/tests/hashmap/test_hashmap.c' l='157' u='r' c='hashmap_remove_function'/>
-<use f='MOS/tests/hashmap/test_hashmap.c' l='188' u='r' c='hashmap_foreach_function'/>
-<use f='MOS/tests/hashmap/test_hashmap.c' l='188' u='r' c='hashmap_foreach_function'/>
+<use f='MOS/tests/hashmap/test_hashmap.c' l='158' u='r' c='hashmap_remove_function'/>
+<use f='MOS/tests/hashmap/test_hashmap.c' l='158' u='r' c='hashmap_remove_function'/>
+<use f='MOS/tests/hashmap/test_hashmap.c' l='189' u='r' c='hashmap_foreach_function'/>
+<use f='MOS/tests/hashmap/test_hashmap.c' l='189' u='r' c='hashmap_foreach_function'/>

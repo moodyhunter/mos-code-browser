@@ -7,5 +7,5 @@
 <use f='MOS/tests/hashmap/test_hashmap.c' l='62' u='c' c='hashmap_get_function'/>
 <use f='MOS/tests/hashmap/test_hashmap.c' l='99' u='c' c='hashmap_put_multiple'/>
 <use f='MOS/tests/hashmap/test_hashmap.c' l='131' u='c' c='hashmap_put_overflow'/>
-<use f='MOS/tests/hashmap/test_hashmap.c' l='161' u='c' c='hashmap_remove_function'/>
-<use f='MOS/tests/hashmap/test_hashmap.c' l='210' u='c' c='hashmap_foreach_function'/>
+<use f='MOS/tests/hashmap/test_hashmap.c' l='162' u='c' c='hashmap_remove_function'/>
+<use f='MOS/tests/hashmap/test_hashmap.c' l='211' u='c' c='hashmap_foreach_function'/>

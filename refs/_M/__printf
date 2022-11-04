@@ -1,7 +1,7 @@
-<dec f='MOS/kernel/include/mos/mos_global.h' l='12'/>
-<use f='MOS/kernel/include/mos/printk.h' l='73' u='c'/>
-<use f='MOS/kernel/include/mos/printk.h' l='74' u='c'/>
-<use f='MOS/kernel/include/mos/printk.h' l='75' u='c'/>
-<use f='MOS/kernel/include/mos/printk.h' l='76' u='c'/>
+<dec f='MOS/kernel/include/mos/mos_global.h' l='14'/>
+<use f='MOS/kernel/include/mos/printk.h' l='69' u='c'/>
+<use f='MOS/kernel/include/mos/printk.h' l='70' u='c'/>
+<use f='MOS/kernel/include/mos/printk.h' l='71' u='c'/>
+<use f='MOS/kernel/include/mos/printk.h' l='72' u='c'/>
 <use f='MOS/lib/include/lib/stdio.h' l='13' u='c'/>
 <use f='MOS/lib/include/lib/stdio.h' l='14' u='c'/>

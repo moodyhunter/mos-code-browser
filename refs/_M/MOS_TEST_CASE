@@ -1,4 +1,4 @@
-<dec f='MOS/tests/test_engine_impl.h' l='61'/>
+<dec f='MOS/tests/test_engine_impl.h' l='56'/>
 <use f='MOS/tests/cmdline_parser/test_cmdline_parser.c' l='6' u='c'/>
 <use f='MOS/tests/cmdline_parser/test_cmdline_parser.c' l='17' u='c'/>
 <use f='MOS/tests/cmdline_parser/test_cmdline_parser.c' l='30' u='c'/>
@@ -14,7 +14,7 @@
 <use f='MOS/tests/hashmap/test_hashmap.c' l='65' u='c'/>
 <use f='MOS/tests/hashmap/test_hashmap.c' l='102' u='c'/>
 <use f='MOS/tests/hashmap/test_hashmap.c' l='134' u='c'/>
-<use f='MOS/tests/hashmap/test_hashmap.c' l='183' u='c'/>
+<use f='MOS/tests/hashmap/test_hashmap.c' l='184' u='c'/>
 <use f='MOS/tests/kmalloc/test_kmalloc.c' l='7' u='c'/>
 <use f='MOS/tests/kmalloc/test_kmalloc.c' l='15' u='c'/>
 <use f='MOS/tests/kmalloc/test_kmalloc.c' l='28' u='c'/>

@@ -1,2 +1,2 @@
-<def f='MOS/tests/printf/test_printf.c' l='400' macro='1' type='void __mos_test_wrapped_test_printf_tests_github(TestResult * result)'/>
+<def f='MOS/tests/printf/test_printf.c' l='400' macro='1' type='void __mos_test_wrapped_test_printf_tests_github(mos_test_result_t * result)'/>
 <use f='MOS/tests/printf/test_printf.c' l='400' macro='1'/>

@@ -5,4 +5,4 @@
 <use f='MOS/arch/x86/acpi/acpi.c' l='89' u='r' c='x86_acpi_init'/>
 <use f='MOS/arch/x86/acpi/acpi.c' l='92' u='r' c='x86_acpi_init'/>
 <use f='MOS/arch/x86/cpu/smp.c' l='119' u='r' c='x86_smp_init'/>
-<use f='MOS/arch/x86/interrupt/apic.c' l='105' u='r' c='apic_enable'/>
+<use f='MOS/arch/x86/interrupt/apic.c' l='104' u='r' c='apic_enable'/>

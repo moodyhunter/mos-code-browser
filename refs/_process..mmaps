@@ -1,4 +1,4 @@
-<dec f='MOS/kernel/include/mos/tasks/task_type.h' l='49' type='proc_vmblock_t *'/>
+<dec f='MOS/kernel/include/mos/tasks/task_type.h' l='48' type='proc_vmblock_t *'/>
 <offset>70272</offset>
 <use f='MOS/kernel/mm/cow.c' l='52' u='r' c='cow_handle_page_fault'/>
 <use f='MOS/kernel/mm/cow.c' l='59' u='r' c='cow_handle_page_fault'/>

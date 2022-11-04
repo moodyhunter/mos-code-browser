@@ -1,2 +1,2 @@
-<def f='MOS/kernel/mm/liballoc.c' l='80' ll='98' macro='1' type='_Bool kheap_free_page(void * vptr, size_t npages)'/>
-<use f='MOS/kernel/mm/liballoc.c' l='599' u='c' c='liballoc_free'/>
+<def f='MOS/kernel/mm/liballoc.c' l='81' ll='99' macro='1' type='_Bool kheap_free_page(void * vptr, size_t npages)'/>
+<use f='MOS/kernel/mm/liballoc.c' l='598' u='c' c='liballoc_free'/>

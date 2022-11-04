@@ -1,4 +1,0 @@
-<dec f='MOS/build/include/mos/ksyscall/dispatcher.h' l='30' type='_Bool ksyscall_file_stat(const char * file_path, file_stat_t * stat)'/>
-<use f='MOS/build/include/mos/ksyscall/dispatcher.h' l='32' u='c' c='dispatch_ksyscall'/>
-<dec f='MOS/build/include/mos/ksyscall/decl.h' l='14' type='_Bool ksyscall_file_stat(const char * file_path, file_stat_t * stat)'/>
-<def f='MOS/kernel/ksyscall.c' l='34' macro='1' type='_Bool ksyscall_file_stat(const char * path, file_stat_t * stat)'/>

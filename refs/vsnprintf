@@ -6,6 +6,6 @@
 <use f='MOS/kernel/printk.c' l='50' u='c' c='lprintk'/>
 <use f='MOS/lib/stdio.c' l='20' u='c' c='snprintf'/>
 <use f='MOS/lib/stdio.c' l='27' u='c' c='vsprintf'/>
-<def f='MOS/lib/stdio_impl.c' l='434' ll='573' type='int vsnprintf(char * buf, size_t size, const char * format, struct __va_list_tag * args)'/>
+<def f='MOS/lib/stdio_impl.c' l='435' ll='574' type='int vsnprintf(char * buf, size_t size, const char * format, struct __va_list_tag * args)'/>
 <use f='MOS/tests/printf/test_printf.c' l='31' u='c' c='tst_printf'/>
 <use f='MOS/tests/test_engine.c' l='66' u='c' c='test_engine_warning_handler'/>

@@ -1,4 +1,0 @@
-<dec f='MOS/build/include/mos/ksyscall/dispatcher.h' l='74' type='tid_t ksyscall_create_thread(const char * name, thread_entry_t entry, void * arg)'/>
-<use f='MOS/build/include/mos/ksyscall/dispatcher.h' l='76' u='c' c='dispatch_ksyscall'/>
-<dec f='MOS/build/include/mos/ksyscall/decl.h' l='36' type='tid_t ksyscall_create_thread(const char * name, thread_entry_t entry, void * arg)'/>
-<def f='MOS/kernel/ksyscall.c' l='126' macro='1' type='tid_t ksyscall_create_thread(const char * name, thread_entry_t entry, void * arg)'/>

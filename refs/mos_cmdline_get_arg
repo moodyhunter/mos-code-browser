@@ -1,4 +1,4 @@
-<dec f='MOS/kernel/include/mos/cmdline.h' l='41' type='cmdline_arg_t * mos_cmdline_get_arg(const char * arg)'/>
+<dec f='MOS/kernel/include/mos/cmdline.h' l='43' type='cmdline_arg_t * mos_cmdline_get_arg(const char * arg)'/>
 <def f='MOS/kernel/cmdline.c' l='109' ll='118' type='cmdline_arg_t * mos_cmdline_get_arg(const char * option_name)'/>
 <use f='MOS/kernel/kernel_init.c' l='36' u='c' c='cmdline_get_init_path'/>
 <use f='MOS/kernel/kernel_init.c' l='83' u='c' c='mos_start_kernel'/>

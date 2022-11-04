@@ -1,4 +1,4 @@
-<dec f='MOS/arch/x86/tasks/context.c' l='24' type='void x86_context_switch_impl(uintptr_t * old_stack_ptr, uintptr_t new_stack, uintptr_t pgd, int switch_mode, void * switch_mode_arg)'/>
-<use f='MOS/arch/x86/tasks/context.c' l='46' u='c' c='x86_switch_to_thread'/>
-<use f='MOS/arch/x86/tasks/context.c' l='48' u='c' c='x86_switch_to_thread'/>
-<use f='MOS/arch/x86/tasks/context.c' l='55' u='c' c='x86_switch_to_scheduler'/>
+<dec f='MOS/arch/x86/tasks/context.c' l='21' type='void x86_context_switch_impl(uintptr_t * old_stack_ptr, uintptr_t new_stack, uintptr_t pgd, int switch_mode, void * switch_mode_arg)'/>
+<use f='MOS/arch/x86/tasks/context.c' l='54' u='c' c='x86_switch_to_thread'/>
+<use f='MOS/arch/x86/tasks/context.c' l='56' u='c' c='x86_switch_to_thread'/>
+<use f='MOS/arch/x86/tasks/context.c' l='63' u='c' c='x86_switch_to_scheduler'/>

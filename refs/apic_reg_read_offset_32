@@ -2,5 +2,5 @@
 <use f='MOS/arch/x86/cpu/smp.c' l='61' u='c' c='ap_begin_exec'/>
 <def f='MOS/arch/x86/interrupt/apic.c' l='43' ll='48' type='u32 apic_reg_read_offset_32(u32 offset)'/>
 <use f='MOS/arch/x86/interrupt/apic.c' l='66' u='c' c='apic_wait_sent'/>
-<use f='MOS/arch/x86/interrupt/apic.c' l='119' u='c' c='apic_enable'/>
-<use f='MOS/arch/x86/interrupt/apic.c' l='121' u='c' c='apic_enable'/>
+<use f='MOS/arch/x86/interrupt/apic.c' l='118' u='c' c='apic_enable'/>
+<use f='MOS/arch/x86/interrupt/apic.c' l='120' u='c' c='apic_enable'/>

@@ -1,2 +1,2 @@
-<def f='MOS/tests/printf/test_printf.c' l='36' macro='1' type='void __mos_test_wrapped_test_percent_sign(TestResult * result)'/>
+<def f='MOS/tests/printf/test_printf.c' l='36' macro='1' type='void __mos_test_wrapped_test_percent_sign(mos_test_result_t * result)'/>
 <use f='MOS/tests/printf/test_printf.c' l='36' macro='1'/>

@@ -1,8 +1,8 @@
-<dec f='MOS/kernel/include/mos/platform/platform.h' l='126' type='vmblock_t (*const)(paging_handle_t, size_t, pgalloc_hints, vm_flags)'/>
-<offset>6208</offset>
-<use f='MOS/arch/x86/x86_platform.c' l='182' u='w'/>
+<dec f='MOS/kernel/include/mos/platform/platform.h' l='130' type='vmblock_t (*const)(paging_handle_t, size_t, pgalloc_hints, vm_flags)'/>
+<offset>5184</offset>
+<use f='MOS/arch/x86/x86_platform.c' l='181' u='w'/>
 <use f='MOS/kernel/elf/elf.c' l='50' u='r' c='process_create_from_elf'/>
-<use f='MOS/kernel/mm/liballoc.c' l='68' u='r' c='kheap_alloc_page'/>
-<use f='MOS/kernel/mm/liballoc.c' l='71' u='r' c='kheap_alloc_page'/>
-<use f='MOS/kernel/tasks/thread.c' l='71' u='r' c='thread_new'/>
-<use f='MOS/kernel/tasks/thread.c' l='79' u='r' c='thread_new'/>
+<use f='MOS/kernel/mm/liballoc.c' l='69' u='r' c='kheap_alloc_page'/>
+<use f='MOS/kernel/mm/liballoc.c' l='72' u='r' c='kheap_alloc_page'/>
+<use f='MOS/kernel/tasks/thread.c' l='69' u='r' c='thread_new'/>
+<use f='MOS/kernel/tasks/thread.c' l='76' u='r' c='thread_new'/>

@@ -1,12 +1,12 @@
-<dec f='MOS/kernel/include/mos/printk.h' l='44'/>
+<dec f='MOS/kernel/include/mos/printk.h' l='45'/>
 <use f='MOS/arch/x86/acpi/acpi.c' l='162' u='c'/>
-<doc f='MOS/kernel/include/mos/printk.h' l='43'>// print a colored message without handler, print unconditionally without a handler</doc>
+<doc f='MOS/kernel/include/mos/printk.h' l='44'>// print a colored message without handler, print unconditionally without a handler</doc>
 <use f='MOS/arch/x86/cpu/smp.c' l='56' u='c'/>
 <use f='MOS/arch/x86/cpu/smp.c' l='104' u='c'/>
 <use f='MOS/arch/x86/cpu/smp.c' l='130' u='c'/>
 <use f='MOS/arch/x86/cpu/smp.c' l='144' u='c'/>
-<use f='MOS/arch/x86/interrupt/apic.c' l='106' u='c'/>
-<use f='MOS/arch/x86/interrupt/apic.c' l='124' u='c'/>
+<use f='MOS/arch/x86/interrupt/apic.c' l='105' u='c'/>
+<use f='MOS/arch/x86/interrupt/apic.c' l='123' u='c'/>
 <use f='MOS/arch/x86/mm/mm.c' l='32' u='c'/>
 <use f='MOS/arch/x86/mm/mm.c' l='81' u='c'/>
 <use f='MOS/arch/x86/mm/paging.c' l='35' u='c'/>
@@ -24,7 +24,6 @@
 <use f='MOS/arch/x86/x86_platform.c' l='129' u='c'/>
 <use f='MOS/kernel/device/console.c' l='37' u='c'/>
 <use f='MOS/kernel/filesystem/cpio/cpio.c' l='101' u='c'/>
-<use f='MOS/kernel/filesystem/cpio/cpio.c' l='115' u='c'/>
 <use f='MOS/kernel/filesystem/mount.c' l='40' u='c'/>
 <use f='MOS/kernel/kernel_init.c' l='24' u='c'/>
 <use f='MOS/kernel/kernel_init.c' l='30' u='c'/>

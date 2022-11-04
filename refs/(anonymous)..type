@@ -1,5 +1,5 @@
 <dec f='MOS/arch/x86/include/mos/x86/acpi/acpi_types.h' l='132' type='u8'/>
-<dec f='MOS/kernel/include/mos/platform/platform.h' l='84' type='vm_type'/>
+<dec f='MOS/kernel/include/mos/platform/platform.h' l='88' type='vm_type'/>
 <dec f='MOS/arch/x86/include/mos/x86/boot/multiboot.h' l='117' type='multiboot_memory_type_t'/>
 <dec f='MOS/arch/x86/include/mos/x86/interrupt/idt_types.h' l='13' type='u32'/>
 <use f='MOS/arch/x86/acpi/acpi.c' l='92' macro='1' u='r' c='x86_acpi_init'/>

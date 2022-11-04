@@ -1,4 +1,4 @@
 <dec f='MOS/kernel/include/mos/tasks/thread.h' l='23' type='thread_t * thread_new(process_t * owner, thread_flags_t mode, thread_entry_t entry, void * arg)'/>
-<use f='MOS/kernel/ksyscall.c' l='129' u='c' c='ksyscall_create_thread'/>
+<use f='MOS/kernel/ksyscall.c' l='130' u='c' c='impl_syscall_create_thread'/>
 <use f='MOS/kernel/tasks/process.c' l='92' u='c' c='process_new'/>
-<def f='MOS/kernel/tasks/thread.c' l='64' ll='97' type='thread_t * thread_new(process_t * owner, thread_flags_t tflags, thread_entry_t entry, void * arg)'/>
+<def f='MOS/kernel/tasks/thread.c' l='64' ll='94' type='thread_t * thread_new(process_t * owner, thread_flags_t tflags, thread_entry_t entry, void * arg)'/>

@@ -5,11 +5,11 @@
 <dec f='MOS/arch/x86/include/mos/x86/acpi/acpi_types.h' l='180' type='u16'/>
 <dec f='MOS/arch/x86/include/mos/x86/acpi/acpi_types.h' l='198' type='u32'/>
 <dec f='MOS/arch/x86/include/mos/x86/acpi/acpi_types.h' l='206' type='u32'/>
-<dec f='MOS/kernel/include/mos/platform/platform.h' l='71' type='vm_flags'/>
+<dec f='MOS/kernel/include/mos/platform/platform.h' l='75' type='vm_flags'/>
 <dec f='MOS/arch/x86/include/mos/x86/boot/multiboot.h' l='123' type='multiboot_info_flags_t'/>
 <dec f='MOS/arch/x86/include/mos/x86/boot/multiboot.h' l='227' type='u16'/>
 <offset>96</offset>
-<doc f='MOS/kernel/include/mos/platform/platform.h' l='71'>// the expected flags for the region, regardless of the copy-on-write state</doc>
+<doc f='MOS/kernel/include/mos/platform/platform.h' l='75'>// the expected flags for the region, regardless of the copy-on-write state</doc>
 <doc f='MOS/arch/x86/include/mos/x86/boot/multiboot.h' l='122'>/* Multiboot info version number */</doc>
 <use f='MOS/arch/x86/boot/multiboot/startup.c' l='135' u='r' c='x86_startup'/>
 <use f='MOS/arch/x86/boot/multiboot/startup.c' l='143' u='r' c='x86_startup'/>

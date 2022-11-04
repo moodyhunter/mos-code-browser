@@ -1,4 +1,4 @@
-<dec f='MOS/tests/test_engine_impl.h' l='29' type='u32'/>
+<dec f='MOS/tests/test_engine_impl.h' l='24' type='u32'/>
 <use f='MOS/tests/cmdline_parser/test_cmdline_parser.c' l='6' macro='1' u='r' c='__mos_test_wrapped_test_simple_cmdline'/>
 <use f='MOS/tests/cmdline_parser/test_cmdline_parser.c' l='10' macro='1' u='w' c='simple_cmdline'/>
 <use f='MOS/tests/cmdline_parser/test_cmdline_parser.c' l='11' macro='1' u='w' c='simple_cmdline'/>
@@ -227,17 +227,17 @@
 <use f='MOS/tests/hashmap/test_hashmap.c' l='150' macro='1' u='w' c='hashmap_remove_function'/>
 <use f='MOS/tests/hashmap/test_hashmap.c' l='151' macro='1' u='w' c='hashmap_remove_function'/>
 <use f='MOS/tests/hashmap/test_hashmap.c' l='152' macro='1' u='w' c='hashmap_remove_function'/>
-<use f='MOS/tests/hashmap/test_hashmap.c' l='153' macro='1' u='w' c='hashmap_remove_function'/>
-<use f='MOS/tests/hashmap/test_hashmap.c' l='156' macro='1' u='w' c='hashmap_remove_function'/>
+<use f='MOS/tests/hashmap/test_hashmap.c' l='154' macro='1' u='w' c='hashmap_remove_function'/>
 <use f='MOS/tests/hashmap/test_hashmap.c' l='157' macro='1' u='w' c='hashmap_remove_function'/>
 <use f='MOS/tests/hashmap/test_hashmap.c' l='158' macro='1' u='w' c='hashmap_remove_function'/>
-<use f='MOS/tests/hashmap/test_hashmap.c' l='160' macro='1' u='w' c='hashmap_remove_function'/>
-<use f='MOS/tests/hashmap/test_hashmap.c' l='183' macro='1' u='r' c='__mos_test_wrapped_test_hashmap_foreach_function'/>
-<use f='MOS/tests/hashmap/test_hashmap.c' l='187' macro='1' u='w' c='hashmap_foreach_function'/>
+<use f='MOS/tests/hashmap/test_hashmap.c' l='159' macro='1' u='w' c='hashmap_remove_function'/>
+<use f='MOS/tests/hashmap/test_hashmap.c' l='161' macro='1' u='w' c='hashmap_remove_function'/>
+<use f='MOS/tests/hashmap/test_hashmap.c' l='184' macro='1' u='r' c='__mos_test_wrapped_test_hashmap_foreach_function'/>
 <use f='MOS/tests/hashmap/test_hashmap.c' l='188' macro='1' u='w' c='hashmap_foreach_function'/>
 <use f='MOS/tests/hashmap/test_hashmap.c' l='189' macro='1' u='w' c='hashmap_foreach_function'/>
-<use f='MOS/tests/hashmap/test_hashmap.c' l='205' macro='1' u='w' c='hashmap_foreach_function'/>
-<use f='MOS/tests/hashmap/test_hashmap.c' l='209' macro='1' u='w' c='hashmap_foreach_function'/>
+<use f='MOS/tests/hashmap/test_hashmap.c' l='190' macro='1' u='w' c='hashmap_foreach_function'/>
+<use f='MOS/tests/hashmap/test_hashmap.c' l='206' macro='1' u='w' c='hashmap_foreach_function'/>
+<use f='MOS/tests/hashmap/test_hashmap.c' l='210' macro='1' u='w' c='hashmap_foreach_function'/>
 <use f='MOS/tests/kmalloc/test_kmalloc.c' l='7' macro='1' u='r' c='__mos_test_wrapped_test_kmalloc_single'/>
 <use f='MOS/tests/kmalloc/test_kmalloc.c' l='10' macro='1' u='w' c='kmalloc_single'/>
 <use f='MOS/tests/kmalloc/test_kmalloc.c' l='15' macro='1' u='r' c='__mos_test_wrapped_test_kmalloc_stress'/>

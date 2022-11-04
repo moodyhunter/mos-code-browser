@@ -1,0 +1,2 @@
+<def f='MOS/build/include/mos/syscall/usermode.h' l='11' ll='14' macro='1' type='void syscall_panic()'/>
+<use f='MOS/userspace/libuserspace.c' l='12' u='c' c='__stack_chk_fail'/>

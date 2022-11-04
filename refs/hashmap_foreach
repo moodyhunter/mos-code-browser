@@ -1,5 +1,5 @@
 <dec f='MOS/lib/include/lib/structures/hashmap.h' l='31' type='void hashmap_foreach(hashmap_t * map, hashmap_foreach_func_t func)'/>
-<use f='MOS/kernel/tasks/schedule.c' l='45' u='c' c='scheduler'/>
+<use f='MOS/kernel/tasks/schedule.c' l='46' u='c' c='scheduler'/>
 <def f='MOS/lib/structures/hashmap.c' l='119' ll='132' type='void hashmap_foreach(hashmap_t * map, hashmap_foreach_func_t func)'/>
-<use f='MOS/tests/hashmap/test_hashmap.c' l='204' u='c' c='hashmap_foreach_function'/>
-<use f='MOS/tests/hashmap/test_hashmap.c' l='208' u='c' c='hashmap_foreach_function'/>
+<use f='MOS/tests/hashmap/test_hashmap.c' l='205' u='c' c='hashmap_foreach_function'/>
+<use f='MOS/tests/hashmap/test_hashmap.c' l='209' u='c' c='hashmap_foreach_function'/>

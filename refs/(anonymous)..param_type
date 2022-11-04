@@ -1,4 +1,4 @@
-<dec f='MOS/kernel/include/mos/cmdline.h' l='15' type='option_value_type_t'/>
+<dec f='MOS/kernel/include/mos/cmdline.h' l='17' type='option_value_type_t'/>
 <use f='MOS/kernel/cmdline.c' l='49' u='w' c='mos_cmdline_create'/>
 <use f='MOS/kernel/cmdline.c' l='55' u='w' c='mos_cmdline_create'/>
 <use f='MOS/kernel/cmdline.c' l='61' u='w' c='mos_cmdline_create'/>

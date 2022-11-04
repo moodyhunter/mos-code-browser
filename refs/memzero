@@ -3,4 +3,4 @@
 <use f='MOS/arch/x86/tasks/tss.c' l='12' u='c' c='x86_tss_init'/>
 <use f='MOS/kernel/device/block.c' l='30' u='c' c='blockdev_register'/>
 <use f='MOS/kernel/tasks/process.c' l='43' u='c' c='process_allocate'/>
-<def f='MOS/lib/string.c' l='94' ll='112' type='void memzero(void * s, size_t n)'/>
+<def f='MOS/lib/string.c' l='93' ll='111' type='void memzero(void * s, size_t n)'/>

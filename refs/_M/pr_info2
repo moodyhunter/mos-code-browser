@@ -1,4 +1,4 @@
-<dec f='MOS/kernel/include/mos/printk.h' l='45'/>
+<dec f='MOS/kernel/include/mos/printk.h' l='46'/>
 <use f='MOS/arch/x86/acpi/acpi.c' l='60' u='c'/>
 <use f='MOS/arch/x86/acpi/acpi.c' l='85' u='c'/>
 <use f='MOS/arch/x86/acpi/acpi.c' l='99' u='c'/>

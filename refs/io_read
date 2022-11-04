@@ -1,4 +1,4 @@
 <dec f='MOS/kernel/include/mos/io/io.h' l='42' type='size_t io_read(io_t * io, void * buf, size_t count)'/>
 <use f='MOS/kernel/elf/elf.c' l='53' u='c' c='process_create_from_elf'/>
 <def f='MOS/kernel/io/io.c' l='30' ll='44' type='size_t io_read(io_t * io, void * buf, size_t count)'/>
-<use f='MOS/kernel/ksyscall.c' l='48' u='c' c='ksyscall_io_read'/>
+<use f='MOS/kernel/ksyscall.c' l='48' u='c' c='impl_syscall_io_read'/>

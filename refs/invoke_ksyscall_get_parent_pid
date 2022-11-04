@@ -1,1 +1,0 @@
-<def f='MOS/build/include/mos/ksyscall/usermode.h' l='66' ll='69' macro='1' type='pid_t invoke_ksyscall_get_parent_pid()'/>

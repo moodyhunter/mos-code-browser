@@ -1,2 +1,2 @@
-<def f='MOS/tests/linked_list/test_linked_list.c' l='39' macro='1' type='void __mos_test_wrapped_test_test_list_node_append(TestResult * result)'/>
+<def f='MOS/tests/linked_list/test_linked_list.c' l='39' macro='1' type='void __mos_test_wrapped_test_test_list_node_append(mos_test_result_t * result)'/>
 <use f='MOS/tests/linked_list/test_linked_list.c' l='39' macro='1'/>

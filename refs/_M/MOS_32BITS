@@ -1,9 +1,9 @@
 <dec f='MOS/kernel/include/mos/compiler.h' l='30'/>
 <use f='MOS/kernel/include/mos/constants.h' l='7' u='c'/>
-<use f='MOS/kernel/include/mos/types.h' l='31' u='a'/>
-<use f='MOS/arch/x86/include/mos/x86/delays.h' l='10' u='a'/>
-<use f='MOS/kernel/include/mos/elf/elf.h' l='13' u='a'/>
-<use f='MOS/kernel/include/mos/elf/elf.h' l='149' u='a'/>
+<use f='MOS/kernel/include/mos/types.h' l='31' u='c'/>
+<use f='MOS/arch/x86/include/mos/x86/delays.h' l='10' u='c'/>
+<use f='MOS/kernel/include/mos/elf/elf.h' l='13' u='c'/>
+<use f='MOS/kernel/include/mos/elf/elf.h' l='149' u='c'/>
 <use f='MOS/kernel/elf/elf.c' l='13' u='c'/>
 <use f='MOS/kernel/elf/elf.c' l='14' u='c'/>
 <use f='MOS/kernel/elf/elf.c' l='15' u='c'/>

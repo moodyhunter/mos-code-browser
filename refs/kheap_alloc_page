@@ -1,2 +1,2 @@
-<def f='MOS/kernel/mm/liballoc.c' l='60' ll='78' type='void * kheap_alloc_page(size_t npages, vm_flags vmflags)'/>
+<def f='MOS/kernel/mm/liballoc.c' l='61' ll='79' type='void * kheap_alloc_page(size_t npages, vm_flags vmflags)'/>
 <use f='MOS/kernel/mm/liballoc.c' l='179' u='c' c='allocate_new_pages_for'/>

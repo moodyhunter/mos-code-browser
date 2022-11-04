@@ -1,4 +1,4 @@
-<dec f='MOS/kernel/include/mos/printk.h' l='16'/>
+<dec f='MOS/kernel/include/mos/printk.h' l='17'/>
 <use f='MOS/arch/x86/mm/pmem_freelist.c' l='289' u='c'/>
 <use f='MOS/kernel/filesystem/cpio/cpio.c' l='80' u='c'/>
 <use f='MOS/kernel/filesystem/mount.c' l='25' u='c'/>

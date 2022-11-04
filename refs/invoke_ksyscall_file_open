@@ -1,2 +1,0 @@
-<def f='MOS/build/include/mos/ksyscall/usermode.h' l='16' ll='19' macro='1' type='fd_t invoke_ksyscall_file_open(const char * file_path, file_open_flags flags)'/>
-<use f='MOS/userspace/init/main.c' l='32' u='c' c='main'/>

@@ -1,6 +1,6 @@
-<dec f='MOS/kernel/include/mos/tasks/task_type.h' l='38' type='paging_handle_t'/>
+<dec f='MOS/kernel/include/mos/tasks/task_type.h' l='37' type='paging_handle_t'/>
 <offset>288</offset>
-<use f='MOS/arch/x86/tasks/context.c' l='37' u='m' c='x86_switch_to_thread'/>
+<use f='MOS/arch/x86/tasks/context.c' l='45' u='m' c='x86_switch_to_thread'/>
 <use f='MOS/arch/x86/x86_platform.c' l='67' u='r' c='x86_kpanic_hook'/>
 <use f='MOS/arch/x86/x86_platform.c' l='68' u='m' c='x86_kpanic_hook'/>
 <use f='MOS/kernel/elf/elf.c' l='100' u='r' c='process_create_from_elf'/>
@@ -11,7 +11,7 @@
 <use f='MOS/kernel/tasks/fork.c' l='42' u='r' c='process_handle_fork'/>
 <use f='MOS/kernel/tasks/fork.c' l='42' u='r' c='process_handle_fork'/>
 <use f='MOS/kernel/tasks/process.c' l='71' u='w' c='process_allocate'/>
-<use f='MOS/kernel/tasks/schedule.c' l='23' u='r' c='mos_update_current'/>
-<use f='MOS/kernel/tasks/thread.c' l='71' u='r' c='thread_new'/>
-<use f='MOS/kernel/tasks/thread.c' l='79' u='r' c='thread_new'/>
-<use f='MOS/kernel/tasks/thread.c' l='84' u='r' c='thread_new'/>
+<use f='MOS/kernel/tasks/schedule.c' l='24' u='r' c='mos_update_current'/>
+<use f='MOS/kernel/tasks/thread.c' l='69' u='r' c='thread_new'/>
+<use f='MOS/kernel/tasks/thread.c' l='76' u='r' c='thread_new'/>
+<use f='MOS/kernel/tasks/thread.c' l='81' u='r' c='thread_new'/>

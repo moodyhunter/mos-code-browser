@@ -1,4 +1,4 @@
-<dec f='MOS/kernel/include/mos/printk.h' l='74' type='void lprintk(int loglevel, const char * format)'/>
+<dec f='MOS/kernel/include/mos/printk.h' l='70' type='void lprintk(int loglevel, const char * format)'/>
 <use f='MOS/arch/x86/acpi/acpi.c' l='60' macro='1' u='c' c='x86_acpi_init'/>
 <use f='MOS/arch/x86/acpi/acpi.c' l='85' macro='1' u='c' c='x86_acpi_init'/>
 <use f='MOS/arch/x86/acpi/acpi.c' l='99' macro='1' u='c' c='x86_acpi_init'/>
@@ -28,12 +28,14 @@
 <use f='MOS/arch/x86/interrupt/apic.c' l='45' macro='1' u='c' c='apic_reg_read_offset_32'/>
 <use f='MOS/arch/x86/interrupt/apic.c' l='52' macro='1' u='c' c='apic_reg_write_offset_32'/>
 <use f='MOS/arch/x86/interrupt/apic.c' l='58' macro='1' u='c' c='apic_reg_write_offset_64'/>
-<use f='MOS/arch/x86/interrupt/apic.c' l='106' macro='1' u='c' c='apic_enable'/>
-<use f='MOS/arch/x86/interrupt/apic.c' l='124' macro='1' u='c' c='apic_enable'/>
-<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='109' macro='1' u='c' c='x86_handle_interrupt'/>
-<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='117' macro='1' u='c' c='x86_handle_interrupt'/>
-<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='187' macro='1' u='c' c='x86_handle_exception'/>
-<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='278' macro='1' u='c' c='x86_handle_irq'/>
+<use f='MOS/arch/x86/interrupt/apic.c' l='105' macro='1' u='c' c='apic_enable'/>
+<use f='MOS/arch/x86/interrupt/apic.c' l='123' macro='1' u='c' c='apic_enable'/>
+<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='88' macro='1' u='c' c='x86_dump_registers'/>
+<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='134' macro='1' u='c' c='x86_handle_interrupt'/>
+<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='143' macro='1' u='c' c='x86_handle_interrupt'/>
+<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='215' macro='1' u='c' c='x86_handle_exception'/>
+<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='237' macro='1' u='c' c='x86_handle_exception'/>
+<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='299' macro='1' u='c' c='x86_handle_irq'/>
 <use f='MOS/arch/x86/mm/mm.c' l='32' macro='1' u='c' c='x86_mem_init'/>
 <use f='MOS/arch/x86/mm/mm.c' l='45' macro='1' u='c' c='x86_mem_init'/>
 <use f='MOS/arch/x86/mm/mm.c' l='53' macro='1' u='c' c='x86_mem_init'/>
@@ -106,7 +108,7 @@
 <use f='MOS/kernel/kernel_init.c' l='63' macro='1' u='c' c='dump_cmdline'/>
 <use f='MOS/kernel/kernel_init.c' l='75' macro='1' u='c' c='mos_start_kernel'/>
 <use f='MOS/kernel/kernel_init.c' l='97' macro='1' u='c' c='mos_start_kernel'/>
-<use f='MOS/kernel/ksyscall.c' l='74' macro='1' u='c' c='ksyscall_exit'/>
+<use f='MOS/kernel/ksyscall.c' l='74' macro='1' u='c' c='impl_syscall_exit'/>
 <use f='MOS/kernel/mm/cow.c' l='62' macro='1' u='c' c='cow_handle_page_fault'/>
 <use f='MOS/kernel/mm/cow.c' l='70' macro='1' u='c' c='cow_handle_page_fault'/>
 <use f='MOS/kernel/panic.c' l='22' macro='1' u='c' c='kwarn_handler_set'/>

@@ -1,5 +1,5 @@
-<dec f='MOS/kernel/include/mos/platform/platform.h' l='56' type='paging_handle_t'/>
-<offset>256</offset>
+<dec f='MOS/kernel/include/mos/platform/platform.h' l='60' type='paging_handle_t'/>
+<offset>192</offset>
 <use f='MOS/arch/x86/x86_platform.c' l='61' u='m' c='x86_kpanic_hook'/>
 <use f='MOS/arch/x86/x86_platform.c' l='68' u='m' c='x86_kpanic_hook'/>
 <use f='MOS/arch/x86/x86_platform.c' l='84' u='r' c='x86_kpanic_hook'/>
@@ -12,4 +12,4 @@
 <use f='MOS/kernel/mm/memops.c' l='14' u='r' c='mm_map_proxy_space'/>
 <use f='MOS/kernel/mm/memops.c' l='20' u='r' c='mm_unmap_proxy_space'/>
 <use f='MOS/kernel/mm/memops.c' l='25' u='r' c='mm_copy_pages'/>
-<use f='MOS/kernel/tasks/schedule.c' l='23' u='w' c='mos_update_current'/>
+<use f='MOS/kernel/tasks/schedule.c' l='24' u='w' c='mos_update_current'/>

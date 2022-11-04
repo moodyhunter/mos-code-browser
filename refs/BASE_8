@@ -1,5 +1,5 @@
-<dec f='MOS/lib/stdio_impl.c' l='63' type='8'/>
-<use f='MOS/lib/stdio_impl.c' l='228' u='r' c='printf_diouxX'/>
-<use f='MOS/lib/stdio_impl.c' l='282' u='r' c='printf_diouxX'/>
-<use f='MOS/lib/stdio_impl.c' l='302' c='printf_diouxX'/>
-<use f='MOS/lib/stdio_impl.c' l='318' u='r' c='printf_diouxX'/>
+<dec f='MOS/lib/stdio_impl.c' l='64' type='8'/>
+<use f='MOS/lib/stdio_impl.c' l='229' u='r' c='printf_diouxX'/>
+<use f='MOS/lib/stdio_impl.c' l='283' u='r' c='printf_diouxX'/>
+<use f='MOS/lib/stdio_impl.c' l='303' c='printf_diouxX'/>
+<use f='MOS/lib/stdio_impl.c' l='319' u='r' c='printf_diouxX'/>

@@ -3,7 +3,7 @@
 <use f='MOS/kernel/tasks/fork.c' l='72' u='c' c='process_handle_fork'/>
 <use f='MOS/kernel/tasks/fork.c' l='75' u='c' c='process_handle_fork'/>
 <use f='MOS/kernel/tasks/process.c' l='93' u='c' c='process_new'/>
-<use f='MOS/kernel/tasks/thread.c' l='93' u='c' c='thread_new'/>
+<use f='MOS/kernel/tasks/thread.c' l='90' u='c' c='thread_new'/>
 <def f='MOS/lib/structures/hashmap.c' l='49' ll='72' type='void * hashmap_put(hashmap_t * map, const void * key, void * value)'/>
 <use f='MOS/tests/hashmap/test_hashmap.c' l='30' u='c' c='hashmap_put_single'/>
 <use f='MOS/tests/hashmap/test_hashmap.c' l='47' u='c' c='hashmap_get_function'/>
@@ -17,7 +17,6 @@
 <use f='MOS/tests/hashmap/test_hashmap.c' l='117' u='c' c='hashmap_put_overflow'/>
 <use f='MOS/tests/hashmap/test_hashmap.c' l='124' u='c' c='hashmap_put_overflow'/>
 <use f='MOS/tests/hashmap/test_hashmap.c' l='143' u='c' c='hashmap_remove_function'/>
-<use f='MOS/tests/hashmap/test_hashmap.c' l='190' u='c' c='hashmap_foreach_function'/>
 <use f='MOS/tests/hashmap/test_hashmap.c' l='191' u='c' c='hashmap_foreach_function'/>
 <use f='MOS/tests/hashmap/test_hashmap.c' l='192' u='c' c='hashmap_foreach_function'/>
 <use f='MOS/tests/hashmap/test_hashmap.c' l='193' u='c' c='hashmap_foreach_function'/>
@@ -29,3 +28,4 @@
 <use f='MOS/tests/hashmap/test_hashmap.c' l='199' u='c' c='hashmap_foreach_function'/>
 <use f='MOS/tests/hashmap/test_hashmap.c' l='200' u='c' c='hashmap_foreach_function'/>
 <use f='MOS/tests/hashmap/test_hashmap.c' l='201' u='c' c='hashmap_foreach_function'/>
+<use f='MOS/tests/hashmap/test_hashmap.c' l='202' u='c' c='hashmap_foreach_function'/>

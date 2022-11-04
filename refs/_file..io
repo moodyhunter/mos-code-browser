@@ -9,4 +9,4 @@
 <use f='MOS/kernel/filesystem/filesystem.c' l='24' u='a' c='vfs_io_ops_close'/>
 <use f='MOS/kernel/filesystem/filesystem.c' l='138' u='a' c='vfs_path_open'/>
 <use f='MOS/kernel/filesystem/filesystem.c' l='139' u='a' c='vfs_path_open'/>
-<use f='MOS/kernel/ksyscall.c' l='31' u='a' c='ksyscall_file_open'/>
+<use f='MOS/kernel/ksyscall.c' l='31' u='a' c='impl_syscall_file_open'/>

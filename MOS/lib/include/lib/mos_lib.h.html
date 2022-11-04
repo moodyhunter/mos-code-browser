@@ -24,25 +24,29 @@
 <tr><th id="11">11</th><td><u>#define <dfn class="macro" id="_M/MOS_LIB_UNIMPLEMENTED" data-ref="_M/MOS_LIB_UNIMPLEMENTED">MOS_LIB_UNIMPLEMENTED</dfn>(content)   MOS_UNIMPLEMENTED(content)</u></td></tr>
 <tr><th id="12">12</th><td><u>#define <dfn class="macro" id="_M/MOS_LIB_UNREACHABLE" data-ref="_M/MOS_LIB_UNREACHABLE">MOS_LIB_UNREACHABLE</dfn>()            MOS_UNREACHABLE()</u></td></tr>
 <tr><th id="13">13</th><td><u>#<span data-ppcond="7">else</span></u></td></tr>
-<tr><th id="14">14</th><td><i>// TODO: implement</i></td></tr>
-<tr><th id="15">15</th><td><u>#define MOS_LIB_ASSERT(cond)</u></td></tr>
-<tr><th id="16">16</th><td><u>#define MOS_LIB_ASSERT_X(cond, msg, ...)</u></td></tr>
-<tr><th id="17">17</th><td><u>#define MOS_LIB_UNIMPLEMENTED(content)</u></td></tr>
-<tr><th id="18">18</th><td><u>#define MOS_LIB_UNREACHABLE()</u></td></tr>
-<tr><th id="19">19</th><td><u>#define mos_warn(...)</u></td></tr>
-<tr><th id="20">20</th><td><b>inline</b> <em>void</em> *liballoc_malloc(size_t size)</td></tr>
-<tr><th id="21">21</th><td>{</td></tr>
-<tr><th id="22">22</th><td>    (<em>void</em>) size;</td></tr>
-<tr><th id="23">23</th><td>    <b>return</b> (<em>void</em> *) <var>0</var>;</td></tr>
-<tr><th id="24">24</th><td>}</td></tr>
-<tr><th id="25">25</th><td><b>inline</b> <em>void</em> liballoc_free(<em>const</em> <em>void</em> *ptr)</td></tr>
-<tr><th id="26">26</th><td>{</td></tr>
-<tr><th id="27">27</th><td>    (<em>void</em>) ptr;</td></tr>
+<tr><th id="14">14</th><td><u>#define MOS_LIB_ASSERT(cond) MOS_UNUSED(cond)</u></td></tr>
+<tr><th id="15">15</th><td><u>#define MOS_LIB_ASSERT_X(cond, msg, ...)                                                                                                                                 \</u></td></tr>
+<tr><th id="16">16</th><td><u>    do                                                                                                                                                                   \</u></td></tr>
+<tr><th id="17">17</th><td><u>    {                                                                                                                                                                    \</u></td></tr>
+<tr><th id="18">18</th><td><u>        MOS_UNUSED(cond);                                                                                                                                                \</u></td></tr>
+<tr><th id="19">19</th><td><u>        MOS_UNUSED(msg);                                                                                                                                                 \</u></td></tr>
+<tr><th id="20">20</th><td><u>    } while (0)</u></td></tr>
+<tr><th id="21">21</th><td><u>#define MOS_LIB_UNIMPLEMENTED(content) MOS_UNUSED(content)</u></td></tr>
+<tr><th id="22">22</th><td><u>#define MOS_LIB_UNREACHABLE()</u></td></tr>
+<tr><th id="23">23</th><td><u>#define mos_warn(...)</u></td></tr>
+<tr><th id="24">24</th><td><b>inline</b> <em>void</em> *liballoc_malloc(size_t size)</td></tr>
+<tr><th id="25">25</th><td>{</td></tr>
+<tr><th id="26">26</th><td>    (<em>void</em>) size;</td></tr>
+<tr><th id="27">27</th><td>    <b>return</b> (<em>void</em> *) <var>0</var>;</td></tr>
 <tr><th id="28">28</th><td>}</td></tr>
-<tr><th id="29">29</th><td><u>#define mos_panic(...)</u></td></tr>
-<tr><th id="30">30</th><td><u>#<span data-ppcond="7">endif</span></u></td></tr>
-<tr><th id="31">31</th><td></td></tr>
+<tr><th id="29">29</th><td><b>inline</b> <em>void</em> liballoc_free(<em>const</em> <em>void</em> *ptr)</td></tr>
+<tr><th id="30">30</th><td>{</td></tr>
+<tr><th id="31">31</th><td>    (<em>void</em>) ptr;</td></tr>
+<tr><th id="32">32</th><td>}</td></tr>
+<tr><th id="33">33</th><td><u>#define mos_panic(...)</u></td></tr>
+<tr><th id="34">34</th><td><u>#<span data-ppcond="7">endif</span></u></td></tr>
+<tr><th id="35">35</th><td></td></tr>
 </table><hr/><p id='footer'>
-Generated while processing <a href='../../stdio_impl.c.html'>MOS/lib/stdio_impl.c</a><br/>Generated on <em>2022-Nov-03</em> from project MOS<br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
+Generated while processing <a href='../../stdio_impl.c.html'>MOS/lib/stdio_impl.c</a><br/>Generated on <em>2022-Nov-04</em> from project MOS<br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
 <br/>Generator usage only permitted with license.</p>
 </div></body></html>

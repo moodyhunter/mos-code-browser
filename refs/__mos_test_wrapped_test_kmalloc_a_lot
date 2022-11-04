@@ -1,2 +1,2 @@
-<def f='MOS/tests/kmalloc/test_kmalloc.c' l='59' macro='1' type='void __mos_test_wrapped_test_kmalloc_a_lot(TestResult * result)'/>
+<def f='MOS/tests/kmalloc/test_kmalloc.c' l='59' macro='1' type='void __mos_test_wrapped_test_kmalloc_a_lot(mos_test_result_t * result)'/>
 <use f='MOS/tests/kmalloc/test_kmalloc.c' l='59' macro='1'/>
