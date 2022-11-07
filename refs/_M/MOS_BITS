@@ -1,3 +1,4 @@
-<dec f='MOS/build/include/mos/kconfig.h' l='15'/>
+<dec f='MOS/build/include/mos/kconfig.h' l='13'/>
 <use f='MOS/kernel/include/mos/compiler.h' l='27' u='c'/>
 <use f='MOS/kernel/include/mos/compiler.h' l='29' u='c'/>
+<doc f='MOS/build/include/mos/kconfig.h' l='12'>// defined in /home/runner/work/MOS/MOS/mos_config.cmake</doc>

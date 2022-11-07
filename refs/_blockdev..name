@@ -5,4 +5,4 @@
 <use f='MOS/kernel/device/block.c' l='36' u='r' c='blockdev_register'/>
 <use f='MOS/kernel/filesystem/filesystem.c' l='112' u='r' c='vfs_path_open'/>
 <use f='MOS/kernel/filesystem/mount.c' l='40' u='r' c='kmount'/>
-<use f='MOS/kernel/kernel_init.c' l='24' u='r' c='mount_initrd'/>
+<use f='MOS/kernel/kernel_init.c' l='23' u='r' c='mount_initrd'/>

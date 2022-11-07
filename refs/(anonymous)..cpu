@@ -22,7 +22,7 @@
 <use f='MOS/kernel/elf/elf.c' l='98' macro='1' u='m' c='process_create_from_elf'/>
 <use f='MOS/kernel/elf/elf.c' l='124' macro='1' u='m' c='process_create_from_elf'/>
 <use f='MOS/kernel/elf/elf.c' l='130' macro='1' u='m' c='process_create_from_elf'/>
-<use f='MOS/kernel/kernel_init.c' l='72' macro='1' u='m' c='mos_start_kernel'/>
+<use f='MOS/kernel/kernel_init.c' l='71' macro='1' u='m' c='mos_start_kernel'/>
 <use f='MOS/kernel/ksyscall.c' l='17' macro='1' u='m' c='impl_syscall_panic'/>
 <use f='MOS/kernel/ksyscall.c' l='18' macro='1' u='m' c='impl_syscall_panic'/>
 <use f='MOS/kernel/ksyscall.c' l='18' macro='1' u='m' c='impl_syscall_panic'/>

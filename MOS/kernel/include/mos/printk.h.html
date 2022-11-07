@@ -20,8 +20,8 @@
 <tr><th id="7">7</th><td><u>#include <a href="types.h.html">"mos/types.h"</a></u></td></tr>
 <tr><th id="8">8</th><td><u>#include <a class="macro" href="mos_global.h.html#8" title="&quot;mos/kernel_internal.h&quot;" data-ref="_M/KERNEL_INTERNAL_CHECK">KERNEL_INTERNAL_CHECK</a></u></td></tr>
 <tr><th id="9">9</th><td></td></tr>
-<tr><th id="10">10</th><td><u>#<span data-ppcond="10">ifndef</span> <a class="macro" href="../../../build/include/mos/kconfig.h.html#28" data-ref="_M/MOS_PRINTK_HAS_FILENAME">MOS_PRINTK_HAS_FILENAME</a></u></td></tr>
-<tr><th id="11">11</th><td><u>#error "MOS_PRINTK_HAS_FILENAME must be defined"</u></td></tr>
+<tr><th id="10">10</th><td><u>#<span data-ppcond="10">ifndef</span> <a class="macro" href="../../../build/include/mos/kconfig.h.html#26" data-ref="_M/MOS_VERBOSE_PRINTK">MOS_VERBOSE_PRINTK</a></u></td></tr>
+<tr><th id="11">11</th><td><u>#error "MOS_VERBOSE_PRINTK must be defined"</u></td></tr>
 <tr><th id="12">12</th><td><u>#<span data-ppcond="10">endif</span></u></td></tr>
 <tr><th id="13">13</th><td></td></tr>
 <tr><th id="14">14</th><td><u>#define <dfn class="macro" id="_M/PRINTK_BUFFER_SIZE" data-ref="_M/PRINTK_BUFFER_SIZE">PRINTK_BUFFER_SIZE</dfn> 1024</u></td></tr>
@@ -48,7 +48,7 @@
 <tr><th id="35">35</th><td>    <dfn class="enum" id="MOS_LOG_DEFAULT" title='MOS_LOG_DEFAULT' data-ref="MOS_LOG_DEFAULT" data-ref-filename="MOS_LOG_DEFAULT">MOS_LOG_DEFAULT</dfn> = <a class="enum" href="#MOS_LOG_INFO" title='MOS_LOG_INFO' data-ref="MOS_LOG_INFO" data-ref-filename="MOS_LOG_INFO">MOS_LOG_INFO</a>,</td></tr>
 <tr><th id="36">36</th><td>} <dfn class="typedef" id="mos_log_level_t" title='mos_log_level_t' data-type='enum mos_log_level_t' data-ref="mos_log_level_t" data-ref-filename="mos_log_level_t">mos_log_level_t</dfn>;</td></tr>
 <tr><th id="37">37</th><td></td></tr>
-<tr><th id="38">38</th><td><u>#<span data-ppcond="38">if</span> <a class="macro" href="../../../build/include/mos/kconfig.h.html#28" title="1" data-ref="_M/MOS_PRINTK_HAS_FILENAME">MOS_PRINTK_HAS_FILENAME</a></u></td></tr>
+<tr><th id="38">38</th><td><u>#<span data-ppcond="38">if</span> <a class="macro" href="../../../build/include/mos/kconfig.h.html#26" title="1" data-ref="_M/MOS_VERBOSE_PRINTK">MOS_VERBOSE_PRINTK</a></u></td></tr>
 <tr><th id="39">39</th><td><u>#define <dfn class="macro" id="_M/lprintk_wrapper" data-ref="_M/lprintk_wrapper">lprintk_wrapper</dfn>(level, fmt, ...) lprintk(level, "%-20s | " fmt, MOS_FILE_LOCATION<span class='warning' title="token pasting of &apos;,&apos; and __VA_ARGS__ is a GNU extension">,</span> <span class='warning' title="token pasting of &apos;,&apos; and __VA_ARGS__ is a GNU extension">##</span>__VA_ARGS__)</u></td></tr>
 <tr><th id="40">40</th><td><u>#<span data-ppcond="38">else</span></u></td></tr>
 <tr><th id="41">41</th><td><u>#define lprintk_wrapper(level, fmt, ...) lprintk(level, "" fmt, ##__VA_ARGS__)</u></td></tr>

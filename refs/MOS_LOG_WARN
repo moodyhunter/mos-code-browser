@@ -7,7 +7,7 @@
 <use f='MOS/arch/x86/mm/mm.c' l='53' macro='1' u='r' c='x86_mem_init'/>
 <use f='MOS/arch/x86/x86_platform.c' l='53' macro='1' u='r' c='do_backtrace'/>
 <use f='MOS/kernel/filesystem/mount.c' l='81' macro='1' u='r' c='kunmount'/>
-<use f='MOS/kernel/kernel_init.c' l='43' macro='1' u='r' c='cmdline_get_init_path'/>
+<use f='MOS/kernel/kernel_init.c' l='42' macro='1' u='r' c='cmdline_get_init_path'/>
 <use f='MOS/kernel/panic.c' l='22' macro='1' u='r' c='kwarn_handler_set'/>
 <use f='MOS/kernel/panic.c' l='28' macro='1' u='r' c='kwarn_handler_remove'/>
 <use f='MOS/kernel/panic.c' l='88' u='r' c='mos_kwarn'/>

@@ -7,7 +7,7 @@
 <use f='MOS/kernel/elf/elf.c' l='98' u='r' c='process_create_from_elf'/>
 <use f='MOS/kernel/elf/elf.c' l='124' u='r' c='process_create_from_elf'/>
 <use f='MOS/kernel/elf/elf.c' l='130' u='r' c='process_create_from_elf'/>
-<use f='MOS/kernel/kernel_init.c' l='72' u='w' c='mos_start_kernel'/>
+<use f='MOS/kernel/kernel_init.c' l='71' u='w' c='mos_start_kernel'/>
 <use f='MOS/kernel/mm/memops.c' l='13' u='r' c='mm_map_proxy_space'/>
 <use f='MOS/kernel/mm/memops.c' l='14' u='r' c='mm_map_proxy_space'/>
 <use f='MOS/kernel/mm/memops.c' l='20' u='r' c='mm_unmap_proxy_space'/>
