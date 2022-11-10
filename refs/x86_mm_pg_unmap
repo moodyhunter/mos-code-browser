@@ -1,3 +1,0 @@
-<dec f='MOS/arch/x86/include/mos/x86/mm/paging.h' l='27' type='void x86_mm_pg_unmap(paging_handle_t table, uintptr_t vaddr, size_t n)'/>
-<def f='MOS/arch/x86/mm/paging.c' l='300' ll='304' type='void x86_mm_pg_unmap(paging_handle_t table, uintptr_t vaddr, size_t n)'/>
-<use f='MOS/arch/x86/x86_platform.c' l='185'/>

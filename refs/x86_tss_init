@@ -1,3 +1,3 @@
 <dec f='MOS/arch/x86/include/mos/x86/x86_platform.h' l='73' type='void x86_tss_init()'/>
 <def f='MOS/arch/x86/tasks/tss.c' l='10' ll='16' type='void x86_tss_init()'/>
-<use f='MOS/arch/x86/x86_platform.c' l='98' u='c' c='x86_start_kernel'/>
+<use f='MOS/arch/x86/x86_platform.c' l='96' u='c' c='x86_start_kernel'/>

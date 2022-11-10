@@ -1,3 +1,0 @@
-<dec f='MOS/kernel/include/mos/platform/platform.h' l='124' type='void (*const)(u32, irq_handler)'/>
-<offset>4992</offset>
-<use f='MOS/arch/x86/x86_platform.c' l='175' u='w'/>

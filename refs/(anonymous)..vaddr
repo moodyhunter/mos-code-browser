@@ -1,13 +1,13 @@
-<dec f='MOS/kernel/include/mos/platform/platform.h' l='65' type='uintptr_t'/>
-<dec f='MOS/kernel/include/mos/platform/platform.h' l='73' type='uintptr_t'/>
+<dec f='MOS/kernel/include/mos/platform/platform.h' l='69' type='uintptr_t'/>
+<dec f='MOS/kernel/include/mos/platform/platform.h' l='77' type='uintptr_t'/>
 <offset>0</offset>
 <use f='MOS/arch/x86/devices/initrd_blockdev.c' l='30' u='r' c='initrd_read'/>
-<use f='MOS/arch/x86/mm/paging.c' l='207' u='r' c='x86_um_pgd_create'/>
-<use f='MOS/arch/x86/mm/paging.c' l='292' u='w' c='x86_mm_copy_maps'/>
 <use f='MOS/arch/x86/mm/paging_impl.c' l='26' u='r' c='pg_page_alloc'/>
 <use f='MOS/arch/x86/mm/paging_impl.c' l='41' u='w' c='pg_page_alloc_at'/>
 <use f='MOS/arch/x86/mm/paging_impl.c' l='95' u='w' c='pg_page_get_free'/>
-<use f='MOS/arch/x86/x86_platform.c' l='149' u='w' c='x86_start_kernel'/>
+<use f='MOS/arch/x86/x86_platform.c' l='147' u='w' c='x86_start_kernel'/>
+<use f='MOS/arch/x86/x86_platform_api.c' l='59' u='r' c='platform_mm_create_user_pgd'/>
+<use f='MOS/arch/x86/x86_platform_api.c' l='126' u='w' c='platform_mm_copy_maps'/>
 <dec f='MOS/kernel/include/mos/elf/elf.h' l='145' type='uintptr_t'/>
 <use f='MOS/kernel/elf/elf.c' l='51' u='r' c='process_create_from_elf'/>
 <use f='MOS/kernel/elf/elf.c' l='80' u='r' c='process_create_from_elf'/>
@@ -24,8 +24,8 @@
 <use f='MOS/kernel/mm/cow.c' l='62' u='r' c='cow_handle_page_fault'/>
 <use f='MOS/kernel/mm/cow.c' l='64' u='r' c='cow_handle_page_fault'/>
 <use f='MOS/kernel/mm/cow.c' l='65' u='r' c='cow_handle_page_fault'/>
-<use f='MOS/kernel/mm/liballoc.c' l='73' u='r' c='kheap_alloc_page'/>
-<use f='MOS/kernel/mm/liballoc.c' l='78' u='r' c='kheap_alloc_page'/>
+<use f='MOS/kernel/mm/liballoc.c' l='70' u='r' c='kheap_alloc_page'/>
+<use f='MOS/kernel/mm/liballoc.c' l='75' u='r' c='kheap_alloc_page'/>
 <use f='MOS/kernel/mm/memops.c' l='14' u='r' c='mm_map_proxy_space'/>
 <use f='MOS/kernel/mm/memops.c' l='20' u='r' c='mm_unmap_proxy_space'/>
 <use f='MOS/kernel/mm/memops.c' l='43' u='r' c='mm_copy_pages'/>

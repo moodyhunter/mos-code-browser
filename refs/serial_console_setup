@@ -1,3 +1,3 @@
 <dec f='MOS/arch/x86/include/mos/x86/devices/serial_console.h' l='15' type='_Bool serial_console_setup(console_t * console)'/>
 <def f='MOS/arch/x86/devices/serial_console.c' l='13' ll='26' macro='1' type='_Bool serial_console_setup(console_t * console)'/>
-<use f='MOS/arch/x86/x86_platform.c' l='33' u='r'/>
+<use f='MOS/arch/x86/x86_platform.c' l='31' u='r'/>

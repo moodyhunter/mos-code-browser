@@ -1,4 +1,4 @@
-<dec f='MOS/kernel/include/mos/mos_global.h' l='39'/>
+<dec f='MOS/kernel/include/mos/mos_global.h' l='40'/>
 <use f='MOS/arch/x86/devices/initrd_blockdev.c' l='37' u='c'/>
 <use f='MOS/arch/x86/devices/initrd_blockdev.c' l='38' u='c'/>
 <use f='MOS/arch/x86/devices/initrd_blockdev.c' l='39' u='c'/>
@@ -12,6 +12,8 @@
 <use f='MOS/arch/x86/devices/text_mode_console.c' l='138' u='c'/>
 <use f='MOS/arch/x86/devices/text_mode_console.c' l='146' u='c'/>
 <use f='MOS/arch/x86/devices/text_mode_console.c' l='155' u='c'/>
+<use f='MOS/arch/x86/x86_platform_api.c' l='52' u='c'/>
+<use f='MOS/arch/x86/x86_platform_api.c' l='53' u='c'/>
 <use f='MOS/kernel/filesystem/cpio/cpio.c' l='85' u='c'/>
 <use f='MOS/kernel/filesystem/cpio/cpio.c' l='142' u='c'/>
 <use f='MOS/kernel/ksyscall.c' l='97' u='c'/>

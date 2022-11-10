@@ -9,4 +9,4 @@
 <use f='MOS/arch/x86/mm/paging.c' l='119' u='r' c='page_table_dump_range'/>
 <use f='MOS/arch/x86/mm/paging_impl.c' l='195' u='w' c='pg_do_map_page'/>
 <use f='MOS/arch/x86/mm/paging_impl.c' l='251' u='r' c='pg_page_get_mapped_paddr'/>
-<use f='MOS/arch/x86/x86_platform.c' l='120' u='r' c='x86_start_kernel'/>
+<use f='MOS/arch/x86/x86_platform.c' l='118' u='r' c='x86_start_kernel'/>

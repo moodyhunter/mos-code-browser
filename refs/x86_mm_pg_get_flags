@@ -1,3 +1,0 @@
-<dec f='MOS/arch/x86/include/mos/x86/mm/paging.h' l='24' type='vm_flags x86_mm_pg_get_flags(paging_handle_t pgt, uintptr_t vaddr)'/>
-<def f='MOS/arch/x86/mm/paging.c' l='268' ll='272' type='vm_flags x86_mm_pg_get_flags(paging_handle_t pgt, uintptr_t vaddr)'/>
-<use f='MOS/arch/x86/x86_platform.c' l='188'/>

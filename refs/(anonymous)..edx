@@ -3,7 +3,6 @@
 <offset>288</offset>
 <dec f='MOS/arch/x86/include/mos/x86/cpu/cpuid.h' l='12' type='u32'/>
 <dec f='MOS/arch/x86/include/mos/x86/cpu/cpuid.h' l='145' type='union (anonymous union at /home/runner/work/MOS/MOS/arch/x86/include/mos/x86/cpu/cpuid.h:104:5)'/>
-<offset>96</offset>
 <use f='MOS/arch/x86/cpu/cpuid.c' l='16' c='x86_call_cpuid'/>
 <use f='MOS/arch/x86/cpu/cpuid.c' l='25' u='r' c='cpuid_get_manufacturer'/>
 <use f='MOS/arch/x86/cpu/cpuid.c' l='37' u='m' c='cpuid_get_processor_info'/>
@@ -11,6 +10,7 @@
 <use f='MOS/arch/x86/cpu/cpuid.c' l='47' u='r' c='cpuid_get_brand_string'/>
 <use f='MOS/arch/x86/cpu/cpuid.c' l='52' u='r' c='cpuid_get_brand_string'/>
 <use f='MOS/arch/x86/cpu/cpuid.c' l='57' u='r' c='cpuid_get_brand_string'/>
+<offset>96</offset>
 <use f='MOS/arch/x86/interrupt/apic.c' l='98' u='m' c='apic_enable'/>
 <use f='MOS/arch/x86/interrupt/apic.c' l='101' u='m' c='apic_enable'/>
 <use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='98' u='r' c='x86_dump_registers'/>

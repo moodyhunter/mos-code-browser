@@ -3,13 +3,13 @@
 <offset>352</offset>
 <dec f='MOS/arch/x86/include/mos/x86/cpu/cpuid.h' l='9' type='u32'/>
 <dec f='MOS/arch/x86/include/mos/x86/cpu/cpuid.h' l='41' type='union (anonymous union at /home/runner/work/MOS/MOS/arch/x86/include/mos/x86/cpu/cpuid.h:27:5)'/>
-<offset>0</offset>
 <use f='MOS/arch/x86/cpu/cpuid.c' l='16' c='x86_call_cpuid'/>
 <use f='MOS/arch/x86/cpu/cpuid.c' l='34' u='m' c='cpuid_get_processor_info'/>
 <use f='MOS/arch/x86/cpu/cpuid.c' l='34' u='r' c='cpuid_get_processor_info'/>
 <use f='MOS/arch/x86/cpu/cpuid.c' l='44' u='r' c='cpuid_get_brand_string'/>
 <use f='MOS/arch/x86/cpu/cpuid.c' l='49' u='r' c='cpuid_get_brand_string'/>
 <use f='MOS/arch/x86/cpu/cpuid.c' l='54' u='r' c='cpuid_get_brand_string'/>
+<offset>0</offset>
 <use f='MOS/arch/x86/cpu/smp.c' l='43' u='m' c='print_cpu_info'/>
 <use f='MOS/arch/x86/cpu/smp.c' l='43' u='m' c='print_cpu_info'/>
 <use f='MOS/arch/x86/cpu/smp.c' l='43' u='m' c='print_cpu_info'/>

@@ -1,7 +1,7 @@
-<use f='MOS/kernel/include/mos/platform/platform.h' l='21'/>
-<use f='MOS/kernel/include/mos/tasks/task_type.h' l='27'/>
-<def f='MOS/kernel/include/mos/tasks/task_type.h' l='51' ll='61'/>
-<use f='MOS/kernel/include/mos/tasks/task_type.h' l='51'/>
+<use f='MOS/kernel/include/mos/platform/platform.h' l='25'/>
+<use f='MOS/kernel/include/mos/tasks/task_type.h' l='45'/>
+<def f='MOS/kernel/include/mos/tasks/task_type.h' l='69' ll='79'/>
+<use f='MOS/kernel/include/mos/tasks/task_type.h' l='69'/>
 <size>88</size>
 <mbr r='_thread::magic' o='0' t='char [4]'/>
 <mbr r='_thread::tid' o='32' t='tid_t'/>

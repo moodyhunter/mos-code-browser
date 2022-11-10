@@ -1,7 +1,7 @@
+<use f='MOS/kernel/mm/liballoc.c' l='105'/>
+<def f='MOS/kernel/mm/liballoc.c' l='109' ll='117'/>
+<use f='MOS/kernel/mm/liballoc.c' l='111'/>
+<use f='MOS/kernel/mm/liballoc.c' l='112'/>
 <use f='MOS/kernel/mm/liballoc.c' l='109'/>
-<def f='MOS/kernel/mm/liballoc.c' l='113' ll='121'/>
-<use f='MOS/kernel/mm/liballoc.c' l='115'/>
-<use f='MOS/kernel/mm/liballoc.c' l='116'/>
-<use f='MOS/kernel/mm/liballoc.c' l='113'/>
 <size>48</size>
-<doc f='MOS/kernel/mm/liballoc.c' l='112'>// This is a structure found at the beginning of all sections in a major block which were allocated by a malloc, calloc, realloc call.</doc>
+<doc f='MOS/kernel/mm/liballoc.c' l='108'>// This is a structure found at the beginning of all sections in a major block which were allocated by a malloc, calloc, realloc call.</doc>

@@ -1,4 +1,4 @@
-<dec f='MOS/kernel/include/mos/mos_global.h' l='14'/>
+<dec f='MOS/kernel/include/mos/mos_global.h' l='16'/>
 <use f='MOS/kernel/include/mos/printk.h' l='69' u='c'/>
 <use f='MOS/kernel/include/mos/printk.h' l='70' u='c'/>
 <use f='MOS/kernel/include/mos/printk.h' l='71' u='c'/>

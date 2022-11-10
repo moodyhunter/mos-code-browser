@@ -3,11 +3,11 @@
 <use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='215' macro='1' u='r' c='x86_handle_exception'/>
 <use f='MOS/arch/x86/mm/pmem_freelist.c' l='64' macro='1' u='r' c='pmem_freelist_setup'/>
 <use f='MOS/arch/x86/mm/pmem_freelist.c' l='70' macro='1' u='r' c='pmem_freelist_setup'/>
-<use f='MOS/arch/x86/x86_platform.c' l='65' macro='1' u='r' c='x86_kpanic_hook'/>
-<use f='MOS/arch/x86/x86_platform.c' l='66' macro='1' u='r' c='x86_kpanic_hook'/>
-<use f='MOS/arch/x86/x86_platform.c' l='73' macro='1' u='r' c='x86_kpanic_hook'/>
-<use f='MOS/arch/x86/x86_platform.c' l='79' macro='1' u='r' c='x86_kpanic_hook'/>
-<use f='MOS/arch/x86/x86_platform.c' l='83' macro='1' u='r' c='x86_kpanic_hook'/>
+<use f='MOS/arch/x86/x86_platform.c' l='63' macro='1' u='r' c='x86_kpanic_hook'/>
+<use f='MOS/arch/x86/x86_platform.c' l='64' macro='1' u='r' c='x86_kpanic_hook'/>
+<use f='MOS/arch/x86/x86_platform.c' l='71' macro='1' u='r' c='x86_kpanic_hook'/>
+<use f='MOS/arch/x86/x86_platform.c' l='77' macro='1' u='r' c='x86_kpanic_hook'/>
+<use f='MOS/arch/x86/x86_platform.c' l='81' macro='1' u='r' c='x86_kpanic_hook'/>
 <use f='MOS/kernel/kernel_init.c' l='49' macro='1' u='r' c='dump_cmdline'/>
 <use f='MOS/kernel/kernel_init.c' l='50' macro='1' u='r' c='dump_cmdline'/>
 <use f='MOS/kernel/mm/cow.c' l='70' macro='1' u='r' c='cow_handle_page_fault'/>

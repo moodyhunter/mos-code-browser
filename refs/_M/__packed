@@ -1,9 +1,9 @@
-<dec f='MOS/kernel/include/mos/mos_global.h' l='13'/>
+<dec f='MOS/kernel/include/mos/mos_global.h' l='15'/>
 <use f='MOS/kernel/include/mos/types.h' l='53' u='c'/>
 <use f='MOS/arch/x86/include/mos/x86/acpi/acpi_types.h' l='14' u='c'/>
 <use f='MOS/arch/x86/include/mos/x86/acpi/acpi_types.h' l='25' u='c'/>
 <use f='MOS/arch/x86/include/mos/x86/acpi/acpi_types.h' l='229' u='c'/>
-<use f='MOS/kernel/include/mos/platform/platform.h' l='53' u='c'/>
+<use f='MOS/kernel/include/mos/platform/platform.h' l='57' u='c'/>
 <use f='MOS/arch/x86/include/mos/x86/boot/multiboot.h' l='118' u='c'/>
 <use f='MOS/arch/x86/include/mos/x86/boot/multiboot.h' l='197' u='c'/>
 <use f='MOS/arch/x86/include/mos/x86/gdt/gdt_types.h' l='31' u='c'/>

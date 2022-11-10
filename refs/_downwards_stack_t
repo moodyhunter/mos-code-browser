@@ -1,0 +1,8 @@
+<use f='MOS/kernel/include/mos/platform/platform.h' l='24'/>
+<def f='MOS/lib/include/lib/structures/stack.h' l='9' ll='14'/>
+<use f='MOS/lib/include/lib/structures/stack.h' l='9'/>
+<size>24</size>
+<doc f='MOS/lib/include/lib/structures/stack.h' l='7'>// A stack that grows downwards</doc>
+<mbr r='_downwards_stack_t::top' o='0' t='uintptr_t'/>
+<mbr r='_downwards_stack_t::head' o='64' t='uintptr_t'/>
+<mbr r='_downwards_stack_t::capacity' o='128' t='size_t'/>

@@ -1,4 +1,4 @@
-<dec f='MOS/kernel/include/mos/platform/platform.h' l='57' type='u32'/>
+<dec f='MOS/kernel/include/mos/platform/platform.h' l='61' type='u32'/>
 <offset>0</offset>
 <use f='MOS/arch/x86/cpu/smp.c' l='59' u='w' c='ap_begin_exec'/>
 <use f='MOS/arch/x86/cpu/smp.c' l='117' u='w' c='x86_smp_init'/>

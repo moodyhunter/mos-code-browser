@@ -2,6 +2,6 @@
 <use f='MOS/arch/x86/boot/multiboot/startup.c' l='81' u='w' c='startup_setup_pgd'/>
 <use f='MOS/arch/x86/boot/multiboot/startup.c' l='111' u='r' c='mos_startup_map_single_page'/>
 <offset>12</offset>
-<use f='MOS/arch/x86/mm/paging.c' l='228' u='w' c='x86_um_pgd_create'/>
 <use f='MOS/arch/x86/mm/paging_impl.c' l='186' u='w' c='pg_do_map_page'/>
-<use f='MOS/arch/x86/x86_platform.c' l='119' u='r' c='x86_start_kernel'/>
+<use f='MOS/arch/x86/x86_platform.c' l='117' u='r' c='x86_start_kernel'/>
+<use f='MOS/arch/x86/x86_platform_api.c' l='80' u='w' c='platform_mm_create_user_pgd'/>

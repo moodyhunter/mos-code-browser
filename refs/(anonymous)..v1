@@ -1,9 +1,9 @@
 <dec f='MOS/arch/x86/include/mos/x86/acpi/acpi_types.h' l='20' type='acpi_rsdp_v1_t'/>
-<use f='MOS/arch/x86/acpi/acpi.c' l='50' u='m' c='x86_acpi_init'/>
-<use f='MOS/arch/x86/acpi/acpi.c' l='162' u='m' c='find_acpi_rsdp'/>
-<use f='MOS/arch/x86/acpi/acpi.c' l='162' u='m' c='find_acpi_rsdp'/>
-<use f='MOS/arch/x86/acpi/acpi.c' l='164' u='m' c='find_acpi_rsdp'/>
-<use f='MOS/arch/x86/acpi/acpi.c' l='165' u='m' c='find_acpi_rsdp'/>
+<use f='MOS/arch/x86/acpi/acpi.c' l='41' u='m' c='x86_acpi_init'/>
+<use f='MOS/arch/x86/acpi/acpi.c' l='153' u='m' c='find_acpi_rsdp'/>
+<use f='MOS/arch/x86/acpi/acpi.c' l='153' u='m' c='find_acpi_rsdp'/>
+<use f='MOS/arch/x86/acpi/acpi.c' l='155' u='m' c='find_acpi_rsdp'/>
+<use f='MOS/arch/x86/acpi/acpi.c' l='156' u='m' c='find_acpi_rsdp'/>
 <offset>0</offset>
 <use f='MOS/arch/x86/boot/multiboot/startup.c' l='196' u='m' c='x86_startup'/>
 <use f='MOS/arch/x86/boot/multiboot/startup.c' l='196' u='m' c='x86_startup'/>

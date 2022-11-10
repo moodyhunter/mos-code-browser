@@ -1,7 +1,7 @@
 <dec f='MOS/kernel/include/mos/mm/liballoc.h' l='30' type='void * liballoc_malloc(size_t size)'/>
 <use f='MOS/kernel/include/mos/mm/kmalloc.h' l='10' u='c' c='kmalloc'/>
-<def f='MOS/kernel/mm/liballoc.c' l='232' ll='520' type='void * liballoc_malloc(size_t req_size)'/>
-<use f='MOS/kernel/mm/liballoc.c' l='254' u='c' c='liballoc_malloc'/>
-<use f='MOS/kernel/mm/liballoc.c' l='621' u='c' c='liballoc_calloc'/>
-<use f='MOS/kernel/mm/liballoc.c' l='638' u='c' c='liballoc_realloc'/>
-<use f='MOS/kernel/mm/liballoc.c' l='696' u='c' c='liballoc_realloc'/>
+<def f='MOS/kernel/mm/liballoc.c' l='228' ll='516' type='void * liballoc_malloc(size_t req_size)'/>
+<use f='MOS/kernel/mm/liballoc.c' l='250' u='c' c='liballoc_malloc'/>
+<use f='MOS/kernel/mm/liballoc.c' l='617' u='c' c='liballoc_calloc'/>
+<use f='MOS/kernel/mm/liballoc.c' l='634' u='c' c='liballoc_realloc'/>
+<use f='MOS/kernel/mm/liballoc.c' l='692' u='c' c='liballoc_realloc'/>

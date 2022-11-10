@@ -1,11 +1,10 @@
 <dec f='MOS/arch/x86/include/mos/x86/acpi/acpi_types.h' l='132' type='u8'/>
-<dec f='MOS/kernel/include/mos/platform/platform.h' l='88' type='vm_type'/>
 <dec f='MOS/arch/x86/include/mos/x86/boot/multiboot.h' l='117' type='multiboot_memory_type_t'/>
 <dec f='MOS/arch/x86/include/mos/x86/interrupt/idt_types.h' l='13' type='u32'/>
-<use f='MOS/arch/x86/acpi/acpi.c' l='92' macro='1' u='r' c='x86_acpi_init'/>
-<use f='MOS/arch/x86/acpi/acpi.c' l='92' macro='1' u='r' c='x86_acpi_init'/>
-<use f='MOS/arch/x86/acpi/acpi.c' l='92' macro='1' u='r' c='x86_acpi_init'/>
-<use f='MOS/arch/x86/acpi/acpi.c' l='94' u='r' c='x86_acpi_init'/>
+<use f='MOS/arch/x86/acpi/acpi.c' l='83' macro='1' u='r' c='x86_acpi_init'/>
+<use f='MOS/arch/x86/acpi/acpi.c' l='83' macro='1' u='r' c='x86_acpi_init'/>
+<use f='MOS/arch/x86/acpi/acpi.c' l='83' macro='1' u='r' c='x86_acpi_init'/>
+<use f='MOS/arch/x86/acpi/acpi.c' l='85' u='r' c='x86_acpi_init'/>
 <offset>40</offset>
 <doc f='MOS/arch/x86/include/mos/x86/interrupt/idt_types.h' l='13'>// The type of interrupt</doc>
 <use f='MOS/arch/x86/cpu/smp.c' l='119' macro='1' u='r' c='x86_smp_init'/>
@@ -14,7 +13,8 @@
 <use f='MOS/arch/x86/cpu/smp.c' l='121' u='r' c='x86_smp_init'/>
 <use f='MOS/arch/x86/interrupt/idt.c' l='30' u='w' c='idt_set_descriptor'/>
 <dec f='MOS/kernel/include/mos/filesystem/filesystem.h' l='65' type='file_type_t'/>
-<offset>0</offset>
+<dec f='MOS/kernel/include/mos/tasks/task_type.h' l='37' type='vm_type'/>
+<offset>192</offset>
 <use f='MOS/arch/x86/mm/mm.c' l='56' u='r' c='x86_mem_init'/>
 <use f='MOS/arch/x86/mm/mm.c' l='61' u='r' c='x86_mem_init'/>
 <use f='MOS/arch/x86/mm/mm.c' l='68' u='r' c='x86_mem_init'/>

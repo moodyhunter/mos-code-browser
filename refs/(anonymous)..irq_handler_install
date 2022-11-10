@@ -1,3 +1,0 @@
-<dec f='MOS/kernel/include/mos/platform/platform.h' l='123' type='_Bool (*const)(u32, irq_handler)'/>
-<offset>4928</offset>
-<use f='MOS/arch/x86/x86_platform.c' l='174' u='w'/>

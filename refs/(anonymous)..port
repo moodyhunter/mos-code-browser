@@ -6,4 +6,4 @@
 <use f='MOS/arch/x86/devices/serial.c' l='144' u='r' c='serial_device_read'/>
 <use f='MOS/arch/x86/devices/serial.c' l='157' u='r' c='serial_dev_readline'/>
 <offset>0</offset>
-<use f='MOS/arch/x86/x86_platform.c' l='26' u='w'/>
+<use f='MOS/arch/x86/x86_platform.c' l='24' u='w'/>

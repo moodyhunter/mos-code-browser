@@ -3,6 +3,6 @@
 <use f='MOS/kernel/filesystem/cpio/cpio.c' l='80' u='c'/>
 <use f='MOS/kernel/filesystem/mount.c' l='25' u='c'/>
 <use f='MOS/kernel/kernel_init.c' l='63' u='c'/>
-<use f='MOS/kernel/kernel_init.c' l='99' u='c'/>
+<use f='MOS/kernel/kernel_init.c' l='98' u='c'/>
 <use f='MOS/kernel/ksyscall.c' l='77' u='c'/>
 <use f='MOS/kernel/tasks/process.c' l='178' u='c'/>
