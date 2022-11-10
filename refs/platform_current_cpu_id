@@ -8,6 +8,7 @@
 <use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='215' macro='1' u='c' c='x86_handle_exception'/>
 <use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='215' macro='1' u='c' c='x86_handle_exception'/>
 <use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='237' macro='1' u='c' c='x86_handle_exception'/>
+<use f='MOS/arch/x86/tasks/context.c' l='45' macro='1' u='c' c='x86_switch_to_thread'/>
 <use f='MOS/arch/x86/x86_platform.c' l='59' macro='1' u='c' c='x86_kpanic_hook'/>
 <use f='MOS/arch/x86/x86_platform.c' l='61' macro='1' u='c' c='x86_kpanic_hook'/>
 <use f='MOS/arch/x86/x86_platform.c' l='63' macro='1' u='c' c='x86_kpanic_hook'/>
@@ -44,6 +45,10 @@
 <use f='MOS/kernel/ksyscall.c' l='119' macro='1' u='c' c='impl_syscall_spawn'/>
 <use f='MOS/kernel/ksyscall.c' l='129' macro='1' u='c' c='impl_syscall_create_thread'/>
 <use f='MOS/kernel/ksyscall.c' l='130' macro='1' u='c' c='impl_syscall_create_thread'/>
+<use f='MOS/kernel/ksyscall.c' l='139' macro='1' u='c' c='impl_syscall_get_tid'/>
+<use f='MOS/kernel/ksyscall.c' l='140' macro='1' u='c' c='impl_syscall_get_tid'/>
+<use f='MOS/kernel/ksyscall.c' l='145' macro='1' u='c' c='impl_syscall_thread_exit'/>
+<use f='MOS/kernel/ksyscall.c' l='146' macro='1' u='c' c='impl_syscall_thread_exit'/>
 <use f='MOS/kernel/mm/cow.c' l='23' macro='1' u='c' c='copy_cow_pages_inplace'/>
 <use f='MOS/kernel/mm/cow.c' l='42' macro='1' u='c' c='cow_handle_page_fault'/>
 <use f='MOS/kernel/mm/cow.c' l='48' macro='1' u='c' c='cow_handle_page_fault'/>

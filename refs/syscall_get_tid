@@ -1,0 +1,1 @@
+<def f='MOS/build/include/mos/syscall/usermode.h' l='81' ll='84' macro='1' type='tid_t syscall_get_tid()'/>

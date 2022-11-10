@@ -64,6 +64,9 @@
 <use f='MOS/kernel/ksyscall.c' l='105' macro='1' u='c' c='impl_syscall_get_pid'/>
 <use f='MOS/kernel/ksyscall.c' l='111' macro='1' u='c' c='impl_syscall_get_parent_pid'/>
 <use f='MOS/kernel/ksyscall.c' l='129' macro='1' u='c' c='impl_syscall_create_thread'/>
+<use f='MOS/kernel/ksyscall.c' l='139' macro='1' u='c' c='impl_syscall_get_tid'/>
+<use f='MOS/kernel/ksyscall.c' l='145' macro='1' u='c' c='impl_syscall_thread_exit'/>
+<use f='MOS/kernel/ksyscall.c' l='148' macro='1' u='c' c='impl_syscall_thread_exit'/>
 <use f='MOS/kernel/mm/cow.c' l='60' macro='1' u='c' c='cow_handle_page_fault'/>
 <use f='MOS/kernel/mm/liballoc.c' l='70' macro='1' u='c' c='kheap_alloc_page'/>
 <use f='MOS/kernel/mm/liballoc.c' l='80' macro='1' u='c' c='kheap_free_page'/>

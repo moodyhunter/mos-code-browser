@@ -1,7 +1,8 @@
-<def f='MOS/arch/x86/include/mos/platform_syscall.h' l='8' ll='13' type='long platform_syscall0(long number)'/>
+<def f='MOS/arch/x86/include/mos/platform_syscall.h' l='8' ll='13' macro='1' type='long platform_syscall0(long number)'/>
 <use f='MOS/build/include/mos/syscall/usermode.h' l='13' u='c' c='syscall_panic'/>
 <use f='MOS/build/include/mos/syscall/usermode.h' l='48' u='c' c='syscall_yield_cpu'/>
 <use f='MOS/build/include/mos/syscall/usermode.h' l='53' u='c' c='syscall_fork'/>
 <use f='MOS/build/include/mos/syscall/usermode.h' l='63' u='c' c='syscall_get_pid'/>
 <use f='MOS/build/include/mos/syscall/usermode.h' l='68' u='c' c='syscall_get_parent_pid'/>
-<doc f='MOS/arch/x86/include/mos/platform_syscall.h' l='6'>// TODO: rewrite in ASM</doc>
+<use f='MOS/build/include/mos/syscall/usermode.h' l='83' u='c' c='syscall_get_tid'/>
+<use f='MOS/build/include/mos/syscall/usermode.h' l='88' u='c' c='syscall_thread_exit'/>

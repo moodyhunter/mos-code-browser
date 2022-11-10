@@ -1,10 +1,10 @@
 <dec f='MOS/kernel/include/mos/tasks/task_type.h' l='74' type='downwards_stack_t'/>
 <use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='116' u='m' c='x86_handle_interrupt'/>
 <offset>128</offset>
-<use f='MOS/arch/x86/tasks/context.c' l='54' u='m' c='x86_switch_to_thread'/>
-<use f='MOS/arch/x86/tasks/context.c' l='56' u='m' c='x86_switch_to_thread'/>
+<use f='MOS/arch/x86/tasks/context.c' l='55' u='m' c='x86_switch_to_thread'/>
+<use f='MOS/arch/x86/tasks/context.c' l='57' u='m' c='x86_switch_to_thread'/>
 <use f='MOS/kernel/tasks/fork.c' l='63' u='w' c='process_handle_fork'/>
 <use f='MOS/kernel/tasks/fork.c' l='63' u='r' c='process_handle_fork'/>
 <use f='MOS/kernel/tasks/schedule.c' l='54' u='m' c='jump_to_scheduler'/>
-<use f='MOS/kernel/tasks/thread.c' l='77' u='a' c='thread_new'/>
-<use f='MOS/kernel/tasks/thread.c' l='86' u='m' c='thread_new'/>
+<use f='MOS/kernel/tasks/thread.c' l='78' u='a' c='thread_new'/>
+<use f='MOS/kernel/tasks/thread.c' l='87' u='m' c='thread_new'/>

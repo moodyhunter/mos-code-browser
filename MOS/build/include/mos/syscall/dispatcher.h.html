@@ -88,9 +88,17 @@
 <tr><th id="75">75</th><td>    <b>if</b> (<a class="local col1 ref" href="#61number" title='number' data-ref="61number" data-ref-filename="61number">number</a> == <var>13</var>)</td></tr>
 <tr><th id="76">76</th><td>        <a class="local col0 ref" href="#70ret" title='ret' data-ref="70ret" data-ref-filename="70ret">ret</a> = (<em>long</em>) <a class="ref fn" href="#impl_syscall_create_thread" title='impl_syscall_create_thread' data-ref="impl_syscall_create_thread" data-ref-filename="impl_syscall_create_thread">impl_syscall_create_thread</a>((<em>const</em> <em>char</em> *) <a class="local col2 ref" href="#62arg1" title='arg1' data-ref="62arg1" data-ref-filename="62arg1">arg1</a>, (<a class="typedef" href="../../../../kernel/include/mos/platform/platform.h.html#thread_entry_t" title='thread_entry_t' data-type='void (*)(void *)' data-ref="thread_entry_t" data-ref-filename="thread_entry_t">thread_entry_t</a>) <a class="local col3 ref" href="#63arg2" title='arg2' data-ref="63arg2" data-ref-filename="63arg2">arg2</a>, (<em>void</em> *) <a class="local col4 ref" href="#64arg3" title='arg3' data-ref="64arg3" data-ref-filename="64arg3">arg3</a>);</td></tr>
 <tr><th id="77">77</th><td>    </td></tr>
-<tr><th id="78">78</th><td>    <b>return</b> <a class="local col0 ref" href="#70ret" title='ret' data-ref="70ret" data-ref-filename="70ret">ret</a>;</td></tr>
-<tr><th id="79">79</th><td>}</td></tr>
-<tr><th id="80">80</th><td></td></tr>
+<tr><th id="78">78</th><td>    <b>extern</b> <a class="typedef" href="../../../../kernel/include/mos/types.h.html#tid_t" title='tid_t' data-type='id_t' data-ref="tid_t" data-ref-filename="tid_t">tid_t</a> <dfn class="decl fn" id="impl_syscall_get_tid" title='impl_syscall_get_tid' data-ref="impl_syscall_get_tid" data-ref-filename="impl_syscall_get_tid">impl_syscall_get_tid</dfn>(<em>void</em>);</td></tr>
+<tr><th id="79">79</th><td>    <b>if</b> (<a class="local col1 ref" href="#61number" title='number' data-ref="61number" data-ref-filename="61number">number</a> == <var>14</var>)</td></tr>
+<tr><th id="80">80</th><td>        <a class="local col0 ref" href="#70ret" title='ret' data-ref="70ret" data-ref-filename="70ret">ret</a> = (<em>long</em>) <a class="ref fn" href="#impl_syscall_get_tid" title='impl_syscall_get_tid' data-ref="impl_syscall_get_tid" data-ref-filename="impl_syscall_get_tid">impl_syscall_get_tid</a>();</td></tr>
+<tr><th id="81">81</th><td>    </td></tr>
+<tr><th id="82">82</th><td>    <b>extern</b> <span class="macro" title="_Noreturn" data-ref="_M/noreturn">noreturn</span> <em>void</em> <dfn class="decl fn" id="impl_syscall_thread_exit" title='impl_syscall_thread_exit' data-ref="impl_syscall_thread_exit" data-ref-filename="impl_syscall_thread_exit">impl_syscall_thread_exit</dfn>(<em>void</em>);</td></tr>
+<tr><th id="83">83</th><td>    <b>if</b> (<a class="local col1 ref" href="#61number" title='number' data-ref="61number" data-ref-filename="61number">number</a> == <var>15</var>)</td></tr>
+<tr><th id="84">84</th><td>        <a class="ref fn" href="#impl_syscall_thread_exit" title='impl_syscall_thread_exit' data-ref="impl_syscall_thread_exit" data-ref-filename="impl_syscall_thread_exit">impl_syscall_thread_exit</a>();</td></tr>
+<tr><th id="85">85</th><td>    </td></tr>
+<tr><th id="86">86</th><td>    <b>return</b> <a class="local col0 ref" href="#70ret" title='ret' data-ref="70ret" data-ref-filename="70ret">ret</a>;</td></tr>
+<tr><th id="87">87</th><td>}</td></tr>
+<tr><th id="88">88</th><td></td></tr>
 </table><hr/><p id='footer'>
 Generated while processing <a href='../../../../arch/x86/interrupt/x86_interrupt.c.html'>MOS/arch/x86/interrupt/x86_interrupt.c</a><br/>Generated on <em>2022-Nov-10</em> from project MOS<br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
 <br/>Generator usage only permitted with license.</p>

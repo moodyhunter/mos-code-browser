@@ -1,5 +1,6 @@
 <dec f='MOS/kernel/include/mos/tasks/schedule.h' l='10' type='void jump_to_scheduler()'/>
-<use f='MOS/arch/x86/tasks/context.c' l='68' u='c' c='x86_timer_handler'/>
+<use f='MOS/arch/x86/tasks/context.c' l='69' u='c' c='x86_timer_handler'/>
 <use f='MOS/kernel/ksyscall.c' l='76' u='c' c='impl_syscall_exit'/>
 <use f='MOS/kernel/ksyscall.c' l='82' u='c' c='impl_syscall_yield_cpu'/>
+<use f='MOS/kernel/ksyscall.c' l='147' u='c' c='impl_syscall_thread_exit'/>
 <def f='MOS/kernel/tasks/schedule.c' l='49' ll='55' type='void jump_to_scheduler()'/>

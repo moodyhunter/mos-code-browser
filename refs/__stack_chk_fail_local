@@ -1,2 +1,2 @@
 <def f='MOS/kernel/stack_protector.c' l='13' ll='16' type='void __stack_chk_fail_local()'/>
-<def f='MOS/userspace/libuserspace.c' l='17' ll='20' type='void __stack_chk_fail_local()'/>
+<def f='MOS/userspace/libuserspace.c' l='18' ll='21' type='void __stack_chk_fail_local()'/>

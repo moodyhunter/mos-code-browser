@@ -1,11 +1,11 @@
 <dec f='MOS/lib/include/lib/structures/stack.h' l='12' type='uintptr_t'/>
 <use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='116' u='w' c='x86_handle_interrupt'/>
 <offset>64</offset>
-<use f='MOS/arch/x86/tasks/context.c' l='54' u='r' c='x86_switch_to_thread'/>
-<use f='MOS/arch/x86/tasks/context.c' l='56' u='r' c='x86_switch_to_thread'/>
+<use f='MOS/arch/x86/tasks/context.c' l='55' u='r' c='x86_switch_to_thread'/>
+<use f='MOS/arch/x86/tasks/context.c' l='57' u='r' c='x86_switch_to_thread'/>
 <use f='MOS/kernel/tasks/schedule.c' l='54' u='a' c='jump_to_scheduler'/>
-<use f='MOS/kernel/tasks/thread.c' l='86' u='w' c='thread_new'/>
-<use f='MOS/kernel/tasks/thread.c' l='86' u='r' c='thread_new'/>
+<use f='MOS/kernel/tasks/thread.c' l='87' u='w' c='thread_new'/>
+<use f='MOS/kernel/tasks/thread.c' l='87' u='r' c='thread_new'/>
 <use f='MOS/lib/structures/stack.c' l='14' u='w' c='stack_init'/>
 <use f='MOS/lib/structures/stack.c' l='26' u='r' c='stack_grow'/>
 <use f='MOS/lib/structures/stack.c' l='32' u='w' c='stack_grow'/>

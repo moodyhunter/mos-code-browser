@@ -2,6 +2,7 @@ thread_is_valid|thread_is_valid
 thread_allocate|thread_allocate
 thread_deinit|thread_deinit
 thread_get|thread_get
+thread_handle_exit|thread_handle_exit
 thread_init|thread_init
 thread_new|thread_new
 thread_work|thread_work

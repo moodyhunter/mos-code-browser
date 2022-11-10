@@ -1,4 +1,4 @@
-<dec f='MOS/build/include/mos/syscall/decl.h' l='38'/>
+<dec f='MOS/build/include/mos/syscall/decl.h' l='42'/>
 <use f='MOS/kernel/ksyscall.c' l='15' u='c'/>
 <use f='MOS/kernel/ksyscall.c' l='23' u='c'/>
 <use f='MOS/kernel/ksyscall.c' l='34' u='c'/>
@@ -13,3 +13,5 @@
 <use f='MOS/kernel/ksyscall.c' l='109' u='c'/>
 <use f='MOS/kernel/ksyscall.c' l='115' u='c'/>
 <use f='MOS/kernel/ksyscall.c' l='126' u='c'/>
+<use f='MOS/kernel/ksyscall.c' l='137' u='c'/>
+<use f='MOS/kernel/ksyscall.c' l='143' u='c'/>

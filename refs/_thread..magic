@@ -4,7 +4,7 @@
 <use f='MOS/kernel/include/mos/tasks/thread.h' l='16' u='r' c='thread_is_valid'/>
 <use f='MOS/kernel/include/mos/tasks/thread.h' l='16' u='r' c='thread_is_valid'/>
 <use f='MOS/kernel/include/mos/tasks/thread.h' l='16' u='r' c='thread_is_valid'/>
-<use f='MOS/kernel/tasks/thread.c' l='39' u='w' c='thread_allocate'/>
 <use f='MOS/kernel/tasks/thread.c' l='40' u='w' c='thread_allocate'/>
 <use f='MOS/kernel/tasks/thread.c' l='41' u='w' c='thread_allocate'/>
 <use f='MOS/kernel/tasks/thread.c' l='42' u='w' c='thread_allocate'/>
+<use f='MOS/kernel/tasks/thread.c' l='43' u='w' c='thread_allocate'/>

@@ -6,9 +6,11 @@ syscall_file_stat|syscall_file_stat
 syscall_fork|syscall_fork
 syscall_get_parent_pid|syscall_get_parent_pid
 syscall_get_pid|syscall_get_pid
+syscall_get_tid|syscall_get_tid
 syscall_io_close|syscall_io_close
 syscall_io_read|syscall_io_read
 syscall_io_write|syscall_io_write
 syscall_panic|syscall_panic
 syscall_spawn|syscall_spawn
+syscall_thread_exit|syscall_thread_exit
 syscall_yield_cpu|syscall_yield_cpu

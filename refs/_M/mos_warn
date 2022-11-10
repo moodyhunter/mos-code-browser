@@ -60,6 +60,7 @@
 <use f='MOS/kernel/tasks/process.c' l='102' u='c'/>
 <use f='MOS/kernel/tasks/process.c' l='112' u='c'/>
 <use f='MOS/kernel/tasks/process.c' l='158' u='c'/>
+<use f='MOS/kernel/tasks/thread.c' l='107' u='c'/>
 <use f='MOS/lib/stdio_impl.c' l='173' u='c'/>
 <use f='MOS/lib/stdio_impl.c' l='179' u='c'/>
 <use f='MOS/lib/stdio_impl.c' l='203' u='c'/>
