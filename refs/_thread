@@ -1,13 +1,13 @@
 <use f='MOS/kernel/include/mos/platform/platform.h' l='25'/>
 <use f='MOS/kernel/include/mos/tasks/task_type.h' l='45'/>
-<def f='MOS/kernel/include/mos/tasks/task_type.h' l='69' ll='79'/>
-<use f='MOS/kernel/include/mos/tasks/task_type.h' l='69'/>
+<def f='MOS/kernel/include/mos/tasks/task_type.h' l='67' ll='77'/>
+<use f='MOS/kernel/include/mos/tasks/task_type.h' l='67'/>
 <size>88</size>
 <mbr r='_thread::magic' o='0' t='char [4]'/>
 <mbr r='_thread::tid' o='32' t='tid_t'/>
-<mbr r='_thread::owner' o='64' t='process_t *'/>
-<mbr r='_thread::stack' o='128' t='downwards_stack_t'/>
-<mbr r='_thread::status' o='320' t='thread_status_t'/>
+<mbr r='_thread::status' o='64' t='thread_status_t'/>
+<mbr r='_thread::owner' o='128' t='process_t *'/>
+<mbr r='_thread::stack' o='192' t='downwards_stack_t'/>
 <mbr r='_thread::kernel_stack' o='384' t='downwards_stack_t'/>
 <mbr r='_thread::context' o='576' t='platform_context_t *'/>
 <mbr r='_thread::flags' o='640' t='thread_flags_t'/>

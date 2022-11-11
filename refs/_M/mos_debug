@@ -30,5 +30,5 @@
 <use f='MOS/kernel/mm/cow.c' l='62' u='c'/>
 <use f='MOS/kernel/tasks/fork.c' l='16' u='c'/>
 <use f='MOS/kernel/tasks/fork.c' l='26' u='c'/>
-<use f='MOS/kernel/tasks/process.c' l='136' u='c'/>
-<use f='MOS/kernel/tasks/process.c' l='152' u='c'/>
+<use f='MOS/kernel/tasks/process.c' l='137' u='c'/>
+<use f='MOS/kernel/tasks/process.c' l='153' u='c'/>
