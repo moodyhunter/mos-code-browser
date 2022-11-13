@@ -2,9 +2,10 @@
 <use f='MOS/kernel/filesystem/filesystem.c' l='65' u='c' c='vfs_open'/>
 <use f='MOS/kernel/filesystem/mount.c' l='41' u='c' c='kmount'/>
 <use f='MOS/kernel/filesystem/pathutils.c' l='59' u='c' c='impl_path_get_subpath'/>
-<use f='MOS/kernel/tasks/task_io.c' l='46' u='c' c='process_stdio_setup'/>
-<use f='MOS/kernel/tasks/task_io.c' l='51' u='c' c='process_stdio_setup'/>
-<use f='MOS/kernel/tasks/task_io.c' l='56' u='c' c='process_stdio_setup'/>
+<use f='MOS/kernel/tasks/task_io.c' l='53' u='c' c='process_stdio_setup'/>
+<use f='MOS/kernel/tasks/task_io.c' l='58' u='c' c='process_stdio_setup'/>
+<use f='MOS/kernel/tasks/task_io.c' l='63' u='c' c='process_stdio_setup'/>
+<use f='MOS/lib/structures/hashmap.c' l='25' u='c' c='hashmap_init'/>
 <use f='MOS/tests/memops/test_memops.c' l='9' u='c' c='test_lib_memcpy'/>
 <use f='MOS/tests/memops/test_memops.c' l='10' u='c' c='test_lib_memcpy'/>
 <use f='MOS/tests/memops/test_memops.c' l='26' u='c' c='test_lib_memmove_simple'/>

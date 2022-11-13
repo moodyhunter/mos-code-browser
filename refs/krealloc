@@ -2,5 +2,5 @@
 <use f='MOS/kernel/cmdline.c' l='24' u='c' c='mos_cmdline_create'/>
 <use f='MOS/kernel/cmdline.c' l='43' u='c' c='mos_cmdline_create'/>
 <use f='MOS/kernel/filesystem/mount.c' l='30' u='c' c='kmount_add_mp'/>
-<use f='MOS/kernel/tasks/process.c' l='144' u='c' c='process_attach_mmap'/>
+<use f='MOS/kernel/tasks/process.c' l='143' u='c' c='process_attach_mmap'/>
 <use f='MOS/lib/structures/tree.c' l='19' u='c' c='tree_add_child'/>

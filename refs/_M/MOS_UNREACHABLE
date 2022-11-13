@@ -5,5 +5,5 @@
 <use f='MOS/kernel/kernel_init.c' l='63' u='c'/>
 <use f='MOS/kernel/kernel_init.c' l='98' u='c'/>
 <use f='MOS/kernel/ksyscall.c' l='77' u='c'/>
-<use f='MOS/kernel/ksyscall.c' l='148' u='c'/>
-<use f='MOS/kernel/tasks/process.c' l='179' u='c'/>
+<use f='MOS/kernel/ksyscall.c' l='149' u='c'/>
+<use f='MOS/kernel/tasks/process.c' l='207' u='c'/>

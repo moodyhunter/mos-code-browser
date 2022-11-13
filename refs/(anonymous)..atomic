@@ -5,8 +5,4 @@
 <use f='MOS/kernel/filesystem/pathutils.c' l='178' u='w' c='path_treeop_decrement_refcount'/>
 <use f='MOS/kernel/filesystem/pathutils.c' l='185' u='w' c='path_treeop_increment_refcount'/>
 <use f='MOS/kernel/io/io.c' l='17' u='w' c='io_ref'/>
-<use f='MOS/kernel/io/io.c' l='23' u='w' c='io_unref'/>
-<use f='MOS/kernel/io/io.c' l='24' u='r' c='io_unref'/>
-<use f='MOS/kernel/io/io.c' l='75' u='w' c='io_close'/>
-<use f='MOS/kernel/io/io.c' l='76' u='r' c='io_close'/>
-<use f='MOS/kernel/io/io.c' l='77' u='r' c='io_close'/>
+<use f='MOS/kernel/io/io.c' l='30' u='r' c='io_unref'/>

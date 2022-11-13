@@ -22,6 +22,7 @@
 <use f='MOS/kernel/mm/cow.c' l='34' u='c' c='copy_cow_pages_inplace'/>
 <use f='MOS/kernel/tasks/process.c' l='60' u='c' c='process_allocate'/>
 <use f='MOS/kernel/tasks/process.c' l='85' u='c' c='process_deinit'/>
+<use f='MOS/kernel/tasks/task_io.c' l='44' u='c' c='stdio_close'/>
 <use f='MOS/kernel/tasks/thread.c' l='62' u='c' c='thread_deinit'/>
 <use f='MOS/lib/structures/hashmap.c' l='42' u='c' c='hashmap_deinit'/>
 <use f='MOS/lib/structures/hashmap.c' l='46' u='c' c='hashmap_deinit'/>

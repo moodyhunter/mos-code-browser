@@ -1,7 +1,8 @@
 <def f='MOS/kernel/include/mos/tasks/process.h' l='17' ll='20' macro='1' type='_Bool process_is_valid(process_t * process)'/>
 <use f='MOS/kernel/tasks/fork.c' l='15' u='c' c='process_handle_fork'/>
-<use f='MOS/kernel/tasks/process.c' l='109' u='c' c='process_attach_fd'/>
-<use f='MOS/kernel/tasks/process.c' l='123' u='c' c='process_detach_fd'/>
-<use f='MOS/kernel/tasks/process.c' l='134' u='c' c='process_attach_thread'/>
-<use f='MOS/kernel/tasks/process.c' l='143' u='c' c='process_attach_mmap'/>
-<use f='MOS/kernel/tasks/process.c' l='150' u='c' c='process_handle_exit'/>
+<use f='MOS/kernel/tasks/process.c' l='108' u='c' c='process_attach_fd'/>
+<use f='MOS/kernel/tasks/process.c' l='122' u='c' c='process_detach_fd'/>
+<use f='MOS/kernel/tasks/process.c' l='133' u='c' c='process_attach_thread'/>
+<use f='MOS/kernel/tasks/process.c' l='142' u='c' c='process_attach_mmap'/>
+<use f='MOS/kernel/tasks/process.c' l='149' u='c' c='process_handle_exit'/>
+<use f='MOS/kernel/tasks/process.c' l='174' u='c' c='process_handle_cleanup'/>

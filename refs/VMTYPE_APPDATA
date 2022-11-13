@@ -1,3 +1,4 @@
 <dec f='MOS/kernel/include/mos/platform/platform.h' l='48' type='1'/>
+<doc f='MOS/kernel/include/mos/platform/platform.h' l='48'>// &apos;.data&apos; and &apos;.bss&apos; sections</doc>
 <use f='MOS/kernel/elf/elf.c' l='108' u='r' c='process_create_from_elf'/>
-<use f='MOS/kernel/tasks/process.c' l='175' c='process_dump_mmaps'/>
+<use f='MOS/kernel/tasks/process.c' l='203' c='process_dump_mmaps'/>

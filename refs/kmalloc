@@ -18,7 +18,6 @@
 <use f='MOS/kernel/tasks/thread.c' l='39' u='c' c='thread_allocate'/>
 <use f='MOS/kernel/tasks/thread.c' l='54' u='c' c='thread_init'/>
 <use f='MOS/lib/string.c' l='148' u='c' c='duplicate_string'/>
-<use f='MOS/lib/structures/hashmap.c' l='25' u='c' c='hashmap_init'/>
 <use f='MOS/lib/structures/hashmap.c' l='65' u='c' c='hashmap_put'/>
 <use f='MOS/tests/downwards_stack/test_downwards_stack.c' l='24' u='c' c='stack_push_pop_stack'/>
 <use f='MOS/tests/kmalloc/test_kmalloc.c' l='9' u='c' c='kmalloc_single'/>

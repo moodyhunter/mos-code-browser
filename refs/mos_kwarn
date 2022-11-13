@@ -34,11 +34,10 @@
 <use f='MOS/kernel/filesystem/mount.c' l='76' macro='1' u='c' c='kunmount'/>
 <use f='MOS/kernel/filesystem/pathutils.c' l='43' macro='1' u='c' c='impl_path_get_subpath'/>
 <use f='MOS/kernel/filesystem/pathutils.c' l='90' macro='1' u='c' c='path_find_fsnode'/>
-<use f='MOS/kernel/io/io.c' l='40' macro='1' u='c' c='io_read'/>
-<use f='MOS/kernel/io/io.c' l='55' macro='1' u='c' c='io_write'/>
-<use f='MOS/kernel/io/io.c' l='65' macro='1' u='c' c='io_close'/>
-<use f='MOS/kernel/io/io.c' l='71' macro='1' u='c' c='io_close'/>
-<use f='MOS/kernel/io/io.c' l='77' macro='1' u='c' c='io_close'/>
+<use f='MOS/kernel/io/io.c' l='26' macro='1' u='c' c='io_unref'/>
+<use f='MOS/kernel/io/io.c' l='35' macro='1' u='c' c='io_unref'/>
+<use f='MOS/kernel/io/io.c' l='53' macro='1' u='c' c='io_read'/>
+<use f='MOS/kernel/io/io.c' l='68' macro='1' u='c' c='io_write'/>
 <use f='MOS/kernel/ksyscall.c' l='20' macro='1' u='c' c='impl_syscall_panic'/>
 <use f='MOS/kernel/ksyscall.c' l='47' macro='1' u='c' c='impl_syscall_io_read'/>
 <use f='MOS/kernel/ksyscall.c' l='56' macro='1' u='c' c='impl_syscall_io_write'/>
@@ -59,9 +58,9 @@
 <use f='MOS/kernel/mm/liballoc.c' l='666' macro='1' u='c' c='liballoc_realloc'/>
 <use f='MOS/kernel/panic.c' l='30' macro='1' u='c' c='kwarn_handler_remove'/>
 <def f='MOS/kernel/panic.c' l='72' ll='90' type='void mos_kwarn(const char * func, u32 line, const char * fmt)'/>
-<use f='MOS/kernel/tasks/process.c' l='103' macro='1' u='c' c='process_get'/>
-<use f='MOS/kernel/tasks/process.c' l='113' macro='1' u='c' c='process_attach_fd'/>
-<use f='MOS/kernel/tasks/process.c' l='159' macro='1' u='c' c='process_handle_exit'/>
+<use f='MOS/kernel/tasks/process.c' l='102' macro='1' u='c' c='process_get'/>
+<use f='MOS/kernel/tasks/process.c' l='112' macro='1' u='c' c='process_attach_fd'/>
+<use f='MOS/kernel/tasks/process.c' l='158' macro='1' u='c' c='process_handle_exit'/>
 <use f='MOS/kernel/tasks/thread.c' l='107' macro='1' u='c' c='thread_handle_exit'/>
 <use f='MOS/lib/stdio_impl.c' l='173' macro='1' u='c' c='parse_printf_flags'/>
 <use f='MOS/lib/stdio_impl.c' l='179' macro='1' u='c' c='parse_printf_flags'/>

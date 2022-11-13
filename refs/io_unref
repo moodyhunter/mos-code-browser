@@ -1,3 +1,6 @@
 <dec f='MOS/kernel/include/mos/io/io.h' l='40' type='void io_unref(io_t * io)'/>
+<use f='MOS/kernel/elf/elf.c' l='133' u='c' c='process_create_from_elf'/>
 <use f='MOS/kernel/filesystem/filesystem.c' l='24' u='c' c='vfs_io_ops_close'/>
-<def f='MOS/kernel/io/io.c' l='20' ll='28' type='void io_unref(io_t * io)'/>
+<def f='MOS/kernel/io/io.c' l='20' ll='41' type='void io_unref(io_t * io)'/>
+<use f='MOS/kernel/tasks/process.c' l='125' u='c' c='process_detach_fd'/>
+<use f='MOS/kernel/tasks/process.c' l='167' u='c' c='process_handle_exit'/>
