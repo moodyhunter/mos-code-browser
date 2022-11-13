@@ -2,7 +2,7 @@
 <offset>1088</offset>
 <use f='MOS/arch/x86/devices/serial_console.c' l='20' u='w' c='serial_console_setup'/>
 <use f='MOS/arch/x86/devices/text_mode_console.c' l='173' u='w'/>
-<use f='MOS/kernel/printk.c' l='60' u='r' c='lprintk'/>
-<use f='MOS/kernel/printk.c' l='67' u='r' c='lprintk'/>
+<use f='MOS/kernel/printk.c' l='45' u='r' c='lprintk'/>
+<use f='MOS/kernel/printk.c' l='52' u='r' c='lprintk'/>
 <use f='MOS/tests/test_engine.c' l='25' u='r' c='for_each_console_print_with_color'/>
 <use f='MOS/tests/test_engine.c' l='32' u='r' c='for_each_console_print_with_color'/>

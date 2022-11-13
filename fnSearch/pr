@@ -2,7 +2,6 @@ print_debug_info|print_debug_info
 print_cpu_info|print_cpu_info
 process_create_from_elf|process_create_from_elf
 process_is_valid|process_is_valid
-printk|printk
 process_handle_fork|process_handle_fork
 process_allocate|process_allocate
 process_attach_fd|process_attach_fd

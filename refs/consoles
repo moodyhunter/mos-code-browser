@@ -3,9 +3,7 @@
 <use f='MOS/kernel/device/console.c' l='22' u='a'/>
 <def f='MOS/kernel/device/console.c' l='26' type='list_node_t'/>
 <use f='MOS/kernel/device/console.c' l='36' u='a' c='mos_install_console'/>
-<use f='MOS/kernel/printk.c' l='36' u='m' c='printk'/>
-<use f='MOS/kernel/printk.c' l='36' u='a' c='printk'/>
-<use f='MOS/kernel/printk.c' l='55' u='m' c='lprintk'/>
-<use f='MOS/kernel/printk.c' l='55' u='a' c='lprintk'/>
+<use f='MOS/kernel/printk.c' l='40' u='m' c='lprintk'/>
+<use f='MOS/kernel/printk.c' l='40' u='a' c='lprintk'/>
 <use f='MOS/tests/test_engine.c' l='19' u='m' c='for_each_console_print_with_color'/>
 <use f='MOS/tests/test_engine.c' l='19' u='a' c='for_each_console_print_with_color'/>

@@ -1,4 +1,4 @@
-<dec f='MOS/kernel/include/mos/printk.h' l='72' type='void mos_kpanic(const char * func, u32 line, const char * fmt)'/>
+<dec f='MOS/kernel/include/mos/printk.h' l='73' type='void mos_kpanic(const char * func, u32 line, const char * fmt)'/>
 <use f='MOS/arch/x86/acpi/acpi.c' l='37' macro='1' u='c' c='x86_acpi_init'/>
 <use f='MOS/arch/x86/acpi/acpi.c' l='43' macro='1' u='c' c='x86_acpi_init'/>
 <use f='MOS/arch/x86/acpi/acpi.c' l='45' macro='1' u='c' c='x86_acpi_init'/>

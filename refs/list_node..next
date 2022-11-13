@@ -8,10 +8,8 @@
 <use f='MOS/kernel/panic.c' l='17' macro='1' u='w'/>
 <use f='MOS/kernel/panic.c' l='60' macro='1' u='r' c='mos_kpanic'/>
 <use f='MOS/kernel/panic.c' l='60' macro='1' u='r' c='mos_kpanic'/>
-<use f='MOS/kernel/printk.c' l='36' macro='1' u='r' c='printk'/>
-<use f='MOS/kernel/printk.c' l='36' macro='1' u='r' c='printk'/>
-<use f='MOS/kernel/printk.c' l='55' macro='1' u='r' c='lprintk'/>
-<use f='MOS/kernel/printk.c' l='55' macro='1' u='r' c='lprintk'/>
+<use f='MOS/kernel/printk.c' l='40' macro='1' u='r' c='lprintk'/>
+<use f='MOS/kernel/printk.c' l='40' macro='1' u='r' c='lprintk'/>
 <use f='MOS/lib/structures/list.c' l='8' u='w' c='linked_list_init'/>
 <use f='MOS/lib/structures/list.c' l='13' u='r' c='list_is_empty'/>
 <use f='MOS/lib/structures/list.c' l='18' u='w' c='list_node_remove'/>

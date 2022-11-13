@@ -3,4 +3,4 @@
 <use f='MOS/arch/x86/devices/serial_console.c' l='61' u='r' c='get_ansi_color'/>
 <use f='MOS/arch/x86/devices/text_mode_console.c' l='30'/>
 <use f='MOS/kernel/printk.c' l='22' u='r' c='deduce_level_color'/>
-<use f='MOS/kernel/printk.c' l='44' u='r' c='lprintk'/>
+<use f='MOS/kernel/printk.c' l='29' u='r' c='lprintk'/>
