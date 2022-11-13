@@ -1,6 +1,6 @@
 <dec f='MOS/kernel/include/mos/tasks/task_type.h' l='70' type='tid_t'/>
-<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='143' u='r' c='x86_handle_interrupt'/>
-<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='216' u='r' c='x86_handle_exception'/>
+<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='135' u='r' c='x86_handle_interrupt'/>
+<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='208' u='r' c='x86_handle_exception'/>
 <offset>32</offset>
 <use f='MOS/arch/x86/x86_platform.c' l='63' u='r' c='x86_kpanic_hook'/>
 <use f='MOS/kernel/ksyscall.c' l='18' u='r' c='impl_syscall_panic'/>

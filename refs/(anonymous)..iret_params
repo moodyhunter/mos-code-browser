@@ -6,9 +6,9 @@
 <use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='103' u='m' c='x86_dump_registers'/>
 <use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='104' u='m' c='x86_dump_registers'/>
 <use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='104' u='m' c='x86_dump_registers'/>
-<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='116' u='m' c='x86_handle_interrupt'/>
-<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='119' u='m' c='x86_handle_interrupt'/>
-<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='145' u='m' c='x86_handle_interrupt'/>
-<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='209' u='m' c='x86_handle_exception'/>
-<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='220' u='m' c='x86_handle_exception'/>
-<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='241' u='m' c='x86_handle_exception'/>
+<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='115' u='m' c='x86_handle_interrupt'/>
+<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='118' u='m' c='x86_handle_interrupt'/>
+<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='137' u='m' c='x86_handle_interrupt'/>
+<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='201' u='m' c='x86_handle_exception'/>
+<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='212' u='m' c='x86_handle_exception'/>
+<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='233' u='m' c='x86_handle_exception'/>
