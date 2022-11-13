@@ -43,7 +43,7 @@
 <use f='MOS/arch/x86/mm/pmem_freelist.c' l='216' macro='1' u='r' c='pmem_freelist_remove_region'/>
 <use f='MOS/arch/x86/mm/pmem_freelist.c' l='221' macro='1' u='r' c='pmem_freelist_remove_region'/>
 <use f='MOS/arch/x86/mm/pmem_freelist.c' l='281' macro='1' u='r' c='pmem_freelist_find_free'/>
-<use f='MOS/kernel/device/console.c' l='41' macro='1' u='r' c='mos_install_console'/>
+<use f='MOS/kernel/device/console.c' l='42' macro='1' u='r' c='console_register'/>
 <use f='MOS/kernel/elf/elf.c' l='75' macro='1' u='r' c='process_create_from_elf'/>
 <use f='MOS/kernel/filesystem/cpio/cpio.c' l='115' macro='1' u='r' c='cpio_open'/>
 <use f='MOS/kernel/filesystem/filesystem.c' l='112' macro='1' u='r' c='vfs_path_open'/>
@@ -57,7 +57,7 @@
 <use f='MOS/kernel/ksyscall.c' l='74' macro='1' u='r' c='impl_syscall_exit'/>
 <use f='MOS/kernel/ksyscall.c' l='146' macro='1' u='r' c='impl_syscall_thread_exit'/>
 <use f='MOS/kernel/mm/cow.c' l='62' macro='1' u='r' c='cow_handle_page_fault'/>
-<use f='MOS/kernel/printk.c' l='17' c='deduce_level_color'/>
+<use f='MOS/kernel/printk.c' l='62' c='deduce_level_color'/>
 <use f='MOS/kernel/tasks/fork.c' l='16' macro='1' u='r' c='process_handle_fork'/>
 <use f='MOS/kernel/tasks/fork.c' l='26' macro='1' u='r' c='process_handle_fork'/>
 <use f='MOS/kernel/tasks/process.c' l='136' macro='1' u='r' c='process_attach_thread'/>

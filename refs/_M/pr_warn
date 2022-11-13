@@ -10,3 +10,5 @@
 <use f='MOS/kernel/kernel_init.c' l='42' u='c'/>
 <use f='MOS/kernel/panic.c' l='22' u='c'/>
 <use f='MOS/kernel/panic.c' l='28' u='c'/>
+<use f='MOS/kernel/printk.c' l='23' u='c'/>
+<use f='MOS/kernel/printk.c' l='28' u='c'/>

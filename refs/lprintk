@@ -25,6 +25,8 @@
 <use f='MOS/arch/x86/cpu/smp.c' l='124' macro='1' u='c' c='x86_smp_init'/>
 <use f='MOS/arch/x86/cpu/smp.c' l='130' macro='1' u='c' c='x86_smp_init'/>
 <use f='MOS/arch/x86/cpu/smp.c' l='144' macro='1' u='c' c='x86_smp_init'/>
+<use f='MOS/arch/x86/devices/serial.c' l='12' macro='1' u='c' c='serial_irq_handler'/>
+<use f='MOS/arch/x86/devices/serial.c' l='18' macro='1' u='c' c='serial_irq_handler'/>
 <use f='MOS/arch/x86/interrupt/apic.c' l='45' macro='1' u='c' c='apic_reg_read_offset_32'/>
 <use f='MOS/arch/x86/interrupt/apic.c' l='52' macro='1' u='c' c='apic_reg_write_offset_32'/>
 <use f='MOS/arch/x86/interrupt/apic.c' l='58' macro='1' u='c' c='apic_reg_write_offset_64'/>
@@ -81,8 +83,8 @@
 <use f='MOS/arch/x86/x86_platform.c' l='77' macro='1' u='c' c='x86_kpanic_hook'/>
 <use f='MOS/arch/x86/x86_platform.c' l='81' macro='1' u='c' c='x86_kpanic_hook'/>
 <use f='MOS/arch/x86/x86_platform.c' l='127' macro='1' u='c' c='x86_start_kernel'/>
-<use f='MOS/kernel/device/console.c' l='37' macro='1' u='c' c='mos_install_console'/>
-<use f='MOS/kernel/device/console.c' l='41' macro='1' u='c' c='mos_install_console'/>
+<use f='MOS/kernel/device/console.c' l='38' macro='1' u='c' c='console_register'/>
+<use f='MOS/kernel/device/console.c' l='42' macro='1' u='c' c='console_register'/>
 <use f='MOS/kernel/elf/elf.c' l='59' macro='1' u='c' c='process_create_from_elf'/>
 <use f='MOS/kernel/elf/elf.c' l='66' macro='1' u='c' c='process_create_from_elf'/>
 <use f='MOS/kernel/elf/elf.c' l='75' macro='1' u='c' c='process_create_from_elf'/>
@@ -106,8 +108,8 @@
 <use f='MOS/kernel/kernel_init.c' l='54' macro='1' u='c' c='dump_cmdline'/>
 <use f='MOS/kernel/kernel_init.c' l='61' macro='1' u='c' c='dump_cmdline'/>
 <use f='MOS/kernel/kernel_init.c' l='62' macro='1' u='c' c='dump_cmdline'/>
-<use f='MOS/kernel/kernel_init.c' l='73' macro='1' u='c' c='mos_start_kernel'/>
-<use f='MOS/kernel/kernel_init.c' l='95' macro='1' u='c' c='mos_start_kernel'/>
+<use f='MOS/kernel/kernel_init.c' l='74' macro='1' u='c' c='mos_start_kernel'/>
+<use f='MOS/kernel/kernel_init.c' l='96' macro='1' u='c' c='mos_start_kernel'/>
 <use f='MOS/kernel/ksyscall.c' l='74' macro='1' u='c' c='impl_syscall_exit'/>
 <use f='MOS/kernel/ksyscall.c' l='146' macro='1' u='c' c='impl_syscall_thread_exit'/>
 <use f='MOS/kernel/mm/cow.c' l='62' macro='1' u='c' c='cow_handle_page_fault'/>
@@ -125,7 +127,11 @@
 <use f='MOS/kernel/panic.c' l='65' macro='1' u='c' c='mos_kpanic'/>
 <use f='MOS/kernel/panic.c' l='88' u='c' c='mos_kwarn'/>
 <use f='MOS/kernel/panic.c' l='89' u='c' c='mos_kwarn'/>
-<def f='MOS/kernel/printk.c' l='27' ll='55' type='void lprintk(int loglevel, const char * fmt)'/>
+<use f='MOS/kernel/printk.c' l='23' macro='1' u='c' c='printk_setup_console'/>
+<use f='MOS/kernel/printk.c' l='28' macro='1' u='c' c='printk_setup_console'/>
+<use f='MOS/kernel/printk.c' l='37' macro='1' u='c' c='printk_setup_console'/>
+<use f='MOS/kernel/printk.c' l='47' macro='1' u='c' c='printk_setup_console'/>
+<def f='MOS/kernel/printk.c' l='95' ll='115' type='void lprintk(int loglevel, const char * fmt)'/>
 <use f='MOS/kernel/tasks/fork.c' l='16' macro='1' u='c' c='process_handle_fork'/>
 <use f='MOS/kernel/tasks/fork.c' l='26' macro='1' u='c' c='process_handle_fork'/>
 <use f='MOS/kernel/tasks/process.c' l='59' macro='1' u='c' c='process_allocate'/>

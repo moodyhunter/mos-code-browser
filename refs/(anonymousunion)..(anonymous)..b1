@@ -1,4 +1,4 @@
 <dec f='MOS/kernel/include/mos/types.h' l='46' type='_Bool'/>
 <offset>1</offset>
-<use f='MOS/arch/x86/devices/serial.c' l='43' u='w' c='set_stop_bits'/>
-<use f='MOS/arch/x86/devices/serial.c' l='67' u='w' c='serial_set_modem_options'/>
+<use f='MOS/arch/x86/devices/serial.c' l='51' u='w' c='set_stop_bits'/>
+<use f='MOS/arch/x86/devices/serial.c' l='75' u='w' c='serial_set_modem_options'/>

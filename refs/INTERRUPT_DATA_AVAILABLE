@@ -1,4 +1,4 @@
 <dec f='MOS/arch/x86/include/mos/x86/devices/serial.h' l='58' type='1'/>
 <use f='MOS/arch/x86/include/mos/x86/devices/serial.h' l='63' u='r'/>
-<use f='MOS/arch/x86/devices/serial.c' l='112' u='r' c='serial_device_setup'/>
+<use f='MOS/arch/x86/devices/serial.c' l='120' u='r' c='serial_device_setup'/>
 <doc f='MOS/arch/x86/include/mos/x86/devices/serial.h' l='58'>// Data ready interrupt</doc>

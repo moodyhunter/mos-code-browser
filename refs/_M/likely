@@ -1,3 +1,4 @@
 <dec f='MOS/kernel/include/mos/mos_global.h' l='28'/>
+<use f='MOS/kernel/printk.c' l='104' u='c'/>
 <use f='MOS/kernel/tasks/process.c' l='53' u='c'/>
 <use f='MOS/kernel/tasks/schedule.c' l='16' u='c'/>

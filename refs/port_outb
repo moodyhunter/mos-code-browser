@@ -1,14 +1,14 @@
 <def f='MOS/arch/x86/include/mos/x86/devices/port.h' l='31' ll='34' macro='1' type='void port_outb(u16 port, u8 value)'/>
-<use f='MOS/arch/x86/devices/serial.c' l='20' u='c' c='set_baudrate_divisor'/>
-<use f='MOS/arch/x86/devices/serial.c' l='23' u='c' c='set_baudrate_divisor'/>
-<use f='MOS/arch/x86/devices/serial.c' l='26' u='c' c='set_baudrate_divisor'/>
-<use f='MOS/arch/x86/devices/serial.c' l='30' u='c' c='set_baudrate_divisor'/>
-<use f='MOS/arch/x86/devices/serial.c' l='37' u='c' c='set_data_bits'/>
-<use f='MOS/arch/x86/devices/serial.c' l='44' u='c' c='set_stop_bits'/>
-<use f='MOS/arch/x86/devices/serial.c' l='51' u='c' c='set_parity'/>
-<use f='MOS/arch/x86/devices/serial.c' l='58' u='c' c='serial_set_interrupts'/>
-<use f='MOS/arch/x86/devices/serial.c' l='72' u='c' c='serial_set_modem_options'/>
-<use f='MOS/arch/x86/devices/serial.c' l='137' u='c' c='serial_device_write'/>
+<use f='MOS/arch/x86/devices/serial.c' l='28' u='c' c='set_baudrate_divisor'/>
+<use f='MOS/arch/x86/devices/serial.c' l='31' u='c' c='set_baudrate_divisor'/>
+<use f='MOS/arch/x86/devices/serial.c' l='34' u='c' c='set_baudrate_divisor'/>
+<use f='MOS/arch/x86/devices/serial.c' l='38' u='c' c='set_baudrate_divisor'/>
+<use f='MOS/arch/x86/devices/serial.c' l='45' u='c' c='set_data_bits'/>
+<use f='MOS/arch/x86/devices/serial.c' l='52' u='c' c='set_stop_bits'/>
+<use f='MOS/arch/x86/devices/serial.c' l='59' u='c' c='set_parity'/>
+<use f='MOS/arch/x86/devices/serial.c' l='66' u='c' c='serial_set_interrupts'/>
+<use f='MOS/arch/x86/devices/serial.c' l='80' u='c' c='serial_set_modem_options'/>
+<use f='MOS/arch/x86/devices/serial.c' l='145' u='c' c='serial_device_write'/>
 <use f='MOS/arch/x86/devices/text_mode_console.c' l='72' u='c' c='screen_set_cursor_pos'/>
 <use f='MOS/arch/x86/devices/text_mode_console.c' l='73' u='c' c='screen_set_cursor_pos'/>
 <use f='MOS/arch/x86/devices/text_mode_console.c' l='74' u='c' c='screen_set_cursor_pos'/>

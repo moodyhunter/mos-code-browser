@@ -1,6 +1,6 @@
 <dec f='MOS/lib/include/lib/containers.h' l='29'/>
 <doc f='MOS/lib/include/lib/containers.h' l='28'>// clang-format off</doc>
-<use f='MOS/kernel/device/console.c' l='22' u='c'/>
+<use f='MOS/kernel/device/console.c' l='23' u='c'/>
 <use f='MOS/kernel/panic.c' l='17' u='c'/>
 <use f='MOS/tests/linked_list/test_linked_list.c' l='24' u='c'/>
 <use f='MOS/tests/linked_list/test_linked_list.c' l='41' u='c'/>

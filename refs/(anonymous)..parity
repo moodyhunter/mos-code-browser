@@ -1,4 +1,4 @@
 <dec f='MOS/arch/x86/include/mos/x86/devices/serial.h' l='120' type='serial_port_parity_t'/>
-<use f='MOS/arch/x86/devices/serial.c' l='93' u='r' c='serial_device_setup'/>
+<use f='MOS/arch/x86/devices/serial.c' l='101' u='r' c='serial_device_setup'/>
 <offset>128</offset>
 <use f='MOS/arch/x86/x86_platform.c' l='28' u='w'/>

@@ -1,4 +1,4 @@
 <dec f='MOS/kernel/include/mos/mos_global.h' l='31'/>
-<use f='MOS/arch/x86/devices/serial.c' l='17' u='c'/>
-<use f='MOS/arch/x86/devices/serial.c' l='42' u='c'/>
-<use f='MOS/arch/x86/devices/serial.c' l='63' u='c'/>
+<use f='MOS/arch/x86/devices/serial.c' l='25' u='c'/>
+<use f='MOS/arch/x86/devices/serial.c' l='50' u='c'/>
+<use f='MOS/arch/x86/devices/serial.c' l='71' u='c'/>

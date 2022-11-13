@@ -12,6 +12,8 @@
 <use f='MOS/kernel/panic.c' l='28' macro='1' u='r' c='kwarn_handler_remove'/>
 <use f='MOS/kernel/panic.c' l='88' u='r' c='mos_kwarn'/>
 <use f='MOS/kernel/panic.c' l='89' u='r' c='mos_kwarn'/>
-<use f='MOS/kernel/printk.c' l='20' c='deduce_level_color'/>
+<use f='MOS/kernel/printk.c' l='23' macro='1' u='r' c='printk_setup_console'/>
+<use f='MOS/kernel/printk.c' l='28' macro='1' u='r' c='printk_setup_console'/>
+<use f='MOS/kernel/printk.c' l='65' c='deduce_level_color'/>
 <use f='MOS/tests/test_engine.c' l='67' u='r' c='test_engine_warning_handler'/>
 <use f='MOS/tests/test_engine.c' l='68' u='r' c='test_engine_warning_handler'/>

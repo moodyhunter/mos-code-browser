@@ -1,2 +1,4 @@
+console_get|console_get
+console_register|console_register
 copy_cow_pages_inplace|copy_cow_pages_inplace
 cow_handle_page_fault|cow_handle_page_fault

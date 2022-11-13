@@ -1,4 +1,4 @@
 <dec f='MOS/arch/x86/include/mos/x86/devices/serial.h' l='127' type='void serial_dev_wait_ready_to_read(serial_device_t * device)'/>
-<def f='MOS/arch/x86/devices/serial.c' l='116' ll='121' type='void serial_dev_wait_ready_to_read(serial_device_t * device)'/>
-<use f='MOS/arch/x86/devices/serial.c' l='148' u='c' c='serial_device_read'/>
-<use f='MOS/arch/x86/devices/serial.c' l='161' u='c' c='serial_dev_readline'/>
+<def f='MOS/arch/x86/devices/serial.c' l='124' ll='129' type='void serial_dev_wait_ready_to_read(serial_device_t * device)'/>
+<use f='MOS/arch/x86/devices/serial.c' l='156' u='c' c='serial_device_read'/>
+<use f='MOS/arch/x86/devices/serial.c' l='169' u='c' c='serial_dev_readline'/>

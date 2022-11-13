@@ -1,4 +1,4 @@
 <dec f='MOS/arch/x86/include/mos/x86/devices/serial.h' l='24' type='4'/>
-<use f='MOS/arch/x86/devices/serial.c' l='63' u='r' c='serial_set_modem_options'/>
-<use f='MOS/arch/x86/devices/serial.c' l='72' u='r' c='serial_set_modem_options'/>
+<use f='MOS/arch/x86/devices/serial.c' l='71' u='r' c='serial_set_modem_options'/>
+<use f='MOS/arch/x86/devices/serial.c' l='80' u='r' c='serial_set_modem_options'/>
 <doc f='MOS/arch/x86/include/mos/x86/devices/serial.h' l='24'>// Modem Control Register</doc>

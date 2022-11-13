@@ -1,14 +1,16 @@
 <def f='MOS/arch/x86/include/mos/x86/devices/port.h' l='10' ll='15' macro='1' type='u8 port_inb(u16 port)'/>
-<use f='MOS/arch/x86/devices/serial.c' l='17' u='c' c='set_baudrate_divisor'/>
-<use f='MOS/arch/x86/devices/serial.c' l='35' u='c' c='set_data_bits'/>
-<use f='MOS/arch/x86/devices/serial.c' l='42' u='c' c='set_stop_bits'/>
-<use f='MOS/arch/x86/devices/serial.c' l='49' u='c' c='set_parity'/>
-<use f='MOS/arch/x86/devices/serial.c' l='56' u='c' c='serial_set_interrupts'/>
-<use f='MOS/arch/x86/devices/serial.c' l='63' u='c' c='serial_set_modem_options'/>
-<use f='MOS/arch/x86/devices/serial.c' l='77' u='c' c='serial_get_line_status'/>
-<use f='MOS/arch/x86/devices/serial.c' l='82' u='c' c='serial_get_modem_status'/>
-<use f='MOS/arch/x86/devices/serial.c' l='149' u='c' c='serial_device_read'/>
-<use f='MOS/arch/x86/devices/serial.c' l='162' u='c' c='serial_dev_readline'/>
+<use f='MOS/arch/x86/devices/serial.c' l='14' u='c' c='serial_irq_handler'/>
+<use f='MOS/arch/x86/devices/serial.c' l='17' u='c' c='serial_irq_handler'/>
+<use f='MOS/arch/x86/devices/serial.c' l='25' u='c' c='set_baudrate_divisor'/>
+<use f='MOS/arch/x86/devices/serial.c' l='43' u='c' c='set_data_bits'/>
+<use f='MOS/arch/x86/devices/serial.c' l='50' u='c' c='set_stop_bits'/>
+<use f='MOS/arch/x86/devices/serial.c' l='57' u='c' c='set_parity'/>
+<use f='MOS/arch/x86/devices/serial.c' l='64' u='c' c='serial_set_interrupts'/>
+<use f='MOS/arch/x86/devices/serial.c' l='71' u='c' c='serial_set_modem_options'/>
+<use f='MOS/arch/x86/devices/serial.c' l='85' u='c' c='serial_get_line_status'/>
+<use f='MOS/arch/x86/devices/serial.c' l='90' u='c' c='serial_get_modem_status'/>
+<use f='MOS/arch/x86/devices/serial.c' l='157' u='c' c='serial_device_read'/>
+<use f='MOS/arch/x86/devices/serial.c' l='170' u='c' c='serial_dev_readline'/>
 <use f='MOS/arch/x86/devices/text_mode_console.c' l='113' u='c' c='screen_enable_cursur'/>
 <use f='MOS/arch/x86/devices/text_mode_console.c' l='116' u='c' c='screen_enable_cursur'/>
 <use f='MOS/arch/x86/interrupt/pic.c' l='28' u='c' c='pic_remap_irq'/>

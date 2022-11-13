@@ -4,6 +4,7 @@
 <offset>0</offset>
 <use f='MOS/kernel/kernel_init.c' l='40' u='r' c='cmdline_get_init_path'/>
 <use f='MOS/kernel/kernel_init.c' l='61' u='r' c='dump_cmdline'/>
+<use f='MOS/kernel/printk.c' l='32' u='r' c='printk_setup_console'/>
 <use f='MOS/tests/cmdline_parser/test_cmdline_parser.c' l='68' u='r' c='one_arg_with_an_option'/>
 <use f='MOS/tests/cmdline_parser/test_cmdline_parser.c' l='68' u='r' c='one_arg_with_an_option'/>
 <use f='MOS/tests/cmdline_parser/test_cmdline_parser.c' l='81' u='r' c='one_arg_with_multiple_options'/>

@@ -1,4 +1,4 @@
 <dec f='MOS/arch/x86/include/mos/x86/devices/serial.h' l='130' type='int serial_device_read(serial_device_t * device, char * data, size_t length)'/>
-<use f='MOS/arch/x86/devices/serial.c' l='105' u='c' c='serial_device_setup'/>
-<def f='MOS/arch/x86/devices/serial.c' l='142' ll='153' type='int serial_device_read(serial_device_t * device, char * data, size_t length)'/>
+<use f='MOS/arch/x86/devices/serial.c' l='113' u='c' c='serial_device_setup'/>
+<def f='MOS/arch/x86/devices/serial.c' l='150' ll='161' type='int serial_device_read(serial_device_t * device, char * data, size_t length)'/>
 <use f='MOS/arch/x86/devices/serial_console.c' l='39' u='c' c='serial_console_read'/>

@@ -1,4 +1,4 @@
 <dec f='MOS/arch/x86/include/mos/x86/devices/serial.h' l='69' type='2'/>
-<use f='MOS/arch/x86/devices/serial.c' l='67' c='serial_set_modem_options'/>
-<use f='MOS/arch/x86/devices/serial.c' l='96' u='r' c='serial_device_setup'/>
+<use f='MOS/arch/x86/devices/serial.c' l='75' c='serial_set_modem_options'/>
+<use f='MOS/arch/x86/devices/serial.c' l='104' u='r' c='serial_device_setup'/>
 <doc f='MOS/arch/x86/include/mos/x86/devices/serial.h' l='69'>// Request To Send</doc>

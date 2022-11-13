@@ -1,2 +1,2 @@
-<def f='MOS/arch/x86/devices/serial.c' l='33' ll='38' type='void set_data_bits(int com, serial_char_length_t length)'/>
-<use f='MOS/arch/x86/devices/serial.c' l='91' u='c' c='serial_device_setup'/>
+<def f='MOS/arch/x86/devices/serial.c' l='41' ll='46' type='void set_data_bits(int com, serial_char_length_t length)'/>
+<use f='MOS/arch/x86/devices/serial.c' l='99' u='c' c='serial_device_setup'/>

@@ -56,6 +56,7 @@
 <use f='MOS/kernel/mm/liballoc.c' l='662' u='c'/>
 <use f='MOS/kernel/mm/liballoc.c' l='666' u='c'/>
 <use f='MOS/kernel/panic.c' l='30' u='c'/>
+<use f='MOS/kernel/printk.c' l='53' u='c'/>
 <use f='MOS/kernel/tasks/process.c' l='102' u='c'/>
 <use f='MOS/kernel/tasks/process.c' l='112' u='c'/>
 <use f='MOS/kernel/tasks/process.c' l='158' u='c'/>

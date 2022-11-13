@@ -1,2 +1,2 @@
-<def f='MOS/arch/x86/devices/serial.c' l='40' ll='45' type='void set_stop_bits(int com, serial_stop_bits_t stop_bits)'/>
-<use f='MOS/arch/x86/devices/serial.c' l='92' u='c' c='serial_device_setup'/>
+<def f='MOS/arch/x86/devices/serial.c' l='48' ll='53' type='void set_stop_bits(int com, serial_stop_bits_t stop_bits)'/>
+<use f='MOS/arch/x86/devices/serial.c' l='100' u='c' c='serial_device_setup'/>
