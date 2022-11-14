@@ -1,3 +1,6 @@
 <dec f='MOS/lib/include/lib/structures/ring_buffer.h' l='18' type='void ring_buffer_destroy(ring_buffer_t * buffer)'/>
 <def f='MOS/lib/structures/ring_buffer.c' l='34' ll='38' type='void ring_buffer_destroy(ring_buffer_t * buffer)'/>
 <use f='MOS/tests/ring_buffer/test_ring_buffer.c' l='18' u='c' c='ringbuffer_creation_and_destruction'/>
+<use f='MOS/tests/ring_buffer/test_ring_buffer.c' l='101' u='c' c='ringbuffer_put_and_get'/>
+<use f='MOS/tests/ring_buffer/test_ring_buffer.c' l='175' u='c' c='ringbuffer_push_pop_back'/>
+<use f='MOS/tests/ring_buffer/test_ring_buffer.c' l='249' u='c' c='ringbuffer_push_pop_front'/>

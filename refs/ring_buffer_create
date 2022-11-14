@@ -3,4 +3,7 @@
 <use f='MOS/tests/ring_buffer/test_ring_buffer.c' l='10' u='c' c='ringbuffer_creation_and_destruction'/>
 <use f='MOS/tests/ring_buffer/test_ring_buffer.c' l='20' u='c' c='ringbuffer_creation_and_destruction'/>
 <use f='MOS/tests/ring_buffer/test_ring_buffer.c' l='26' u='c' c='ringbuffer_put_and_get'/>
-<use f='MOS/tests/ring_buffer/test_ring_buffer.c' l='104' u='c' c='ringbuffer_put_and_get_with_wrap'/>
+<use f='MOS/tests/ring_buffer/test_ring_buffer.c' l='106' u='c' c='ringbuffer_push_pop_back'/>
+<use f='MOS/tests/ring_buffer/test_ring_buffer.c' l='180' u='c' c='ringbuffer_push_pop_front'/>
+<use f='MOS/tests/ring_buffer/test_ring_buffer.c' l='254' u='c' c='ringbuffer_full_and_empty'/>
+<use f='MOS/tests/ring_buffer/test_ring_buffer.c' l='292' u='c' c='ringbuffer_complicated_ops'/>

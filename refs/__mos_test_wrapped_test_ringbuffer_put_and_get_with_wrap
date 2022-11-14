@@ -1,2 +1,0 @@
-<def f='MOS/tests/ring_buffer/test_ring_buffer.c' l='102' macro='1' type='void __mos_test_wrapped_test_ringbuffer_put_and_get_with_wrap(mos_test_result_t * result)'/>
-<use f='MOS/tests/ring_buffer/test_ring_buffer.c' l='102' macro='1'/>

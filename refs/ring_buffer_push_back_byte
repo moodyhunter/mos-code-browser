@@ -1,12 +1,23 @@
-<def f='MOS/lib/include/lib/structures/ring_buffer.h' l='42' ll='45' macro='1' type='size_t ring_buffer_push_back_byte(ring_buffer_t * buffer, u8 byte)'/>
+<def f='MOS/lib/include/lib/structures/ring_buffer.h' l='45' ll='48' macro='1' type='size_t ring_buffer_push_back_byte(ring_buffer_t * buffer, u8 byte)'/>
 <use f='MOS/tests/ring_buffer/test_ring_buffer.c' l='29' u='c' c='ringbuffer_put_and_get'/>
 <use f='MOS/tests/ring_buffer/test_ring_buffer.c' l='35' u='c' c='ringbuffer_put_and_get'/>
 <use f='MOS/tests/ring_buffer/test_ring_buffer.c' l='41' u='c' c='ringbuffer_put_and_get'/>
 <use f='MOS/tests/ring_buffer/test_ring_buffer.c' l='47' u='c' c='ringbuffer_put_and_get'/>
 <use f='MOS/tests/ring_buffer/test_ring_buffer.c' l='53' u='c' c='ringbuffer_put_and_get'/>
 <use f='MOS/tests/ring_buffer/test_ring_buffer.c' l='59' u='c' c='ringbuffer_put_and_get'/>
-<use f='MOS/tests/ring_buffer/test_ring_buffer.c' l='107' u='c' c='ringbuffer_put_and_get_with_wrap'/>
-<use f='MOS/tests/ring_buffer/test_ring_buffer.c' l='113' u='c' c='ringbuffer_put_and_get_with_wrap'/>
-<use f='MOS/tests/ring_buffer/test_ring_buffer.c' l='119' u='c' c='ringbuffer_put_and_get_with_wrap'/>
-<use f='MOS/tests/ring_buffer/test_ring_buffer.c' l='125' u='c' c='ringbuffer_put_and_get_with_wrap'/>
-<use f='MOS/tests/ring_buffer/test_ring_buffer.c' l='131' u='c' c='ringbuffer_put_and_get_with_wrap'/>
+<use f='MOS/tests/ring_buffer/test_ring_buffer.c' l='109' u='c' c='ringbuffer_push_pop_back'/>
+<use f='MOS/tests/ring_buffer/test_ring_buffer.c' l='115' u='c' c='ringbuffer_push_pop_back'/>
+<use f='MOS/tests/ring_buffer/test_ring_buffer.c' l='121' u='c' c='ringbuffer_push_pop_back'/>
+<use f='MOS/tests/ring_buffer/test_ring_buffer.c' l='127' u='c' c='ringbuffer_push_pop_back'/>
+<use f='MOS/tests/ring_buffer/test_ring_buffer.c' l='133' u='c' c='ringbuffer_push_pop_back'/>
+<use f='MOS/tests/ring_buffer/test_ring_buffer.c' l='265' u='c' c='ringbuffer_full_and_empty'/>
+<use f='MOS/tests/ring_buffer/test_ring_buffer.c' l='298' u='c' c='ringbuffer_complicated_ops'/>
+<use f='MOS/tests/ring_buffer/test_ring_buffer.c' l='299' u='c' c='ringbuffer_complicated_ops'/>
+<use f='MOS/tests/ring_buffer/test_ring_buffer.c' l='300' u='c' c='ringbuffer_complicated_ops'/>
+<use f='MOS/tests/ring_buffer/test_ring_buffer.c' l='301' u='c' c='ringbuffer_complicated_ops'/>
+<use f='MOS/tests/ring_buffer/test_ring_buffer.c' l='302' u='c' c='ringbuffer_complicated_ops'/>
+<use f='MOS/tests/ring_buffer/test_ring_buffer.c' l='303' u='c' c='ringbuffer_complicated_ops'/>
+<use f='MOS/tests/ring_buffer/test_ring_buffer.c' l='304' u='c' c='ringbuffer_complicated_ops'/>
+<use f='MOS/tests/ring_buffer/test_ring_buffer.c' l='305' u='c' c='ringbuffer_complicated_ops'/>
+<use f='MOS/tests/ring_buffer/test_ring_buffer.c' l='306' u='c' c='ringbuffer_complicated_ops'/>
+<use f='MOS/tests/ring_buffer/test_ring_buffer.c' l='307' u='c' c='ringbuffer_complicated_ops'/>

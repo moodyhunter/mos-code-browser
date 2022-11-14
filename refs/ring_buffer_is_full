@@ -1,1 +1,6 @@
-<def f='MOS/lib/include/lib/structures/ring_buffer.h' l='30' ll='33' macro='1' type='_Bool ring_buffer_is_full(ring_buffer_t * buffer)'/>
+<def f='MOS/lib/include/lib/structures/ring_buffer.h' l='33' ll='36' macro='1' type='_Bool ring_buffer_is_full(ring_buffer_t * buffer)'/>
+<use f='MOS/tests/ring_buffer/test_ring_buffer.c' l='259' u='c' c='ringbuffer_full_and_empty'/>
+<use f='MOS/tests/ring_buffer/test_ring_buffer.c' l='271' u='c' c='ringbuffer_full_and_empty'/>
+<use f='MOS/tests/ring_buffer/test_ring_buffer.c' l='283' u='c' c='ringbuffer_full_and_empty'/>
+<use f='MOS/tests/ring_buffer/test_ring_buffer.c' l='311' u='c' c='ringbuffer_complicated_ops'/>
+<use f='MOS/tests/ring_buffer/test_ring_buffer.c' l='367' u='c' c='ringbuffer_complicated_ops'/>

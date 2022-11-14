@@ -1,3 +1,0 @@
-<dec f='MOS/tests/ring_buffer/test_ring_buffer.c' l='102' type='void ringbuffer_put_and_get_with_wrap(mos_test_result_t * , _Bool * , _Bool * )'/>
-<use f='MOS/tests/ring_buffer/test_ring_buffer.c' l='102' u='c' c='__mos_test_wrapped_test_ringbuffer_put_and_get_with_wrap'/>
-<def f='MOS/tests/ring_buffer/test_ring_buffer.c' l='102' ll='172' macro='1' type='void ringbuffer_put_and_get_with_wrap(mos_test_result_t * _MT_result, _Bool * _mt_test_skipped, _Bool * _mt_loop_leave)'/>
