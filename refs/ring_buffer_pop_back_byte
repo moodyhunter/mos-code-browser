@@ -15,3 +15,4 @@
 <use f='MOS/tests/ring_buffer/test_ring_buffer.c' l='330' u='c' c='ringbuffer_complicated_ops'/>
 <use f='MOS/tests/ring_buffer/test_ring_buffer.c' l='333' u='c' c='ringbuffer_complicated_ops'/>
 <use f='MOS/tests/ring_buffer/test_ring_buffer.c' l='336' u='c' c='ringbuffer_complicated_ops'/>
+<use f='MOS/tests/ring_buffer/test_ring_buffer.c' l='377' u='c' c='ringbuffer_complicated_ops'/>

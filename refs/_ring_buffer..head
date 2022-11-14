@@ -101,3 +101,11 @@
 <use f='MOS/tests/ring_buffer/test_ring_buffer.c' l='365' u='r' c='ringbuffer_complicated_ops'/>
 <use f='MOS/tests/ring_buffer/test_ring_buffer.c' l='370' u='r' c='ringbuffer_complicated_ops'/>
 <use f='MOS/tests/ring_buffer/test_ring_buffer.c' l='370' u='r' c='ringbuffer_complicated_ops'/>
+<use f='MOS/tests/ring_buffer/test_ring_buffer.c' l='379' u='r' c='ringbuffer_complicated_ops'/>
+<use f='MOS/tests/ring_buffer/test_ring_buffer.c' l='379' u='r' c='ringbuffer_complicated_ops'/>
+<use f='MOS/tests/ring_buffer/test_ring_buffer.c' l='384' u='r' c='ringbuffer_complicated_ops'/>
+<use f='MOS/tests/ring_buffer/test_ring_buffer.c' l='384' u='r' c='ringbuffer_complicated_ops'/>
+<use f='MOS/tests/ring_buffer/test_ring_buffer.c' l='389' u='r' c='ringbuffer_complicated_ops'/>
+<use f='MOS/tests/ring_buffer/test_ring_buffer.c' l='389' u='r' c='ringbuffer_complicated_ops'/>
+<use f='MOS/tests/ring_buffer/test_ring_buffer.c' l='394' u='r' c='ringbuffer_complicated_ops'/>
+<use f='MOS/tests/ring_buffer/test_ring_buffer.c' l='394' u='r' c='ringbuffer_complicated_ops'/>

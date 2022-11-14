@@ -21,3 +21,4 @@
 <use f='MOS/tests/ring_buffer/test_ring_buffer.c' l='309' u='c' c='ringbuffer_complicated_ops'/>
 <use f='MOS/tests/ring_buffer/test_ring_buffer.c' l='310' u='c' c='ringbuffer_complicated_ops'/>
 <use f='MOS/tests/ring_buffer/test_ring_buffer.c' l='311' u='c' c='ringbuffer_complicated_ops'/>
+<use f='MOS/tests/ring_buffer/test_ring_buffer.c' l='392' u='c' c='ringbuffer_complicated_ops'/>
