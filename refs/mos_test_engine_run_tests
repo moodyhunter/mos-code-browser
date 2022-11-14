@@ -1,5 +1,5 @@
-<dec f='MOS/kernel/kernel_init.c' l='16' type='void mos_test_engine_run_tests()'/>
-<use f='MOS/kernel/kernel_init.c' l='83' u='c' c='mos_start_kernel'/>
-<doc f='MOS/kernel/kernel_init.c' l='16'>// defined in tests/test_engine.c</doc>
+<dec f='MOS/kernel/kernel_init.c' l='18' type='void mos_test_engine_run_tests()'/>
+<use f='MOS/kernel/kernel_init.c' l='85' u='c' c='mos_start_kernel'/>
+<doc f='MOS/kernel/kernel_init.c' l='18'>// defined in tests/test_engine.c</doc>
 <dec f='MOS/tests/test_engine.h' l='7' type='void mos_test_engine_run_tests()'/>
 <def f='MOS/tests/test_engine.c' l='75' ll='132' type='void mos_test_engine_run_tests()'/>

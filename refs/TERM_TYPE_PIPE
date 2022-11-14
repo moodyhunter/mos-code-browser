@@ -1,0 +1,5 @@
+<dec f='MOS/kernel/include/mos/io/terminal.h' l='12' type='1'/>
+<use f='MOS/kernel/io/terminal.c' l='16' c='terminal_io_read'/>
+<use f='MOS/kernel/io/terminal.c' l='27' c='terminal_io_write'/>
+<use f='MOS/kernel/io/terminal.c' l='38' c='terminal_io_close'/>
+<use f='MOS/kernel/io/terminal.c' l='71' u='r' c='terminal_create_pipe'/>

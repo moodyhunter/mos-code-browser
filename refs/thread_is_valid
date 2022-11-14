@@ -1,3 +1,3 @@
 <def f='MOS/kernel/include/mos/tasks/thread.h' l='14' ll='17' macro='1' type='_Bool thread_is_valid(thread_t * thread)'/>
-<use f='MOS/kernel/tasks/process.c' l='134' u='c' c='process_attach_thread'/>
+<use f='MOS/kernel/tasks/process.c' l='149' u='c' c='process_attach_thread'/>
 <use f='MOS/kernel/tasks/thread.c' l='104' u='c' c='thread_handle_exit'/>

@@ -3,4 +3,4 @@
 <use f='MOS/arch/x86/devices/serial_console.c' l='15' u='w' c='serial_console_setup'/>
 <use f='MOS/arch/x86/devices/text_mode_console.c' l='174' u='w'/>
 <use f='MOS/kernel/device/console.c' l='22' u='w'/>
-<use f='MOS/kernel/device/console.c' l='67' u='r' c='console_write'/>
+<use f='MOS/kernel/device/console.c' l='77' u='r' c='console_write'/>

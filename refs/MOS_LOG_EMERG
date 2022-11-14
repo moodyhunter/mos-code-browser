@@ -1,10 +1,10 @@
 <dec f='MOS/kernel/include/mos/printk.h' l='30' type='5'/>
-<use f='MOS/kernel/elf/elf.c' l='59' macro='1' u='r' c='process_create_from_elf'/>
-<use f='MOS/kernel/elf/elf.c' l='66' macro='1' u='r' c='process_create_from_elf'/>
+<use f='MOS/kernel/elf/elf.c' l='59' macro='1' u='r' c='elf_create_process'/>
+<use f='MOS/kernel/elf/elf.c' l='66' macro='1' u='r' c='elf_create_process'/>
 <use f='MOS/kernel/panic.c' l='52' macro='1' u='r' c='mos_kpanic'/>
 <use f='MOS/kernel/panic.c' l='56' macro='1' u='r' c='mos_kpanic'/>
 <use f='MOS/kernel/panic.c' l='57' macro='1' u='r' c='mos_kpanic'/>
 <use f='MOS/kernel/panic.c' l='58' macro='1' u='r' c='mos_kpanic'/>
 <use f='MOS/kernel/panic.c' l='65' macro='1' u='r' c='mos_kpanic'/>
-<use f='MOS/kernel/printk.c' l='66' c='deduce_level_color'/>
+<use f='MOS/kernel/printk.c' l='63' c='deduce_level_color'/>
 <use f='MOS/kernel/tasks/process.c' l='59' macro='1' u='r' c='process_allocate'/>

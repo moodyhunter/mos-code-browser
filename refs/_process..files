@@ -1,10 +1,11 @@
-<dec f='MOS/kernel/include/mos/tasks/task_type.h' l='58' type='io_t *[1024]'/>
-<offset>448</offset>
+<dec f='MOS/kernel/include/mos/tasks/task_type.h' l='61' type='io_t *[1024]'/>
+<offset>512</offset>
 <use f='MOS/kernel/ksyscall.c' l='48' u='r' c='impl_syscall_io_read'/>
 <use f='MOS/kernel/ksyscall.c' l='57' u='r' c='impl_syscall_io_write'/>
 <use f='MOS/kernel/tasks/fork.c' l='50' u='r' c='process_handle_fork'/>
-<use f='MOS/kernel/tasks/process.c' l='116' u='w' c='process_attach_fd'/>
-<use f='MOS/kernel/tasks/process.c' l='125' u='r' c='process_detach_fd'/>
-<use f='MOS/kernel/tasks/process.c' l='126' u='w' c='process_detach_fd'/>
-<use f='MOS/kernel/tasks/process.c' l='167' u='r' c='process_handle_exit'/>
-<use f='MOS/kernel/tasks/process.c' l='168' u='w' c='process_handle_exit'/>
+<use f='MOS/kernel/tasks/process.c' l='131' u='w' c='process_attach_ref_fd'/>
+<use f='MOS/kernel/tasks/process.c' l='140' u='r' c='process_detach_fd'/>
+<use f='MOS/kernel/tasks/process.c' l='141' u='w' c='process_detach_fd'/>
+<use f='MOS/kernel/tasks/process.c' l='182' u='r' c='process_handle_exit'/>
+<use f='MOS/kernel/tasks/process.c' l='183' u='r' c='process_handle_exit'/>
+<use f='MOS/kernel/tasks/process.c' l='184' u='w' c='process_handle_exit'/>

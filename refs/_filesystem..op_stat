@@ -1,6 +1,6 @@
 <dec f='MOS/kernel/include/mos/filesystem/mount.h' l='23' type='_Bool (*)(const mountpoint_t *, const fsnode_t *, file_stat_t *)'/>
 <use f='MOS/kernel/filesystem/cpio/cpio.c' l='226' u='w'/>
 <offset>448</offset>
-<use f='MOS/kernel/filesystem/filesystem.c' l='115' u='r' c='vfs_path_open'/>
-<use f='MOS/kernel/filesystem/filesystem.c' l='153' u='r' c='vfs_path_readlink'/>
-<use f='MOS/kernel/filesystem/filesystem.c' l='186' u='r' c='vfs_path_stat'/>
+<use f='MOS/kernel/filesystem/filesystem.c' l='114' u='r' c='vfs_path_open'/>
+<use f='MOS/kernel/filesystem/filesystem.c' l='151' u='r' c='vfs_path_readlink'/>
+<use f='MOS/kernel/filesystem/filesystem.c' l='184' u='r' c='vfs_path_stat'/>

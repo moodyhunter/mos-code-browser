@@ -2,5 +2,5 @@
 <use f='MOS/arch/x86/boot/multiboot/startup.c' l='69' u='r' c='print_debug_info'/>
 <use f='MOS/arch/x86/devices/serial_console.c' l='61' u='r' c='get_ansi_color'/>
 <use f='MOS/arch/x86/devices/text_mode_console.c' l='30'/>
-<use f='MOS/kernel/printk.c' l='67' u='r' c='deduce_level_color'/>
-<use f='MOS/kernel/printk.c' l='78' u='r' c='print_to_console'/>
+<use f='MOS/kernel/printk.c' l='64' u='r' c='deduce_level_color'/>
+<use f='MOS/kernel/printk.c' l='75' u='r' c='print_to_console'/>

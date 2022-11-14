@@ -1,6 +1,6 @@
 <use f='MOS/kernel/include/mos/io/io.h' l='7'/>
-<def f='MOS/kernel/include/mos/io/io.h' l='28' ll='35'/>
-<use f='MOS/kernel/include/mos/io/io.h' l='28'/>
+<def f='MOS/kernel/include/mos/io/io.h' l='24' ll='31'/>
+<use f='MOS/kernel/include/mos/io/io.h' l='24'/>
 <size>32</size>
 <mbr r='_io_t::closed' o='0' t='_Bool'/>
 <mbr r='_io_t::refcount' o='8' t='atomic_t'/>

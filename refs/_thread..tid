@@ -1,15 +1,15 @@
-<dec f='MOS/kernel/include/mos/tasks/task_type.h' l='70' type='tid_t'/>
+<dec f='MOS/kernel/include/mos/tasks/task_type.h' l='73' type='tid_t'/>
 <use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='135' u='r' c='x86_handle_interrupt'/>
 <use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='208' u='r' c='x86_handle_exception'/>
 <offset>32</offset>
 <use f='MOS/arch/x86/x86_platform.c' l='63' u='r' c='x86_kpanic_hook'/>
 <use f='MOS/kernel/ksyscall.c' l='18' u='r' c='impl_syscall_panic'/>
-<use f='MOS/kernel/ksyscall.c' l='134' u='r' c='impl_syscall_create_thread'/>
-<use f='MOS/kernel/ksyscall.c' l='140' u='r' c='impl_syscall_get_tid'/>
-<use f='MOS/kernel/ksyscall.c' l='146' u='r' c='impl_syscall_thread_exit'/>
-<use f='MOS/kernel/tasks/fork.c' l='69' u='a' c='process_handle_fork'/>
-<use f='MOS/kernel/tasks/process.c' l='136' u='r' c='process_attach_thread'/>
-<use f='MOS/kernel/tasks/process.c' l='158' u='r' c='process_handle_exit'/>
+<use f='MOS/kernel/ksyscall.c' l='135' u='r' c='impl_syscall_create_thread'/>
+<use f='MOS/kernel/ksyscall.c' l='141' u='r' c='impl_syscall_get_tid'/>
+<use f='MOS/kernel/ksyscall.c' l='147' u='r' c='impl_syscall_thread_exit'/>
+<use f='MOS/kernel/tasks/fork.c' l='68' u='a' c='process_handle_fork'/>
+<use f='MOS/kernel/tasks/process.c' l='151' u='r' c='process_attach_thread'/>
+<use f='MOS/kernel/tasks/process.c' l='173' u='r' c='process_handle_exit'/>
 <use f='MOS/kernel/tasks/schedule.c' l='32' u='r' c='schedule_to_thread'/>
 <use f='MOS/kernel/tasks/thread.c' l='44' u='w' c='thread_allocate'/>
 <use f='MOS/kernel/tasks/thread.c' l='91' u='a' c='thread_new'/>

@@ -9,13 +9,13 @@
 <use f='MOS/arch/x86/x86_platform_api.c' l='59' u='r' c='platform_mm_create_user_pgd'/>
 <use f='MOS/arch/x86/x86_platform_api.c' l='126' u='w' c='platform_mm_copy_maps'/>
 <dec f='MOS/kernel/include/mos/elf/elf.h' l='145' type='uintptr_t'/>
-<use f='MOS/kernel/elf/elf.c' l='51' u='r' c='process_create_from_elf'/>
-<use f='MOS/kernel/elf/elf.c' l='80' u='r' c='process_create_from_elf'/>
-<use f='MOS/kernel/elf/elf.c' l='99' u='r' c='process_create_from_elf'/>
-<use f='MOS/kernel/elf/elf.c' l='101' u='r' c='process_create_from_elf'/>
-<use f='MOS/kernel/elf/elf.c' l='105' u='r' c='process_create_from_elf'/>
-<use f='MOS/kernel/elf/elf.c' l='124' u='r' c='process_create_from_elf'/>
-<use f='MOS/kernel/elf/elf.c' l='130' u='r' c='process_create_from_elf'/>
+<use f='MOS/kernel/elf/elf.c' l='51' u='r' c='elf_create_process'/>
+<use f='MOS/kernel/elf/elf.c' l='80' u='r' c='elf_create_process'/>
+<use f='MOS/kernel/elf/elf.c' l='99' u='r' c='elf_create_process'/>
+<use f='MOS/kernel/elf/elf.c' l='101' u='r' c='elf_create_process'/>
+<use f='MOS/kernel/elf/elf.c' l='105' u='r' c='elf_create_process'/>
+<use f='MOS/kernel/elf/elf.c' l='124' u='r' c='elf_create_process'/>
+<use f='MOS/kernel/elf/elf.c' l='130' u='r' c='elf_create_process'/>
 <offset>96</offset>
 <doc f='MOS/kernel/include/mos/elf/elf.h' l='145'>// Virtual address of the segment</doc>
 <use f='MOS/kernel/mm/cow.c' l='53' u='r' c='cow_handle_page_fault'/>
@@ -37,8 +37,8 @@
 <use f='MOS/kernel/tasks/fork.c' l='34' u='r' c='process_handle_fork'/>
 <use f='MOS/kernel/tasks/fork.c' l='42' u='r' c='process_handle_fork'/>
 <use f='MOS/kernel/tasks/fork.c' l='42' u='r' c='process_handle_fork'/>
-<use f='MOS/kernel/tasks/process.c' l='190' u='r' c='process_handle_cleanup'/>
-<use f='MOS/kernel/tasks/process.c' l='212' u='r' c='process_dump_mmaps'/>
+<use f='MOS/kernel/tasks/process.c' l='206' u='r' c='process_handle_cleanup'/>
+<use f='MOS/kernel/tasks/process.c' l='228' u='r' c='process_dump_mmaps'/>
 <use f='MOS/kernel/tasks/thread.c' l='71' u='r' c='thread_new'/>
 <use f='MOS/kernel/tasks/thread.c' l='78' u='r' c='thread_new'/>
 <use f='MOS/kernel/tasks/thread.c' l='82' u='r' c='thread_new'/>

@@ -73,6 +73,15 @@
 <tr><th id="59">59</th><td>    <b>return</b> <a class="ref fn" href="../../../structures/ring_buffer.c.html#ring_buffer_push_front" title='ring_buffer_push_front' data-ref="ring_buffer_push_front" data-ref-filename="ring_buffer_push_front">ring_buffer_push_front</a>(<a class="local col5 ref" href="#25buffer" title='buffer' data-ref="25buffer" data-ref-filename="25buffer">buffer</a>, &amp;<a class="local col6 ref" href="#26byte" title='byte' data-ref="26byte" data-ref-filename="26byte">byte</a>, <var>1</var>);</td></tr>
 <tr><th id="60">60</th><td>}</td></tr>
 <tr><th id="61">61</th><td></td></tr>
+<tr><th id="62">62</th><td><u>#define <dfn class="macro" id="_M/ring_buffer_push_back_t" data-ref="_M/ring_buffer_push_back_t">ring_buffer_push_back_t</dfn>(buffer, type, data) ring_buffer_push_back(buffer, (u8 *) &amp;data, sizeof(type))</u></td></tr>
+<tr><th id="63">63</th><td><u>#define <dfn class="macro" id="_M/ring_buffer_pop_back_t" data-ref="_M/ring_buffer_pop_back_t">ring_buffer_pop_back_t</dfn>(buffer, type, data)  ring_buffer_pop_back(buffer, (u8 *) &amp;data, sizeof(type))</u></td></tr>
+<tr><th id="64">64</th><td></td></tr>
+<tr><th id="65">65</th><td><u>#define <dfn class="macro" id="_M/ring_buffer_push_front_t" data-ref="_M/ring_buffer_push_front_t">ring_buffer_push_front_t</dfn>(buffer, type, data) ring_buffer_push_front(buffer, (u8 *) &amp;data, sizeof(type))</u></td></tr>
+<tr><th id="66">66</th><td><u>#define <dfn class="macro" id="_M/ring_buffer_pop_front_t" data-ref="_M/ring_buffer_pop_front_t">ring_buffer_pop_front_t</dfn>(buffer, type, data)  ring_buffer_pop_front(buffer, (u8 *) &amp;data, sizeof(type))</u></td></tr>
+<tr><th id="67">67</th><td></td></tr>
+<tr><th id="68">68</th><td><u>#define <dfn class="macro" id="_M/ring_buffer_enqueue_t" data-ref="_M/ring_buffer_enqueue_t">ring_buffer_enqueue_t</dfn>(buffer, type, data) ring_buffer_push_back_t(buffer, type, data)</u></td></tr>
+<tr><th id="69">69</th><td><u>#define <dfn class="macro" id="_M/ring_buffer_dequeue_t" data-ref="_M/ring_buffer_dequeue_t">ring_buffer_dequeue_t</dfn>(buffer, type, data) ring_buffer_pop_front_t(buffer, type, data)</u></td></tr>
+<tr><th id="70">70</th><td></td></tr>
 </table><hr/><p id='footer'>
 Generated while processing <a href='../../../structures/ring_buffer.c.html'>MOS/lib/structures/ring_buffer.c</a><br/>Generated on <em>2022-Nov-14</em> from project MOS<br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
 <br/>Generator usage only permitted with license.</p>

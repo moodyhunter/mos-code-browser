@@ -13,7 +13,7 @@
 <use f='MOS/arch/x86/cpu/smp.c' l='121' u='r' c='x86_smp_init'/>
 <use f='MOS/arch/x86/interrupt/idt.c' l='30' u='w' c='idt_set_descriptor'/>
 <dec f='MOS/kernel/include/mos/filesystem/filesystem.h' l='65' type='file_type_t'/>
-<dec f='MOS/kernel/include/mos/tasks/task_type.h' l='37' type='vm_type'/>
+<dec f='MOS/kernel/include/mos/tasks/task_type.h' l='39' type='vm_type'/>
 <offset>192</offset>
 <use f='MOS/arch/x86/mm/mm.c' l='56' u='r' c='x86_mem_init'/>
 <use f='MOS/arch/x86/mm/mm.c' l='61' u='r' c='x86_mem_init'/>
@@ -25,21 +25,10 @@
 <use f='MOS/kernel/filesystem/cpio/cpio.c' l='175' u='w' c='cpio_stat'/>
 <use f='MOS/kernel/filesystem/cpio/cpio.c' l='176' u='w' c='cpio_stat'/>
 <use f='MOS/kernel/filesystem/cpio/cpio.c' l='177' u='w' c='cpio_stat'/>
-<use f='MOS/kernel/filesystem/filesystem.c' l='121' u='r' c='vfs_path_open'/>
-<use f='MOS/kernel/filesystem/filesystem.c' l='159' u='r' c='vfs_path_readlink'/>
+<use f='MOS/kernel/filesystem/filesystem.c' l='120' u='r' c='vfs_path_open'/>
+<use f='MOS/kernel/filesystem/filesystem.c' l='157' u='r' c='vfs_path_readlink'/>
 <use f='MOS/kernel/filesystem/pathutils.c' l='126' u='r' c='path_resolve'/>
 <use f='MOS/kernel/tasks/fork.c' l='31' u='r' c='process_handle_fork'/>
 <use f='MOS/kernel/tasks/fork.c' l='43' u='r' c='process_handle_fork'/>
-<dec f='MOS/kernel/include/mos/tasks/task_io.h' l='17' type='stdio_type'/>
-<use f='MOS/kernel/tasks/process.c' l='144' u='w' c='process_attach_mmap'/>
-<use f='MOS/kernel/tasks/process.c' l='200' u='r' c='process_dump_mmaps'/>
-<offset>256</offset>
-<use f='MOS/kernel/tasks/task_io.c' l='13' u='r' c='stdin_read'/>
-<use f='MOS/kernel/tasks/task_io.c' l='25' u='r' c='stdout_write'/>
-<use f='MOS/kernel/tasks/task_io.c' l='35' u='r' c='stderr_write'/>
-<use f='MOS/kernel/tasks/task_io.c' l='43' u='r' c='stdio_close'/>
-<use f='MOS/kernel/tasks/task_io.c' l='43' u='r' c='stdio_close'/>
-<use f='MOS/kernel/tasks/task_io.c' l='43' u='r' c='stdio_close'/>
-<use f='MOS/kernel/tasks/task_io.c' l='54' u='w' c='process_stdio_setup'/>
-<use f='MOS/kernel/tasks/task_io.c' l='59' u='w' c='process_stdio_setup'/>
-<use f='MOS/kernel/tasks/task_io.c' l='64' u='w' c='process_stdio_setup'/>
+<use f='MOS/kernel/tasks/process.c' l='159' u='w' c='process_attach_mmap'/>
+<use f='MOS/kernel/tasks/process.c' l='216' u='r' c='process_dump_mmaps'/>

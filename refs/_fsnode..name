@@ -1,18 +1,18 @@
 <dec f='MOS/kernel/include/mos/filesystem/filesystem.h' l='79' type='const char *'/>
 <offset>256</offset>
-<use f='MOS/kernel/elf/elf.c' l='70' u='r' c='process_create_from_elf'/>
+<use f='MOS/kernel/elf/elf.c' l='70' u='r' c='elf_create_process'/>
 <use f='MOS/kernel/filesystem/filesystem.c' l='19' u='r' c='vfs_io_ops_close'/>
-<use f='MOS/kernel/filesystem/filesystem.c' l='35' u='r' c='vfs_io_ops_read'/>
-<use f='MOS/kernel/filesystem/filesystem.c' l='48' u='r' c='vfs_io_ops_write'/>
-<use f='MOS/kernel/filesystem/filesystem.c' l='108' u='r' c='vfs_path_open'/>
-<use f='MOS/kernel/filesystem/filesystem.c' l='112' u='r' c='vfs_path_open'/>
-<use f='MOS/kernel/filesystem/filesystem.c' l='117' u='r' c='vfs_path_open'/>
-<use f='MOS/kernel/filesystem/filesystem.c' l='133' u='r' c='vfs_path_open'/>
-<use f='MOS/kernel/filesystem/filesystem.c' l='148' u='r' c='vfs_path_readlink'/>
-<use f='MOS/kernel/filesystem/filesystem.c' l='155' u='r' c='vfs_path_readlink'/>
-<use f='MOS/kernel/filesystem/filesystem.c' l='161' u='r' c='vfs_path_readlink'/>
-<use f='MOS/kernel/filesystem/filesystem.c' l='168' u='r' c='vfs_path_readlink'/>
-<use f='MOS/kernel/filesystem/filesystem.c' l='183' u='r' c='vfs_path_stat'/>
+<use f='MOS/kernel/filesystem/filesystem.c' l='33' u='r' c='vfs_io_ops_read'/>
+<use f='MOS/kernel/filesystem/filesystem.c' l='46' u='r' c='vfs_io_ops_write'/>
+<use f='MOS/kernel/filesystem/filesystem.c' l='107' u='r' c='vfs_path_open'/>
+<use f='MOS/kernel/filesystem/filesystem.c' l='111' u='r' c='vfs_path_open'/>
+<use f='MOS/kernel/filesystem/filesystem.c' l='116' u='r' c='vfs_path_open'/>
+<use f='MOS/kernel/filesystem/filesystem.c' l='132' u='r' c='vfs_path_open'/>
+<use f='MOS/kernel/filesystem/filesystem.c' l='146' u='r' c='vfs_path_readlink'/>
+<use f='MOS/kernel/filesystem/filesystem.c' l='153' u='r' c='vfs_path_readlink'/>
+<use f='MOS/kernel/filesystem/filesystem.c' l='159' u='r' c='vfs_path_readlink'/>
+<use f='MOS/kernel/filesystem/filesystem.c' l='166' u='r' c='vfs_path_readlink'/>
+<use f='MOS/kernel/filesystem/filesystem.c' l='181' u='r' c='vfs_path_stat'/>
 <use f='MOS/kernel/filesystem/mount.c' l='24' u='r' c='kmount_add_mp'/>
 <use f='MOS/kernel/filesystem/mount.c' l='40' u='r' c='kmount'/>
 <use f='MOS/kernel/filesystem/mount.c' l='53' u='r' c='kmount'/>

@@ -1,4 +1,5 @@
 console_get|console_get
+console_get_by_prefix|console_get_by_prefix
 console_read|console_read
 console_register|console_register
 console_write|console_write

@@ -1,7 +1,7 @@
 <dec f='MOS/kernel/include/mos/platform/platform.h' l='122' type='vmblock_t platform_mm_alloc_pages(paging_handle_t table, size_t npages, pgalloc_hints hints, vm_flags vm_flags)'/>
 <doc f='MOS/kernel/include/mos/platform/platform.h' l='121'>// Platform Paging APIs</doc>
 <def f='MOS/arch/x86/x86_platform_api.c' l='90' ll='94' type='vmblock_t platform_mm_alloc_pages(paging_handle_t table, size_t npages, pgalloc_hints hints, vm_flags vm_flags)'/>
-<use f='MOS/kernel/elf/elf.c' l='50' u='c' c='process_create_from_elf'/>
+<use f='MOS/kernel/elf/elf.c' l='50' u='c' c='elf_create_process'/>
 <use f='MOS/kernel/mm/liballoc.c' l='69' u='c' c='kheap_alloc_page'/>
 <use f='MOS/kernel/tasks/thread.c' l='70' u='c' c='thread_new'/>
 <use f='MOS/kernel/tasks/thread.c' l='77' u='c' c='thread_new'/>

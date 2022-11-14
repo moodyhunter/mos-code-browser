@@ -16,3 +16,5 @@
 <mbr r='console_t::clear' o='832' t='_Bool (*)(console_t *)'/>
 <mbr r='console_t::close' o='896' t='_Bool (*)(console_t *)'/>
 <mbr r='console_t::data' o='960' t='void *'/>
+<use f='MOS/kernel/include/mos/io/terminal.h' l='7'/>
+<size>128</size>

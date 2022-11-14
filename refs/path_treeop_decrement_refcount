@@ -1,5 +1,5 @@
 <dec f='MOS/kernel/include/mos/filesystem/pathutils.h' l='25' type='void path_treeop_decrement_refcount(const tree_node_t * node)'/>
 <doc f='MOS/kernel/include/mos/filesystem/pathutils.h' l='24'>// tree traversal</doc>
 <use f='MOS/kernel/filesystem/filesystem.c' l='23' u='r' c='vfs_io_ops_close'/>
-<use f='MOS/kernel/filesystem/filesystem.c' l='194' u='r' c='file_io_cleanup'/>
+<use f='MOS/kernel/filesystem/filesystem.c' l='192' u='r' c='file_io_cleanup'/>
 <def f='MOS/kernel/filesystem/pathutils.c' l='174' ll='179' type='void path_treeop_decrement_refcount(const tree_node_t * node)'/>

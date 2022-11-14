@@ -1,0 +1,7 @@
+<dec f='MOS/kernel/include/mos/io/terminal.h' l='17' type='term_type'/>
+<use f='MOS/kernel/io/terminal.c' l='13' u='r' c='terminal_io_read'/>
+<use f='MOS/kernel/io/terminal.c' l='24' u='r' c='terminal_io_write'/>
+<use f='MOS/kernel/io/terminal.c' l='35' u='r' c='terminal_io_close'/>
+<use f='MOS/kernel/io/terminal.c' l='62' u='w' c='terminal_create_console'/>
+<use f='MOS/kernel/io/terminal.c' l='71' u='w' c='terminal_create_pipe'/>
+<offset>0</offset>

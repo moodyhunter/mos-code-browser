@@ -1,3 +1,5 @@
+terminal_create_console|terminal_create_console
+terminal_create_pipe|terminal_create_pipe
 test_fs_api_path_is_prefix|test_fs_api_path_is_prefix
 test_foreach_function|test_foreach_function
 test_foreach_stop_at_quux|test_foreach_stop_at_quux

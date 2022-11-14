@@ -1,4 +1,5 @@
-<dec f='MOS/kernel/include/mos/io/io.h' l='39' type='void io_ref(io_t * io)'/>
-<use f='MOS/kernel/filesystem/filesystem.c' l='139' u='c' c='vfs_path_open'/>
-<def f='MOS/kernel/io/io.c' l='14' ll='18' type='void io_ref(io_t * io)'/>
-<use f='MOS/kernel/tasks/fork.c' l='51' u='c' c='process_handle_fork'/>
+<dec f='MOS/kernel/include/mos/io/io.h' l='35' type='io_t * io_ref(io_t * io)'/>
+<def f='MOS/kernel/io/io.c' l='17' ll='29' type='io_t * io_ref(io_t * io)'/>
+<use f='MOS/kernel/io/terminal.c' l='72' u='c' c='terminal_create_pipe'/>
+<use f='MOS/kernel/io/terminal.c' l='73' u='c' c='terminal_create_pipe'/>
+<use f='MOS/kernel/tasks/process.c' l='131' u='c' c='process_attach_ref_fd'/>

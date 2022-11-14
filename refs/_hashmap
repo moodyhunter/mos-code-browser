@@ -1,0 +1,11 @@
+<def f='MOS/lib/include/lib/structures/hashmap.h' l='13' ll='21'/>
+<use f='MOS/lib/include/lib/structures/hashmap.h' l='13'/>
+<size>48</size>
+<mbr r='_hashmap::magic' o='0' t='s32'/>
+<mbr r='_hashmap::entries' o='64' t='hashmap_entry_t **'/>
+<mbr r='_hashmap::capacity' o='128' t='size_t'/>
+<mbr r='_hashmap::size' o='192' t='size_t'/>
+<mbr r='_hashmap::hash_func' o='256' t='hashmap_hash_t'/>
+<mbr r='_hashmap::key_compare_func' o='320' t='hashmap_key_compare_t'/>
+<use f='MOS/kernel/include/mos/tasks/process.h' l='11'/>
+<use f='MOS/kernel/include/mos/tasks/thread.h' l='9'/>

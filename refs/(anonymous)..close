@@ -1,8 +1,6 @@
-<dec f='MOS/kernel/include/mos/io/io.h' l='25' type='void (*)(io_t *)'/>
-<offset>256</offset>
-<use f='MOS/kernel/filesystem/filesystem.c' l='58' u='w'/>
-<use f='MOS/kernel/io/io.c' l='33' u='r' c='io_unref'/>
-<use f='MOS/kernel/io/io.c' l='40' u='r' c='io_unref'/>
-<use f='MOS/kernel/tasks/task_io.c' l='47' u='w'/>
-<use f='MOS/kernel/tasks/task_io.c' l='48' u='w'/>
-<use f='MOS/kernel/tasks/task_io.c' l='49' u='w'/>
+<dec f='MOS/kernel/include/mos/io/io.h' l='21' type='void (*)(io_t *)'/>
+<offset>128</offset>
+<use f='MOS/kernel/filesystem/filesystem.c' l='56' u='w'/>
+<use f='MOS/kernel/io/io.c' l='44' u='r' c='io_unref'/>
+<use f='MOS/kernel/io/io.c' l='51' u='r' c='io_unref'/>
+<use f='MOS/kernel/io/terminal.c' l='51' u='w'/>

@@ -1,6 +1,6 @@
-<dec f='MOS/kernel/include/mos/tasks/task_type.h' l='18' type='5'/>
-<doc f='MOS/kernel/include/mos/tasks/task_type.h' l='18'>// thread is dead, and will be cleaned up soon by the scheduler</doc>
-<use f='MOS/kernel/tasks/process.c' l='156' u='r' c='process_handle_exit'/>
-<use f='MOS/kernel/tasks/process.c' l='161' u='r' c='process_handle_exit'/>
+<dec f='MOS/kernel/include/mos/tasks/task_type.h' l='20' type='5'/>
+<doc f='MOS/kernel/include/mos/tasks/task_type.h' l='20'>// thread is dead, and will be cleaned up soon by the scheduler</doc>
+<use f='MOS/kernel/tasks/process.c' l='171' u='r' c='process_handle_exit'/>
+<use f='MOS/kernel/tasks/process.c' l='176' u='r' c='process_handle_exit'/>
 <use f='MOS/kernel/tasks/schedule.c' l='19' u='r' c='mos_update_current'/>
 <use f='MOS/kernel/tasks/schedule.c' l='52' u='r' c='jump_to_scheduler'/>

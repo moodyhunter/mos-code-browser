@@ -1,3 +1,0 @@
-<dec f='MOS/kernel/include/mos/io/io.h' l='20' type='void (*)(io_t *)'/>
-<offset>0</offset>
-<doc f='MOS/kernel/include/mos/io/io.h' l='19'>// ref hooks</doc>

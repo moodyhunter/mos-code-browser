@@ -1,0 +1,5 @@
+<dec f='MOS/kernel/include/mos/io/terminal.h' l='21' type='console_t *'/>
+<use f='MOS/kernel/io/terminal.c' l='15' u='r' c='terminal_io_read'/>
+<use f='MOS/kernel/io/terminal.c' l='26' u='r' c='terminal_io_write'/>
+<use f='MOS/kernel/io/terminal.c' l='63' u='w' c='terminal_create_console'/>
+<offset>0</offset>

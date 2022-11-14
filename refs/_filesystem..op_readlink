@@ -1,4 +1,4 @@
 <dec f='MOS/kernel/include/mos/filesystem/mount.h' l='24' type='_Bool (*)(const mountpoint_t *, const fsnode_t *, char *, size_t)'/>
 <use f='MOS/kernel/filesystem/cpio/cpio.c' l='224' u='w'/>
 <offset>512</offset>
-<use f='MOS/kernel/filesystem/filesystem.c' l='166' u='r' c='vfs_path_readlink'/>
+<use f='MOS/kernel/filesystem/filesystem.c' l='164' u='r' c='vfs_path_readlink'/>

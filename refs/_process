@@ -1,16 +1,17 @@
-<use f='MOS/kernel/include/mos/tasks/task_type.h' l='46'/>
-<def f='MOS/kernel/include/mos/tasks/task_type.h' l='48' ll='65'/>
 <use f='MOS/kernel/include/mos/tasks/task_type.h' l='48'/>
-<size>8784</size>
+<def f='MOS/kernel/include/mos/tasks/task_type.h' l='50' ll='68'/>
+<use f='MOS/kernel/include/mos/tasks/task_type.h' l='50'/>
+<size>8792</size>
 <mbr r='_process::magic' o='0' t='char [4]'/>
 <mbr r='_process::name' o='64' t='const char *'/>
 <mbr r='_process::pid' o='128' t='pid_t'/>
 <mbr r='_process::parent' o='192' t='process_t *'/>
-<mbr r='_process::effective_uid' o='256' t='uid_t'/>
-<mbr r='_process::pagetable' o='288' t='paging_handle_t'/>
-<mbr r='_process::files_count' o='384' t='ssize_t'/>
-<mbr r='_process::files' o='448' t='io_t *[1024]'/>
-<mbr r='_process::threads_count' o='65984' t='ssize_t'/>
-<mbr r='_process::threads' o='66048' t='thread_t *[64]'/>
-<mbr r='_process::mmaps_count' o='70144' t='ssize_t'/>
-<mbr r='_process::mmaps' o='70208' t='proc_vmblock_t *'/>
+<mbr r='_process::terminal' o='256' t='terminal_t *'/>
+<mbr r='_process::effective_uid' o='320' t='uid_t'/>
+<mbr r='_process::pagetable' o='352' t='paging_handle_t'/>
+<mbr r='_process::files_count' o='448' t='ssize_t'/>
+<mbr r='_process::files' o='512' t='io_t *[1024]'/>
+<mbr r='_process::threads_count' o='66048' t='ssize_t'/>
+<mbr r='_process::threads' o='66112' t='thread_t *[64]'/>
+<mbr r='_process::mmaps_count' o='70208' t='ssize_t'/>
+<mbr r='_process::mmaps' o='70272' t='proc_vmblock_t *'/>

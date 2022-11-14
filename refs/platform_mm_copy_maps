@@ -1,5 +1,5 @@
 <dec f='MOS/kernel/include/mos/platform/platform.h' l='125' type='vmblock_t platform_mm_copy_maps(paging_handle_t from, uintptr_t fvaddr, paging_handle_t to, uintptr_t tvaddr, size_t npages)'/>
 <def f='MOS/arch/x86/x86_platform_api.c' l='108' ll='132' type='vmblock_t platform_mm_copy_maps(paging_handle_t from, uintptr_t fvaddr, paging_handle_t to, uintptr_t tvaddr, size_t npages)'/>
-<use f='MOS/kernel/elf/elf.c' l='97' u='c' c='process_create_from_elf'/>
+<use f='MOS/kernel/elf/elf.c' l='97' u='c' c='elf_create_process'/>
 <use f='MOS/kernel/mm/cow.c' l='15' u='c' c='mm_make_process_map_cow'/>
 <use f='MOS/kernel/mm/memops.c' l='14' u='c' c='mm_map_proxy_space'/>

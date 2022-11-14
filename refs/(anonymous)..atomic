@@ -1,8 +1,10 @@
 <dec f='MOS/kernel/include/mos/types.h' l='77' type='u64'/>
 <offset>0</offset>
+<use f='MOS/kernel/filesystem/filesystem.c' l='72' u='r' c='vfs_open'/>
 <use f='MOS/kernel/filesystem/mount.c' l='63' u='r' c='kunmount'/>
 <use f='MOS/kernel/filesystem/mount.c' l='65' u='r' c='kunmount'/>
 <use f='MOS/kernel/filesystem/pathutils.c' l='178' u='w' c='path_treeop_decrement_refcount'/>
 <use f='MOS/kernel/filesystem/pathutils.c' l='185' u='w' c='path_treeop_increment_refcount'/>
-<use f='MOS/kernel/io/io.c' l='17' u='w' c='io_ref'/>
-<use f='MOS/kernel/io/io.c' l='30' u='r' c='io_unref'/>
+<use f='MOS/kernel/io/io.c' l='14' u='w' c='io_init'/>
+<use f='MOS/kernel/io/io.c' l='27' u='w' c='io_ref'/>
+<use f='MOS/kernel/io/io.c' l='41' u='r' c='io_unref'/>

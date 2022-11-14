@@ -1,10 +1,10 @@
-<dec f='MOS/kernel/include/mos/tasks/task_type.h' l='63' type='ssize_t'/>
-<offset>70144</offset>
+<dec f='MOS/kernel/include/mos/tasks/task_type.h' l='66' type='ssize_t'/>
+<offset>70208</offset>
 <use f='MOS/kernel/mm/cow.c' l='50' u='r' c='cow_handle_page_fault'/>
 <use f='MOS/kernel/tasks/fork.c' l='21' u='r' c='process_handle_fork'/>
-<use f='MOS/kernel/tasks/process.c' l='143' u='r' c='process_attach_mmap'/>
-<use f='MOS/kernel/tasks/process.c' l='144' u='w' c='process_attach_mmap'/>
-<use f='MOS/kernel/tasks/process.c' l='178' u='r' c='process_handle_cleanup'/>
-<use f='MOS/kernel/tasks/process.c' l='180' u='r' c='process_handle_cleanup'/>
-<use f='MOS/kernel/tasks/process.c' l='181' u='r' c='process_handle_cleanup'/>
-<use f='MOS/kernel/tasks/process.c' l='196' u='r' c='process_dump_mmaps'/>
+<use f='MOS/kernel/tasks/process.c' l='158' u='r' c='process_attach_mmap'/>
+<use f='MOS/kernel/tasks/process.c' l='159' u='w' c='process_attach_mmap'/>
+<use f='MOS/kernel/tasks/process.c' l='194' u='r' c='process_handle_cleanup'/>
+<use f='MOS/kernel/tasks/process.c' l='196' u='r' c='process_handle_cleanup'/>
+<use f='MOS/kernel/tasks/process.c' l='197' u='r' c='process_handle_cleanup'/>
+<use f='MOS/kernel/tasks/process.c' l='212' u='r' c='process_dump_mmaps'/>

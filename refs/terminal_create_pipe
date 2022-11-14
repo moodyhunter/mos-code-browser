@@ -1,0 +1,2 @@
+<dec f='MOS/kernel/include/mos/io/terminal.h' l='31' type='terminal_t * terminal_create_pipe(io_t * read, io_t * write)'/>
+<def f='MOS/kernel/io/terminal.c' l='68' ll='76' type='terminal_t * terminal_create_pipe(io_t * read, io_t * write)'/>

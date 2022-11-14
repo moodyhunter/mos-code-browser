@@ -1,0 +1,7 @@
+<use f='MOS/kernel/include/mos/tasks/task_type.h' l='11'/>
+<use f='MOS/kernel/include/mos/tasks/process.h' l='12'/>
+<def f='MOS/kernel/include/mos/io/terminal.h' l='15' ll='28'/>
+<use f='MOS/kernel/include/mos/io/terminal.h' l='15'/>
+<size>56</size>
+<mbr r='_terminal::type' o='0' t='term_type'/>
+<mbr r='_terminal::io' o='64' t='io_t'/>

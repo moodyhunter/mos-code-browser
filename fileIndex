@@ -88,6 +88,8 @@ MOS/kernel/filesystem/filesystem.c
 MOS/kernel/filesystem/mount.c
 MOS/kernel/filesystem/pathutils.c
 MOS/kernel/io/io.c
+MOS/kernel/io/terminal.c
+MOS/kernel/include/mos/io/terminal.h
 MOS/kernel/kernel_init.c
 MOS/kernel/include/mos/tasks/thread.h
 MOS/kernel/ksyscall.c
@@ -102,9 +104,7 @@ MOS/kernel/printk.c
 MOS/kernel/stack_protector.c
 MOS/kernel/tasks/fork.c
 MOS/kernel/tasks/process.c
-MOS/kernel/include/mos/tasks/task_io.h
 MOS/kernel/tasks/schedule.c
-MOS/kernel/tasks/task_io.c
 MOS/kernel/tasks/thread.c
 MOS/lib/stdio.c
 MOS/lib/stdio_impl.c

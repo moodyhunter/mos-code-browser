@@ -1,15 +1,14 @@
 <dec f='MOS/kernel/include/mos/filesystem/filesystem.h' l='86' type='fsnode_t *'/>
 <offset>320</offset>
-<use f='MOS/kernel/elf/elf.c' l='70' u='r' c='process_create_from_elf'/>
+<use f='MOS/kernel/elf/elf.c' l='70' u='r' c='elf_create_process'/>
 <use f='MOS/kernel/filesystem/filesystem.c' l='16' u='r' c='vfs_io_ops_close'/>
 <use f='MOS/kernel/filesystem/filesystem.c' l='19' u='r' c='vfs_io_ops_close'/>
 <use f='MOS/kernel/filesystem/filesystem.c' l='23' u='r' c='vfs_io_ops_close'/>
-<use f='MOS/kernel/filesystem/filesystem.c' l='25' u='r' c='vfs_io_ops_close'/>
-<use f='MOS/kernel/filesystem/filesystem.c' l='32' u='r' c='vfs_io_ops_read'/>
-<use f='MOS/kernel/filesystem/filesystem.c' l='35' u='r' c='vfs_io_ops_read'/>
-<use f='MOS/kernel/filesystem/filesystem.c' l='45' u='r' c='vfs_io_ops_write'/>
-<use f='MOS/kernel/filesystem/filesystem.c' l='48' u='r' c='vfs_io_ops_write'/>
-<use f='MOS/kernel/filesystem/filesystem.c' l='73' u='w' c='vfs_open'/>
+<use f='MOS/kernel/filesystem/filesystem.c' l='30' u='r' c='vfs_io_ops_read'/>
+<use f='MOS/kernel/filesystem/filesystem.c' l='33' u='r' c='vfs_io_ops_read'/>
+<use f='MOS/kernel/filesystem/filesystem.c' l='43' u='r' c='vfs_io_ops_write'/>
+<use f='MOS/kernel/filesystem/filesystem.c' l='46' u='r' c='vfs_io_ops_write'/>
+<use f='MOS/kernel/filesystem/filesystem.c' l='71' u='w' c='vfs_open'/>
+<use f='MOS/kernel/filesystem/filesystem.c' l='192' u='r' c='file_io_cleanup'/>
+<use f='MOS/kernel/filesystem/filesystem.c' l='193' u='r' c='file_io_cleanup'/>
 <use f='MOS/kernel/filesystem/filesystem.c' l='194' u='r' c='file_io_cleanup'/>
-<use f='MOS/kernel/filesystem/filesystem.c' l='195' u='r' c='file_io_cleanup'/>
-<use f='MOS/kernel/filesystem/filesystem.c' l='196' u='r' c='file_io_cleanup'/>

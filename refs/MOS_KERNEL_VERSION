@@ -10,4 +10,4 @@
 // All changes to this file will be lost.
 
 // clang-format off</doc>
-<use f='MOS/kernel/kernel_init.c' l='49' u='r' c='dump_cmdline'/>
+<use f='MOS/kernel/kernel_init.c' l='51' u='r' c='dump_cmdline'/>

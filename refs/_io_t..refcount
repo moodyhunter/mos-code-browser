@@ -1,4 +1,6 @@
-<dec f='MOS/kernel/include/mos/io/io.h' l='31' type='atomic_t'/>
+<dec f='MOS/kernel/include/mos/io/io.h' l='27' type='atomic_t'/>
 <offset>8</offset>
-<use f='MOS/kernel/io/io.c' l='17' u='m' c='io_ref'/>
-<use f='MOS/kernel/io/io.c' l='30' u='m' c='io_unref'/>
+<use f='MOS/kernel/filesystem/filesystem.c' l='72' u='m' c='vfs_open'/>
+<use f='MOS/kernel/io/io.c' l='14' u='m' c='io_init'/>
+<use f='MOS/kernel/io/io.c' l='27' u='m' c='io_ref'/>
+<use f='MOS/kernel/io/io.c' l='41' u='m' c='io_unref'/>

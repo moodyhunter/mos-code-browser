@@ -1,3 +1,3 @@
-<def f='MOS/kernel/filesystem/filesystem.c' l='13' ll='27' type='void vfs_io_ops_close(io_t * io)'/>
-<use f='MOS/kernel/filesystem/filesystem.c' l='58' u='r'/>
+<def f='MOS/kernel/filesystem/filesystem.c' l='13' ll='25' type='void vfs_io_ops_close(io_t * io)'/>
+<use f='MOS/kernel/filesystem/filesystem.c' l='56' u='r'/>
 <doc f='MOS/kernel/filesystem/filesystem.c' l='12'>// BEGIN: filesystem&apos;s io_t operations</doc>

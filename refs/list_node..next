@@ -7,13 +7,13 @@
 <use f='MOS/kernel/device/console.c' l='27' macro='1' u='w'/>
 <use f='MOS/kernel/device/console.c' l='50' macro='1' u='r' c='console_get'/>
 <use f='MOS/kernel/device/console.c' l='50' macro='1' u='r' c='console_get'/>
+<use f='MOS/kernel/device/console.c' l='60' macro='1' u='r' c='console_get_by_prefix'/>
+<use f='MOS/kernel/device/console.c' l='60' macro='1' u='r' c='console_get_by_prefix'/>
 <use f='MOS/kernel/panic.c' l='17' macro='1' u='w'/>
 <use f='MOS/kernel/panic.c' l='60' macro='1' u='r' c='mos_kpanic'/>
 <use f='MOS/kernel/panic.c' l='60' macro='1' u='r' c='mos_kpanic'/>
-<use f='MOS/kernel/printk.c' l='43' macro='1' u='r' c='printk_setup_console'/>
-<use f='MOS/kernel/printk.c' l='43' macro='1' u='r' c='printk_setup_console'/>
-<use f='MOS/kernel/printk.c' l='110' macro='1' u='r' c='lprintk'/>
-<use f='MOS/kernel/printk.c' l='110' macro='1' u='r' c='lprintk'/>
+<use f='MOS/kernel/printk.c' l='107' macro='1' u='r' c='lprintk'/>
+<use f='MOS/kernel/printk.c' l='107' macro='1' u='r' c='lprintk'/>
 <use f='MOS/lib/structures/list.c' l='8' u='w' c='linked_list_init'/>
 <use f='MOS/lib/structures/list.c' l='13' u='r' c='list_is_empty'/>
 <use f='MOS/lib/structures/list.c' l='18' u='w' c='list_node_remove'/>

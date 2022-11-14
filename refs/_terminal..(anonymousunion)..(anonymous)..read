@@ -1,0 +1,5 @@
+<dec f='MOS/kernel/include/mos/io/terminal.h' l='24' type='io_t *'/>
+<use f='MOS/kernel/io/terminal.c' l='16' u='r' c='terminal_io_read'/>
+<use f='MOS/kernel/io/terminal.c' l='40' u='r' c='terminal_io_close'/>
+<use f='MOS/kernel/io/terminal.c' l='72' u='w' c='terminal_create_pipe'/>
+<offset>0</offset>

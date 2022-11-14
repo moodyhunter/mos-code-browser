@@ -1,0 +1,8 @@
+<dec f='MOS/kernel/include/mos/io/terminal.h' l='26' type='struct (anonymous struct at /home/runner/work/MOS/MOS/kernel/include/mos/io/terminal.h:22:9)'/>
+<use f='MOS/kernel/io/terminal.c' l='16' u='m' c='terminal_io_read'/>
+<use f='MOS/kernel/io/terminal.c' l='27' u='m' c='terminal_io_write'/>
+<use f='MOS/kernel/io/terminal.c' l='40' u='m' c='terminal_io_close'/>
+<use f='MOS/kernel/io/terminal.c' l='41' u='m' c='terminal_io_close'/>
+<use f='MOS/kernel/io/terminal.c' l='72' u='m' c='terminal_create_pipe'/>
+<use f='MOS/kernel/io/terminal.c' l='73' u='m' c='terminal_create_pipe'/>
+<offset>0</offset>

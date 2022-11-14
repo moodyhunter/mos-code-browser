@@ -1,5 +1,5 @@
 <dec f='MOS/kernel/include/mos/io/io.h' l='13' type='2'/>
 <use f='MOS/kernel/include/mos/filesystem/filesystem.h' l='12'/>
-<use f='MOS/kernel/io/io.c' l='61' u='r' c='io_write'/>
-<use f='MOS/kernel/tasks/task_io.c' l='60' u='r' c='process_stdio_setup'/>
-<use f='MOS/kernel/tasks/task_io.c' l='65' u='r' c='process_stdio_setup'/>
+<use f='MOS/kernel/io/io.c' l='81' u='r' c='io_write'/>
+<use f='MOS/kernel/io/terminal.c' l='64' u='r' c='terminal_create_console'/>
+<use f='MOS/kernel/io/terminal.c' l='74' u='r' c='terminal_create_pipe'/>

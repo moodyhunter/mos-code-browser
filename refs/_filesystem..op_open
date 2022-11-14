@@ -1,4 +1,4 @@
 <dec f='MOS/kernel/include/mos/filesystem/mount.h' l='17' type='_Bool (*)(const mountpoint_t *, const fsnode_t *, file_open_flags, file_t *)'/>
 <use f='MOS/kernel/filesystem/cpio/cpio.c' l='221' u='w'/>
 <offset>192</offset>
-<use f='MOS/kernel/filesystem/filesystem.c' l='131' u='r' c='vfs_path_open'/>
+<use f='MOS/kernel/filesystem/filesystem.c' l='130' u='r' c='vfs_path_open'/>

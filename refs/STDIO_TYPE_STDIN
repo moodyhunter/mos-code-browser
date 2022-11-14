@@ -1,4 +1,0 @@
-<dec f='MOS/kernel/include/mos/tasks/task_io.h' l='9' type='0'/>
-<use f='MOS/kernel/tasks/task_io.c' l='13' u='r' c='stdin_read'/>
-<use f='MOS/kernel/tasks/task_io.c' l='43' u='r' c='stdio_close'/>
-<use f='MOS/kernel/tasks/task_io.c' l='54' u='r' c='process_stdio_setup'/>

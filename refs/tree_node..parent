@@ -1,6 +1,6 @@
 <dec f='MOS/lib/include/lib/containers.h' l='20' type='tree_node_t *'/>
 <offset>0</offset>
-<use f='MOS/kernel/filesystem/filesystem.c' l='174' macro='1' u='r' c='vfs_path_readlink'/>
+<use f='MOS/kernel/filesystem/filesystem.c' l='172' macro='1' u='r' c='vfs_path_readlink'/>
 <use f='MOS/kernel/filesystem/pathutils.c' l='25' u='w'/>
 <use f='MOS/kernel/filesystem/pathutils.c' l='40' macro='1' u='r' c='impl_path_get_subpath'/>
 <use f='MOS/kernel/filesystem/pathutils.c' l='164' u='r' c='path_to_string_relative'/>

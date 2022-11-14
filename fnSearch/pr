@@ -1,14 +1,13 @@
 print_debug_info|print_debug_info
 print_cpu_info|print_cpu_info
-process_create_from_elf|process_create_from_elf
 process_is_valid|process_is_valid
 printk_setup_console|printk_setup_console
 process_handle_fork|process_handle_fork
 process_allocate|process_allocate
-process_attach_fd|process_attach_fd
 process_attach_mmap|process_attach_mmap
+process_attach_ref_fd|process_attach_ref_fd
 process_attach_thread|process_attach_thread
-process_deinit|process_deinit
+process_cleanup|process_cleanup
 process_detach_fd|process_detach_fd
 process_dump_mmaps|process_dump_mmaps
 process_get|process_get
@@ -16,6 +15,5 @@ process_handle_cleanup|process_handle_cleanup
 process_handle_exit|process_handle_exit
 process_init|process_init
 process_new|process_new
-process_stdio_setup|process_stdio_setup
 printf_tests_github|printf_tests_github
 printf|printf
