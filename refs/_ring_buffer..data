@@ -6,9 +6,9 @@
 <use f='MOS/lib/structures/ring_buffer.c' l='53' u='r' c='ring_buffer_resize'/>
 <use f='MOS/lib/structures/ring_buffer.c' l='54' u='w' c='ring_buffer_resize'/>
 <use f='MOS/lib/structures/ring_buffer.c' l='66' u='r' c='ring_buffer_push_back'/>
-<use f='MOS/lib/structures/ring_buffer.c' l='79' u='r' c='ring_buffer_pop_back'/>
 <use f='MOS/lib/structures/ring_buffer.c' l='80' u='r' c='ring_buffer_pop_back'/>
-<use f='MOS/lib/structures/ring_buffer.c' l='93' u='r' c='ring_buffer_push_front'/>
+<use f='MOS/lib/structures/ring_buffer.c' l='81' u='r' c='ring_buffer_pop_back'/>
+<use f='MOS/lib/structures/ring_buffer.c' l='94' u='r' c='ring_buffer_push_front'/>
 <use f='MOS/lib/structures/ring_buffer.c' l='106' u='r' c='ring_buffer_pop_front'/>
-<use f='MOS/lib/structures/ring_buffer.c' l='108' u='r' c='ring_buffer_pop_front'/>
+<use f='MOS/lib/structures/ring_buffer.c' l='107' u='r' c='ring_buffer_pop_front'/>
 <offset>0</offset>

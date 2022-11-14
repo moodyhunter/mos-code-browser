@@ -5,4 +5,4 @@
 <mbr r='_ring_buffer::size' o='64' t='size_t'/>
 <mbr r='_ring_buffer::capacity' o='128' t='size_t'/>
 <mbr r='_ring_buffer::head' o='192' t='size_t'/>
-<mbr r='_ring_buffer::tail' o='256' t='size_t'/>
+<mbr r='_ring_buffer::next_pos' o='256' t='size_t'/>

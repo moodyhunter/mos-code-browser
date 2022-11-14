@@ -2,5 +2,5 @@
 <use f='MOS/tests/ring_buffer/test_ring_buffer.c' l='259' u='c' c='ringbuffer_full_and_empty'/>
 <use f='MOS/tests/ring_buffer/test_ring_buffer.c' l='271' u='c' c='ringbuffer_full_and_empty'/>
 <use f='MOS/tests/ring_buffer/test_ring_buffer.c' l='283' u='c' c='ringbuffer_full_and_empty'/>
-<use f='MOS/tests/ring_buffer/test_ring_buffer.c' l='311' u='c' c='ringbuffer_complicated_ops'/>
-<use f='MOS/tests/ring_buffer/test_ring_buffer.c' l='367' u='c' c='ringbuffer_complicated_ops'/>
+<use f='MOS/tests/ring_buffer/test_ring_buffer.c' l='318' u='c' c='ringbuffer_complicated_ops'/>
+<use f='MOS/tests/ring_buffer/test_ring_buffer.c' l='374' u='c' c='ringbuffer_complicated_ops'/>
