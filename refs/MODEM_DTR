@@ -1,4 +1,4 @@
 <dec f='MOS/arch/x86/include/mos/x86/devices/serial.h' l='68' type='1'/>
-<use f='MOS/arch/x86/devices/serial.c' l='74' c='serial_set_modem_options'/>
-<use f='MOS/arch/x86/devices/serial.c' l='103' u='r' c='serial_device_setup'/>
+<use f='MOS/arch/x86/devices/serial.c' l='85' c='serial_set_modem_options'/>
+<use f='MOS/arch/x86/devices/serial.c' l='114' u='r' c='serial_device_setup'/>
 <doc f='MOS/arch/x86/include/mos/x86/devices/serial.h' l='68'>// Data Terminal Ready</doc>

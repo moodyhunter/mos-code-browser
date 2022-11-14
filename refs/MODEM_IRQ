@@ -1,4 +1,4 @@
 <dec f='MOS/arch/x86/include/mos/x86/devices/serial.h' l='71' type='8'/>
-<use f='MOS/arch/x86/devices/serial.c' l='77' c='serial_set_modem_options'/>
-<use f='MOS/arch/x86/devices/serial.c' l='119' u='r' c='serial_device_setup'/>
+<use f='MOS/arch/x86/devices/serial.c' l='88' c='serial_set_modem_options'/>
+<use f='MOS/arch/x86/devices/serial.c' l='130' u='r' c='serial_device_setup'/>
 <doc f='MOS/arch/x86/include/mos/x86/devices/serial.h' l='71'>// Interrupt Request</doc>

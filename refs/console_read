@@ -1,0 +1,2 @@
+<dec f='MOS/kernel/include/mos/device/console.h' l='76' type='int console_read(console_t * con, char * dest, size_t size)'/>
+<def f='MOS/kernel/device/console.c' l='58' ll='63' type='int console_read(console_t * con, char * dest, size_t size)'/>

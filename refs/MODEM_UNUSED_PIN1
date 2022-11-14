@@ -1,3 +1,3 @@
 <dec f='MOS/arch/x86/include/mos/x86/devices/serial.h' l='70' type='4'/>
-<use f='MOS/arch/x86/devices/serial.c' l='76' c='serial_set_modem_options'/>
+<use f='MOS/arch/x86/devices/serial.c' l='87' c='serial_set_modem_options'/>
 <doc f='MOS/arch/x86/include/mos/x86/devices/serial.h' l='70'>// Unused</doc>

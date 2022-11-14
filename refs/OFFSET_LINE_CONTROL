@@ -1,11 +1,11 @@
 <dec f='MOS/arch/x86/include/mos/x86/devices/serial.h' l='23' type='3'/>
-<use f='MOS/arch/x86/devices/serial.c' l='25' u='r' c='set_baudrate_divisor'/>
-<use f='MOS/arch/x86/devices/serial.c' l='28' u='r' c='set_baudrate_divisor'/>
-<use f='MOS/arch/x86/devices/serial.c' l='38' u='r' c='set_baudrate_divisor'/>
-<use f='MOS/arch/x86/devices/serial.c' l='43' u='r' c='set_data_bits'/>
-<use f='MOS/arch/x86/devices/serial.c' l='45' u='r' c='set_data_bits'/>
-<use f='MOS/arch/x86/devices/serial.c' l='50' u='r' c='set_stop_bits'/>
-<use f='MOS/arch/x86/devices/serial.c' l='52' u='r' c='set_stop_bits'/>
-<use f='MOS/arch/x86/devices/serial.c' l='57' u='r' c='set_parity'/>
-<use f='MOS/arch/x86/devices/serial.c' l='59' u='r' c='set_parity'/>
+<use f='MOS/arch/x86/devices/serial.c' l='36' u='r' c='set_baudrate_divisor'/>
+<use f='MOS/arch/x86/devices/serial.c' l='39' u='r' c='set_baudrate_divisor'/>
+<use f='MOS/arch/x86/devices/serial.c' l='49' u='r' c='set_baudrate_divisor'/>
+<use f='MOS/arch/x86/devices/serial.c' l='54' u='r' c='set_data_bits'/>
+<use f='MOS/arch/x86/devices/serial.c' l='56' u='r' c='set_data_bits'/>
+<use f='MOS/arch/x86/devices/serial.c' l='61' u='r' c='set_stop_bits'/>
+<use f='MOS/arch/x86/devices/serial.c' l='63' u='r' c='set_stop_bits'/>
+<use f='MOS/arch/x86/devices/serial.c' l='68' u='r' c='set_parity'/>
+<use f='MOS/arch/x86/devices/serial.c' l='70' u='r' c='set_parity'/>
 <doc f='MOS/arch/x86/include/mos/x86/devices/serial.h' l='23'>// Line Control Register</doc>

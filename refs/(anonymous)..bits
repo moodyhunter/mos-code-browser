@@ -1,13 +1,13 @@
 <dec f='MOS/kernel/include/mos/types.h' l='53' type='struct (anonymous struct at /home/runner/work/MOS/MOS/kernel/include/mos/types.h:43:5)'/>
 <offset>0</offset>
-<use f='MOS/arch/x86/devices/serial.c' l='26' u='m' c='set_baudrate_divisor'/>
 <use f='MOS/arch/x86/devices/serial.c' l='37' u='m' c='set_baudrate_divisor'/>
-<use f='MOS/arch/x86/devices/serial.c' l='51' u='m' c='set_stop_bits'/>
-<use f='MOS/arch/x86/devices/serial.c' l='74' u='m' c='serial_set_modem_options'/>
-<use f='MOS/arch/x86/devices/serial.c' l='75' u='m' c='serial_set_modem_options'/>
-<use f='MOS/arch/x86/devices/serial.c' l='76' u='m' c='serial_set_modem_options'/>
-<use f='MOS/arch/x86/devices/serial.c' l='77' u='m' c='serial_set_modem_options'/>
-<use f='MOS/arch/x86/devices/serial.c' l='78' u='m' c='serial_set_modem_options'/>
+<use f='MOS/arch/x86/devices/serial.c' l='48' u='m' c='set_baudrate_divisor'/>
+<use f='MOS/arch/x86/devices/serial.c' l='62' u='m' c='set_stop_bits'/>
+<use f='MOS/arch/x86/devices/serial.c' l='85' u='m' c='serial_set_modem_options'/>
+<use f='MOS/arch/x86/devices/serial.c' l='86' u='m' c='serial_set_modem_options'/>
+<use f='MOS/arch/x86/devices/serial.c' l='87' u='m' c='serial_set_modem_options'/>
+<use f='MOS/arch/x86/devices/serial.c' l='88' u='m' c='serial_set_modem_options'/>
+<use f='MOS/arch/x86/devices/serial.c' l='89' u='m' c='serial_set_modem_options'/>
 <dec f='MOS/kernel/include/mos/elf/elf.h' l='54' type='elf_bits'/>
 <use f='MOS/kernel/elf/elf.c' l='25' u='r' c='elf_verify_header'/>
 <offset>32</offset>

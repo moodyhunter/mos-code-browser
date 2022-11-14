@@ -1,4 +1,4 @@
-<dec f='MOS/kernel/include/mos/device/console.h' l='65' type='_Bool (*)(console_t *)'/>
-<offset>1280</offset>
+<dec f='MOS/kernel/include/mos/device/console.h' l='66' type='_Bool (*)(console_t *)'/>
+<offset>832</offset>
 <use f='MOS/arch/x86/devices/text_mode_console.c' l='175' u='w'/>
 <use f='MOS/kernel/device/console.c' l='35' u='r' c='console_register'/>

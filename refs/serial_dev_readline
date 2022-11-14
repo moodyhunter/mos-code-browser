@@ -1,2 +1,2 @@
 <dec f='MOS/arch/x86/include/mos/x86/devices/serial.h' l='131' type='int serial_dev_readline(serial_device_t * device, char * buffer, int max_length)'/>
-<def f='MOS/arch/x86/devices/serial.c' l='163' ll='180' type='int serial_dev_readline(serial_device_t * device, char * buffer, int max_length)'/>
+<def f='MOS/arch/x86/devices/serial.c' l='174' ll='191' type='int serial_dev_readline(serial_device_t * device, char * buffer, int max_length)'/>

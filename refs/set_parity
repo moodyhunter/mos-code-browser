@@ -1,2 +1,2 @@
-<def f='MOS/arch/x86/devices/serial.c' l='55' ll='60' type='void set_parity(int com, serial_port_parity_t parity)'/>
-<use f='MOS/arch/x86/devices/serial.c' l='101' u='c' c='serial_device_setup'/>
+<def f='MOS/arch/x86/devices/serial.c' l='66' ll='71' type='void set_parity(int com, serial_port_parity_t parity)'/>
+<use f='MOS/arch/x86/devices/serial.c' l='112' u='c' c='serial_device_setup'/>

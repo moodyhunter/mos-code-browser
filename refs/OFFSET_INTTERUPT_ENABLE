@@ -1,4 +1,4 @@
 <dec f='MOS/arch/x86/include/mos/x86/devices/serial.h' l='21' type='1'/>
-<use f='MOS/arch/x86/devices/serial.c' l='64' u='r' c='serial_set_interrupts'/>
-<use f='MOS/arch/x86/devices/serial.c' l='66' u='r' c='serial_set_interrupts'/>
+<use f='MOS/arch/x86/devices/serial.c' l='75' u='r' c='serial_set_interrupts'/>
+<use f='MOS/arch/x86/devices/serial.c' l='77' u='r' c='serial_set_interrupts'/>
 <doc f='MOS/arch/x86/include/mos/x86/devices/serial.h' l='21'>// Interrupt Enable Register</doc>

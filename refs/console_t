@@ -1,18 +1,18 @@
 <use f='MOS/kernel/include/mos/device/console.h' l='42'/>
-<def f='MOS/kernel/include/mos/device/console.h' l='44' ll='69'/>
-<size>184</size>
+<def f='MOS/kernel/include/mos/device/console.h' l='44' ll='70'/>
+<size>128</size>
 <mbr r='console_t::list_node' o='0' t='list_node_t'/>
-<mbr r='console_t::name' o='128' t='char [64]'/>
-<mbr r='console_t::caps' o='640' t='console_caps_t'/>
-<mbr r='console_t::setup' o='704' t='_Bool (*)(console_t *)'/>
-<mbr r='console_t::get_size' o='768' t='_Bool (*)(console_t *, u32 *, u32 *)'/>
-<mbr r='console_t::set_cursor' o='832' t='_Bool (*)(console_t *, _Bool)'/>
-<mbr r='console_t::move_cursor' o='896' t='_Bool (*)(console_t *, u32, u32)'/>
-<mbr r='console_t::get_cursor' o='960' t='_Bool (*)(console_t *, u32 *, u32 *)'/>
-<mbr r='console_t::get_color' o='1024' t='_Bool (*)(console_t *, standard_color_t *, standard_color_t *)'/>
-<mbr r='console_t::set_color' o='1088' t='_Bool (*)(console_t *, standard_color_t, standard_color_t)'/>
-<mbr r='console_t::read' o='1152' t='int (*)(console_t *, char *, size_t)'/>
-<mbr r='console_t::write' o='1216' t='int (*)(console_t *, const char *, size_t)'/>
-<mbr r='console_t::clear' o='1280' t='_Bool (*)(console_t *)'/>
-<mbr r='console_t::close' o='1344' t='_Bool (*)(console_t *)'/>
-<mbr r='console_t::data' o='1408' t='void *'/>
+<mbr r='console_t::name' o='128' t='const char *'/>
+<mbr r='console_t::caps' o='192' t='console_caps_t'/>
+<mbr r='console_t::setup' o='256' t='_Bool (*)(console_t *)'/>
+<mbr r='console_t::get_size' o='320' t='_Bool (*)(console_t *, u32 *, u32 *)'/>
+<mbr r='console_t::set_cursor' o='384' t='_Bool (*)(console_t *, _Bool)'/>
+<mbr r='console_t::move_cursor' o='448' t='_Bool (*)(console_t *, u32, u32)'/>
+<mbr r='console_t::get_cursor' o='512' t='_Bool (*)(console_t *, u32 *, u32 *)'/>
+<mbr r='console_t::get_color' o='576' t='_Bool (*)(console_t *, standard_color_t *, standard_color_t *)'/>
+<mbr r='console_t::set_color' o='640' t='_Bool (*)(console_t *, standard_color_t, standard_color_t)'/>
+<mbr r='console_t::read_impl' o='704' t='int (*)(console_t *, char *, size_t)'/>
+<mbr r='console_t::write_impl' o='768' t='int (*)(console_t *, const char *, size_t)'/>
+<mbr r='console_t::clear' o='832' t='_Bool (*)(console_t *)'/>
+<mbr r='console_t::close' o='896' t='_Bool (*)(console_t *)'/>
+<mbr r='console_t::data' o='960' t='void *'/>

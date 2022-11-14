@@ -1,3 +1,3 @@
 <dec f='MOS/kernel/include/mos/device/console.h' l='54' type='_Bool (*)(console_t *, _Bool)'/>
-<offset>832</offset>
+<offset>384</offset>
 <use f='MOS/arch/x86/devices/text_mode_console.c' l='168' u='w'/>

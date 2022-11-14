@@ -3,6 +3,7 @@
 <use f='MOS/arch/x86/devices/initrd_blockdev.c' l='38' u='c'/>
 <use f='MOS/arch/x86/devices/initrd_blockdev.c' l='39' u='c'/>
 <use f='MOS/arch/x86/devices/initrd_blockdev.c' l='40' u='c'/>
+<use f='MOS/arch/x86/devices/serial.c' l='22' u='c'/>
 <use f='MOS/arch/x86/devices/serial_console.c' l='44' u='c'/>
 <use f='MOS/arch/x86/devices/text_mode_console.c' l='41' u='c'/>
 <use f='MOS/arch/x86/devices/text_mode_console.c' l='51' u='c'/>

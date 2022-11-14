@@ -1,4 +1,6 @@
 console_get|console_get
+console_read|console_read
 console_register|console_register
+console_write|console_write
 copy_cow_pages_inplace|copy_cow_pages_inplace
 cow_handle_page_fault|cow_handle_page_fault

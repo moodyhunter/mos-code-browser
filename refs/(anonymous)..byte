@@ -1,6 +1,6 @@
 <dec f='MOS/kernel/include/mos/types.h' l='54' type='u8'/>
 <offset>0</offset>
-<use f='MOS/arch/x86/devices/serial.c' l='28' u='r' c='set_baudrate_divisor'/>
-<use f='MOS/arch/x86/devices/serial.c' l='38' u='r' c='set_baudrate_divisor'/>
-<use f='MOS/arch/x86/devices/serial.c' l='52' u='r' c='set_stop_bits'/>
-<use f='MOS/arch/x86/devices/serial.c' l='80' u='r' c='serial_set_modem_options'/>
+<use f='MOS/arch/x86/devices/serial.c' l='39' u='r' c='set_baudrate_divisor'/>
+<use f='MOS/arch/x86/devices/serial.c' l='49' u='r' c='set_baudrate_divisor'/>
+<use f='MOS/arch/x86/devices/serial.c' l='63' u='r' c='set_stop_bits'/>
+<use f='MOS/arch/x86/devices/serial.c' l='91' u='r' c='serial_set_modem_options'/>

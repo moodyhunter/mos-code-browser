@@ -8,7 +8,6 @@
 <use f='MOS/arch/x86/acpi/acpi.c' l='81' macro='1' u='c' c='x86_acpi_init'/>
 <use f='MOS/arch/x86/acpi/acpi.c' l='156' macro='1' u='c' c='find_acpi_rsdp'/>
 <use f='MOS/arch/x86/cpu/cpuid.c' l='21' macro='1' u='c' c='cpuid_get_manufacturer'/>
-<use f='MOS/arch/x86/devices/serial.c' l='11' macro='1' u='c' c='serial_irq_handler'/>
 <use f='MOS/arch/x86/gdt/gdt.c' l='36' macro='1' u='c' c='gdt32_set_entry'/>
 <use f='MOS/arch/x86/interrupt/apic.c' l='99' macro='1' u='c' c='apic_enable'/>
 <use f='MOS/arch/x86/interrupt/apic.c' l='102' macro='1' u='c' c='apic_enable'/>

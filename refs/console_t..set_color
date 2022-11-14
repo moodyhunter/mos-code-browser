@@ -1,5 +1,5 @@
 <dec f='MOS/kernel/include/mos/device/console.h' l='60' type='_Bool (*)(console_t *, standard_color_t, standard_color_t)'/>
-<offset>1088</offset>
+<offset>640</offset>
 <use f='MOS/arch/x86/devices/serial_console.c' l='20' u='w' c='serial_console_setup'/>
 <use f='MOS/arch/x86/devices/text_mode_console.c' l='173' u='w'/>
 <use f='MOS/kernel/printk.c' l='84' u='r' c='print_to_console'/>

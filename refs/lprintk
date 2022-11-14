@@ -25,8 +25,7 @@
 <use f='MOS/arch/x86/cpu/smp.c' l='124' macro='1' u='c' c='x86_smp_init'/>
 <use f='MOS/arch/x86/cpu/smp.c' l='130' macro='1' u='c' c='x86_smp_init'/>
 <use f='MOS/arch/x86/cpu/smp.c' l='144' macro='1' u='c' c='x86_smp_init'/>
-<use f='MOS/arch/x86/devices/serial.c' l='12' macro='1' u='c' c='serial_irq_handler'/>
-<use f='MOS/arch/x86/devices/serial.c' l='18' macro='1' u='c' c='serial_irq_handler'/>
+<use f='MOS/arch/x86/devices/serial.c' l='29' macro='1' u='c' c='serial_irq_handler'/>
 <use f='MOS/arch/x86/interrupt/apic.c' l='45' macro='1' u='c' c='apic_reg_read_offset_32'/>
 <use f='MOS/arch/x86/interrupt/apic.c' l='52' macro='1' u='c' c='apic_reg_write_offset_32'/>
 <use f='MOS/arch/x86/interrupt/apic.c' l='58' macro='1' u='c' c='apic_reg_write_offset_64'/>

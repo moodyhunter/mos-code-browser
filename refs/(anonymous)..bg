@@ -1,4 +1,4 @@
 <dec f='MOS/arch/x86/include/mos/x86/devices/serial_console.h' l='12' type='standard_color_t'/>
 <use f='MOS/arch/x86/devices/serial_console.c' l='77' u='w' c='serial_console_set_color'/>
 <use f='MOS/arch/x86/devices/serial_console.c' l='88' u='r' c='serial_console_get_color'/>
-<offset>1696</offset>
+<offset>1248</offset>

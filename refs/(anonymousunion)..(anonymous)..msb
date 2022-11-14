@@ -1,4 +1,4 @@
 <dec f='MOS/kernel/include/mos/types.h' l='52' type='_Bool'/>
 <offset>7</offset>
-<use f='MOS/arch/x86/devices/serial.c' l='26' u='w' c='set_baudrate_divisor'/>
 <use f='MOS/arch/x86/devices/serial.c' l='37' u='w' c='set_baudrate_divisor'/>
+<use f='MOS/arch/x86/devices/serial.c' l='48' u='w' c='set_baudrate_divisor'/>
