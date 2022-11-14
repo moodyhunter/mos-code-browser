@@ -1,0 +1,2 @@
+<dec f='MOS/lib/include/lib/structures/ring_buffer.h' l='20' type='_Bool ring_buffer_resize(ring_buffer_t * buffer, size_t new_capacity)'/>
+<def f='MOS/lib/structures/ring_buffer.c' l='40' ll='59' macro='1' type='_Bool ring_buffer_resize(ring_buffer_t * buffer, size_t new_capacity)'/>

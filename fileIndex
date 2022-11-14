@@ -115,6 +115,8 @@ MOS/lib/structures/hashmap.c
 MOS/lib/structures/hashmap_common.c
 MOS/lib/include/lib/hash.h
 MOS/lib/structures/list.c
+MOS/lib/structures/ring_buffer.c
+MOS/lib/include/lib/structures/ring_buffer.h
 MOS/lib/structures/stack.c
 MOS/lib/structures/tree.c
 MOS/tests/cmdline_parser/test_cmdline_parser.c
@@ -127,6 +129,7 @@ MOS/tests/kmalloc/test_kmalloc.c
 MOS/tests/linked_list/test_linked_list.c
 MOS/tests/memops/test_memops.c
 MOS/tests/printf/test_printf.c
+MOS/tests/ring_buffer/test_ring_buffer.c
 MOS/tests/test_engine.c
 MOS/userspace/init/main.c
 MOS/userspace/include/libuserspace.h

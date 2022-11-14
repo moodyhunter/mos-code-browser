@@ -1,0 +1,12 @@
+<def f='MOS/lib/include/lib/structures/ring_buffer.h' l='42' ll='45' macro='1' type='size_t ring_buffer_push_back_byte(ring_buffer_t * buffer, u8 byte)'/>
+<use f='MOS/tests/ring_buffer/test_ring_buffer.c' l='29' u='c' c='ringbuffer_put_and_get'/>
+<use f='MOS/tests/ring_buffer/test_ring_buffer.c' l='35' u='c' c='ringbuffer_put_and_get'/>
+<use f='MOS/tests/ring_buffer/test_ring_buffer.c' l='41' u='c' c='ringbuffer_put_and_get'/>
+<use f='MOS/tests/ring_buffer/test_ring_buffer.c' l='47' u='c' c='ringbuffer_put_and_get'/>
+<use f='MOS/tests/ring_buffer/test_ring_buffer.c' l='53' u='c' c='ringbuffer_put_and_get'/>
+<use f='MOS/tests/ring_buffer/test_ring_buffer.c' l='59' u='c' c='ringbuffer_put_and_get'/>
+<use f='MOS/tests/ring_buffer/test_ring_buffer.c' l='107' u='c' c='ringbuffer_put_and_get_with_wrap'/>
+<use f='MOS/tests/ring_buffer/test_ring_buffer.c' l='113' u='c' c='ringbuffer_put_and_get_with_wrap'/>
+<use f='MOS/tests/ring_buffer/test_ring_buffer.c' l='119' u='c' c='ringbuffer_put_and_get_with_wrap'/>
+<use f='MOS/tests/ring_buffer/test_ring_buffer.c' l='125' u='c' c='ringbuffer_put_and_get_with_wrap'/>
+<use f='MOS/tests/ring_buffer/test_ring_buffer.c' l='131' u='c' c='ringbuffer_put_and_get_with_wrap'/>

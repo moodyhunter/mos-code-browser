@@ -27,6 +27,10 @@
 <use f='MOS/lib/structures/hashmap.c' l='42' u='c' c='hashmap_deinit'/>
 <use f='MOS/lib/structures/hashmap.c' l='46' u='c' c='hashmap_deinit'/>
 <use f='MOS/lib/structures/hashmap.c' l='109' u='c' c='hashmap_remove'/>
+<use f='MOS/lib/structures/ring_buffer.c' l='24' u='c' c='ring_buffer_create'/>
+<use f='MOS/lib/structures/ring_buffer.c' l='36' u='c' c='ring_buffer_destroy'/>
+<use f='MOS/lib/structures/ring_buffer.c' l='37' u='c' c='ring_buffer_destroy'/>
+<use f='MOS/lib/structures/ring_buffer.c' l='53' u='c' c='ring_buffer_resize'/>
 <use f='MOS/tests/downwards_stack/test_downwards_stack.c' l='77' u='c' c='stack_push_pop_stack'/>
 <use f='MOS/tests/kmalloc/test_kmalloc.c' l='12' u='c' c='kmalloc_single'/>
 <use f='MOS/tests/kmalloc/test_kmalloc.c' l='24' u='c' c='kmalloc_stress'/>

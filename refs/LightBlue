@@ -38,3 +38,6 @@
 <use f='MOS/tests/printf/test_printf.c' l='267' macro='1' u='r' c='__mos_test_wrapped_test_integer_left_justified'/>
 <use f='MOS/tests/printf/test_printf.c' l='386' macro='1' u='r' c='__mos_test_wrapped_test_integer_extreme_case'/>
 <use f='MOS/tests/printf/test_printf.c' l='400' macro='1' u='r' c='__mos_test_wrapped_test_printf_tests_github'/>
+<use f='MOS/tests/ring_buffer/test_ring_buffer.c' l='8' macro='1' u='r' c='__mos_test_wrapped_test_ringbuffer_creation_and_destruction'/>
+<use f='MOS/tests/ring_buffer/test_ring_buffer.c' l='24' macro='1' u='r' c='__mos_test_wrapped_test_ringbuffer_put_and_get'/>
+<use f='MOS/tests/ring_buffer/test_ring_buffer.c' l='102' macro='1' u='r' c='__mos_test_wrapped_test_ringbuffer_put_and_get_with_wrap'/>

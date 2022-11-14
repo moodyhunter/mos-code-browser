@@ -1,0 +1,8 @@
+<def f='MOS/lib/include/lib/structures/ring_buffer.h' l='8' ll='15'/>
+<use f='MOS/lib/include/lib/structures/ring_buffer.h' l='8'/>
+<size>40</size>
+<mbr r='_ring_buffer::data' o='0' t='u8 *'/>
+<mbr r='_ring_buffer::size' o='64' t='size_t'/>
+<mbr r='_ring_buffer::capacity' o='128' t='size_t'/>
+<mbr r='_ring_buffer::head' o='192' t='size_t'/>
+<mbr r='_ring_buffer::tail' o='256' t='size_t'/>
