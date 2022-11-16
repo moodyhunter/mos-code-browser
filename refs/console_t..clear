@@ -2,3 +2,4 @@
 <offset>832</offset>
 <use f='MOS/arch/x86/devices/text_mode_console.c' l='175' u='w'/>
 <use f='MOS/kernel/device/console.c' l='35' u='r' c='console_register'/>
+<use f='MOS/kernel/kernel_init.c' l='103' u='r' c='mos_start_kernel'/>

@@ -31,6 +31,6 @@
 <use f='MOS/kernel/kernel_init.c' l='63' u='c'/>
 <use f='MOS/kernel/kernel_init.c' l='64' u='c'/>
 <use f='MOS/kernel/kernel_init.c' l='76' u='c'/>
-<use f='MOS/kernel/kernel_init.c' l='107' u='c'/>
+<use f='MOS/kernel/kernel_init.c' l='108' u='c'/>
 <use f='MOS/kernel/tasks/process.c' l='165' u='c'/>
 <use f='MOS/kernel/tasks/process.c' l='226' u='c'/>
