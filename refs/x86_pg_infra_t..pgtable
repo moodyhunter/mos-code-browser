@@ -1,4 +1,4 @@
-<dec f='MOS/arch/x86/include/mos/x86/mm/paging_impl.h' l='58' type='x86_pgtable_entry [1048576]'/>
+<dec f='MOS/arch/x86/include/mos/x86/mm/paging_impl.h' l='58' type='x86_pgtable_entry[1048576]'/>
 <offset>32768</offset>
 <use f='MOS/arch/x86/mm/paging.c' l='89' u='r' c='page_table_dump_range'/>
 <use f='MOS/arch/x86/mm/paging.c' l='116' u='r' c='page_table_dump_range'/>

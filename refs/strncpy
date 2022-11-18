@@ -1,4 +1,4 @@
 <dec f='MOS/lib/include/lib/string.h' l='19' type='char * strncpy(char * dest, const char * src, size_t n)'/>
-<use f='MOS/arch/x86/x86_platform.c' l='105' u='c' c='x86_start_kernel'/>
+<use f='MOS/arch/x86/x86_platform.c' l='120' u='c' c='x86_start_kernel'/>
 <def f='MOS/lib/string.c' l='131' ll='144' type='char * strncpy(char * dest, const char * src, size_t n)'/>
 <use f='MOS/lib/string.c' l='149' u='c' c='duplicate_string'/>

@@ -1,6 +1,6 @@
 <dec f='MOS/kernel/include/mos/filesystem/filesystem.h' l='68' type='gid_t'/>
 <offset>160</offset>
-<dec f='MOS/kernel/include/mos/filesystem/cpio/cpio.h' l='15' type='char [8]'/>
+<dec f='MOS/kernel/include/mos/filesystem/cpio/cpio.h' l='15' type='char[8]'/>
 <use f='MOS/kernel/filesystem/cpio/cpio.c' l='157' u='w' c='cpio_stat'/>
 <use f='MOS/kernel/filesystem/cpio/cpio.c' l='157' u='r' c='cpio_stat'/>
 <use f='MOS/kernel/filesystem/cpio/cpio.c' l='157' u='r' c='cpio_stat'/>

@@ -40,6 +40,7 @@
 <use f='MOS/arch/x86/mm/pmem_freelist.c' l='164' macro='1' u='c' c='pmem_freelist_remove_region'/>
 <use f='MOS/arch/x86/mm/pmem_freelist.c' l='239' macro='1' u='c' c='pmem_freelist_remove_region'/>
 <use f='MOS/arch/x86/mm/pmem_freelist.c' l='289' macro='1' u='c' c='pmem_freelist_find_free'/>
+<use f='MOS/arch/x86/x86_platform.c' l='39' macro='1' u='c' c='x86_keyboard_handler'/>
 <use f='MOS/kernel/cmdline.c' l='70' macro='1' u='c' c='mos_cmdline_create'/>
 <use f='MOS/kernel/cmdline.c' l='111' macro='1' u='c' c='mos_cmdline_get_arg'/>
 <use f='MOS/kernel/device/block.c' l='28' macro='1' u='c' c='blockdev_register'/>

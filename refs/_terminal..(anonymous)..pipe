@@ -1,4 +1,4 @@
-<dec f='MOS/kernel/include/mos/io/terminal.h' l='26' type='struct (anonymous struct at /home/runner/work/MOS/MOS/kernel/include/mos/io/terminal.h:22:9)'/>
+<dec f='MOS/kernel/include/mos/io/terminal.h' l='26' type='struct (unnamed struct at /home/runner/work/MOS/MOS/kernel/include/mos/io/terminal.h:22:9)'/>
 <use f='MOS/kernel/io/terminal.c' l='16' u='m' c='terminal_io_read'/>
 <use f='MOS/kernel/io/terminal.c' l='27' u='m' c='terminal_io_write'/>
 <use f='MOS/kernel/io/terminal.c' l='40' u='m' c='terminal_io_close'/>

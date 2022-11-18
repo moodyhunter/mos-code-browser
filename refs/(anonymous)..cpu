@@ -1,4 +1,4 @@
-<dec f='MOS/kernel/include/mos/platform/platform.h' l='96' type='struct (anonymous struct at /home/runner/work/MOS/MOS/kernel/include/mos/platform/platform.h:96:5)'/>
+<dec f='MOS/kernel/include/mos/platform/platform.h' l='96' type='struct (unnamed struct at /home/runner/work/MOS/MOS/kernel/include/mos/platform/platform.h:96:5)'/>
 <offset>448</offset>
 <use f='MOS/arch/x86/cpu/smp.c' l='59' u='m' c='ap_begin_exec'/>
 <use f='MOS/arch/x86/cpu/smp.c' l='117' u='m' c='x86_smp_init'/>
@@ -9,16 +9,16 @@
 <use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='207' macro='1' u='m' c='x86_handle_exception'/>
 <use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='229' macro='1' u='m' c='x86_handle_exception'/>
 <use f='MOS/arch/x86/tasks/context.c' l='45' macro='1' u='m' c='x86_switch_to_thread'/>
-<use f='MOS/arch/x86/x86_platform.c' l='59' macro='1' u='m' c='x86_kpanic_hook'/>
-<use f='MOS/arch/x86/x86_platform.c' l='61' macro='1' u='m' c='x86_kpanic_hook'/>
-<use f='MOS/arch/x86/x86_platform.c' l='63' macro='1' u='m' c='x86_kpanic_hook'/>
-<use f='MOS/arch/x86/x86_platform.c' l='63' macro='1' u='m' c='x86_kpanic_hook'/>
-<use f='MOS/arch/x86/x86_platform.c' l='63' macro='1' u='m' c='x86_kpanic_hook'/>
-<use f='MOS/arch/x86/x86_platform.c' l='65' macro='1' u='m' c='x86_kpanic_hook'/>
-<use f='MOS/arch/x86/x86_platform.c' l='66' macro='1' u='m' c='x86_kpanic_hook'/>
-<use f='MOS/arch/x86/x86_platform.c' l='66' macro='1' u='m' c='x86_kpanic_hook'/>
-<use f='MOS/arch/x86/x86_platform.c' l='82' macro='1' u='m' c='x86_kpanic_hook'/>
-<use f='MOS/arch/x86/x86_platform.c' l='111' macro='1' u='m' c='x86_start_kernel'/>
+<use f='MOS/arch/x86/x86_platform.c' l='74' macro='1' u='m' c='x86_kpanic_hook'/>
+<use f='MOS/arch/x86/x86_platform.c' l='76' macro='1' u='m' c='x86_kpanic_hook'/>
+<use f='MOS/arch/x86/x86_platform.c' l='78' macro='1' u='m' c='x86_kpanic_hook'/>
+<use f='MOS/arch/x86/x86_platform.c' l='78' macro='1' u='m' c='x86_kpanic_hook'/>
+<use f='MOS/arch/x86/x86_platform.c' l='78' macro='1' u='m' c='x86_kpanic_hook'/>
+<use f='MOS/arch/x86/x86_platform.c' l='80' macro='1' u='m' c='x86_kpanic_hook'/>
+<use f='MOS/arch/x86/x86_platform.c' l='81' macro='1' u='m' c='x86_kpanic_hook'/>
+<use f='MOS/arch/x86/x86_platform.c' l='81' macro='1' u='m' c='x86_kpanic_hook'/>
+<use f='MOS/arch/x86/x86_platform.c' l='97' macro='1' u='m' c='x86_kpanic_hook'/>
+<use f='MOS/arch/x86/x86_platform.c' l='126' macro='1' u='m' c='x86_start_kernel'/>
 <use f='MOS/kernel/elf/elf.c' l='50' macro='1' u='m' c='elf_create_process'/>
 <use f='MOS/kernel/elf/elf.c' l='98' macro='1' u='m' c='elf_create_process'/>
 <use f='MOS/kernel/elf/elf.c' l='124' macro='1' u='m' c='elf_create_process'/>

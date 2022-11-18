@@ -5,6 +5,7 @@
 <use f='MOS/arch/x86/cpu/smp.c' l='104' macro='1' u='r' c='x86_smp_init'/>
 <use f='MOS/arch/x86/cpu/smp.c' l='130' macro='1' u='r' c='x86_smp_init'/>
 <use f='MOS/arch/x86/cpu/smp.c' l='144' macro='1' u='r' c='x86_smp_init'/>
+<use f='MOS/arch/x86/devices/serial.c' l='22' macro='1' u='r' c='serial_irq_handler'/>
 <use f='MOS/arch/x86/interrupt/apic.c' l='105' macro='1' u='r' c='apic_enable'/>
 <use f='MOS/arch/x86/interrupt/apic.c' l='123' macro='1' u='r' c='apic_enable'/>
 <use f='MOS/arch/x86/mm/mm.c' l='32' macro='1' u='r' c='x86_mem_init'/>
@@ -20,10 +21,10 @@
 <use f='MOS/arch/x86/mm/paging.c' l='147' macro='1' u='r' c='x86_mm_dump_page_table'/>
 <use f='MOS/arch/x86/mm/pmem_freelist.c' l='35' macro='1' u='r' c='pmem_freelist_dump'/>
 <use f='MOS/arch/x86/mm/pmem_freelist.c' l='43' macro='1' u='r' c='pmem_freelist_dump'/>
-<use f='MOS/arch/x86/x86_platform.c' l='41' macro='1' u='r' c='do_backtrace'/>
-<use f='MOS/arch/x86/x86_platform.c' l='127' macro='1' u='r' c='x86_start_kernel'/>
+<use f='MOS/arch/x86/x86_platform.c' l='48' macro='1' u='r' c='x86_keyboard_handler'/>
+<use f='MOS/arch/x86/x86_platform.c' l='56' macro='1' u='r' c='do_backtrace'/>
+<use f='MOS/arch/x86/x86_platform.c' l='142' macro='1' u='r' c='x86_start_kernel'/>
 <use f='MOS/kernel/device/console.c' l='38' macro='1' u='r' c='console_register'/>
-<use f='MOS/kernel/filesystem/cpio/cpio.c' l='101' macro='1' u='r' c='cpio_mount'/>
 <use f='MOS/kernel/filesystem/mount.c' l='40' macro='1' u='r' c='kmount'/>
 <use f='MOS/kernel/kernel_init.c' l='25' macro='1' u='r' c='mount_initrd'/>
 <use f='MOS/kernel/kernel_init.c' l='31' macro='1' u='r' c='mount_initrd'/>

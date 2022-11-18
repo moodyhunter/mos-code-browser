@@ -1,6 +1,6 @@
-<dec f='MOS/arch/x86/include/mos/x86/x86_interrupt.h' l='74' type='list_node_t [16]'/>
+<dec f='MOS/arch/x86/include/mos/x86/x86_interrupt.h' l='74' type='list_node_t[16]'/>
 <doc f='MOS/arch/x86/include/mos/x86/x86_interrupt.h' l='73'>// The following `extern` symbols are defined in the interrupt_handler.asm file.</doc>
-<def f='MOS/arch/x86/interrupt/x86_interrupt.c' l='60' type='list_node_t [16]'/>
+<def f='MOS/arch/x86/interrupt/x86_interrupt.c' l='60' type='list_node_t[16]'/>
 <use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='65' u='a' c='x86_irq_handler_init'/>
 <use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='82' u='a' c='x86_install_interrupt_handler'/>
 <use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='284' u='m' c='x86_handle_irq'/>

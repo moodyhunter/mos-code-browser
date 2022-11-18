@@ -4,10 +4,10 @@
 <use f='MOS/arch/x86/tasks/context.c' l='45' u='r' c='x86_switch_to_thread'/>
 <use f='MOS/arch/x86/tasks/context.c' l='45' u='r' c='x86_switch_to_thread'/>
 <use f='MOS/arch/x86/tasks/context.c' l='46' u='r' c='x86_switch_to_thread'/>
-<use f='MOS/arch/x86/x86_platform.c' l='59' u='r' c='x86_kpanic_hook'/>
-<use f='MOS/arch/x86/x86_platform.c' l='66' u='r' c='x86_kpanic_hook'/>
-<use f='MOS/arch/x86/x86_platform.c' l='66' u='r' c='x86_kpanic_hook'/>
-<use f='MOS/arch/x86/x86_platform.c' l='111' u='w' c='x86_start_kernel'/>
+<use f='MOS/arch/x86/x86_platform.c' l='74' u='r' c='x86_kpanic_hook'/>
+<use f='MOS/arch/x86/x86_platform.c' l='81' u='r' c='x86_kpanic_hook'/>
+<use f='MOS/arch/x86/x86_platform.c' l='81' u='r' c='x86_kpanic_hook'/>
+<use f='MOS/arch/x86/x86_platform.c' l='126' u='w' c='x86_start_kernel'/>
 <use f='MOS/arch/x86/x86_platform_api.c' l='62' u='w' c='platform_mm_create_user_pgd'/>
 <use f='MOS/arch/x86/x86_platform_api.c' l='87' u='r' c='platform_mm_destroy_user_pgd'/>
 <use f='MOS/kernel/mm/memops.c' l='34' u='r' c='mm_copy_pages'/>

@@ -16,3 +16,4 @@
 <use f='MOS/kernel/tasks/schedule.c' l='52' u='r' c='jump_to_scheduler'/>
 <use f='MOS/kernel/tasks/schedule.c' l='53' u='w' c='jump_to_scheduler'/>
 <use f='MOS/kernel/tasks/thread.c' l='46' u='w' c='thread_allocate'/>
+<use f='MOS/kernel/tasks/thread.c' l='108' u='w' c='thread_handle_exit'/>

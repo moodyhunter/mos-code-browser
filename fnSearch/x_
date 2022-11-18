@@ -25,5 +25,6 @@ x86_switch_to_scheduler|x86_switch_to_scheduler
 x86_switch_to_thread|x86_switch_to_thread
 x86_timer_handler|x86_timer_handler
 x86_tss_init|x86_tss_init
+x86_keyboard_handler|x86_keyboard_handler
 x86_kpanic_hook|x86_kpanic_hook
 x86_start_kernel|x86_start_kernel

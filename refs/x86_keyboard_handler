@@ -1,0 +1,2 @@
+<def f='MOS/arch/x86/x86_platform.c' l='37' ll='49' type='void x86_keyboard_handler(u32 irq)'/>
+<use f='MOS/arch/x86/x86_platform.c' l='158' u='r' c='x86_start_kernel'/>

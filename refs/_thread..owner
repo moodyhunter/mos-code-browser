@@ -5,10 +5,10 @@
 <offset>128</offset>
 <use f='MOS/arch/x86/tasks/context.c' l='45' u='r' c='x86_switch_to_thread'/>
 <use f='MOS/arch/x86/tasks/context.c' l='46' u='r' c='x86_switch_to_thread'/>
-<use f='MOS/arch/x86/x86_platform.c' l='63' macro='1' u='r' c='x86_kpanic_hook'/>
-<use f='MOS/arch/x86/x86_platform.c' l='63' macro='1' u='r' c='x86_kpanic_hook'/>
-<use f='MOS/arch/x86/x86_platform.c' l='65' macro='1' u='r' c='x86_kpanic_hook'/>
-<use f='MOS/arch/x86/x86_platform.c' l='66' macro='1' u='r' c='x86_kpanic_hook'/>
+<use f='MOS/arch/x86/x86_platform.c' l='78' macro='1' u='r' c='x86_kpanic_hook'/>
+<use f='MOS/arch/x86/x86_platform.c' l='78' macro='1' u='r' c='x86_kpanic_hook'/>
+<use f='MOS/arch/x86/x86_platform.c' l='80' macro='1' u='r' c='x86_kpanic_hook'/>
+<use f='MOS/arch/x86/x86_platform.c' l='81' macro='1' u='r' c='x86_kpanic_hook'/>
 <use f='MOS/kernel/ksyscall.c' l='17' macro='1' u='r' c='impl_syscall_panic'/>
 <use f='MOS/kernel/ksyscall.c' l='18' macro='1' u='r' c='impl_syscall_panic'/>
 <use f='MOS/kernel/ksyscall.c' l='18' macro='1' u='r' c='impl_syscall_panic'/>

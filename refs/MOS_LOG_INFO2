@@ -45,6 +45,7 @@
 <use f='MOS/arch/x86/mm/pmem_freelist.c' l='281' macro='1' u='r' c='pmem_freelist_find_free'/>
 <use f='MOS/kernel/device/console.c' l='42' macro='1' u='r' c='console_register'/>
 <use f='MOS/kernel/elf/elf.c' l='75' macro='1' u='r' c='elf_create_process'/>
+<use f='MOS/kernel/filesystem/cpio/cpio.c' l='101' macro='1' u='r' c='cpio_mount'/>
 <use f='MOS/kernel/filesystem/cpio/cpio.c' l='115' macro='1' u='r' c='cpio_open'/>
 <use f='MOS/kernel/filesystem/filesystem.c' l='111' macro='1' u='r' c='vfs_path_open'/>
 <use f='MOS/kernel/filesystem/mount.c' l='16' macro='1' u='r' c='kmount_add_mp'/>

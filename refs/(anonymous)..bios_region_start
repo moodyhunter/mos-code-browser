@@ -1,4 +1,4 @@
 <dec f='MOS/arch/x86/include/mos/x86/x86_platform.h' l='54' type='uintptr_t'/>
 <offset>160</offset>
 <use f='MOS/arch/x86/boot/multiboot/startup.c' l='199' u='w' c='x86_startup'/>
-<use f='MOS/arch/x86/x86_platform.c' l='129' u='r' c='x86_start_kernel'/>
+<use f='MOS/arch/x86/x86_platform.c' l='144' u='r' c='x86_start_kernel'/>

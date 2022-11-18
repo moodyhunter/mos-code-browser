@@ -1,1 +1,1 @@
-<def f='MOS/arch/x86/x86_platform.c' l='36' ll='54' type='void do_backtrace(u32 max)'/>
+<def f='MOS/arch/x86/x86_platform.c' l='51' ll='69' type='void do_backtrace(u32 max)'/>

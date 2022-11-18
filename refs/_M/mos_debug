@@ -21,6 +21,7 @@
 <use f='MOS/arch/x86/mm/pmem_freelist.c' l='221' u='c'/>
 <use f='MOS/arch/x86/mm/pmem_freelist.c' l='281' u='c'/>
 <use f='MOS/kernel/elf/elf.c' l='75' u='c'/>
+<use f='MOS/kernel/filesystem/cpio/cpio.c' l='101' u='c'/>
 <use f='MOS/kernel/filesystem/cpio/cpio.c' l='115' u='c'/>
 <use f='MOS/kernel/filesystem/filesystem.c' l='111' u='c'/>
 <use f='MOS/kernel/filesystem/pathutils.c' l='177' u='c'/>
