@@ -5,7 +5,6 @@
 <use f='MOS/arch/x86/mm/pmem_freelist.c' l='53' u='c' c='pmem_freelist_setup'/>
 <use f='MOS/arch/x86/mm/pmem_freelist.c' l='224' u='c' c='pmem_freelist_remove_region'/>
 <use f='MOS/arch/x86/x86_platform_api.c' l='60' u='c' c='platform_mm_create_user_pgd'/>
-<use f='MOS/kernel/mm/liballoc.c' l='618' u='c' c='liballoc_calloc'/>
 <use f='MOS/kernel/tasks/process.c' l='71' u='c' c='process_init'/>
 <use f='MOS/kernel/tasks/thread.c' l='48' u='c' c='thread_init'/>
 <def f='MOS/lib/string.c' l='85' ll='91' type='void * memset(void * s, int c, size_t n)'/>
