@@ -1,3 +1,3 @@
 <dec f='MOS/lib/include/lib/string.h' l='23' type='char * strcpy(char * dest, const char * src)'/>
-<use f='MOS/kernel/tasks/process.c' l='57' u='c' c='process_allocate'/>
+<use f='MOS/kernel/tasks/process.c' l='56' u='c' c='process_allocate'/>
 <def f='MOS/lib/string.c' l='113' ll='119' type='char * strcpy(char * dest, const char * src)'/>

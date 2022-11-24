@@ -61,9 +61,9 @@
 <use f='MOS/kernel/printk.c' l='59' c='deduce_level_color'/>
 <use f='MOS/kernel/tasks/fork.c' l='16' macro='1' u='r' c='process_handle_fork'/>
 <use f='MOS/kernel/tasks/fork.c' l='26' macro='1' u='r' c='process_handle_fork'/>
-<use f='MOS/kernel/tasks/process.c' l='141' macro='1' u='r' c='process_attach_thread'/>
-<use f='MOS/kernel/tasks/process.c' l='157' macro='1' u='r' c='process_handle_exit'/>
-<use f='MOS/kernel/tasks/process.c' l='169' macro='1' u='r' c='process_handle_exit'/>
-<use f='MOS/kernel/tasks/process.c' l='183' macro='1' u='r' c='process_handle_cleanup'/>
-<use f='MOS/kernel/tasks/process.c' l='184' macro='1' u='r' c='process_handle_cleanup'/>
+<use f='MOS/kernel/tasks/process.c' l='144' macro='1' u='r' c='process_attach_thread'/>
+<use f='MOS/kernel/tasks/process.c' l='160' macro='1' u='r' c='process_handle_exit'/>
+<use f='MOS/kernel/tasks/process.c' l='172' macro='1' u='r' c='process_handle_exit'/>
 <use f='MOS/kernel/tasks/process.c' l='186' macro='1' u='r' c='process_handle_cleanup'/>
+<use f='MOS/kernel/tasks/process.c' l='187' macro='1' u='r' c='process_handle_cleanup'/>
+<use f='MOS/kernel/tasks/process.c' l='189' macro='1' u='r' c='process_handle_cleanup'/>

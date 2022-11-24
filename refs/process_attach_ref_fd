@@ -2,7 +2,7 @@
 <use f='MOS/kernel/elf/elf.c' l='121' u='c' c='elf_create_process'/>
 <use f='MOS/kernel/ksyscall.c' l='31' u='c' c='impl_syscall_file_open'/>
 <use f='MOS/kernel/tasks/fork.c' l='51' u='c' c='process_handle_fork'/>
-<use f='MOS/kernel/tasks/process.c' l='93' u='c' c='process_new'/>
-<use f='MOS/kernel/tasks/process.c' l='94' u='c' c='process_new'/>
-<use f='MOS/kernel/tasks/process.c' l='95' u='c' c='process_new'/>
-<def f='MOS/kernel/tasks/process.c' l='111' ll='123' type='fd_t process_attach_ref_fd(process_t * process, io_t * file)'/>
+<use f='MOS/kernel/tasks/process.c' l='96' u='c' c='process_new'/>
+<use f='MOS/kernel/tasks/process.c' l='97' u='c' c='process_new'/>
+<use f='MOS/kernel/tasks/process.c' l='98' u='c' c='process_new'/>
+<def f='MOS/kernel/tasks/process.c' l='114' ll='126' type='fd_t process_attach_ref_fd(process_t * process, io_t * file)'/>

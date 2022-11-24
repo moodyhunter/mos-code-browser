@@ -34,5 +34,5 @@
 <use f='MOS/kernel/kernel_init.c' l='76' macro='1' u='r' c='mos_start_kernel'/>
 <use f='MOS/kernel/kernel_init.c' l='108' macro='1' u='r' c='mos_start_kernel'/>
 <use f='MOS/kernel/printk.c' l='60' c='deduce_level_color'/>
-<use f='MOS/kernel/tasks/process.c' l='155' macro='1' u='r' c='process_handle_exit'/>
-<use f='MOS/kernel/tasks/process.c' l='216' macro='1' u='r' c='process_dump_mmaps'/>
+<use f='MOS/kernel/tasks/process.c' l='158' macro='1' u='r' c='process_handle_exit'/>
+<use f='MOS/kernel/tasks/process.c' l='219' macro='1' u='r' c='process_dump_mmaps'/>
