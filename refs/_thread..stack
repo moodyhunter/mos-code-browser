@@ -6,5 +6,5 @@
 <use f='MOS/kernel/tasks/fork.c' l='62' u='w' c='process_handle_fork'/>
 <use f='MOS/kernel/tasks/fork.c' l='62' u='r' c='process_handle_fork'/>
 <use f='MOS/kernel/tasks/schedule.c' l='54' u='m' c='jump_to_scheduler'/>
-<use f='MOS/kernel/tasks/thread.c' l='78' u='a' c='thread_new'/>
-<use f='MOS/kernel/tasks/thread.c' l='87' u='m' c='thread_new'/>
+<use f='MOS/kernel/tasks/thread.c' l='71' u='a' c='thread_new'/>
+<use f='MOS/kernel/tasks/thread.c' l='80' u='m' c='thread_new'/>

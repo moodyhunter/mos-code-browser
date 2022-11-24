@@ -4,8 +4,8 @@
 <use f='MOS/arch/x86/tasks/context.c' l='49' u='r' c='x86_switch_to_thread'/>
 <use f='MOS/arch/x86/tasks/context.c' l='49' u='r' c='x86_switch_to_thread'/>
 <use f='MOS/kernel/tasks/fork.c' l='64' u='w' c='process_handle_fork'/>
-<use f='MOS/kernel/tasks/process.c' l='171' u='r' c='process_handle_exit'/>
-<use f='MOS/kernel/tasks/process.c' l='176' u='w' c='process_handle_exit'/>
+<use f='MOS/kernel/tasks/process.c' l='161' u='r' c='process_handle_exit'/>
+<use f='MOS/kernel/tasks/process.c' l='166' u='w' c='process_handle_exit'/>
 <use f='MOS/kernel/tasks/schedule.c' l='19' u='r' c='mos_update_current'/>
 <use f='MOS/kernel/tasks/schedule.c' l='19' u='r' c='mos_update_current'/>
 <use f='MOS/kernel/tasks/schedule.c' l='20' u='w' c='mos_update_current'/>
@@ -15,5 +15,5 @@
 <use f='MOS/kernel/tasks/schedule.c' l='33' u='r' c='schedule_to_thread'/>
 <use f='MOS/kernel/tasks/schedule.c' l='52' u='r' c='jump_to_scheduler'/>
 <use f='MOS/kernel/tasks/schedule.c' l='53' u='w' c='jump_to_scheduler'/>
-<use f='MOS/kernel/tasks/thread.c' l='46' u='w' c='thread_allocate'/>
-<use f='MOS/kernel/tasks/thread.c' l='108' u='w' c='thread_handle_exit'/>
+<use f='MOS/kernel/tasks/thread.c' l='39' u='w' c='thread_allocate'/>
+<use f='MOS/kernel/tasks/thread.c' l='101' u='w' c='thread_handle_exit'/>

@@ -135,15 +135,15 @@
 <def f='MOS/kernel/printk.c' l='92' ll='112' type='void lprintk(int loglevel, const char * fmt)'/>
 <use f='MOS/kernel/tasks/fork.c' l='16' macro='1' u='c' c='process_handle_fork'/>
 <use f='MOS/kernel/tasks/fork.c' l='26' macro='1' u='c' c='process_handle_fork'/>
-<use f='MOS/kernel/tasks/process.c' l='59' macro='1' u='c' c='process_allocate'/>
-<use f='MOS/kernel/tasks/process.c' l='151' macro='1' u='c' c='process_attach_thread'/>
-<use f='MOS/kernel/tasks/process.c' l='165' macro='1' u='c' c='process_handle_exit'/>
-<use f='MOS/kernel/tasks/process.c' l='167' macro='1' u='c' c='process_handle_exit'/>
-<use f='MOS/kernel/tasks/process.c' l='179' macro='1' u='c' c='process_handle_exit'/>
-<use f='MOS/kernel/tasks/process.c' l='193' macro='1' u='c' c='process_handle_cleanup'/>
-<use f='MOS/kernel/tasks/process.c' l='194' macro='1' u='c' c='process_handle_cleanup'/>
-<use f='MOS/kernel/tasks/process.c' l='196' macro='1' u='c' c='process_handle_cleanup'/>
-<use f='MOS/kernel/tasks/process.c' l='226' macro='1' u='c' c='process_dump_mmaps'/>
+<use f='MOS/kernel/tasks/process.c' l='49' macro='1' u='c' c='process_allocate'/>
+<use f='MOS/kernel/tasks/process.c' l='141' macro='1' u='c' c='process_attach_thread'/>
+<use f='MOS/kernel/tasks/process.c' l='155' macro='1' u='c' c='process_handle_exit'/>
+<use f='MOS/kernel/tasks/process.c' l='157' macro='1' u='c' c='process_handle_exit'/>
+<use f='MOS/kernel/tasks/process.c' l='169' macro='1' u='c' c='process_handle_exit'/>
+<use f='MOS/kernel/tasks/process.c' l='183' macro='1' u='c' c='process_handle_cleanup'/>
+<use f='MOS/kernel/tasks/process.c' l='184' macro='1' u='c' c='process_handle_cleanup'/>
+<use f='MOS/kernel/tasks/process.c' l='186' macro='1' u='c' c='process_handle_cleanup'/>
+<use f='MOS/kernel/tasks/process.c' l='216' macro='1' u='c' c='process_dump_mmaps'/>
 <use f='MOS/tests/test_engine.c' l='67' u='c' c='test_engine_warning_handler'/>
 <use f='MOS/tests/test_engine.c' l='68' u='c' c='test_engine_warning_handler'/>
 <use f='MOS/tests/test_engine.c' l='126' macro='1' u='c' c='mos_test_engine_run_tests'/>

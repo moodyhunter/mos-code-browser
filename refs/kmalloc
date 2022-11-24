@@ -12,11 +12,11 @@
 <use f='MOS/kernel/filesystem/pathutils.c' l='155' u='c' c='path_to_string_relative'/>
 <use f='MOS/kernel/mm/cow.c' l='24' u='c' c='copy_cow_pages_inplace'/>
 <use f='MOS/kernel/panic.c' l='94' u='c' c='mos_install_kpanic_hook'/>
-<use f='MOS/kernel/tasks/process.c' l='42' u='c' c='process_allocate'/>
-<use f='MOS/kernel/tasks/process.c' l='66' u='c' c='process_allocate'/>
-<use f='MOS/kernel/tasks/process.c' l='77' u='c' c='process_init'/>
-<use f='MOS/kernel/tasks/thread.c' l='39' u='c' c='thread_allocate'/>
-<use f='MOS/kernel/tasks/thread.c' l='54' u='c' c='thread_init'/>
+<use f='MOS/kernel/tasks/process.c' l='35' u='c' c='process_allocate'/>
+<use f='MOS/kernel/tasks/process.c' l='56' u='c' c='process_allocate'/>
+<use f='MOS/kernel/tasks/process.c' l='67' u='c' c='process_init'/>
+<use f='MOS/kernel/tasks/thread.c' l='35' u='c' c='thread_allocate'/>
+<use f='MOS/kernel/tasks/thread.c' l='47' u='c' c='thread_init'/>
 <use f='MOS/lib/string.c' l='148' u='c' c='duplicate_string'/>
 <use f='MOS/lib/structures/hashmap.c' l='75' u='c' c='hashmap_put'/>
 <use f='MOS/lib/structures/ring_buffer.c' l='18' u='c' c='ring_buffer_create'/>

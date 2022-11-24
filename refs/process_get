@@ -1,2 +1,2 @@
-<dec f='MOS/kernel/include/mos/tasks/process.h' l='25' type='process_t * process_get(pid_t pid)'/>
-<def f='MOS/kernel/tasks/process.c' l='113' ll='119' type='process_t * process_get(pid_t pid)'/>
+<dec f='MOS/kernel/include/mos/tasks/process.h' l='27' type='process_t * process_get(pid_t pid)'/>
+<def f='MOS/kernel/tasks/process.c' l='103' ll='109' type='process_t * process_get(pid_t pid)'/>

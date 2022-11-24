@@ -63,10 +63,10 @@
 <use f='MOS/kernel/panic.c' l='30' macro='1' u='c' c='kwarn_handler_remove'/>
 <def f='MOS/kernel/panic.c' l='72' ll='90' type='void mos_kwarn(const char * func, u32 line, const char * fmt)'/>
 <use f='MOS/kernel/printk.c' l='50' macro='1' u='c' c='printk_setup_console'/>
-<use f='MOS/kernel/tasks/process.c' l='117' macro='1' u='c' c='process_get'/>
-<use f='MOS/kernel/tasks/process.c' l='127' macro='1' u='c' c='process_attach_ref_fd'/>
-<use f='MOS/kernel/tasks/process.c' l='173' macro='1' u='c' c='process_handle_exit'/>
-<use f='MOS/kernel/tasks/thread.c' l='107' macro='1' u='c' c='thread_handle_exit'/>
+<use f='MOS/kernel/tasks/process.c' l='107' macro='1' u='c' c='process_get'/>
+<use f='MOS/kernel/tasks/process.c' l='117' macro='1' u='c' c='process_attach_ref_fd'/>
+<use f='MOS/kernel/tasks/process.c' l='163' macro='1' u='c' c='process_handle_exit'/>
+<use f='MOS/kernel/tasks/thread.c' l='100' macro='1' u='c' c='thread_handle_exit'/>
 <use f='MOS/lib/stdio_impl.c' l='173' macro='1' u='c' c='parse_printf_flags'/>
 <use f='MOS/lib/stdio_impl.c' l='179' macro='1' u='c' c='parse_printf_flags'/>
 <use f='MOS/lib/stdio_impl.c' l='203' macro='1' u='c' c='printf_diouxX'/>

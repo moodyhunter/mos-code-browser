@@ -6,8 +6,8 @@
 <use f='MOS/arch/x86/mm/pmem_freelist.c' l='224' u='c' c='pmem_freelist_remove_region'/>
 <use f='MOS/arch/x86/x86_platform_api.c' l='60' u='c' c='platform_mm_create_user_pgd'/>
 <use f='MOS/kernel/mm/liballoc.c' l='618' u='c' c='liballoc_calloc'/>
-<use f='MOS/kernel/tasks/process.c' l='78' u='c' c='process_init'/>
-<use f='MOS/kernel/tasks/thread.c' l='55' u='c' c='thread_init'/>
+<use f='MOS/kernel/tasks/process.c' l='68' u='c' c='process_init'/>
+<use f='MOS/kernel/tasks/thread.c' l='48' u='c' c='thread_init'/>
 <def f='MOS/lib/string.c' l='85' ll='91' type='void * memset(void * s, int c, size_t n)'/>
 <use f='MOS/lib/structures/hashmap.c' l='28' u='c' c='hashmap_init'/>
 <use f='MOS/lib/structures/stack.c' l='20' u='c' c='stack_deinit'/>
