@@ -1,5 +1,5 @@
-<dec f='MOS/lib/include/lib/structures/stack.h' l='23' type='void stack_pop(downwards_stack_t * stack, size_t size, void * data)'/>
-<doc f='MOS/lib/include/lib/structures/stack.h' l='22'>// ! WARN: Caller must ensure the data is at least size bytes long</doc>
+<dec f='MOS/lib/include/lib/structures/stack.h' l='27' type='void stack_pop(downwards_stack_t * stack, size_t size, void * data)'/>
+<doc f='MOS/lib/include/lib/structures/stack.h' l='26'>// ! WARN: Caller must ensure the data is at least size bytes long</doc>
 <def f='MOS/lib/structures/stack.c' l='49' ll='61' type='void stack_pop(downwards_stack_t * stack, size_t size, void * data)'/>
 <use f='MOS/tests/downwards_stack/test_downwards_stack.c' l='46' u='c' c='stack_push_pop_stack'/>
 <use f='MOS/tests/downwards_stack/test_downwards_stack.c' l='61' u='c' c='stack_push_pop_stack'/>

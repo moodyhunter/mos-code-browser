@@ -2,6 +2,7 @@
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"><title>list.h source code [MOS/lib/include/lib/structures/list.h] - Woboq Code Browser</title>
+<meta name="woboq:interestingDefinitions" content="list_node "/>
 <link rel="stylesheet" href="/mos-code-browser/data/qtcreator.css" title="QtCreator"/>
 <link rel="alternate stylesheet" href="/mos-code-browser/data/kdevelop.css" title="KDevelop"/>
 <script type="text/javascript" src="/mos-code-browser/data/jquery/jquery.min.js"></script>
@@ -15,30 +16,72 @@
 <tr><th id="2">2</th><td></td></tr>
 <tr><th id="3">3</th><td><u>#pragma once</u></td></tr>
 <tr><th id="4">4</th><td></td></tr>
-<tr><th id="5">5</th><td><u>#include <a href="../containers.h.html">"lib/containers.h"</a></u></td></tr>
-<tr><th id="6">6</th><td><u>#include <a href="../../../../kernel/include/mos/types.h.html">"mos/types.h"</a></u></td></tr>
-<tr><th id="7">7</th><td></td></tr>
-<tr><th id="8">8</th><td><u>#define <dfn class="macro" id="_M/list_entry" data-ref="_M/list_entry">list_entry</dfn>(node, type) container_of((node), type, list_node)</u></td></tr>
-<tr><th id="9">9</th><td><u>#define <dfn class="macro" id="_M/list_node" data-ref="_M/list_node">list_node</dfn>(element)     (&amp;((element)-&gt;list_node))</u></td></tr>
-<tr><th id="10">10</th><td></td></tr>
-<tr><th id="11">11</th><td><u>#define <dfn class="macro" id="_M/list_prepend" data-ref="_M/list_prepend">list_prepend</dfn>(element, item)       list_node_prepend(list_node(element), list_node(item))</u></td></tr>
-<tr><th id="12">12</th><td><u>#define <dfn class="macro" id="_M/list_append" data-ref="_M/list_append">list_append</dfn>(element, item)        list_node_append(list_node(element), list_node(item))</u></td></tr>
-<tr><th id="13">13</th><td><u>#define <dfn class="macro" id="_M/list_insert_before" data-ref="_M/list_insert_before">list_insert_before</dfn>(element, item) list_node_insert_before(list_node(element), list_node(item))</u></td></tr>
-<tr><th id="14">14</th><td><u>#define <dfn class="macro" id="_M/list_insert_after" data-ref="_M/list_insert_after">list_insert_after</dfn>(element, item)  list_node_insert_after(list_node(element), list_node(item))</u></td></tr>
-<tr><th id="15">15</th><td><u>#define <dfn class="macro" id="_M/list_remove" data-ref="_M/list_remove">list_remove</dfn>(element)              list_node_remove(list_node(element))</u></td></tr>
-<tr><th id="16">16</th><td></td></tr>
-<tr><th id="17">17</th><td><u>#define <dfn class="macro" id="_M/list_foreach" data-ref="_M/list_foreach">list_foreach</dfn>(t, v, h) for (t *v = list_entry((h).next, t); list_node(v) != &amp;(h); v = list_entry(list_node(v)-&gt;next, t))</u></td></tr>
-<tr><th id="18">18</th><td></td></tr>
-<tr><th id="19">19</th><td><em>void</em> <dfn class="decl fn" id="linked_list_init" title='linked_list_init' data-ref="linked_list_init" data-ref-filename="linked_list_init">linked_list_init</dfn>(<a class="typedef" href="../containers.h.html#list_node_t" title='list_node_t' data-type='struct list_node' data-ref="list_node_t" data-ref-filename="list_node_t">list_node_t</a> *<dfn class="local col4 decl" id="14head_node" title='head_node' data-type='list_node_t *' data-ref="14head_node" data-ref-filename="14head_node">head_node</dfn>);</td></tr>
-<tr><th id="20">20</th><td><span class="macro" title="_Bool" data-ref="_M/bool">bool</span> <dfn class="decl fn" id="list_is_empty" title='list_is_empty' data-ref="list_is_empty" data-ref-filename="list_is_empty">list_is_empty</dfn>(<a class="typedef" href="../containers.h.html#list_node_t" title='list_node_t' data-type='struct list_node' data-ref="list_node_t" data-ref-filename="list_node_t">list_node_t</a> *<dfn class="local col5 decl" id="15list" title='list' data-type='list_node_t *' data-ref="15list" data-ref-filename="15list">list</dfn>);</td></tr>
-<tr><th id="21">21</th><td><em>void</em> <dfn class="decl fn" id="list_node_remove" title='list_node_remove' data-ref="list_node_remove" data-ref-filename="list_node_remove">list_node_remove</dfn>(<a class="typedef" href="../containers.h.html#list_node_t" title='list_node_t' data-type='struct list_node' data-ref="list_node_t" data-ref-filename="list_node_t">list_node_t</a> *<dfn class="local col6 decl" id="16link" title='link' data-type='list_node_t *' data-ref="16link" data-ref-filename="16link">link</dfn>);</td></tr>
-<tr><th id="22">22</th><td></td></tr>
-<tr><th id="23">23</th><td><em>void</em> <dfn class="decl fn" id="list_node_prepend" title='list_node_prepend' data-ref="list_node_prepend" data-ref-filename="list_node_prepend">list_node_prepend</dfn>(<a class="typedef" href="../containers.h.html#list_node_t" title='list_node_t' data-type='struct list_node' data-ref="list_node_t" data-ref-filename="list_node_t">list_node_t</a> *<dfn class="local col7 decl" id="17head" title='head' data-type='list_node_t *' data-ref="17head" data-ref-filename="17head">head</dfn>, <a class="typedef" href="../containers.h.html#list_node_t" title='list_node_t' data-type='struct list_node' data-ref="list_node_t" data-ref-filename="list_node_t">list_node_t</a> *<dfn class="local col8 decl" id="18item" title='item' data-type='list_node_t *' data-ref="18item" data-ref-filename="18item">item</dfn>);</td></tr>
-<tr><th id="24">24</th><td><em>void</em> <dfn class="decl fn" id="list_node_append" title='list_node_append' data-ref="list_node_append" data-ref-filename="list_node_append">list_node_append</dfn>(<a class="typedef" href="../containers.h.html#list_node_t" title='list_node_t' data-type='struct list_node' data-ref="list_node_t" data-ref-filename="list_node_t">list_node_t</a> *<dfn class="local col9 decl" id="19head" title='head' data-type='list_node_t *' data-ref="19head" data-ref-filename="19head">head</dfn>, <a class="typedef" href="../containers.h.html#list_node_t" title='list_node_t' data-type='struct list_node' data-ref="list_node_t" data-ref-filename="list_node_t">list_node_t</a> *<dfn class="local col0 decl" id="20item" title='item' data-type='list_node_t *' data-ref="20item" data-ref-filename="20item">item</dfn>);</td></tr>
-<tr><th id="25">25</th><td><em>void</em> <dfn class="decl fn" id="list_node_insert_before" title='list_node_insert_before' data-ref="list_node_insert_before" data-ref-filename="list_node_insert_before">list_node_insert_before</dfn>(<a class="typedef" href="../containers.h.html#list_node_t" title='list_node_t' data-type='struct list_node' data-ref="list_node_t" data-ref-filename="list_node_t">list_node_t</a> *<dfn class="local col1 decl" id="21element" title='element' data-type='list_node_t *' data-ref="21element" data-ref-filename="21element">element</dfn>, <a class="typedef" href="../containers.h.html#list_node_t" title='list_node_t' data-type='struct list_node' data-ref="list_node_t" data-ref-filename="list_node_t">list_node_t</a> *<dfn class="local col2 decl" id="22item" title='item' data-type='list_node_t *' data-ref="22item" data-ref-filename="22item">item</dfn>);</td></tr>
-<tr><th id="26">26</th><td><em>void</em> <dfn class="decl fn" id="list_node_insert_after" title='list_node_insert_after' data-ref="list_node_insert_after" data-ref-filename="list_node_insert_after">list_node_insert_after</dfn>(<a class="typedef" href="../containers.h.html#list_node_t" title='list_node_t' data-type='struct list_node' data-ref="list_node_t" data-ref-filename="list_node_t">list_node_t</a> *<dfn class="local col3 decl" id="23element" title='element' data-type='list_node_t *' data-ref="23element" data-ref-filename="23element">element</dfn>, <a class="typedef" href="../containers.h.html#list_node_t" title='list_node_t' data-type='struct list_node' data-ref="list_node_t" data-ref-filename="list_node_t">list_node_t</a> *<dfn class="local col4 decl" id="24item" title='item' data-type='list_node_t *' data-ref="24item" data-ref-filename="24item">item</dfn>);</td></tr>
-<tr><th id="27">27</th><td></td></tr>
+<tr><th id="5">5</th><td><u>#include <a href="../../../../kernel/include/mos/types.h.html">"mos/types.h"</a></u></td></tr>
+<tr><th id="6">6</th><td></td></tr>
+<tr><th id="7">7</th><td><i class="doc">/** <span class="command">\defgroup</span> <span class="verb">linked_list libs.LinkedList</span></i></td></tr>
+<tr><th id="8">8</th><td><i class="doc"> * <span class="command">\ingroup</span> <span class="verb">libs</span></i></td></tr>
+<tr><th id="9">9</th><td><i class="doc"> *  <span class="command">\brief</span> A circular, doubly-linked list.</i></td></tr>
+<tr><th id="10">10</th><td><i class="doc"> *  @{</i></td></tr>
+<tr><th id="11">11</th><td><i class="doc"> */</i></td></tr>
+<tr><th id="12">12</th><td></td></tr>
+<tr><th id="13">13</th><td><b>typedef</b> <b>struct</b> <a class="type" href="#list_node" title='list_node' data-ref="list_node" data-ref-filename="list_node">list_node</a> <dfn class="typedef" id="list_node_t" title='list_node_t' data-type='struct list_node' data-ref="list_node_t" data-ref-filename="list_node_t">list_node_t</dfn>;</td></tr>
+<tr><th id="14">14</th><td></td></tr>
+<tr><th id="15">15</th><td><i class="doc">/** <span class="command">\brief</span> A node in a linked list. */</i></td></tr>
+<tr><th id="16">16</th><td><b>struct</b> <dfn class="type def" id="list_node" title='list_node' data-ref="list_node" data-ref-filename="list_node">list_node</dfn></td></tr>
+<tr><th id="17">17</th><td>{</td></tr>
+<tr><th id="18">18</th><td>    <a class="typedef" href="#list_node_t" title='list_node_t' data-type='struct list_node' data-ref="list_node_t" data-ref-filename="list_node_t">list_node_t</a> *<dfn class="decl field" id="list_node::prev" title='list_node::prev' data-ref="list_node::prev" data-ref-filename="list_node..prev">prev</dfn>;</td></tr>
+<tr><th id="19">19</th><td>    <a class="typedef" href="#list_node_t" title='list_node_t' data-type='struct list_node' data-ref="list_node_t" data-ref-filename="list_node_t">list_node_t</a> *<dfn class="decl field" id="list_node::next" title='list_node::next' data-ref="list_node::next" data-ref-filename="list_node..next">next</dfn>;</td></tr>
+<tr><th id="20">20</th><td>};</td></tr>
+<tr><th id="21">21</th><td></td></tr>
+<tr><th id="22">22</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="23">23</th><td><i class="doc"> * <span class="command">\brief</span> Embed a list node into a struct</i></td></tr>
+<tr><th id="24">24</th><td><i class="doc"> */</i></td></tr>
+<tr><th id="25">25</th><td><u>#define <dfn class="macro" id="_M/as_linked_list" data-ref="_M/as_linked_list">as_linked_list</dfn> list_node_t list_node</u></td></tr>
+<tr><th id="26">26</th><td></td></tr>
+<tr><th id="27">27</th><td><i>// clang-format off</i></td></tr>
+<tr><th id="28">28</th><td><u>#define <dfn class="macro" id="_M/LIST_HEAD_INIT" data-ref="_M/LIST_HEAD_INIT">LIST_HEAD_INIT</dfn>(container) { .prev = &amp;(container), .next = &amp;(container) }</u></td></tr>
+<tr><th id="29">29</th><td><i>// clang-format on</i></td></tr>
+<tr><th id="30">30</th><td></td></tr>
+<tr><th id="31">31</th><td><u>#define <dfn class="macro" id="_M/LIST_NODE_INIT" data-ref="_M/LIST_NODE_INIT">LIST_NODE_INIT</dfn>(container) LIST_HEAD_INIT(container.list_node)</u></td></tr>
+<tr><th id="32">32</th><td></td></tr>
+<tr><th id="33">33</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="34">34</th><td><i class="doc"> * <span class="command">\brief</span> Get the container struct of a list node</i></td></tr>
+<tr><th id="35">35</th><td><i class="doc"> */</i></td></tr>
+<tr><th id="36">36</th><td><u>#define <dfn class="macro" id="_M/list_entry" data-ref="_M/list_entry">list_entry</dfn>(node, type) container_of((node), type, list_node)</u></td></tr>
+<tr><th id="37">37</th><td></td></tr>
+<tr><th id="38">38</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="39">39</th><td><i class="doc"> * <span class="command">\brief</span> Get the `list_node' of a list element.</i></td></tr>
+<tr><th id="40">40</th><td><i class="doc"> * This is exactly the reverse of `list_entry' above.</i></td></tr>
+<tr><th id="41">41</th><td><i class="doc"> */</i></td></tr>
+<tr><th id="42">42</th><td><u>#define <dfn class="macro" id="_M/list_node" data-ref="_M/list_node">list_node</dfn>(element) (&amp;((element)-&gt;list_node))</u></td></tr>
+<tr><th id="43">43</th><td></td></tr>
+<tr><th id="44">44</th><td><u>#define <dfn class="macro" id="_M/list_prepend" data-ref="_M/list_prepend">list_prepend</dfn>(element, item)       list_node_prepend(list_node(element), list_node(item))</u></td></tr>
+<tr><th id="45">45</th><td><u>#define <dfn class="macro" id="_M/list_append" data-ref="_M/list_append">list_append</dfn>(element, item)        list_node_append(list_node(element), list_node(item))</u></td></tr>
+<tr><th id="46">46</th><td><u>#define <dfn class="macro" id="_M/list_insert_before" data-ref="_M/list_insert_before">list_insert_before</dfn>(element, item) list_node_insert_before(list_node(element), list_node(item))</u></td></tr>
+<tr><th id="47">47</th><td><u>#define <dfn class="macro" id="_M/list_insert_after" data-ref="_M/list_insert_after">list_insert_after</dfn>(element, item)  list_node_insert_after(list_node(element), list_node(item))</u></td></tr>
+<tr><th id="48">48</th><td><u>#define <dfn class="macro" id="_M/list_remove" data-ref="_M/list_remove">list_remove</dfn>(element)              list_node_remove(list_node(element))</u></td></tr>
+<tr><th id="49">49</th><td></td></tr>
+<tr><th id="50">50</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="51">51</th><td><i class="doc"> * <span class="command">\brief</span> Iterate over a list</i></td></tr>
+<tr><th id="52">52</th><td><i class="doc"> *</i></td></tr>
+<tr><th id="53">53</th><td><i class="doc"> * <span class="command">\param</span> <span class="arg">t</span> Type of the list elements (e.g. `struct foo')</i></td></tr>
+<tr><th id="54">54</th><td><i class="doc"> * <span class="command">\param</span> <span class="arg">v</span> Name of the variable to use for the current element (e.g. `item')</i></td></tr>
+<tr><th id="55">55</th><td><i class="doc"> * <span class="command">\param</span> <span class="arg">h</span> List Head (e.g. `consoles')</i></td></tr>
+<tr><th id="56">56</th><td><i class="doc"> */</i></td></tr>
+<tr><th id="57">57</th><td><u>#define <dfn class="macro" id="_M/list_foreach" data-ref="_M/list_foreach">list_foreach</dfn>(t, v, h) for (t *v = list_entry((h).next, t); list_node(v) != &amp;(h); v = list_entry(list_node(v)-&gt;next, t))</u></td></tr>
+<tr><th id="58">58</th><td></td></tr>
+<tr><th id="59">59</th><td><em>void</em> <dfn class="decl fn" id="linked_list_init" title='linked_list_init' data-ref="linked_list_init" data-ref-filename="linked_list_init">linked_list_init</dfn>(<a class="typedef" href="#list_node_t" title='list_node_t' data-type='struct list_node' data-ref="list_node_t" data-ref-filename="list_node_t">list_node_t</a> *<dfn class="local col8 decl" id="138head_node" title='head_node' data-type='list_node_t *' data-ref="138head_node" data-ref-filename="138head_node">head_node</dfn>);</td></tr>
+<tr><th id="60">60</th><td><span class="macro" title="_Bool" data-ref="_M/bool">bool</span> <dfn class="decl fn" id="list_is_empty" title='list_is_empty' data-ref="list_is_empty" data-ref-filename="list_is_empty">list_is_empty</dfn>(<a class="typedef" href="#list_node_t" title='list_node_t' data-type='struct list_node' data-ref="list_node_t" data-ref-filename="list_node_t">list_node_t</a> *<dfn class="local col9 decl" id="139head" title='head' data-type='list_node_t *' data-ref="139head" data-ref-filename="139head">head</dfn>);</td></tr>
+<tr><th id="61">61</th><td><em>void</em> <dfn class="decl fn" id="list_node_remove" title='list_node_remove' data-ref="list_node_remove" data-ref-filename="list_node_remove">list_node_remove</dfn>(<a class="typedef" href="#list_node_t" title='list_node_t' data-type='struct list_node' data-ref="list_node_t" data-ref-filename="list_node_t">list_node_t</a> *<dfn class="local col0 decl" id="140link" title='link' data-type='list_node_t *' data-ref="140link" data-ref-filename="140link">link</dfn>);</td></tr>
+<tr><th id="62">62</th><td></td></tr>
+<tr><th id="63">63</th><td><em>void</em> <dfn class="decl fn" id="list_node_prepend" title='list_node_prepend' data-ref="list_node_prepend" data-ref-filename="list_node_prepend">list_node_prepend</dfn>(<a class="typedef" href="#list_node_t" title='list_node_t' data-type='struct list_node' data-ref="list_node_t" data-ref-filename="list_node_t">list_node_t</a> *<dfn class="local col1 decl" id="141head" title='head' data-type='list_node_t *' data-ref="141head" data-ref-filename="141head">head</dfn>, <a class="typedef" href="#list_node_t" title='list_node_t' data-type='struct list_node' data-ref="list_node_t" data-ref-filename="list_node_t">list_node_t</a> *<dfn class="local col2 decl" id="142item" title='item' data-type='list_node_t *' data-ref="142item" data-ref-filename="142item">item</dfn>);</td></tr>
+<tr><th id="64">64</th><td><em>void</em> <dfn class="decl fn" id="list_node_append" title='list_node_append' data-ref="list_node_append" data-ref-filename="list_node_append">list_node_append</dfn>(<a class="typedef" href="#list_node_t" title='list_node_t' data-type='struct list_node' data-ref="list_node_t" data-ref-filename="list_node_t">list_node_t</a> *<dfn class="local col3 decl" id="143head" title='head' data-type='list_node_t *' data-ref="143head" data-ref-filename="143head">head</dfn>, <a class="typedef" href="#list_node_t" title='list_node_t' data-type='struct list_node' data-ref="list_node_t" data-ref-filename="list_node_t">list_node_t</a> *<dfn class="local col4 decl" id="144item" title='item' data-type='list_node_t *' data-ref="144item" data-ref-filename="144item">item</dfn>);</td></tr>
+<tr><th id="65">65</th><td><em>void</em> <dfn class="decl fn" id="list_node_insert_before" title='list_node_insert_before' data-ref="list_node_insert_before" data-ref-filename="list_node_insert_before">list_node_insert_before</dfn>(<a class="typedef" href="#list_node_t" title='list_node_t' data-type='struct list_node' data-ref="list_node_t" data-ref-filename="list_node_t">list_node_t</a> *<dfn class="local col5 decl" id="145element" title='element' data-type='list_node_t *' data-ref="145element" data-ref-filename="145element">element</dfn>, <a class="typedef" href="#list_node_t" title='list_node_t' data-type='struct list_node' data-ref="list_node_t" data-ref-filename="list_node_t">list_node_t</a> *<dfn class="local col6 decl" id="146item" title='item' data-type='list_node_t *' data-ref="146item" data-ref-filename="146item">item</dfn>);</td></tr>
+<tr><th id="66">66</th><td><em>void</em> <dfn class="decl fn" id="list_node_insert_after" title='list_node_insert_after' data-ref="list_node_insert_after" data-ref-filename="list_node_insert_after">list_node_insert_after</dfn>(<a class="typedef" href="#list_node_t" title='list_node_t' data-type='struct list_node' data-ref="list_node_t" data-ref-filename="list_node_t">list_node_t</a> *<dfn class="local col7 decl" id="147element" title='element' data-type='list_node_t *' data-ref="147element" data-ref-filename="147element">element</dfn>, <a class="typedef" href="#list_node_t" title='list_node_t' data-type='struct list_node' data-ref="list_node_t" data-ref-filename="list_node_t">list_node_t</a> *<dfn class="local col8 decl" id="148item" title='item' data-type='list_node_t *' data-ref="148item" data-ref-filename="148item">item</dfn>);</td></tr>
+<tr><th id="67">67</th><td></td></tr>
+<tr><th id="68">68</th><td><i class="doc">/** @} */</i></td></tr>
+<tr><th id="69">69</th><td></td></tr>
 </table><hr/><p id='footer'>
-Generated while processing <a href='../../../../arch/x86/devices/serial_console.c.html'>MOS/arch/x86/devices/serial_console.c</a><br/>Generated on <em>2022-Nov-23</em> from project MOS<br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
+Generated while processing <a href='../../../../arch/x86/acpi/acpi.c.html'>MOS/arch/x86/acpi/acpi.c</a><br/>Generated on <em>2022-Nov-24</em> from project MOS<br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
 <br/>Generator usage only permitted with license.</p>
 </div></body></html>

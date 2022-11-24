@@ -1,8 +1,8 @@
-<dec f='MOS/kernel/include/mos/mos_global.h' l='40'/>
+<dec f='MOS/kernel/include/mos/mos_global.h' l='42'/>
+<use f='MOS/arch/x86/devices/initrd_blockdev.c' l='36' u='c'/>
 <use f='MOS/arch/x86/devices/initrd_blockdev.c' l='37' u='c'/>
 <use f='MOS/arch/x86/devices/initrd_blockdev.c' l='38' u='c'/>
 <use f='MOS/arch/x86/devices/initrd_blockdev.c' l='39' u='c'/>
-<use f='MOS/arch/x86/devices/initrd_blockdev.c' l='40' u='c'/>
 <use f='MOS/arch/x86/devices/serial_console.c' l='44' u='c'/>
 <use f='MOS/arch/x86/devices/text_mode_console.c' l='41' u='c'/>
 <use f='MOS/arch/x86/devices/text_mode_console.c' l='51' u='c'/>
@@ -24,6 +24,6 @@
 <use f='MOS/kernel/mm/cow.c' l='39' u='c'/>
 <use f='MOS/kernel/mm/cow.c' l='40' u='c'/>
 <use f='MOS/lib/stdio_impl.c' l='438' u='c'/>
-<use f='MOS/tests/hashmap/test_hashmap.c' l='169' u='c'/>
 <use f='MOS/tests/hashmap/test_hashmap.c' l='170' u='c'/>
-<use f='MOS/tests/hashmap/test_hashmap.c' l='177' u='c'/>
+<use f='MOS/tests/hashmap/test_hashmap.c' l='171' u='c'/>
+<use f='MOS/tests/hashmap/test_hashmap.c' l='178' u='c'/>

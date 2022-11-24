@@ -1,5 +1,12 @@
-<dec f='MOS/lib/include/lib/stdio.h' l='13' type='int sprintf(char *restrict str, const char *restrict format)'/>
-<doc f='MOS/lib/include/lib/stdio.h' l='9'>// int printf(const char *restrict format, ...);
+<dec f='MOS/lib/include/lib/stdio.h' l='20' type='int sprintf(char *restrict str, const char *restrict format)'/>
+<doc f='MOS/lib/include/lib/stdio.h' l='9'>/**
+ * \defgroup libs_stdio libs.Stdio
+ * \ingroup libs
+ * \brief Standard input/output functions.
+ * @{
+ */
+
+// int printf(const char *restrict format, ...);
 // int vprintf(const char *restrict format, va_list ap);
 
 // defined in stdio.c</doc>

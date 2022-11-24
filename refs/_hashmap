@@ -1,5 +1,5 @@
-<def f='MOS/lib/include/lib/structures/hashmap.h' l='13' ll='21'/>
-<use f='MOS/lib/include/lib/structures/hashmap.h' l='13'/>
+<def f='MOS/lib/include/lib/structures/hashmap.h' l='18' ll='26'/>
+<use f='MOS/lib/include/lib/structures/hashmap.h' l='18'/>
 <size>48</size>
 <mbr r='_hashmap::magic' o='0' t='s32'/>
 <mbr r='_hashmap::entries' o='64' t='hashmap_entry_t **'/>

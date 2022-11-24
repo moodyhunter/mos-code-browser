@@ -1,2 +1,2 @@
 <dec f='MOS/arch/x86/include/mos/x86/acpi/acpi.h' l='13' type='void x86_acpi_init()'/>
-<def f='MOS/arch/x86/acpi/acpi.c' l='30' ll='131' type='void x86_acpi_init()'/>
+<def f='MOS/arch/x86/acpi/acpi.c' l='29' ll='130' type='void x86_acpi_init()'/>

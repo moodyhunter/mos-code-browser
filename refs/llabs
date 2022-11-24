@@ -1,2 +1,2 @@
-<dec f='MOS/lib/include/lib/stdlib.h' l='12' type='s64 llabs(s64 x)'/>
+<dec f='MOS/lib/include/lib/stdlib.h' l='19' type='s64 llabs(s64 x)'/>
 <def f='MOS/lib/stdlib.c' l='23' ll='26' type='s64 llabs(s64 x)'/>

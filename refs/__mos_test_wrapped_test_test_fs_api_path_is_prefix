@@ -1,2 +1,2 @@
-<def f='MOS/tests/fs_api/test_fs_api.c' l='10' macro='1' type='void __mos_test_wrapped_test_test_fs_api_path_is_prefix(mos_test_result_t * result)'/>
-<use f='MOS/tests/fs_api/test_fs_api.c' l='10' macro='1' u='r'/>
+<def f='MOS/tests/fs_api/test_fs_api.c' l='9' macro='1' type='void __mos_test_wrapped_test_test_fs_api_path_is_prefix(mos_test_result_t * result)'/>
+<use f='MOS/tests/fs_api/test_fs_api.c' l='9' macro='1' u='r'/>

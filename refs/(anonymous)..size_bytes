@@ -1,8 +1,8 @@
-<dec f='MOS/kernel/include/mos/platform/platform.h' l='71' type='size_t'/>
-<offset>128</offset>
-<use f='MOS/arch/x86/devices/initrd_blockdev.c' l='20' u='r' c='initrd_read'/>
+<dec f='MOS/arch/x86/include/mos/x86/x86_platform.h' l='60' type='size_t'/>
+<offset>64</offset>
+<use f='MOS/arch/x86/devices/initrd_blockdev.c' l='19' u='r' c='initrd_read'/>
+<use f='MOS/arch/x86/devices/initrd_blockdev.c' l='26' u='r' c='initrd_read'/>
 <use f='MOS/arch/x86/devices/initrd_blockdev.c' l='27' u='r' c='initrd_read'/>
-<use f='MOS/arch/x86/devices/initrd_blockdev.c' l='28' u='r' c='initrd_read'/>
 <use f='MOS/arch/x86/mm/mm.c' l='25' u='w' c='mem_add_region'/>
 <use f='MOS/arch/x86/mm/pmem_freelist.c' l='62' u='r' c='pmem_freelist_setup'/>
 <use f='MOS/arch/x86/mm/pmem_freelist.c' l='64' u='r' c='pmem_freelist_setup'/>

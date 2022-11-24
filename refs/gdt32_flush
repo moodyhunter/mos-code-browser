@@ -1,3 +1,3 @@
-<dec f='MOS/arch/x86/include/mos/x86/x86_platform.h' l='76' type='void gdt32_flush(gdt_ptr32_t * gdt_ptr)'/>
-<doc f='MOS/arch/x86/include/mos/x86/x86_platform.h' l='75'>// The following 5 symbols are defined in the descriptor_flush.asm file.</doc>
+<dec f='MOS/arch/x86/include/mos/x86/x86_platform.h' l='83' type='void gdt32_flush(gdt_ptr32_t * gdt_ptr)'/>
+<doc f='MOS/arch/x86/include/mos/x86/x86_platform.h' l='82'>// The following 5 symbols are defined in the descriptor_flush.asm file.</doc>
 <use f='MOS/arch/x86/gdt/gdt.c' l='84' u='c' c='x86_gdt_init'/>

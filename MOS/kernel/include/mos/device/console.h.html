@@ -16,7 +16,7 @@
 <tr><th id="2">2</th><td></td></tr>
 <tr><th id="3">3</th><td><u>#pragma once</u></td></tr>
 <tr><th id="4">4</th><td></td></tr>
-<tr><th id="5">5</th><td><u>#include <a href="../../../../lib/include/lib/containers.h.html">"lib/containers.h"</a></u></td></tr>
+<tr><th id="5">5</th><td><u>#include <a href="../../../../lib/include/lib/structures/list.h.html">"lib/structures/list.h"</a></u></td></tr>
 <tr><th id="6">6</th><td><u>#include <a href="../types.h.html">"mos/types.h"</a></u></td></tr>
 <tr><th id="7">7</th><td></td></tr>
 <tr><th id="8">8</th><td><u>#define <dfn class="macro" id="_M/STD_COLOR_LIGHT" data-ref="_M/STD_COLOR_LIGHT">STD_COLOR_LIGHT</dfn> 0x8</u></td></tr>
@@ -57,7 +57,7 @@
 <tr><th id="43">43</th><td></td></tr>
 <tr><th id="44">44</th><td><b>struct</b> <dfn class="type def" id="console_t" title='console_t' data-ref="console_t" data-ref-filename="console_t">console_t</dfn></td></tr>
 <tr><th id="45">45</th><td>{</td></tr>
-<tr><th id="46">46</th><td>    <a class="macro" href="../../../../lib/include/lib/containers.h.html#25" title="list_node_t list_node" data-ref="_M/as_linked_list">as_linked_list</a>;</td></tr>
+<tr><th id="46">46</th><td>    <a class="macro" href="../../../../lib/include/lib/structures/list.h.html#25" title="list_node_t list_node" data-ref="_M/as_linked_list">as_linked_list</a>;</td></tr>
 <tr><th id="47">47</th><td></td></tr>
 <tr><th id="48">48</th><td>    <em>const</em> <em>char</em> *<dfn class="decl field" id="console_t::name" title='console_t::name' data-ref="console_t::name" data-ref-filename="console_t..name">name</dfn>;</td></tr>
 <tr><th id="49">49</th><td>    <a class="typedef" href="#console_caps_t" title='console_caps_t' data-type='enum console_caps_t' data-ref="console_caps_t" data-ref-filename="console_caps_t">console_caps_t</a> <dfn class="decl field" id="console_t::caps" title='console_t::caps' data-ref="console_t::caps" data-ref-filename="console_t..caps">caps</dfn>;</td></tr>
@@ -83,7 +83,7 @@
 <tr><th id="69">69</th><td>    <em>void</em> *<dfn class="decl field" id="console_t::data" title='console_t::data' data-ref="console_t::data" data-ref-filename="console_t..data">data</dfn>;</td></tr>
 <tr><th id="70">70</th><td>};</td></tr>
 <tr><th id="71">71</th><td></td></tr>
-<tr><th id="72">72</th><td><b>extern</b> <a class="typedef" href="../../../../lib/include/lib/containers.h.html#list_node_t" title='list_node_t' data-type='struct list_node' data-ref="list_node_t" data-ref-filename="list_node_t">list_node_t</a> <dfn class="decl" id="consoles" title='consoles' data-ref="consoles" data-ref-filename="consoles">consoles</dfn>;</td></tr>
+<tr><th id="72">72</th><td><b>extern</b> <a class="typedef" href="../../../../lib/include/lib/structures/list.h.html#list_node_t" title='list_node_t' data-type='struct list_node' data-ref="list_node_t" data-ref-filename="list_node_t">list_node_t</a> <dfn class="decl" id="consoles" title='consoles' data-ref="consoles" data-ref-filename="consoles">consoles</dfn>;</td></tr>
 <tr><th id="73">73</th><td><em>void</em> <dfn class="decl fn" id="console_register" title='console_register' data-ref="console_register" data-ref-filename="console_register">console_register</dfn>(<a class="typedef" href="#console_t" title='console_t' data-type='struct console_t' data-ref="console_t" data-ref-filename="console_t">console_t</a> *<dfn class="local col7 decl" id="27con" title='con' data-type='console_t *' data-ref="27con" data-ref-filename="27con">con</dfn>);</td></tr>
 <tr><th id="74">74</th><td><a class="typedef" href="#console_t" title='console_t' data-type='struct console_t' data-ref="console_t" data-ref-filename="console_t">console_t</a> *<dfn class="decl fn" id="console_get" title='console_get' data-ref="console_get" data-ref-filename="console_get">console_get</dfn>(<em>const</em> <em>char</em> *<dfn class="local col8 decl" id="28name" title='name' data-type='const char *' data-ref="28name" data-ref-filename="28name">name</dfn>);</td></tr>
 <tr><th id="75">75</th><td><a class="typedef" href="#console_t" title='console_t' data-type='struct console_t' data-ref="console_t" data-ref-filename="console_t">console_t</a> *<dfn class="decl fn" id="console_get_by_prefix" title='console_get_by_prefix' data-ref="console_get_by_prefix" data-ref-filename="console_get_by_prefix">console_get_by_prefix</dfn>(<em>const</em> <em>char</em> *<dfn class="local col9 decl" id="29prefix" title='prefix' data-type='const char *' data-ref="29prefix" data-ref-filename="29prefix">prefix</dfn>);</td></tr>
@@ -92,6 +92,6 @@
 <tr><th id="78">78</th><td><em>int</em> <dfn class="decl fn" id="console_write" title='console_write' data-ref="console_write" data-ref-filename="console_write">console_write</dfn>(<a class="typedef" href="#console_t" title='console_t' data-type='struct console_t' data-ref="console_t" data-ref-filename="console_t">console_t</a> *<dfn class="local col3 decl" id="33con" title='con' data-type='console_t *' data-ref="33con" data-ref-filename="33con">con</dfn>, <em>const</em> <em>char</em> *<dfn class="local col4 decl" id="34data" title='data' data-type='const char *' data-ref="34data" data-ref-filename="34data">data</dfn>, <span class='typedef' title='size_t' data-type='unsigned long' data-ref="size_t" data-ref-filename="size_t">size_t</span> <dfn class="local col5 decl" id="35size" title='size' data-type='size_t' data-ref="35size" data-ref-filename="35size">size</dfn>);</td></tr>
 <tr><th id="79">79</th><td></td></tr>
 </table><hr/><p id='footer'>
-Generated while processing <a href='../../../../arch/x86/boot/multiboot/startup.c.html'>MOS/arch/x86/boot/multiboot/startup.c</a><br/>Generated on <em>2022-Nov-23</em> from project MOS<br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
+Generated while processing <a href='../../../../arch/x86/boot/multiboot/startup.c.html'>MOS/arch/x86/boot/multiboot/startup.c</a><br/>Generated on <em>2022-Nov-24</em> from project MOS<br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
 <br/>Generator usage only permitted with license.</p>
 </div></body></html>

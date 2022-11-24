@@ -1,4 +1,4 @@
-<dec f='MOS/lib/include/lib/structures/stack.h' l='17' type='void stack_deinit(downwards_stack_t * stack)'/>
+<dec f='MOS/lib/include/lib/structures/stack.h' l='21' type='void stack_deinit(downwards_stack_t * stack)'/>
 <def f='MOS/lib/structures/stack.c' l='18' ll='21' type='void stack_deinit(downwards_stack_t * stack)'/>
 <use f='MOS/tests/downwards_stack/test_downwards_stack.c' l='14' u='c' c='stack_init_deinit'/>
 <use f='MOS/tests/downwards_stack/test_downwards_stack.c' l='76' u='c' c='stack_push_pop_stack'/>

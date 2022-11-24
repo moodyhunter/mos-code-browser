@@ -1,2 +1,2 @@
-<dec f='MOS/lib/include/lib/stdlib.h' l='13' type='s32 atoi(const char * nptr)'/>
+<dec f='MOS/lib/include/lib/stdlib.h' l='20' type='s32 atoi(const char * nptr)'/>
 <def f='MOS/lib/stdlib.c' l='28' ll='53' type='s32 atoi(const char * nptr)'/>

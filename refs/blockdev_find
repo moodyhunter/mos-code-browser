@@ -1,3 +1,9 @@
 <dec f='MOS/kernel/include/mos/device/block.h' l='16' type='blockdev_t * blockdev_find(const char * name)'/>
-<def f='MOS/kernel/device/block.c' l='39' ll='44' type='blockdev_t * blockdev_find(const char * name)'/>
+<def f='MOS/kernel/device/block.c' l='68' ll='73' type='blockdev_t * blockdev_find(const char * name)'/>
+<doc f='MOS/kernel/device/block.c' l='62'>/**
+ * \brief Get a block device by name
+ *
+ * \param name The name of the block device
+ * \return blockdev_t* The pointer to such a block device, or NULL if nothing can be found.
+ */</doc>
 <use f='MOS/kernel/kernel_init.c' l='22' u='c' c='mount_initrd'/>

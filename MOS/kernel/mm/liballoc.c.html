@@ -76,7 +76,7 @@
 <tr><th id="62">62</th><td>{</td></tr>
 <tr><th id="63">63</th><td>    <b>if</b> (<a class="macro" href="../include/mos/mos_global.h.html#29" title="__builtin_expect(!!(npages &lt;= 0), 0)" data-ref="_M/unlikely">unlikely</a>(<a class="local col1 ref" href="#1npages" title='npages' data-ref="1npages" data-ref-filename="1npages">npages</a> &lt;= <var>0</var>))</td></tr>
 <tr><th id="64">64</th><td>    {</td></tr>
-<tr><th id="65">65</th><td>        <a class="macro" href="../include/mos/printk.h.html#59" title="mos_kwarn(__func__, 65, &quot;WARN: &quot; &quot;allocating negative or zero pages&quot; &quot;\n&quot;)" data-ref="_M/mos_warn">mos_warn</a>(<q>"allocating negative or zero pages"</q>);</td></tr>
+<tr><th id="65">65</th><td>        <a class="macro" href="../include/mos/printk.h.html#59" title="mos_kwarn(__func__, 65, &quot;WARN: &quot; &quot;allocating negative or zero pages&quot; &quot;\r\n&quot;)" data-ref="_M/mos_warn">mos_warn</a>(<q>"allocating negative or zero pages"</q>);</td></tr>
 <tr><th id="66">66</th><td>        <b>return</b> <span class="macro" title="((void*)0)" data-ref="_M/NULL">NULL</span>;</td></tr>
 <tr><th id="67">67</th><td>    }</td></tr>
 <tr><th id="68">68</th><td></td></tr>
@@ -84,7 +84,7 @@
 <tr><th id="70">70</th><td>    <a class="macro" href="../include/mos/printk.h.html#20" title="do { if (__builtin_expect(!!(!(block.vaddr &gt;= 0xD0000000)), 0)) mos_kpanic(__func__, 70, &quot;&quot; &quot;Assertion failed: %s \n&quot; &quot;only use this function to free kernel heap pages&quot;, &quot;block.vaddr &gt;= MOS_X86_HEAP_BASE_VADDR&quot;); } while (0)" data-ref="_M/MOS_ASSERT_X">MOS_ASSERT_X</a>(<a class="local col3 ref" href="#3block" title='block' data-ref="3block" data-ref-filename="3block">block</a>.<a class="ref field" href="../include/mos/platform/platform.h.html#(anonymous)::vaddr" title='(anonymous struct)::vaddr' data-ref="(anonymous)::vaddr" data-ref-filename="(anonymous)..vaddr">vaddr</a> &gt;= <a class="macro" href="../../build/include/mos/kconfig.h.html#29" title="0xD0000000" data-ref="_M/MOS_X86_HEAP_BASE_VADDR">MOS_X86_HEAP_BASE_VADDR</a>, <q>"only use this function to free kernel heap pages"</q>);</td></tr>
 <tr><th id="71">71</th><td></td></tr>
 <tr><th id="72">72</th><td>    <b>if</b> (<a class="macro" href="../include/mos/mos_global.h.html#29" title="__builtin_expect(!!(block.npages &lt; npages), 0)" data-ref="_M/unlikely">unlikely</a>(<a class="local col3 ref" href="#3block" title='block' data-ref="3block" data-ref-filename="3block">block</a>.<a class="ref field" href="../include/mos/platform/platform.h.html#(anonymous)::npages" title='(anonymous struct)::npages' data-ref="(anonymous)::npages" data-ref-filename="(anonymous)..npages">npages</a> &lt; <a class="local col1 ref" href="#1npages" title='npages' data-ref="1npages" data-ref-filename="1npages">npages</a>))</td></tr>
-<tr><th id="73">73</th><td>        <a class="macro" href="../include/mos/printk.h.html#59" title="mos_kwarn(__func__, 73, &quot;WARN: &quot; &quot;failed to allocate %zu pages&quot; &quot;\n&quot;, npages)" data-ref="_M/mos_warn">mos_warn</a>(<q>"failed to allocate %zu pages"</q>, <a class="local col1 ref" href="#1npages" title='npages' data-ref="1npages" data-ref-filename="1npages">npages</a>);</td></tr>
+<tr><th id="73">73</th><td>        <a class="macro" href="../include/mos/printk.h.html#59" title="mos_kwarn(__func__, 73, &quot;WARN: &quot; &quot;failed to allocate %zu pages&quot; &quot;\r\n&quot;, npages)" data-ref="_M/mos_warn">mos_warn</a>(<q>"failed to allocate %zu pages"</q>, <a class="local col1 ref" href="#1npages" title='npages' data-ref="1npages" data-ref-filename="1npages">npages</a>);</td></tr>
 <tr><th id="74">74</th><td></td></tr>
 <tr><th id="75">75</th><td>    <b>return</b> (<em>void</em> *) <a class="local col3 ref" href="#3block" title='block' data-ref="3block" data-ref-filename="3block">block</a>.<a class="ref field" href="../include/mos/platform/platform.h.html#(anonymous)::vaddr" title='(anonymous struct)::vaddr' data-ref="(anonymous)::vaddr" data-ref-filename="(anonymous)..vaddr">vaddr</a>;</td></tr>
 <tr><th id="76">76</th><td>}</td></tr>
@@ -95,12 +95,12 @@
 <tr><th id="81">81</th><td></td></tr>
 <tr><th id="82">82</th><td>    <b>if</b> (<a class="macro" href="../include/mos/mos_global.h.html#29" title="__builtin_expect(!!(vptr == ((void*)0)), 0)" data-ref="_M/unlikely">unlikely</a>(<a class="local col4 ref" href="#4vptr" title='vptr' data-ref="4vptr" data-ref-filename="4vptr">vptr</a> == <span class="macro" title="((void*)0)" data-ref="_M/NULL">NULL</span>))</td></tr>
 <tr><th id="83">83</th><td>    {</td></tr>
-<tr><th id="84">84</th><td>        <a class="macro" href="../include/mos/printk.h.html#59" title="mos_kwarn(__func__, 84, &quot;WARN: &quot; &quot;freeing NULL pointer&quot; &quot;\n&quot;)" data-ref="_M/mos_warn">mos_warn</a>(<q>"freeing NULL pointer"</q>);</td></tr>
+<tr><th id="84">84</th><td>        <a class="macro" href="../include/mos/printk.h.html#59" title="mos_kwarn(__func__, 84, &quot;WARN: &quot; &quot;freeing NULL pointer&quot; &quot;\r\n&quot;)" data-ref="_M/mos_warn">mos_warn</a>(<q>"freeing NULL pointer"</q>);</td></tr>
 <tr><th id="85">85</th><td>        <b>return</b> <span class="macro" title="0" data-ref="_M/false">false</span>;</td></tr>
 <tr><th id="86">86</th><td>    }</td></tr>
 <tr><th id="87">87</th><td>    <b>if</b> (<a class="macro" href="../include/mos/mos_global.h.html#29" title="__builtin_expect(!!(npages &lt;= 0), 0)" data-ref="_M/unlikely">unlikely</a>(<a class="local col5 ref" href="#5npages" title='npages' data-ref="5npages" data-ref-filename="5npages">npages</a> &lt;= <var>0</var>))</td></tr>
 <tr><th id="88">88</th><td>    {</td></tr>
-<tr><th id="89">89</th><td>        <a class="macro" href="../include/mos/printk.h.html#59" title="mos_kwarn(__func__, 89, &quot;WARN: &quot; &quot;freeing negative or zero pages&quot; &quot;\n&quot;)" data-ref="_M/mos_warn">mos_warn</a>(<q>"freeing negative or zero pages"</q>);</td></tr>
+<tr><th id="89">89</th><td>        <a class="macro" href="../include/mos/printk.h.html#59" title="mos_kwarn(__func__, 89, &quot;WARN: &quot; &quot;freeing negative or zero pages&quot; &quot;\r\n&quot;)" data-ref="_M/mos_warn">mos_warn</a>(<q>"freeing negative or zero pages"</q>);</td></tr>
 <tr><th id="90">90</th><td>        <b>return</b> <span class="macro" title="0" data-ref="_M/false">false</span>;</td></tr>
 <tr><th id="91">91</th><td>    }</td></tr>
 <tr><th id="92">92</th><td></td></tr>
@@ -190,7 +190,7 @@
 <tr><th id="176">176</th><td>    <b>if</b> (<a class="local col8 ref" href="#8maj" title='maj' data-ref="8maj" data-ref-filename="8maj">maj</a> == <span class="macro" title="((void*)0)" data-ref="_M/NULL">NULL</span>)</td></tr>
 <tr><th id="177">177</th><td>    {</td></tr>
 <tr><th id="178">178</th><td>        <a class="tu ref" href="#l_warnings" title='l_warnings' data-use='w' data-ref="l_warnings" data-ref-filename="l_warnings">l_warnings</a> += <var>1</var>;</td></tr>
-<tr><th id="179">179</th><td>        <a class="macro" href="../include/mos/printk.h.html#59" title="mos_kwarn(__func__, 179, &quot;WARN: &quot; &quot;liballoc: WARNING: liballoc_alloc(%i) returns NULL&quot; &quot;\n&quot;, st)" data-ref="_M/mos_warn">mos_warn</a>(<q>"liballoc: WARNING: liballoc_alloc(%i) returns NULL"</q>, <a class="local col7 ref" href="#7st" title='st' data-ref="7st" data-ref-filename="7st">st</a>);</td></tr>
+<tr><th id="179">179</th><td>        <a class="macro" href="../include/mos/printk.h.html#59" title="mos_kwarn(__func__, 179, &quot;WARN: &quot; &quot;liballoc: WARNING: liballoc_alloc(%i) returns NULL&quot; &quot;\r\n&quot;, st)" data-ref="_M/mos_warn">mos_warn</a>(<q>"liballoc: WARNING: liballoc_alloc(%i) returns NULL"</q>, <a class="local col7 ref" href="#7st" title='st' data-ref="7st" data-ref-filename="7st">st</a>);</td></tr>
 <tr><th id="180">180</th><td>        <b>return</b> <span class="macro" title="((void*)0)" data-ref="_M/NULL">NULL</span>;</td></tr>
 <tr><th id="181">181</th><td>    }</td></tr>
 <tr><th id="182">182</th><td></td></tr>
@@ -256,7 +256,7 @@
 <tr><th id="242">242</th><td></td></tr>
 <tr><th id="243">243</th><td>    <b>if</b> (<a class="local col0 ref" href="#10size" title='size' data-ref="10size" data-ref-filename="10size">size</a> == <var>0</var>)</td></tr>
 <tr><th id="244">244</th><td>    {</td></tr>
-<tr><th id="245">245</th><td>        <a class="macro" href="../include/mos/printk.h.html#59" title="mos_kwarn(__func__, 245, &quot;WARN: &quot; &quot;liballoc: liballoc_malloc(0) called.&quot; &quot;\n&quot;)" data-ref="_M/mos_warn">mos_warn</a>(<q>"liballoc: liballoc_malloc(0) called."</q>);</td></tr>
+<tr><th id="245">245</th><td>        <a class="macro" href="../include/mos/printk.h.html#59" title="mos_kwarn(__func__, 245, &quot;WARN: &quot; &quot;liballoc: liballoc_malloc(0) called.&quot; &quot;\r\n&quot;)" data-ref="_M/mos_warn">mos_warn</a>(<q>"liballoc: liballoc_malloc(0) called."</q>);</td></tr>
 <tr><th id="246">246</th><td>        <a class="tu ref" href="#l_warnings" title='l_warnings' data-use='w' data-ref="l_warnings" data-ref-filename="l_warnings">l_warnings</a> += <var>1</var>;</td></tr>
 <tr><th id="247">247</th><td><u>#<span data-ppcond="247">if</span> <a class="macro" href="../../build/include/mos/kconfig.h.html#23" title="0" data-ref="_M/MOS_MM_LIBALLOC_LOCKS">MOS_MM_LIBALLOC_LOCKS</a></u></td></tr>
 <tr><th id="248">248</th><td>        liballoc_unlock();</td></tr>
@@ -520,7 +520,7 @@
 <tr><th id="506">506</th><td>    liballoc_unlock(); <i>// release the lock</i></td></tr>
 <tr><th id="507">507</th><td><u>#<span data-ppcond="505">endif</span></u></td></tr>
 <tr><th id="508">508</th><td></td></tr>
-<tr><th id="509">509</th><td>    <a class="macro" href="../include/mos/printk.h.html#59" title="mos_kwarn(__func__, 509, &quot;WARN: &quot; &quot;No memory available.&quot; &quot;\n&quot;)" data-ref="_M/mos_warn">mos_warn</a>(<q>"No memory available."</q>);</td></tr>
+<tr><th id="509">509</th><td>    <a class="macro" href="../include/mos/printk.h.html#59" title="mos_kwarn(__func__, 509, &quot;WARN: &quot; &quot;No memory available.&quot; &quot;\r\n&quot;)" data-ref="_M/mos_warn">mos_warn</a>(<q>"No memory available."</q>);</td></tr>
 <tr><th id="510">510</th><td></td></tr>
 <tr><th id="511">511</th><td><u>#<span data-ppcond="511">if</span> <a class="macro" href="../../build/include/mos/kconfig.h.html#24" title="0" data-ref="_M/MOS_MM_LIBALLOC_DEBUG">MOS_MM_LIBALLOC_DEBUG</a></u></td></tr>
 <tr><th id="512">512</th><td>    liballoc_dump();</td></tr>
@@ -537,7 +537,7 @@
 <tr><th id="523">523</th><td>    <b>if</b> (<a class="local col8 ref" href="#28ptr" title='ptr' data-ref="28ptr" data-ref-filename="28ptr">ptr</a> == <span class="macro" title="((void*)0)" data-ref="_M/NULL">NULL</span>)</td></tr>
 <tr><th id="524">524</th><td>    {</td></tr>
 <tr><th id="525">525</th><td>        <a class="tu ref" href="#l_warnings" title='l_warnings' data-use='w' data-ref="l_warnings" data-ref-filename="l_warnings">l_warnings</a> += <var>1</var>;</td></tr>
-<tr><th id="526">526</th><td>        <a class="macro" href="../include/mos/printk.h.html#59" title="mos_kwarn(__func__, 526, &quot;WARN: &quot; &quot;liballoc: free(NULL) called&quot; &quot;\n&quot;)" data-ref="_M/mos_warn">mos_warn</a>(<q>"liballoc: free(NULL) called"</q>);</td></tr>
+<tr><th id="526">526</th><td>        <a class="macro" href="../include/mos/printk.h.html#59" title="mos_kwarn(__func__, 526, &quot;WARN: &quot; &quot;liballoc: free(NULL) called&quot; &quot;\r\n&quot;)" data-ref="_M/mos_warn">mos_warn</a>(<q>"liballoc: free(NULL) called"</q>);</td></tr>
 <tr><th id="527">527</th><td>        <b>return</b>;</td></tr>
 <tr><th id="528">528</th><td>    }</td></tr>
 <tr><th id="529">529</th><td></td></tr>
@@ -558,16 +558,16 @@
 <tr><th id="544">544</th><td>            ((<a class="local col9 ref" href="#29min" title='min' data-ref="29min" data-ref-filename="29min">min</a>-&gt;<a class="tu ref field" href="#liballoc_part::magic" title='liballoc_part::magic' data-use='r' data-ref="liballoc_part::magic" data-ref-filename="liballoc_part..magic">magic</a> &amp; <var>0xFF</var>) == (<a class="macro" href="#50" title="0xaabbccdd" data-ref="_M/LIBALLOC_MAGIC">LIBALLOC_MAGIC</a> &amp; <var>0xFF</var>)))</td></tr>
 <tr><th id="545">545</th><td>        {</td></tr>
 <tr><th id="546">546</th><td>            <a class="tu ref" href="#l_possible_overruns" title='l_possible_overruns' data-use='w' data-ref="l_possible_overruns" data-ref-filename="l_possible_overruns">l_possible_overruns</a> += <var>1</var>;</td></tr>
-<tr><th id="547">547</th><td>            <a class="macro" href="../include/mos/printk.h.html#59" title="mos_kwarn(__func__, 547, &quot;WARN: &quot; &quot;liballoc: ERROR: Possible 1-3 byte overrun for magic %x != %x&quot; &quot;\n&quot;, min-&gt;magic, 0xaabbccdd)" data-ref="_M/mos_warn">mos_warn</a>(<q>"liballoc: ERROR: Possible 1-3 byte overrun for magic %x != %x"</q>, <a class="local col9 ref" href="#29min" title='min' data-ref="29min" data-ref-filename="29min">min</a>-&gt;<a class="tu ref field" href="#liballoc_part::magic" title='liballoc_part::magic' data-use='r' data-ref="liballoc_part::magic" data-ref-filename="liballoc_part..magic">magic</a>, LIBALLOC_MAGIC);</td></tr>
+<tr><th id="547">547</th><td>            <a class="macro" href="../include/mos/printk.h.html#59" title="mos_kwarn(__func__, 547, &quot;WARN: &quot; &quot;liballoc: ERROR: Possible 1-3 byte overrun for magic %x != %x&quot; &quot;\r\n&quot;, min-&gt;magic, 0xaabbccdd)" data-ref="_M/mos_warn">mos_warn</a>(<q>"liballoc: ERROR: Possible 1-3 byte overrun for magic %x != %x"</q>, <a class="local col9 ref" href="#29min" title='min' data-ref="29min" data-ref-filename="29min">min</a>-&gt;<a class="tu ref field" href="#liballoc_part::magic" title='liballoc_part::magic' data-use='r' data-ref="liballoc_part::magic" data-ref-filename="liballoc_part..magic">magic</a>, LIBALLOC_MAGIC);</td></tr>
 <tr><th id="548">548</th><td>        }</td></tr>
 <tr><th id="549">549</th><td></td></tr>
 <tr><th id="550">550</th><td>        <b>if</b> (<a class="local col9 ref" href="#29min" title='min' data-ref="29min" data-ref-filename="29min">min</a>-&gt;<a class="tu ref field" href="#liballoc_part::magic" title='liballoc_part::magic' data-use='r' data-ref="liballoc_part::magic" data-ref-filename="liballoc_part..magic">magic</a> == <a class="macro" href="#51" title="0xdeaddead" data-ref="_M/LIBALLOC_DEAD">LIBALLOC_DEAD</a>)</td></tr>
 <tr><th id="551">551</th><td>        {</td></tr>
-<tr><th id="552">552</th><td>            <a class="macro" href="../include/mos/printk.h.html#59" title="mos_kwarn(__func__, 552, &quot;WARN: &quot; &quot;liballoc: multiple free() attempt on %p&quot; &quot;\n&quot;, ptr)" data-ref="_M/mos_warn">mos_warn</a>(<q>"liballoc: multiple free() attempt on %p"</q>, <a class="local col8 ref" href="#28ptr" title='ptr' data-ref="28ptr" data-ref-filename="28ptr">ptr</a>);</td></tr>
+<tr><th id="552">552</th><td>            <a class="macro" href="../include/mos/printk.h.html#59" title="mos_kwarn(__func__, 552, &quot;WARN: &quot; &quot;liballoc: multiple free() attempt on %p&quot; &quot;\r\n&quot;, ptr)" data-ref="_M/mos_warn">mos_warn</a>(<q>"liballoc: multiple free() attempt on %p"</q>, <a class="local col8 ref" href="#28ptr" title='ptr' data-ref="28ptr" data-ref-filename="28ptr">ptr</a>);</td></tr>
 <tr><th id="553">553</th><td>        }</td></tr>
 <tr><th id="554">554</th><td>        <b>else</b></td></tr>
 <tr><th id="555">555</th><td>        {</td></tr>
-<tr><th id="556">556</th><td>            <a class="macro" href="../include/mos/printk.h.html#59" title="mos_kwarn(__func__, 556, &quot;WARN: &quot; &quot;liballoc: bad free(%p) called.&quot; &quot;\n&quot;, ptr)" data-ref="_M/mos_warn">mos_warn</a>(<q>"liballoc: bad free(%p) called."</q>, <a class="local col8 ref" href="#28ptr" title='ptr' data-ref="28ptr" data-ref-filename="28ptr">ptr</a>);</td></tr>
+<tr><th id="556">556</th><td>            <a class="macro" href="../include/mos/printk.h.html#59" title="mos_kwarn(__func__, 556, &quot;WARN: &quot; &quot;liballoc: bad free(%p) called.&quot; &quot;\r\n&quot;, ptr)" data-ref="_M/mos_warn">mos_warn</a>(<q>"liballoc: bad free(%p) called."</q>, <a class="local col8 ref" href="#28ptr" title='ptr' data-ref="28ptr" data-ref-filename="28ptr">ptr</a>);</td></tr>
 <tr><th id="557">557</th><td>        }</td></tr>
 <tr><th id="558">558</th><td><u>#<span data-ppcond="558">if</span> <a class="macro" href="../../build/include/mos/kconfig.h.html#23" title="0" data-ref="_M/MOS_MM_LIBALLOC_LOCKS">MOS_MM_LIBALLOC_LOCKS</a></u></td></tr>
 <tr><th id="559">559</th><td>        <i>// being lied to...</i></td></tr>
@@ -668,16 +668,16 @@
 <tr><th id="654">654</th><td>            ((<a class="local col2 ref" href="#42min" title='min' data-ref="42min" data-ref-filename="42min">min</a>-&gt;<a class="tu ref field" href="#liballoc_part::magic" title='liballoc_part::magic' data-use='r' data-ref="liballoc_part::magic" data-ref-filename="liballoc_part..magic">magic</a> &amp; <var>0xFF</var>) == (<a class="macro" href="#50" title="0xaabbccdd" data-ref="_M/LIBALLOC_MAGIC">LIBALLOC_MAGIC</a> &amp; <var>0xFF</var>)))</td></tr>
 <tr><th id="655">655</th><td>        {</td></tr>
 <tr><th id="656">656</th><td>            <a class="tu ref" href="#l_possible_overruns" title='l_possible_overruns' data-use='w' data-ref="l_possible_overruns" data-ref-filename="l_possible_overruns">l_possible_overruns</a> += <var>1</var>;</td></tr>
-<tr><th id="657">657</th><td>            <a class="macro" href="../include/mos/printk.h.html#59" title="mos_kwarn(__func__, 657, &quot;WARN: &quot; &quot;liballoc: Possible 1-3 byte overrun for magic %x != %x&quot; &quot;\n&quot;, min-&gt;magic, 0xaabbccdd)" data-ref="_M/mos_warn">mos_warn</a>(<q>"liballoc: Possible 1-3 byte overrun for magic %x != %x"</q>, <a class="local col2 ref" href="#42min" title='min' data-ref="42min" data-ref-filename="42min">min</a>-&gt;<a class="tu ref field" href="#liballoc_part::magic" title='liballoc_part::magic' data-use='r' data-ref="liballoc_part::magic" data-ref-filename="liballoc_part..magic">magic</a>, LIBALLOC_MAGIC);</td></tr>
+<tr><th id="657">657</th><td>            <a class="macro" href="../include/mos/printk.h.html#59" title="mos_kwarn(__func__, 657, &quot;WARN: &quot; &quot;liballoc: Possible 1-3 byte overrun for magic %x != %x&quot; &quot;\r\n&quot;, min-&gt;magic, 0xaabbccdd)" data-ref="_M/mos_warn">mos_warn</a>(<q>"liballoc: Possible 1-3 byte overrun for magic %x != %x"</q>, <a class="local col2 ref" href="#42min" title='min' data-ref="42min" data-ref-filename="42min">min</a>-&gt;<a class="tu ref field" href="#liballoc_part::magic" title='liballoc_part::magic' data-use='r' data-ref="liballoc_part::magic" data-ref-filename="liballoc_part..magic">magic</a>, LIBALLOC_MAGIC);</td></tr>
 <tr><th id="658">658</th><td>        }</td></tr>
 <tr><th id="659">659</th><td></td></tr>
 <tr><th id="660">660</th><td>        <b>if</b> (<a class="local col2 ref" href="#42min" title='min' data-ref="42min" data-ref-filename="42min">min</a>-&gt;<a class="tu ref field" href="#liballoc_part::magic" title='liballoc_part::magic' data-use='r' data-ref="liballoc_part::magic" data-ref-filename="liballoc_part..magic">magic</a> == <a class="macro" href="#51" title="0xdeaddead" data-ref="_M/LIBALLOC_DEAD">LIBALLOC_DEAD</a>)</td></tr>
 <tr><th id="661">661</th><td>        {</td></tr>
-<tr><th id="662">662</th><td>            <a class="macro" href="../include/mos/printk.h.html#59" title="mos_kwarn(__func__, 662, &quot;WARN: &quot; &quot;liballoc: multiple free() attempt on %p from %p.&quot; &quot;\n&quot;, ptr, __builtin_return_address(0))" data-ref="_M/mos_warn">mos_warn</a>(<q>"liballoc: multiple free() attempt on %p from %p."</q>, <a class="local col0 ref" href="#40ptr" title='ptr' data-ref="40ptr" data-ref-filename="40ptr">ptr</a>, <a class="ref fn" href="#662" title='__builtin_return_address' data-ref="__builtin_return_address" data-ref-filename="__builtin_return_address">__builtin_return_address</a>(<var>0</var>));</td></tr>
+<tr><th id="662">662</th><td>            <a class="macro" href="../include/mos/printk.h.html#59" title="mos_kwarn(__func__, 662, &quot;WARN: &quot; &quot;liballoc: multiple free() attempt on %p from %p.&quot; &quot;\r\n&quot;, ptr, __builtin_return_address(0))" data-ref="_M/mos_warn">mos_warn</a>(<q>"liballoc: multiple free() attempt on %p from %p."</q>, <a class="local col0 ref" href="#40ptr" title='ptr' data-ref="40ptr" data-ref-filename="40ptr">ptr</a>, <a class="ref fn" href="#662" title='__builtin_return_address' data-ref="__builtin_return_address" data-ref-filename="__builtin_return_address">__builtin_return_address</a>(<var>0</var>));</td></tr>
 <tr><th id="663">663</th><td>        }</td></tr>
 <tr><th id="664">664</th><td>        <b>else</b></td></tr>
 <tr><th id="665">665</th><td>        {</td></tr>
-<tr><th id="666">666</th><td>            <a class="macro" href="../include/mos/printk.h.html#59" title="mos_kwarn(__func__, 666, &quot;WARN: &quot; &quot;liballoc: Bad free(%p) called&quot; &quot;\n&quot;, ptr)" data-ref="_M/mos_warn">mos_warn</a>(<q>"liballoc: Bad free(%p) called"</q>, <a class="local col0 ref" href="#40ptr" title='ptr' data-ref="40ptr" data-ref-filename="40ptr">ptr</a>);</td></tr>
+<tr><th id="666">666</th><td>            <a class="macro" href="../include/mos/printk.h.html#59" title="mos_kwarn(__func__, 666, &quot;WARN: &quot; &quot;liballoc: Bad free(%p) called&quot; &quot;\r\n&quot;, ptr)" data-ref="_M/mos_warn">mos_warn</a>(<q>"liballoc: Bad free(%p) called"</q>, <a class="local col0 ref" href="#40ptr" title='ptr' data-ref="40ptr" data-ref-filename="40ptr">ptr</a>);</td></tr>
 <tr><th id="667">667</th><td>        }</td></tr>
 <tr><th id="668">668</th><td><u>#<span data-ppcond="668">if</span> <a class="macro" href="../../build/include/mos/kconfig.h.html#23" title="0" data-ref="_M/MOS_MM_LIBALLOC_LOCKS">MOS_MM_LIBALLOC_LOCKS</a></u></td></tr>
 <tr><th id="669">669</th><td>        <i>// being lied to...</i></td></tr>
@@ -711,6 +711,6 @@
 <tr><th id="697">697</th><td>}</td></tr>
 <tr><th id="698">698</th><td></td></tr>
 </table><hr/><p id='footer'>
-Generated on <em>2022-Nov-23</em> from project MOS<br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
+Generated on <em>2022-Nov-24</em> from project MOS<br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
 <br/>Generator usage only permitted with license.</p>
 </div></body></html>

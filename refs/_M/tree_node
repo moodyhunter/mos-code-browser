@@ -1,4 +1,4 @@
-<dec f='MOS/lib/include/lib/structures/tree.h' l='14'/>
+<dec f='MOS/lib/include/lib/structures/tree.h' l='27'/>
 <use f='MOS/kernel/filesystem/filesystem.c' l='23' u='c'/>
 <use f='MOS/kernel/filesystem/filesystem.c' l='136' u='c'/>
 <use f='MOS/kernel/filesystem/filesystem.c' l='192' u='c'/>
@@ -9,7 +9,7 @@
 <use f='MOS/kernel/filesystem/pathutils.c' l='143' u='c'/>
 <use f='MOS/kernel/filesystem/pathutils.c' l='143' u='c'/>
 <use f='MOS/kernel/filesystem/pathutils.c' l='164' u='c'/>
-<use f='MOS/tests/fs_api/test_fs_api.c' l='15' u='c'/>
-<use f='MOS/tests/fs_api/test_fs_api.c' l='25' u='c'/>
-<use f='MOS/tests/fs_api/test_fs_api.c' l='35' u='c'/>
-<use f='MOS/tests/fs_api/test_fs_api.c' l='45' u='c'/>
+<use f='MOS/tests/fs_api/test_fs_api.c' l='14' u='c'/>
+<use f='MOS/tests/fs_api/test_fs_api.c' l='24' u='c'/>
+<use f='MOS/tests/fs_api/test_fs_api.c' l='34' u='c'/>
+<use f='MOS/tests/fs_api/test_fs_api.c' l='44' u='c'/>

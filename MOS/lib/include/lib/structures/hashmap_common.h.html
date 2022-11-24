@@ -12,19 +12,25 @@
 <body><div id='header'><h1 id='breadcrumb'><span>Browse the source code of </span><a href='../../../..'>MOS</a>/<a href='../../..'>lib</a>/<a href='../..'>include</a>/<a href='..'>lib</a>/<a href='./'>structures</a>/<a href='hashmap_common.h.html'>hashmap_common.h</a></h1></div>
 <hr/><div id='content'><table class="code">
 <tr><th id="1">1</th><td><i>// SPDX-License-Identifier: GPL-3.0-or-later</i></td></tr>
-<tr><th id="2">2</th><td><i>// Common hash functions and compare functions for hashmap.</i></td></tr>
-<tr><th id="3">3</th><td></td></tr>
-<tr><th id="4">4</th><td><u>#pragma once</u></td></tr>
-<tr><th id="5">5</th><td></td></tr>
-<tr><th id="6">6</th><td><u>#include <a href="../../../../kernel/include/mos/types.h.html">"mos/types.h"</a></u></td></tr>
-<tr><th id="7">7</th><td></td></tr>
-<tr><th id="8">8</th><td><u>#define <dfn class="macro" id="_M/hashmap_common_type_init" data-ref="_M/hashmap_common_type_init">hashmap_common_type_init</dfn>(map, cap, type) hashmap_init(map, cap, hashmap_functions_for(type))</u></td></tr>
-<tr><th id="9">9</th><td><u>#define <dfn class="macro" id="_M/hashmap_functions_for" data-ref="_M/hashmap_functions_for">hashmap_functions_for</dfn>(type)              hashmap_hash_##type, hashmap_compare_##type</u></td></tr>
-<tr><th id="10">10</th><td></td></tr>
-<tr><th id="11">11</th><td><a class="typedef" href="../../../../kernel/include/mos/types.h.html#78" title='hash_t' data-type='struct hash_t' data-ref="hash_t" data-ref-filename="hash_t">hash_t</a> <a class="macro" href="../../../../kernel/include/mos/mos_global.h.html#17" title="__attribute__((__pure__))" data-ref="_M/__pure">__pure</a> <dfn class="decl fn" id="hashmap_hash_string" title='hashmap_hash_string' data-ref="hashmap_hash_string" data-ref-filename="hashmap_hash_string">hashmap_hash_string</dfn>(<em>const</em> <em>void</em> *<dfn class="local col0 decl" id="20key" title='key' data-type='const void *' data-ref="20key" data-ref-filename="20key">key</dfn>);</td></tr>
-<tr><th id="12">12</th><td><em>int</em> <a class="macro" href="../../../../kernel/include/mos/mos_global.h.html#17" title="__attribute__((__pure__))" data-ref="_M/__pure">__pure</a> <dfn class="decl fn" id="hashmap_compare_string" title='hashmap_compare_string' data-ref="hashmap_compare_string" data-ref-filename="hashmap_compare_string">hashmap_compare_string</dfn>(<em>const</em> <em>void</em> *<dfn class="local col1 decl" id="21key1" title='key1' data-type='const void *' data-ref="21key1" data-ref-filename="21key1">key1</dfn>, <em>const</em> <em>void</em> *<dfn class="local col2 decl" id="22key2" title='key2' data-type='const void *' data-ref="22key2" data-ref-filename="22key2">key2</dfn>);</td></tr>
-<tr><th id="13">13</th><td></td></tr>
+<tr><th id="2">2</th><td></td></tr>
+<tr><th id="3">3</th><td><u>#pragma once</u></td></tr>
+<tr><th id="4">4</th><td></td></tr>
+<tr><th id="5">5</th><td><u>#include <a href="../../../../kernel/include/mos/types.h.html">"mos/types.h"</a></u></td></tr>
+<tr><th id="6">6</th><td></td></tr>
+<tr><th id="7">7</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="8">8</th><td><i class="doc"> * <span class="command">\defgroup</span> <span class="verb">libs_hashmap_commonfuncs libs.HashMap.Common</span></i></td></tr>
+<tr><th id="9">9</th><td><i class="doc"> * <span class="command">\ingroup</span> <span class="verb">libs_hashmap</span></i></td></tr>
+<tr><th id="10">10</th><td><i class="doc"> * <span class="command">\brief</span> Common hash and comparison functions for hashmaps.</i></td></tr>
+<tr><th id="11">11</th><td><i class="doc"> * @{</i></td></tr>
+<tr><th id="12">12</th><td><i class="doc"> */</i></td></tr>
+<tr><th id="13">13</th><td><u>#define <dfn class="macro" id="_M/hashmap_common_type_init" data-ref="_M/hashmap_common_type_init">hashmap_common_type_init</dfn>(map, cap, type) hashmap_init(map, cap, hashmap_hash_##type, hashmap_compare_##type)</u></td></tr>
+<tr><th id="14">14</th><td></td></tr>
+<tr><th id="15">15</th><td><a class="typedef" href="../../../../kernel/include/mos/types.h.html#78" title='hash_t' data-type='struct hash_t' data-ref="hash_t" data-ref-filename="hash_t">hash_t</a> <a class="macro" href="../../../../kernel/include/mos/mos_global.h.html#17" title="__attribute__((__pure__))" data-ref="_M/__pure">__pure</a> <dfn class="decl fn" id="hashmap_hash_string" title='hashmap_hash_string' data-ref="hashmap_hash_string" data-ref-filename="hashmap_hash_string">hashmap_hash_string</dfn>(<em>const</em> <em>void</em> *<dfn class="local col0 decl" id="20key" title='key' data-type='const void *' data-ref="20key" data-ref-filename="20key">key</dfn>);</td></tr>
+<tr><th id="16">16</th><td><em>int</em> <a class="macro" href="../../../../kernel/include/mos/mos_global.h.html#17" title="__attribute__((__pure__))" data-ref="_M/__pure">__pure</a> <dfn class="decl fn" id="hashmap_compare_string" title='hashmap_compare_string' data-ref="hashmap_compare_string" data-ref-filename="hashmap_compare_string">hashmap_compare_string</dfn>(<em>const</em> <em>void</em> *<dfn class="local col1 decl" id="21key1" title='key1' data-type='const void *' data-ref="21key1" data-ref-filename="21key1">key1</dfn>, <em>const</em> <em>void</em> *<dfn class="local col2 decl" id="22key2" title='key2' data-type='const void *' data-ref="22key2" data-ref-filename="22key2">key2</dfn>);</td></tr>
+<tr><th id="17">17</th><td></td></tr>
+<tr><th id="18">18</th><td><i class="doc">/** @} */</i></td></tr>
+<tr><th id="19">19</th><td></td></tr>
 </table><hr/><p id='footer'>
-Generated while processing <a href='../../../../kernel/device/block.c.html'>MOS/kernel/device/block.c</a><br/>Generated on <em>2022-Nov-23</em> from project MOS<br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
+Generated while processing <a href='../../../../kernel/device/block.c.html'>MOS/kernel/device/block.c</a><br/>Generated on <em>2022-Nov-24</em> from project MOS<br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
 <br/>Generator usage only permitted with license.</p>
 </div></body></html>

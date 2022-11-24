@@ -6,7 +6,6 @@ MOS/kernel/include/mos/compiler.h
 MOS/build/include/mos/kconfig.h
 MOS/kernel/include/mos/constants.h
 MOS/arch/x86/include/mos/x86/acpi/acpi_types.h
-MOS/lib/include/lib/containers.h
 MOS/lib/include/lib/string.h
 MOS/kernel/include/mos/boot/startup.h
 MOS/kernel/include/mos/platform/platform.h
@@ -16,6 +15,7 @@ MOS/arch/x86/include/mos/x86/boot/multiboot.h
 MOS/arch/x86/include/mos/x86/cpu/cpu.h
 MOS/arch/x86/include/mos/x86/devices/port.h
 MOS/arch/x86/include/mos/x86/x86_interrupt.h
+MOS/lib/include/lib/structures/list.h
 MOS/arch/x86/include/mos/x86/x86_platform.h
 MOS/arch/x86/include/mos/x86/gdt/gdt_types.h
 MOS/arch/x86/include/mos/x86/interrupt/idt_types.h
@@ -39,7 +39,6 @@ MOS/arch/x86/include/mos/x86/devices/serial.h
 MOS/arch/x86/devices/serial_console.c
 MOS/arch/x86/include/mos/x86/devices/serial_console.h
 MOS/lib/include/lib/ansi_colors.h
-MOS/lib/include/lib/structures/list.h
 MOS/arch/x86/devices/text_mode_console.c
 MOS/arch/x86/include/mos/x86/devices/text_mode_console.h
 MOS/arch/x86/gdt/gdt.c
@@ -52,6 +51,7 @@ MOS/kernel/include/mos/mm/kmalloc.h
 MOS/kernel/include/mos/mm/liballoc.h
 MOS/build/include/mos/syscall/dispatcher.h
 MOS/kernel/include/mos/filesystem/filesystem.h
+MOS/lib/include/lib/structures/tree.h
 MOS/kernel/include/mos/io/io.h
 MOS/kernel/include/mos/tasks/task_type.h
 MOS/lib/include/lib/structures/stack.h
@@ -83,7 +83,6 @@ MOS/kernel/filesystem/cpio/cpio.c
 MOS/kernel/include/mos/filesystem/cpio/cpio.h
 MOS/kernel/include/mos/filesystem/mount.h
 MOS/kernel/include/mos/filesystem/pathutils.h
-MOS/lib/include/lib/structures/tree.h
 MOS/kernel/filesystem/filesystem.c
 MOS/kernel/filesystem/mount.c
 MOS/kernel/filesystem/pathutils.c
@@ -113,7 +112,6 @@ MOS/lib/stdlib.c
 MOS/lib/string.c
 MOS/lib/structures/hashmap.c
 MOS/lib/structures/hashmap_common.c
-MOS/lib/include/lib/hash.h
 MOS/lib/structures/list.c
 MOS/lib/structures/ring_buffer.c
 MOS/lib/include/lib/structures/ring_buffer.h

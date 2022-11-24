@@ -1,4 +1,4 @@
-<dec f='MOS/lib/include/lib/stdio.h' l='14' type='int snprintf(char *restrict str, size_t size, const char *restrict format)'/>
+<dec f='MOS/lib/include/lib/stdio.h' l='21' type='int snprintf(char *restrict str, size_t size, const char *restrict format)'/>
 <def f='MOS/lib/stdio.c' l='16' ll='23' type='int snprintf(char *restrict str, size_t size, const char *restrict format)'/>
 <use f='MOS/lib/stdlib.c' l='69' u='c' c='format_size'/>
 <use f='MOS/lib/stdlib.c' l='73' u='c' c='format_size'/>

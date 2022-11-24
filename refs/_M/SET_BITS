@@ -1,4 +1,4 @@
-<dec f='MOS/kernel/include/mos/mos_global.h' l='35'/>
+<dec f='MOS/kernel/include/mos/mos_global.h' l='37'/>
 <use f='MOS/arch/x86/interrupt/apic.c' l='66' u='c'/>
 <use f='MOS/arch/x86/interrupt/apic.c' l='73' u='c'/>
 <use f='MOS/arch/x86/interrupt/apic.c' l='74' u='c'/>

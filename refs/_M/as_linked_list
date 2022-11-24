@@ -1,5 +1,8 @@
-<dec f='MOS/lib/include/lib/containers.h' l='25'/>
+<dec f='MOS/lib/include/lib/structures/list.h' l='25'/>
+<doc f='MOS/lib/include/lib/structures/list.h' l='22'>/**
+ * \brief Embed a list node into a struct
+ */</doc>
 <use f='MOS/kernel/include/mos/device/console.h' l='46' u='c'/>
 <use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='54' u='c'/>
 <use f='MOS/kernel/panic.c' l='13' u='c'/>
-<use f='MOS/tests/linked_list/test_linked_list.c' l='10' u='c'/>
+<use f='MOS/tests/linked_list/test_linked_list.c' l='9' u='c'/>

@@ -1,23 +1,23 @@
-<dec f='MOS/lib/include/lib/structures/hashmap.h' l='15' type='s32'/>
+<dec f='MOS/lib/include/lib/structures/hashmap.h' l='20' type='s32'/>
 <offset>0</offset>
-<use f='MOS/lib/structures/hashmap.c' l='19' u='r' c='hashmap_init'/>
-<use f='MOS/lib/structures/hashmap.c' l='24' u='w' c='hashmap_init'/>
-<use f='MOS/lib/structures/hashmap.c' l='35' u='r' c='hashmap_deinit'/>
-<use f='MOS/lib/structures/hashmap.c' l='51' u='r' c='hashmap_put'/>
-<use f='MOS/lib/structures/hashmap.c' l='76' u='r' c='hashmap_get'/>
-<use f='MOS/lib/structures/hashmap.c' l='92' u='r' c='hashmap_remove'/>
-<use f='MOS/lib/structures/hashmap.c' l='121' u='r' c='hashmap_foreach'/>
-<use f='MOS/tests/hashmap/test_hashmap.c' l='13' u='r' c='hashmap_init_simple_macro'/>
-<use f='MOS/tests/hashmap/test_hashmap.c' l='13' u='r' c='hashmap_init_simple_macro'/>
-<use f='MOS/tests/hashmap/test_hashmap.c' l='26' u='r' c='hashmap_put_single'/>
-<use f='MOS/tests/hashmap/test_hashmap.c' l='26' u='r' c='hashmap_put_single'/>
-<use f='MOS/tests/hashmap/test_hashmap.c' l='43' u='r' c='hashmap_get_function'/>
-<use f='MOS/tests/hashmap/test_hashmap.c' l='43' u='r' c='hashmap_get_function'/>
-<use f='MOS/tests/hashmap/test_hashmap.c' l='70' u='r' c='hashmap_put_multiple'/>
-<use f='MOS/tests/hashmap/test_hashmap.c' l='70' u='r' c='hashmap_put_multiple'/>
-<use f='MOS/tests/hashmap/test_hashmap.c' l='107' u='r' c='hashmap_put_overflow'/>
-<use f='MOS/tests/hashmap/test_hashmap.c' l='107' u='r' c='hashmap_put_overflow'/>
-<use f='MOS/tests/hashmap/test_hashmap.c' l='139' u='r' c='hashmap_remove_function'/>
-<use f='MOS/tests/hashmap/test_hashmap.c' l='139' u='r' c='hashmap_remove_function'/>
-<use f='MOS/tests/hashmap/test_hashmap.c' l='188' u='r' c='hashmap_foreach_function'/>
-<use f='MOS/tests/hashmap/test_hashmap.c' l='188' u='r' c='hashmap_foreach_function'/>
+<use f='MOS/lib/structures/hashmap.c' l='21' u='r' c='hashmap_init'/>
+<use f='MOS/lib/structures/hashmap.c' l='26' u='w' c='hashmap_init'/>
+<use f='MOS/lib/structures/hashmap.c' l='45' u='r' c='hashmap_deinit'/>
+<use f='MOS/lib/structures/hashmap.c' l='61' u='r' c='hashmap_put'/>
+<use f='MOS/lib/structures/hashmap.c' l='86' u='r' c='hashmap_get'/>
+<use f='MOS/lib/structures/hashmap.c' l='102' u='r' c='hashmap_remove'/>
+<use f='MOS/lib/structures/hashmap.c' l='131' u='r' c='hashmap_foreach'/>
+<use f='MOS/tests/hashmap/test_hashmap.c' l='14' u='r' c='hashmap_init_simple_macro'/>
+<use f='MOS/tests/hashmap/test_hashmap.c' l='14' u='r' c='hashmap_init_simple_macro'/>
+<use f='MOS/tests/hashmap/test_hashmap.c' l='27' u='r' c='hashmap_put_single'/>
+<use f='MOS/tests/hashmap/test_hashmap.c' l='27' u='r' c='hashmap_put_single'/>
+<use f='MOS/tests/hashmap/test_hashmap.c' l='44' u='r' c='hashmap_get_function'/>
+<use f='MOS/tests/hashmap/test_hashmap.c' l='44' u='r' c='hashmap_get_function'/>
+<use f='MOS/tests/hashmap/test_hashmap.c' l='71' u='r' c='hashmap_put_multiple'/>
+<use f='MOS/tests/hashmap/test_hashmap.c' l='71' u='r' c='hashmap_put_multiple'/>
+<use f='MOS/tests/hashmap/test_hashmap.c' l='108' u='r' c='hashmap_put_overflow'/>
+<use f='MOS/tests/hashmap/test_hashmap.c' l='108' u='r' c='hashmap_put_overflow'/>
+<use f='MOS/tests/hashmap/test_hashmap.c' l='140' u='r' c='hashmap_remove_function'/>
+<use f='MOS/tests/hashmap/test_hashmap.c' l='140' u='r' c='hashmap_remove_function'/>
+<use f='MOS/tests/hashmap/test_hashmap.c' l='189' u='r' c='hashmap_foreach_function'/>
+<use f='MOS/tests/hashmap/test_hashmap.c' l='189' u='r' c='hashmap_foreach_function'/>

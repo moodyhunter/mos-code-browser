@@ -1,6 +1,6 @@
-<use f='MOS/lib/include/lib/containers.h' l='10'/>
-<def f='MOS/lib/include/lib/containers.h' l='18' ll='23'/>
-<use f='MOS/lib/include/lib/containers.h' l='18'/>
+<use f='MOS/lib/include/lib/structures/tree.h' l='7'/>
+<def f='MOS/lib/include/lib/structures/tree.h' l='9' ll='14'/>
+<use f='MOS/lib/include/lib/structures/tree.h' l='9'/>
 <size>24</size>
 <mbr r='tree_node::parent' o='0' t='tree_node_t *'/>
 <mbr r='tree_node::n_children' o='64' t='size_t'/>

@@ -1,1 +1,2 @@
-<dec f='MOS/lib/include/lib/ansi_colors.h' l='5'/>
+<dec f='MOS/lib/include/lib/ansi_colors.h' l='28'/>
+<doc f='MOS/lib/include/lib/ansi_colors.h' l='26'>// ! WARN: These below are not meant to be used directly</doc>

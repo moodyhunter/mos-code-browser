@@ -2,9 +2,9 @@
 <offset>128</offset>
 <use f='MOS/arch/x86/devices/text_mode_console.c' l='165' u='w'/>
 <use f='MOS/arch/x86/x86_platform.c' l='30' u='w'/>
-<use f='MOS/kernel/device/console.c' l='20' u='w'/>
-<use f='MOS/kernel/device/console.c' l='38' u='r' c='console_register'/>
-<use f='MOS/kernel/device/console.c' l='42' u='r' c='console_register'/>
-<use f='MOS/kernel/device/console.c' l='52' u='r' c='console_get'/>
-<use f='MOS/kernel/device/console.c' l='62' u='r' c='console_get_by_prefix'/>
+<use f='MOS/kernel/device/console.c' l='19' u='w'/>
+<use f='MOS/kernel/device/console.c' l='37' u='r' c='console_register'/>
+<use f='MOS/kernel/device/console.c' l='41' u='r' c='console_register'/>
+<use f='MOS/kernel/device/console.c' l='51' u='r' c='console_get'/>
+<use f='MOS/kernel/device/console.c' l='61' u='r' c='console_get_by_prefix'/>
 <use f='MOS/kernel/printk.c' l='45' u='r' c='printk_setup_console'/>

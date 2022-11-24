@@ -4,15 +4,15 @@
 <use f='MOS/arch/x86/devices/text_mode_console.c' l='166' u='w'/>
 <use f='MOS/arch/x86/devices/text_mode_console.c' l='166' macro='1' u='a'/>
 <use f='MOS/arch/x86/devices/text_mode_console.c' l='166' macro='1' u='a'/>
-<use f='MOS/kernel/device/console.c' l='23' u='w'/>
-<use f='MOS/kernel/device/console.c' l='27' macro='1' u='a'/>
-<use f='MOS/kernel/device/console.c' l='27' macro='1' u='a'/>
-<use f='MOS/kernel/device/console.c' l='37' macro='1' u='a' c='console_register'/>
-<use f='MOS/kernel/device/console.c' l='43' macro='1' u='a' c='console_register'/>
-<use f='MOS/kernel/device/console.c' l='50' macro='1' u='a' c='console_get'/>
-<use f='MOS/kernel/device/console.c' l='50' macro='1' u='a' c='console_get'/>
-<use f='MOS/kernel/device/console.c' l='60' macro='1' u='a' c='console_get_by_prefix'/>
-<use f='MOS/kernel/device/console.c' l='60' macro='1' u='a' c='console_get_by_prefix'/>
+<use f='MOS/kernel/device/console.c' l='22' u='w'/>
+<use f='MOS/kernel/device/console.c' l='26' macro='1' u='a'/>
+<use f='MOS/kernel/device/console.c' l='26' macro='1' u='a'/>
+<use f='MOS/kernel/device/console.c' l='36' macro='1' u='a' c='console_register'/>
+<use f='MOS/kernel/device/console.c' l='42' macro='1' u='a' c='console_register'/>
+<use f='MOS/kernel/device/console.c' l='49' macro='1' u='a' c='console_get'/>
+<use f='MOS/kernel/device/console.c' l='49' macro='1' u='a' c='console_get'/>
+<use f='MOS/kernel/device/console.c' l='59' macro='1' u='a' c='console_get_by_prefix'/>
+<use f='MOS/kernel/device/console.c' l='59' macro='1' u='a' c='console_get_by_prefix'/>
 <use f='MOS/kernel/printk.c' l='107' macro='1' u='a' c='lprintk'/>
 <use f='MOS/kernel/printk.c' l='107' macro='1' u='a' c='lprintk'/>
 <use f='MOS/tests/test_engine.c' l='19' macro='1' u='a' c='for_each_console_print_with_color'/>

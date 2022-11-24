@@ -1,11 +1,11 @@
-<dec f='MOS/lib/include/lib/string.h' l='7' type='s32 strcmp(const char * str1, const char * str2)'/>
+<dec f='MOS/lib/include/lib/string.h' l='14' type='s32 strcmp(const char * str1, const char * str2)'/>
 <use f='MOS/kernel/cmdline.c' l='114' u='c' c='mos_cmdline_get_arg'/>
-<use f='MOS/kernel/device/console.c' l='52' u='c' c='console_get'/>
+<use f='MOS/kernel/device/console.c' l='51' u='c' c='console_get'/>
 <use f='MOS/kernel/filesystem/cpio/cpio.c' l='27' u='c' c='cpio_read_metadata'/>
 <use f='MOS/kernel/filesystem/cpio/cpio.c' l='60' u='c' c='cpio_read_metadata'/>
 <use f='MOS/kernel/filesystem/mount.c' l='107' u='c' c='kmount_find_submp'/>
 <def f='MOS/lib/string.c' l='15' ll='21' type='s32 strcmp(const char * s1, const char * s2)'/>
-<use f='MOS/lib/structures/hashmap_common.c' l='15' u='c' c='hashmap_compare_string'/>
+<use f='MOS/lib/structures/hashmap_common.c' l='27' u='c' c='hashmap_compare_string'/>
 <use f='MOS/tests/cmdline_parser/test_cmdline_parser.c' l='12' macro='1' u='c' c='simple_cmdline'/>
 <use f='MOS/tests/cmdline_parser/test_cmdline_parser.c' l='23' macro='1' u='c' c='two_arguments'/>
 <use f='MOS/tests/cmdline_parser/test_cmdline_parser.c' l='25' macro='1' u='c' c='two_arguments'/>
@@ -41,27 +41,27 @@
 <use f='MOS/tests/cmdline_parser/test_cmdline_parser.c' l='131' macro='1' u='c' c='multi_args_with_multiple_options'/>
 <use f='MOS/tests/cmdline_parser/test_cmdline_parser.c' l='133' macro='1' u='c' c='multi_args_with_multiple_options'/>
 <use f='MOS/tests/cmdline_parser/test_cmdline_parser.c' l='135' macro='1' u='c' c='multi_args_with_multiple_options'/>
-<use f='MOS/tests/hashmap/test_hashmap.c' l='35' macro='1' u='c' c='hashmap_put_single'/>
-<use f='MOS/tests/hashmap/test_hashmap.c' l='50' macro='1' u='c' c='hashmap_get_function'/>
-<use f='MOS/tests/hashmap/test_hashmap.c' l='55' macro='1' u='c' c='hashmap_get_function'/>
-<use f='MOS/tests/hashmap/test_hashmap.c' l='60' macro='1' u='c' c='hashmap_get_function'/>
-<use f='MOS/tests/hashmap/test_hashmap.c' l='78' macro='1' u='c' c='hashmap_put_multiple'/>
-<use f='MOS/tests/hashmap/test_hashmap.c' l='83' macro='1' u='c' c='hashmap_put_multiple'/>
+<use f='MOS/tests/hashmap/test_hashmap.c' l='36' macro='1' u='c' c='hashmap_put_single'/>
+<use f='MOS/tests/hashmap/test_hashmap.c' l='51' macro='1' u='c' c='hashmap_get_function'/>
+<use f='MOS/tests/hashmap/test_hashmap.c' l='56' macro='1' u='c' c='hashmap_get_function'/>
+<use f='MOS/tests/hashmap/test_hashmap.c' l='61' macro='1' u='c' c='hashmap_get_function'/>
+<use f='MOS/tests/hashmap/test_hashmap.c' l='79' macro='1' u='c' c='hashmap_put_multiple'/>
 <use f='MOS/tests/hashmap/test_hashmap.c' l='84' macro='1' u='c' c='hashmap_put_multiple'/>
-<use f='MOS/tests/hashmap/test_hashmap.c' l='90' macro='1' u='c' c='hashmap_put_multiple'/>
+<use f='MOS/tests/hashmap/test_hashmap.c' l='85' macro='1' u='c' c='hashmap_put_multiple'/>
 <use f='MOS/tests/hashmap/test_hashmap.c' l='91' macro='1' u='c' c='hashmap_put_multiple'/>
-<use f='MOS/tests/hashmap/test_hashmap.c' l='96' macro='1' u='c' c='hashmap_put_multiple'/>
+<use f='MOS/tests/hashmap/test_hashmap.c' l='92' macro='1' u='c' c='hashmap_put_multiple'/>
 <use f='MOS/tests/hashmap/test_hashmap.c' l='97' macro='1' u='c' c='hashmap_put_multiple'/>
 <use f='MOS/tests/hashmap/test_hashmap.c' l='98' macro='1' u='c' c='hashmap_put_multiple'/>
-<use f='MOS/tests/hashmap/test_hashmap.c' l='115' macro='1' u='c' c='hashmap_put_overflow'/>
-<use f='MOS/tests/hashmap/test_hashmap.c' l='121' macro='1' u='c' c='hashmap_put_overflow'/>
+<use f='MOS/tests/hashmap/test_hashmap.c' l='99' macro='1' u='c' c='hashmap_put_multiple'/>
+<use f='MOS/tests/hashmap/test_hashmap.c' l='116' macro='1' u='c' c='hashmap_put_overflow'/>
 <use f='MOS/tests/hashmap/test_hashmap.c' l='122' macro='1' u='c' c='hashmap_put_overflow'/>
-<use f='MOS/tests/hashmap/test_hashmap.c' l='125' macro='1' u='c' c='hashmap_put_overflow'/>
-<use f='MOS/tests/hashmap/test_hashmap.c' l='128' macro='1' u='c' c='hashmap_put_overflow'/>
+<use f='MOS/tests/hashmap/test_hashmap.c' l='123' macro='1' u='c' c='hashmap_put_overflow'/>
+<use f='MOS/tests/hashmap/test_hashmap.c' l='126' macro='1' u='c' c='hashmap_put_overflow'/>
 <use f='MOS/tests/hashmap/test_hashmap.c' l='129' macro='1' u='c' c='hashmap_put_overflow'/>
-<use f='MOS/tests/hashmap/test_hashmap.c' l='147' macro='1' u='c' c='hashmap_remove_function'/>
-<use f='MOS/tests/hashmap/test_hashmap.c' l='152' macro='1' u='c' c='hashmap_remove_function'/>
-<use f='MOS/tests/hashmap/test_hashmap.c' l='179' u='c' c='test_foreach_stop_at_quux'/>
+<use f='MOS/tests/hashmap/test_hashmap.c' l='130' macro='1' u='c' c='hashmap_put_overflow'/>
+<use f='MOS/tests/hashmap/test_hashmap.c' l='148' macro='1' u='c' c='hashmap_remove_function'/>
+<use f='MOS/tests/hashmap/test_hashmap.c' l='153' macro='1' u='c' c='hashmap_remove_function'/>
+<use f='MOS/tests/hashmap/test_hashmap.c' l='180' u='c' c='test_foreach_stop_at_quux'/>
 <use f='MOS/tests/printf/test_printf.c' l='42' macro='1' u='c' c='percent_sign'/>
 <use f='MOS/tests/printf/test_printf.c' l='43' macro='1' u='c' c='percent_sign'/>
 <use f='MOS/tests/printf/test_printf.c' l='44' macro='1' u='c' c='percent_sign'/>

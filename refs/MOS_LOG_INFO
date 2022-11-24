@@ -1,6 +1,6 @@
 <dec f='MOS/kernel/include/mos/printk.h' l='33' type='2'/>
 <use f='MOS/kernel/include/mos/printk.h' l='35'/>
-<use f='MOS/arch/x86/acpi/acpi.c' l='153' macro='1' u='r' c='find_acpi_rsdp'/>
+<use f='MOS/arch/x86/acpi/acpi.c' l='152' macro='1' u='r' c='find_acpi_rsdp'/>
 <use f='MOS/arch/x86/cpu/smp.c' l='56' macro='1' u='r' c='ap_begin_exec'/>
 <use f='MOS/arch/x86/cpu/smp.c' l='104' macro='1' u='r' c='x86_smp_init'/>
 <use f='MOS/arch/x86/cpu/smp.c' l='130' macro='1' u='r' c='x86_smp_init'/>
@@ -24,7 +24,7 @@
 <use f='MOS/arch/x86/x86_platform.c' l='48' macro='1' u='r' c='x86_keyboard_handler'/>
 <use f='MOS/arch/x86/x86_platform.c' l='56' macro='1' u='r' c='do_backtrace'/>
 <use f='MOS/arch/x86/x86_platform.c' l='142' macro='1' u='r' c='x86_start_kernel'/>
-<use f='MOS/kernel/device/console.c' l='38' macro='1' u='r' c='console_register'/>
+<use f='MOS/kernel/device/console.c' l='37' macro='1' u='r' c='console_register'/>
 <use f='MOS/kernel/filesystem/mount.c' l='40' macro='1' u='r' c='kmount'/>
 <use f='MOS/kernel/kernel_init.c' l='25' macro='1' u='r' c='mount_initrd'/>
 <use f='MOS/kernel/kernel_init.c' l='31' macro='1' u='r' c='mount_initrd'/>

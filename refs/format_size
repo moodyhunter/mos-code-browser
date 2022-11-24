@@ -1,4 +1,4 @@
-<dec f='MOS/lib/include/lib/stdlib.h' l='15' type='void format_size(char * buf, size_t buf_size, u64 size)'/>
+<dec f='MOS/lib/include/lib/stdlib.h' l='22' type='void format_size(char * buf, size_t buf_size, u64 size)'/>
 <use f='MOS/arch/x86/mm/mm.c' l='41' u='c' c='x86_mem_init'/>
 <use f='MOS/arch/x86/mm/mm.c' l='52' u='c' c='x86_mem_init'/>
 <use f='MOS/arch/x86/mm/mm.c' l='78' u='c' c='x86_mem_init'/>

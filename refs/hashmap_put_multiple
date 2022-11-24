@@ -1,3 +1,3 @@
-<dec f='MOS/tests/hashmap/test_hashmap.c' l='65' type='void hashmap_put_multiple(mos_test_result_t * , _Bool * , _Bool * )'/>
-<use f='MOS/tests/hashmap/test_hashmap.c' l='65' u='c' c='__mos_test_wrapped_test_hashmap_put_multiple'/>
-<def f='MOS/tests/hashmap/test_hashmap.c' l='65' ll='100' macro='1' type='void hashmap_put_multiple(mos_test_result_t * _MT_result, _Bool * _mt_test_skipped, _Bool * _mt_loop_leave)'/>
+<dec f='MOS/tests/hashmap/test_hashmap.c' l='66' type='void hashmap_put_multiple(mos_test_result_t * , _Bool * , _Bool * )'/>
+<use f='MOS/tests/hashmap/test_hashmap.c' l='66' u='c' c='__mos_test_wrapped_test_hashmap_put_multiple'/>
+<def f='MOS/tests/hashmap/test_hashmap.c' l='66' ll='101' macro='1' type='void hashmap_put_multiple(mos_test_result_t * _MT_result, _Bool * _mt_test_skipped, _Bool * _mt_loop_leave)'/>

@@ -1,2 +1,2 @@
-<def f='MOS/tests/hashmap/test_hashmap.c' l='175' ll='182' macro='1' type='_Bool test_foreach_stop_at_quux(const void * key, void * value)'/>
-<use f='MOS/tests/hashmap/test_hashmap.c' l='209' u='r' c='hashmap_foreach_function'/>
+<def f='MOS/tests/hashmap/test_hashmap.c' l='176' ll='183' macro='1' type='_Bool test_foreach_stop_at_quux(const void * key, void * value)'/>
+<use f='MOS/tests/hashmap/test_hashmap.c' l='210' u='r' c='hashmap_foreach_function'/>

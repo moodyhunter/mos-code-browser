@@ -1,4 +1,4 @@
-<def f='MOS/lib/include/lib/structures/ring_buffer.h' l='45' ll='48' macro='1' type='size_t ring_buffer_push_back_byte(ring_buffer_t * buffer, u8 byte)'/>
+<def f='MOS/lib/include/lib/structures/ring_buffer.h' l='51' ll='54' macro='1' type='size_t ring_buffer_push_back_byte(ring_buffer_t * buffer, u8 byte)'/>
 <use f='MOS/tests/ring_buffer/test_ring_buffer.c' l='29' u='c' c='ringbuffer_put_and_get'/>
 <use f='MOS/tests/ring_buffer/test_ring_buffer.c' l='35' u='c' c='ringbuffer_put_and_get'/>
 <use f='MOS/tests/ring_buffer/test_ring_buffer.c' l='41' u='c' c='ringbuffer_put_and_get'/>

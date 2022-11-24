@@ -1,4 +1,4 @@
-<dec f='MOS/lib/include/lib/string.h' l='13' type='void * memset(void * s, int c, size_t n)'/>
+<dec f='MOS/lib/include/lib/string.h' l='20' type='void * memset(void * s, int c, size_t n)'/>
 <use f='MOS/arch/x86/devices/text_mode_console.c' l='36' u='c' c='screen_scroll'/>
 <use f='MOS/arch/x86/gdt/gdt.c' l='63' u='c' c='x86_gdt_init'/>
 <use f='MOS/arch/x86/mm/paging.c' l='33' u='c' c='x86_mm_prepare_paging'/>
@@ -9,7 +9,7 @@
 <use f='MOS/kernel/tasks/process.c' l='78' u='c' c='process_init'/>
 <use f='MOS/kernel/tasks/thread.c' l='55' u='c' c='thread_init'/>
 <def f='MOS/lib/string.c' l='85' ll='91' type='void * memset(void * s, int c, size_t n)'/>
-<use f='MOS/lib/structures/hashmap.c' l='26' u='c' c='hashmap_init'/>
+<use f='MOS/lib/structures/hashmap.c' l='28' u='c' c='hashmap_init'/>
 <use f='MOS/lib/structures/stack.c' l='20' u='c' c='stack_deinit'/>
 <use f='MOS/tests/kmalloc/test_kmalloc.c' l='11' u='c' c='kmalloc_single'/>
 <use f='MOS/tests/kmalloc/test_kmalloc.c' l='23' u='c' c='kmalloc_stress'/>

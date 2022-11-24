@@ -21,7 +21,7 @@
 <tr><th id="7">7</th><td></td></tr>
 <tr><th id="8">8</th><td><em>void</em> <dfn class="decl def fn" id="printf" title='printf' data-ref="printf" data-ref-filename="printf">printf</dfn>(<em>const</em> <em>char</em> *<dfn class="local col1 decl" id="51fmt" title='fmt' data-type='const char *' data-ref="51fmt" data-ref-filename="51fmt">fmt</dfn>, ...)</td></tr>
 <tr><th id="9">9</th><td>{</td></tr>
-<tr><th id="10">10</th><td>    <em>char</em> <dfn class="local col2 decl" id="52buf" title='buf' data-type='char[4096]' data-ref="52buf" data-ref-filename="52buf">buf</dfn>[<var>4096</var>];</td></tr>
+<tr><th id="10">10</th><td>    <em>char</em> <dfn class="local col2 decl" id="52buf" title='buf' data-type='char [4096]' data-ref="52buf" data-ref-filename="52buf">buf</dfn>[<var>4096</var>];</td></tr>
 <tr><th id="11">11</th><td>    <span class='typedef' title='va_list' data-type='__builtin_va_list' data-ref="va_list" data-ref-filename="va_list">va_list</span> <dfn class="local col3 decl" id="53args" title='args' data-type='va_list' data-ref="53args" data-ref-filename="53args">args</dfn>;</td></tr>
 <tr><th id="12">12</th><td>    <span class="macro" title="__builtin_va_start(args, fmt)" data-ref="_M/va_start">va_start</span>(<a class="local col3 ref" href="#53args" title='args' data-ref="53args" data-ref-filename="53args">args</a>, <a class="local col1 ref" href="#51fmt" title='fmt' data-ref="51fmt" data-ref-filename="51fmt">fmt</a>);</td></tr>
 <tr><th id="13">13</th><td>    <a class="ref fn" href="../../lib/include/lib/stdio.h.html#vsprintf" title='vsprintf' data-ref="vsprintf" data-ref-filename="vsprintf">vsprintf</a>(<a class="local col2 ref" href="#52buf" title='buf' data-ref="52buf" data-ref-filename="52buf">buf</a>, <a class="local col1 ref" href="#51fmt" title='fmt' data-ref="51fmt" data-ref-filename="51fmt">fmt</a>, <a class="local col3 ref" href="#53args" title='args' data-ref="53args" data-ref-filename="53args">args</a>);</td></tr>
@@ -29,7 +29,7 @@
 <tr><th id="15">15</th><td>    <a class="ref fn" href="../../build/include/mos/syscall/usermode.h.html#syscall_io_write" title='syscall_io_write' data-ref="syscall_io_write" data-ref-filename="syscall_io_write">syscall_io_write</a>(<a class="macro" href="../include/libuserspace.h.html#6" title="1" data-ref="_M/stdout">stdout</a>, <a class="local col2 ref" href="#52buf" title='buf' data-ref="52buf" data-ref-filename="52buf">buf</a>, <a class="ref fn" href="../include/libuserspace.h.html#strlen" title='strlen' data-ref="strlen" data-ref-filename="strlen">strlen</a>(<a class="local col2 ref" href="#52buf" title='buf' data-ref="52buf" data-ref-filename="52buf">buf</a>), <var>0</var>);</td></tr>
 <tr><th id="16">16</th><td>}</td></tr>
 <tr><th id="17">17</th><td></td></tr>
-<tr><th id="18">18</th><td><em>static</em> <em>char</em> <dfn class="tu decl def" id="buf" title='buf' data-type='char[4096]' data-ref="buf" data-ref-filename="buf">buf</dfn>[<var>4</var> <a class="macro" href="../../kernel/include/mos/constants.h.html#22" title="* 1024 * 1" data-ref="_M/KB">KB</a>] = { <var>0</var> };</td></tr>
+<tr><th id="18">18</th><td><em>static</em> <em>char</em> <dfn class="tu decl def" id="buf" title='buf' data-type='char [4096]' data-ref="buf" data-ref-filename="buf">buf</dfn>[<var>4</var> <a class="macro" href="../../kernel/include/mos/constants.h.html#22" title="* 1024 * 1" data-ref="_M/KB">KB</a>] = { <var>0</var> };</td></tr>
 <tr><th id="19">19</th><td></td></tr>
 <tr><th id="20">20</th><td><em>void</em> <dfn class="decl def fn" id="thread_work" title='thread_work' data-ref="thread_work" data-ref-filename="thread_work">thread_work</dfn>(<em>void</em> *<dfn class="local col4 decl" id="54arg" title='arg' data-type='void *' data-ref="54arg" data-ref-filename="54arg">arg</dfn>)</td></tr>
 <tr><th id="21">21</th><td>{</td></tr>
@@ -56,7 +56,7 @@
 <tr><th id="42">42</th><td>        <a class="ref fn" href="../../build/include/mos/syscall/usermode.h.html#syscall_io_close" title='syscall_io_close' data-ref="syscall_io_close" data-ref-filename="syscall_io_close">syscall_io_close</a>(<a class="local col7 ref" href="#57fd" title='fd' data-ref="57fd" data-ref-filename="57fd">fd</a>);</td></tr>
 <tr><th id="43">43</th><td>    }</td></tr>
 <tr><th id="44">44</th><td></td></tr>
-<tr><th id="45">45</th><td>    <em>char</em> <dfn class="local col9 decl" id="59buf" title='buf' data-type='char[256]' data-ref="59buf" data-ref-filename="59buf">buf</dfn>[<var>256</var>] = { <var>0</var> };</td></tr>
+<tr><th id="45">45</th><td>    <em>char</em> <dfn class="local col9 decl" id="59buf" title='buf' data-type='char [256]' data-ref="59buf" data-ref-filename="59buf">buf</dfn>[<var>256</var>] = { <var>0</var> };</td></tr>
 <tr><th id="46">46</th><td></td></tr>
 <tr><th id="47">47</th><td>    <em>long</em> <dfn class="local col0 decl" id="60read" title='read' data-type='long' data-ref="60read" data-ref-filename="60read">read</dfn> = <a class="ref fn" href="../../build/include/mos/syscall/usermode.h.html#syscall_io_read" title='syscall_io_read' data-ref="syscall_io_read" data-ref-filename="syscall_io_read">syscall_io_read</a>(<a class="macro" href="../include/libuserspace.h.html#5" title="0" data-ref="_M/stdin">stdin</a>, <a class="local col9 ref" href="#59buf" title='buf' data-ref="59buf" data-ref-filename="59buf">buf</a>, <var>256</var>, <var>0</var>);</td></tr>
 <tr><th id="48">48</th><td>    <b>if</b> (<a class="local col0 ref" href="#60read" title='read' data-ref="60read" data-ref-filename="60read">read</a> &gt; <var>0</var>)</td></tr>
@@ -99,6 +99,6 @@
 <tr><th id="85">85</th><td>}</td></tr>
 <tr><th id="86">86</th><td></td></tr>
 </table><hr/><p id='footer'>
-Generated on <em>2022-Nov-23</em> from project MOS<br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
+Generated on <em>2022-Nov-24</em> from project MOS<br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
 <br/>Generator usage only permitted with license.</p>
 </div></body></html>

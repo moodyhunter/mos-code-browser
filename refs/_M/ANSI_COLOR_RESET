@@ -1,2 +1,2 @@
-<dec f='MOS/lib/include/lib/ansi_colors.h' l='40'/>
+<dec f='MOS/lib/include/lib/ansi_colors.h' l='24'/>
 <use f='MOS/arch/x86/devices/serial_console.c' l='11' u='c'/>

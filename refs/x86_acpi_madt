@@ -1,8 +1,8 @@
 <dec f='MOS/arch/x86/include/mos/x86/acpi/acpi.h' l='9' type='acpi_madt_t *'/>
-<def f='MOS/arch/x86/acpi/acpi.c' l='18' type='acpi_madt_t *'/>
-<use f='MOS/arch/x86/acpi/acpi.c' l='61' u='w' c='x86_acpi_init'/>
-<use f='MOS/arch/x86/acpi/acpi.c' l='62' u='r' c='x86_acpi_init'/>
-<use f='MOS/arch/x86/acpi/acpi.c' l='80' u='r' c='x86_acpi_init'/>
-<use f='MOS/arch/x86/acpi/acpi.c' l='83' u='r' c='x86_acpi_init'/>
+<def f='MOS/arch/x86/acpi/acpi.c' l='17' type='acpi_madt_t *'/>
+<use f='MOS/arch/x86/acpi/acpi.c' l='60' u='w' c='x86_acpi_init'/>
+<use f='MOS/arch/x86/acpi/acpi.c' l='61' u='r' c='x86_acpi_init'/>
+<use f='MOS/arch/x86/acpi/acpi.c' l='79' u='r' c='x86_acpi_init'/>
+<use f='MOS/arch/x86/acpi/acpi.c' l='82' u='r' c='x86_acpi_init'/>
 <use f='MOS/arch/x86/cpu/smp.c' l='119' u='r' c='x86_smp_init'/>
 <use f='MOS/arch/x86/interrupt/apic.c' l='104' u='r' c='apic_enable'/>

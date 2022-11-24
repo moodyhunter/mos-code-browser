@@ -1,6 +1,6 @@
-<dec f='MOS/lib/include/lib/structures/stack.h' l='20' type='void stack_push(downwards_stack_t * stack, void * data, size_t size)'/>
-<use f='MOS/arch/x86/tasks/context.c' l='30' u='c' c='x86_setup_thread_context'/>
-<use f='MOS/arch/x86/tasks/context.c' l='32' u='c' c='x86_setup_thread_context'/>
+<dec f='MOS/lib/include/lib/structures/stack.h' l='24' type='void stack_push(downwards_stack_t * stack, void * data, size_t size)'/>
+<use f='MOS/arch/x86/tasks/context.c' l='29' u='c' c='x86_setup_thread_context'/>
+<use f='MOS/arch/x86/tasks/context.c' l='31' u='c' c='x86_setup_thread_context'/>
 <def f='MOS/lib/structures/stack.c' l='36' ll='47' type='void stack_push(downwards_stack_t * stack, void * data, size_t size)'/>
 <use f='MOS/tests/downwards_stack/test_downwards_stack.c' l='34' u='c' c='stack_push_pop_stack'/>
 <use f='MOS/tests/downwards_stack/test_downwards_stack.c' l='40' u='c' c='stack_push_pop_stack'/>

@@ -1,11 +1,11 @@
-<dec f='MOS/lib/include/lib/containers.h' l='29'/>
-<doc f='MOS/lib/include/lib/containers.h' l='28'>// clang-format off</doc>
-<use f='MOS/kernel/device/console.c' l='23' u='c'/>
+<dec f='MOS/lib/include/lib/structures/list.h' l='28'/>
+<doc f='MOS/lib/include/lib/structures/list.h' l='27'>// clang-format off</doc>
+<use f='MOS/kernel/device/console.c' l='22' u='c'/>
 <use f='MOS/kernel/panic.c' l='17' u='c'/>
-<use f='MOS/tests/linked_list/test_linked_list.c' l='24' u='c'/>
-<use f='MOS/tests/linked_list/test_linked_list.c' l='41' u='c'/>
-<use f='MOS/tests/linked_list/test_linked_list.c' l='73' u='c'/>
-<use f='MOS/tests/linked_list/test_linked_list.c' l='104' u='c'/>
-<use f='MOS/tests/linked_list/test_linked_list.c' l='146' u='c'/>
-<use f='MOS/tests/linked_list/test_linked_list.c' l='175' u='c'/>
-<use f='MOS/tests/linked_list/test_linked_list.c' l='188' u='c'/>
+<use f='MOS/tests/linked_list/test_linked_list.c' l='23' u='c'/>
+<use f='MOS/tests/linked_list/test_linked_list.c' l='40' u='c'/>
+<use f='MOS/tests/linked_list/test_linked_list.c' l='72' u='c'/>
+<use f='MOS/tests/linked_list/test_linked_list.c' l='103' u='c'/>
+<use f='MOS/tests/linked_list/test_linked_list.c' l='145' u='c'/>
+<use f='MOS/tests/linked_list/test_linked_list.c' l='174' u='c'/>
+<use f='MOS/tests/linked_list/test_linked_list.c' l='187' u='c'/>

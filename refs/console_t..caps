@@ -4,10 +4,10 @@
 <use f='MOS/arch/x86/devices/serial_console.c' l='18' u='r' c='serial_console_setup'/>
 <use f='MOS/arch/x86/devices/text_mode_console.c' l='167' u='w'/>
 <use f='MOS/arch/x86/x86_platform.c' l='31' u='w'/>
-<use f='MOS/kernel/device/console.c' l='21' u='w'/>
-<use f='MOS/kernel/device/console.c' l='31' u='r' c='console_register'/>
-<use f='MOS/kernel/device/console.c' l='34' u='r' c='console_register'/>
-<use f='MOS/kernel/device/console.c' l='70' u='r' c='console_read'/>
+<use f='MOS/kernel/device/console.c' l='20' u='w'/>
+<use f='MOS/kernel/device/console.c' l='30' u='r' c='console_register'/>
+<use f='MOS/kernel/device/console.c' l='33' u='r' c='console_register'/>
+<use f='MOS/kernel/device/console.c' l='69' u='r' c='console_read'/>
 <use f='MOS/kernel/printk.c' l='78' u='r' c='print_to_console'/>
 <use f='MOS/kernel/printk.c' l='86' u='r' c='print_to_console'/>
 <use f='MOS/tests/test_engine.c' l='22' u='r' c='for_each_console_print_with_color'/>

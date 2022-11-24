@@ -1,4 +1,4 @@
-<dec f='MOS/lib/include/lib/string.h' l='12' type='void * memmove(void * dest, const void * src, size_t n)'/>
+<dec f='MOS/lib/include/lib/string.h' l='19' type='void * memmove(void * dest, const void * src, size_t n)'/>
 <use f='MOS/arch/x86/devices/text_mode_console.c' l='35' u='c' c='screen_scroll'/>
 <use f='MOS/arch/x86/mm/pmem_freelist.c' l='254' u='c' c='pmem_freelist_remove_region'/>
 <def f='MOS/lib/string.c' l='62' ll='83' type='void * memmove(void * dest, const void * source, size_t length)'/>

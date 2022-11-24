@@ -8,7 +8,6 @@ strncmp|strncmp
 strncpy|strncpy
 strntoll|strntoll
 strtoll|strtoll
-string_hash|string_hash
 stack_deinit|stack_deinit
 stack_grow|stack_grow
 stack_init|stack_init

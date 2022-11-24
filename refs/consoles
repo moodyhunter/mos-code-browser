@@ -1,12 +1,12 @@
 <dec f='MOS/kernel/include/mos/device/console.h' l='72' type='list_node_t'/>
-<use f='MOS/kernel/device/console.c' l='23' u='a'/>
-<use f='MOS/kernel/device/console.c' l='23' u='a'/>
-<def f='MOS/kernel/device/console.c' l='27' type='list_node_t'/>
-<use f='MOS/kernel/device/console.c' l='37' u='a' c='console_register'/>
-<use f='MOS/kernel/device/console.c' l='50' u='m' c='console_get'/>
-<use f='MOS/kernel/device/console.c' l='50' u='a' c='console_get'/>
-<use f='MOS/kernel/device/console.c' l='60' u='m' c='console_get_by_prefix'/>
-<use f='MOS/kernel/device/console.c' l='60' u='a' c='console_get_by_prefix'/>
+<use f='MOS/kernel/device/console.c' l='22' u='a'/>
+<use f='MOS/kernel/device/console.c' l='22' u='a'/>
+<def f='MOS/kernel/device/console.c' l='26' type='list_node_t'/>
+<use f='MOS/kernel/device/console.c' l='36' u='a' c='console_register'/>
+<use f='MOS/kernel/device/console.c' l='49' u='m' c='console_get'/>
+<use f='MOS/kernel/device/console.c' l='49' u='a' c='console_get'/>
+<use f='MOS/kernel/device/console.c' l='59' u='m' c='console_get_by_prefix'/>
+<use f='MOS/kernel/device/console.c' l='59' u='a' c='console_get_by_prefix'/>
 <use f='MOS/kernel/printk.c' l='107' u='m' c='lprintk'/>
 <use f='MOS/kernel/printk.c' l='107' u='a' c='lprintk'/>
 <use f='MOS/tests/test_engine.c' l='19' u='m' c='for_each_console_print_with_color'/>

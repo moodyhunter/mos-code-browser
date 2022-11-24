@@ -1,2 +1,2 @@
 <dec f='MOS/kernel/include/mos/device/console.h' l='32' type='0'/>
-<use f='MOS/kernel/device/console.c' l='21' u='r'/>
+<use f='MOS/kernel/device/console.c' l='20' u='r'/>

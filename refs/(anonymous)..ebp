@@ -6,4 +6,4 @@
 <use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='117' u='w' c='x86_handle_interrupt'/>
 <use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='117' u='r' c='x86_handle_interrupt'/>
 <offset>64</offset>
-<use f='MOS/arch/x86/tasks/context.c' l='27' u='w' c='x86_setup_thread_context'/>
+<use f='MOS/arch/x86/tasks/context.c' l='26' u='w' c='x86_setup_thread_context'/>

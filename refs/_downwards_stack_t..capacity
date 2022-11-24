@@ -1,4 +1,4 @@
-<dec f='MOS/lib/include/lib/structures/stack.h' l='13' type='size_t'/>
+<dec f='MOS/lib/include/lib/structures/stack.h' l='17' type='size_t'/>
 <offset>128</offset>
 <use f='MOS/lib/structures/stack.c' l='15' u='w' c='stack_init'/>
 <use f='MOS/lib/structures/stack.c' l='26' u='r' c='stack_grow'/>

@@ -1,6 +1,6 @@
-<dec f='MOS/lib/include/lib/structures/ring_buffer.h' l='11' type='size_t'/>
-<use f='MOS/lib/include/lib/structures/ring_buffer.h' l='30' u='r' c='ring_buffer_is_empty'/>
-<use f='MOS/lib/include/lib/structures/ring_buffer.h' l='35' u='r' c='ring_buffer_is_full'/>
+<dec f='MOS/lib/include/lib/structures/ring_buffer.h' l='17' type='size_t'/>
+<use f='MOS/lib/include/lib/structures/ring_buffer.h' l='36' u='r' c='ring_buffer_is_empty'/>
+<use f='MOS/lib/include/lib/structures/ring_buffer.h' l='41' u='r' c='ring_buffer_is_full'/>
 <use f='MOS/lib/structures/ring_buffer.c' l='10' u='r' c='ring_buffer_get'/>
 <use f='MOS/lib/structures/ring_buffer.c' l='28' u='w' c='ring_buffer_create'/>
 <use f='MOS/lib/structures/ring_buffer.c' l='42' u='r' c='ring_buffer_resize'/>
