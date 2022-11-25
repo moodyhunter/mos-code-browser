@@ -1,4 +1,4 @@
 <dec f='MOS/lib/include/lib/structures/tree.h' l='33' type='const tree_node_t * tree_find_common_prefix(const tree_node_t * node1, const tree_node_t * node2)'/>
 <use f='MOS/kernel/filesystem/pathutils.c' l='143' u='c' c='path_verify_prefix'/>
-<def f='MOS/lib/structures/tree.c' l='49' ll='64' type='const tree_node_t * tree_find_common_prefix(const tree_node_t * node1, const tree_node_t * node2)'/>
-<use f='MOS/lib/structures/tree.c' l='63' u='c' c='tree_find_common_prefix'/>
+<def f='MOS/lib/structures/tree.c' l='48' ll='63' type='const tree_node_t * tree_find_common_prefix(const tree_node_t * node1, const tree_node_t * node2)'/>
+<use f='MOS/lib/structures/tree.c' l='62' u='c' c='tree_find_common_prefix'/>

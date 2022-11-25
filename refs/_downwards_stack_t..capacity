@@ -1,8 +1,8 @@
 <dec f='MOS/lib/include/lib/structures/stack.h' l='17' type='size_t'/>
 <offset>128</offset>
-<use f='MOS/lib/structures/stack.c' l='15' u='w' c='stack_init'/>
-<use f='MOS/lib/structures/stack.c' l='26' u='r' c='stack_grow'/>
-<use f='MOS/lib/structures/stack.c' l='39' u='r' c='stack_push'/>
+<use f='MOS/lib/structures/stack.c' l='14' u='w' c='stack_init'/>
+<use f='MOS/lib/structures/stack.c' l='25' u='r' c='stack_grow'/>
+<use f='MOS/lib/structures/stack.c' l='38' u='r' c='stack_push'/>
 <use f='MOS/tests/downwards_stack/test_downwards_stack.c' l='13' u='r' c='stack_init_deinit'/>
 <use f='MOS/tests/downwards_stack/test_downwards_stack.c' l='13' u='r' c='stack_init_deinit'/>
 <use f='MOS/tests/downwards_stack/test_downwards_stack.c' l='18' u='r' c='stack_init_deinit'/>

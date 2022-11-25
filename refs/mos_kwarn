@@ -79,6 +79,6 @@
 <use f='MOS/lib/stdio_impl.c' l='402' macro='1' u='c' c='printf_cs'/>
 <use f='MOS/lib/stdio_impl.c' l='552' macro='1' u='c' c='vsnprintf'/>
 <use f='MOS/lib/stdio_impl.c' l='557' macro='1' u='c' c='vsnprintf'/>
-<use f='MOS/lib/structures/stack.c' l='28' macro='1' u='c' c='stack_grow'/>
-<use f='MOS/lib/structures/stack.c' l='41' macro='1' u='c' c='stack_push'/>
-<use f='MOS/lib/structures/stack.c' l='54' macro='1' u='c' c='stack_pop'/>
+<use f='MOS/lib/structures/stack.c' l='27' macro='1' u='c' c='stack_grow'/>
+<use f='MOS/lib/structures/stack.c' l='40' macro='1' u='c' c='stack_push'/>
+<use f='MOS/lib/structures/stack.c' l='53' macro='1' u='c' c='stack_pop'/>

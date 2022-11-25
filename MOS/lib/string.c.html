@@ -15,7 +15,7 @@
 <tr><th id="2">2</th><td></td></tr>
 <tr><th id="3">3</th><td><u>#include <a href="include/lib/string.h.html">"lib/string.h"</a></u></td></tr>
 <tr><th id="4">4</th><td></td></tr>
-<tr><th id="5">5</th><td><u>#include <a href="../kernel/include/mos/mm/kmalloc.h.html">"mos/mm/kmalloc.h"</a></u></td></tr>
+<tr><th id="5">5</th><td><u>#include <a href="include/lib/mos_lib.h.html">"lib/mos_lib.h"</a></u></td></tr>
 <tr><th id="6">6</th><td></td></tr>
 <tr><th id="7">7</th><td><span class='typedef' title='size_t' data-type='unsigned long' data-ref="size_t" data-ref-filename="size_t">size_t</span> <dfn class="decl def fn" id="strlen" title='strlen' data-ref="strlen" data-ref-filename="strlen">strlen</dfn>(<em>const</em> <em>char</em> *<dfn class="local col1 decl" id="1str" title='str' data-type='const char *' data-ref="1str" data-ref-filename="1str">str</dfn>)</td></tr>
 <tr><th id="8">8</th><td>{</td></tr>
@@ -158,7 +158,7 @@
 <tr><th id="145">145</th><td></td></tr>
 <tr><th id="146">146</th><td><em>const</em> <em>char</em> *<dfn class="decl def fn" id="duplicate_string" title='duplicate_string' data-ref="duplicate_string" data-ref-filename="duplicate_string">duplicate_string</dfn>(<em>const</em> <em>char</em> *<dfn class="local col1 decl" id="41src" title='src' data-type='const char *' data-ref="41src" data-ref-filename="41src">src</dfn>, <span class='typedef' title='size_t' data-type='unsigned long' data-ref="size_t" data-ref-filename="size_t">size_t</span> <dfn class="local col2 decl" id="42len" title='len' data-type='size_t' data-ref="42len" data-ref-filename="42len">len</dfn>)</td></tr>
 <tr><th id="147">147</th><td>{</td></tr>
-<tr><th id="148">148</th><td>    <em>char</em> *<dfn class="local col3 decl" id="43dst" title='dst' data-type='char *' data-ref="43dst" data-ref-filename="43dst">dst</dfn> = <a class="ref fn" href="../kernel/include/mos/mm/kmalloc.h.html#kmalloc" title='kmalloc' data-ref="kmalloc" data-ref-filename="kmalloc">kmalloc</a>(<a class="local col2 ref" href="#42len" title='len' data-ref="42len" data-ref-filename="42len">len</a> + <var>1</var>);</td></tr>
+<tr><th id="148">148</th><td>    <em>char</em> *<dfn class="local col3 decl" id="43dst" title='dst' data-type='char *' data-ref="43dst" data-ref-filename="43dst">dst</dfn> = <a class="ref fn" href="include/lib/mos_lib.h.html#mos_lib_malloc" title='mos_lib_malloc' data-ref="mos_lib_malloc" data-ref-filename="mos_lib_malloc">mos_lib_malloc</a>(<a class="local col2 ref" href="#42len" title='len' data-ref="42len" data-ref-filename="42len">len</a> + <var>1</var>);</td></tr>
 <tr><th id="149">149</th><td>    <a class="ref fn" href="#strncpy" title='strncpy' data-ref="strncpy" data-ref-filename="strncpy">strncpy</a>(<a class="local col3 ref" href="#43dst" title='dst' data-ref="43dst" data-ref-filename="43dst">dst</a>, <a class="local col1 ref" href="#41src" title='src' data-ref="41src" data-ref-filename="41src">src</a>, <a class="local col2 ref" href="#42len" title='len' data-ref="42len" data-ref-filename="42len">len</a>);</td></tr>
 <tr><th id="150">150</th><td>    <a class="local col3 ref" href="#43dst" title='dst' data-ref="43dst" data-ref-filename="43dst">dst</a>[<a class="local col2 ref" href="#42len" title='len' data-ref="42len" data-ref-filename="42len">len</a>] = <kbd>'\0'</kbd>;</td></tr>
 <tr><th id="151">151</th><td>    <b>return</b> <a class="local col3 ref" href="#43dst" title='dst' data-ref="43dst" data-ref-filename="43dst">dst</a>;</td></tr>

@@ -24,46 +24,61 @@
 <tr><th id="11">11</th><td><i class="doc"> */</i></td></tr>
 <tr><th id="12">12</th><td></td></tr>
 <tr><th id="13">13</th><td><u>#<span data-ppcond="13">ifdef</span> <span class="macro" data-ref="_M/__MOS_KERNEL__">__MOS_KERNEL__</span> // ! Kernel</u></td></tr>
-<tr><th id="14">14</th><td><u>#include <a href="../../../kernel/include/mos/printk.h.html">"mos/printk.h"</a></u></td></tr>
-<tr><th id="15">15</th><td><u>#define <dfn class="macro" id="_M/MOS_LIB_ASSERT" data-ref="_M/MOS_LIB_ASSERT">MOS_LIB_ASSERT</dfn>(cond)             MOS_ASSERT(cond)</u></td></tr>
-<tr><th id="16">16</th><td><u>#define <dfn class="macro" id="_M/MOS_LIB_ASSERT_X" data-ref="_M/MOS_LIB_ASSERT_X">MOS_LIB_ASSERT_X</dfn>(cond, msg, ...) MOS_ASSERT_X(cond, msg, ##__VA_ARGS__)</u></td></tr>
-<tr><th id="17">17</th><td><u>#define <dfn class="macro" id="_M/MOS_LIB_UNIMPLEMENTED" data-ref="_M/MOS_LIB_UNIMPLEMENTED">MOS_LIB_UNIMPLEMENTED</dfn>(content)   MOS_UNIMPLEMENTED(content)</u></td></tr>
-<tr><th id="18">18</th><td><u>#define <dfn class="macro" id="_M/MOS_LIB_UNREACHABLE" data-ref="_M/MOS_LIB_UNREACHABLE">MOS_LIB_UNREACHABLE</dfn>()            MOS_UNREACHABLE()</u></td></tr>
-<tr><th id="19">19</th><td><u>#<span data-ppcond="13">else</span> // ! Userspace</u></td></tr>
-<tr><th id="20">20</th><td><u>#define MOS_LIB_ASSERT(cond) MOS_UNUSED(cond)</u></td></tr>
-<tr><th id="21">21</th><td><u>#define MOS_LIB_ASSERT_X(cond, msg, ...)                                                                                                                                 \</u></td></tr>
-<tr><th id="22">22</th><td><u>    do                                                                                                                                                                   \</u></td></tr>
-<tr><th id="23">23</th><td><u>    {                                                                                                                                                                    \</u></td></tr>
-<tr><th id="24">24</th><td><u>        /* Currently unimplemented */                                                                                                                                    \</u></td></tr>
-<tr><th id="25">25</th><td><u>        MOS_UNUSED(cond);                                                                                                                                                \</u></td></tr>
-<tr><th id="26">26</th><td><u>        MOS_UNUSED(msg);                                                                                                                                                 \</u></td></tr>
-<tr><th id="27">27</th><td><u>    } while (0)</u></td></tr>
-<tr><th id="28">28</th><td><u>#define MOS_LIB_UNIMPLEMENTED(content) ; /* unimplemented */</u></td></tr>
-<tr><th id="29">29</th><td><u>#define MOS_LIB_UNREACHABLE()          ; /* unimplemented */</u></td></tr>
-<tr><th id="30">30</th><td><u>#define mos_warn(...)                  ; /* unimplemented */</u></td></tr>
-<tr><th id="31">31</th><td><u>#define mos_panic(...)                 ; /* unimplemented */</u></td></tr>
-<tr><th id="32">32</th><td><b>inline</b> <em>void</em> *liballoc_calloc(size_t nobj, size_t size)</td></tr>
+<tr><th id="14">14</th><td><u>#include <a href="../../../kernel/include/mos/mm/kmalloc.h.html">"mos/mm/kmalloc.h"</a></u></td></tr>
+<tr><th id="15">15</th><td><u>#include <a href="../../../kernel/include/mos/printk.h.html">"mos/printk.h"</a></u></td></tr>
+<tr><th id="16">16</th><td><u>#define <dfn class="macro" id="_M/MOS_LIB_ASSERT" data-ref="_M/MOS_LIB_ASSERT">MOS_LIB_ASSERT</dfn>(cond)             MOS_ASSERT(cond)</u></td></tr>
+<tr><th id="17">17</th><td><u>#define <dfn class="macro" id="_M/MOS_LIB_ASSERT_X" data-ref="_M/MOS_LIB_ASSERT_X">MOS_LIB_ASSERT_X</dfn>(cond, msg, ...) MOS_ASSERT_X(cond, msg, ##__VA_ARGS__)</u></td></tr>
+<tr><th id="18">18</th><td><u>#define <dfn class="macro" id="_M/MOS_LIB_UNIMPLEMENTED" data-ref="_M/MOS_LIB_UNIMPLEMENTED">MOS_LIB_UNIMPLEMENTED</dfn>(content)   MOS_UNIMPLEMENTED(content)</u></td></tr>
+<tr><th id="19">19</th><td><u>#define <dfn class="macro" id="_M/MOS_LIB_UNREACHABLE" data-ref="_M/MOS_LIB_UNREACHABLE">MOS_LIB_UNREACHABLE</dfn>()            MOS_UNREACHABLE()</u></td></tr>
+<tr><th id="20">20</th><td><a class="macro" href="../../../kernel/include/mos/mos_global.h.html#25" title="__attribute__((__unused__)) static inline" data-ref="_M/should_inline">should_inline</a> <em>void</em> *<dfn class="decl def fn" id="mos_lib_malloc" title='mos_lib_malloc' data-ref="mos_lib_malloc" data-ref-filename="mos_lib_malloc">mos_lib_malloc</dfn>(<span class='typedef' title='size_t' data-type='unsigned long' data-ref="size_t" data-ref-filename="size_t">size_t</span> <dfn class="local col1 decl" id="1size" title='size' data-type='size_t' data-ref="1size" data-ref-filename="1size">size</dfn>)</td></tr>
+<tr><th id="21">21</th><td>{</td></tr>
+<tr><th id="22">22</th><td>    <b>return</b> <a class="ref fn" href="../../../kernel/include/mos/mm/kmalloc.h.html#kmalloc" title='kmalloc' data-ref="kmalloc" data-ref-filename="kmalloc">kmalloc</a>(<a class="local col1 ref" href="#1size" title='size' data-ref="1size" data-ref-filename="1size">size</a>);</td></tr>
+<tr><th id="23">23</th><td>}</td></tr>
+<tr><th id="24">24</th><td><a class="macro" href="../../../kernel/include/mos/mos_global.h.html#25" title="__attribute__((__unused__)) static inline" data-ref="_M/should_inline">should_inline</a> <em>void</em> <dfn class="decl def fn" id="mos_lib_free" title='mos_lib_free' data-ref="mos_lib_free" data-ref-filename="mos_lib_free">mos_lib_free</dfn>(<em>void</em> *<dfn class="local col2 decl" id="2ptr" title='ptr' data-type='void *' data-ref="2ptr" data-ref-filename="2ptr">ptr</dfn>)</td></tr>
+<tr><th id="25">25</th><td>{</td></tr>
+<tr><th id="26">26</th><td>    <a class="ref fn" href="../../../kernel/include/mos/mm/kmalloc.h.html#kfree" title='kfree' data-ref="kfree" data-ref-filename="kfree">kfree</a>(<a class="local col2 ref" href="#2ptr" title='ptr' data-ref="2ptr" data-ref-filename="2ptr">ptr</a>);</td></tr>
+<tr><th id="27">27</th><td>}</td></tr>
+<tr><th id="28">28</th><td><a class="macro" href="../../../kernel/include/mos/mos_global.h.html#25" title="__attribute__((__unused__)) static inline" data-ref="_M/should_inline">should_inline</a> <em>void</em> *<dfn class="decl def fn" id="mos_lib_realloc" title='mos_lib_realloc' data-ref="mos_lib_realloc" data-ref-filename="mos_lib_realloc">mos_lib_realloc</dfn>(<em>void</em> *<dfn class="local col3 decl" id="3ptr" title='ptr' data-type='void *' data-ref="3ptr" data-ref-filename="3ptr">ptr</dfn>, <span class='typedef' title='size_t' data-type='unsigned long' data-ref="size_t" data-ref-filename="size_t">size_t</span> <dfn class="local col4 decl" id="4size" title='size' data-type='size_t' data-ref="4size" data-ref-filename="4size">size</dfn>)</td></tr>
+<tr><th id="29">29</th><td>{</td></tr>
+<tr><th id="30">30</th><td>    <b>return</b> <a class="ref fn" href="../../../kernel/include/mos/mm/kmalloc.h.html#krealloc" title='krealloc' data-ref="krealloc" data-ref-filename="krealloc">krealloc</a>(<a class="local col3 ref" href="#3ptr" title='ptr' data-ref="3ptr" data-ref-filename="3ptr">ptr</a>, <a class="local col4 ref" href="#4size" title='size' data-ref="4size" data-ref-filename="4size">size</a>);</td></tr>
+<tr><th id="31">31</th><td>}</td></tr>
+<tr><th id="32">32</th><td><a class="macro" href="../../../kernel/include/mos/mos_global.h.html#25" title="__attribute__((__unused__)) static inline" data-ref="_M/should_inline">should_inline</a> <em>void</em> *<dfn class="decl def fn" id="mos_lib_calloc" title='mos_lib_calloc' data-ref="mos_lib_calloc" data-ref-filename="mos_lib_calloc">mos_lib_calloc</dfn>(<span class='typedef' title='size_t' data-type='unsigned long' data-ref="size_t" data-ref-filename="size_t">size_t</span> <dfn class="local col5 decl" id="5nmemb" title='nmemb' data-type='size_t' data-ref="5nmemb" data-ref-filename="5nmemb">nmemb</dfn>, <span class='typedef' title='size_t' data-type='unsigned long' data-ref="size_t" data-ref-filename="size_t">size_t</span> <dfn class="local col6 decl" id="6size" title='size' data-type='size_t' data-ref="6size" data-ref-filename="6size">size</dfn>)</td></tr>
 <tr><th id="33">33</th><td>{</td></tr>
-<tr><th id="34">34</th><td>    <i>/* unimplemented */</i></td></tr>
-<tr><th id="35">35</th><td>    (<em>void</em>) nobj;</td></tr>
-<tr><th id="36">36</th><td>    (<em>void</em>) size;</td></tr>
-<tr><th id="37">37</th><td>    <b>return</b> NULL;</td></tr>
-<tr><th id="38">38</th><td>}</td></tr>
-<tr><th id="39">39</th><td><b>inline</b> <em>void</em> *liballoc_malloc(size_t size)</td></tr>
-<tr><th id="40">40</th><td>{</td></tr>
-<tr><th id="41">41</th><td>    <i>/* unimplemented */</i></td></tr>
-<tr><th id="42">42</th><td>    (<em>void</em>) size;</td></tr>
-<tr><th id="43">43</th><td>    <b>return</b> (<em>void</em> *) <var>0</var>;</td></tr>
-<tr><th id="44">44</th><td>}</td></tr>
-<tr><th id="45">45</th><td><b>inline</b> <em>void</em> liballoc_free(<em>const</em> <em>void</em> *ptr)</td></tr>
-<tr><th id="46">46</th><td>{</td></tr>
-<tr><th id="47">47</th><td>    <i>/* unimplemented */</i></td></tr>
-<tr><th id="48">48</th><td>    (<em>void</em>) ptr;</td></tr>
-<tr><th id="49">49</th><td>}</td></tr>
-<tr><th id="50">50</th><td><u>#<span data-ppcond="13">endif</span></u></td></tr>
-<tr><th id="51">51</th><td></td></tr>
-<tr><th id="52">52</th><td><i class="doc">/** @} */</i></td></tr>
-<tr><th id="53">53</th><td></td></tr>
+<tr><th id="34">34</th><td>    <b>return</b> <a class="ref fn" href="../../../kernel/include/mos/mm/kmalloc.h.html#kcalloc" title='kcalloc' data-ref="kcalloc" data-ref-filename="kcalloc">kcalloc</a>(<a class="local col5 ref" href="#5nmemb" title='nmemb' data-ref="5nmemb" data-ref-filename="5nmemb">nmemb</a>, <a class="local col6 ref" href="#6size" title='size' data-ref="6size" data-ref-filename="6size">size</a>);</td></tr>
+<tr><th id="35">35</th><td>}</td></tr>
+<tr><th id="36">36</th><td><u>#<span data-ppcond="13">else</span> // ! Userspace</u></td></tr>
+<tr><th id="37">37</th><td><u>#define MOS_LIB_ASSERT(cond) MOS_UNUSED(cond)</u></td></tr>
+<tr><th id="38">38</th><td><u>#define MOS_LIB_ASSERT_X(cond, msg, ...)                                                                                                                                 \</u></td></tr>
+<tr><th id="39">39</th><td><u>    do                                                                                                                                                                   \</u></td></tr>
+<tr><th id="40">40</th><td><u>    {                                                                                                                                                                    \</u></td></tr>
+<tr><th id="41">41</th><td><u>        /* unimplemented */                                                                                                                                              \</u></td></tr>
+<tr><th id="42">42</th><td><u>        MOS_UNUSED(cond);                                                                                                                                                \</u></td></tr>
+<tr><th id="43">43</th><td><u>        MOS_UNUSED(msg);                                                                                                                                                 \</u></td></tr>
+<tr><th id="44">44</th><td><u>    } while (0)</u></td></tr>
+<tr><th id="45">45</th><td><u>#define MOS_LIB_UNIMPLEMENTED(content) ; /* unimplemented */</u></td></tr>
+<tr><th id="46">46</th><td><u>#define MOS_LIB_UNREACHABLE()          ; /* unimplemented */</u></td></tr>
+<tr><th id="47">47</th><td><u>#define mos_warn(...)                  ; /* unimplemented */</u></td></tr>
+<tr><th id="48">48</th><td><u>#define mos_panic(...)                 ; /* unimplemented */</u></td></tr>
+<tr><th id="49">49</th><td>should_inline <em>void</em> *mos_lib_malloc(size_t size)</td></tr>
+<tr><th id="50">50</th><td>{</td></tr>
+<tr><th id="51">51</th><td>    <b>return</b> NULL; <i>// unimplemented</i></td></tr>
+<tr><th id="52">52</th><td>}</td></tr>
+<tr><th id="53">53</th><td>should_inline <em>void</em> mos_lib_free(<em>void</em> *ptr)</td></tr>
+<tr><th id="54">54</th><td>{</td></tr>
+<tr><th id="55">55</th><td>    <i>// unimplemented</i></td></tr>
+<tr><th id="56">56</th><td>}</td></tr>
+<tr><th id="57">57</th><td>should_inline <em>void</em> *mos_lib_realloc(<em>void</em> *ptr, size_t size)</td></tr>
+<tr><th id="58">58</th><td>{</td></tr>
+<tr><th id="59">59</th><td>    <b>return</b> NULL; <i>// unimplemented</i></td></tr>
+<tr><th id="60">60</th><td>}</td></tr>
+<tr><th id="61">61</th><td>should_inline <em>void</em> *mos_lib_calloc(size_t nmemb, size_t size)</td></tr>
+<tr><th id="62">62</th><td>{</td></tr>
+<tr><th id="63">63</th><td>    <b>return</b> NULL; <i>// unimplemented</i></td></tr>
+<tr><th id="64">64</th><td>}</td></tr>
+<tr><th id="65">65</th><td><u>#<span data-ppcond="13">endif</span></u></td></tr>
+<tr><th id="66">66</th><td></td></tr>
+<tr><th id="67">67</th><td><i class="doc">/** @} */</i></td></tr>
+<tr><th id="68">68</th><td></td></tr>
 </table><hr/><p id='footer'>
 Generated while processing <a href='../../stdio_impl.c.html'>MOS/lib/stdio_impl.c</a><br/>Generated on <em>2022-Nov-25</em> from project MOS<br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
 <br/>Generator usage only permitted with license.</p>

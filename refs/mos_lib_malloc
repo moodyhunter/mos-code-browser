@@ -1,0 +1,6 @@
+<def f='MOS/lib/include/lib/mos_lib.h' l='20' ll='23' macro='1' type='void * mos_lib_malloc(size_t size)'/>
+<use f='MOS/lib/string.c' l='148' u='c' c='duplicate_string'/>
+<use f='MOS/lib/structures/hashmap.c' l='74' u='c' c='hashmap_put'/>
+<use f='MOS/lib/structures/ring_buffer.c' l='18' u='c' c='ring_buffer_create'/>
+<use f='MOS/lib/structures/ring_buffer.c' l='21' u='c' c='ring_buffer_create'/>
+<use f='MOS/lib/structures/ring_buffer.c' l='44' u='c' c='ring_buffer_resize'/>

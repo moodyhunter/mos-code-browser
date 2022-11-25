@@ -2,6 +2,6 @@
 <use f='MOS/kernel/tasks/thread.c' l='64' u='c' c='thread_new'/>
 <use f='MOS/kernel/tasks/thread.c' l='71' u='c' c='thread_new'/>
 <use f='MOS/kernel/tasks/thread.c' l='77' u='c' c='thread_new'/>
-<def f='MOS/lib/structures/stack.c' l='9' ll='16' type='void stack_init(downwards_stack_t * stack, void * mem_region_bottom, size_t size)'/>
+<def f='MOS/lib/structures/stack.c' l='8' ll='15' type='void stack_init(downwards_stack_t * stack, void * mem_region_bottom, size_t size)'/>
 <use f='MOS/tests/downwards_stack/test_downwards_stack.c' l='10' u='c' c='stack_init_deinit'/>
 <use f='MOS/tests/downwards_stack/test_downwards_stack.c' l='25' u='c' c='stack_push_pop_stack'/>

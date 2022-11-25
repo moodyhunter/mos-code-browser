@@ -1,8 +1,8 @@
 <dec f='MOS/lib/include/lib/structures/hashmap.h' l='25' type='hashmap_key_compare_t'/>
 <offset>320</offset>
-<use f='MOS/lib/structures/hashmap.c' l='32' u='w' c='hashmap_init'/>
-<use f='MOS/lib/structures/hashmap.c' l='66' u='r' c='hashmap_put'/>
-<use f='MOS/lib/structures/hashmap.c' l='91' u='r' c='hashmap_get'/>
-<use f='MOS/lib/structures/hashmap.c' l='108' u='r' c='hashmap_remove'/>
+<use f='MOS/lib/structures/hashmap.c' l='31' u='w' c='hashmap_init'/>
+<use f='MOS/lib/structures/hashmap.c' l='65' u='r' c='hashmap_put'/>
+<use f='MOS/lib/structures/hashmap.c' l='90' u='r' c='hashmap_get'/>
+<use f='MOS/lib/structures/hashmap.c' l='107' u='r' c='hashmap_remove'/>
 <use f='MOS/tests/hashmap/test_hashmap.c' l='18' u='r' c='hashmap_init_simple_macro'/>
 <use f='MOS/tests/hashmap/test_hashmap.c' l='18' u='r' c='hashmap_init_simple_macro'/>

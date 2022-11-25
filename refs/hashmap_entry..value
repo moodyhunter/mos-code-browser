@@ -1,8 +1,8 @@
-<dec f='MOS/lib/structures/hashmap.c' l='14' type='void *'/>
-<use f='MOS/lib/structures/hashmap.c' l='69' u='r' c='hashmap_put'/>
-<use f='MOS/lib/structures/hashmap.c' l='70' u='w' c='hashmap_put'/>
-<use f='MOS/lib/structures/hashmap.c' l='77' u='w' c='hashmap_put'/>
-<use f='MOS/lib/structures/hashmap.c' l='93' u='r' c='hashmap_get'/>
-<use f='MOS/lib/structures/hashmap.c' l='118' u='r' c='hashmap_remove'/>
-<use f='MOS/lib/structures/hashmap.c' l='137' u='r' c='hashmap_foreach'/>
+<dec f='MOS/lib/structures/hashmap.c' l='13' type='void *'/>
+<use f='MOS/lib/structures/hashmap.c' l='68' u='r' c='hashmap_put'/>
+<use f='MOS/lib/structures/hashmap.c' l='69' u='w' c='hashmap_put'/>
+<use f='MOS/lib/structures/hashmap.c' l='76' u='w' c='hashmap_put'/>
+<use f='MOS/lib/structures/hashmap.c' l='92' u='r' c='hashmap_get'/>
+<use f='MOS/lib/structures/hashmap.c' l='117' u='r' c='hashmap_remove'/>
+<use f='MOS/lib/structures/hashmap.c' l='136' u='r' c='hashmap_foreach'/>
 <offset>64</offset>
