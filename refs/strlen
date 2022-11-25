@@ -23,5 +23,4 @@
 <use f='MOS/lib/structures/hashmap_common.c' l='22' u='c' c='hashmap_hash_string'/>
 <use f='MOS/tests/test_engine.c' l='54' u='c' c='mos_test_engine_log'/>
 <use f='MOS/tests/test_engine.c' l='101' u='c' c='mos_test_engine_run_tests'/>
-<dec f='MOS/userspace/include/libuserspace.h' l='9' type='int strlen(const char * str)'/>
-<use f='MOS/userspace/init/main.c' l='15' u='c' c='printf'/>
+<use f='MOS/userspace/libuserspace.c' l='50' u='c' c='printf'/>

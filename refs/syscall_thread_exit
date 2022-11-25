@@ -1,3 +1,2 @@
 <def f='MOS/build/include/mos/syscall/usermode.h' l='86' ll='89' macro='1' type='void syscall_thread_exit()'/>
-<use f='MOS/userspace/init/main.c' l='27' u='c' c='thread_work'/>
-<use f='MOS/userspace/libuserspace.c' l='32' u='c' c='_thread_start'/>
+<use f='MOS/userspace/libuserspace.c' l='40' u='c' c='_thread_start'/>

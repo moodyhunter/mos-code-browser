@@ -1,4 +1,0 @@
-<use f='MOS/kernel/include/mos/sync/refcount.h' l='14' c='refcount_inc'/>
-<use f='MOS/kernel/include/mos/sync/refcount.h' l='19' c='refcount_dec'/>
-<use f='MOS/kernel/include/mos/sync/refcount.h' l='24' c='refcount_zero'/>
-<use f='MOS/kernel/include/mos/sync/refcount.h' l='29' u='r' c='refcount_get'/>

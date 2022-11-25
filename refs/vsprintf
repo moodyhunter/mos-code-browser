@@ -2,4 +2,4 @@
 <use f='MOS/lib/stdio.c' l='11' u='c' c='sprintf'/>
 <def f='MOS/lib/stdio.c' l='25' ll='28' type='int vsprintf(char *restrict str, const char *restrict format, struct __va_list_tag * ap)'/>
 <use f='MOS/tests/test_engine.c' l='51' u='c' c='mos_test_engine_log'/>
-<use f='MOS/userspace/init/main.c' l='13' u='c' c='printf'/>
+<use f='MOS/userspace/libuserspace.c' l='48' u='c' c='printf'/>
