@@ -1,2 +1,2 @@
 <def f='MOS/build/include/mos/syscall/usermode.h' l='36' ll='39' macro='1' type='_Bool syscall_io_close(fd_t fd)'/>
-<use f='MOS/userspace/init/main.c' l='29' u='c' c='main'/>
+<use f='MOS/userspace/init/main.c' l='27' u='c' c='main'/>

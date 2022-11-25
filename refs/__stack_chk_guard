@@ -1,2 +1,2 @@
 <def f='MOS/kernel/stack_protector.c' l='6' type='u64'/>
-<def f='MOS/userspace/libuserspace.c' l='16' type='u64'/>
+<def f='MOS/userspace/libuserspace.c' l='18' type='u64'/>

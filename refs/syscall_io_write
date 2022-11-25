@@ -1,4 +1,4 @@
 <def f='MOS/build/include/mos/syscall/usermode.h' l='31' ll='34' macro='1' type='size_t syscall_io_write(fd_t fd, const void * buffer, size_t size, size_t offset)'/>
-<use f='MOS/userspace/init/main.c' l='28' u='c' c='main'/>
-<use f='MOS/userspace/init/main.c' l='38' u='c' c='main'/>
-<use f='MOS/userspace/libuserspace.c' l='50' u='c' c='printf'/>
+<use f='MOS/userspace/init/main.c' l='26' u='c' c='main'/>
+<use f='MOS/userspace/init/main.c' l='36' u='c' c='main'/>
+<use f='MOS/userspace/libuserspace.c' l='50' u='c' c='dvprintf'/>
