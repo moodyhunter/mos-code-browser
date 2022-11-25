@@ -1,4 +1,4 @@
-<dec f='MOS/kernel/include/mos/sync/spinlock.h' l='10' type='_Bool'/>
-<use f='MOS/kernel/include/mos/sync/spinlock.h' l='19' u='a' c='spinlock_acquire'/>
-<use f='MOS/kernel/include/mos/sync/spinlock.h' l='25' u='a' c='spinlock_release'/>
+<dec f='MOS/lib/include/lib/sync/spinlock.h' l='10' type='_Bool'/>
+<use f='MOS/lib/include/lib/sync/spinlock.h' l='19' u='a' c='spinlock_acquire'/>
+<use f='MOS/lib/include/lib/sync/spinlock.h' l='25' u='a' c='spinlock_release'/>
 <offset>0</offset>

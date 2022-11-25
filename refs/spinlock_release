@@ -1,2 +1,2 @@
-<def f='MOS/kernel/include/mos/sync/spinlock.h' l='23' ll='26' macro='1' type='void spinlock_release(spinlock_t * lock)'/>
+<def f='MOS/lib/include/lib/sync/spinlock.h' l='23' ll='26' macro='1' type='void spinlock_release(spinlock_t * lock)'/>
 <use f='MOS/kernel/mm/liballoc.c' l='108' u='c' c='liballoc_unlock'/>

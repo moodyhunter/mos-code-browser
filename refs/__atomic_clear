@@ -1,1 +1,1 @@
-<use f='MOS/kernel/include/mos/sync/spinlock.h' l='25' u='c' c='spinlock_release'/>
+<use f='MOS/lib/include/lib/sync/spinlock.h' l='25' u='c' c='spinlock_release'/>

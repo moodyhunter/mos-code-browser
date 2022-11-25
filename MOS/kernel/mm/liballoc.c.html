@@ -17,10 +17,10 @@
 <tr><th id="3">3</th><td><u>#include <a href="../include/mos/mm/liballoc.h.html">"mos/mm/liballoc.h"</a></u></td></tr>
 <tr><th id="4">4</th><td></td></tr>
 <tr><th id="5">5</th><td><u>#include <a href="../../lib/include/lib/string.h.html">"lib/string.h"</a></u></td></tr>
-<tr><th id="6">6</th><td><u>#include <a href="../include/mos/panic.h.html">"mos/panic.h"</a></u></td></tr>
-<tr><th id="7">7</th><td><u>#include <a href="../include/mos/platform/platform.h.html">"mos/platform/platform.h"</a></u></td></tr>
-<tr><th id="8">8</th><td><u>#include <a href="../include/mos/printk.h.html">"mos/printk.h"</a></u></td></tr>
-<tr><th id="9">9</th><td><u>#include <a href="../include/mos/sync/spinlock.h.html">"mos/sync/spinlock.h"</a></u></td></tr>
+<tr><th id="6">6</th><td><u>#include <a href="../../lib/include/lib/sync/spinlock.h.html">"lib/sync/spinlock.h"</a></u></td></tr>
+<tr><th id="7">7</th><td><u>#include <a href="../include/mos/panic.h.html">"mos/panic.h"</a></u></td></tr>
+<tr><th id="8">8</th><td><u>#include <a href="../include/mos/platform/platform.h.html">"mos/platform/platform.h"</a></u></td></tr>
+<tr><th id="9">9</th><td><u>#include <a href="../include/mos/printk.h.html">"mos/printk.h"</a></u></td></tr>
 <tr><th id="10">10</th><td></td></tr>
 <tr><th id="11">11</th><td><u>#define <dfn class="macro" id="_M/VERSION" data-ref="_M/VERSION">VERSION</dfn> "1.1"</u></td></tr>
 <tr><th id="12">12</th><td></td></tr>
@@ -109,17 +109,17 @@
 <tr><th id="95">95</th><td>    <b>return</b> <span class="macro" title="1" data-ref="_M/true">true</span>;</td></tr>
 <tr><th id="96">96</th><td>}</td></tr>
 <tr><th id="97">97</th><td></td></tr>
-<tr><th id="98">98</th><td><em>static</em> <a class="typedef" href="../include/mos/sync/spinlock.h.html#spinlock_t" title='spinlock_t' data-type='struct spinlock_t' data-ref="spinlock_t" data-ref-filename="spinlock_t">spinlock_t</a> <dfn class="tu decl def" id="alloc_lock" title='alloc_lock' data-type='spinlock_t' data-ref="alloc_lock" data-ref-filename="alloc_lock">alloc_lock</dfn> = <a class="macro" href="../include/mos/sync/spinlock.h.html#14" title="{ 0 }" data-ref="_M/SPINLOCK_INIT">SPINLOCK_INIT</a>;</td></tr>
+<tr><th id="98">98</th><td><em>static</em> <a class="typedef" href="../../lib/include/lib/sync/spinlock.h.html#spinlock_t" title='spinlock_t' data-type='struct spinlock_t' data-ref="spinlock_t" data-ref-filename="spinlock_t">spinlock_t</a> <dfn class="tu decl def" id="alloc_lock" title='alloc_lock' data-type='spinlock_t' data-ref="alloc_lock" data-ref-filename="alloc_lock">alloc_lock</dfn> = <a class="macro" href="../../lib/include/lib/sync/spinlock.h.html#14" title="{ 0 }" data-ref="_M/SPINLOCK_INIT">SPINLOCK_INIT</a>;</td></tr>
 <tr><th id="99">99</th><td></td></tr>
 <tr><th id="100">100</th><td><em>int</em> <dfn class="decl def fn" id="liballoc_lock" title='liballoc_lock' data-ref="liballoc_lock" data-ref-filename="liballoc_lock">liballoc_lock</dfn>()</td></tr>
 <tr><th id="101">101</th><td>{</td></tr>
-<tr><th id="102">102</th><td>    <a class="ref fn" href="../include/mos/sync/spinlock.h.html#spinlock_acquire" title='spinlock_acquire' data-ref="spinlock_acquire" data-ref-filename="spinlock_acquire">spinlock_acquire</a>(&amp;<a class="tu ref" href="#alloc_lock" title='alloc_lock' data-use='a' data-ref="alloc_lock" data-ref-filename="alloc_lock">alloc_lock</a>);</td></tr>
+<tr><th id="102">102</th><td>    <a class="ref fn" href="../../lib/include/lib/sync/spinlock.h.html#spinlock_acquire" title='spinlock_acquire' data-ref="spinlock_acquire" data-ref-filename="spinlock_acquire">spinlock_acquire</a>(&amp;<a class="tu ref" href="#alloc_lock" title='alloc_lock' data-use='a' data-ref="alloc_lock" data-ref-filename="alloc_lock">alloc_lock</a>);</td></tr>
 <tr><th id="103">103</th><td>    <b>return</b> <var>0</var>;</td></tr>
 <tr><th id="104">104</th><td>}</td></tr>
 <tr><th id="105">105</th><td></td></tr>
 <tr><th id="106">106</th><td><em>int</em> <dfn class="decl def fn" id="liballoc_unlock" title='liballoc_unlock' data-ref="liballoc_unlock" data-ref-filename="liballoc_unlock">liballoc_unlock</dfn>()</td></tr>
 <tr><th id="107">107</th><td>{</td></tr>
-<tr><th id="108">108</th><td>    <a class="ref fn" href="../include/mos/sync/spinlock.h.html#spinlock_release" title='spinlock_release' data-ref="spinlock_release" data-ref-filename="spinlock_release">spinlock_release</a>(&amp;<a class="tu ref" href="#alloc_lock" title='alloc_lock' data-use='a' data-ref="alloc_lock" data-ref-filename="alloc_lock">alloc_lock</a>);</td></tr>
+<tr><th id="108">108</th><td>    <a class="ref fn" href="../../lib/include/lib/sync/spinlock.h.html#spinlock_release" title='spinlock_release' data-ref="spinlock_release" data-ref-filename="spinlock_release">spinlock_release</a>(&amp;<a class="tu ref" href="#alloc_lock" title='alloc_lock' data-use='a' data-ref="alloc_lock" data-ref-filename="alloc_lock">alloc_lock</a>);</td></tr>
 <tr><th id="109">109</th><td>    <b>return</b> <var>0</var>;</td></tr>
 <tr><th id="110">110</th><td>}</td></tr>
 <tr><th id="111">111</th><td></td></tr>
