@@ -1,3 +1,3 @@
 <dec f='MOS/kernel/include/mos/mm/liballoc.h' l='32' type='void * liballoc_calloc(size_t object, size_t n_objects)'/>
 <use f='MOS/kernel/include/mos/mm/kmalloc.h' l='17' u='c' c='kcalloc'/>
-<def f='MOS/kernel/mm/liballoc.c' l='613' ll='620' type='void * liballoc_calloc(size_t nobj, size_t size)'/>
+<def f='MOS/kernel/mm/liballoc.c' l='628' ll='635' type='void * liballoc_calloc(size_t nobj, size_t size)'/>

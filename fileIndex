@@ -96,6 +96,7 @@ MOS/kernel/ksyscall.c
 MOS/build/include/mos/syscall/decl.h
 MOS/kernel/mm/cow.c
 MOS/kernel/mm/liballoc.c
+MOS/kernel/include/mos/sync/spinlock.h
 MOS/kernel/mm/memops.c
 MOS/kernel/include/mos/mm/memops.h
 MOS/kernel/panic.c

@@ -1,0 +1,20 @@
+<dec f='MOS/kernel/include/mos/mm/liballoc.h' l='23' type='int liballoc_unlock()'/>
+<doc f='MOS/kernel/include/mos/mm/liballoc.h' l='17'>/** This function unlocks what was previously locked by the liballoc_lock function.
+ * If it disabled interrupts, it enables interrupts. If it had acquiried a spinlock,
+ * it releases the spinlock. etc.
+ *
+ * \return 0 if the lock was successfully released.
+ */</doc>
+<def f='MOS/kernel/mm/liballoc.c' l='106' ll='110' type='int liballoc_unlock()'/>
+<use f='MOS/kernel/mm/liballoc.c' l='231' u='c' c='liballoc_init'/>
+<use f='MOS/kernel/mm/liballoc.c' l='263' u='c' c='liballoc_malloc'/>
+<use f='MOS/kernel/mm/liballoc.c' l='354' u='c' c='liballoc_malloc'/>
+<use f='MOS/kernel/mm/liballoc.c' l='391' u='c' c='liballoc_malloc'/>
+<use f='MOS/kernel/mm/liballoc.c' l='439' u='c' c='liballoc_malloc'/>
+<use f='MOS/kernel/mm/liballoc.c' l='479' u='c' c='liballoc_malloc'/>
+<use f='MOS/kernel/mm/liballoc.c' l='521' u='c' c='liballoc_malloc'/>
+<use f='MOS/kernel/mm/liballoc.c' l='575' u='c' c='liballoc_free'/>
+<use f='MOS/kernel/mm/liballoc.c' l='624' u='c' c='liballoc_free'/>
+<use f='MOS/kernel/mm/liballoc.c' l='685' u='c' c='liballoc_realloc'/>
+<use f='MOS/kernel/mm/liballoc.c' l='698' u='c' c='liballoc_realloc'/>
+<use f='MOS/kernel/mm/liballoc.c' l='703' u='c' c='liballoc_realloc'/>

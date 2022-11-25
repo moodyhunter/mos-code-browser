@@ -51,14 +51,14 @@
 <use f='MOS/kernel/mm/cow.c' l='23' macro='1' u='a' c='copy_cow_pages_inplace'/>
 <use f='MOS/kernel/mm/cow.c' l='42' macro='1' u='a' c='cow_handle_page_fault'/>
 <use f='MOS/kernel/mm/cow.c' l='48' macro='1' u='a' c='cow_handle_page_fault'/>
-<use f='MOS/kernel/mm/liballoc.c' l='69' macro='1' u='a' c='kheap_alloc_page'/>
-<use f='MOS/kernel/mm/liballoc.c' l='93' macro='1' u='a' c='kheap_free_page'/>
+<use f='MOS/kernel/mm/liballoc.c' l='70' macro='1' u='a' c='kheap_alloc_page'/>
+<use f='MOS/kernel/mm/liballoc.c' l='94' macro='1' u='a' c='kheap_free_page'/>
 <use f='MOS/kernel/mm/memops.c' l='13' macro='1' u='a' c='mm_map_proxy_space'/>
 <use f='MOS/kernel/mm/memops.c' l='14' macro='1' u='a' c='mm_map_proxy_space'/>
 <use f='MOS/kernel/mm/memops.c' l='20' macro='1' u='a' c='mm_unmap_proxy_space'/>
 <use f='MOS/kernel/mm/memops.c' l='25' macro='1' u='a' c='mm_copy_pages'/>
 <use f='MOS/kernel/tasks/fork.c' l='58' macro='1' u='a' c='process_handle_fork'/>
-<use f='MOS/kernel/tasks/process.c' l='184' macro='1' u='a' c='process_handle_cleanup'/>
+<use f='MOS/kernel/tasks/process.c' l='185' macro='1' u='a' c='process_handle_cleanup'/>
 <use f='MOS/kernel/tasks/schedule.c' l='14' macro='1' u='a' c='mos_update_current'/>
 <use f='MOS/kernel/tasks/schedule.c' l='19' macro='1' u='a' c='mos_update_current'/>
 <use f='MOS/kernel/tasks/schedule.c' l='22' macro='1' u='a' c='mos_update_current'/>

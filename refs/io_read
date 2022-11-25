@@ -1,5 +1,5 @@
 <dec f='MOS/kernel/include/mos/io/io.h' l='39' type='size_t io_read(io_t * io, void * buf, size_t count)'/>
 <use f='MOS/kernel/elf/elf.c' l='53' u='c' c='elf_create_process'/>
-<def f='MOS/kernel/io/io.c' l='56' ll='74' type='size_t io_read(io_t * io, void * buf, size_t count)'/>
+<def f='MOS/kernel/io/io.c' l='67' ll='90' type='size_t io_read(io_t * io, void * buf, size_t count)'/>
 <use f='MOS/kernel/io/terminal.c' l='16' u='c' c='terminal_io_read'/>
 <use f='MOS/kernel/ksyscall.c' l='48' u='c' c='impl_syscall_io_read'/>

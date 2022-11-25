@@ -1,5 +1,5 @@
 <dec f='MOS/kernel/include/mos/io/io.h' l='36' type='io_t * io_ref(io_t * io)'/>
-<def f='MOS/kernel/io/io.c' l='17' ll='29' type='io_t * io_ref(io_t * io)'/>
+<def f='MOS/kernel/io/io.c' l='17' ll='34' type='io_t * io_ref(io_t * io)'/>
 <use f='MOS/kernel/io/terminal.c' l='72' u='c' c='terminal_create_pipe'/>
 <use f='MOS/kernel/io/terminal.c' l='73' u='c' c='terminal_create_pipe'/>
 <use f='MOS/kernel/tasks/process.c' l='124' u='c' c='process_attach_ref_fd'/>

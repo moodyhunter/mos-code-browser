@@ -21,8 +21,8 @@
 <use f='MOS/kernel/mm/cow.c' l='62' u='r' c='cow_handle_page_fault'/>
 <use f='MOS/kernel/mm/cow.c' l='64' u='r' c='cow_handle_page_fault'/>
 <use f='MOS/kernel/mm/cow.c' l='65' u='r' c='cow_handle_page_fault'/>
-<use f='MOS/kernel/mm/liballoc.c' l='70' u='r' c='kheap_alloc_page'/>
-<use f='MOS/kernel/mm/liballoc.c' l='75' u='r' c='kheap_alloc_page'/>
+<use f='MOS/kernel/mm/liballoc.c' l='71' u='r' c='kheap_alloc_page'/>
+<use f='MOS/kernel/mm/liballoc.c' l='76' u='r' c='kheap_alloc_page'/>
 <use f='MOS/kernel/mm/memops.c' l='14' u='r' c='mm_map_proxy_space'/>
 <use f='MOS/kernel/mm/memops.c' l='20' u='r' c='mm_unmap_proxy_space'/>
 <use f='MOS/kernel/mm/memops.c' l='43' u='r' c='mm_copy_pages'/>
@@ -34,8 +34,8 @@
 <use f='MOS/kernel/tasks/fork.c' l='34' u='r' c='process_handle_fork'/>
 <use f='MOS/kernel/tasks/fork.c' l='42' u='r' c='process_handle_fork'/>
 <use f='MOS/kernel/tasks/fork.c' l='42' u='r' c='process_handle_fork'/>
-<use f='MOS/kernel/tasks/process.c' l='199' u='r' c='process_handle_cleanup'/>
-<use f='MOS/kernel/tasks/process.c' l='221' u='r' c='process_dump_mmaps'/>
+<use f='MOS/kernel/tasks/process.c' l='200' u='r' c='process_handle_cleanup'/>
+<use f='MOS/kernel/tasks/process.c' l='222' u='r' c='process_dump_mmaps'/>
 <use f='MOS/kernel/tasks/thread.c' l='64' u='r' c='thread_new'/>
 <use f='MOS/kernel/tasks/thread.c' l='71' u='r' c='thread_new'/>
 <use f='MOS/kernel/tasks/thread.c' l='75' u='r' c='thread_new'/>

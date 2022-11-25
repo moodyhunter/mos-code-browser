@@ -7,7 +7,7 @@
 <use f='MOS/kernel/filesystem/pathutils.c' l='162' u='c' c='path_to_string_relative'/>
 <use f='MOS/kernel/mm/cow.c' l='28' u='c' c='copy_cow_pages_inplace'/>
 <use f='MOS/kernel/mm/cow.c' l='32' u='c' c='copy_cow_pages_inplace'/>
-<use f='MOS/kernel/mm/liballoc.c' l='693' u='c' c='liballoc_realloc'/>
+<use f='MOS/kernel/mm/liballoc.c' l='708' u='c' c='liballoc_realloc'/>
 <use f='MOS/kernel/mm/memops.c' l='29' u='c' c='mm_copy_pages'/>
 <use f='MOS/kernel/mm/memops.c' l='37' u='c' c='mm_copy_pages'/>
 <use f='MOS/kernel/mm/memops.c' l='43' u='c' c='mm_copy_pages'/>

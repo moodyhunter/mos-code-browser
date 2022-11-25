@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>spinlock.h source code [MOS/kernel/include/mos/sync/spinlock.h] - Woboq Code Browser</title>
+<link rel="stylesheet" href="/mos-code-browser/data/qtcreator.css" title="QtCreator"/>
+<link rel="alternate stylesheet" href="/mos-code-browser/data/kdevelop.css" title="KDevelop"/>
+<script type="text/javascript" src="/mos-code-browser/data/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="/mos-code-browser/data/jquery/jquery-ui.min.js"></script>
+<script>var file = 'MOS/kernel/include/mos/sync/spinlock.h'; var root_path = '../../../../..'; var data_path = '/mos-code-browser/data'; var ecma_script_api_version = 2;</script>
+<script src='/mos-code-browser/data/codebrowser.js'></script>
+</head>
+<body><div id='header'><h1 id='breadcrumb'><span>Browse the source code of </span><a href='../../../..'>MOS</a>/<a href='../../..'>kernel</a>/<a href='../..'>include</a>/<a href='..'>mos</a>/<a href='./'>sync</a>/<a href='spinlock.h.html'>spinlock.h</a></h1></div>
+<hr/><div id='content'><table class="code">
+<tr><th id="1">1</th><td><i>// SPDX-License-Identifier: GPL-3.0-or-later</i></td></tr>
+<tr><th id="2">2</th><td></td></tr>
+<tr><th id="3">3</th><td><u>#pragma once</u></td></tr>
+<tr><th id="4">4</th><td></td></tr>
+<tr><th id="5">5</th><td><u>#include <a href="../mos_global.h.html">"mos/mos_global.h"</a></u></td></tr>
+<tr><th id="6">6</th><td><u>#include <a href="../types.h.html">"mos/types.h"</a></u></td></tr>
+<tr><th id="7">7</th><td></td></tr>
+<tr><th id="8">8</th><td><u>#include &lt;stdatomic.h&gt;</u></td></tr>
+<tr><th id="9">9</th><td></td></tr>
+<tr><th id="10">10</th><td><b>typedef</b> <b>struct</b></td></tr>
+<tr><th id="11">11</th><td>{</td></tr>
+<tr><th id="12">12</th><td>    <span class='typedef' title='atomic_flag' data-type='struct atomic_flag' data-ref="atomic_flag" data-ref-filename="atomic_flag">atomic_flag</span> <dfn class="decl field" id="(anonymous)::flag" title='(anonymous struct)::flag' data-ref="(anonymous)::flag" data-ref-filename="(anonymous)..flag">flag</dfn>;</td></tr>
+<tr><th id="13">13</th><td>} <dfn class="typedef" id="spinlock_t" title='spinlock_t' data-type='struct spinlock_t' data-ref="spinlock_t" data-ref-filename="spinlock_t">spinlock_t</dfn>;</td></tr>
+<tr><th id="14">14</th><td></td></tr>
+<tr><th id="15">15</th><td><i>// clang-format off</i></td></tr>
+<tr><th id="16">16</th><td><u>#define <dfn class="macro" id="_M/SPINLOCK_INIT" data-ref="_M/SPINLOCK_INIT">SPINLOCK_INIT</dfn> { ATOMIC_FLAG_INIT }</u></td></tr>
+<tr><th id="17">17</th><td><i>// clang-format on</i></td></tr>
+<tr><th id="18">18</th><td></td></tr>
+<tr><th id="19">19</th><td><a class="macro" href="../mos_global.h.html#25" title="__attribute__((__unused__)) static inline" data-ref="_M/should_inline">should_inline</a> <em>void</em> <dfn class="decl def fn" id="spinlock_acquire" title='spinlock_acquire' data-ref="spinlock_acquire" data-ref-filename="spinlock_acquire">spinlock_acquire</dfn>(<a class="typedef" href="#spinlock_t" title='spinlock_t' data-type='struct spinlock_t' data-ref="spinlock_t" data-ref-filename="spinlock_t">spinlock_t</a> *<dfn class="local col1 decl" id="1lock" title='lock' data-type='spinlock_t *' data-ref="1lock" data-ref-filename="1lock">lock</dfn>)</td></tr>
+<tr><th id="20">20</th><td>{</td></tr>
+<tr><th id="21">21</th><td>    <b>while</b> (<span class="macro" title="__c11_atomic_exchange(&amp;(&amp;lock-&gt;flag)-&gt;_Value, 1, memory_order_acquire)" data-ref="_M/atomic_flag_test_and_set_explicit">atomic_flag_test_and_set_explicit</span>(&amp;<a class="local col1 ref" href="#1lock" title='lock' data-ref="1lock" data-ref-filename="1lock">lock</a>-&gt;<a class="ref field" href="#(anonymous)::flag" title='(anonymous struct)::flag' data-ref="(anonymous)::flag" data-ref-filename="(anonymous)..flag">flag</a>, <span class='enum' title='memory_order_acquire' data-ref="memory_order_acquire" data-ref-filename="memory_order_acquire">memory_order_acquire</span>))</td></tr>
+<tr><th id="22">22</th><td>        ;</td></tr>
+<tr><th id="23">23</th><td>}</td></tr>
+<tr><th id="24">24</th><td></td></tr>
+<tr><th id="25">25</th><td><a class="macro" href="../mos_global.h.html#25" title="__attribute__((__unused__)) static inline" data-ref="_M/should_inline">should_inline</a> <em>void</em> <dfn class="decl def fn" id="spinlock_release" title='spinlock_release' data-ref="spinlock_release" data-ref-filename="spinlock_release">spinlock_release</dfn>(<a class="typedef" href="#spinlock_t" title='spinlock_t' data-type='struct spinlock_t' data-ref="spinlock_t" data-ref-filename="spinlock_t">spinlock_t</a> *<dfn class="local col2 decl" id="2lock" title='lock' data-type='spinlock_t *' data-ref="2lock" data-ref-filename="2lock">lock</dfn>)</td></tr>
+<tr><th id="26">26</th><td>{</td></tr>
+<tr><th id="27">27</th><td>    <span class="macro" title="__c11_atomic_store(&amp;(&amp;lock-&gt;flag)-&gt;_Value, 0, memory_order_release)" data-ref="_M/atomic_flag_clear_explicit">atomic_flag_clear_explicit</span>(&amp;<a class="local col2 ref" href="#2lock" title='lock' data-ref="2lock" data-ref-filename="2lock">lock</a>-&gt;<a class="ref field" href="#(anonymous)::flag" title='(anonymous struct)::flag' data-ref="(anonymous)::flag" data-ref-filename="(anonymous)..flag">flag</a>, <span class='enum' title='memory_order_release' data-ref="memory_order_release" data-ref-filename="memory_order_release">memory_order_release</span>);</td></tr>
+<tr><th id="28">28</th><td>}</td></tr>
+<tr><th id="29">29</th><td></td></tr>
+</table><hr/><p id='footer'>
+Generated while processing <a href='../../../mm/liballoc.c.html'>MOS/kernel/mm/liballoc.c</a><br/>Generated on <em>2022-Nov-25</em> from project MOS<br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
+<br/>Generator usage only permitted with license.</p>
+</div></body></html>

@@ -19,6 +19,6 @@
 <use f='MOS/kernel/tasks/process.c' l='158' u='r' c='process_handle_exit'/>
 <use f='MOS/kernel/tasks/process.c' l='160' u='r' c='process_handle_exit'/>
 <use f='MOS/kernel/tasks/process.c' l='172' u='r' c='process_handle_exit'/>
-<use f='MOS/kernel/tasks/process.c' l='186' u='r' c='process_handle_cleanup'/>
 <use f='MOS/kernel/tasks/process.c' l='187' u='r' c='process_handle_cleanup'/>
-<use f='MOS/kernel/tasks/process.c' l='189' u='r' c='process_handle_cleanup'/>
+<use f='MOS/kernel/tasks/process.c' l='188' u='r' c='process_handle_cleanup'/>
+<use f='MOS/kernel/tasks/process.c' l='190' u='r' c='process_handle_cleanup'/>

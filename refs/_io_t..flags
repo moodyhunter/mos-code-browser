@@ -1,5 +1,5 @@
 <dec f='MOS/kernel/include/mos/io/io.h' l='29' type='io_flags_t'/>
 <offset>128</offset>
 <use f='MOS/kernel/io/io.c' l='10' u='w' c='io_init'/>
-<use f='MOS/kernel/io/io.c' l='63' u='r' c='io_read'/>
-<use f='MOS/kernel/io/io.c' l='83' u='r' c='io_write'/>
+<use f='MOS/kernel/io/io.c' l='79' u='r' c='io_read'/>
+<use f='MOS/kernel/io/io.c' l='104' u='r' c='io_write'/>

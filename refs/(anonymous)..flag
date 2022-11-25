@@ -1,0 +1,4 @@
+<dec f='MOS/kernel/include/mos/sync/spinlock.h' l='12' type='atomic_flag'/>
+<use f='MOS/kernel/include/mos/sync/spinlock.h' l='21' u='a' c='spinlock_acquire'/>
+<use f='MOS/kernel/include/mos/sync/spinlock.h' l='27' u='a' c='spinlock_release'/>
+<offset>0</offset>

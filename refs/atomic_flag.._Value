@@ -1,0 +1,2 @@
+<use f='MOS/kernel/include/mos/sync/spinlock.h' l='21' macro='1' u='a' c='spinlock_acquire'/>
+<use f='MOS/kernel/include/mos/sync/spinlock.h' l='27' macro='1' u='a' c='spinlock_release'/>

@@ -1,8 +1,10 @@
 liballoc_calloc|liballoc_calloc
 liballoc_free|liballoc_free
 liballoc_init|liballoc_init
+liballoc_lock|liballoc_lock
 liballoc_malloc|liballoc_malloc
 liballoc_realloc|liballoc_realloc
+liballoc_unlock|liballoc_unlock
 linked_list_init|linked_list_init
 list_is_empty|list_is_empty
 list_node_append|list_node_append

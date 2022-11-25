@@ -2,6 +2,6 @@
 <offset>64</offset>
 <use f='MOS/kernel/filesystem/filesystem.c' l='72' u='a' c='vfs_open'/>
 <use f='MOS/kernel/io/io.c' l='14' u='a' c='io_init'/>
-<use f='MOS/kernel/io/io.c' l='27' u='a' c='io_ref'/>
-<use f='MOS/kernel/io/io.c' l='41' u='a' c='io_unref'/>
-<use f='MOS/kernel/io/io.c' l='44' u='a' c='io_unref'/>
+<use f='MOS/kernel/io/io.c' l='32' u='a' c='io_ref'/>
+<use f='MOS/kernel/io/io.c' l='51' u='a' c='io_unref'/>
+<use f='MOS/kernel/io/io.c' l='53' u='a' c='io_unref'/>
