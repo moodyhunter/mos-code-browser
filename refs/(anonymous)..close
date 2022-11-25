@@ -1,6 +1,6 @@
-<dec f='MOS/kernel/include/mos/io/io.h' l='21' type='void (*)(io_t *)'/>
+<dec f='MOS/kernel/include/mos/io/io.h' l='22' type='void (*)(io_t *)'/>
 <offset>128</offset>
 <use f='MOS/kernel/filesystem/filesystem.c' l='56' u='w'/>
-<use f='MOS/kernel/io/io.c' l='44' u='r' c='io_unref'/>
-<use f='MOS/kernel/io/io.c' l='51' u='r' c='io_unref'/>
+<use f='MOS/kernel/io/io.c' l='46' u='r' c='io_unref'/>
+<use f='MOS/kernel/io/io.c' l='53' u='r' c='io_unref'/>
 <use f='MOS/kernel/io/terminal.c' l='51' u='w'/>

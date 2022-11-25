@@ -5,4 +5,4 @@
 <use f='MOS/kernel/filesystem/filesystem.c' l='104' u='c' c='vfs_path_open'/>
 <use f='MOS/kernel/filesystem/filesystem.c' l='143' u='c' c='vfs_path_readlink'/>
 <use f='MOS/kernel/filesystem/filesystem.c' l='178' u='c' c='vfs_path_stat'/>
-<def f='MOS/kernel/filesystem/mount.c' l='88' ll='94' type='mountpoint_t * kmount_find_mp(fsnode_t * path)'/>
+<def f='MOS/kernel/filesystem/mount.c' l='92' ll='98' type='mountpoint_t * kmount_find_mp(fsnode_t * path)'/>

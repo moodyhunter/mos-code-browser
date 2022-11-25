@@ -1,6 +1,6 @@
 <def f='MOS/kernel/include/mos/filesystem/filesystem.h' l='82' ll='87'/>
 <use f='MOS/kernel/include/mos/filesystem/filesystem.h' l='82'/>
-<size>48</size>
+<size>56</size>
 <mbr r='_file::io' o='0' t='io_t'/>
-<mbr r='_file::pdata' o='256' t='void *'/>
-<mbr r='_file::fsnode' o='320' t='fsnode_t *'/>
+<mbr r='_file::pdata' o='320' t='void *'/>
+<mbr r='_file::fsnode' o='384' t='fsnode_t *'/>

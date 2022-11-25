@@ -16,7 +16,7 @@
 <use f='MOS/kernel/filesystem/filesystem.c' l='194' u='c' c='file_io_cleanup'/>
 <use f='MOS/kernel/filesystem/filesystem.c' l='195' u='c' c='file_io_cleanup'/>
 <use f='MOS/kernel/filesystem/mount.c' l='52' u='c' c='kmount'/>
-<use f='MOS/kernel/filesystem/mount.c' l='84' u='c' c='kunmount'/>
+<use f='MOS/kernel/filesystem/mount.c' l='88' u='c' c='kunmount'/>
 <use f='MOS/kernel/filesystem/pathutils.c' l='170' u='c' c='path_to_string_relative'/>
 <use f='MOS/kernel/io/terminal.c' l='45' u='c' c='terminal_io_close'/>
 <use f='MOS/kernel/mm/cow.c' l='34' u='c' c='copy_cow_pages_inplace'/>

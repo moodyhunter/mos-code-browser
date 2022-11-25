@@ -53,6 +53,7 @@ MOS/build/include/mos/syscall/dispatcher.h
 MOS/kernel/include/mos/filesystem/filesystem.h
 MOS/lib/include/lib/structures/tree.h
 MOS/kernel/include/mos/io/io.h
+MOS/kernel/include/mos/sync/refcount.h
 MOS/kernel/include/mos/tasks/task_type.h
 MOS/lib/include/lib/structures/stack.h
 MOS/arch/x86/include/mos/x86/tasks/context.h

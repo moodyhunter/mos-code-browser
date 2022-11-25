@@ -1,0 +1,2 @@
+<def f='MOS/kernel/include/mos/sync/refcount.h' l='22' ll='25' macro='1' type='void refcount_zero(mos_refcount_t * atomic)'/>
+<use f='MOS/kernel/io/io.c' l='14' u='c' c='io_init'/>

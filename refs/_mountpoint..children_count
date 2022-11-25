@@ -2,6 +2,6 @@
 <offset>320</offset>
 <use f='MOS/kernel/filesystem/mount.c' l='30' u='r' c='kmount_add_mp'/>
 <use f='MOS/kernel/filesystem/mount.c' l='31' u='r' c='kmount_add_mp'/>
-<use f='MOS/kernel/filesystem/mount.c' l='68' u='r' c='kunmount'/>
-<use f='MOS/kernel/filesystem/mount.c' l='70' u='r' c='kunmount'/>
-<use f='MOS/kernel/filesystem/mount.c' l='102' u='r' c='kmount_find_submp'/>
+<use f='MOS/kernel/filesystem/mount.c' l='72' u='r' c='kunmount'/>
+<use f='MOS/kernel/filesystem/mount.c' l='74' u='r' c='kunmount'/>
+<use f='MOS/kernel/filesystem/mount.c' l='106' u='r' c='kmount_find_submp'/>

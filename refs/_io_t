@@ -1,9 +1,9 @@
-<use f='MOS/kernel/include/mos/io/io.h' l='7'/>
-<def f='MOS/kernel/include/mos/io/io.h' l='24' ll='31'/>
-<use f='MOS/kernel/include/mos/io/io.h' l='24'/>
-<size>32</size>
+<use f='MOS/kernel/include/mos/io/io.h' l='8'/>
+<def f='MOS/kernel/include/mos/io/io.h' l='25' ll='32'/>
+<use f='MOS/kernel/include/mos/io/io.h' l='25'/>
+<size>40</size>
 <mbr r='_io_t::closed' o='0' t='_Bool'/>
-<mbr r='_io_t::refcount' o='8' t='atomic_t'/>
-<mbr r='_io_t::flags' o='96' t='io_flags_t'/>
-<mbr r='_io_t::size' o='128' t='size_t'/>
-<mbr r='_io_t::ops' o='192' t='const io_op_t *'/>
+<mbr r='_io_t::refcount' o='64' t='mos_refcount_t'/>
+<mbr r='_io_t::flags' o='128' t='io_flags_t'/>
+<mbr r='_io_t::size' o='192' t='size_t'/>
+<mbr r='_io_t::ops' o='256' t='const io_op_t *'/>

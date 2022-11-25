@@ -1,0 +1,4 @@
+refcount_dec|refcount_dec
+refcount_get|refcount_get
+refcount_inc|refcount_inc
+refcount_zero|refcount_zero

@@ -1,4 +1,4 @@
-<dec f='MOS/kernel/include/mos/io/io.h' l='33' type='void io_init(io_t * io, io_flags_t flags, size_t size, const io_op_t * ops)'/>
+<dec f='MOS/kernel/include/mos/io/io.h' l='34' type='void io_init(io_t * io, io_flags_t flags, size_t size, const io_op_t * ops)'/>
 <use f='MOS/kernel/filesystem/filesystem.c' l='137' u='c' c='vfs_path_open'/>
 <def f='MOS/kernel/io/io.c' l='8' ll='15' type='void io_init(io_t * io, io_flags_t flags, size_t size, const io_op_t * ops)'/>
 <use f='MOS/kernel/io/terminal.c' l='64' u='c' c='terminal_create_console'/>

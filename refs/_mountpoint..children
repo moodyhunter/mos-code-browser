@@ -4,5 +4,5 @@
 <use f='MOS/kernel/filesystem/mount.c' l='30' u='r' c='kmount_add_mp'/>
 <use f='MOS/kernel/filesystem/mount.c' l='31' u='r' c='kmount_add_mp'/>
 <use f='MOS/kernel/filesystem/mount.c' l='48' u='w' c='kmount'/>
-<use f='MOS/kernel/filesystem/mount.c' l='98' u='r' c='kmount_find_submp'/>
-<use f='MOS/kernel/filesystem/mount.c' l='104' u='r' c='kmount_find_submp'/>
+<use f='MOS/kernel/filesystem/mount.c' l='102' u='r' c='kmount_find_submp'/>
+<use f='MOS/kernel/filesystem/mount.c' l='108' u='r' c='kmount_find_submp'/>

@@ -4,4 +4,4 @@
 <use f='MOS/kernel/filesystem/filesystem.c' l='111' u='r' c='vfs_path_open'/>
 <use f='MOS/kernel/filesystem/mount.c' l='40' u='r' c='kmount'/>
 <use f='MOS/kernel/filesystem/mount.c' l='53' u='r' c='kmount'/>
-<use f='MOS/kernel/filesystem/mount.c' l='76' u='r' c='kunmount'/>
+<use f='MOS/kernel/filesystem/mount.c' l='80' u='r' c='kunmount'/>

@@ -11,5 +11,5 @@
 <use f='MOS/kernel/filesystem/filesystem.c' l='164' u='r' c='vfs_path_readlink'/>
 <use f='MOS/kernel/filesystem/filesystem.c' l='184' u='r' c='vfs_path_stat'/>
 <use f='MOS/kernel/filesystem/mount.c' l='46' u='w' c='kmount'/>
-<use f='MOS/kernel/filesystem/mount.c' l='74' u='r' c='kunmount'/>
-<use f='MOS/kernel/filesystem/mount.c' l='76' u='r' c='kunmount'/>
+<use f='MOS/kernel/filesystem/mount.c' l='78' u='r' c='kunmount'/>
+<use f='MOS/kernel/filesystem/mount.c' l='80' u='r' c='kunmount'/>
