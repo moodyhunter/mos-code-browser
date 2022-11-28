@@ -48,9 +48,9 @@
 <use f='MOS/kernel/ksyscall.c' l='146' macro='1' u='c' c='impl_syscall_thread_exit'/>
 <use f='MOS/kernel/ksyscall.c' l='147' macro='1' u='c' c='impl_syscall_thread_exit'/>
 <use f='MOS/kernel/ksyscall.c' l='148' macro='1' u='c' c='impl_syscall_thread_exit'/>
-<use f='MOS/kernel/mm/cow.c' l='23' macro='1' u='c' c='copy_cow_pages_inplace'/>
-<use f='MOS/kernel/mm/cow.c' l='42' macro='1' u='c' c='cow_handle_page_fault'/>
-<use f='MOS/kernel/mm/cow.c' l='48' macro='1' u='c' c='cow_handle_page_fault'/>
+<use f='MOS/kernel/mm/cow.c' l='24' macro='1' u='c' c='copy_cow_pages_inplace'/>
+<use f='MOS/kernel/mm/cow.c' l='43' macro='1' u='c' c='cow_handle_page_fault'/>
+<use f='MOS/kernel/mm/cow.c' l='49' macro='1' u='c' c='cow_handle_page_fault'/>
 <use f='MOS/kernel/mm/liballoc.c' l='70' macro='1' u='c' c='kheap_alloc_page'/>
 <use f='MOS/kernel/mm/liballoc.c' l='94' macro='1' u='c' c='kheap_free_page'/>
 <use f='MOS/kernel/mm/memops.c' l='13' macro='1' u='c' c='mm_map_proxy_space'/>

@@ -8,6 +8,6 @@
 <use f='MOS/kernel/elf/elf.c' l='87' u='r' c='elf_create_process'/>
 <use f='MOS/kernel/elf/elf.c' l='94' u='r' c='elf_create_process'/>
 <use f='MOS/kernel/mm/liballoc.c' l='190' u='r' c='allocate_new_pages_for'/>
-<use f='MOS/kernel/tasks/process.c' l='226' u='r' c='process_dump_mmaps'/>
+<use f='MOS/kernel/tasks/process.c' l='225' u='r' c='process_dump_mmaps'/>
 <use f='MOS/kernel/tasks/thread.c' l='63' u='r' c='thread_new'/>
 <use f='MOS/kernel/tasks/thread.c' l='70' u='r' c='thread_new'/>

@@ -113,8 +113,9 @@
 <use f='MOS/kernel/kernel_init.c' l='108' macro='1' u='c' c='mos_start_kernel'/>
 <use f='MOS/kernel/ksyscall.c' l='74' macro='1' u='c' c='impl_syscall_exit'/>
 <use f='MOS/kernel/ksyscall.c' l='147' macro='1' u='c' c='impl_syscall_thread_exit'/>
-<use f='MOS/kernel/mm/cow.c' l='62' macro='1' u='c' c='cow_handle_page_fault'/>
-<use f='MOS/kernel/mm/cow.c' l='70' macro='1' u='c' c='cow_handle_page_fault'/>
+<use f='MOS/kernel/mm/cow.c' l='64' macro='1' u='c' c='cow_handle_page_fault'/>
+<use f='MOS/kernel/mm/cow.c' l='65' macro='1' u='c' c='cow_handle_page_fault'/>
+<use f='MOS/kernel/mm/cow.c' l='73' macro='1' u='c' c='cow_handle_page_fault'/>
 <use f='MOS/kernel/panic.c' l='22' macro='1' u='c' c='kwarn_handler_set'/>
 <use f='MOS/kernel/panic.c' l='28' macro='1' u='c' c='kwarn_handler_remove'/>
 <use f='MOS/kernel/panic.c' l='39' macro='1' u='c' c='mos_kpanic'/>
@@ -143,7 +144,8 @@
 <use f='MOS/kernel/tasks/process.c' l='187' macro='1' u='c' c='process_handle_cleanup'/>
 <use f='MOS/kernel/tasks/process.c' l='188' macro='1' u='c' c='process_handle_cleanup'/>
 <use f='MOS/kernel/tasks/process.c' l='190' macro='1' u='c' c='process_handle_cleanup'/>
-<use f='MOS/kernel/tasks/process.c' l='220' macro='1' u='c' c='process_dump_mmaps'/>
+<use f='MOS/kernel/tasks/process.c' l='206' macro='1' u='c' c='process_dump_mmaps'/>
+<use f='MOS/kernel/tasks/process.c' l='221' macro='1' u='c' c='process_dump_mmaps'/>
 <use f='MOS/tests/test_engine.c' l='67' u='c' c='test_engine_warning_handler'/>
 <use f='MOS/tests/test_engine.c' l='68' u='c' c='test_engine_warning_handler'/>
 <use f='MOS/tests/test_engine.c' l='126' macro='1' u='c' c='mos_test_engine_run_tests'/>

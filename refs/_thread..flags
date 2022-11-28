@@ -1,4 +1,4 @@
-<dec f='MOS/kernel/include/mos/tasks/task_type.h' l='79' type='thread_flags_t'/>
+<dec f='MOS/kernel/include/mos/tasks/task_type.h' l='78' type='thread_flags_t'/>
 <offset>640</offset>
 <use f='MOS/kernel/tasks/fork.c' l='61' u='r' c='process_handle_fork'/>
 <use f='MOS/kernel/tasks/thread.c' l='40' u='w' c='thread_allocate'/>

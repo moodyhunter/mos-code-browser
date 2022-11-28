@@ -28,3 +28,4 @@
 <use f='MOS/kernel/io/io.c' l='106' u='c'/>
 <use f='MOS/kernel/ksyscall.c' l='74' u='c'/>
 <use f='MOS/kernel/ksyscall.c' l='147' u='c'/>
+<use f='MOS/kernel/mm/cow.c' l='64' u='c'/>

@@ -1,3 +1,3 @@
 <dec f='MOS/kernel/include/mos/mm/cow.h' l='8' type='void copy_cow_pages_inplace(uintptr_t vaddr, size_t npages)'/>
-<def f='MOS/kernel/mm/cow.c' l='21' ll='35' type='void copy_cow_pages_inplace(uintptr_t vaddr, size_t npages)'/>
-<use f='MOS/kernel/mm/cow.c' l='64' u='c' c='cow_handle_page_fault'/>
+<def f='MOS/kernel/mm/cow.c' l='22' ll='36' type='void copy_cow_pages_inplace(uintptr_t vaddr, size_t npages)'/>
+<use f='MOS/kernel/mm/cow.c' l='67' u='c' c='cow_handle_page_fault'/>
