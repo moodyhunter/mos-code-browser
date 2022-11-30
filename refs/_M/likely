@@ -1,5 +1,5 @@
 <dec f='MOS/kernel/include/mos/mos_global.h' l='28'/>
-<use f='MOS/kernel/printk.c' l='101' u='c'/>
+<use f='MOS/kernel/printk.c' l='98' u='c'/>
 <use f='MOS/kernel/tasks/process.c' l='42' u='c'/>
 <use f='MOS/kernel/tasks/process.c' l='59' u='c'/>
 <use f='MOS/kernel/tasks/process.c' l='95' u='c'/>

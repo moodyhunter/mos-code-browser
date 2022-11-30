@@ -7,7 +7,7 @@
 <use f='MOS/kernel/device/console.c' l='49' u='a' c='console_get'/>
 <use f='MOS/kernel/device/console.c' l='59' u='m' c='console_get_by_prefix'/>
 <use f='MOS/kernel/device/console.c' l='59' u='a' c='console_get_by_prefix'/>
-<use f='MOS/kernel/printk.c' l='107' u='m' c='lprintk'/>
-<use f='MOS/kernel/printk.c' l='107' u='a' c='lprintk'/>
+<use f='MOS/kernel/printk.c' l='104' u='m' c='lvprintk'/>
+<use f='MOS/kernel/printk.c' l='104' u='a' c='lvprintk'/>
 <use f='MOS/tests/test_engine.c' l='19' u='m' c='for_each_console_print_with_color'/>
 <use f='MOS/tests/test_engine.c' l='19' u='a' c='for_each_console_print_with_color'/>
