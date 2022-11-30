@@ -38,5 +38,5 @@
 <use f='MOS/kernel/tasks/process.c' l='229' u='r' c='process_dump_mmaps'/>
 <use f='MOS/kernel/tasks/thread.c' l='64' u='r' c='thread_new'/>
 <use f='MOS/kernel/tasks/thread.c' l='71' u='r' c='thread_new'/>
-<use f='MOS/kernel/tasks/thread.c' l='75' u='r' c='thread_new'/>
 <use f='MOS/kernel/tasks/thread.c' l='77' u='r' c='thread_new'/>
+<use f='MOS/kernel/tasks/thread.c' l='79' u='r' c='thread_new'/>

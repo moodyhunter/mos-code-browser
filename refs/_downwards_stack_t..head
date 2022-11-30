@@ -4,8 +4,8 @@
 <use f='MOS/arch/x86/tasks/context.c' l='54' u='r' c='x86_switch_to_thread'/>
 <use f='MOS/arch/x86/tasks/context.c' l='56' u='r' c='x86_switch_to_thread'/>
 <use f='MOS/kernel/tasks/schedule.c' l='54' u='a' c='jump_to_scheduler'/>
-<use f='MOS/kernel/tasks/thread.c' l='80' u='w' c='thread_new'/>
-<use f='MOS/kernel/tasks/thread.c' l='80' u='r' c='thread_new'/>
+<use f='MOS/kernel/tasks/thread.c' l='81' u='w' c='thread_new'/>
+<use f='MOS/kernel/tasks/thread.c' l='81' u='r' c='thread_new'/>
 <use f='MOS/lib/structures/stack.c' l='13' u='w' c='stack_init'/>
 <use f='MOS/lib/structures/stack.c' l='25' u='r' c='stack_grow'/>
 <use f='MOS/lib/structures/stack.c' l='31' u='w' c='stack_grow'/>

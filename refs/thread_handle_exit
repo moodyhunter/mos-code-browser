@@ -1,3 +1,3 @@
 <dec f='MOS/kernel/include/mos/tasks/thread.h' l='26' type='void thread_handle_exit(thread_t * t)'/>
 <use f='MOS/kernel/ksyscall.c' l='148' u='c' c='impl_syscall_thread_exit'/>
-<def f='MOS/kernel/tasks/thread.c' l='95' ll='102' type='void thread_handle_exit(thread_t * t)'/>
+<def f='MOS/kernel/tasks/thread.c' l='96' ll='103' type='void thread_handle_exit(thread_t * t)'/>

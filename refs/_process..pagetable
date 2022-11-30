@@ -16,4 +16,4 @@
 <use f='MOS/kernel/tasks/schedule.c' l='24' u='r' c='mos_update_current'/>
 <use f='MOS/kernel/tasks/thread.c' l='63' u='r' c='thread_new'/>
 <use f='MOS/kernel/tasks/thread.c' l='70' u='r' c='thread_new'/>
-<use f='MOS/kernel/tasks/thread.c' l='75' u='r' c='thread_new'/>
+<use f='MOS/kernel/tasks/thread.c' l='77' u='r' c='thread_new'/>

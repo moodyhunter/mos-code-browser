@@ -70,7 +70,7 @@
 <use f='MOS/kernel/tasks/process.c' l='116' macro='1' u='c' c='process_get'/>
 <use f='MOS/kernel/tasks/process.c' l='126' macro='1' u='c' c='process_attach_ref_fd'/>
 <use f='MOS/kernel/tasks/process.c' l='172' macro='1' u='c' c='process_handle_exit'/>
-<use f='MOS/kernel/tasks/thread.c' l='100' macro='1' u='c' c='thread_handle_exit'/>
+<use f='MOS/kernel/tasks/thread.c' l='101' macro='1' u='c' c='thread_handle_exit'/>
 <use f='MOS/lib/stdio_impl.c' l='173' macro='1' u='c' c='parse_printf_flags'/>
 <use f='MOS/lib/stdio_impl.c' l='179' macro='1' u='c' c='parse_printf_flags'/>
 <use f='MOS/lib/stdio_impl.c' l='203' macro='1' u='c' c='printf_diouxX'/>
