@@ -1,4 +1,4 @@
-<dec f='MOS/kernel/include/mos/tasks/process.h' l='33' type='void process_attach_mmap(process_t * process, vmblock_t block, vm_type type, _Bool cow)'/>
+<dec f='MOS/kernel/include/mos/tasks/process.h' l='29' type='void process_attach_mmap(process_t * process, vmblock_t block, vm_type type, _Bool cow)'/>
 <use f='MOS/kernel/elf/elf.c' l='108' u='c' c='elf_create_process'/>
 <use f='MOS/kernel/tasks/fork.c' l='37' u='c' c='process_handle_fork'/>
 <use f='MOS/kernel/tasks/fork.c' l='43' u='c' c='process_handle_fork'/>
