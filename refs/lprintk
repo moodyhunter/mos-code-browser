@@ -36,8 +36,8 @@
 <use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='131' macro='1' u='c' c='x86_handle_interrupt'/>
 <use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='135' macro='1' u='c' c='x86_handle_interrupt'/>
 <use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='207' macro='1' u='c' c='x86_handle_exception'/>
-<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='229' macro='1' u='c' c='x86_handle_exception'/>
-<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='291' macro='1' u='c' c='x86_handle_irq'/>
+<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='221' macro='1' u='c' c='x86_handle_exception'/>
+<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='282' macro='1' u='c' c='x86_handle_irq'/>
 <use f='MOS/arch/x86/mm/mm.c' l='32' macro='1' u='c' c='x86_mem_init'/>
 <use f='MOS/arch/x86/mm/mm.c' l='45' macro='1' u='c' c='x86_mem_init'/>
 <use f='MOS/arch/x86/mm/mm.c' l='53' macro='1' u='c' c='x86_mem_init'/>
@@ -110,7 +110,7 @@
 <use f='MOS/kernel/kernel_init.c' l='64' macro='1' u='c' c='dump_cmdline'/>
 <use f='MOS/kernel/kernel_init.c' l='65' macro='1' u='c' c='dump_cmdline'/>
 <use f='MOS/kernel/kernel_init.c' l='77' macro='1' u='c' c='mos_start_kernel'/>
-<use f='MOS/kernel/kernel_init.c' l='109' macro='1' u='c' c='mos_start_kernel'/>
+<use f='MOS/kernel/kernel_init.c' l='105' macro='1' u='c' c='mos_start_kernel'/>
 <use f='MOS/kernel/ksyscall.c' l='74' macro='1' u='c' c='impl_syscall_exit'/>
 <use f='MOS/kernel/ksyscall.c' l='147' macro='1' u='c' c='impl_syscall_thread_exit'/>
 <use f='MOS/kernel/mm/cow.c' l='64' macro='1' u='c' c='cow_handle_page_fault'/>

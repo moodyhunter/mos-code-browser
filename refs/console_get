@@ -1,4 +1,4 @@
 <dec f='MOS/kernel/include/mos/device/console.h' l='74' type='console_t * console_get(const char * name)'/>
 <def f='MOS/kernel/device/console.c' l='47' ll='55' type='console_t * console_get(const char * name)'/>
-<use f='MOS/kernel/kernel_init.c' l='97' u='c' c='mos_start_kernel'/>
+<use f='MOS/kernel/kernel_init.c' l='93' u='c' c='mos_start_kernel'/>
 <use f='MOS/kernel/printk.c' l='34' u='c' c='printk_setup_console'/>

@@ -33,6 +33,6 @@
 <use f='MOS/arch/x86/interrupt/pic.c' l='68' u='c' c='pic_unmask_irq'/>
 <use f='MOS/arch/x86/interrupt/pic.c' l='73' u='c' c='pic_disable'/>
 <use f='MOS/arch/x86/interrupt/pic.c' l='74' u='c' c='pic_disable'/>
-<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='261' u='c' c='irq_send_eoi'/>
-<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='262' u='c' c='irq_send_eoi'/>
-<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='273' u='c' c='x86_handle_irq'/>
+<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='252' u='c' c='irq_send_eoi'/>
+<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='253' u='c' c='irq_send_eoi'/>
+<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='264' u='c' c='x86_handle_irq'/>

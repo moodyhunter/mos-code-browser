@@ -11,4 +11,4 @@
 <use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='137' u='m' c='x86_handle_interrupt'/>
 <use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='201' u='m' c='x86_handle_exception'/>
 <use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='212' u='m' c='x86_handle_exception'/>
-<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='233' u='m' c='x86_handle_exception'/>
+<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='225' u='m' c='x86_handle_exception'/>
