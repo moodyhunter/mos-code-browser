@@ -1,2 +1,2 @@
 <dec f='MOS/arch/x86/cpu/smp.c' l='32' type='void x86_ap_trampoline()'/>
-<use f='MOS/arch/x86/cpu/smp.c' l='134' u='a' c='x86_smp_init'/>
+<use f='MOS/arch/x86/cpu/smp.c' l='135' u='a' c='x86_smp_init'/>

@@ -1,2 +1,2 @@
 <dec f='MOS/arch/x86/include/mos/x86/cpu/smp.h' l='7' type='void x86_smp_init()'/>
-<def f='MOS/arch/x86/cpu/smp.c' l='102' ll='147' type='void x86_smp_init()'/>
+<def f='MOS/arch/x86/cpu/smp.c' l='102' ll='148' type='void x86_smp_init()'/>

@@ -4,7 +4,7 @@
 <use f='MOS/arch/x86/boot/multiboot/startup.c' l='150' u='r' c='x86_startup'/>
 <use f='MOS/arch/x86/boot/multiboot/startup.c' l='158' u='r' c='x86_startup'/>
 <use f='MOS/arch/x86/boot/multiboot/startup.c' l='168' u='r' c='x86_startup'/>
-<use f='MOS/arch/x86/cpu/smp.c' l='133' u='r' c='x86_smp_init'/>
+<use f='MOS/arch/x86/cpu/smp.c' l='134' u='r' c='x86_smp_init'/>
 <use f='MOS/arch/x86/interrupt/apic.c' l='110' u='r' c='apic_enable'/>
 <use f='MOS/arch/x86/interrupt/apic.c' l='111' u='r' c='apic_enable'/>
 <use f='MOS/arch/x86/mm/paging.c' l='41' u='r' c='x86_mm_prepare_paging'/>
