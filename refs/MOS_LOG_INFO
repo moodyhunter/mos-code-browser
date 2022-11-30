@@ -26,14 +26,12 @@
 <use f='MOS/arch/x86/x86_platform.c' l='142' macro='1' u='r' c='x86_start_kernel'/>
 <use f='MOS/kernel/device/console.c' l='37' macro='1' u='r' c='console_register'/>
 <use f='MOS/kernel/filesystem/mount.c' l='40' macro='1' u='r' c='kmount'/>
-<use f='MOS/kernel/kernel_init.c' l='25' macro='1' u='r' c='mount_initrd'/>
-<use f='MOS/kernel/kernel_init.c' l='31' macro='1' u='r' c='mount_initrd'/>
-<use f='MOS/kernel/kernel_init.c' l='56' macro='1' u='r' c='dump_cmdline'/>
-<use f='MOS/kernel/kernel_init.c' l='63' macro='1' u='r' c='dump_cmdline'/>
+<use f='MOS/kernel/kernel_init.c' l='57' macro='1' u='r' c='dump_cmdline'/>
 <use f='MOS/kernel/kernel_init.c' l='64' macro='1' u='r' c='dump_cmdline'/>
-<use f='MOS/kernel/kernel_init.c' l='76' macro='1' u='r' c='mos_start_kernel'/>
-<use f='MOS/kernel/kernel_init.c' l='108' macro='1' u='r' c='mos_start_kernel'/>
+<use f='MOS/kernel/kernel_init.c' l='65' macro='1' u='r' c='dump_cmdline'/>
+<use f='MOS/kernel/kernel_init.c' l='77' macro='1' u='r' c='mos_start_kernel'/>
+<use f='MOS/kernel/kernel_init.c' l='109' macro='1' u='r' c='mos_start_kernel'/>
 <use f='MOS/kernel/printk.c' l='60' c='deduce_level_color'/>
-<use f='MOS/kernel/tasks/process.c' l='158' macro='1' u='r' c='process_handle_exit'/>
-<use f='MOS/kernel/tasks/process.c' l='206' macro='1' u='r' c='process_dump_mmaps'/>
-<use f='MOS/kernel/tasks/process.c' l='221' macro='1' u='r' c='process_dump_mmaps'/>
+<use f='MOS/kernel/tasks/process.c' l='164' macro='1' u='r' c='process_handle_exit'/>
+<use f='MOS/kernel/tasks/process.c' l='212' macro='1' u='r' c='process_dump_mmaps'/>
+<use f='MOS/kernel/tasks/process.c' l='227' macro='1' u='r' c='process_dump_mmaps'/>

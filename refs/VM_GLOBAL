@@ -13,4 +13,4 @@
 <use f='MOS/arch/x86/x86_platform.c' l='135' u='r' c='x86_start_kernel'/>
 <use f='MOS/arch/x86/x86_platform.c' l='148' u='r' c='x86_start_kernel'/>
 <use f='MOS/arch/x86/x86_platform_api.c' l='65' u='r' c='platform_mm_create_user_pgd'/>
-<use f='MOS/kernel/tasks/process.c' l='228' u='r' c='process_dump_mmaps'/>
+<use f='MOS/kernel/tasks/process.c' l='234' u='r' c='process_dump_mmaps'/>

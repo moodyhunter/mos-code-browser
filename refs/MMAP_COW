@@ -2,6 +2,6 @@
 <use f='MOS/kernel/mm/cow.c' l='61' u='r' c='cow_handle_page_fault'/>
 <use f='MOS/kernel/mm/cow.c' l='69' u='r' c='cow_handle_page_fault'/>
 <use f='MOS/kernel/tasks/fork.c' l='41' u='r' c='process_handle_fork'/>
-<use f='MOS/kernel/tasks/process.c' l='152' u='r' c='process_attach_mmap'/>
-<use f='MOS/kernel/tasks/process.c' l='197' u='r' c='process_handle_cleanup'/>
-<use f='MOS/kernel/tasks/process.c' l='230' u='r' c='process_dump_mmaps'/>
+<use f='MOS/kernel/tasks/process.c' l='158' u='r' c='process_attach_mmap'/>
+<use f='MOS/kernel/tasks/process.c' l='203' u='r' c='process_handle_cleanup'/>
+<use f='MOS/kernel/tasks/process.c' l='236' u='r' c='process_dump_mmaps'/>

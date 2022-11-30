@@ -2,7 +2,7 @@
 <use f='MOS/kernel/device/block.c' l='56' u='c' c='blockdev_register'/>
 <use f='MOS/kernel/tasks/fork.c' l='68' u='c' c='process_handle_fork'/>
 <use f='MOS/kernel/tasks/fork.c' l='71' u='c' c='process_handle_fork'/>
-<use f='MOS/kernel/tasks/process.c' l='101' u='c' c='process_new'/>
+<use f='MOS/kernel/tasks/process.c' l='107' u='c' c='process_new'/>
 <use f='MOS/kernel/tasks/thread.c' l='84' u='c' c='thread_new'/>
 <def f='MOS/lib/structures/hashmap.c' l='58' ll='81' type='void * hashmap_put(hashmap_t * map, const void * key, void * value)'/>
 <use f='MOS/tests/hashmap/test_hashmap.c' l='31' u='c' c='hashmap_put_single'/>

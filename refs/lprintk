@@ -105,12 +105,12 @@
 <use f='MOS/kernel/kernel_init.c' l='31' macro='1' u='c' c='mount_initrd'/>
 <use f='MOS/kernel/kernel_init.c' l='44' macro='1' u='c' c='cmdline_get_init_path'/>
 <use f='MOS/kernel/kernel_init.c' l='51' macro='1' u='c' c='dump_cmdline'/>
-<use f='MOS/kernel/kernel_init.c' l='52' macro='1' u='c' c='dump_cmdline'/>
-<use f='MOS/kernel/kernel_init.c' l='56' macro='1' u='c' c='dump_cmdline'/>
-<use f='MOS/kernel/kernel_init.c' l='63' macro='1' u='c' c='dump_cmdline'/>
+<use f='MOS/kernel/kernel_init.c' l='53' macro='1' u='c' c='dump_cmdline'/>
+<use f='MOS/kernel/kernel_init.c' l='57' macro='1' u='c' c='dump_cmdline'/>
 <use f='MOS/kernel/kernel_init.c' l='64' macro='1' u='c' c='dump_cmdline'/>
-<use f='MOS/kernel/kernel_init.c' l='76' macro='1' u='c' c='mos_start_kernel'/>
-<use f='MOS/kernel/kernel_init.c' l='108' macro='1' u='c' c='mos_start_kernel'/>
+<use f='MOS/kernel/kernel_init.c' l='65' macro='1' u='c' c='dump_cmdline'/>
+<use f='MOS/kernel/kernel_init.c' l='77' macro='1' u='c' c='mos_start_kernel'/>
+<use f='MOS/kernel/kernel_init.c' l='109' macro='1' u='c' c='mos_start_kernel'/>
 <use f='MOS/kernel/ksyscall.c' l='74' macro='1' u='c' c='impl_syscall_exit'/>
 <use f='MOS/kernel/ksyscall.c' l='147' macro='1' u='c' c='impl_syscall_thread_exit'/>
 <use f='MOS/kernel/mm/cow.c' l='64' macro='1' u='c' c='cow_handle_page_fault'/>
@@ -136,16 +136,17 @@
 <def f='MOS/kernel/printk.c' l='92' ll='112' type='void lprintk(int loglevel, const char * fmt)'/>
 <use f='MOS/kernel/tasks/fork.c' l='16' macro='1' u='c' c='process_handle_fork'/>
 <use f='MOS/kernel/tasks/fork.c' l='26' macro='1' u='c' c='process_handle_fork'/>
-<use f='MOS/kernel/tasks/process.c' l='48' macro='1' u='c' c='process_allocate'/>
-<use f='MOS/kernel/tasks/process.c' l='144' macro='1' u='c' c='process_attach_thread'/>
-<use f='MOS/kernel/tasks/process.c' l='158' macro='1' u='c' c='process_handle_exit'/>
-<use f='MOS/kernel/tasks/process.c' l='160' macro='1' u='c' c='process_handle_exit'/>
-<use f='MOS/kernel/tasks/process.c' l='172' macro='1' u='c' c='process_handle_exit'/>
-<use f='MOS/kernel/tasks/process.c' l='187' macro='1' u='c' c='process_handle_cleanup'/>
-<use f='MOS/kernel/tasks/process.c' l='188' macro='1' u='c' c='process_handle_cleanup'/>
-<use f='MOS/kernel/tasks/process.c' l='190' macro='1' u='c' c='process_handle_cleanup'/>
-<use f='MOS/kernel/tasks/process.c' l='206' macro='1' u='c' c='process_dump_mmaps'/>
-<use f='MOS/kernel/tasks/process.c' l='221' macro='1' u='c' c='process_dump_mmaps'/>
+<use f='MOS/kernel/tasks/process.c' l='50' macro='1' u='c' c='process_allocate'/>
+<use f='MOS/kernel/tasks/process.c' l='54' macro='1' u='c' c='process_allocate'/>
+<use f='MOS/kernel/tasks/process.c' l='150' macro='1' u='c' c='process_attach_thread'/>
+<use f='MOS/kernel/tasks/process.c' l='164' macro='1' u='c' c='process_handle_exit'/>
+<use f='MOS/kernel/tasks/process.c' l='166' macro='1' u='c' c='process_handle_exit'/>
+<use f='MOS/kernel/tasks/process.c' l='178' macro='1' u='c' c='process_handle_exit'/>
+<use f='MOS/kernel/tasks/process.c' l='193' macro='1' u='c' c='process_handle_cleanup'/>
+<use f='MOS/kernel/tasks/process.c' l='194' macro='1' u='c' c='process_handle_cleanup'/>
+<use f='MOS/kernel/tasks/process.c' l='196' macro='1' u='c' c='process_handle_cleanup'/>
+<use f='MOS/kernel/tasks/process.c' l='212' macro='1' u='c' c='process_dump_mmaps'/>
+<use f='MOS/kernel/tasks/process.c' l='227' macro='1' u='c' c='process_dump_mmaps'/>
 <use f='MOS/tests/test_engine.c' l='67' u='c' c='test_engine_warning_handler'/>
 <use f='MOS/tests/test_engine.c' l='68' u='c' c='test_engine_warning_handler'/>
 <use f='MOS/tests/test_engine.c' l='126' macro='1' u='c' c='mos_test_engine_run_tests'/>

@@ -4,4 +4,4 @@
 <use f='MOS/arch/x86/mm/paging.c' l='52' u='r' c='x86_mm_prepare_paging'/>
 <use f='MOS/kernel/elf/elf.c' l='89' u='r' c='elf_create_process'/>
 <use f='MOS/kernel/elf/elf.c' l='94' u='r' c='elf_create_process'/>
-<use f='MOS/kernel/tasks/process.c' l='227' u='r' c='process_dump_mmaps'/>
+<use f='MOS/kernel/tasks/process.c' l='233' u='r' c='process_dump_mmaps'/>

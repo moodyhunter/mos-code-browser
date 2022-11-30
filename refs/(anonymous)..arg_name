@@ -3,7 +3,7 @@
 <use f='MOS/kernel/cmdline.c' l='93' u='r' c='mos_cmdline_destroy'/>
 <use f='MOS/kernel/cmdline.c' l='114' u='r' c='mos_cmdline_get_arg'/>
 <offset>0</offset>
-<use f='MOS/kernel/kernel_init.c' l='56' u='r' c='dump_cmdline'/>
+<use f='MOS/kernel/kernel_init.c' l='57' u='r' c='dump_cmdline'/>
 <use f='MOS/tests/cmdline_parser/test_cmdline_parser.c' l='12' u='r' c='simple_cmdline'/>
 <use f='MOS/tests/cmdline_parser/test_cmdline_parser.c' l='12' u='r' c='simple_cmdline'/>
 <use f='MOS/tests/cmdline_parser/test_cmdline_parser.c' l='23' u='r' c='two_arguments'/>
