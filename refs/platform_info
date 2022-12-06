@@ -6,17 +6,17 @@
 <use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='207' macro='1' u='r' c='x86_handle_exception'/>
 <use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='221' macro='1' u='r' c='x86_handle_exception'/>
 <use f='MOS/arch/x86/tasks/context.c' l='44' macro='1' u='r' c='x86_switch_to_thread'/>
-<use f='MOS/arch/x86/x86_platform.c' l='74' macro='1' u='r' c='x86_kpanic_hook'/>
-<use f='MOS/arch/x86/x86_platform.c' l='76' macro='1' u='r' c='x86_kpanic_hook'/>
-<use f='MOS/arch/x86/x86_platform.c' l='78' macro='1' u='r' c='x86_kpanic_hook'/>
-<use f='MOS/arch/x86/x86_platform.c' l='78' macro='1' u='r' c='x86_kpanic_hook'/>
-<use f='MOS/arch/x86/x86_platform.c' l='78' macro='1' u='r' c='x86_kpanic_hook'/>
-<use f='MOS/arch/x86/x86_platform.c' l='80' macro='1' u='r' c='x86_kpanic_hook'/>
+<use f='MOS/arch/x86/x86_platform.c' l='75' macro='1' u='r' c='x86_kpanic_hook'/>
+<use f='MOS/arch/x86/x86_platform.c' l='77' macro='1' u='r' c='x86_kpanic_hook'/>
+<use f='MOS/arch/x86/x86_platform.c' l='79' macro='1' u='r' c='x86_kpanic_hook'/>
+<use f='MOS/arch/x86/x86_platform.c' l='79' macro='1' u='r' c='x86_kpanic_hook'/>
+<use f='MOS/arch/x86/x86_platform.c' l='79' macro='1' u='r' c='x86_kpanic_hook'/>
 <use f='MOS/arch/x86/x86_platform.c' l='81' macro='1' u='r' c='x86_kpanic_hook'/>
-<use f='MOS/arch/x86/x86_platform.c' l='81' macro='1' u='r' c='x86_kpanic_hook'/>
-<use f='MOS/arch/x86/x86_platform.c' l='97' macro='1' u='r' c='x86_kpanic_hook'/>
-<use f='MOS/arch/x86/x86_platform.c' l='126' macro='1' u='r' c='x86_start_kernel'/>
-<def f='MOS/arch/x86/x86_platform.c' l='183' type='mos_platform_info_t *const'/>
+<use f='MOS/arch/x86/x86_platform.c' l='82' macro='1' u='r' c='x86_kpanic_hook'/>
+<use f='MOS/arch/x86/x86_platform.c' l='82' macro='1' u='r' c='x86_kpanic_hook'/>
+<use f='MOS/arch/x86/x86_platform.c' l='98' macro='1' u='r' c='x86_kpanic_hook'/>
+<use f='MOS/arch/x86/x86_platform.c' l='127' macro='1' u='r' c='x86_start_kernel'/>
+<def f='MOS/arch/x86/x86_platform.c' l='184' type='mos_platform_info_t *const'/>
 <use f='MOS/kernel/elf/elf.c' l='50' macro='1' u='r' c='elf_create_process'/>
 <use f='MOS/kernel/elf/elf.c' l='98' macro='1' u='r' c='elf_create_process'/>
 <use f='MOS/kernel/elf/elf.c' l='124' macro='1' u='r' c='elf_create_process'/>

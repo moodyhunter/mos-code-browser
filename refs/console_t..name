@@ -1,7 +1,7 @@
 <dec f='MOS/kernel/include/mos/device/console.h' l='48' type='const char *'/>
 <offset>128</offset>
 <use f='MOS/arch/x86/devices/text_mode_console.c' l='165' u='w'/>
-<use f='MOS/arch/x86/x86_platform.c' l='30' u='w'/>
+<use f='MOS/arch/x86/x86_platform.c' l='31' u='w'/>
 <use f='MOS/kernel/device/console.c' l='19' u='w'/>
 <use f='MOS/kernel/device/console.c' l='37' u='r' c='console_register'/>
 <use f='MOS/kernel/device/console.c' l='41' u='r' c='console_register'/>

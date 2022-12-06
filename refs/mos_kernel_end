@@ -1,2 +1,2 @@
 <dec f='MOS/arch/x86/include/mos/x86/x86_platform.h' l='73' type='const uintptr_t'/>
-<def f='MOS/arch/x86/x86_platform.c' l='35' type='const uintptr_t'/>
+<def f='MOS/arch/x86/x86_platform.c' l='36' type='const uintptr_t'/>

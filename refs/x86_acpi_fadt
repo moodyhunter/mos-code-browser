@@ -1,4 +1,4 @@
 <dec f='MOS/arch/x86/include/mos/x86/acpi/acpi.h' l='11' type='acpi_fadt_t *'/>
 <def f='MOS/arch/x86/acpi/acpi.c' l='19' type='acpi_fadt_t *'/>
-<use f='MOS/arch/x86/acpi/acpi.c' l='54' u='w' c='x86_acpi_init'/>
-<use f='MOS/arch/x86/acpi/acpi.c' l='55' u='r' c='x86_acpi_init'/>
+<use f='MOS/arch/x86/acpi/acpi.c' l='57' u='w' c='x86_acpi_init'/>
+<use f='MOS/arch/x86/acpi/acpi.c' l='58' u='r' c='x86_acpi_init'/>

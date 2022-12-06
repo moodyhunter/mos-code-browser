@@ -1,12 +1,13 @@
 <dec f='MOS/kernel/include/mos/printk.h' l='74' type='void mos_kpanic(const char * func, u32 line, const char * fmt)'/>
 <use f='MOS/arch/x86/acpi/acpi.c' l='36' macro='1' u='c' c='x86_acpi_init'/>
-<use f='MOS/arch/x86/acpi/acpi.c' l='42' macro='1' u='c' c='x86_acpi_init'/>
-<use f='MOS/arch/x86/acpi/acpi.c' l='44' macro='1' u='c' c='x86_acpi_init'/>
-<use f='MOS/arch/x86/acpi/acpi.c' l='56' macro='1' u='c' c='x86_acpi_init'/>
-<use f='MOS/arch/x86/acpi/acpi.c' l='62' macro='1' u='c' c='x86_acpi_init'/>
-<use f='MOS/arch/x86/acpi/acpi.c' l='70' macro='1' u='c' c='x86_acpi_init'/>
-<use f='MOS/arch/x86/acpi/acpi.c' l='80' macro='1' u='c' c='x86_acpi_init'/>
-<use f='MOS/arch/x86/acpi/acpi.c' l='155' macro='1' u='c' c='find_acpi_rsdp'/>
+<use f='MOS/arch/x86/acpi/acpi.c' l='41' macro='1' u='c' c='x86_acpi_init'/>
+<use f='MOS/arch/x86/acpi/acpi.c' l='45' macro='1' u='c' c='x86_acpi_init'/>
+<use f='MOS/arch/x86/acpi/acpi.c' l='47' macro='1' u='c' c='x86_acpi_init'/>
+<use f='MOS/arch/x86/acpi/acpi.c' l='59' macro='1' u='c' c='x86_acpi_init'/>
+<use f='MOS/arch/x86/acpi/acpi.c' l='65' macro='1' u='c' c='x86_acpi_init'/>
+<use f='MOS/arch/x86/acpi/acpi.c' l='73' macro='1' u='c' c='x86_acpi_init'/>
+<use f='MOS/arch/x86/acpi/acpi.c' l='83' macro='1' u='c' c='x86_acpi_init'/>
+<use f='MOS/arch/x86/acpi/acpi.c' l='158' macro='1' u='c' c='acpi_find_rsdp'/>
 <use f='MOS/arch/x86/cpu/cpuid.c' l='21' macro='1' u='c' c='cpuid_get_manufacturer'/>
 <use f='MOS/arch/x86/gdt/gdt.c' l='36' macro='1' u='c' c='gdt32_set_entry'/>
 <use f='MOS/arch/x86/interrupt/apic.c' l='99' macro='1' u='c' c='apic_enable'/>
@@ -40,7 +41,7 @@
 <use f='MOS/arch/x86/mm/pmem_freelist.c' l='164' macro='1' u='c' c='pmem_freelist_remove_region'/>
 <use f='MOS/arch/x86/mm/pmem_freelist.c' l='239' macro='1' u='c' c='pmem_freelist_remove_region'/>
 <use f='MOS/arch/x86/mm/pmem_freelist.c' l='289' macro='1' u='c' c='pmem_freelist_find_free'/>
-<use f='MOS/arch/x86/x86_platform.c' l='39' macro='1' u='c' c='x86_keyboard_handler'/>
+<use f='MOS/arch/x86/x86_platform.c' l='40' macro='1' u='c' c='x86_keyboard_handler'/>
 <use f='MOS/kernel/cmdline.c' l='70' macro='1' u='c' c='mos_cmdline_create'/>
 <use f='MOS/kernel/cmdline.c' l='111' macro='1' u='c' c='mos_cmdline_get_arg'/>
 <use f='MOS/kernel/device/block.c' l='51' macro='1' u='c' c='blockdev_register'/>

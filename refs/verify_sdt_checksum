@@ -1,5 +1,5 @@
 <def f='MOS/arch/x86/acpi/acpi.c' l='21' ll='27' macro='1' type='_Bool verify_sdt_checksum(acpi_sdt_header_t * tableHeader)'/>
-<use f='MOS/arch/x86/acpi/acpi.c' l='41' u='c' c='x86_acpi_init'/>
-<use f='MOS/arch/x86/acpi/acpi.c' l='55' u='c' c='x86_acpi_init'/>
-<use f='MOS/arch/x86/acpi/acpi.c' l='61' u='c' c='x86_acpi_init'/>
-<use f='MOS/arch/x86/acpi/acpi.c' l='69' u='c' c='x86_acpi_init'/>
+<use f='MOS/arch/x86/acpi/acpi.c' l='44' u='c' c='x86_acpi_init'/>
+<use f='MOS/arch/x86/acpi/acpi.c' l='58' u='c' c='x86_acpi_init'/>
+<use f='MOS/arch/x86/acpi/acpi.c' l='64' u='c' c='x86_acpi_init'/>
+<use f='MOS/arch/x86/acpi/acpi.c' l='72' u='c' c='x86_acpi_init'/>

@@ -1,2 +1,2 @@
 <dec f='MOS/arch/x86/include/mos/x86/devices/serial.h' l='101' type='1'/>
-<use f='MOS/arch/x86/x86_platform.c' l='26' u='r'/>
+<use f='MOS/arch/x86/x86_platform.c' l='27' u='r'/>

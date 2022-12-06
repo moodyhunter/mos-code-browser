@@ -1,4 +1,4 @@
 <dec f='MOS/arch/x86/include/mos/x86/acpi/acpi.h' l='10' type='acpi_hpet_t *'/>
 <def f='MOS/arch/x86/acpi/acpi.c' l='18' type='acpi_hpet_t *'/>
-<use f='MOS/arch/x86/acpi/acpi.c' l='66' u='w' c='x86_acpi_init'/>
-<use f='MOS/arch/x86/acpi/acpi.c' l='69' u='r' c='x86_acpi_init'/>
+<use f='MOS/arch/x86/acpi/acpi.c' l='69' u='w' c='x86_acpi_init'/>
+<use f='MOS/arch/x86/acpi/acpi.c' l='72' u='r' c='x86_acpi_init'/>

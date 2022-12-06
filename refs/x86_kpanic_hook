@@ -1,2 +1,2 @@
-<def f='MOS/arch/x86/x86_platform.c' l='71' ll='100' type='void x86_kpanic_hook()'/>
-<use f='MOS/arch/x86/x86_platform.c' l='154' u='r' c='x86_start_kernel'/>
+<def f='MOS/arch/x86/x86_platform.c' l='72' ll='101' type='void x86_kpanic_hook()'/>
+<use f='MOS/arch/x86/x86_platform.c' l='155' u='r' c='x86_start_kernel'/>
