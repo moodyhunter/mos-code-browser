@@ -1,4 +1,4 @@
-<dec f='MOS/kernel/include/mos/platform/platform.h' l='49' type='2'/>
-<doc f='MOS/kernel/include/mos/platform/platform.h' l='49'>// userspace stack</doc>
+<dec f='MOS/kernel/include/mos/platform/platform.h' l='51' type='2'/>
+<doc f='MOS/kernel/include/mos/platform/platform.h' l='51'>// userspace stack</doc>
 <use f='MOS/kernel/tasks/process.c' l='221' c='process_dump_mmaps'/>
 <use f='MOS/kernel/tasks/thread.c' l='72' u='r' c='thread_new'/>

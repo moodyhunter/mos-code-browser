@@ -1,6 +1,6 @@
 <dec f='MOS/kernel/include/mos/tasks/task_type.h' l='52' type='const char *'/>
-<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='209' u='r' c='x86_handle_exception'/>
-<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='221' u='r' c='x86_handle_exception'/>
+<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='213' u='r' c='x86_handle_exception'/>
+<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='225' u='r' c='x86_handle_exception'/>
 <offset>64</offset>
 <use f='MOS/arch/x86/x86_platform.c' l='79' u='r' c='x86_kpanic_hook'/>
 <use f='MOS/kernel/kernel_init.c' l='105' u='r' c='mos_start_kernel'/>

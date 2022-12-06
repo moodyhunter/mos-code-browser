@@ -1,11 +1,11 @@
-<dec f='MOS/kernel/include/mos/platform/platform.h' l='62' type='thread_t *'/>
+<dec f='MOS/kernel/include/mos/platform/platform.h' l='64' type='thread_t *'/>
 <offset>64</offset>
 <use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='112' macro='1' u='r' c='x86_handle_interrupt'/>
-<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='205' macro='1' u='r' c='x86_handle_exception'/>
-<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='207' macro='1' u='r' c='x86_handle_exception'/>
-<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='207' macro='1' u='r' c='x86_handle_exception'/>
-<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='207' macro='1' u='r' c='x86_handle_exception'/>
-<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='221' macro='1' u='r' c='x86_handle_exception'/>
+<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='209' macro='1' u='r' c='x86_handle_exception'/>
+<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='211' macro='1' u='r' c='x86_handle_exception'/>
+<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='211' macro='1' u='r' c='x86_handle_exception'/>
+<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='211' macro='1' u='r' c='x86_handle_exception'/>
+<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='225' macro='1' u='r' c='x86_handle_exception'/>
 <use f='MOS/arch/x86/x86_platform.c' l='77' macro='1' u='r' c='x86_kpanic_hook'/>
 <use f='MOS/arch/x86/x86_platform.c' l='79' macro='1' u='r' c='x86_kpanic_hook'/>
 <use f='MOS/arch/x86/x86_platform.c' l='79' macro='1' u='r' c='x86_kpanic_hook'/>

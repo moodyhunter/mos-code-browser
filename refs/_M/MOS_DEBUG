@@ -1,4 +1,4 @@
-<dec f='MOS/build/include/mos/kconfig.h' l='25'/>
+<dec f='MOS/build/include/mos/kconfig.h' l='24'/>
 <use f='MOS/arch/x86/mm/paging.c' l='73' u='c'/>
 <use f='MOS/kernel/elf/elf.c' l='111' u='c'/>
 <use f='MOS/kernel/tasks/schedule.c' l='35' u='c'/>

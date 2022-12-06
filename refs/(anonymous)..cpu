@@ -1,13 +1,13 @@
-<dec f='MOS/kernel/include/mos/platform/platform.h' l='88' type='struct (unnamed struct at /home/runner/work/MOS/MOS/kernel/include/mos/platform/platform.h:88:5)'/>
+<dec f='MOS/kernel/include/mos/platform/platform.h' l='90' type='struct (unnamed struct at /home/runner/work/MOS/MOS/kernel/include/mos/platform/platform.h:90:5)'/>
 <offset>448</offset>
 <use f='MOS/arch/x86/cpu/smp.c' l='59' u='m' c='ap_begin_exec'/>
 <use f='MOS/arch/x86/cpu/smp.c' l='117' u='m' c='x86_smp_init'/>
 <use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='112' macro='1' u='m' c='x86_handle_interrupt'/>
-<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='205' macro='1' u='m' c='x86_handle_exception'/>
-<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='207' macro='1' u='m' c='x86_handle_exception'/>
-<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='207' macro='1' u='m' c='x86_handle_exception'/>
-<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='207' macro='1' u='m' c='x86_handle_exception'/>
-<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='221' macro='1' u='m' c='x86_handle_exception'/>
+<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='209' macro='1' u='m' c='x86_handle_exception'/>
+<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='211' macro='1' u='m' c='x86_handle_exception'/>
+<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='211' macro='1' u='m' c='x86_handle_exception'/>
+<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='211' macro='1' u='m' c='x86_handle_exception'/>
+<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='225' macro='1' u='m' c='x86_handle_exception'/>
 <use f='MOS/arch/x86/tasks/context.c' l='44' macro='1' u='m' c='x86_switch_to_thread'/>
 <use f='MOS/arch/x86/x86_platform.c' l='75' macro='1' u='m' c='x86_kpanic_hook'/>
 <use f='MOS/arch/x86/x86_platform.c' l='77' macro='1' u='m' c='x86_kpanic_hook'/>

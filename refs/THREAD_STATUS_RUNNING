@@ -1,5 +1,5 @@
 <dec f='MOS/kernel/include/mos/tasks/task_type.h' l='17' type='2'/>
-<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='134' u='r' c='x86_handle_interrupt'/>
+<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='137' u='r' c='x86_handle_interrupt'/>
 <doc f='MOS/kernel/include/mos/tasks/task_type.h' l='17'>// thread is currently running</doc>
 <use f='MOS/kernel/tasks/schedule.c' l='19' u='r' c='mos_update_current'/>
 <use f='MOS/kernel/tasks/schedule.c' l='23' u='r' c='mos_update_current'/>

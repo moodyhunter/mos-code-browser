@@ -1,0 +1,2 @@
+<dec f='MOS/kernel/include/mos/platform/platform.h' l='44' type='3'/>
+<use f='MOS/arch/x86/mm/paging_impl.c' l='57' c='pg_page_get_free'/>
