@@ -5,5 +5,5 @@
 <use f='MOS/kernel/filesystem/cpio/cpio.c' l='157' u='c' c='cpio_stat'/>
 <use f='MOS/kernel/filesystem/cpio/cpio.c' l='160' u='c' c='cpio_stat'/>
 <use f='MOS/kernel/filesystem/cpio/cpio.c' l='190' u='c' c='cpio_readlink'/>
-<use f='MOS/lib/string.c' l='156' u='c' c='strtoll'/>
-<def f='MOS/lib/string.c' l='159' ll='187' type='s64 strntoll(const char * str, char ** endptr, int base, size_t n)'/>
+<use f='MOS/lib/string.c' l='157' u='c' c='strtoll'/>
+<def f='MOS/lib/string.c' l='160' ll='188' type='s64 strntoll(const char * str, char ** endptr, int base, size_t n)'/>

@@ -1,0 +1,2 @@
+<def f='MOS/userspace/include/libuserspace.h' l='21' macro='1' type='void * malloc(size_t size)'/>
+<use f='MOS/userspace/libuserspace.c' l='107' u='c' c='start_thread'/>

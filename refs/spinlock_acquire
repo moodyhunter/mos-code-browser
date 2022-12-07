@@ -1,2 +1,2 @@
 <def f='MOS/lib/include/lib/sync/spinlock.h' l='17' ll='21' macro='1' type='void spinlock_acquire(spinlock_t * lock)'/>
-<use f='MOS/kernel/mm/liballoc.c' l='102' u='c' c='liballoc_lock'/>
+<use f='MOS/lib/liballoc.c' l='59' u='c' c='liballoc_lock'/>

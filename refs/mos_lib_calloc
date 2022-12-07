@@ -1,2 +1,0 @@
-<def f='MOS/lib/include/lib/mos_lib.h' l='32' ll='35' macro='1' type='void * mos_lib_calloc(size_t nmemb, size_t size)'/>
-<use f='MOS/lib/structures/hashmap.c' l='26' u='c' c='hashmap_init'/>

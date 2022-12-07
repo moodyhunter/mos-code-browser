@@ -5,4 +5,5 @@
 <use f='MOS/kernel/filesystem/pathutils.c' l='149' u='c' c='path_to_string_relative'/>
 <use f='MOS/kernel/filesystem/pathutils.c' l='152' u='c' c='path_to_string_relative'/>
 <use f='MOS/kernel/filesystem/pathutils.c' l='169' u='c' c='path_to_string_relative'/>
-<def f='MOS/lib/string.c' l='146' ll='152' type='const char * duplicate_string(const char * src, size_t len)'/>
+<use f='MOS/kernel/tasks/process.c' l='61' u='c' c='process_allocate'/>
+<def f='MOS/lib/string.c' l='147' ll='153' type='const char * duplicate_string(const char * src, size_t len)'/>

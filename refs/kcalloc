@@ -4,7 +4,6 @@
 <use f='MOS/kernel/filesystem/pathutils.c' l='59' u='c' c='impl_path_get_subpath'/>
 <use f='MOS/kernel/io/terminal.c' l='61' u='c' c='terminal_create_console'/>
 <use f='MOS/kernel/io/terminal.c' l='70' u='c' c='terminal_create_pipe'/>
-<use f='MOS/lib/include/lib/mos_lib.h' l='34' u='c' c='mos_lib_calloc'/>
 <use f='MOS/tests/memops/test_memops.c' l='9' u='c' c='test_lib_memcpy'/>
 <use f='MOS/tests/memops/test_memops.c' l='10' u='c' c='test_lib_memcpy'/>
 <use f='MOS/tests/memops/test_memops.c' l='26' u='c' c='test_lib_memmove_simple'/>

@@ -2,5 +2,5 @@
 <use f='MOS/kernel/filesystem/filesystem.c' l='23' u='c' c='vfs_io_ops_close'/>
 <use f='MOS/kernel/filesystem/filesystem.c' l='136' u='c' c='vfs_path_open'/>
 <use f='MOS/kernel/filesystem/filesystem.c' l='192' u='c' c='file_io_cleanup'/>
-<def f='MOS/lib/structures/tree.c' l='65' ll='71' type='void tree_trace_to_root(const tree_node_t * node, void (*)(const tree_node_t *) trace_func)'/>
-<use f='MOS/lib/structures/tree.c' l='70' u='c' c='tree_trace_to_root'/>
+<def f='MOS/lib/structures/tree.c' l='66' ll='72' type='void tree_trace_to_root(const tree_node_t * node, void (*)(const tree_node_t *) trace_func)'/>
+<use f='MOS/lib/structures/tree.c' l='71' u='c' c='tree_trace_to_root'/>

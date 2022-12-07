@@ -8,4 +8,4 @@
 <def f='MOS/lib/stdio_impl.c' l='435' ll='574' type='int vsnprintf(char * buf, size_t size, const char * format, struct __va_list_tag * args)'/>
 <use f='MOS/tests/printf/test_printf.c' l='31' u='c' c='tst_printf'/>
 <use f='MOS/tests/test_engine.c' l='66' u='c' c='test_engine_warning_handler'/>
-<use f='MOS/userspace/libuserspace.c' l='49' u='c' c='dvprintf'/>
+<use f='MOS/userspace/libuserspace.c' l='68' u='c' c='dvprintf'/>

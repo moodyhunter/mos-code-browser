@@ -1,14 +1,2 @@
 <dec f='MOS/build/include/mos/kconfig.h' l='23'/>
-<use f='MOS/kernel/mm/liballoc.c' l='57' u='c'/>
-<use f='MOS/kernel/mm/liballoc.c' l='145' u='c'/>
-<use f='MOS/kernel/mm/liballoc.c' l='207' u='c'/>
-<use f='MOS/kernel/mm/liballoc.c' l='221' u='c'/>
-<use f='MOS/kernel/mm/liballoc.c' l='233' u='c'/>
-<use f='MOS/kernel/mm/liballoc.c' l='238' u='c'/>
-<use f='MOS/kernel/mm/liballoc.c' l='304' u='c'/>
-<use f='MOS/kernel/mm/liballoc.c' l='357' u='c'/>
-<use f='MOS/kernel/mm/liballoc.c' l='393' u='c'/>
-<use f='MOS/kernel/mm/liballoc.c' l='441' u='c'/>
-<use f='MOS/kernel/mm/liballoc.c' l='481' u='c'/>
-<use f='MOS/kernel/mm/liballoc.c' l='497' u='c'/>
-<use f='MOS/kernel/mm/liballoc.c' l='526' u='c'/>
+<use f='MOS/kernel/mm/memops.c' l='16' u='c'/>

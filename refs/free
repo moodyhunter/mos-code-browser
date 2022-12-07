@@ -1,0 +1,2 @@
+<def f='MOS/userspace/include/libuserspace.h' l='22' macro='1' type='void free(void * ptr)'/>
+<use f='MOS/userspace/libuserspace.c' l='60' u='c' c='thread_start'/>

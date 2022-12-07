@@ -1,3 +1,5 @@
+liballoc_alloc_page|liballoc_alloc_page
+liballoc_free_page|liballoc_free_page
 liballoc_calloc|liballoc_calloc
 liballoc_free|liballoc_free
 liballoc_init|liballoc_init
@@ -12,3 +14,5 @@ list_node_insert_after|list_node_insert_after
 list_node_insert_before|list_node_insert_before
 list_node_prepend|list_node_prepend
 list_node_remove|list_node_remove
+liballoc_alloc_page|liballoc_alloc_page
+liballoc_free_page|liballoc_free_page

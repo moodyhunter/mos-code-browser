@@ -1,5 +1,5 @@
 <dec f='MOS/lib/include/lib/structures/ring_buffer.h' l='23' type='ring_buffer_t * ring_buffer_create(size_t capacity)'/>
-<def f='MOS/lib/structures/ring_buffer.c' l='13' ll='32' type='ring_buffer_t * ring_buffer_create(size_t capacity)'/>
+<def f='MOS/lib/structures/ring_buffer.c' l='14' ll='33' type='ring_buffer_t * ring_buffer_create(size_t capacity)'/>
 <use f='MOS/tests/ring_buffer/test_ring_buffer.c' l='10' u='c' c='ringbuffer_creation_and_destruction'/>
 <use f='MOS/tests/ring_buffer/test_ring_buffer.c' l='20' u='c' c='ringbuffer_creation_and_destruction'/>
 <use f='MOS/tests/ring_buffer/test_ring_buffer.c' l='26' u='c' c='ringbuffer_put_and_get'/>

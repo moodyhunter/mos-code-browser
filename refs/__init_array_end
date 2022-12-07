@@ -1,0 +1,2 @@
+<dec f='MOS/userspace/libuserspace.c' l='36' type='char'/>
+<use f='MOS/userspace/libuserspace.c' l='37' u='a' c='invoke_init'/>

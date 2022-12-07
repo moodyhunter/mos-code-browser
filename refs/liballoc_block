@@ -1,7 +1,7 @@
-<def f='MOS/kernel/mm/liballoc.c' l='113' ll='121'/>
-<use f='MOS/kernel/mm/liballoc.c' l='115'/>
-<use f='MOS/kernel/mm/liballoc.c' l='116'/>
-<use f='MOS/kernel/mm/liballoc.c' l='113'/>
-<use f='MOS/kernel/mm/liballoc.c' l='128'/>
+<def f='MOS/lib/liballoc.c' l='70' ll='78'/>
+<use f='MOS/lib/liballoc.c' l='72'/>
+<use f='MOS/lib/liballoc.c' l='73'/>
+<use f='MOS/lib/liballoc.c' l='70'/>
+<use f='MOS/lib/liballoc.c' l='85'/>
 <size>48</size>
-<doc f='MOS/kernel/mm/liballoc.c' l='112'>// A structure found at the top of all system allocated memory blocks. It details the usage of the memory block.</doc>
+<doc f='MOS/lib/liballoc.c' l='69'>// A structure found at the top of all system allocated memory blocks. It details the usage of the memory block.</doc>

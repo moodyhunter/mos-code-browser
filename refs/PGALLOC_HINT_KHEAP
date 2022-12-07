@@ -3,5 +3,5 @@
 <use f='MOS/arch/x86/mm/paging_impl.c' l='120' u='r' c='pg_page_get_free'/>
 <use f='MOS/arch/x86/x86_platform_api.c' l='58' u='r' c='platform_mm_create_user_pgd'/>
 <use f='MOS/kernel/elf/elf.c' l='50' u='r' c='elf_create_process'/>
-<use f='MOS/kernel/mm/liballoc.c' l='70' u='r' c='kheap_alloc_page'/>
-<use f='MOS/kernel/mm/memops.c' l='13' u='r' c='mm_map_proxy_space'/>
+<use f='MOS/kernel/mm/memops.c' l='31' u='r' c='liballoc_alloc_page'/>
+<use f='MOS/kernel/mm/memops.c' l='63' u='r' c='mm_map_proxy_space'/>

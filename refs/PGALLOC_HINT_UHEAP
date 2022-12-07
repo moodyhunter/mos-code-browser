@@ -1,3 +1,3 @@
 <dec f='MOS/kernel/include/mos/platform/platform.h' l='42' type='1'/>
 <use f='MOS/arch/x86/mm/paging_impl.c' l='60' c='pg_page_get_free'/>
-<use f='MOS/kernel/tasks/process.c' l='108' u='r' c='process_new'/>
+<use f='MOS/kernel/tasks/process.c' l='107' u='r' c='process_new'/>

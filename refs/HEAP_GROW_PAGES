@@ -1,3 +1,4 @@
 <dec f='MOS/kernel/include/mos/platform/platform.h' l='63' type='4'/>
 <use f='MOS/kernel/ksyscall.c' l='204' c='impl_syscall_heap_control'/>
 <use f='MOS/userspace/init/main.c' l='87' u='r' c='main'/>
+<use f='MOS/userspace/libuserspace.c' l='90' u='r' c='liballoc_alloc_page'/>

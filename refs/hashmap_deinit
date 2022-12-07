@@ -1,8 +1,8 @@
 <dec f='MOS/lib/include/lib/structures/hashmap.h' l='29' type='void hashmap_deinit(hashmap_t * map)'/>
-<use f='MOS/kernel/tasks/process.c' l='83' u='c' c='process_cleanup'/>
+<use f='MOS/kernel/tasks/process.c' l='82' u='c' c='process_cleanup'/>
 <use f='MOS/kernel/tasks/thread.c' l='54' u='c' c='thread_deinit'/>
-<def f='MOS/lib/structures/hashmap.c' l='42' ll='56' type='void hashmap_deinit(hashmap_t * map)'/>
-<doc f='MOS/lib/structures/hashmap.c' l='34'>/**
+<def f='MOS/lib/structures/hashmap.c' l='43' ll='57' type='void hashmap_deinit(hashmap_t * map)'/>
+<doc f='MOS/lib/structures/hashmap.c' l='35'>/**
  * \brief Deinitialize a hashmap.
  * \pre The hashmap must be initialized.
  * \pre The hashmap should be empty, otherwise the entries will be leaked.

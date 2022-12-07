@@ -3,3 +3,4 @@
 <use f='MOS/userspace/init/main.c' l='58' u='c' c='main'/>
 <use f='MOS/userspace/init/main.c' l='83' u='c' c='main'/>
 <use f='MOS/userspace/init/main.c' l='87' u='c' c='main'/>
+<use f='MOS/userspace/libuserspace.c' l='90' u='c' c='liballoc_alloc_page'/>

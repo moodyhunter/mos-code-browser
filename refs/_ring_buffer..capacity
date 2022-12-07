@@ -1,16 +1,16 @@
 <dec f='MOS/lib/include/lib/structures/ring_buffer.h' l='18' type='size_t'/>
 <use f='MOS/lib/include/lib/structures/ring_buffer.h' l='41' u='r' c='ring_buffer_is_full'/>
-<use f='MOS/lib/structures/ring_buffer.c' l='27' u='w' c='ring_buffer_create'/>
-<use f='MOS/lib/structures/ring_buffer.c' l='55' u='w' c='ring_buffer_resize'/>
-<use f='MOS/lib/structures/ring_buffer.c' l='64' u='r' c='ring_buffer_push_back'/>
-<use f='MOS/lib/structures/ring_buffer.c' l='67' u='r' c='ring_buffer_push_back'/>
-<use f='MOS/lib/structures/ring_buffer.c' l='79' u='r' c='ring_buffer_pop_back'/>
-<use f='MOS/lib/structures/ring_buffer.c' l='79' u='r' c='ring_buffer_pop_back'/>
-<use f='MOS/lib/structures/ring_buffer.c' l='91' u='r' c='ring_buffer_push_front'/>
-<use f='MOS/lib/structures/ring_buffer.c' l='93' u='r' c='ring_buffer_push_front'/>
-<use f='MOS/lib/structures/ring_buffer.c' l='93' u='r' c='ring_buffer_push_front'/>
-<use f='MOS/lib/structures/ring_buffer.c' l='108' u='r' c='ring_buffer_pop_front'/>
-<use f='MOS/lib/structures/ring_buffer.c' l='108' u='r' c='ring_buffer_pop_front'/>
+<use f='MOS/lib/structures/ring_buffer.c' l='28' u='w' c='ring_buffer_create'/>
+<use f='MOS/lib/structures/ring_buffer.c' l='56' u='w' c='ring_buffer_resize'/>
+<use f='MOS/lib/structures/ring_buffer.c' l='65' u='r' c='ring_buffer_push_back'/>
+<use f='MOS/lib/structures/ring_buffer.c' l='68' u='r' c='ring_buffer_push_back'/>
+<use f='MOS/lib/structures/ring_buffer.c' l='80' u='r' c='ring_buffer_pop_back'/>
+<use f='MOS/lib/structures/ring_buffer.c' l='80' u='r' c='ring_buffer_pop_back'/>
+<use f='MOS/lib/structures/ring_buffer.c' l='92' u='r' c='ring_buffer_push_front'/>
+<use f='MOS/lib/structures/ring_buffer.c' l='94' u='r' c='ring_buffer_push_front'/>
+<use f='MOS/lib/structures/ring_buffer.c' l='94' u='r' c='ring_buffer_push_front'/>
+<use f='MOS/lib/structures/ring_buffer.c' l='109' u='r' c='ring_buffer_pop_front'/>
+<use f='MOS/lib/structures/ring_buffer.c' l='109' u='r' c='ring_buffer_pop_front'/>
 <offset>128</offset>
 <use f='MOS/tests/ring_buffer/test_ring_buffer.c' l='13' u='r' c='ringbuffer_creation_and_destruction'/>
 <use f='MOS/tests/ring_buffer/test_ring_buffer.c' l='13' u='r' c='ringbuffer_creation_and_destruction'/>

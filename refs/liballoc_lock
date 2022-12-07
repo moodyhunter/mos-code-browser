@@ -1,11 +1,11 @@
-<dec f='MOS/kernel/include/mos/mm/liballoc.h' l='15' type='int liballoc_lock()'/>
-<doc f='MOS/kernel/include/mos/mm/liballoc.h' l='9'>/** This function is supposed to lock the memory data structures.
+<dec f='MOS/lib/include/lib/liballoc.h' l='16' type='int liballoc_lock()'/>
+<doc f='MOS/lib/include/lib/liballoc.h' l='10'>/** This function is supposed to lock the memory data structures.
  * It could be as simple as disabling interrupts or acquiring a spinlock.
  * It&apos;s up to you to decide.
  *
  * \return 0 if the lock was acquired successfully. Anything else is failure.
  */</doc>
-<def f='MOS/kernel/mm/liballoc.c' l='100' ll='104' type='int liballoc_lock()'/>
-<use f='MOS/kernel/mm/liballoc.c' l='255' u='c' c='liballoc_malloc'/>
-<use f='MOS/kernel/mm/liballoc.c' l='548' u='c' c='liballoc_free'/>
-<use f='MOS/kernel/mm/liballoc.c' l='657' u='c' c='liballoc_realloc'/>
+<def f='MOS/lib/liballoc.c' l='57' ll='61' type='int liballoc_lock()'/>
+<use f='MOS/lib/liballoc.c' l='220' u='c' c='liballoc_malloc'/>
+<use f='MOS/lib/liballoc.c' l='513' u='c' c='liballoc_free'/>
+<use f='MOS/lib/liballoc.c' l='622' u='c' c='liballoc_realloc'/>

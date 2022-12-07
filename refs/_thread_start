@@ -1,2 +1,0 @@
-<def f='MOS/userspace/libuserspace.c' l='39' ll='44' type='void _thread_start(void * arg)'/>
-<use f='MOS/userspace/libuserspace.c' l='75' u='r' c='start_thread'/>

@@ -48,7 +48,7 @@ MOS/arch/x86/interrupt/pic.c
 MOS/arch/x86/interrupt/x86_interrupt.c
 MOS/kernel/include/mos/mm/cow.h
 MOS/kernel/include/mos/mm/kmalloc.h
-MOS/kernel/include/mos/mm/liballoc.h
+MOS/lib/include/lib/liballoc.h
 MOS/build/include/mos/syscall/dispatcher.h
 MOS/kernel/include/mos/filesystem/filesystem.h
 MOS/lib/include/lib/structures/tree.h
@@ -95,8 +95,6 @@ MOS/kernel/include/mos/tasks/thread.h
 MOS/kernel/ksyscall.c
 MOS/build/include/mos/syscall/decl.h
 MOS/kernel/mm/cow.c
-MOS/kernel/mm/liballoc.c
-MOS/lib/include/lib/sync/spinlock.h
 MOS/kernel/mm/memops.c
 MOS/kernel/include/mos/mm/memops.h
 MOS/kernel/panic.c
@@ -107,9 +105,11 @@ MOS/kernel/tasks/fork.c
 MOS/kernel/tasks/process.c
 MOS/kernel/tasks/schedule.c
 MOS/kernel/tasks/thread.c
+MOS/lib/liballoc.c
+MOS/lib/include/lib/mos_lib.h
+MOS/lib/include/lib/sync/spinlock.h
 MOS/lib/stdio.c
 MOS/lib/stdio_impl.c
-MOS/lib/include/lib/mos_lib.h
 MOS/lib/stdlib.c
 MOS/lib/string.c
 MOS/lib/structures/hashmap.c

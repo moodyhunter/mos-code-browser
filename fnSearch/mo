@@ -15,9 +15,5 @@ mos_install_kpanic_hook|mos_install_kpanic_hook
 mos_kpanic|mos_kpanic
 mos_kwarn|mos_kwarn
 mos_update_current|mos_update_current
-mos_lib_calloc|mos_lib_calloc
-mos_lib_free|mos_lib_free
-mos_lib_malloc|mos_lib_malloc
-mos_lib_realloc|mos_lib_realloc
 mos_test_engine_log|mos_test_engine_log
 mos_test_engine_run_tests|mos_test_engine_run_tests

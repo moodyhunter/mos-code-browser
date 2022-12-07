@@ -1,4 +1,4 @@
-<dec f='MOS/userspace/include/libuserspace.h' l='13' type='void printf(const char * fmt)'/>
+<dec f='MOS/userspace/include/libuserspace.h' l='14' type='void printf(const char * fmt)'/>
 <use f='MOS/userspace/init/main.c' l='12' u='c' c='thread_work'/>
 <use f='MOS/userspace/init/main.c' l='19' u='c' c='main'/>
 <use f='MOS/userspace/init/main.c' l='22' u='c' c='main'/>
@@ -15,6 +15,6 @@
 <use f='MOS/userspace/init/main.c' l='80' u='c' c='main'/>
 <use f='MOS/userspace/init/main.c' l='84' u='c' c='main'/>
 <use f='MOS/userspace/init/main.c' l='89' u='c' c='main'/>
-<def f='MOS/userspace/libuserspace.c' l='61' ll='67' type='void printf(const char * fmt)'/>
+<def f='MOS/userspace/libuserspace.c' l='80' ll='86' type='void printf(const char * fmt)'/>
 <use f='MOS/userspace/ping-pong/ping.c' l='7' u='c' c='main'/>
 <use f='MOS/userspace/ping-pong/pong.c' l='7' u='c' c='main'/>
