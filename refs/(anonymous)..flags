@@ -24,6 +24,8 @@
 <use f='MOS/kernel/mm/cow.c' l='20' u='r' c='mm_make_process_map_cow'/>
 <use f='MOS/kernel/mm/cow.c' l='82' u='r' c='cow_handle_page_fault'/>
 <use f='MOS/kernel/tasks/fork.c' l='35' u='r' c='process_handle_fork'/>
+<use f='MOS/kernel/tasks/fork.c' l='36' u='r' c='process_handle_fork'/>
+<use f='MOS/kernel/tasks/fork.c' l='44' u='r' c='process_handle_fork'/>
 <use f='MOS/kernel/tasks/process.c' l='270' u='r' c='process_dump_mmaps'/>
 <use f='MOS/kernel/tasks/process.c' l='271' u='r' c='process_dump_mmaps'/>
 <use f='MOS/kernel/tasks/process.c' l='272' u='r' c='process_dump_mmaps'/>

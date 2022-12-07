@@ -36,8 +36,9 @@
 <use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='132' macro='1' u='c' c='x86_handle_interrupt'/>
 <use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='138' macro='1' u='c' c='x86_handle_interrupt'/>
 <use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='211' macro='1' u='c' c='x86_handle_exception'/>
-<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='225' macro='1' u='c' c='x86_handle_exception'/>
-<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='286' macro='1' u='c' c='x86_handle_irq'/>
+<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='222' macro='1' u='c' c='x86_handle_exception'/>
+<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='228' macro='1' u='c' c='x86_handle_exception'/>
+<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='289' macro='1' u='c' c='x86_handle_irq'/>
 <use f='MOS/arch/x86/mm/mm.c' l='32' macro='1' u='c' c='x86_mem_init'/>
 <use f='MOS/arch/x86/mm/mm.c' l='45' macro='1' u='c' c='x86_mem_init'/>
 <use f='MOS/arch/x86/mm/mm.c' l='53' macro='1' u='c' c='x86_mem_init'/>
@@ -135,6 +136,8 @@
 <def f='MOS/kernel/printk.c' l='111' ll='117' type='void lprintk(int loglevel, const char * format)'/>
 <use f='MOS/kernel/tasks/fork.c' l='18' macro='1' u='c' c='process_handle_fork'/>
 <use f='MOS/kernel/tasks/fork.c' l='26' macro='1' u='c' c='process_handle_fork'/>
+<use f='MOS/kernel/tasks/fork.c' l='36' macro='1' u='c' c='process_handle_fork'/>
+<use f='MOS/kernel/tasks/fork.c' l='44' macro='1' u='c' c='process_handle_fork'/>
 <use f='MOS/kernel/tasks/process.c' l='50' macro='1' u='c' c='process_allocate'/>
 <use f='MOS/kernel/tasks/process.c' l='54' macro='1' u='c' c='process_allocate'/>
 <use f='MOS/kernel/tasks/process.c' l='153' macro='1' u='c' c='process_attach_thread'/>
