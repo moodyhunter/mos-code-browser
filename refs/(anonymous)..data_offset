@@ -1,7 +1,7 @@
-<dec f='MOS/kernel/include/mos/elf/elf.h' l='144' type='uintptr_t'/>
+<dec f='MOS/kernel/include/mos/elf/elf.h' l='146' type='uintptr_t'/>
 <use f='MOS/kernel/elf/elf.c' l='99' u='r' c='elf_create_process'/>
 <offset>32</offset>
-<doc f='MOS/kernel/include/mos/elf/elf.h' l='144'>// Offset of the segment in the file</doc>
+<doc f='MOS/kernel/include/mos/elf/elf.h' l='146'>// Offset of the segment in the file</doc>
 <dec f='MOS/kernel/include/mos/filesystem/cpio/cpio.h' l='37' type='size_t'/>
 <use f='MOS/kernel/filesystem/cpio/cpio.c' l='69' u='w' c='cpio_read_metadata'/>
 <use f='MOS/kernel/filesystem/cpio/cpio.c' l='136' u='r' c='cpio_read'/>

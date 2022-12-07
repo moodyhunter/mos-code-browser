@@ -11,7 +11,7 @@
 <use f='MOS/kernel/tasks/schedule.c' l='23' u='w' c='mos_update_current'/>
 <use f='MOS/kernel/tasks/schedule.c' l='33' u='r' c='schedule_to_thread'/>
 <use f='MOS/kernel/tasks/schedule.c' l='33' u='r' c='schedule_to_thread'/>
-<use f='MOS/kernel/tasks/schedule.c' l='52' u='r' c='jump_to_scheduler'/>
-<use f='MOS/kernel/tasks/schedule.c' l='53' u='w' c='jump_to_scheduler'/>
+<use f='MOS/kernel/tasks/schedule.c' l='49' u='r' c='jump_to_scheduler'/>
+<use f='MOS/kernel/tasks/schedule.c' l='50' u='w' c='jump_to_scheduler'/>
 <use f='MOS/kernel/tasks/thread.c' l='39' u='w' c='thread_allocate'/>
 <use f='MOS/kernel/tasks/thread.c' l='102' u='w' c='thread_handle_exit'/>

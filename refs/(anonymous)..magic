@@ -1,4 +1,4 @@
-<dec f='MOS/kernel/include/mos/elf/elf.h' l='53' type='char [4]'/>
+<dec f='MOS/kernel/include/mos/elf/elf.h' l='55' type='char [4]'/>
 <use f='MOS/kernel/elf/elf.c' l='19' u='r' c='elf_verify_header'/>
 <use f='MOS/kernel/elf/elf.c' l='22' u='a' c='elf_verify_header'/>
 <offset>0</offset>

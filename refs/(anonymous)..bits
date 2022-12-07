@@ -8,6 +8,6 @@
 <use f='MOS/arch/x86/devices/serial.c' l='87' u='m' c='serial_set_modem_options'/>
 <use f='MOS/arch/x86/devices/serial.c' l='88' u='m' c='serial_set_modem_options'/>
 <use f='MOS/arch/x86/devices/serial.c' l='89' u='m' c='serial_set_modem_options'/>
-<dec f='MOS/kernel/include/mos/elf/elf.h' l='54' type='elf_bits'/>
+<dec f='MOS/kernel/include/mos/elf/elf.h' l='56' type='elf_bits'/>
 <use f='MOS/kernel/elf/elf.c' l='25' u='r' c='elf_verify_header'/>
 <offset>32</offset>

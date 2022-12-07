@@ -65,5 +65,5 @@
 <use f='MOS/kernel/tasks/schedule.c' l='19' macro='1' u='c' c='mos_update_current'/>
 <use f='MOS/kernel/tasks/schedule.c' l='22' macro='1' u='c' c='mos_update_current'/>
 <use f='MOS/kernel/tasks/schedule.c' l='24' macro='1' u='c' c='mos_update_current'/>
-<use f='MOS/kernel/tasks/schedule.c' l='38' macro='1' u='c' c='schedule_to_thread'/>
-<use f='MOS/kernel/tasks/schedule.c' l='51' macro='1' u='c' c='jump_to_scheduler'/>
+<use f='MOS/kernel/tasks/schedule.c' l='35' macro='1' u='c' c='schedule_to_thread'/>
+<use f='MOS/kernel/tasks/schedule.c' l='48' macro='1' u='c' c='jump_to_scheduler'/>

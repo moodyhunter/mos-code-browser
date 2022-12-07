@@ -5,6 +5,6 @@
 <use f='MOS/arch/x86/tasks/context.c' l='57' u='m' c='x86_switch_to_thread'/>
 <use f='MOS/kernel/tasks/fork.c' l='61' u='w' c='process_handle_fork'/>
 <use f='MOS/kernel/tasks/fork.c' l='61' u='r' c='process_handle_fork'/>
-<use f='MOS/kernel/tasks/schedule.c' l='54' u='m' c='jump_to_scheduler'/>
+<use f='MOS/kernel/tasks/schedule.c' l='51' u='m' c='jump_to_scheduler'/>
 <use f='MOS/kernel/tasks/thread.c' l='71' u='a' c='thread_new'/>
 <use f='MOS/kernel/tasks/thread.c' l='81' u='m' c='thread_new'/>

@@ -1,6 +1,6 @@
 <dec f='MOS/kernel/include/mos/tasks/thread.h' l='12' type='hashmap_t *'/>
 <use f='MOS/kernel/tasks/fork.c' l='67' u='r' c='process_handle_fork'/>
-<use f='MOS/kernel/tasks/schedule.c' l='46' u='r' c='scheduler'/>
+<use f='MOS/kernel/tasks/schedule.c' l='43' u='r' c='scheduler'/>
 <def f='MOS/kernel/tasks/thread.c' l='15' type='hashmap_t *'/>
 <use f='MOS/kernel/tasks/thread.c' l='47' u='w' c='thread_init'/>
 <use f='MOS/kernel/tasks/thread.c' l='48' u='r' c='thread_init'/>

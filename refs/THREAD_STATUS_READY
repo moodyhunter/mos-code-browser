@@ -2,4 +2,4 @@
 <doc f='MOS/kernel/include/mos/tasks/task_type.h' l='15'>// thread can be scheduled</doc>
 <use f='MOS/kernel/tasks/schedule.c' l='20' u='r' c='mos_update_current'/>
 <use f='MOS/kernel/tasks/schedule.c' l='33' u='r' c='schedule_to_thread'/>
-<use f='MOS/kernel/tasks/schedule.c' l='53' u='r' c='jump_to_scheduler'/>
+<use f='MOS/kernel/tasks/schedule.c' l='50' u='r' c='jump_to_scheduler'/>

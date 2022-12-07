@@ -1,4 +1,4 @@
-<dec f='MOS/kernel/include/mos/elf/elf.h' l='103' type='u16'/>
-<dec f='MOS/kernel/include/mos/elf/elf.h' l='108' type='u16'/>
+<dec f='MOS/kernel/include/mos/elf/elf.h' l='105' type='u16'/>
+<dec f='MOS/kernel/include/mos/elf/elf.h' l='110' type='u16'/>
 <use f='MOS/kernel/elf/elf.c' l='72' u='r' c='elf_create_process'/>
 <offset>16</offset>

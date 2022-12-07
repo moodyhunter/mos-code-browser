@@ -15,5 +15,5 @@
 <use f='MOS/kernel/mm/memops.c' l='20' u='c'/>
 <use f='MOS/kernel/mm/memops.c' l='25' u='c'/>
 <use f='MOS/kernel/tasks/schedule.c' l='24' u='c'/>
-<use f='MOS/kernel/tasks/schedule.c' l='38' u='c'/>
-<use f='MOS/kernel/tasks/schedule.c' l='51' u='c'/>
+<use f='MOS/kernel/tasks/schedule.c' l='35' u='c'/>
+<use f='MOS/kernel/tasks/schedule.c' l='48' u='c'/>
