@@ -2,9 +2,9 @@
 <offset>70272</offset>
 <use f='MOS/kernel/ksyscall.c' l='161' u='r' c='impl_syscall_heap_control'/>
 <use f='MOS/kernel/ksyscall.c' l='163' u='r' c='impl_syscall_heap_control'/>
-<use f='MOS/kernel/mm/cow.c' l='66' u='r' c='cow_handle_page_fault'/>
-<use f='MOS/kernel/mm/cow.c' l='73' u='r' c='cow_handle_page_fault'/>
-<use f='MOS/kernel/mm/cow.c' l='81' u='r' c='cow_handle_page_fault'/>
+<use f='MOS/kernel/mm/cow.c' l='68' u='r' c='cow_handle_page_fault'/>
+<use f='MOS/kernel/mm/cow.c' l='75' u='r' c='cow_handle_page_fault'/>
+<use f='MOS/kernel/mm/cow.c' l='83' u='r' c='cow_handle_page_fault'/>
 <use f='MOS/kernel/tasks/fork.c' l='23' u='r' c='process_handle_fork'/>
 <use f='MOS/kernel/tasks/fork.c' l='40' u='r' c='process_handle_fork'/>
 <use f='MOS/kernel/tasks/process.c' l='160' u='w' c='process_attach_mmap'/>

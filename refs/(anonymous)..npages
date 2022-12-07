@@ -11,10 +11,10 @@
 <use f='MOS/kernel/ksyscall.c' l='192' u='r' c='impl_syscall_heap_control'/>
 <use f='MOS/kernel/ksyscall.c' l='195' u='r' c='impl_syscall_heap_control'/>
 <use f='MOS/kernel/ksyscall.c' l='203' u='r' c='impl_syscall_heap_control'/>
-<use f='MOS/kernel/mm/cow.c' l='68' u='r' c='cow_handle_page_fault'/>
-<use f='MOS/kernel/mm/cow.c' l='77' u='r' c='cow_handle_page_fault'/>
+<use f='MOS/kernel/mm/cow.c' l='70' u='r' c='cow_handle_page_fault'/>
 <use f='MOS/kernel/mm/cow.c' l='79' u='r' c='cow_handle_page_fault'/>
-<use f='MOS/kernel/mm/cow.c' l='80' u='r' c='cow_handle_page_fault'/>
+<use f='MOS/kernel/mm/cow.c' l='81' u='r' c='cow_handle_page_fault'/>
+<use f='MOS/kernel/mm/cow.c' l='82' u='r' c='cow_handle_page_fault'/>
 <use f='MOS/kernel/mm/memops.c' l='34' u='r' c='liballoc_alloc_page'/>
 <use f='MOS/kernel/mm/memops.c' l='70' u='r' c='mm_unmap_proxy_space'/>
 <use f='MOS/kernel/tasks/fork.c' l='34' u='r' c='process_handle_fork'/>

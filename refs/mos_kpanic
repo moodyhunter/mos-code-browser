@@ -80,8 +80,8 @@
 <use f='MOS/kernel/ksyscall.c' l='146' macro='1' u='c' c='impl_syscall_thread_exit'/>
 <use f='MOS/kernel/ksyscall.c' l='150' macro='1' u='c' c='impl_syscall_thread_exit'/>
 <use f='MOS/kernel/ksyscall.c' l='155' macro='1' u='c' c='impl_syscall_heap_control'/>
-<use f='MOS/kernel/mm/cow.c' l='59' macro='1' u='c' c='cow_handle_page_fault'/>
-<use f='MOS/kernel/mm/cow.c' l='74' macro='1' u='c' c='cow_handle_page_fault'/>
+<use f='MOS/kernel/mm/cow.c' l='61' macro='1' u='c' c='cow_handle_page_fault'/>
+<use f='MOS/kernel/mm/cow.c' l='76' macro='1' u='c' c='cow_handle_page_fault'/>
 <use f='MOS/kernel/mm/memops.c' l='32' macro='1' u='c' c='liballoc_alloc_page'/>
 <use f='MOS/kernel/mm/memops.c' l='44' macro='1' u='c' c='liballoc_free_page'/>
 <def f='MOS/kernel/panic.c' l='34' ll='70' macro='1' type='void mos_kpanic(const char * func, u32 line, const char * fmt)'/>

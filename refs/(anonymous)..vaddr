@@ -21,12 +21,12 @@
 <use f='MOS/kernel/ksyscall.c' l='192' u='r' c='impl_syscall_heap_control'/>
 <use f='MOS/kernel/ksyscall.c' l='195' u='r' c='impl_syscall_heap_control'/>
 <use f='MOS/kernel/ksyscall.c' l='201' u='r' c='impl_syscall_heap_control'/>
-<use f='MOS/kernel/mm/cow.c' l='67' u='r' c='cow_handle_page_fault'/>
-<use f='MOS/kernel/mm/cow.c' l='68' u='r' c='cow_handle_page_fault'/>
-<use f='MOS/kernel/mm/cow.c' l='77' u='r' c='cow_handle_page_fault'/>
-<use f='MOS/kernel/mm/cow.c' l='77' u='r' c='cow_handle_page_fault'/>
+<use f='MOS/kernel/mm/cow.c' l='69' u='r' c='cow_handle_page_fault'/>
+<use f='MOS/kernel/mm/cow.c' l='70' u='r' c='cow_handle_page_fault'/>
 <use f='MOS/kernel/mm/cow.c' l='79' u='r' c='cow_handle_page_fault'/>
-<use f='MOS/kernel/mm/cow.c' l='80' u='r' c='cow_handle_page_fault'/>
+<use f='MOS/kernel/mm/cow.c' l='79' u='r' c='cow_handle_page_fault'/>
+<use f='MOS/kernel/mm/cow.c' l='81' u='r' c='cow_handle_page_fault'/>
+<use f='MOS/kernel/mm/cow.c' l='82' u='r' c='cow_handle_page_fault'/>
 <use f='MOS/kernel/mm/memops.c' l='32' u='r' c='liballoc_alloc_page'/>
 <use f='MOS/kernel/mm/memops.c' l='37' u='r' c='liballoc_alloc_page'/>
 <use f='MOS/kernel/mm/memops.c' l='64' u='r' c='mm_map_proxy_space'/>
