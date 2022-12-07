@@ -5,4 +5,3 @@
 <use f='MOS/arch/x86/boot/multiboot/startup.c' l='165' u='r' c='x86_startup'/>
 <use f='MOS/arch/x86/boot/multiboot/startup.c' l='175' u='r' c='x86_startup'/>
 <use f='MOS/arch/x86/boot/multiboot/startup.c' l='198' u='r' c='x86_startup'/>
-<use f='MOS/arch/x86/mm/paging.c' l='40' u='r' c='x86_mm_prepare_paging'/>

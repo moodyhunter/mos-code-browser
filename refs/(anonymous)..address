@@ -10,4 +10,6 @@
 <use f='MOS/arch/x86/x86_platform.c' l='145' u='r' c='x86_start_kernel'/>
 <use f='MOS/arch/x86/x86_platform.c' l='149' u='r' c='x86_start_kernel'/>
 <use f='MOS/arch/x86/x86_platform.c' l='149' u='r' c='x86_start_kernel'/>
-<use f='MOS/arch/x86/x86_platform.c' l='164' u='w' c='x86_start_kernel'/>
+<use f='MOS/arch/x86/x86_platform.c' l='150' u='w' c='x86_start_kernel'/>
+<use f='MOS/arch/x86/x86_platform.c' l='150' u='r' c='x86_start_kernel'/>
+<use f='MOS/arch/x86/x86_platform.c' l='165' u='w' c='x86_start_kernel'/>

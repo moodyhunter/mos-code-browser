@@ -5,6 +5,6 @@
 <use f='MOS/arch/x86/interrupt/apic.c' l='111' u='r' c='apic_enable'/>
 <use f='MOS/arch/x86/mm/paging_impl.c' l='151' u='r' c='pg_page_flag'/>
 <use f='MOS/arch/x86/mm/paging_impl.c' l='152' u='r' c='pg_page_flag'/>
-<use f='MOS/arch/x86/mm/paging_impl.c' l='229' u='r' c='pg_do_map_page'/>
-<use f='MOS/arch/x86/mm/paging_impl.c' l='230' u='r' c='pg_do_map_page'/>
-<use f='MOS/arch/x86/mm/paging_impl.c' l='311' u='r' c='pg_page_get_flags'/>
+<use f='MOS/arch/x86/mm/paging_impl.c' l='232' u='r' c='pg_do_map_page'/>
+<use f='MOS/arch/x86/mm/paging_impl.c' l='233' u='r' c='pg_do_map_page'/>
+<use f='MOS/arch/x86/mm/paging_impl.c' l='314' u='r' c='pg_page_get_flags'/>
