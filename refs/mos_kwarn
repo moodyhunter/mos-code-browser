@@ -54,8 +54,7 @@
 <use f='MOS/kernel/ksyscall.c' l='182' macro='1' u='c' c='impl_syscall_heap_control'/>
 <use f='MOS/kernel/ksyscall.c' l='188' macro='1' u='c' c='impl_syscall_heap_control'/>
 <use f='MOS/kernel/ksyscall.c' l='197' macro='1' u='c' c='impl_syscall_heap_control'/>
-<use f='MOS/kernel/ksyscall.c' l='208' macro='1' u='c' c='impl_syscall_heap_control'/>
-<use f='MOS/kernel/ksyscall.c' l='214' macro='1' u='c' c='impl_syscall_heap_control'/>
+<use f='MOS/kernel/ksyscall.c' l='210' macro='1' u='c' c='impl_syscall_heap_control'/>
 <use f='MOS/kernel/mm/liballoc.c' l='66' macro='1' u='c' c='kheap_alloc_page'/>
 <use f='MOS/kernel/mm/liballoc.c' l='74' macro='1' u='c' c='kheap_alloc_page'/>
 <use f='MOS/kernel/mm/liballoc.c' l='85' macro='1' u='c' c='kheap_free_page'/>
