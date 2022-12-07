@@ -8,7 +8,7 @@
 <use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='211' macro='1' u='m' c='x86_handle_exception'/>
 <use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='211' macro='1' u='m' c='x86_handle_exception'/>
 <use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='225' macro='1' u='m' c='x86_handle_exception'/>
-<use f='MOS/arch/x86/tasks/context.c' l='44' macro='1' u='m' c='x86_switch_to_thread'/>
+<use f='MOS/arch/x86/tasks/context.c' l='45' macro='1' u='m' c='x86_switch_to_thread'/>
 <use f='MOS/arch/x86/x86_platform.c' l='75' macro='1' u='m' c='x86_kpanic_hook'/>
 <use f='MOS/arch/x86/x86_platform.c' l='77' macro='1' u='m' c='x86_kpanic_hook'/>
 <use f='MOS/arch/x86/x86_platform.c' l='79' macro='1' u='m' c='x86_kpanic_hook'/>
@@ -65,5 +65,5 @@
 <use f='MOS/kernel/tasks/schedule.c' l='19' macro='1' u='m' c='mos_update_current'/>
 <use f='MOS/kernel/tasks/schedule.c' l='22' macro='1' u='m' c='mos_update_current'/>
 <use f='MOS/kernel/tasks/schedule.c' l='24' macro='1' u='m' c='mos_update_current'/>
-<use f='MOS/kernel/tasks/schedule.c' l='35' macro='1' u='m' c='schedule_to_thread'/>
-<use f='MOS/kernel/tasks/schedule.c' l='48' macro='1' u='m' c='jump_to_scheduler'/>
+<use f='MOS/kernel/tasks/schedule.c' l='36' macro='1' u='m' c='schedule_to_thread'/>
+<use f='MOS/kernel/tasks/schedule.c' l='49' macro='1' u='m' c='jump_to_scheduler'/>

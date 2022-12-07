@@ -1,7 +1,7 @@
 <dec f='MOS/lib/include/lib/structures/hashmap.h' l='32' type='void * hashmap_get(const hashmap_t * map, const void * key)'/>
 <use f='MOS/kernel/device/block.c' l='72' u='c' c='blockdev_find'/>
 <use f='MOS/kernel/tasks/process.c' l='117' u='c' c='process_get'/>
-<use f='MOS/kernel/tasks/thread.c' l='93' u='c' c='thread_get'/>
+<use f='MOS/kernel/tasks/thread.c' l='94' u='c' c='thread_get'/>
 <def f='MOS/lib/structures/hashmap.c' l='84' ll='98' type='void * hashmap_get(const hashmap_t * map, const void * key)'/>
 <use f='MOS/tests/hashmap/test_hashmap.c' l='36' u='c' c='hashmap_put_single'/>
 <use f='MOS/tests/hashmap/test_hashmap.c' l='36' u='c' c='hashmap_put_single'/>

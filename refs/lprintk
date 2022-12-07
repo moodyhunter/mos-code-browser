@@ -133,7 +133,7 @@
 <use f='MOS/kernel/printk.c' l='37' macro='1' u='c' c='printk_setup_console'/>
 <use f='MOS/kernel/printk.c' l='45' macro='1' u='c' c='printk_setup_console'/>
 <def f='MOS/kernel/printk.c' l='111' ll='117' type='void lprintk(int loglevel, const char * format)'/>
-<use f='MOS/kernel/tasks/fork.c' l='16' macro='1' u='c' c='process_handle_fork'/>
+<use f='MOS/kernel/tasks/fork.c' l='18' macro='1' u='c' c='process_handle_fork'/>
 <use f='MOS/kernel/tasks/fork.c' l='26' macro='1' u='c' c='process_handle_fork'/>
 <use f='MOS/kernel/tasks/process.c' l='50' macro='1' u='c' c='process_allocate'/>
 <use f='MOS/kernel/tasks/process.c' l='54' macro='1' u='c' c='process_allocate'/>
@@ -145,6 +145,7 @@
 <use f='MOS/kernel/tasks/process.c' l='242' macro='1' u='c' c='process_grow_heap'/>
 <use f='MOS/kernel/tasks/process.c' l='249' macro='1' u='c' c='process_dump_mmaps'/>
 <use f='MOS/kernel/tasks/process.c' l='265' macro='1' u='c' c='process_dump_mmaps'/>
+<use f='MOS/kernel/tasks/schedule.c' l='35' macro='1' u='c' c='schedule_to_thread'/>
 <use f='MOS/tests/test_engine.c' l='67' u='c' c='test_engine_warning_handler'/>
 <use f='MOS/tests/test_engine.c' l='68' u='c' c='test_engine_warning_handler'/>
 <use f='MOS/tests/test_engine.c' l='126' macro='1' u='c' c='mos_test_engine_run_tests'/>

@@ -27,4 +27,4 @@
 <use f='MOS/kernel/tasks/process.c' l='234' u='r' c='process_grow_heap'/>
 <use f='MOS/kernel/tasks/process.c' l='270' u='r' c='process_dump_mmaps'/>
 <use f='MOS/kernel/tasks/thread.c' l='63' u='r' c='thread_new'/>
-<use f='MOS/kernel/tasks/thread.c' l='70' u='r' c='thread_new'/>
+<use f='MOS/kernel/tasks/thread.c' l='71' u='r' c='thread_new'/>
