@@ -1,6 +1,6 @@
-<dec f='MOS/kernel/include/mos/platform/platform.h' l='51' type='2'/>
-<doc f='MOS/kernel/include/mos/platform/platform.h' l='51'>// userspace heap</doc>
+<dec f='MOS/kernel/include/mos/platform/platform.h' l='52' type='3'/>
+<doc f='MOS/kernel/include/mos/platform/platform.h' l='52'>// userspace heap</doc>
 <use f='MOS/kernel/ksyscall.c' l='161' u='r' c='impl_syscall_heap_control'/>
 <use f='MOS/kernel/tasks/process.c' l='108' u='r' c='process_new'/>
 <use f='MOS/kernel/tasks/process.c' l='218' u='r' c='process_grow_heap'/>
-<use f='MOS/kernel/tasks/process.c' l='258' c='process_dump_mmaps'/>
+<use f='MOS/kernel/tasks/process.c' l='259' c='process_dump_mmaps'/>

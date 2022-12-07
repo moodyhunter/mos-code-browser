@@ -1,4 +1,4 @@
-<dec f='MOS/kernel/include/mos/platform/platform.h' l='103' type='mos_platform_info_t *const'/>
+<dec f='MOS/kernel/include/mos/platform/platform.h' l='104' type='mos_platform_info_t *const'/>
 <use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='112' macro='1' u='r' c='x86_handle_interrupt'/>
 <use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='209' macro='1' u='r' c='x86_handle_exception'/>
 <use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='211' macro='1' u='r' c='x86_handle_exception'/>

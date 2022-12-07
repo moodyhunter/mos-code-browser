@@ -1,4 +1,4 @@
-<dec f='MOS/kernel/include/mos/platform/platform.h' l='130' type='void platform_mm_unmap_pages(paging_handle_t table, uintptr_t vaddr, size_t n)'/>
+<dec f='MOS/kernel/include/mos/platform/platform.h' l='131' type='void platform_mm_unmap_pages(paging_handle_t table, uintptr_t vaddr, size_t n)'/>
 <def f='MOS/arch/x86/x86_platform_api.c' l='134' ll='138' type='void platform_mm_unmap_pages(paging_handle_t table, uintptr_t vaddr, size_t n)'/>
 <use f='MOS/kernel/elf/elf.c' l='124' u='c' c='elf_create_process'/>
 <use f='MOS/kernel/mm/cow.c' l='42' u='c' c='copy_cow_pages_inplace'/>

@@ -1,4 +1,4 @@
-<dec f='MOS/kernel/include/mos/platform/platform.h' l='100' type='struct (unnamed struct at /home/runner/work/MOS/MOS/kernel/include/mos/platform/platform.h:100:5)'/>
+<dec f='MOS/kernel/include/mos/platform/platform.h' l='101' type='struct (unnamed struct at /home/runner/work/MOS/MOS/kernel/include/mos/platform/platform.h:101:5)'/>
 <offset>448</offset>
 <use f='MOS/arch/x86/cpu/smp.c' l='59' u='m' c='ap_begin_exec'/>
 <use f='MOS/arch/x86/cpu/smp.c' l='117' u='m' c='x86_smp_init'/>

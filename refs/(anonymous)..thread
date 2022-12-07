@@ -1,4 +1,4 @@
-<dec f='MOS/kernel/include/mos/platform/platform.h' l='74' type='thread_t *'/>
+<dec f='MOS/kernel/include/mos/platform/platform.h' l='75' type='thread_t *'/>
 <offset>64</offset>
 <use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='112' macro='1' u='r' c='x86_handle_interrupt'/>
 <use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='209' macro='1' u='r' c='x86_handle_exception'/>
