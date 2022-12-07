@@ -41,9 +41,9 @@
 <tr><th id="27">27</th><td></td></tr>
 <tr><th id="28">28</th><td><b>typedef</b> <b>enum</b></td></tr>
 <tr><th id="29">29</th><td>{</td></tr>
-<tr><th id="30">30</th><td>    <dfn class="enum" id="MMAP_DEFAULT" title='MMAP_DEFAULT' data-ref="MMAP_DEFAULT" data-ref-filename="MMAP_DEFAULT">MMAP_DEFAULT</dfn> = <var>0</var> &lt;&lt; <var>0</var>,</td></tr>
-<tr><th id="31">31</th><td>    <dfn class="enum" id="MMAP_COW" title='MMAP_COW' data-ref="MMAP_COW" data-ref-filename="MMAP_COW">MMAP_COW</dfn> = <var>1</var> &lt;&lt; <var>0</var>,</td></tr>
-<tr><th id="32">32</th><td>    <dfn class="enum" id="MMAP_PRIVATE" title='MMAP_PRIVATE' data-ref="MMAP_PRIVATE" data-ref-filename="MMAP_PRIVATE">MMAP_PRIVATE</dfn> = <var>1</var> &lt;&lt; <var>1</var>,</td></tr>
+<tr><th id="30">30</th><td>    <dfn class="enum" id="MMAP_DEFAULT" title='MMAP_DEFAULT' data-ref="MMAP_DEFAULT" data-ref-filename="MMAP_DEFAULT">MMAP_DEFAULT</dfn> = <var>0</var> &lt;&lt; <var>0</var>, <i>// default flags</i></td></tr>
+<tr><th id="31">31</th><td>    <dfn class="enum" id="MMAP_COW" title='MMAP_COW' data-ref="MMAP_COW" data-ref-filename="MMAP_COW">MMAP_COW</dfn> = <var>1</var> &lt;&lt; <var>0</var>,     <i>// this block is currently copy-on-write-mapped</i></td></tr>
+<tr><th id="32">32</th><td>    <dfn class="enum" id="MMAP_PRIVATE" title='MMAP_PRIVATE' data-ref="MMAP_PRIVATE" data-ref-filename="MMAP_PRIVATE">MMAP_PRIVATE</dfn> = <var>1</var> &lt;&lt; <var>1</var>, <i>// this block is private, and should not be shared when forked</i></td></tr>
 <tr><th id="33">33</th><td>} <dfn class="typedef" id="mmap_flags" title='mmap_flags' data-type='enum mmap_flags' data-ref="mmap_flags" data-ref-filename="mmap_flags">mmap_flags</dfn>;</td></tr>
 <tr><th id="34">34</th><td></td></tr>
 <tr><th id="35">35</th><td><b>typedef</b> <b>struct</b></td></tr>
