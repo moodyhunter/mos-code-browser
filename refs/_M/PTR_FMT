@@ -17,6 +17,7 @@
 <use f='MOS/arch/x86/mm/paging.c' l='133' u='c'/>
 <use f='MOS/arch/x86/mm/paging.c' l='133' u='c'/>
 <use f='MOS/arch/x86/mm/paging_impl.c' l='135' u='c'/>
+<use f='MOS/arch/x86/mm/paging_impl.c' l='135' u='c'/>
 <use f='MOS/arch/x86/mm/paging_impl.c' l='177' u='c'/>
 <use f='MOS/arch/x86/mm/paging_impl.c' l='177' u='c'/>
 <use f='MOS/arch/x86/mm/paging_impl.c' l='184' u='c'/>
