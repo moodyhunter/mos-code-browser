@@ -15,12 +15,12 @@
 <use f='MOS/kernel/elf/elf.c' l='130' u='r' c='elf_create_process'/>
 <offset>96</offset>
 <doc f='MOS/kernel/include/mos/elf/elf.h' l='145'>// Virtual address of the segment</doc>
-<use f='MOS/kernel/mm/cow.c' l='55' u='r' c='cow_handle_page_fault'/>
-<use f='MOS/kernel/mm/cow.c' l='56' u='r' c='cow_handle_page_fault'/>
-<use f='MOS/kernel/mm/cow.c' l='65' u='r' c='cow_handle_page_fault'/>
-<use f='MOS/kernel/mm/cow.c' l='65' u='r' c='cow_handle_page_fault'/>
 <use f='MOS/kernel/mm/cow.c' l='67' u='r' c='cow_handle_page_fault'/>
 <use f='MOS/kernel/mm/cow.c' l='68' u='r' c='cow_handle_page_fault'/>
+<use f='MOS/kernel/mm/cow.c' l='77' u='r' c='cow_handle_page_fault'/>
+<use f='MOS/kernel/mm/cow.c' l='77' u='r' c='cow_handle_page_fault'/>
+<use f='MOS/kernel/mm/cow.c' l='79' u='r' c='cow_handle_page_fault'/>
+<use f='MOS/kernel/mm/cow.c' l='80' u='r' c='cow_handle_page_fault'/>
 <use f='MOS/kernel/mm/liballoc.c' l='71' u='r' c='kheap_alloc_page'/>
 <use f='MOS/kernel/mm/liballoc.c' l='76' u='r' c='kheap_alloc_page'/>
 <use f='MOS/kernel/mm/memops.c' l='14' u='r' c='mm_map_proxy_space'/>

@@ -59,8 +59,8 @@
 <use f='MOS/kernel/kernel_init.c' l='31' macro='1' u='r' c='mount_initrd'/>
 <use f='MOS/kernel/ksyscall.c' l='74' macro='1' u='r' c='impl_syscall_exit'/>
 <use f='MOS/kernel/ksyscall.c' l='147' macro='1' u='r' c='impl_syscall_thread_exit'/>
-<use f='MOS/kernel/mm/cow.c' l='64' macro='1' u='r' c='cow_handle_page_fault'/>
-<use f='MOS/kernel/mm/cow.c' l='65' macro='1' u='r' c='cow_handle_page_fault'/>
+<use f='MOS/kernel/mm/cow.c' l='76' macro='1' u='r' c='cow_handle_page_fault'/>
+<use f='MOS/kernel/mm/cow.c' l='77' macro='1' u='r' c='cow_handle_page_fault'/>
 <use f='MOS/kernel/printk.c' l='59' c='deduce_level_color'/>
 <use f='MOS/kernel/tasks/fork.c' l='16' macro='1' u='r' c='process_handle_fork'/>
 <use f='MOS/kernel/tasks/fork.c' l='26' macro='1' u='r' c='process_handle_fork'/>

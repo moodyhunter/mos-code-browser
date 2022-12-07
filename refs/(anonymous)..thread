@@ -38,8 +38,8 @@
 <use f='MOS/kernel/ksyscall.c' l='147' macro='1' u='r' c='impl_syscall_thread_exit'/>
 <use f='MOS/kernel/ksyscall.c' l='148' macro='1' u='r' c='impl_syscall_thread_exit'/>
 <use f='MOS/kernel/mm/cow.c' l='24' macro='1' u='r' c='copy_cow_pages_inplace'/>
-<use f='MOS/kernel/mm/cow.c' l='43' macro='1' u='r' c='cow_handle_page_fault'/>
-<use f='MOS/kernel/mm/cow.c' l='49' macro='1' u='r' c='cow_handle_page_fault'/>
+<use f='MOS/kernel/mm/cow.c' l='52' macro='1' u='r' c='cow_handle_page_fault'/>
+<use f='MOS/kernel/mm/cow.c' l='61' macro='1' u='r' c='cow_handle_page_fault'/>
 <use f='MOS/kernel/tasks/fork.c' l='58' macro='1' u='r' c='process_handle_fork'/>
 <use f='MOS/kernel/tasks/process.c' l='191' macro='1' u='r' c='process_handle_cleanup'/>
 <use f='MOS/kernel/tasks/schedule.c' l='14' macro='1' u='r' c='mos_update_current'/>

@@ -3,4 +3,4 @@
 <use f='MOS/kernel/elf/elf.c' l='105' u='c' c='elf_create_process'/>
 <use f='MOS/kernel/mm/cow.c' l='17' u='c' c='mm_make_process_map_cow'/>
 <use f='MOS/kernel/mm/cow.c' l='18' u='c' c='mm_make_process_map_cow'/>
-<use f='MOS/kernel/mm/cow.c' l='68' u='c' c='cow_handle_page_fault'/>
+<use f='MOS/kernel/mm/cow.c' l='80' u='c' c='cow_handle_page_fault'/>
