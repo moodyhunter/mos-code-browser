@@ -1,0 +1,2 @@
+<dec f='MOS/kernel/include/mos/platform/platform.h' l='124' type='_Bool platform_mm_get_is_mapped(paging_handle_t table, uintptr_t vaddr)'/>
+<def f='MOS/arch/x86/x86_platform_api.c' l='158' ll='162' macro='1' type='_Bool platform_mm_get_is_mapped(paging_handle_t table, uintptr_t vaddr)'/>

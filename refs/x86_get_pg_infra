@@ -10,3 +10,4 @@
 <use f='MOS/arch/x86/x86_platform_api.c' l='142' u='c' c='platform_mm_free_pages'/>
 <use f='MOS/arch/x86/x86_platform_api.c' l='148' u='c' c='platform_mm_flag_pages'/>
 <use f='MOS/arch/x86/x86_platform_api.c' l='154' u='c' c='platform_mm_get_flags'/>
+<use f='MOS/arch/x86/x86_platform_api.c' l='160' u='c' c='platform_mm_get_is_mapped'/>
