@@ -8,6 +8,7 @@
 <use f='MOS/kernel/device/console.c' l='30' u='r' c='console_register'/>
 <use f='MOS/kernel/device/console.c' l='33' u='r' c='console_register'/>
 <use f='MOS/kernel/device/console.c' l='69' u='r' c='console_read'/>
+<use f='MOS/kernel/kernel_init.c' l='101' u='r' c='mos_start_kernel'/>
 <use f='MOS/kernel/printk.c' l='78' u='r' c='print_to_console'/>
 <use f='MOS/kernel/printk.c' l='86' u='r' c='print_to_console'/>
 <use f='MOS/tests/test_engine.c' l='22' u='r' c='for_each_console_print_with_color'/>

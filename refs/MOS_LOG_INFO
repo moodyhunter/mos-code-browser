@@ -29,7 +29,7 @@
 <use f='MOS/kernel/kernel_init.c' l='64' macro='1' u='r' c='dump_cmdline'/>
 <use f='MOS/kernel/kernel_init.c' l='65' macro='1' u='r' c='dump_cmdline'/>
 <use f='MOS/kernel/kernel_init.c' l='77' macro='1' u='r' c='mos_start_kernel'/>
-<use f='MOS/kernel/kernel_init.c' l='105' macro='1' u='r' c='mos_start_kernel'/>
+<use f='MOS/kernel/kernel_init.c' l='108' macro='1' u='r' c='mos_start_kernel'/>
 <use f='MOS/kernel/printk.c' l='60' c='deduce_level_color'/>
 <use f='MOS/kernel/printk.c' l='123' u='r' c='printk'/>
 <use f='MOS/kernel/tasks/process.c' l='167' macro='1' u='r' c='process_handle_exit'/>
