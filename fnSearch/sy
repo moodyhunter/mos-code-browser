@@ -7,6 +7,7 @@ syscall_fork|syscall_fork
 syscall_get_parent_pid|syscall_get_parent_pid
 syscall_get_pid|syscall_get_pid
 syscall_get_tid|syscall_get_tid
+syscall_heap_control|syscall_heap_control
 syscall_io_close|syscall_io_close
 syscall_io_read|syscall_io_read
 syscall_io_write|syscall_io_write

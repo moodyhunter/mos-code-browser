@@ -1,0 +1,2 @@
+<dec f='MOS/kernel/include/mos/platform/platform.h' l='62' type='3'/>
+<use f='MOS/kernel/ksyscall.c' l='203' c='impl_syscall_heap_control'/>

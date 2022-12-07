@@ -2,3 +2,4 @@
 <use f='MOS/build/include/mos/syscall/usermode.h' l='18' u='c' c='syscall_file_open'/>
 <use f='MOS/build/include/mos/syscall/usermode.h' l='23' u='c' c='syscall_file_stat'/>
 <use f='MOS/build/include/mos/syscall/usermode.h' l='58' u='c' c='syscall_exec'/>
+<use f='MOS/build/include/mos/syscall/usermode.h' l='93' u='c' c='syscall_heap_control'/>

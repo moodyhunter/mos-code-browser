@@ -7,8 +7,14 @@
 <use f='MOS/userspace/init/main.c' l='46' u='c' c='main'/>
 <use f='MOS/userspace/init/main.c' l='47' u='c' c='main'/>
 <use f='MOS/userspace/init/main.c' l='55' u='c' c='main'/>
-<use f='MOS/userspace/init/main.c' l='60' u='c' c='main'/>
-<use f='MOS/userspace/init/main.c' l='64' u='c' c='main'/>
+<use f='MOS/userspace/init/main.c' l='57' u='c' c='main'/>
+<use f='MOS/userspace/init/main.c' l='59' u='c' c='main'/>
+<use f='MOS/userspace/init/main.c' l='66' u='c' c='main'/>
+<use f='MOS/userspace/init/main.c' l='71' u='c' c='main'/>
+<use f='MOS/userspace/init/main.c' l='76' u='c' c='main'/>
+<use f='MOS/userspace/init/main.c' l='80' u='c' c='main'/>
+<use f='MOS/userspace/init/main.c' l='84' u='c' c='main'/>
+<use f='MOS/userspace/init/main.c' l='89' u='c' c='main'/>
 <def f='MOS/userspace/libuserspace.c' l='61' ll='67' type='void printf(const char * fmt)'/>
 <use f='MOS/userspace/ping-pong/ping.c' l='7' u='c' c='main'/>
 <use f='MOS/userspace/ping-pong/pong.c' l='7' u='c' c='main'/>

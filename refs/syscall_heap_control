@@ -1,0 +1,5 @@
+<def f='MOS/build/include/mos/syscall/usermode.h' l='91' ll='94' macro='1' type='uintptr_t syscall_heap_control(heap_control_op op, uintptr_t arg)'/>
+<use f='MOS/userspace/init/main.c' l='56' u='c' c='main'/>
+<use f='MOS/userspace/init/main.c' l='58' u='c' c='main'/>
+<use f='MOS/userspace/init/main.c' l='83' u='c' c='main'/>
+<use f='MOS/userspace/init/main.c' l='87' u='c' c='main'/>

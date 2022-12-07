@@ -2,11 +2,11 @@
 <offset>512</offset>
 <use f='MOS/kernel/ksyscall.c' l='48' u='r' c='impl_syscall_io_read'/>
 <use f='MOS/kernel/ksyscall.c' l='57' u='r' c='impl_syscall_io_write'/>
-<use f='MOS/kernel/tasks/fork.c' l='50' u='r' c='process_handle_fork'/>
-<use f='MOS/kernel/tasks/process.c' l='130' u='w' c='process_attach_ref_fd'/>
-<use f='MOS/kernel/tasks/process.c' l='139' u='r' c='process_detach_fd'/>
-<use f='MOS/kernel/tasks/process.c' l='140' u='w' c='process_detach_fd'/>
-<use f='MOS/kernel/tasks/process.c' l='181' u='r' c='process_handle_exit'/>
-<use f='MOS/kernel/tasks/process.c' l='182' u='r' c='process_handle_exit'/>
-<use f='MOS/kernel/tasks/process.c' l='183' u='r' c='process_handle_exit'/>
-<use f='MOS/kernel/tasks/process.c' l='184' u='w' c='process_handle_exit'/>
+<use f='MOS/kernel/tasks/fork.c' l='49' u='r' c='process_handle_fork'/>
+<use f='MOS/kernel/tasks/process.c' l='134' u='w' c='process_attach_ref_fd'/>
+<use f='MOS/kernel/tasks/process.c' l='143' u='r' c='process_detach_fd'/>
+<use f='MOS/kernel/tasks/process.c' l='144' u='w' c='process_detach_fd'/>
+<use f='MOS/kernel/tasks/process.c' l='185' u='r' c='process_handle_exit'/>
+<use f='MOS/kernel/tasks/process.c' l='186' u='r' c='process_handle_exit'/>
+<use f='MOS/kernel/tasks/process.c' l='187' u='r' c='process_handle_exit'/>
+<use f='MOS/kernel/tasks/process.c' l='188' u='w' c='process_handle_exit'/>

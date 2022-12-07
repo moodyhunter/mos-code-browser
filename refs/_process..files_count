@@ -1,8 +1,8 @@
 <dec f='MOS/kernel/include/mos/tasks/task_type.h' l='59' type='ssize_t'/>
 <offset>448</offset>
-<use f='MOS/kernel/tasks/fork.c' l='48' u='r' c='process_handle_fork'/>
-<use f='MOS/kernel/tasks/process.c' l='123' u='w' c='process_attach_ref_fd'/>
-<use f='MOS/kernel/tasks/process.c' l='137' u='r' c='process_detach_fd'/>
-<use f='MOS/kernel/tasks/process.c' l='141' u='w' c='process_detach_fd'/>
-<use f='MOS/kernel/tasks/process.c' l='178' u='r' c='process_handle_exit'/>
-<use f='MOS/kernel/tasks/process.c' l='179' u='r' c='process_handle_exit'/>
+<use f='MOS/kernel/tasks/fork.c' l='47' u='r' c='process_handle_fork'/>
+<use f='MOS/kernel/tasks/process.c' l='127' u='w' c='process_attach_ref_fd'/>
+<use f='MOS/kernel/tasks/process.c' l='141' u='r' c='process_detach_fd'/>
+<use f='MOS/kernel/tasks/process.c' l='145' u='w' c='process_detach_fd'/>
+<use f='MOS/kernel/tasks/process.c' l='182' u='r' c='process_handle_exit'/>
+<use f='MOS/kernel/tasks/process.c' l='183' u='r' c='process_handle_exit'/>

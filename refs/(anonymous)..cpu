@@ -1,4 +1,4 @@
-<dec f='MOS/kernel/include/mos/platform/platform.h' l='90' type='struct (unnamed struct at /home/runner/work/MOS/MOS/kernel/include/mos/platform/platform.h:90:5)'/>
+<dec f='MOS/kernel/include/mos/platform/platform.h' l='100' type='struct (unnamed struct at /home/runner/work/MOS/MOS/kernel/include/mos/platform/platform.h:100:5)'/>
 <offset>448</offset>
 <use f='MOS/arch/x86/cpu/smp.c' l='59' u='m' c='ap_begin_exec'/>
 <use f='MOS/arch/x86/cpu/smp.c' l='117' u='m' c='x86_smp_init'/>
@@ -48,6 +48,8 @@
 <use f='MOS/kernel/ksyscall.c' l='146' macro='1' u='m' c='impl_syscall_thread_exit'/>
 <use f='MOS/kernel/ksyscall.c' l='147' macro='1' u='m' c='impl_syscall_thread_exit'/>
 <use f='MOS/kernel/ksyscall.c' l='148' macro='1' u='m' c='impl_syscall_thread_exit'/>
+<use f='MOS/kernel/ksyscall.c' l='155' macro='1' u='m' c='impl_syscall_heap_control'/>
+<use f='MOS/kernel/ksyscall.c' l='156' macro='1' u='m' c='impl_syscall_heap_control'/>
 <use f='MOS/kernel/mm/cow.c' l='24' macro='1' u='m' c='copy_cow_pages_inplace'/>
 <use f='MOS/kernel/mm/cow.c' l='52' macro='1' u='m' c='cow_handle_page_fault'/>
 <use f='MOS/kernel/mm/cow.c' l='61' macro='1' u='m' c='cow_handle_page_fault'/>
@@ -57,8 +59,8 @@
 <use f='MOS/kernel/mm/memops.c' l='14' macro='1' u='m' c='mm_map_proxy_space'/>
 <use f='MOS/kernel/mm/memops.c' l='20' macro='1' u='m' c='mm_unmap_proxy_space'/>
 <use f='MOS/kernel/mm/memops.c' l='25' macro='1' u='m' c='mm_copy_pages'/>
-<use f='MOS/kernel/tasks/fork.c' l='58' macro='1' u='m' c='process_handle_fork'/>
-<use f='MOS/kernel/tasks/process.c' l='191' macro='1' u='m' c='process_handle_cleanup'/>
+<use f='MOS/kernel/tasks/fork.c' l='57' macro='1' u='m' c='process_handle_fork'/>
+<use f='MOS/kernel/tasks/process.c' l='195' macro='1' u='m' c='process_handle_cleanup'/>
 <use f='MOS/kernel/tasks/schedule.c' l='14' macro='1' u='m' c='mos_update_current'/>
 <use f='MOS/kernel/tasks/schedule.c' l='19' macro='1' u='m' c='mos_update_current'/>
 <use f='MOS/kernel/tasks/schedule.c' l='22' macro='1' u='m' c='mos_update_current'/>

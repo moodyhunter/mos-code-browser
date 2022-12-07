@@ -7,9 +7,9 @@
 <use f='MOS/kernel/ksyscall.c' l='135' u='r' c='impl_syscall_create_thread'/>
 <use f='MOS/kernel/ksyscall.c' l='141' u='r' c='impl_syscall_get_tid'/>
 <use f='MOS/kernel/ksyscall.c' l='147' u='r' c='impl_syscall_thread_exit'/>
-<use f='MOS/kernel/tasks/fork.c' l='68' u='a' c='process_handle_fork'/>
-<use f='MOS/kernel/tasks/process.c' l='150' u='r' c='process_attach_thread'/>
-<use f='MOS/kernel/tasks/process.c' l='172' u='r' c='process_handle_exit'/>
+<use f='MOS/kernel/tasks/fork.c' l='67' u='a' c='process_handle_fork'/>
+<use f='MOS/kernel/tasks/process.c' l='154' u='r' c='process_attach_thread'/>
+<use f='MOS/kernel/tasks/process.c' l='176' u='r' c='process_handle_exit'/>
 <use f='MOS/kernel/tasks/schedule.c' l='32' u='r' c='schedule_to_thread'/>
 <use f='MOS/kernel/tasks/thread.c' l='37' u='w' c='thread_allocate'/>
 <use f='MOS/kernel/tasks/thread.c' l='85' u='a' c='thread_new'/>

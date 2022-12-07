@@ -1,3 +1,3 @@
-<dec f='MOS/kernel/include/mos/platform/platform.h' l='53' type='4'/>
-<doc f='MOS/kernel/include/mos/platform/platform.h' l='53'>// file mapping (mmap)</doc>
-<use f='MOS/kernel/tasks/process.c' l='223' c='process_dump_mmaps'/>
+<dec f='MOS/kernel/include/mos/platform/platform.h' l='54' type='5'/>
+<doc f='MOS/kernel/include/mos/platform/platform.h' l='54'>// file mapping (mmap)</doc>
+<use f='MOS/kernel/tasks/process.c' l='263' c='process_dump_mmaps'/>

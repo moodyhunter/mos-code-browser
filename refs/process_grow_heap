@@ -1,0 +1,4 @@
+<dec f='MOS/kernel/include/mos/tasks/process.h' l='30' type='uintptr_t process_grow_heap(process_t * process, size_t npages)'/>
+<use f='MOS/kernel/ksyscall.c' l='201' u='c' c='impl_syscall_heap_control'/>
+<use f='MOS/kernel/ksyscall.c' l='212' u='c' c='impl_syscall_heap_control'/>
+<def f='MOS/kernel/tasks/process.c' l='212' ll='247' type='uintptr_t process_grow_heap(process_t * process, size_t npages)'/>

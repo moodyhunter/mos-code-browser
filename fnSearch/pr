@@ -12,6 +12,7 @@ process_cleanup|process_cleanup
 process_detach_fd|process_detach_fd
 process_dump_mmaps|process_dump_mmaps
 process_get|process_get
+process_grow_heap|process_grow_heap
 process_handle_cleanup|process_handle_cleanup
 process_handle_exit|process_handle_exit
 process_init|process_init

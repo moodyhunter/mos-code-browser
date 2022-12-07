@@ -2,9 +2,9 @@
 <use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='137' u='r' c='x86_handle_interrupt'/>
 <offset>64</offset>
 <use f='MOS/arch/x86/tasks/context.c' l='49' u='r' c='x86_switch_to_thread'/>
-<use f='MOS/kernel/tasks/fork.c' l='64' u='w' c='process_handle_fork'/>
-<use f='MOS/kernel/tasks/process.c' l='170' u='r' c='process_handle_exit'/>
-<use f='MOS/kernel/tasks/process.c' l='175' u='w' c='process_handle_exit'/>
+<use f='MOS/kernel/tasks/fork.c' l='63' u='w' c='process_handle_fork'/>
+<use f='MOS/kernel/tasks/process.c' l='174' u='r' c='process_handle_exit'/>
+<use f='MOS/kernel/tasks/process.c' l='179' u='w' c='process_handle_exit'/>
 <use f='MOS/kernel/tasks/schedule.c' l='19' u='r' c='mos_update_current'/>
 <use f='MOS/kernel/tasks/schedule.c' l='19' u='r' c='mos_update_current'/>
 <use f='MOS/kernel/tasks/schedule.c' l='20' u='w' c='mos_update_current'/>

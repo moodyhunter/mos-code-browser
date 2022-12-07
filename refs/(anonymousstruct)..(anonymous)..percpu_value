@@ -48,6 +48,8 @@
 <use f='MOS/kernel/ksyscall.c' l='146' macro='1' u='a' c='impl_syscall_thread_exit'/>
 <use f='MOS/kernel/ksyscall.c' l='147' macro='1' u='a' c='impl_syscall_thread_exit'/>
 <use f='MOS/kernel/ksyscall.c' l='148' macro='1' u='a' c='impl_syscall_thread_exit'/>
+<use f='MOS/kernel/ksyscall.c' l='155' macro='1' u='a' c='impl_syscall_heap_control'/>
+<use f='MOS/kernel/ksyscall.c' l='156' macro='1' u='a' c='impl_syscall_heap_control'/>
 <use f='MOS/kernel/mm/cow.c' l='24' macro='1' u='a' c='copy_cow_pages_inplace'/>
 <use f='MOS/kernel/mm/cow.c' l='52' macro='1' u='a' c='cow_handle_page_fault'/>
 <use f='MOS/kernel/mm/cow.c' l='61' macro='1' u='a' c='cow_handle_page_fault'/>
@@ -57,8 +59,8 @@
 <use f='MOS/kernel/mm/memops.c' l='14' macro='1' u='a' c='mm_map_proxy_space'/>
 <use f='MOS/kernel/mm/memops.c' l='20' macro='1' u='a' c='mm_unmap_proxy_space'/>
 <use f='MOS/kernel/mm/memops.c' l='25' macro='1' u='a' c='mm_copy_pages'/>
-<use f='MOS/kernel/tasks/fork.c' l='58' macro='1' u='a' c='process_handle_fork'/>
-<use f='MOS/kernel/tasks/process.c' l='191' macro='1' u='a' c='process_handle_cleanup'/>
+<use f='MOS/kernel/tasks/fork.c' l='57' macro='1' u='a' c='process_handle_fork'/>
+<use f='MOS/kernel/tasks/process.c' l='195' macro='1' u='a' c='process_handle_cleanup'/>
 <use f='MOS/kernel/tasks/schedule.c' l='14' macro='1' u='a' c='mos_update_current'/>
 <use f='MOS/kernel/tasks/schedule.c' l='19' macro='1' u='a' c='mos_update_current'/>
 <use f='MOS/kernel/tasks/schedule.c' l='22' macro='1' u='a' c='mos_update_current'/>
