@@ -30,22 +30,24 @@
 <tr><th id="17">17</th><td><u>#define <dfn class="macro" id="_M/MOS_LIB_UNIMPLEMENTED" data-ref="_M/MOS_LIB_UNIMPLEMENTED">MOS_LIB_UNIMPLEMENTED</dfn>(content)   MOS_UNIMPLEMENTED(content)</u></td></tr>
 <tr><th id="18">18</th><td><u>#define <dfn class="macro" id="_M/MOS_LIB_UNREACHABLE" data-ref="_M/MOS_LIB_UNREACHABLE">MOS_LIB_UNREACHABLE</dfn>()            MOS_UNREACHABLE()</u></td></tr>
 <tr><th id="19">19</th><td><u>#<span data-ppcond="13">else</span> // ! Userspace</u></td></tr>
-<tr><th id="20">20</th><td><u>#define MOS_LIB_ASSERT(cond) MOS_UNUSED(cond)</u></td></tr>
-<tr><th id="21">21</th><td><u>#define MOS_LIB_ASSERT_X(cond, msg, ...)                                                                                                                                 \</u></td></tr>
-<tr><th id="22">22</th><td><u>    do                                                                                                                                                                   \</u></td></tr>
-<tr><th id="23">23</th><td><u>    {                                                                                                                                                                    \</u></td></tr>
-<tr><th id="24">24</th><td><u>        /* unimplemented */                                                                                                                                              \</u></td></tr>
-<tr><th id="25">25</th><td><u>        MOS_UNUSED(cond);                                                                                                                                                \</u></td></tr>
-<tr><th id="26">26</th><td><u>        MOS_UNUSED(msg);                                                                                                                                                 \</u></td></tr>
-<tr><th id="27">27</th><td><u>    } while (0)</u></td></tr>
-<tr><th id="28">28</th><td><u>#define MOS_LIB_UNIMPLEMENTED(content) ; /* unimplemented */</u></td></tr>
-<tr><th id="29">29</th><td><u>#define MOS_LIB_UNREACHABLE()          ; /* unimplemented */</u></td></tr>
-<tr><th id="30">30</th><td><u>#define mos_warn(...)                  ; /* unimplemented */</u></td></tr>
-<tr><th id="31">31</th><td><u>#define mos_panic(...)                 ; /* unimplemented */</u></td></tr>
-<tr><th id="32">32</th><td><u>#<span data-ppcond="13">endif</span></u></td></tr>
-<tr><th id="33">33</th><td></td></tr>
-<tr><th id="34">34</th><td><i class="doc">/** @} */</i></td></tr>
+<tr><th id="20">20</th><td><u>#include "libuserspace.h"</u></td></tr>
+<tr><th id="21">21</th><td><u>#define MOS_LIB_ASSERT(cond)                                                                                                                                             \</u></td></tr>
+<tr><th id="22">22</th><td><u>    if (!(cond))                                                                                                                                                         \</u></td></tr>
+<tr><th id="23">23</th><td><u>    fatal_abort("Assertion failed: %s", #cond)</u></td></tr>
+<tr><th id="24">24</th><td><u>#define MOS_LIB_ASSERT_X(cond, msg, ...)                                                                                                                                 \</u></td></tr>
+<tr><th id="25">25</th><td><u>    do                                                                                                                                                                   \</u></td></tr>
+<tr><th id="26">26</th><td><u>    {                                                                                                                                                                    \</u></td></tr>
+<tr><th id="27">27</th><td><u>        if (!(cond))                                                                                                                                                     \</u></td></tr>
+<tr><th id="28">28</th><td><u>            fatal_abort("Assertion failed: %s: " msg, #cond, ##__VA_ARGS__);                                                                                             \</u></td></tr>
+<tr><th id="29">29</th><td><u>    } while (0)</u></td></tr>
+<tr><th id="30">30</th><td><u>#define MOS_LIB_UNIMPLEMENTED(content) fatal_abort("Unimplemented: " content)</u></td></tr>
+<tr><th id="31">31</th><td><u>#define MOS_LIB_UNREACHABLE()          fatal_abort("Unreachable code reached")</u></td></tr>
+<tr><th id="32">32</th><td><u>#define mos_warn(...)                  dprintf(stderr, __VA_ARGS__)</u></td></tr>
+<tr><th id="33">33</th><td><u>#define mos_panic(...)                 fatal_abort(__VA_ARGS__)</u></td></tr>
+<tr><th id="34">34</th><td><u>#<span data-ppcond="13">endif</span></u></td></tr>
 <tr><th id="35">35</th><td></td></tr>
+<tr><th id="36">36</th><td><i class="doc">/** @} */</i></td></tr>
+<tr><th id="37">37</th><td></td></tr>
 </table><hr/><p id='footer'>
 Generated while processing <a href='../../liballoc.c.html'>MOS/lib/liballoc.c</a><br/>Generated on <em>2022-Dec-07</em> from project MOS<br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
 <br/>Generator usage only permitted with license.</p>

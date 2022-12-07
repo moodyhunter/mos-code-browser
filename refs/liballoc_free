@@ -1,8 +1,8 @@
 <dec f='MOS/lib/include/lib/liballoc.h' l='32' type='void liballoc_free(const void * ptr)'/>
 <use f='MOS/kernel/include/mos/mm/kmalloc.h' l='27' u='c' c='kfree'/>
-<def f='MOS/lib/liballoc.c' l='498' ll='591' type='void liballoc_free(const void * ptr)'/>
-<use f='MOS/lib/liballoc.c' l='608' u='c' c='liballoc_realloc'/>
-<use f='MOS/lib/liballoc.c' l='674' u='c' c='liballoc_realloc'/>
+<def f='MOS/lib/liballoc.c' l='497' ll='590' type='void liballoc_free(const void * ptr)'/>
+<use f='MOS/lib/liballoc.c' l='607' u='c' c='liballoc_realloc'/>
+<use f='MOS/lib/liballoc.c' l='673' u='c' c='liballoc_realloc'/>
 <use f='MOS/lib/structures/hashmap.c' l='52' u='c' c='hashmap_deinit'/>
 <use f='MOS/lib/structures/hashmap.c' l='56' u='c' c='hashmap_deinit'/>
 <use f='MOS/lib/structures/hashmap.c' l='119' u='c' c='hashmap_remove'/>
@@ -10,4 +10,4 @@
 <use f='MOS/lib/structures/ring_buffer.c' l='37' u='c' c='ring_buffer_destroy'/>
 <use f='MOS/lib/structures/ring_buffer.c' l='38' u='c' c='ring_buffer_destroy'/>
 <use f='MOS/lib/structures/ring_buffer.c' l='54' u='c' c='ring_buffer_resize'/>
-<use f='MOS/userspace/include/libuserspace.h' l='22' u='c' c='free'/>
+<use f='MOS/userspace/include/lib/memory.h' l='12' u='c' c='free'/>

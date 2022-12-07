@@ -1,4 +1,6 @@
 mm_make_process_map_cow|mm_make_process_map_cow
+mm_alloc_zeroed_pages|mm_alloc_zeroed_pages
+mm_alloc_zeroed_pages_at|mm_alloc_zeroed_pages_at
 mm_copy_pages|mm_copy_pages
 mm_map_proxy_space|mm_map_proxy_space
 mm_unmap_proxy_space|mm_unmap_proxy_space

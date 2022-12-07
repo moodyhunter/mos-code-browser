@@ -1,2 +1,2 @@
-<def f='MOS/userspace/init/main.c' l='8' ll='13' type='void thread_work(void * arg)'/>
-<use f='MOS/userspace/init/main.c' l='49' u='r' c='main'/>
+<def f='MOS/userspace/init/main.c' l='10' ll='15' type='void thread_work(void * arg)'/>
+<use f='MOS/userspace/init/main.c' l='51' u='r' c='main'/>

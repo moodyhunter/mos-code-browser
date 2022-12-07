@@ -1,4 +1,4 @@
 <def f='MOS/kernel/stack_protector.c' l='8' ll='11' macro='1' type='void __stack_chk_fail()'/>
 <use f='MOS/kernel/stack_protector.c' l='15' u='c' c='__stack_chk_fail_local'/>
-<def f='MOS/userspace/libuserspace.c' l='21' ll='26' macro='1' type='void __stack_chk_fail()'/>
-<use f='MOS/userspace/libuserspace.c' l='30' u='c' c='__stack_chk_fail_local'/>
+<def f='MOS/userspace/libuserspace.c' l='22' ll='27' macro='1' type='void __stack_chk_fail()'/>
+<use f='MOS/userspace/libuserspace.c' l='31' u='c' c='__stack_chk_fail_local'/>

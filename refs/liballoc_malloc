@@ -1,13 +1,13 @@
 <dec f='MOS/lib/include/lib/liballoc.h' l='29' type='void * liballoc_malloc(size_t size)'/>
 <use f='MOS/kernel/include/mos/mm/kmalloc.h' l='12' u='c' c='kmalloc'/>
-<def f='MOS/lib/liballoc.c' l='208' ll='496' type='void * liballoc_malloc(size_t req_size)'/>
-<use f='MOS/lib/liballoc.c' l='230' u='c' c='liballoc_malloc'/>
-<use f='MOS/lib/liballoc.c' l='597' u='c' c='liballoc_calloc'/>
-<use f='MOS/lib/liballoc.c' l='614' u='c' c='liballoc_realloc'/>
-<use f='MOS/lib/liballoc.c' l='672' u='c' c='liballoc_realloc'/>
+<def f='MOS/lib/liballoc.c' l='204' ll='495' type='void * liballoc_malloc(size_t req_size)'/>
+<use f='MOS/lib/liballoc.c' l='226' u='c' c='liballoc_malloc'/>
+<use f='MOS/lib/liballoc.c' l='596' u='c' c='liballoc_calloc'/>
+<use f='MOS/lib/liballoc.c' l='613' u='c' c='liballoc_realloc'/>
+<use f='MOS/lib/liballoc.c' l='671' u='c' c='liballoc_realloc'/>
 <use f='MOS/lib/string.c' l='149' u='c' c='duplicate_string'/>
 <use f='MOS/lib/structures/hashmap.c' l='75' u='c' c='hashmap_put'/>
 <use f='MOS/lib/structures/ring_buffer.c' l='19' u='c' c='ring_buffer_create'/>
 <use f='MOS/lib/structures/ring_buffer.c' l='22' u='c' c='ring_buffer_create'/>
 <use f='MOS/lib/structures/ring_buffer.c' l='45' u='c' c='ring_buffer_resize'/>
-<use f='MOS/userspace/include/libuserspace.h' l='21' u='c' c='malloc'/>
+<use f='MOS/userspace/include/lib/memory.h' l='8' u='c' c='malloc'/>

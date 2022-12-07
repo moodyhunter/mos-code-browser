@@ -79,6 +79,7 @@ MOS/lib/include/lib/structures/hashmap_common.h
 MOS/kernel/device/console.c
 MOS/kernel/elf/elf.c
 MOS/kernel/include/mos/elf/elf.h
+MOS/kernel/include/mos/mm/memops.h
 MOS/kernel/include/mos/tasks/process.h
 MOS/kernel/filesystem/cpio/cpio.c
 MOS/kernel/include/mos/filesystem/cpio/cpio.h
@@ -96,7 +97,6 @@ MOS/kernel/ksyscall.c
 MOS/build/include/mos/syscall/decl.h
 MOS/kernel/mm/cow.c
 MOS/kernel/mm/memops.c
-MOS/kernel/include/mos/mm/memops.h
 MOS/kernel/panic.c
 MOS/lib/include/lib/stdio.h
 MOS/kernel/printk.c
@@ -132,6 +132,7 @@ MOS/tests/printf/test_printf.c
 MOS/tests/ring_buffer/test_ring_buffer.c
 MOS/tests/test_engine.c
 MOS/userspace/init/main.c
+MOS/userspace/include/lib/memory.h
 MOS/userspace/include/libuserspace.h
 MOS/build/include/mos/syscall/usermode.h
 MOS/arch/x86/include/mos/platform_syscall.h

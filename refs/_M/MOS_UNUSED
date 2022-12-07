@@ -27,5 +27,5 @@
 <use f='MOS/tests/hashmap/test_hashmap.c' l='170' u='c'/>
 <use f='MOS/tests/hashmap/test_hashmap.c' l='171' u='c'/>
 <use f='MOS/tests/hashmap/test_hashmap.c' l='178' u='c'/>
-<use f='MOS/userspace/libuserspace.c' l='99' u='c'/>
-<use f='MOS/userspace/libuserspace.c' l='100' u='c'/>
+<use f='MOS/userspace/libuserspace.c' l='111' u='c'/>
+<use f='MOS/userspace/libuserspace.c' l='112' u='c'/>

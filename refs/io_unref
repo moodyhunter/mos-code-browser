@@ -1,5 +1,5 @@
 <dec f='MOS/kernel/include/mos/io/io.h' l='37' type='void io_unref(io_t * io)'/>
-<use f='MOS/kernel/elf/elf.c' l='133' u='c' c='elf_create_process'/>
+<use f='MOS/kernel/elf/elf.c' l='228' u='c' c='elf_create_process'/>
 <def f='MOS/kernel/io/io.c' l='36' ll='65' type='void io_unref(io_t * io)'/>
 <use f='MOS/kernel/io/terminal.c' l='40' u='c' c='terminal_io_close'/>
 <use f='MOS/kernel/io/terminal.c' l='41' u='c' c='terminal_io_close'/>

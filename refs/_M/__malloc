@@ -1,6 +1,6 @@
 <dec f='MOS/kernel/include/mos/mos_global.h' l='14'/>
 <use f='MOS/kernel/include/mos/mm/kmalloc.h' l='10' u='c'/>
 <use f='MOS/kernel/include/mos/mm/kmalloc.h' l='15' u='c'/>
-<use f='MOS/userspace/include/libuserspace.h' l='21' u='c'/>
-<use f='MOS/userspace/include/libuserspace.h' l='23' u='c'/>
-<use f='MOS/userspace/include/libuserspace.h' l='24' u='c'/>
+<use f='MOS/userspace/include/lib/memory.h' l='6' u='c'/>
+<use f='MOS/userspace/include/lib/memory.h' l='14' u='c'/>
+<use f='MOS/userspace/include/lib/memory.h' l='18' u='c'/>

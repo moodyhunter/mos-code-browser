@@ -1,4 +1,5 @@
 <def f='MOS/kernel/include/mos/mm/kmalloc.h' l='15' ll='18' macro='1' type='void * kcalloc(size_t nmemb, size_t size)'/>
+<use f='MOS/kernel/elf/elf.c' l='59' u='c' c='elf_create_process'/>
 <use f='MOS/kernel/filesystem/filesystem.c' l='63' u='c' c='vfs_open'/>
 <use f='MOS/kernel/filesystem/mount.c' l='41' u='c' c='kmount'/>
 <use f='MOS/kernel/filesystem/pathutils.c' l='59' u='c' c='impl_path_get_subpath'/>

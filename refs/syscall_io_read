@@ -1,3 +1,3 @@
 <def f='MOS/build/include/mos/syscall/usermode.h' l='26' ll='29' macro='1' type='size_t syscall_io_read(fd_t fd, void * buffer, size_t size, size_t offset)'/>
-<use f='MOS/userspace/init/main.c' l='25' u='c' c='main'/>
-<use f='MOS/userspace/init/main.c' l='32' u='c' c='main'/>
+<use f='MOS/userspace/init/main.c' l='27' u='c' c='main'/>
+<use f='MOS/userspace/init/main.c' l='34' u='c' c='main'/>

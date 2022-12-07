@@ -18,11 +18,13 @@
 <use f='MOS/arch/x86/x86_platform.c' l='120' u='r' c='x86_start_kernel'/>
 <use f='MOS/arch/x86/x86_platform_api.c' l='128' u='w' c='platform_mm_copy_maps'/>
 <dec f='MOS/kernel/include/mos/elf/elf.h' l='100' type='u32'/>
-<use f='MOS/kernel/elf/elf.c' l='106' u='w' c='elf_create_process'/>
+<use f='MOS/kernel/elf/elf.c' l='209' u='w' c='elf_create_process'/>
 <offset>384</offset>
 <use f='MOS/kernel/mm/cow.c' l='19' u='r' c='mm_make_process_map_cow'/>
 <use f='MOS/kernel/mm/cow.c' l='20' u='r' c='mm_make_process_map_cow'/>
 <use f='MOS/kernel/mm/cow.c' l='82' u='r' c='cow_handle_page_fault'/>
+<use f='MOS/kernel/mm/memops.c' l='85' u='w' c='mm_alloc_zeroed_pages'/>
+<use f='MOS/kernel/mm/memops.c' l='106' u='w' c='mm_alloc_zeroed_pages_at'/>
 <use f='MOS/kernel/tasks/fork.c' l='35' u='r' c='process_handle_fork'/>
 <use f='MOS/kernel/tasks/fork.c' l='36' u='r' c='process_handle_fork'/>
 <use f='MOS/kernel/tasks/fork.c' l='44' u='r' c='process_handle_fork'/>

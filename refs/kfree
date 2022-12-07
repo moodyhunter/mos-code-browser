@@ -7,6 +7,7 @@
 <use f='MOS/kernel/cmdline.c' l='103' u='c' c='mos_cmdline_destroy'/>
 <use f='MOS/kernel/cmdline.c' l='105' u='c' c='mos_cmdline_destroy'/>
 <use f='MOS/kernel/cmdline.c' l='106' u='c' c='mos_cmdline_destroy'/>
+<use f='MOS/kernel/elf/elf.c' l='223' u='c' c='elf_create_process'/>
 <use f='MOS/kernel/filesystem/filesystem.c' l='24' u='c' c='vfs_io_ops_close'/>
 <use f='MOS/kernel/filesystem/filesystem.c' l='67' u='c' c='vfs_open'/>
 <use f='MOS/kernel/filesystem/filesystem.c' l='68' u='c' c='vfs_open'/>

@@ -1,6 +1,6 @@
 <dec f='MOS/kernel/include/mos/io/io.h' l='30' type='size_t'/>
 <offset>192</offset>
-<use f='MOS/kernel/elf/elf.c' l='49' u='r' c='elf_create_process'/>
-<use f='MOS/kernel/elf/elf.c' l='53' u='r' c='elf_create_process'/>
-<use f='MOS/kernel/elf/elf.c' l='54' u='r' c='elf_create_process'/>
+<use f='MOS/kernel/elf/elf.c' l='51' u='r' c='elf_create_process'/>
+<use f='MOS/kernel/elf/elf.c' l='55' u='r' c='elf_create_process'/>
+<use f='MOS/kernel/elf/elf.c' l='56' u='r' c='elf_create_process'/>
 <use f='MOS/kernel/io/io.c' l='11' u='w' c='io_init'/>

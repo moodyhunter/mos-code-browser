@@ -1,2 +1,2 @@
 <def f='MOS/build/include/mos/syscall/usermode.h' l='76' ll='79' macro='1' type='tid_t syscall_create_thread(const char * name, thread_entry_t entry, void * arg)'/>
-<use f='MOS/userspace/libuserspace.c' l='110' u='c' c='start_thread'/>
+<use f='MOS/userspace/libuserspace.c' l='122' u='c' c='start_thread'/>

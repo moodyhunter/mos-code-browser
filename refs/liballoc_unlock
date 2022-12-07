@@ -6,15 +6,15 @@
  * \return 0 if the lock was successfully released.
  */</doc>
 <def f='MOS/lib/liballoc.c' l='63' ll='67' type='int liballoc_unlock()'/>
-<use f='MOS/lib/liballoc.c' l='196' u='c' c='liballoc_init'/>
-<use f='MOS/lib/liballoc.c' l='228' u='c' c='liballoc_malloc'/>
-<use f='MOS/lib/liballoc.c' l='319' u='c' c='liballoc_malloc'/>
-<use f='MOS/lib/liballoc.c' l='356' u='c' c='liballoc_malloc'/>
-<use f='MOS/lib/liballoc.c' l='404' u='c' c='liballoc_malloc'/>
-<use f='MOS/lib/liballoc.c' l='444' u='c' c='liballoc_malloc'/>
-<use f='MOS/lib/liballoc.c' l='486' u='c' c='liballoc_malloc'/>
-<use f='MOS/lib/liballoc.c' l='540' u='c' c='liballoc_free'/>
-<use f='MOS/lib/liballoc.c' l='589' u='c' c='liballoc_free'/>
-<use f='MOS/lib/liballoc.c' l='650' u='c' c='liballoc_realloc'/>
-<use f='MOS/lib/liballoc.c' l='663' u='c' c='liballoc_realloc'/>
-<use f='MOS/lib/liballoc.c' l='668' u='c' c='liballoc_realloc'/>
+<use f='MOS/lib/liballoc.c' l='179' u='c' c='liballoc_first_alloc'/>
+<use f='MOS/lib/liballoc.c' l='224' u='c' c='liballoc_malloc'/>
+<use f='MOS/lib/liballoc.c' l='318' u='c' c='liballoc_malloc'/>
+<use f='MOS/lib/liballoc.c' l='355' u='c' c='liballoc_malloc'/>
+<use f='MOS/lib/liballoc.c' l='403' u='c' c='liballoc_malloc'/>
+<use f='MOS/lib/liballoc.c' l='443' u='c' c='liballoc_malloc'/>
+<use f='MOS/lib/liballoc.c' l='485' u='c' c='liballoc_malloc'/>
+<use f='MOS/lib/liballoc.c' l='539' u='c' c='liballoc_free'/>
+<use f='MOS/lib/liballoc.c' l='588' u='c' c='liballoc_free'/>
+<use f='MOS/lib/liballoc.c' l='649' u='c' c='liballoc_realloc'/>
+<use f='MOS/lib/liballoc.c' l='662' u='c' c='liballoc_realloc'/>
+<use f='MOS/lib/liballoc.c' l='667' u='c' c='liballoc_realloc'/>

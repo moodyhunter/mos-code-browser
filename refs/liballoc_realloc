@@ -1,5 +1,5 @@
 <dec f='MOS/lib/include/lib/liballoc.h' l='30' type='void * liballoc_realloc(void * ptr, size_t size)'/>
 <use f='MOS/kernel/include/mos/mm/kmalloc.h' l='22' u='c' c='krealloc'/>
-<def f='MOS/lib/liballoc.c' l='602' ll='677' type='void * liballoc_realloc(void * p, size_t size)'/>
+<def f='MOS/lib/liballoc.c' l='601' ll='676' type='void * liballoc_realloc(void * p, size_t size)'/>
 <use f='MOS/lib/structures/tree.c' l='18' u='c' c='tree_add_child'/>
-<use f='MOS/userspace/include/libuserspace.h' l='24' u='c' c='realloc'/>
+<use f='MOS/userspace/include/lib/memory.h' l='20' u='c' c='realloc'/>

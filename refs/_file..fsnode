@@ -1,6 +1,6 @@
 <dec f='MOS/kernel/include/mos/filesystem/filesystem.h' l='86' type='fsnode_t *'/>
 <offset>384</offset>
-<use f='MOS/kernel/elf/elf.c' l='70' u='r' c='elf_create_process'/>
+<use f='MOS/kernel/elf/elf.c' l='74' u='r' c='elf_create_process'/>
 <use f='MOS/kernel/filesystem/filesystem.c' l='16' u='r' c='vfs_io_ops_close'/>
 <use f='MOS/kernel/filesystem/filesystem.c' l='19' u='r' c='vfs_io_ops_close'/>
 <use f='MOS/kernel/filesystem/filesystem.c' l='23' u='r' c='vfs_io_ops_close'/>

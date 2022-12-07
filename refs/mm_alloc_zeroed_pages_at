@@ -1,0 +1,3 @@
+<dec f='MOS/kernel/include/mos/mm/memops.h' l='9' type='vmblock_t mm_alloc_zeroed_pages_at(paging_handle_t handle, uintptr_t vaddr, size_t npages, vm_flags flags)'/>
+<use f='MOS/kernel/elf/elf.c' l='201' u='c' c='elf_create_process'/>
+<def f='MOS/kernel/mm/memops.c' l='89' ll='107' type='vmblock_t mm_alloc_zeroed_pages_at(paging_handle_t handle, uintptr_t vaddr, size_t npages, vm_flags flags)'/>

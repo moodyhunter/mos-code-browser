@@ -1,4 +1,5 @@
 <def f='MOS/build/include/mos/syscall/usermode.h' l='41' ll='44' macro='1' type='void syscall_exit(u32 exit_code)'/>
-<use f='MOS/userspace/init/main.c' l='67' u='c' c='main'/>
-<use f='MOS/userspace/libuserspace.c' l='23' u='c' c='__stack_chk_fail'/>
-<use f='MOS/userspace/libuserspace.c' l='53' u='c' c='_start'/>
+<use f='MOS/userspace/init/main.c' l='68' u='c' c='main'/>
+<use f='MOS/userspace/libuserspace.c' l='24' u='c' c='__stack_chk_fail'/>
+<use f='MOS/userspace/libuserspace.c' l='54' u='c' c='_start'/>
+<use f='MOS/userspace/libuserspace.c' l='95' u='c' c='fatal_abort'/>
