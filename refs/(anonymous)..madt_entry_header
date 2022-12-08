@@ -1,8 +1,0 @@
-<dec f='MOS/arch/x86/include/mos/x86/acpi/acpi_types.h' l='139' type='acpi_madt_entry_header_t'/>
-<dec f='MOS/arch/x86/include/mos/x86/acpi/acpi_types.h' l='148' type='acpi_madt_entry_header_t'/>
-<dec f='MOS/arch/x86/include/mos/x86/acpi/acpi_types.h' l='158' type='acpi_madt_entry_header_t'/>
-<dec f='MOS/arch/x86/include/mos/x86/acpi/acpi_types.h' l='168' type='acpi_madt_entry_header_t'/>
-<dec f='MOS/arch/x86/include/mos/x86/acpi/acpi_types.h' l='178' type='acpi_madt_entry_header_t'/>
-<dec f='MOS/arch/x86/include/mos/x86/acpi/acpi_types.h' l='187' type='acpi_madt_entry_header_t'/>
-<dec f='MOS/arch/x86/include/mos/x86/acpi/acpi_types.h' l='195' type='acpi_madt_entry_header_t'/>
-<offset>0</offset>
