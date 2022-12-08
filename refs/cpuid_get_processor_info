@@ -3,4 +3,4 @@
 <use f='MOS/arch/x86/cpu/smp.c' l='39' u='c' c='print_cpu_info'/>
 <use f='MOS/arch/x86/cpu/smp.c' l='54' u='c' c='ap_begin_exec'/>
 <use f='MOS/arch/x86/cpu/smp.c' l='115' u='c' c='x86_smp_init'/>
-<use f='MOS/arch/x86/interrupt/apic.c' l='96' u='c' c='apic_enable'/>
+<use f='MOS/arch/x86/interrupt/lapic.c' l='95' u='c' c='lapic_enable'/>

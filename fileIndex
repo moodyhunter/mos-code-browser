@@ -42,8 +42,8 @@ MOS/lib/include/lib/ansi_colors.h
 MOS/arch/x86/devices/text_mode_console.c
 MOS/arch/x86/include/mos/x86/devices/text_mode_console.h
 MOS/arch/x86/gdt/gdt.c
-MOS/arch/x86/interrupt/apic.c
 MOS/arch/x86/interrupt/idt.c
+MOS/arch/x86/interrupt/lapic.c
 MOS/arch/x86/interrupt/pic.c
 MOS/arch/x86/interrupt/x86_interrupt.c
 MOS/kernel/include/mos/mm/cow.h

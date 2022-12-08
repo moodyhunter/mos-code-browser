@@ -11,7 +11,7 @@
 <use f='MOS/arch/x86/cpu/cpuid.c' l='52' u='r' c='cpuid_get_brand_string'/>
 <use f='MOS/arch/x86/cpu/cpuid.c' l='57' u='r' c='cpuid_get_brand_string'/>
 <offset>96</offset>
-<use f='MOS/arch/x86/interrupt/apic.c' l='98' u='m' c='apic_enable'/>
-<use f='MOS/arch/x86/interrupt/apic.c' l='101' u='m' c='apic_enable'/>
+<use f='MOS/arch/x86/interrupt/lapic.c' l='97' u='m' c='lapic_enable'/>
+<use f='MOS/arch/x86/interrupt/lapic.c' l='100' u='m' c='lapic_enable'/>
 <use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='98' u='r' c='x86_dump_registers'/>
 <use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='128' u='r' c='x86_handle_interrupt'/>

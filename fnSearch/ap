@@ -1,8 +1,1 @@
 ap_begin_exec|ap_begin_exec
-apic_enable|apic_enable
-apic_interrupt|apic_interrupt
-apic_interrupt_full|apic_interrupt_full
-apic_reg_read_offset_32|apic_reg_read_offset_32
-apic_reg_write_offset_32|apic_reg_write_offset_32
-apic_reg_write_offset_64|apic_reg_write_offset_64
-apic_set_base_addr|apic_set_base_addr

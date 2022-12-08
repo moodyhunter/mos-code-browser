@@ -3,4 +3,4 @@
 <use f='MOS/arch/x86/boot/multiboot/startup.c' l='153' u='c' c='x86_startup'/>
 <use f='MOS/arch/x86/boot/multiboot/startup.c' l='154' u='c' c='x86_startup'/>
 <use f='MOS/arch/x86/boot/multiboot/startup.c' l='198' u='c' c='x86_startup'/>
-<use f='MOS/arch/x86/interrupt/apic.c' l='110' u='c' c='apic_enable'/>
+<use f='MOS/arch/x86/interrupt/lapic.c' l='116' u='c' c='lapic_enable'/>

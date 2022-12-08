@@ -1,5 +1,0 @@
-<dec f='MOS/arch/x86/include/mos/x86/interrupt/apic.h' l='58' type='void apic_interrupt_full(u8 vec, u8 dest, apic_delivery_mode_t dliv_mode, apic_dest_mode_t dstmode, _Bool lvl, _Bool trigger, apic_shorthand_t sh)'/>
-<use f='MOS/arch/x86/cpu/smp.c' l='81' u='c' c='x86_cpu_start'/>
-<use f='MOS/arch/x86/cpu/smp.c' l='83' u='c' c='x86_cpu_start'/>
-<def f='MOS/arch/x86/interrupt/apic.c' l='70' ll='85' type='void apic_interrupt_full(u8 vec, u8 dest, apic_delivery_mode_t delivery_mode, apic_dest_mode_t dest_mode, _Bool level, _Bool trigger, apic_shorthand_t shorthand)'/>
-<use f='MOS/arch/x86/interrupt/apic.c' l='89' u='c' c='apic_interrupt'/>
