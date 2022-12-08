@@ -1,6 +1,6 @@
 <dec f='MOS/arch/x86/include/mos/x86/cpu/cpuid.h' l='160' type='void cpuid_get_processor_info(processor_version_t * info)'/>
 <def f='MOS/arch/x86/cpu/cpuid.c' l='30' ll='38' type='void cpuid_get_processor_info(processor_version_t * info)'/>
 <use f='MOS/arch/x86/cpu/smp.c' l='39' u='c' c='print_cpu_info'/>
-<use f='MOS/arch/x86/cpu/smp.c' l='54' u='c' c='ap_begin_exec'/>
-<use f='MOS/arch/x86/cpu/smp.c' l='115' u='c' c='x86_smp_init'/>
-<use f='MOS/arch/x86/interrupt/lapic.c' l='95' u='c' c='lapic_enable'/>
+<use f='MOS/arch/x86/cpu/smp.c' l='55' u='c' c='ap_begin_exec'/>
+<use f='MOS/arch/x86/cpu/smp.c' l='116' u='c' c='x86_smp_init'/>
+<use f='MOS/arch/x86/interrupt/lapic.c' l='112' u='c' c='lapic_memory_setup'/>

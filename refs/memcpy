@@ -1,6 +1,6 @@
 <dec f='MOS/lib/include/lib/string.h' l='18' type='void * memcpy(void * dest, const void * src, size_t n)'/>
 <doc f='MOS/lib/include/lib/string.h' l='17'>// ! The memory areas must not overlap.</doc>
-<use f='MOS/arch/x86/cpu/smp.c' l='135' u='c' c='x86_smp_init'/>
+<use f='MOS/arch/x86/cpu/smp.c' l='136' u='c' c='x86_smp_init'/>
 <use f='MOS/arch/x86/devices/initrd_blockdev.c' l='29' u='c' c='initrd_read'/>
 <use f='MOS/arch/x86/tasks/context.c' l='39' u='c' c='x86_copy_thread_context'/>
 <use f='MOS/kernel/filesystem/cpio/cpio.c' l='129' u='c' c='cpio_open'/>

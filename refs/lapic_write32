@@ -1,0 +1,4 @@
+<dec f='MOS/arch/x86/include/mos/x86/interrupt/apic.h' l='62' type='void lapic_write32(u32 offset, u32 value)'/>
+<def f='MOS/arch/x86/interrupt/lapic.c' l='56' ll='65' type='void lapic_write32(u32 offset, u32 value)'/>
+<use f='MOS/arch/x86/interrupt/lapic.c' l='98' u='c' c='lapic_interrupt_full'/>
+<use f='MOS/arch/x86/interrupt/lapic.c' l='146' u='c' c='lapic_enable'/>

@@ -1,7 +1,8 @@
 <dec f='MOS/kernel/include/mos/printk.h' l='52'/>
 <use f='MOS/arch/x86/interrupt/lapic.c' l='44' u='c'/>
-<use f='MOS/arch/x86/interrupt/lapic.c' l='51' u='c'/>
-<use f='MOS/arch/x86/interrupt/lapic.c' l='57' u='c'/>
+<use f='MOS/arch/x86/interrupt/lapic.c' l='50' u='c'/>
+<use f='MOS/arch/x86/interrupt/lapic.c' l='58' u='c'/>
+<use f='MOS/arch/x86/interrupt/lapic.c' l='69' u='c'/>
 <use f='MOS/arch/x86/mm/paging.c' l='30' u='c'/>
 <use f='MOS/arch/x86/mm/paging.c' l='43' u='c'/>
 <use f='MOS/arch/x86/mm/paging.c' l='49' u='c'/>

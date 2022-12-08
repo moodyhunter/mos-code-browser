@@ -1,7 +1,7 @@
 <dec f='MOS/kernel/include/mos/platform/platform.h' l='35' type='128'/>
 <use f='MOS/arch/x86/boot/multiboot/startup.c' l='116' u='r' c='mos_startup_map_single_page'/>
-<use f='MOS/arch/x86/interrupt/lapic.c' l='116' u='r' c='lapic_enable'/>
-<use f='MOS/arch/x86/interrupt/lapic.c' l='117' u='r' c='lapic_enable'/>
+<use f='MOS/arch/x86/interrupt/lapic.c' l='130' u='r' c='lapic_memory_setup'/>
+<use f='MOS/arch/x86/interrupt/lapic.c' l='131' u='r' c='lapic_memory_setup'/>
 <use f='MOS/arch/x86/mm/paging.c' l='40' u='r' c='x86_mm_prepare_paging'/>
 <use f='MOS/arch/x86/mm/paging.c' l='47' u='r' c='x86_mm_prepare_paging'/>
 <use f='MOS/arch/x86/mm/paging.c' l='53' u='r' c='x86_mm_prepare_paging'/>

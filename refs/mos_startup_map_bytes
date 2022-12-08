@@ -1,4 +1,4 @@
 <def f='MOS/kernel/include/mos/boot/startup.h' l='37' ll='43' macro='1' type='void mos_startup_map_bytes(uintptr_t vaddr, uintptr_t paddr, size_t nbytes, vm_flags flags)'/>
 <use f='MOS/kernel/include/mos/boot/startup.h' l='48' u='c' c='mos_startup_map_identity'/>
 <use f='MOS/kernel/include/mos/boot/startup.h' l='54' u='c' c='mos_startup_map_bios'/>
-<use f='MOS/arch/x86/cpu/smp.c' l='134' u='c' c='x86_smp_init'/>
+<use f='MOS/arch/x86/cpu/smp.c' l='135' u='c' c='x86_smp_init'/>

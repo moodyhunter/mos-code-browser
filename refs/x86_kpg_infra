@@ -1,5 +1,5 @@
 <dec f='MOS/arch/x86/include/mos/x86/mm/paging.h' l='10' type='x86_pg_infra_t *'/>
-<use f='MOS/arch/x86/interrupt/lapic.c' l='117' u='r' c='lapic_enable'/>
+<use f='MOS/arch/x86/interrupt/lapic.c' l='131' u='r' c='lapic_memory_setup'/>
 <def f='MOS/arch/x86/mm/paging.c' l='23' type='x86_pg_infra_t *'/>
 <use f='MOS/arch/x86/mm/paging.c' l='33' u='r' c='x86_mm_prepare_paging'/>
 <use f='MOS/arch/x86/mm/paging.c' l='36' u='r' c='x86_mm_prepare_paging'/>

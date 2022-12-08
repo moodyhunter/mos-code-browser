@@ -1,8 +1,11 @@
+lapic_get_id|lapic_get_id
 lapic_enable|lapic_enable
 lapic_interrupt|lapic_interrupt
 lapic_interrupt_full|lapic_interrupt_full
-lapic_reg_read_offset_32|lapic_reg_read_offset_32
-lapic_reg_write_offset_32|lapic_reg_write_offset_32
-lapic_reg_write_offset_64|lapic_reg_write_offset_64
+lapic_memory_setup|lapic_memory_setup
+lapic_read32|lapic_read32
+lapic_read64|lapic_read64
 lapic_set_base_addr|lapic_set_base_addr
+lapic_write32|lapic_write32
+lapic_write64|lapic_write64
 labs|labs

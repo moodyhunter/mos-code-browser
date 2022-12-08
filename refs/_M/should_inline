@@ -6,6 +6,7 @@
 <use f='MOS/arch/x86/acpi/acpi.c' l='21' u='c'/>
 <use f='MOS/arch/x86/boot/multiboot/startup.c' l='62' u='c'/>
 <use f='MOS/arch/x86/boot/multiboot/startup.c' l='72' u='c'/>
+<use f='MOS/arch/x86/include/mos/x86/interrupt/apic.h' l='65' u='c'/>
 <use f='MOS/kernel/include/mos/mm/kmalloc.h' l='10' u='c'/>
 <use f='MOS/kernel/include/mos/mm/kmalloc.h' l='15' u='c'/>
 <use f='MOS/kernel/include/mos/mm/kmalloc.h' l='20' u='c'/>
