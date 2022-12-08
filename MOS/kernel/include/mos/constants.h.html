@@ -26,8 +26,8 @@
 <tr><th id="13">13</th><td><u>#<span data-ppcond="11">endif</span></u></td></tr>
 <tr><th id="14">14</th><td></td></tr>
 <tr><th id="15">15</th><td><u>#define <dfn class="macro" id="_M/MOS_SYSCALL_INTR" data-ref="_M/MOS_SYSCALL_INTR">MOS_SYSCALL_INTR</dfn>             0x88</u></td></tr>
-<tr><th id="16">16</th><td><u>#define <dfn class="macro" id="_M/BIOS_VADDR_MASK" data-ref="_M/BIOS_VADDR_MASK">BIOS_VADDR_MASK</dfn>              0xE0000000</u></td></tr>
-<tr><th id="17">17</th><td><u>#define <dfn class="macro" id="_M/BIOS_VADDR" data-ref="_M/BIOS_VADDR">BIOS_VADDR</dfn>(paddr)            (BIOS_VADDR_MASK | ((paddr) &amp; ~0xF0000000))</u></td></tr>
+<tr><th id="16">16</th><td><u>#define <dfn class="macro" id="_M/BIOS_VADDR_MASK" data-ref="_M/BIOS_VADDR_MASK">BIOS_VADDR_MASK</dfn>              0xF0000000</u></td></tr>
+<tr><th id="17">17</th><td><u>#define <dfn class="macro" id="_M/BIOS_VADDR" data-ref="_M/BIOS_VADDR">BIOS_VADDR</dfn>(paddr)            (BIOS_VADDR_MASK | paddr)</u></td></tr>
 <tr><th id="18">18</th><td><u>#define <dfn class="macro" id="_M/BIOS_VADDR_TYPE" data-ref="_M/BIOS_VADDR_TYPE">BIOS_VADDR_TYPE</dfn>(paddr, type) ((type) BIOS_VADDR((uintptr_t) (paddr)))</u></td></tr>
 <tr><th id="19">19</th><td></td></tr>
 <tr><th id="20">20</th><td><i>// clang-format off</i></td></tr>
