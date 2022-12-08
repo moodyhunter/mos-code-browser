@@ -5,6 +5,6 @@
 <use f='MOS/kernel/mm/memops.c' l='18' u='c' c='mos_kernel_mm_init'/>
 <use f='MOS/kernel/mm/memops.c' l='37' u='c' c='liballoc_alloc_page'/>
 <use f='MOS/kernel/tasks/fork.c' l='35' u='c' c='process_handle_fork'/>
-<use f='MOS/kernel/tasks/process.c' l='107' u='c' c='process_new'/>
+<use f='MOS/kernel/tasks/process.c' l='108' u='c' c='process_new'/>
 <use f='MOS/kernel/tasks/thread.c' l='63' u='c' c='thread_new'/>
 <use f='MOS/kernel/tasks/thread.c' l='71' u='c' c='thread_new'/>

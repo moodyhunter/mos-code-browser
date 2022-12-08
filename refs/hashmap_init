@@ -1,6 +1,6 @@
 <dec f='MOS/lib/include/lib/structures/hashmap.h' l='28' type='void hashmap_init(hashmap_t * map, size_t capacity, hashmap_hash_t hash_func, hashmap_key_compare_t compare_func)'/>
 <use f='MOS/kernel/device/block.c' l='54' u='c' c='blockdev_register'/>
-<use f='MOS/kernel/tasks/process.c' l='77' u='c' c='process_init'/>
+<use f='MOS/kernel/tasks/process.c' l='78' u='c' c='process_init'/>
 <use f='MOS/kernel/tasks/thread.c' l='49' u='c' c='thread_init'/>
 <def f='MOS/lib/structures/hashmap.c' l='18' ll='33' type='void hashmap_init(hashmap_t * map, size_t capacity, hashmap_hash_t hash_func, hashmap_key_compare_t compare_func)'/>
 <use f='MOS/tests/hashmap/test_hashmap.c' l='13' macro='1' u='c' c='hashmap_init_simple_macro'/>

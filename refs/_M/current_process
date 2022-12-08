@@ -21,4 +21,4 @@
 <use f='MOS/kernel/ksyscall.c' l='156' u='c'/>
 <use f='MOS/kernel/mm/cow.c' l='26' u='c'/>
 <use f='MOS/kernel/mm/cow.c' l='63' u='c'/>
-<use f='MOS/kernel/tasks/process.c' l='194' u='c'/>
+<use f='MOS/kernel/tasks/process.c' l='195' u='c'/>
