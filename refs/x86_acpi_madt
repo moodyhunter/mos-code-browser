@@ -2,7 +2,8 @@
 <def f='MOS/arch/x86/acpi/acpi.c' l='17' type='acpi_madt_t *'/>
 <use f='MOS/arch/x86/acpi/acpi.c' l='63' u='w' c='x86_acpi_init'/>
 <use f='MOS/arch/x86/acpi/acpi.c' l='64' u='r' c='x86_acpi_init'/>
-<use f='MOS/arch/x86/acpi/acpi.c' l='82' u='r' c='x86_acpi_init'/>
-<use f='MOS/arch/x86/acpi/acpi.c' l='85' u='r' c='x86_acpi_init'/>
+<use f='MOS/arch/x86/acpi/acpi.c' l='66' u='r' c='x86_acpi_init'/>
+<use f='MOS/arch/x86/acpi/acpi.c' l='84' u='r' c='x86_acpi_init'/>
+<use f='MOS/arch/x86/acpi/acpi.c' l='87' u='r' c='x86_acpi_init'/>
 <use f='MOS/arch/x86/cpu/smp.c' l='120' u='r' c='x86_smp_init'/>
 <use f='MOS/arch/x86/interrupt/lapic.c' l='120' u='r' c='lapic_memory_setup'/>

@@ -11,9 +11,9 @@
 <offset>96</offset>
 <doc f='MOS/kernel/include/mos/platform/platform.h' l='84'>// the expected flags for the region, regardless of the copy-on-write state</doc>
 <doc f='MOS/arch/x86/include/mos/x86/boot/multiboot.h' l='122'>/* Multiboot info version number */</doc>
-<use f='MOS/arch/x86/boot/multiboot/startup.c' l='135' u='r' c='x86_startup'/>
-<use f='MOS/arch/x86/boot/multiboot/startup.c' l='143' u='r' c='x86_startup'/>
-<use f='MOS/arch/x86/boot/multiboot/startup.c' l='170' u='r' c='x86_startup'/>
+<use f='MOS/arch/x86/boot/multiboot/startup.c' l='140' u='r' c='x86_startup'/>
+<use f='MOS/arch/x86/boot/multiboot/startup.c' l='149' u='r' c='x86_startup'/>
+<use f='MOS/arch/x86/boot/multiboot/startup.c' l='176' u='r' c='x86_startup'/>
 <use f='MOS/arch/x86/mm/paging_impl.c' l='44' u='w' c='pg_page_alloc_at'/>
 <use f='MOS/arch/x86/x86_platform.c' l='120' u='r' c='x86_start_kernel'/>
 <use f='MOS/arch/x86/x86_platform_api.c' l='128' u='w' c='platform_mm_copy_maps'/>

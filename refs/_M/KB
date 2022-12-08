@@ -1,5 +1,6 @@
 <dec f='MOS/kernel/include/mos/constants.h' l='21'/>
 <doc f='MOS/kernel/include/mos/constants.h' l='20'>// clang-format off</doc>
+<use f='MOS/arch/x86/boot/multiboot/startup.c' l='143' u='c'/>
 <use f='MOS/arch/x86/cpu/smp.c' l='135' u='c'/>
 <use f='MOS/arch/x86/cpu/smp.c' l='136' u='c'/>
 <use f='MOS/arch/x86/interrupt/lapic.c' l='130' u='c'/>

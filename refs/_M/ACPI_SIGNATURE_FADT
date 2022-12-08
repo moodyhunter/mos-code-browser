@@ -1,2 +1,2 @@
 <dec f='MOS/arch/x86/include/mos/x86/acpi/acpi_types.h' l='128'/>
-<use f='MOS/arch/x86/acpi/acpi.c' l='55' u='c'/>
+<use f='MOS/arch/x86/acpi/acpi.c' l='54' u='c'/>

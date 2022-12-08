@@ -3,6 +3,6 @@
 <offset>64</offset>
 <doc f='MOS/arch/x86/include/mos/x86/boot/multiboot.h' l='132'>/* Kernel command line */</doc>
 <doc f='MOS/arch/x86/include/mos/x86/boot/multiboot.h' l='212'>/* Module command line */</doc>
-<use f='MOS/arch/x86/boot/multiboot/startup.c' l='144' u='r' c='x86_startup'/>
-<use f='MOS/arch/x86/boot/multiboot/startup.c' l='144' u='r' c='x86_startup'/>
+<use f='MOS/arch/x86/boot/multiboot/startup.c' l='150' u='r' c='x86_startup'/>
+<use f='MOS/arch/x86/boot/multiboot/startup.c' l='150' u='r' c='x86_startup'/>
 <use f='MOS/arch/x86/x86_platform.c' l='121' u='r' c='x86_start_kernel'/>

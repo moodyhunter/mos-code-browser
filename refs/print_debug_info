@@ -5,6 +5,7 @@
 <use f='MOS/arch/x86/boot/multiboot/startup.c' l='54' u='c' c='startup_setup_pgd'/>
 <use f='MOS/arch/x86/boot/multiboot/startup.c' l='54' u='c' c='mos_startup_map_single_page'/>
 <use f='MOS/arch/x86/boot/multiboot/startup.c' l='54' u='c' c='mos_startup_map_single_page'/>
+<use f='MOS/arch/x86/boot/multiboot/startup.c' l='54' u='c' c='mos_startup_map_single_page'/>
 <use f='MOS/arch/x86/boot/multiboot/startup.c' l='54' u='c' c='x86_startup'/>
 <use f='MOS/arch/x86/boot/multiboot/startup.c' l='54' u='c' c='x86_startup'/>
 <use f='MOS/arch/x86/boot/multiboot/startup.c' l='60' u='c' c='x86_startup'/>

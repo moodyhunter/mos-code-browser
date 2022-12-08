@@ -1,6 +1,6 @@
 <dec f='MOS/arch/x86/include/mos/x86/acpi/acpi_types.h' l='12' type='u8'/>
 <dec f='MOS/arch/x86/include/mos/x86/acpi/acpi_types.h' l='34' type='u8'/>
-<use f='MOS/arch/x86/acpi/acpi.c' l='155' u='r' c='acpi_find_rsdp'/>
 <use f='MOS/arch/x86/acpi/acpi.c' l='157' u='r' c='acpi_find_rsdp'/>
-<use f='MOS/arch/x86/acpi/acpi.c' l='158' u='r' c='acpi_find_rsdp'/>
+<use f='MOS/arch/x86/acpi/acpi.c' l='159' u='r' c='acpi_find_rsdp'/>
+<use f='MOS/arch/x86/acpi/acpi.c' l='160' u='r' c='acpi_find_rsdp'/>
 <offset>64</offset>

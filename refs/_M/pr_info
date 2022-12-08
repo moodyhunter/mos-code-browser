@@ -1,5 +1,5 @@
 <dec f='MOS/kernel/include/mos/printk.h' l='45'/>
-<use f='MOS/arch/x86/acpi/acpi.c' l='155' u='c'/>
+<use f='MOS/arch/x86/acpi/acpi.c' l='157' u='c'/>
 <doc f='MOS/kernel/include/mos/printk.h' l='44'>// print a colored message without handler, print unconditionally without a handler</doc>
 <use f='MOS/arch/x86/cpu/smp.c' l='57' u='c'/>
 <use f='MOS/arch/x86/cpu/smp.c' l='104' u='c'/>

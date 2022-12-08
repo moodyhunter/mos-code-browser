@@ -1,4 +1,5 @@
 <def f='MOS/kernel/include/mos/boot/startup.h' l='16' ll='21' macro='1' type='void mos_startup_memzero(void * start, size_t size)'/>
 <use f='MOS/arch/x86/boot/multiboot/startup.c' l='79' u='c' c='startup_setup_pgd'/>
-<use f='MOS/arch/x86/boot/multiboot/startup.c' l='112' u='c' c='mos_startup_map_single_page'/>
-<use f='MOS/arch/x86/boot/multiboot/startup.c' l='137' u='c' c='x86_startup'/>
+<use f='MOS/arch/x86/boot/multiboot/startup.c' l='117' u='c' c='mos_startup_map_single_page'/>
+<use f='MOS/arch/x86/boot/multiboot/startup.c' l='142' u='c' c='x86_startup'/>
+<use f='MOS/arch/x86/boot/multiboot/startup.c' l='143' u='c' c='x86_startup'/>

@@ -1,6 +1,6 @@
 <dec f='MOS/arch/x86/include/mos/x86/acpi/acpi_types.h' l='239' type='acpi_rsdp_t * acpi_find_rsdp(uintptr_t start, size_t size)'/>
 <use f='MOS/arch/x86/acpi/acpi.c' l='31' u='c' c='x86_acpi_init'/>
 <use f='MOS/arch/x86/acpi/acpi.c' l='34' u='c' c='x86_acpi_init'/>
-<def f='MOS/arch/x86/acpi/acpi.c' l='135' ll='164' type='acpi_rsdp_t * acpi_find_rsdp(uintptr_t start, size_t size)'/>
-<use f='MOS/arch/x86/boot/multiboot/startup.c' l='186' u='c' c='x86_startup'/>
-<use f='MOS/arch/x86/boot/multiboot/startup.c' l='188' u='c' c='x86_startup'/>
+<def f='MOS/arch/x86/acpi/acpi.c' l='137' ll='166' type='acpi_rsdp_t * acpi_find_rsdp(uintptr_t start, size_t size)'/>
+<use f='MOS/arch/x86/boot/multiboot/startup.c' l='192' u='c' c='x86_startup'/>
+<use f='MOS/arch/x86/boot/multiboot/startup.c' l='194' u='c' c='x86_startup'/>
