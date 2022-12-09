@@ -1,4 +1,4 @@
 <dec f='MOS/arch/x86/include/mos/x86/x86_platform.h' l='71' type='const char'/>
 <doc f='MOS/arch/x86/include/mos/x86/x86_platform.h' l='71'>// End of kernel</doc>
 <dec f='MOS/arch/x86/boot/multiboot/startup.c' l='29' type='const char'/>
-<use f='MOS/arch/x86/x86_platform.c' l='36' u='a'/>
+<use f='MOS/arch/x86/x86_platform.c' l='38' u='a'/>

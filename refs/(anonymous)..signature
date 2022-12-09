@@ -1,8 +1,8 @@
 <dec f='MOS/arch/x86/include/mos/x86/acpi/acpi_types.h' l='9' type='char [8]'/>
 <dec f='MOS/arch/x86/include/mos/x86/acpi/acpi_types.h' l='32' type='char [4]'/>
-<use f='MOS/arch/x86/acpi/acpi.c' l='47' u='r' c='x86_acpi_init'/>
-<use f='MOS/arch/x86/acpi/acpi.c' l='54' u='r' c='x86_acpi_init'/>
-<use f='MOS/arch/x86/acpi/acpi.c' l='61' u='r' c='x86_acpi_init'/>
-<use f='MOS/arch/x86/acpi/acpi.c' l='68' u='r' c='x86_acpi_init'/>
-<use f='MOS/arch/x86/acpi/acpi.c' l='80' c='x86_acpi_init'/>
+<use f='MOS/arch/x86/acpi/acpi.c' l='46' u='r' c='x86_acpi_init'/>
+<use f='MOS/arch/x86/acpi/acpi.c' l='53' u='r' c='x86_acpi_init'/>
+<use f='MOS/arch/x86/acpi/acpi.c' l='60' u='r' c='x86_acpi_init'/>
+<use f='MOS/arch/x86/acpi/acpi.c' l='67' u='r' c='x86_acpi_init'/>
+<use f='MOS/arch/x86/acpi/acpi.c' l='79' c='x86_acpi_init'/>
 <offset>0</offset>

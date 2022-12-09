@@ -1,6 +1,6 @@
 <dec f='MOS/kernel/include/mos/mos_global.h' l='28'/>
-<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='113' u='c'/>
-<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='135' u='c'/>
+<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='139' u='c'/>
+<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='161' u='c'/>
 <use f='MOS/kernel/printk.c' l='98' u='c'/>
 <use f='MOS/kernel/tasks/process.c' l='43' u='c'/>
 <use f='MOS/kernel/tasks/process.c' l='60' u='c'/>

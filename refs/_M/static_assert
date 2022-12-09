@@ -15,6 +15,7 @@
 <use f='MOS/arch/x86/include/mos/x86/mm/paging_impl.h' l='29' u='c'/>
 <use f='MOS/arch/x86/include/mos/x86/mm/paging_impl.h' l='45' u='c'/>
 <use f='MOS/arch/x86/include/mos/x86/cpu/cpuid.h' l='148' u='c'/>
+<use f='MOS/arch/x86/interrupt/ioapic.c' l='51' u='c'/>
 <use f='MOS/kernel/include/mos/elf/elf.h' l='64' u='c'/>
 <use f='MOS/kernel/elf/elf.c' l='15' u='c'/>
 <use f='MOS/kernel/elf/elf.c' l='16' u='c'/>

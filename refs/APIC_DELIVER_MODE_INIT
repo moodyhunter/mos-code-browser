@@ -1,3 +1,3 @@
-<dec f='MOS/arch/x86/include/mos/x86/interrupt/apic.h' l='36' type='5'/>
-<use f='MOS/arch/x86/include/mos/x86/interrupt/apic.h' l='37'/>
-<use f='MOS/arch/x86/cpu/smp.c' l='81' u='r' c='x86_cpu_start'/>
+<dec f='MOS/arch/x86/include/mos/x86/interrupt/apic.h' l='14' type='5'/>
+<use f='MOS/arch/x86/include/mos/x86/interrupt/apic.h' l='15'/>
+<use f='MOS/arch/x86/cpu/smp.c' l='79' u='r' c='x86_cpu_start'/>

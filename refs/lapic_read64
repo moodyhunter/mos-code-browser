@@ -1,3 +1,3 @@
-<dec f='MOS/arch/x86/include/mos/x86/interrupt/apic.h' l='61' type='u64 lapic_read64(u32 offset)'/>
-<def f='MOS/arch/x86/interrupt/lapic.c' l='48' ll='54' type='u64 lapic_read64(u32 offset)'/>
-<use f='MOS/arch/x86/interrupt/lapic.c' l='73' u='c' c='lapic_write64'/>
+<dec f='MOS/arch/x86/include/mos/x86/interrupt/apic.h' l='39' type='u64 lapic_read64(u32 offset)'/>
+<def f='MOS/arch/x86/interrupt/lapic.c' l='70' ll='76' type='u64 lapic_read64(u32 offset)'/>
+<use f='MOS/arch/x86/interrupt/lapic.c' l='95' u='c' c='lapic_write64'/>

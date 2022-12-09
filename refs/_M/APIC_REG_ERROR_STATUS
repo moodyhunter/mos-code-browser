@@ -1,2 +1,0 @@
-<dec f='MOS/arch/x86/include/mos/x86/interrupt/apic.h' l='17'/>
-<use f='MOS/arch/x86/interrupt/lapic.c' l='98' u='c'/>

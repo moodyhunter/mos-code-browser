@@ -1,3 +1,4 @@
-<dec f='MOS/arch/x86/include/mos/x86/interrupt/pic.h' l='17' type='void pic_remap_irq(int offset_master, int offset_slave)'/>
+<dec f='MOS/arch/x86/include/mos/x86/interrupt/pic.h' l='7' type='void pic_remap_irq(int offset_master, int offset_slave)'/>
 <use f='MOS/arch/x86/interrupt/idt.c' l='47' u='c' c='x86_idt_init'/>
-<def f='MOS/arch/x86/interrupt/pic.c' l='24' ll='45' type='void pic_remap_irq(int offset_master, int offset_slave)'/>
+<def f='MOS/arch/x86/interrupt/pic.c' l='32' ll='48' type='void pic_remap_irq(int offset_master, int offset_slave)'/>
+<doc f='MOS/arch/x86/interrupt/pic.c' l='31'>// We now have APIC, so PIC is not used anymore, but the above initialization code is still used</doc>

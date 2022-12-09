@@ -1,2 +1,2 @@
-<def f='MOS/arch/x86/cpu/smp.c' l='30' type='volatile uintptr_t'/>
-<use f='MOS/arch/x86/cpu/smp.c' l='78' u='w' c='x86_cpu_start'/>
+<def f='MOS/arch/x86/cpu/smp.c' l='29' type='volatile uintptr_t'/>
+<use f='MOS/arch/x86/cpu/smp.c' l='76' u='w' c='x86_cpu_start'/>

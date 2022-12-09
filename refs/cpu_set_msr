@@ -1,2 +1,2 @@
 <def f='MOS/arch/x86/include/mos/x86/cpu/cpu.h' l='13' ll='16' macro='1' type='void cpu_set_msr(u32 msr, u32 lo, u32 hi)'/>
-<use f='MOS/arch/x86/interrupt/lapic.c' l='39' u='c' c='lapic_set_base_addr'/>
+<use f='MOS/arch/x86/interrupt/lapic.c' l='61' u='c' c='lapic_set_base_addr'/>

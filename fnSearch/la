@@ -1,5 +1,6 @@
 lapic_get_id|lapic_get_id
 lapic_enable|lapic_enable
+lapic_eoi|lapic_eoi
 lapic_interrupt|lapic_interrupt
 lapic_interrupt_full|lapic_interrupt_full
 lapic_memory_setup|lapic_memory_setup

@@ -1,4 +1,4 @@
 <dec f='MOS/kernel/include/mos/device/console.h' l='73' type='void console_register(console_t * con)'/>
-<use f='MOS/arch/x86/x86_platform.c' l='108' u='c' c='x86_start_kernel'/>
-<use f='MOS/arch/x86/x86_platform.c' l='157' u='c' c='x86_start_kernel'/>
+<use f='MOS/arch/x86/x86_platform.c' l='110' u='c' c='x86_start_kernel'/>
+<use f='MOS/arch/x86/x86_platform.c' l='154' u='c' c='x86_start_kernel'/>
 <def f='MOS/kernel/device/console.c' l='28' ll='45' type='void console_register(console_t * con)'/>

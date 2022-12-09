@@ -1,6 +1,12 @@
 <dec f='MOS/kernel/include/mos/mos_global.h' l='29'/>
-<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='137' u='c'/>
-<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='288' u='c'/>
+<use f='MOS/arch/x86/acpi/madt.c' l='43' u='c'/>
+<use f='MOS/arch/x86/acpi/madt.c' l='46' u='c'/>
+<use f='MOS/arch/x86/acpi/madt.c' l='57' u='c'/>
+<use f='MOS/arch/x86/acpi/madt.c' l='68' u='c'/>
+<use f='MOS/arch/x86/acpi/madt.c' l='71' u='c'/>
+<use f='MOS/arch/x86/acpi/madt.c' l='74' u='c'/>
+<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='163' u='c'/>
+<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='299' u='c'/>
 <use f='MOS/arch/x86/mm/paging_impl.c' l='205' u='c'/>
 <use f='MOS/arch/x86/mm/paging_impl.c' l='239' u='c'/>
 <use f='MOS/arch/x86/mm/paging_impl.c' l='254' u='c'/>

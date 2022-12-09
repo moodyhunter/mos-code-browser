@@ -1,0 +1,9 @@
+<dec f='MOS/arch/x86/include/mos/x86/acpi/madt.h' l='8' type='uintptr_t'/>
+<def f='MOS/arch/x86/acpi/madt.c' l='12' type='uintptr_t'/>
+<use f='MOS/arch/x86/acpi/madt.c' l='57' u='r' c='acpi_parse_madt'/>
+<use f='MOS/arch/x86/acpi/madt.c' l='59' u='w' c='acpi_parse_madt'/>
+<use f='MOS/arch/x86/interrupt/ioapic.c' l='95' u='r' c='ioapic_init'/>
+<use f='MOS/arch/x86/interrupt/ioapic.c' l='96' u='r' c='ioapic_init'/>
+<use f='MOS/arch/x86/interrupt/ioapic.c' l='97' u='r' c='ioapic_init'/>
+<use f='MOS/arch/x86/interrupt/ioapic.c' l='97' u='r' c='ioapic_init'/>
+<use f='MOS/arch/x86/interrupt/ioapic.c' l='99' u='r' c='ioapic_init'/>

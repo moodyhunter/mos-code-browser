@@ -1,5 +1,5 @@
 <dec f='MOS/kernel/include/mos/constants.h' l='15'/>
 <use f='MOS/arch/x86/interrupt/idt.c' l='45' u='c'/>
 <use f='MOS/arch/x86/interrupt/idt.c' l='45' u='c'/>
-<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='123' u='c'/>
-<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='125' u='c'/>
+<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='149' u='c'/>
+<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='151' u='c'/>

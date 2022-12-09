@@ -1,4 +1,4 @@
 <dec f='MOS/arch/x86/include/mos/x86/x86_interrupt.h' l='53' type='1'/>
-<use f='MOS/arch/x86/x86_platform.c' l='40' u='r' c='x86_keyboard_handler'/>
-<use f='MOS/arch/x86/x86_platform.c' l='116' u='r' c='x86_start_kernel'/>
-<use f='MOS/arch/x86/x86_platform.c' l='160' u='r' c='x86_start_kernel'/>
+<use f='MOS/arch/x86/x86_platform.c' l='42' u='r' c='x86_keyboard_handler'/>
+<use f='MOS/arch/x86/x86_platform.c' l='158' u='r' c='x86_start_kernel'/>
+<use f='MOS/arch/x86/x86_platform.c' l='161' u='r' c='x86_start_kernel'/>

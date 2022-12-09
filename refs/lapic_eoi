@@ -1,0 +1,3 @@
+<dec f='MOS/arch/x86/include/mos/x86/interrupt/apic.h' l='43' type='void lapic_eoi()'/>
+<def f='MOS/arch/x86/interrupt/lapic.c' l='177' ll='180' type='void lapic_eoi()'/>
+<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='290' u='c' c='x86_handle_irq'/>

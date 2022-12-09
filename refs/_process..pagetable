@@ -2,8 +2,8 @@
 <offset>352</offset>
 <use f='MOS/arch/x86/tasks/context.c' l='45' u='m' c='x86_switch_to_thread'/>
 <use f='MOS/arch/x86/tasks/context.c' l='46' u='m' c='x86_switch_to_thread'/>
-<use f='MOS/arch/x86/x86_platform.c' l='81' u='r' c='x86_kpanic_hook'/>
-<use f='MOS/arch/x86/x86_platform.c' l='82' u='m' c='x86_kpanic_hook'/>
+<use f='MOS/arch/x86/x86_platform.c' l='83' u='r' c='x86_kpanic_hook'/>
+<use f='MOS/arch/x86/x86_platform.c' l='84' u='m' c='x86_kpanic_hook'/>
 <use f='MOS/kernel/elf/elf.c' l='146' u='r' c='elf_create_process'/>
 <use f='MOS/kernel/elf/elf.c' l='201' u='r' c='elf_create_process'/>
 <use f='MOS/kernel/elf/elf.c' l='207' u='r' c='elf_create_process'/>

@@ -3,4 +3,5 @@
 <use f='MOS/arch/x86/boot/multiboot/startup.c' l='159' u='c' c='x86_startup'/>
 <use f='MOS/arch/x86/boot/multiboot/startup.c' l='160' u='c' c='x86_startup'/>
 <use f='MOS/arch/x86/boot/multiboot/startup.c' l='204' u='c' c='x86_startup'/>
-<use f='MOS/arch/x86/interrupt/lapic.c' l='130' u='c' c='lapic_memory_setup'/>
+<use f='MOS/arch/x86/interrupt/ioapic.c' l='96' u='c' c='ioapic_init'/>
+<use f='MOS/arch/x86/interrupt/lapic.c' l='152' u='c' c='lapic_memory_setup'/>

@@ -1,0 +1,4 @@
+<def f='MOS/arch/x86/interrupt/ioapic.c' l='67' ll='77' type='void ioapic_write_redirection_entry(u32 irq, ioapic_redirection_entry_t entry)'/>
+<use f='MOS/arch/x86/interrupt/ioapic.c' l='127' u='c' c='ioapic_init'/>
+<use f='MOS/arch/x86/interrupt/ioapic.c' l='142' u='c' c='ioapic_enable_with_mode'/>
+<use f='MOS/arch/x86/interrupt/ioapic.c' l='149' u='c' c='ioapic_disable'/>

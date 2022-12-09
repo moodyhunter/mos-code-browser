@@ -1,0 +1,2 @@
+<dec f='MOS/arch/x86/include/mos/x86/interrupt/apic.h' l='67' type='void ioapic_disable(u32 irq)'/>
+<def f='MOS/arch/x86/interrupt/ioapic.c' l='145' ll='150' type='void ioapic_disable(u32 irq)'/>

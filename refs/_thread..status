@@ -1,5 +1,5 @@
 <dec f='MOS/kernel/include/mos/tasks/task_type.h' l='73' type='thread_status_t'/>
-<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='137' u='r' c='x86_handle_interrupt'/>
+<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='163' u='r' c='x86_handle_interrupt'/>
 <offset>64</offset>
 <use f='MOS/arch/x86/tasks/context.c' l='50' u='r' c='x86_switch_to_thread'/>
 <use f='MOS/kernel/tasks/fork.c' l='66' u='w' c='process_handle_fork'/>

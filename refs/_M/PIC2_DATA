@@ -1,9 +1,0 @@
-<dec f='MOS/arch/x86/include/mos/x86/interrupt/pic.h' l='12'/>
-<use f='MOS/arch/x86/interrupt/pic.c' l='29' u='c'/>
-<use f='MOS/arch/x86/interrupt/pic.c' l='35' u='c'/>
-<use f='MOS/arch/x86/interrupt/pic.c' l='38' u='c'/>
-<use f='MOS/arch/x86/interrupt/pic.c' l='41' u='c'/>
-<use f='MOS/arch/x86/interrupt/pic.c' l='44' u='c'/>
-<use f='MOS/arch/x86/interrupt/pic.c' l='54' u='c'/>
-<use f='MOS/arch/x86/interrupt/pic.c' l='66' u='c'/>
-<use f='MOS/arch/x86/interrupt/pic.c' l='73' u='c'/>

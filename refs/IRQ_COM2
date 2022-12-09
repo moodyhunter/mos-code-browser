@@ -1,3 +1,2 @@
 <dec f='MOS/arch/x86/include/mos/x86/x86_interrupt.h' l='55' type='3'/>
 <use f='MOS/arch/x86/devices/serial.c' l='24' u='r' c='serial_irq_handler'/>
-<use f='MOS/arch/x86/x86_platform.c' l='118' u='r' c='x86_start_kernel'/>

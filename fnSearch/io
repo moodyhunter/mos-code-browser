@@ -1,3 +1,11 @@
+ioapic_enable_interrupt|ioapic_enable_interrupt
+ioapic_disable|ioapic_disable
+ioapic_enable_with_mode|ioapic_enable_with_mode
+ioapic_init|ioapic_init
+ioapic_read|ioapic_read
+ioapic_read_redirection_entry|ioapic_read_redirection_entry
+ioapic_write|ioapic_write
+ioapic_write_redirection_entry|ioapic_write_redirection_entry
 io_init|io_init
 io_read|io_read
 io_ref|io_ref
