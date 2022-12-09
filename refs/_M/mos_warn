@@ -1,4 +1,9 @@
 <dec f='MOS/kernel/include/mos/printk.h' l='59'/>
+<use f='MOS/arch/x86/acpi/madt.c' l='85' u='c'/>
+<use f='MOS/arch/x86/acpi/madt.c' l='92' u='c'/>
+<use f='MOS/arch/x86/acpi/madt.c' l='99' u='c'/>
+<use f='MOS/arch/x86/acpi/madt.c' l='107' u='c'/>
+<use f='MOS/arch/x86/acpi/madt.c' l='112' u='c'/>
 <use f='MOS/arch/x86/cpu/smp.c' l='48' u='c'/>
 <use f='MOS/arch/x86/devices/initrd_blockdev.c' l='40' u='c'/>
 <use f='MOS/arch/x86/interrupt/lapic.c' l='85' u='c'/>

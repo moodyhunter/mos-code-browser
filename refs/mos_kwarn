@@ -1,4 +1,9 @@
 <dec f='MOS/kernel/include/mos/printk.h' l='73' type='void mos_kwarn(const char * func, u32 line, const char * fmt)'/>
+<use f='MOS/arch/x86/acpi/madt.c' l='85' macro='1' u='c' c='acpi_parse_madt'/>
+<use f='MOS/arch/x86/acpi/madt.c' l='92' macro='1' u='c' c='acpi_parse_madt'/>
+<use f='MOS/arch/x86/acpi/madt.c' l='99' macro='1' u='c' c='acpi_parse_madt'/>
+<use f='MOS/arch/x86/acpi/madt.c' l='107' macro='1' u='c' c='acpi_parse_madt'/>
+<use f='MOS/arch/x86/acpi/madt.c' l='112' macro='1' u='c' c='acpi_parse_madt'/>
 <use f='MOS/arch/x86/cpu/smp.c' l='48' macro='1' u='c' c='ap_begin_exec'/>
 <use f='MOS/arch/x86/devices/initrd_blockdev.c' l='40' macro='1' u='c' c='initrd_write'/>
 <use f='MOS/arch/x86/interrupt/lapic.c' l='85' macro='1' u='c' c='lapic_write32'/>
