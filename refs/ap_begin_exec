@@ -1,1 +1,1 @@
-<def f='MOS/arch/x86/cpu/smp.c' l='45' ll='67' type='void ap_begin_exec()'/>
+<def f='MOS/arch/x86/cpu/smp.c' l='31' ll='53' type='void ap_begin_exec()'/>

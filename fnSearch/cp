@@ -3,6 +3,7 @@ cpu_set_msr|cpu_set_msr
 cpuid_get_brand_string|cpuid_get_brand_string
 cpuid_get_manufacturer|cpuid_get_manufacturer
 cpuid_get_processor_info|cpuid_get_processor_info
+cpuid_print_cpu_info|cpuid_print_cpu_info
 cpio_close|cpio_close
 cpio_mount|cpio_mount
 cpio_open|cpio_open

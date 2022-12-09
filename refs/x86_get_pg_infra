@@ -1,6 +1,6 @@
 <def f='MOS/arch/x86/include/mos/x86/mm/paging_impl.h' l='62' ll='65' macro='1' type='x86_pg_infra_t * x86_get_pg_infra(paging_handle_t table)'/>
-<use f='MOS/arch/x86/x86_platform.c' l='83' u='c' c='x86_kpanic_hook'/>
-<use f='MOS/arch/x86/x86_platform.c' l='100' u='c' c='x86_kpanic_hook'/>
+<use f='MOS/arch/x86/x86_platform.c' l='85' u='c' c='x86_kpanic_hook'/>
+<use f='MOS/arch/x86/x86_platform.c' l='102' u='c' c='x86_kpanic_hook'/>
 <use f='MOS/arch/x86/x86_platform_api.c' l='92' u='c' c='platform_mm_alloc_pages'/>
 <use f='MOS/arch/x86/x86_platform_api.c' l='98' u='c' c='platform_mm_alloc_pages_at'/>
 <use f='MOS/arch/x86/x86_platform_api.c' l='104' u='c' c='platform_mm_get_free_pages'/>

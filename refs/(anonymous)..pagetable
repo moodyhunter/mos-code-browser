@@ -1,10 +1,10 @@
 <dec f='MOS/kernel/include/mos/platform/platform.h' l='77' type='paging_handle_t'/>
 <offset>192</offset>
 <use f='MOS/arch/x86/tasks/context.c' l='45' u='m' c='x86_switch_to_thread'/>
-<use f='MOS/arch/x86/x86_platform.c' l='77' u='m' c='x86_kpanic_hook'/>
-<use f='MOS/arch/x86/x86_platform.c' l='84' u='m' c='x86_kpanic_hook'/>
-<use f='MOS/arch/x86/x86_platform.c' l='100' u='r' c='x86_kpanic_hook'/>
-<use f='MOS/arch/x86/x86_platform.c' l='124' u='m' c='x86_start_kernel'/>
+<use f='MOS/arch/x86/x86_platform.c' l='79' u='m' c='x86_kpanic_hook'/>
+<use f='MOS/arch/x86/x86_platform.c' l='86' u='m' c='x86_kpanic_hook'/>
+<use f='MOS/arch/x86/x86_platform.c' l='102' u='r' c='x86_kpanic_hook'/>
+<use f='MOS/arch/x86/x86_platform.c' l='126' u='m' c='x86_start_kernel'/>
 <use f='MOS/kernel/elf/elf.c' l='52' u='r' c='elf_create_process'/>
 <use f='MOS/kernel/elf/elf.c' l='207' u='r' c='elf_create_process'/>
 <use f='MOS/kernel/elf/elf.c' l='217' u='r' c='elf_create_process'/>

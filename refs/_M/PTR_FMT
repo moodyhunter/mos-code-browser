@@ -1,5 +1,5 @@
 <dec f='MOS/kernel/include/mos/types.h' l='39'/>
-<use f='MOS/arch/x86/cpu/smp.c' l='128' u='c'/>
+<use f='MOS/arch/x86/cpu/smp.c' l='100' u='c'/>
 <use f='MOS/arch/x86/interrupt/lapic.c' l='143' u='c'/>
 <use f='MOS/arch/x86/interrupt/lapic.c' l='147' u='c'/>
 <use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='232' u='c'/>
@@ -65,7 +65,7 @@
 <use f='MOS/arch/x86/mm/pmem_freelist.c' l='239' u='c'/>
 <use f='MOS/arch/x86/mm/pmem_freelist.c' l='239' u='c'/>
 <use f='MOS/arch/x86/mm/pmem_freelist.c' l='281' u='c'/>
-<use f='MOS/arch/x86/x86_platform.c' l='69' u='c'/>
+<use f='MOS/arch/x86/x86_platform.c' l='71' u='c'/>
 <use f='MOS/kernel/elf/elf.c' l='79' u='c'/>
 <use f='MOS/kernel/elf/elf.c' l='121' u='c'/>
 <use f='MOS/kernel/elf/elf.c' l='121' u='c'/>

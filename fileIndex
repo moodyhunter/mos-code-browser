@@ -29,9 +29,9 @@ MOS/arch/x86/cpu/cpuid.c
 MOS/arch/x86/include/mos/x86/cpu/cpuid.h
 MOS/arch/x86/cpu/smp.c
 MOS/arch/x86/include/mos/x86/cpu/smp.h
+MOS/kernel/include/mos/tasks/schedule.h
 MOS/arch/x86/include/mos/x86/delays.h
 MOS/arch/x86/include/mos/x86/interrupt/apic.h
-MOS/arch/x86/include/mos/x86/interrupt/pic.h
 MOS/arch/x86/include/mos/x86/mm/paging.h
 MOS/arch/x86/devices/initrd_blockdev.c
 MOS/arch/x86/include/mos/x86/devices/initrd_blockdev.h
@@ -45,6 +45,7 @@ MOS/arch/x86/devices/text_mode_console.c
 MOS/arch/x86/include/mos/x86/devices/text_mode_console.h
 MOS/arch/x86/gdt/gdt.c
 MOS/arch/x86/interrupt/idt.c
+MOS/arch/x86/include/mos/x86/interrupt/pic.h
 MOS/arch/x86/interrupt/ioapic.c
 MOS/arch/x86/interrupt/lapic.c
 MOS/arch/x86/interrupt/pic.c
@@ -68,7 +69,6 @@ MOS/arch/x86/include/mos/x86/mm/pmem_freelist.h
 MOS/arch/x86/mm/paging_impl.c
 MOS/arch/x86/mm/pmem_freelist.c
 MOS/arch/x86/tasks/context.c
-MOS/kernel/include/mos/tasks/schedule.h
 MOS/arch/x86/tasks/tss.c
 MOS/arch/x86/x86_platform.c
 MOS/kernel/include/mos/panic.h

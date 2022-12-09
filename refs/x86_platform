@@ -2,11 +2,10 @@
 <use f='MOS/arch/x86/acpi/madt.c' l='29' u='m' c='acpi_parse_madt'/>
 <use f='MOS/arch/x86/acpi/madt.c' l='50' u='m' c='acpi_parse_madt'/>
 <use f='MOS/arch/x86/acpi/madt.c' l='113' u='m' c='acpi_parse_madt'/>
-<use f='MOS/arch/x86/cpu/smp.c' l='58' u='m' c='ap_begin_exec'/>
-<use f='MOS/arch/x86/cpu/smp.c' l='113' u='m' c='x86_smp_init'/>
-<use f='MOS/arch/x86/cpu/smp.c' l='114' u='m' c='x86_smp_init'/>
-<use f='MOS/arch/x86/cpu/smp.c' l='114' u='m' c='x86_smp_init'/>
-<use f='MOS/arch/x86/cpu/smp.c' l='120' u='m' c='x86_smp_init'/>
-<use f='MOS/arch/x86/cpu/smp.c' l='123' u='m' c='x86_smp_init'/>
-<def f='MOS/arch/x86/x86_platform.c' l='176' ll='185' type='mos_platform_info_t'/>
-<use f='MOS/arch/x86/x86_platform.c' l='187' u='a'/>
+<use f='MOS/arch/x86/cpu/smp.c' l='44' u='m' c='ap_begin_exec'/>
+<use f='MOS/arch/x86/cpu/smp.c' l='92' u='m' c='x86_smp_init'/>
+<use f='MOS/arch/x86/cpu/smp.c' l='95' u='m' c='x86_smp_init'/>
+<use f='MOS/arch/x86/x86_platform.c' l='159' u='m' c='x86_start_kernel'/>
+<use f='MOS/arch/x86/x86_platform.c' l='160' u='m' c='x86_start_kernel'/>
+<def f='MOS/arch/x86/x86_platform.c' l='190' ll='199' type='mos_platform_info_t'/>
+<use f='MOS/arch/x86/x86_platform.c' l='201' u='a'/>

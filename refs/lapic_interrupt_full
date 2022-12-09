@@ -1,5 +1,5 @@
 <dec f='MOS/arch/x86/include/mos/x86/interrupt/apic.h' l='36' type='void lapic_interrupt_full(u8 vec, u8 dest, lapic_delivery_mode_t dliv_mode, lapic_dest_mode_t dstmode, _Bool lvl, _Bool trigger, lapic_shorthand_t sh)'/>
-<use f='MOS/arch/x86/cpu/smp.c' l='79' u='c' c='x86_cpu_start'/>
-<use f='MOS/arch/x86/cpu/smp.c' l='81' u='c' c='x86_cpu_start'/>
+<use f='MOS/arch/x86/cpu/smp.c' l='65' u='c' c='x86_cpu_start'/>
+<use f='MOS/arch/x86/cpu/smp.c' l='67' u='c' c='x86_cpu_start'/>
 <def f='MOS/arch/x86/interrupt/lapic.c' l='108' ll='123' type='void lapic_interrupt_full(u8 vec, u8 dest, lapic_delivery_mode_t delivery_mode, lapic_dest_mode_t dest_mode, _Bool level, _Bool trigger, lapic_shorthand_t shorthand)'/>
 <use f='MOS/arch/x86/interrupt/lapic.c' l='127' u='c' c='lapic_interrupt'/>

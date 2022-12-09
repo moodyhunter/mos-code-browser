@@ -2,4 +2,4 @@
 <def f='MOS/arch/x86/acpi/madt.c' l='11' type='u32 [16]'/>
 <use f='MOS/arch/x86/acpi/madt.c' l='46' u='r' c='acpi_parse_madt'/>
 <use f='MOS/arch/x86/acpi/madt.c' l='49' u='w' c='acpi_parse_madt'/>
-<use f='MOS/arch/x86/cpu/smp.c' l='122' u='r' c='x86_smp_init'/>
+<use f='MOS/arch/x86/cpu/smp.c' l='94' u='r' c='x86_smp_init'/>

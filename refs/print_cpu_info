@@ -1,3 +1,0 @@
-<def f='MOS/arch/x86/cpu/smp.c' l='32' ll='43' type='void print_cpu_info()'/>
-<use f='MOS/arch/x86/cpu/smp.c' l='56' u='c' c='ap_begin_exec'/>
-<use f='MOS/arch/x86/cpu/smp.c' l='103' u='c' c='x86_smp_init'/>
