@@ -9,6 +9,7 @@
 <use f='MOS/arch/x86/x86_platform.c' l='71' macro='1' u='r' c='do_backtrace'/>
 <use f='MOS/kernel/filesystem/mount.c' l='85' macro='1' u='r' c='kunmount'/>
 <use f='MOS/kernel/kernel_init.c' l='44' macro='1' u='r' c='cmdline_get_init_path'/>
+<use f='MOS/kernel/ksyscall.c' l='224' macro='1' u='r' c='impl_syscall_wait_for_thread'/>
 <use f='MOS/kernel/panic.c' l='22' macro='1' u='r' c='kwarn_handler_set'/>
 <use f='MOS/kernel/panic.c' l='28' macro='1' u='r' c='kwarn_handler_remove'/>
 <use f='MOS/kernel/panic.c' l='88' u='r' c='mos_kwarn'/>

@@ -1,7 +1,7 @@
 <dec f='MOS/kernel/include/mos/tasks/task_type.h' l='74' type='proc_vmblock_t *'/>
 <offset>70272</offset>
-<use f='MOS/kernel/ksyscall.c' l='161' u='r' c='impl_syscall_heap_control'/>
-<use f='MOS/kernel/ksyscall.c' l='163' u='r' c='impl_syscall_heap_control'/>
+<use f='MOS/kernel/ksyscall.c' l='162' u='r' c='impl_syscall_heap_control'/>
+<use f='MOS/kernel/ksyscall.c' l='164' u='r' c='impl_syscall_heap_control'/>
 <use f='MOS/kernel/mm/cow.c' l='68' u='r' c='cow_handle_page_fault'/>
 <use f='MOS/kernel/mm/cow.c' l='75' u='r' c='cow_handle_page_fault'/>
 <use f='MOS/kernel/mm/cow.c' l='83' u='r' c='cow_handle_page_fault'/>

@@ -1,6 +1,6 @@
 <def f='MOS/build/include/mos/syscall/usermode.h' l='91' ll='94' macro='1' type='uintptr_t syscall_heap_control(heap_control_op op, uintptr_t arg)'/>
-<use f='MOS/userspace/init/main.c' l='57' u='c' c='main'/>
-<use f='MOS/userspace/init/main.c' l='59' u='c' c='main'/>
-<use f='MOS/userspace/init/main.c' l='84' u='c' c='main'/>
-<use f='MOS/userspace/init/main.c' l='88' u='c' c='main'/>
+<use f='MOS/userspace/init/main.c' l='58' u='c' c='main'/>
+<use f='MOS/userspace/init/main.c' l='60' u='c' c='main'/>
+<use f='MOS/userspace/init/main.c' l='85' u='c' c='main'/>
+<use f='MOS/userspace/init/main.c' l='89' u='c' c='main'/>
 <use f='MOS/userspace/libuserspace.c' l='102' u='c' c='liballoc_alloc_page'/>

@@ -1,0 +1,4 @@
+<dec f='MOS/build/include/mos/syscall/dispatcher.h' l='90' type='_Bool impl_syscall_wait_for_thread(tid_t tid)'/>
+<use f='MOS/build/include/mos/syscall/dispatcher.h' l='92' u='c' c='dispatch_syscall'/>
+<dec f='MOS/build/include/mos/syscall/decl.h' l='44' type='_Bool impl_syscall_wait_for_thread(tid_t tid)'/>
+<def f='MOS/kernel/ksyscall.c' l='215' macro='1' type='_Bool impl_syscall_wait_for_thread(tid_t tid)'/>

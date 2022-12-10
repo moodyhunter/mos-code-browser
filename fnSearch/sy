@@ -14,4 +14,5 @@ syscall_io_write|syscall_io_write
 syscall_panic|syscall_panic
 syscall_spawn|syscall_spawn
 syscall_thread_exit|syscall_thread_exit
+syscall_wait_for_thread|syscall_wait_for_thread
 syscall_yield_cpu|syscall_yield_cpu

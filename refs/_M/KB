@@ -6,4 +6,4 @@
 <use f='MOS/arch/x86/interrupt/lapic.c' l='152' u='c'/>
 <use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='229' u='c'/>
 <use f='MOS/userspace/init/main.c' l='8' u='c'/>
-<use f='MOS/userspace/init/main.c' l='59' u='c'/>
+<use f='MOS/userspace/init/main.c' l='60' u='c'/>

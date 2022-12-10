@@ -1,15 +1,15 @@
 <dec f='MOS/kernel/include/mos/tasks/task_type.h' l='37' type='vmblock_t'/>
 <offset>0</offset>
-<use f='MOS/kernel/ksyscall.c' l='176' u='m' c='impl_syscall_heap_control'/>
 <use f='MOS/kernel/ksyscall.c' l='177' u='m' c='impl_syscall_heap_control'/>
-<use f='MOS/kernel/ksyscall.c' l='177' u='m' c='impl_syscall_heap_control'/>
-<use f='MOS/kernel/ksyscall.c' l='180' u='m' c='impl_syscall_heap_control'/>
-<use f='MOS/kernel/ksyscall.c' l='192' u='m' c='impl_syscall_heap_control'/>
-<use f='MOS/kernel/ksyscall.c' l='192' u='m' c='impl_syscall_heap_control'/>
-<use f='MOS/kernel/ksyscall.c' l='195' u='m' c='impl_syscall_heap_control'/>
-<use f='MOS/kernel/ksyscall.c' l='195' u='m' c='impl_syscall_heap_control'/>
-<use f='MOS/kernel/ksyscall.c' l='201' u='m' c='impl_syscall_heap_control'/>
-<use f='MOS/kernel/ksyscall.c' l='203' u='m' c='impl_syscall_heap_control'/>
+<use f='MOS/kernel/ksyscall.c' l='178' u='m' c='impl_syscall_heap_control'/>
+<use f='MOS/kernel/ksyscall.c' l='178' u='m' c='impl_syscall_heap_control'/>
+<use f='MOS/kernel/ksyscall.c' l='181' u='m' c='impl_syscall_heap_control'/>
+<use f='MOS/kernel/ksyscall.c' l='193' u='m' c='impl_syscall_heap_control'/>
+<use f='MOS/kernel/ksyscall.c' l='193' u='m' c='impl_syscall_heap_control'/>
+<use f='MOS/kernel/ksyscall.c' l='196' u='m' c='impl_syscall_heap_control'/>
+<use f='MOS/kernel/ksyscall.c' l='196' u='m' c='impl_syscall_heap_control'/>
+<use f='MOS/kernel/ksyscall.c' l='202' u='m' c='impl_syscall_heap_control'/>
+<use f='MOS/kernel/ksyscall.c' l='204' u='m' c='impl_syscall_heap_control'/>
 <use f='MOS/kernel/mm/cow.c' l='68' u='r' c='cow_handle_page_fault'/>
 <use f='MOS/kernel/tasks/fork.c' l='34' u='m' c='process_handle_fork'/>
 <use f='MOS/kernel/tasks/fork.c' l='35' u='m' c='process_handle_fork'/>

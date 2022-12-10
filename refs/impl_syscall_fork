@@ -1,4 +1,4 @@
 <dec f='MOS/build/include/mos/syscall/dispatcher.h' l='54' type='pid_t impl_syscall_fork()'/>
 <use f='MOS/build/include/mos/syscall/dispatcher.h' l='56' u='c' c='dispatch_syscall'/>
 <dec f='MOS/build/include/mos/syscall/decl.h' l='26' type='pid_t impl_syscall_fork()'/>
-<def f='MOS/kernel/ksyscall.c' l='85' macro='1' type='pid_t impl_syscall_fork()'/>
+<def f='MOS/kernel/ksyscall.c' l='86' macro='1' type='pid_t impl_syscall_fork()'/>

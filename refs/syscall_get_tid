@@ -1,1 +1,2 @@
 <def f='MOS/build/include/mos/syscall/usermode.h' l='81' ll='84' macro='1' type='tid_t syscall_get_tid()'/>
+<use f='MOS/userspace/locks/main.c' l='23' u='c' c='thread_do_work'/>

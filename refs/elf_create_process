@@ -1,4 +1,4 @@
 <dec f='MOS/kernel/include/mos/elf/elf.h' l='224' type='process_t * elf_create_process(const char * path, process_t * parent, terminal_t * term, uid_t effective_uid)'/>
 <def f='MOS/kernel/elf/elf.c' l='42' ll='231' type='process_t * elf_create_process(const char * path, process_t * parent, terminal_t * term, uid_t effective_uid)'/>
 <use f='MOS/kernel/kernel_init.c' l='107' u='c' c='mos_start_kernel'/>
-<use f='MOS/kernel/ksyscall.c' l='120' u='c' c='impl_syscall_spawn'/>
+<use f='MOS/kernel/ksyscall.c' l='121' u='c' c='impl_syscall_spawn'/>

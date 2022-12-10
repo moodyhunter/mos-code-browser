@@ -1,2 +1,3 @@
 <dec f='MOS/kernel/include/mos/tasks/thread.h' l='24' type='thread_t * thread_get(tid_t id)'/>
+<use f='MOS/kernel/ksyscall.c' l='218' u='c' c='impl_syscall_wait_for_thread'/>
 <def f='MOS/kernel/tasks/thread.c' l='93' ll='96' type='thread_t * thread_get(tid_t tid)'/>

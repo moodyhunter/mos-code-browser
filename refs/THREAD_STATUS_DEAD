@@ -1,5 +1,6 @@
 <dec f='MOS/kernel/include/mos/tasks/task_type.h' l='19' type='4'/>
 <doc f='MOS/kernel/include/mos/tasks/task_type.h' l='19'>// thread is dead, and will be cleaned up soon by the scheduler</doc>
+<use f='MOS/kernel/ksyscall.c' l='229' u='r' c='impl_syscall_wait_for_thread'/>
 <use f='MOS/kernel/tasks/process.c' l='174' u='r' c='process_handle_exit'/>
 <use f='MOS/kernel/tasks/process.c' l='179' u='r' c='process_handle_exit'/>
 <use f='MOS/kernel/tasks/schedule.c' l='44' u='r' c='mos_update_current'/>

@@ -6,4 +6,3 @@ thread_get|thread_get
 thread_handle_exit|thread_handle_exit
 thread_init|thread_init
 thread_new|thread_new
-thread_work|thread_work

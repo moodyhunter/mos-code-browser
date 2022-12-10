@@ -3,10 +3,10 @@
 <use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='242' u='r' c='x86_handle_exception'/>
 <offset>32</offset>
 <use f='MOS/arch/x86/x86_platform.c' l='83' u='r' c='x86_kpanic_hook'/>
-<use f='MOS/kernel/ksyscall.c' l='18' u='r' c='impl_syscall_panic'/>
-<use f='MOS/kernel/ksyscall.c' l='135' u='r' c='impl_syscall_create_thread'/>
-<use f='MOS/kernel/ksyscall.c' l='141' u='r' c='impl_syscall_get_tid'/>
-<use f='MOS/kernel/ksyscall.c' l='147' u='r' c='impl_syscall_thread_exit'/>
+<use f='MOS/kernel/ksyscall.c' l='19' u='r' c='impl_syscall_panic'/>
+<use f='MOS/kernel/ksyscall.c' l='136' u='r' c='impl_syscall_create_thread'/>
+<use f='MOS/kernel/ksyscall.c' l='142' u='r' c='impl_syscall_get_tid'/>
+<use f='MOS/kernel/ksyscall.c' l='148' u='r' c='impl_syscall_thread_exit'/>
 <use f='MOS/kernel/tasks/fork.c' l='70' u='a' c='process_handle_fork'/>
 <use f='MOS/kernel/tasks/process.c' l='154' u='r' c='process_attach_thread'/>
 <use f='MOS/kernel/tasks/process.c' l='176' u='r' c='process_handle_exit'/>

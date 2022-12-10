@@ -98,6 +98,7 @@ MOS/kernel/kernel_init.c
 MOS/kernel/include/mos/tasks/thread.h
 MOS/kernel/ksyscall.c
 MOS/build/include/mos/syscall/decl.h
+MOS/kernel/include/mos/tasks/wait.h
 MOS/kernel/mm/cow.c
 MOS/kernel/mm/memops.c
 MOS/kernel/panic.c
@@ -107,7 +108,6 @@ MOS/kernel/stack_protector.c
 MOS/kernel/tasks/fork.c
 MOS/kernel/tasks/process.c
 MOS/kernel/tasks/schedule.c
-MOS/kernel/include/mos/tasks/wait.h
 MOS/kernel/tasks/thread.c
 MOS/kernel/tasks/wait.c
 MOS/lib/liballoc.c
@@ -142,5 +142,6 @@ MOS/userspace/include/libuserspace.h
 MOS/build/include/mos/syscall/usermode.h
 MOS/arch/x86/include/mos/platform_syscall.h
 MOS/userspace/libuserspace.c
+MOS/userspace/locks/main.c
 MOS/userspace/ping-pong/ping.c
 MOS/userspace/ping-pong/pong.c

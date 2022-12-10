@@ -1,4 +1,4 @@
 <dec f='MOS/build/include/mos/syscall/dispatcher.h' l='86' type='uintptr_t impl_syscall_heap_control(heap_control_op op, uintptr_t arg)'/>
 <use f='MOS/build/include/mos/syscall/dispatcher.h' l='88' u='c' c='dispatch_syscall'/>
 <dec f='MOS/build/include/mos/syscall/decl.h' l='42' type='uintptr_t impl_syscall_heap_control(heap_control_op op, uintptr_t arg)'/>
-<def f='MOS/kernel/ksyscall.c' l='153' macro='1' type='uintptr_t impl_syscall_heap_control(heap_control_op op, uintptr_t arg)'/>
+<def f='MOS/kernel/ksyscall.c' l='154' macro='1' type='uintptr_t impl_syscall_heap_control(heap_control_op op, uintptr_t arg)'/>
