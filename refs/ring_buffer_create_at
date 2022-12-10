@@ -1,0 +1,2 @@
+<dec f='MOS/lib/include/lib/structures/ring_buffer.h' l='24' type='ring_buffer_t * ring_buffer_create_at(void * data, size_t capacity)'/>
+<def f='MOS/lib/structures/ring_buffer.c' l='35' ll='49' type='ring_buffer_t * ring_buffer_create_at(void * data, size_t capacity)'/>

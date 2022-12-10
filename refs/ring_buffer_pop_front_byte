@@ -1,4 +1,4 @@
-<def f='MOS/lib/include/lib/structures/ring_buffer.h' l='56' ll='61' macro='1' type='u8 ring_buffer_pop_front_byte(ring_buffer_t * buffer)'/>
+<def f='MOS/lib/include/lib/structures/ring_buffer.h' l='57' ll='62' macro='1' type='u8 ring_buffer_pop_front_byte(ring_buffer_t * buffer)'/>
 <use f='MOS/tests/ring_buffer/test_ring_buffer.c' l='213' u='c' c='ringbuffer_push_pop_front'/>
 <use f='MOS/tests/ring_buffer/test_ring_buffer.c' l='219' u='c' c='ringbuffer_push_pop_front'/>
 <use f='MOS/tests/ring_buffer/test_ring_buffer.c' l='225' u='c' c='ringbuffer_push_pop_front'/>

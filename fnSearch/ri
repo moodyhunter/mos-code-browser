@@ -1,4 +1,5 @@
 ring_buffer_create|ring_buffer_create
+ring_buffer_create_at|ring_buffer_create_at
 ring_buffer_destroy|ring_buffer_destroy
 ring_buffer_is_empty|ring_buffer_is_empty
 ring_buffer_is_full|ring_buffer_is_full

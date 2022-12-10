@@ -1,16 +1,17 @@
 <dec f='MOS/lib/include/lib/structures/ring_buffer.h' l='18' type='size_t'/>
-<use f='MOS/lib/include/lib/structures/ring_buffer.h' l='41' u='r' c='ring_buffer_is_full'/>
+<use f='MOS/lib/include/lib/structures/ring_buffer.h' l='42' u='r' c='ring_buffer_is_full'/>
 <use f='MOS/lib/structures/ring_buffer.c' l='28' u='w' c='ring_buffer_create'/>
-<use f='MOS/lib/structures/ring_buffer.c' l='56' u='w' c='ring_buffer_resize'/>
-<use f='MOS/lib/structures/ring_buffer.c' l='65' u='r' c='ring_buffer_push_back'/>
-<use f='MOS/lib/structures/ring_buffer.c' l='68' u='r' c='ring_buffer_push_back'/>
-<use f='MOS/lib/structures/ring_buffer.c' l='80' u='r' c='ring_buffer_pop_back'/>
-<use f='MOS/lib/structures/ring_buffer.c' l='80' u='r' c='ring_buffer_pop_back'/>
-<use f='MOS/lib/structures/ring_buffer.c' l='92' u='r' c='ring_buffer_push_front'/>
-<use f='MOS/lib/structures/ring_buffer.c' l='94' u='r' c='ring_buffer_push_front'/>
-<use f='MOS/lib/structures/ring_buffer.c' l='94' u='r' c='ring_buffer_push_front'/>
-<use f='MOS/lib/structures/ring_buffer.c' l='109' u='r' c='ring_buffer_pop_front'/>
-<use f='MOS/lib/structures/ring_buffer.c' l='109' u='r' c='ring_buffer_pop_front'/>
+<use f='MOS/lib/structures/ring_buffer.c' l='44' u='w' c='ring_buffer_create_at'/>
+<use f='MOS/lib/structures/ring_buffer.c' l='72' u='w' c='ring_buffer_resize'/>
+<use f='MOS/lib/structures/ring_buffer.c' l='81' u='r' c='ring_buffer_push_back'/>
+<use f='MOS/lib/structures/ring_buffer.c' l='84' u='r' c='ring_buffer_push_back'/>
+<use f='MOS/lib/structures/ring_buffer.c' l='96' u='r' c='ring_buffer_pop_back'/>
+<use f='MOS/lib/structures/ring_buffer.c' l='96' u='r' c='ring_buffer_pop_back'/>
+<use f='MOS/lib/structures/ring_buffer.c' l='108' u='r' c='ring_buffer_push_front'/>
+<use f='MOS/lib/structures/ring_buffer.c' l='110' u='r' c='ring_buffer_push_front'/>
+<use f='MOS/lib/structures/ring_buffer.c' l='110' u='r' c='ring_buffer_push_front'/>
+<use f='MOS/lib/structures/ring_buffer.c' l='125' u='r' c='ring_buffer_pop_front'/>
+<use f='MOS/lib/structures/ring_buffer.c' l='125' u='r' c='ring_buffer_pop_front'/>
 <offset>128</offset>
 <use f='MOS/tests/ring_buffer/test_ring_buffer.c' l='13' u='r' c='ringbuffer_creation_and_destruction'/>
 <use f='MOS/tests/ring_buffer/test_ring_buffer.c' l='13' u='r' c='ringbuffer_creation_and_destruction'/>
