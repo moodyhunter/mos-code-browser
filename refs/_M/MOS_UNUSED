@@ -1,4 +1,4 @@
-<dec f='MOS/kernel/include/mos/mos_global.h' l='42'/>
+<dec f='MOS/kernel/include/mos/mos_global.h' l='43'/>
 <use f='MOS/arch/x86/devices/initrd_blockdev.c' l='36' u='c'/>
 <use f='MOS/arch/x86/devices/initrd_blockdev.c' l='37' u='c'/>
 <use f='MOS/arch/x86/devices/initrd_blockdev.c' l='38' u='c'/>

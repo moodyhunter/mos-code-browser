@@ -1,0 +1,2 @@
+<dec f='MOS/kernel/include/mos/tasks/wait.h' l='7' type='wait_condition_t * wc_wait_for_thread(thread_t * thread)'/>
+<def f='MOS/kernel/tasks/wait.c' l='13' ll='19' type='wait_condition_t * wc_wait_for_thread(thread_t * target)'/>

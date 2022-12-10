@@ -1,4 +1,4 @@
-<dec f='MOS/kernel/include/mos/mos_global.h' l='29'/>
+<dec f='MOS/kernel/include/mos/mos_global.h' l='30'/>
 <use f='MOS/arch/x86/acpi/madt.c' l='43' u='c'/>
 <use f='MOS/arch/x86/acpi/madt.c' l='46' u='c'/>
 <use f='MOS/arch/x86/acpi/madt.c' l='57' u='c'/>

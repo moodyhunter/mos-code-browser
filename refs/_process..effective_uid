@@ -1,4 +1,4 @@
-<dec f='MOS/kernel/include/mos/tasks/task_type.h' l='56' type='uid_t'/>
+<dec f='MOS/kernel/include/mos/tasks/task_type.h' l='64' type='uid_t'/>
 <offset>320</offset>
 <use f='MOS/kernel/ksyscall.c' l='17' u='r' c='impl_syscall_panic'/>
 <use f='MOS/kernel/ksyscall.c' l='120' u='r' c='impl_syscall_spawn'/>

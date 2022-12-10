@@ -1,0 +1,3 @@
+<dec f='MOS/kernel/include/mos/tasks/wait.h' l='8' type='void wc_condition_cleanup(wait_condition_t * condition)'/>
+<use f='MOS/kernel/tasks/schedule.c' l='27' u='c' c='should_schedule_to_thread'/>
+<def f='MOS/kernel/tasks/wait.c' l='21' ll='26' type='void wc_condition_cleanup(wait_condition_t * condition)'/>

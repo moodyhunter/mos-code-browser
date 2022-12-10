@@ -44,9 +44,9 @@
 <use f='MOS/kernel/mm/cow.c' l='63' macro='1' u='r' c='cow_handle_page_fault'/>
 <use f='MOS/kernel/tasks/fork.c' l='60' macro='1' u='r' c='process_handle_fork'/>
 <use f='MOS/kernel/tasks/process.c' l='195' macro='1' u='r' c='process_handle_cleanup'/>
-<use f='MOS/kernel/tasks/schedule.c' l='14' macro='1' u='r' c='mos_update_current'/>
-<use f='MOS/kernel/tasks/schedule.c' l='19' macro='1' u='r' c='mos_update_current'/>
-<use f='MOS/kernel/tasks/schedule.c' l='22' macro='1' u='w' c='mos_update_current'/>
-<use f='MOS/kernel/tasks/schedule.c' l='50' u='r' c='jump_to_scheduler'/>
-<use f='MOS/kernel/tasks/schedule.c' l='51' u='r' c='jump_to_scheduler'/>
-<use f='MOS/kernel/tasks/schedule.c' l='52' u='r' c='jump_to_scheduler'/>
+<use f='MOS/kernel/tasks/schedule.c' l='39' macro='1' u='r' c='mos_update_current'/>
+<use f='MOS/kernel/tasks/schedule.c' l='44' macro='1' u='r' c='mos_update_current'/>
+<use f='MOS/kernel/tasks/schedule.c' l='47' macro='1' u='w' c='mos_update_current'/>
+<use f='MOS/kernel/tasks/schedule.c' l='75' u='r' c='jump_to_scheduler'/>
+<use f='MOS/kernel/tasks/schedule.c' l='76' u='r' c='jump_to_scheduler'/>
+<use f='MOS/kernel/tasks/schedule.c' l='77' u='r' c='jump_to_scheduler'/>

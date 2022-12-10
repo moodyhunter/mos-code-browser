@@ -1,0 +1,4 @@
+<dec f='MOS/kernel/include/mos/tasks/task_type.h' l='54' type='void (*)(wait_condition_t *)'/>
+<offset>128</offset>
+<use f='MOS/kernel/tasks/wait.c' l='23' u='r' c='wc_condition_cleanup'/>
+<use f='MOS/kernel/tasks/wait.c' l='24' u='r' c='wc_condition_cleanup'/>

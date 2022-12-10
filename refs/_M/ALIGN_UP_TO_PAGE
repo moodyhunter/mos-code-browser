@@ -1,4 +1,4 @@
-<dec f='MOS/kernel/include/mos/mos_global.h' l='53'/>
+<dec f='MOS/kernel/include/mos/mos_global.h' l='54'/>
 <use f='MOS/kernel/include/mos/boot/startup.h' l='41' u='c'/>
 <use f='MOS/arch/x86/boot/multiboot/startup.c' l='167' u='c'/>
 <use f='MOS/arch/x86/boot/multiboot/startup.c' l='170' u='c'/>

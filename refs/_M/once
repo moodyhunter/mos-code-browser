@@ -1,4 +1,4 @@
-<dec f='MOS/kernel/include/mos/mos_global.h' l='61'/>
-<doc f='MOS/kernel/include/mos/mos_global.h' l='58'>/**
+<dec f='MOS/kernel/include/mos/mos_global.h' l='62'/>
+<doc f='MOS/kernel/include/mos/mos_global.h' l='59'>/**
  * \brief Returns true for the first call, false for all subsequent calls.
  */</doc>

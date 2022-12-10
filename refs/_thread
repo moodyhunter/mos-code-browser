@@ -1,8 +1,8 @@
 <use f='MOS/kernel/include/mos/platform/platform.h' l='25'/>
-<use f='MOS/kernel/include/mos/tasks/task_type.h' l='46'/>
-<def f='MOS/kernel/include/mos/tasks/task_type.h' l='69' ll='79'/>
-<use f='MOS/kernel/include/mos/tasks/task_type.h' l='69'/>
-<size>88</size>
+<use f='MOS/kernel/include/mos/tasks/task_type.h' l='47'/>
+<def f='MOS/kernel/include/mos/tasks/task_type.h' l='77' ll='88'/>
+<use f='MOS/kernel/include/mos/tasks/task_type.h' l='77'/>
+<size>96</size>
 <mbr r='_thread::magic' o='0' t='u32'/>
 <mbr r='_thread::tid' o='32' t='tid_t'/>
 <mbr r='_thread::status' o='64' t='thread_status_t'/>
@@ -11,3 +11,4 @@
 <mbr r='_thread::kernel_stack' o='384' t='downwards_stack_t'/>
 <mbr r='_thread::context' o='576' t='platform_context_t *'/>
 <mbr r='_thread::flags' o='640' t='thread_flags_t'/>
+<mbr r='_thread::waiting_condition' o='704' t='wait_condition_t *'/>

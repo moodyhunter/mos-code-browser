@@ -1,0 +1,7 @@
+<use f='MOS/kernel/include/mos/tasks/task_type.h' l='46'/>
+<def f='MOS/kernel/include/mos/tasks/task_type.h' l='50' ll='55'/>
+<use f='MOS/kernel/include/mos/tasks/task_type.h' l='50'/>
+<size>24</size>
+<mbr r='_wait_condition::arg' o='0' t='void *'/>
+<mbr r='_wait_condition::verify' o='64' t='_Bool (*)(wait_condition_t *)'/>
+<mbr r='_wait_condition::cleanup' o='128' t='void (*)(wait_condition_t *)'/>

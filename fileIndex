@@ -107,7 +107,9 @@ MOS/kernel/stack_protector.c
 MOS/kernel/tasks/fork.c
 MOS/kernel/tasks/process.c
 MOS/kernel/tasks/schedule.c
+MOS/kernel/include/mos/tasks/wait.h
 MOS/kernel/tasks/thread.c
+MOS/kernel/tasks/wait.c
 MOS/lib/liballoc.c
 MOS/lib/include/lib/mos_lib.h
 MOS/lib/include/lib/sync/spinlock.h

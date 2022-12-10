@@ -1,0 +1,5 @@
+<dec f='MOS/kernel/include/mos/tasks/task_type.h' l='53' type='_Bool (*)(wait_condition_t *)'/>
+<offset>64</offset>
+<use f='MOS/kernel/tasks/schedule.c' l='22' u='r' c='should_schedule_to_thread'/>
+<use f='MOS/kernel/tasks/schedule.c' l='24' u='r' c='should_schedule_to_thread'/>
+<use f='MOS/kernel/tasks/wait.c' l='17' u='w' c='wc_wait_for_thread'/>
