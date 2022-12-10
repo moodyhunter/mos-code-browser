@@ -37,275 +37,273 @@
 <tr><th id="24">24</th><td>    <a class="typedef" href="../kernel/include/mos/types.h.html#u32" title='u32' data-type='unsigned int' data-ref="u32" data-ref-filename="u32">u32</a> <dfn class="decl field" id="(anonymous)::n_skipped" title='(anonymous struct)::n_skipped' data-ref="(anonymous)::n_skipped" data-ref-filename="(anonymous)..n_skipped">n_skipped</dfn>;</td></tr>
 <tr><th id="25">25</th><td>} <dfn class="typedef" id="mos_test_result_t" title='mos_test_result_t' data-type='struct mos_test_result_t' data-ref="mos_test_result_t" data-ref-filename="mos_test_result_t">mos_test_result_t</dfn>;</td></tr>
 <tr><th id="26">26</th><td></td></tr>
-<tr><th id="27">27</th><td><u>#define <dfn class="macro" id="_M/MOS_TEST_RESULT_INIT" data-ref="_M/MOS_TEST_RESULT_INIT">MOS_TEST_RESULT_INIT</dfn> .n_total = 0, .n_failed = 0, .n_skipped = 0</u></td></tr>
-<tr><th id="28">28</th><td></td></tr>
-<tr><th id="29">29</th><td><u>#define <dfn class="macro" id="_M/MOS_TEST_GRAY" data-ref="_M/MOS_TEST_GRAY">MOS_TEST_GRAY</dfn>    LightGray</u></td></tr>
-<tr><th id="30">30</th><td><u>#define <dfn class="macro" id="_M/MOS_TEST_RED" data-ref="_M/MOS_TEST_RED">MOS_TEST_RED</dfn>     Red</u></td></tr>
-<tr><th id="31">31</th><td><u>#define <dfn class="macro" id="_M/MOS_TEST_GREEN" data-ref="_M/MOS_TEST_GREEN">MOS_TEST_GREEN</dfn>   Green</u></td></tr>
-<tr><th id="32">32</th><td><u>#define <dfn class="macro" id="_M/MOS_TEST_YELLOW" data-ref="_M/MOS_TEST_YELLOW">MOS_TEST_YELLOW</dfn>  Brown</u></td></tr>
-<tr><th id="33">33</th><td><u>#define <dfn class="macro" id="_M/MOS_TEST_BLUE" data-ref="_M/MOS_TEST_BLUE">MOS_TEST_BLUE</dfn>    LightBlue</u></td></tr>
-<tr><th id="34">34</th><td><u>#define <dfn class="macro" id="_M/MOS_TEST_MAGENTA" data-ref="_M/MOS_TEST_MAGENTA">MOS_TEST_MAGENTA</dfn> Magenta</u></td></tr>
-<tr><th id="35">35</th><td><u>#define <dfn class="macro" id="_M/MOS_TEST_CYAN" data-ref="_M/MOS_TEST_CYAN">MOS_TEST_CYAN</dfn>    Cyan</u></td></tr>
-<tr><th id="36">36</th><td><u>#define <dfn class="macro" id="_M/MOS_TEST_DEFAULT" data-ref="_M/MOS_TEST_DEFAULT">MOS_TEST_DEFAULT</dfn> MOS_TEST_GRAY</u></td></tr>
-<tr><th id="37">37</th><td></td></tr>
-<tr><th id="38">38</th><td><u>#define <dfn class="macro" id="_M/MOS_TEST_DEFINE_CONDITION" data-ref="_M/MOS_TEST_DEFINE_CONDITION">MOS_TEST_DEFINE_CONDITION</dfn>(condition, message)                                                                                                                    \</u></td></tr>
-<tr><th id="39">39</th><td><u>    const char *_mt_test_cond_##condition##_message = message;                                                                                                           \</u></td></tr>
-<tr><th id="40">40</th><td><u>    static bool condition</u></td></tr>
-<tr><th id="41">41</th><td></td></tr>
-<tr><th id="42">42</th><td><u>#define <dfn class="macro" id="_M/MOS_TEST_CONDITIONAL" data-ref="_M/MOS_TEST_CONDITIONAL">MOS_TEST_CONDITIONAL</dfn>(cond)                                                                                                                                       \</u></td></tr>
-<tr><th id="43">43</th><td><u>    for (MOS_TEST_CURRENT_TEST_SKIPPED = !(cond), (*_mt_loop_leave) = false, __extension__({                                                                             \</u></td></tr>
-<tr><th id="44">44</th><td><u>             if (MOS_TEST_CURRENT_TEST_SKIPPED)                                                                                                                          \</u></td></tr>
-<tr><th id="45">45</th><td><u>                 MOS_TEST_LOG(MOS_TEST_YELLOW, '\0', "Skipped '%s': condition '%s' not met.", _mt_test_cond_##cond##_message, #cond);                                    \</u></td></tr>
-<tr><th id="46">46</th><td><u>         });                                                                                                                                                             \</u></td></tr>
-<tr><th id="47">47</th><td><u>         !(*_mt_loop_leave); (*_mt_loop_leave) = true, MOS_TEST_CURRENT_TEST_SKIPPED = false)</u></td></tr>
-<tr><th id="48">48</th><td></td></tr>
-<tr><th id="49">49</th><td><u>#define <dfn class="macro" id="_M/MOS_TEST_SKIP" data-ref="_M/MOS_TEST_SKIP">MOS_TEST_SKIP</dfn>()                                                                                                                                                  \</u></td></tr>
-<tr><th id="50">50</th><td><u>    do                                                                                                                                                                   \</u></td></tr>
-<tr><th id="51">51</th><td><u>    {                                                                                                                                                                    \</u></td></tr>
-<tr><th id="52">52</th><td><u>        ++_MT_result-&gt;n_total;                                                                                                                                           \</u></td></tr>
-<tr><th id="53">53</th><td><u>        ++_MT_result-&gt;n_skipped;                                                                                                                                         \</u></td></tr>
-<tr><th id="54">54</th><td><u>    } while (0)</u></td></tr>
-<tr><th id="55">55</th><td></td></tr>
-<tr><th id="56">56</th><td><u>#define <dfn class="macro" id="_M/MOS_TEST_CASE" data-ref="_M/MOS_TEST_CASE">MOS_TEST_CASE</dfn>(_TestName)                                                                                                                                         \</u></td></tr>
-<tr><th id="57">57</th><td><u>    static void _TestName(mos_test_result_t *, bool *, bool *);                                                                                                          \</u></td></tr>
-<tr><th id="58">58</th><td><u>    static void _MT_WRAP_TEST_NAME(_TestName)(mos_test_result_t * result)                                                                                                \</u></td></tr>
-<tr><th id="59">59</th><td><u>    {                                                                                                                                                                    \</u></td></tr>
-<tr><th id="60">60</th><td><u>        MOS_TEST_LOG(MOS_TEST_BLUE, 'T', "Starting test " #_TestName " (line %d)", __LINE__);                                                                            \</u></td></tr>
-<tr><th id="61">61</th><td><u>        _MT_RUN_TEST_AND_PRINT_RESULT(result, _TestName);                                                                                                                \</u></td></tr>
-<tr><th id="62">62</th><td><u>    }                                                                                                                                                                    \</u></td></tr>
-<tr><th id="63">63</th><td><u>    _MT_REGISTER_TEST_CASE(_TestName, _MT_WRAP_TEST_NAME(_TestName));                                                                                                    \</u></td></tr>
-<tr><th id="64">64</th><td><u>    static void _TestName(mos_test_result_t *_MT_result, __maybe_unused bool *_mt_test_skipped, __maybe_unused bool *_mt_loop_leave)</u></td></tr>
-<tr><th id="65">65</th><td></td></tr>
-<tr><th id="66">66</th><td><u>#define <dfn class="macro" id="_M/MOS_TEST_DECL_PTEST" data-ref="_M/MOS_TEST_DECL_PTEST">MOS_TEST_DECL_PTEST</dfn>(_PTestName, ptest_args_printf_format, ...)                                                                                                   \</u></td></tr>
-<tr><th id="67">67</th><td><u>    static const char *_MT_PTEST_ARG_FORMAT(_PTestName) = "argument: " ptest_args_printf_format;                                                                         \</u></td></tr>
-<tr><th id="68">68</th><td><u>    static void _PTestName(mos_test_result_t *_MT_result, __maybe_unused bool *_mt_test_skipped, __maybe_unused bool *_mt_loop_leave, __VA_ARGS__)</u></td></tr>
-<tr><th id="69">69</th><td></td></tr>
-<tr><th id="70">70</th><td><u>#define <dfn class="macro" id="_M/MOS_TEST_PTEST_INSTANCE" data-ref="_M/MOS_TEST_PTEST_INSTANCE">MOS_TEST_PTEST_INSTANCE</dfn>(_PTestName, ...)                                                                                                                         \</u></td></tr>
-<tr><th id="71">71</th><td><u>    static void _MT_PTEST_CALLER(_PTestName)(mos_test_result_t * result, bool *_mt_test_skipped, bool *_mt_loop_leave)                                                   \</u></td></tr>
-<tr><th id="72">72</th><td><u>    {                                                                                                                                                                    \</u></td></tr>
-<tr><th id="73">73</th><td><u>        _PTestName(result, _mt_test_skipped, _mt_loop_leave, __VA_ARGS__);                                                                                               \</u></td></tr>
-<tr><th id="74">74</th><td><u>    }                                                                                                                                                                    \</u></td></tr>
-<tr><th id="75">75</th><td><u>    static void _MT_WRAP_PTEST_CALLER(_PTestName)(mos_test_result_t * result)                                                                                            \</u></td></tr>
-<tr><th id="76">76</th><td><u>    {                                                                                                                                                                    \</u></td></tr>
-<tr><th id="77">77</th><td><u>        MOS_TEST_LOG(MOS_TEST_BLUE, 'P', "Starting parameterised test %s at line %d", #_PTestName, __LINE__);                                                            \</u></td></tr>
-<tr><th id="78">78</th><td><u>        MOS_TEST_LOG(MOS_TEST_BLUE, '\0', _MT_PTEST_ARG_FORMAT(_PTestName), __VA_ARGS__);                                                                                \</u></td></tr>
-<tr><th id="79">79</th><td><u>        _MT_RUN_TEST_AND_PRINT_RESULT(result, _MT_PTEST_CALLER(_PTestName));                                                                                             \</u></td></tr>
-<tr><th id="80">80</th><td><u>    }                                                                                                                                                                    \</u></td></tr>
-<tr><th id="81">81</th><td><u>    _MT_REGISTER_TEST_CASE(_TestName, _MT_WRAP_PTEST_CALLER(_PTestName));</u></td></tr>
-<tr><th id="82">82</th><td></td></tr>
-<tr><th id="83">83</th><td><u>#define <dfn class="macro" id="_M/MOS_TEST_EXPECT_WARNING_N" data-ref="_M/MOS_TEST_EXPECT_WARNING_N">MOS_TEST_EXPECT_WARNING_N</dfn>(N, body, msg)                                                                                                                          \</u></td></tr>
-<tr><th id="84">84</th><td><u>    do                                                                                                                                                                   \</u></td></tr>
-<tr><th id="85">85</th><td><u>    {                                                                                                                                                                    \</u></td></tr>
-<tr><th id="86">86</th><td><u>        if (MOS_TEST_CURRENT_TEST_SKIPPED)                                                                                                                               \</u></td></tr>
-<tr><th id="87">87</th><td><u>        {                                                                                                                                                                \</u></td></tr>
-<tr><th id="88">88</th><td><u>            MOS_TEST_SKIP();                                                                                                                                             \</u></td></tr>
-<tr><th id="89">89</th><td><u>            break;                                                                                                                                                       \</u></td></tr>
-<tr><th id="90">90</th><td><u>        }                                                                                                                                                                \</u></td></tr>
-<tr><th id="91">91</th><td><u>        test_engine_n_warning_expected = N;                                                                                                                              \</u></td></tr>
-<tr><th id="92">92</th><td><u>        body;                                                                                                                                                            \</u></td></tr>
-<tr><th id="93">93</th><td><u>        if (test_engine_n_warning_expected != 0)                                                                                                                         \</u></td></tr>
-<tr><th id="94">94</th><td><u>            MOS_TEST_FAIL("%d more expected warning(s) not seen: %s, line %d", test_engine_n_warning_expected, msg, __LINE__);                                           \</u></td></tr>
-<tr><th id="95">95</th><td><u>    } while (0)</u></td></tr>
-<tr><th id="96">96</th><td></td></tr>
-<tr><th id="97">97</th><td><u>#define <dfn class="macro" id="_M/MOS_TEST_EXPECT_WARNING" data-ref="_M/MOS_TEST_EXPECT_WARNING">MOS_TEST_EXPECT_WARNING</dfn>(body, msg) MOS_TEST_EXPECT_WARNING_N(1, body, msg)</u></td></tr>
-<tr><th id="98">98</th><td><i>/*</i></td></tr>
-<tr><th id="99">99</th><td><i> * Test force fail</i></td></tr>
-<tr><th id="100">100</th><td><i> *</i></td></tr>
-<tr><th id="101">101</th><td><i> * Arguments:</i></td></tr>
-<tr><th id="102">102</th><td><i> *   - format           - message printf format</i></td></tr>
-<tr><th id="103">103</th><td><i> *   - args... [opt]    - arguments</i></td></tr>
-<tr><th id="104">104</th><td><i> */</i></td></tr>
-<tr><th id="105">105</th><td><u>#define <dfn class="macro" id="_M/MOS_TEST_FAIL" data-ref="_M/MOS_TEST_FAIL">MOS_TEST_FAIL</dfn>(format, ...)                                                                                                                                       \</u></td></tr>
-<tr><th id="106">106</th><td><u>    do                                                                                                                                                                   \</u></td></tr>
-<tr><th id="107">107</th><td><u>    {                                                                                                                                                                    \</u></td></tr>
-<tr><th id="108">108</th><td><u>        ++_MT_result-&gt;n_failed;                                                                                                                                          \</u></td></tr>
-<tr><th id="109">109</th><td><u>        MOS_TEST_LOG(MOS_TEST_RED, 'X', "line %d: " format, __LINE__, __VA_ARGS__);                                                                                      \</u></td></tr>
-<tr><th id="110">110</th><td><u>    } while (false)</u></td></tr>
-<tr><th id="111">111</th><td></td></tr>
-<tr><th id="112">112</th><td><i>/*</i></td></tr>
-<tr><th id="113">113</th><td><i> * Assertion</i></td></tr>
-<tr><th id="114">114</th><td><i> *</i></td></tr>
-<tr><th id="115">115</th><td><i> * Arguments:</i></td></tr>
-<tr><th id="116">116</th><td><i> *   - condition       - condition to test</i></td></tr>
-<tr><th id="117">117</th><td><i> *   - format           - message printf format</i></td></tr>
-<tr><th id="118">118</th><td><i> *   - args... [opt]    - arguments</i></td></tr>
-<tr><th id="119">119</th><td><i> */</i></td></tr>
-<tr><th id="120">120</th><td><u>#define <dfn class="macro" id="_M/MOS_TEST_ASSERT" data-ref="_M/MOS_TEST_ASSERT">MOS_TEST_ASSERT</dfn>(condition, format, ...)                                                                                                                          \</u></td></tr>
-<tr><th id="121">121</th><td><u>    do                                                                                                                                                                   \</u></td></tr>
-<tr><th id="122">122</th><td><u>    {                                                                                                                                                                    \</u></td></tr>
-<tr><th id="123">123</th><td><u>        if (MOS_TEST_CURRENT_TEST_SKIPPED)                                                                                                                               \</u></td></tr>
-<tr><th id="124">124</th><td><u>        {                                                                                                                                                                \</u></td></tr>
-<tr><th id="125">125</th><td><u>            MOS_TEST_SKIP();                                                                                                                                             \</u></td></tr>
-<tr><th id="126">126</th><td><u>            break;                                                                                                                                                       \</u></td></tr>
-<tr><th id="127">127</th><td><u>        }                                                                                                                                                                \</u></td></tr>
-<tr><th id="128">128</th><td><u>        ++_MT_result-&gt;n_total;                                                                                                                                           \</u></td></tr>
-<tr><th id="129">129</th><td><u>        if (!(condition))                                                                                                                                                \</u></td></tr>
-<tr><th id="130">130</th><td><u>            MOS_TEST_FAIL("ASSERTION FAILED: %s, " format, #condition, ##__VA_ARGS__);                                                                                   \</u></td></tr>
-<tr><th id="131">131</th><td><u>    } while (false)</u></td></tr>
-<tr><th id="132">132</th><td></td></tr>
-<tr><th id="133">133</th><td><i>/*</i></td></tr>
-<tr><th id="134">134</th><td><i> * Check if actual value is equal expected value.</i></td></tr>
-<tr><th id="135">135</th><td><i> *</i></td></tr>
-<tr><th id="136">136</th><td><i> * Arguments:</i></td></tr>
-<tr><th id="137">137</th><td><i> *   - expected         - expected value</i></td></tr>
-<tr><th id="138">138</th><td><i> *   - actual           - actual value</i></td></tr>
-<tr><th id="139">139</th><td><i> */</i></td></tr>
-<tr><th id="140">140</th><td><u>#define <dfn class="macro" id="_M/MOS_TEST_CHECK" data-ref="_M/MOS_TEST_CHECK">MOS_TEST_CHECK</dfn>(actual, expected)                                                                                                                                 \</u></td></tr>
-<tr><th id="141">141</th><td><u>    do                                                                                                                                                                   \</u></td></tr>
-<tr><th id="142">142</th><td><u>    {                                                                                                                                                                    \</u></td></tr>
-<tr><th id="143">143</th><td><u>        if (MOS_TEST_CURRENT_TEST_SKIPPED)                                                                                                                               \</u></td></tr>
-<tr><th id="144">144</th><td><u>        {                                                                                                                                                                \</u></td></tr>
-<tr><th id="145">145</th><td><u>            MOS_TEST_SKIP();                                                                                                                                             \</u></td></tr>
-<tr><th id="146">146</th><td><u>            break;                                                                                                                                                       \</u></td></tr>
-<tr><th id="147">147</th><td><u>        }                                                                                                                                                                \</u></td></tr>
-<tr><th id="148">148</th><td><u>        ++_MT_result-&gt;n_total;                                                                                                                                           \</u></td></tr>
-<tr><th id="149">149</th><td><u>        if ((expected) != (actual))                                                                                                                                      \</u></td></tr>
-<tr><th id="150">150</th><td><u>            MOS_TEST_FAIL("'%s' is %d, expected %d", #actual, (actual), (expected));                                                                                     \</u></td></tr>
-<tr><th id="151">151</th><td><u>    } while (false)</u></td></tr>
-<tr><th id="152">152</th><td></td></tr>
-<tr><th id="153">153</th><td><i>/*</i></td></tr>
-<tr><th id="154">154</th><td><i> * Check if actual string is equal expected string.</i></td></tr>
-<tr><th id="155">155</th><td><i> *</i></td></tr>
-<tr><th id="156">156</th><td><i> * Arguments:</i></td></tr>
-<tr><th id="157">157</th><td><i> *   - expected         - expected string</i></td></tr>
-<tr><th id="158">158</th><td><i> *   - actual           - actual string</i></td></tr>
-<tr><th id="159">159</th><td><i> */</i></td></tr>
-<tr><th id="160">160</th><td><u>#define <dfn class="macro" id="_M/MOS_TEST_CHECK_STRING" data-ref="_M/MOS_TEST_CHECK_STRING">MOS_TEST_CHECK_STRING</dfn>(actual, expected)                                                                                                                          \</u></td></tr>
-<tr><th id="161">161</th><td><u>    do                                                                                                                                                                   \</u></td></tr>
-<tr><th id="162">162</th><td><u>    {                                                                                                                                                                    \</u></td></tr>
-<tr><th id="163">163</th><td><u>        if (MOS_TEST_CURRENT_TEST_SKIPPED)                                                                                                                               \</u></td></tr>
-<tr><th id="164">164</th><td><u>        {                                                                                                                                                                \</u></td></tr>
-<tr><th id="165">165</th><td><u>            MOS_TEST_SKIP();                                                                                                                                             \</u></td></tr>
-<tr><th id="166">166</th><td><u>            break;                                                                                                                                                       \</u></td></tr>
-<tr><th id="167">167</th><td><u>        }                                                                                                                                                                \</u></td></tr>
-<tr><th id="168">168</th><td><u>        ++_MT_result-&gt;n_total;                                                                                                                                           \</u></td></tr>
-<tr><th id="169">169</th><td><u>        if (strcmp(expected, actual) != 0)                                                                                                                               \</u></td></tr>
-<tr><th id="170">170</th><td><u>            MOS_TEST_FAIL("values are different (expected = '%s', actual = '%s'), at line %u", (expected), (actual), (__LINE__));                                        \</u></td></tr>
-<tr><th id="171">171</th><td><u>    } while (false)</u></td></tr>
-<tr><th id="172">172</th><td></td></tr>
-<tr><th id="173">173</th><td><i>/*</i></td></tr>
-<tr><th id="174">174</th><td><i> * Check if actual value is not differ from expected value by more then epsilon.</i></td></tr>
-<tr><th id="175">175</th><td><i> *</i></td></tr>
-<tr><th id="176">176</th><td><i> * Arguments:</i></td></tr>
-<tr><th id="177">177</th><td><i> *   - expected         - expected value</i></td></tr>
-<tr><th id="178">178</th><td><i> *   - actual           - actual value</i></td></tr>
-<tr><th id="179">179</th><td><i> *   - epsilon          - maximum acceptable difference</i></td></tr>
-<tr><th id="180">180</th><td><i> */</i></td></tr>
-<tr><th id="181">181</th><td><u>#define <dfn class="macro" id="_M/MOS_TEST_CHECK_EPS" data-ref="_M/MOS_TEST_CHECK_EPS">MOS_TEST_CHECK_EPS</dfn>(actual, expected, epsilon)                                                                                                                    \</u></td></tr>
-<tr><th id="182">182</th><td><u>    do                                                                                                                                                                   \</u></td></tr>
-<tr><th id="183">183</th><td><u>    {                                                                                                                                                                    \</u></td></tr>
-<tr><th id="184">184</th><td><u>        if (MOS_TEST_CURRENT_TEST_SKIPPED)                                                                                                                               \</u></td></tr>
-<tr><th id="185">185</th><td><u>        {                                                                                                                                                                \</u></td></tr>
-<tr><th id="186">186</th><td><u>            MOS_TEST_SKIP();                                                                                                                                             \</u></td></tr>
-<tr><th id="187">187</th><td><u>            break;                                                                                                                                                       \</u></td></tr>
-<tr><th id="188">188</th><td><u>        }                                                                                                                                                                \</u></td></tr>
-<tr><th id="189">189</th><td><u>        ++_MT_result-&gt;n_total;                                                                                                                                           \</u></td></tr>
-<tr><th id="190">190</th><td><u>        if (_MT_FLOATABS((expected) - (actual)) &gt; (epsilon))                                                                                                             \</u></td></tr>
-<tr><th id="191">191</th><td><u>            MOS_TEST_FAIL("values differ by more then %f (expected = %f, actual = %f)", (epsilon), (expected), (actual));                                                \</u></td></tr>
-<tr><th id="192">192</th><td><u>    } while (false)</u></td></tr>
-<tr><th id="193">193</th><td></td></tr>
-<tr><th id="194">194</th><td><i>/*</i></td></tr>
-<tr><th id="195">195</th><td><i> * Check if every value in the actual array is equal to corresponding value</i></td></tr>
-<tr><th id="196">196</th><td><i> * in the expected array.</i></td></tr>
-<tr><th id="197">197</th><td><i> *</i></td></tr>
-<tr><th id="198">198</th><td><i> * Arguments:</i></td></tr>
-<tr><th id="199">199</th><td><i> *   - expected         - expected array pointer</i></td></tr>
-<tr><th id="200">200</th><td><i> *   - actual           - actual array pointer</i></td></tr>
-<tr><th id="201">201</th><td><i> *   - elements         - number of array elements</i></td></tr>
-<tr><th id="202">202</th><td><i> */</i></td></tr>
-<tr><th id="203">203</th><td><u>#define <dfn class="macro" id="_M/MOS_TEST_CHECK_ARRAY" data-ref="_M/MOS_TEST_CHECK_ARRAY">MOS_TEST_CHECK_ARRAY</dfn>(actual, expected, elements)                                                                                                                 \</u></td></tr>
-<tr><th id="204">204</th><td><u>    do                                                                                                                                                                   \</u></td></tr>
-<tr><th id="205">205</th><td><u>    {                                                                                                                                                                    \</u></td></tr>
-<tr><th id="206">206</th><td><u>        if (MOS_TEST_CURRENT_TEST_SKIPPED)                                                                                                                               \</u></td></tr>
-<tr><th id="207">207</th><td><u>        {                                                                                                                                                                \</u></td></tr>
-<tr><th id="208">208</th><td><u>            MOS_TEST_SKIP();                                                                                                                                             \</u></td></tr>
-<tr><th id="209">209</th><td><u>            break;                                                                                                                                                       \</u></td></tr>
-<tr><th id="210">210</th><td><u>        }                                                                                                                                                                \</u></td></tr>
-<tr><th id="211">211</th><td><u>        ++_MT_result-&gt;n_total;                                                                                                                                           \</u></td></tr>
-<tr><th id="212">212</th><td><u>        for (unsigned i = 0; i &lt; (unsigned) (elements); ++i)                                                                                                             \</u></td></tr>
-<tr><th id="213">213</th><td><u>        {                                                                                                                                                                \</u></td></tr>
-<tr><th id="214">214</th><td><u>            if ((expected)[i] != (actual)[i])                                                                                                                            \</u></td></tr>
-<tr><th id="215">215</th><td><u>            {                                                                                                                                                            \</u></td></tr>
-<tr><th id="216">216</th><td><u>                MOS_TEST_FAIL("memories differ at %u-th position (expected = %d, actual = %d)", i, (expected)[i], (actual)[i]);                                          \</u></td></tr>
-<tr><th id="217">217</th><td><u>                break;                                                                                                                                                   \</u></td></tr>
-<tr><th id="218">218</th><td><u>            }                                                                                                                                                            \</u></td></tr>
-<tr><th id="219">219</th><td><u>        }                                                                                                                                                                \</u></td></tr>
-<tr><th id="220">220</th><td><u>    } while (false)</u></td></tr>
-<tr><th id="221">221</th><td></td></tr>
-<tr><th id="222">222</th><td><i>/*</i></td></tr>
-<tr><th id="223">223</th><td><i> * Check if every value in the actual array is not differ from corresponding value</i></td></tr>
-<tr><th id="224">224</th><td><i> * in the expected array by more then epsilon.</i></td></tr>
-<tr><th id="225">225</th><td><i> *</i></td></tr>
-<tr><th id="226">226</th><td><i> * Arguments:</i></td></tr>
-<tr><th id="227">227</th><td><i> *   - expected         - expected array pointer</i></td></tr>
-<tr><th id="228">228</th><td><i> *   - actual           - actual array pointer</i></td></tr>
-<tr><th id="229">229</th><td><i> *   - epsilon          - maximum acceptable difference</i></td></tr>
-<tr><th id="230">230</th><td><i> *   - elements         - number of array elements</i></td></tr>
-<tr><th id="231">231</th><td><i> */</i></td></tr>
-<tr><th id="232">232</th><td><u>#define <dfn class="macro" id="_M/MOS_TEST_CHECK_ARRAY_EPS" data-ref="_M/MOS_TEST_CHECK_ARRAY_EPS">MOS_TEST_CHECK_ARRAY_EPS</dfn>(actual, expected, elements, epsilon)                                                                                                    \</u></td></tr>
-<tr><th id="233">233</th><td><u>    do                                                                                                                                                                   \</u></td></tr>
-<tr><th id="234">234</th><td><u>    {                                                                                                                                                                    \</u></td></tr>
-<tr><th id="235">235</th><td><u>        if (MOS_TEST_CURRENT_TEST_SKIPPED)                                                                                                                               \</u></td></tr>
-<tr><th id="236">236</th><td><u>        {                                                                                                                                                                \</u></td></tr>
-<tr><th id="237">237</th><td><u>            MOS_TEST_SKIP();                                                                                                                                             \</u></td></tr>
-<tr><th id="238">238</th><td><u>            break;                                                                                                                                                       \</u></td></tr>
-<tr><th id="239">239</th><td><u>        }                                                                                                                                                                \</u></td></tr>
-<tr><th id="240">240</th><td><u>        ++_MT_result-&gt;n_total;                                                                                                                                           \</u></td></tr>
-<tr><th id="241">241</th><td><u>        for (unsigned i = 0; i &lt; (unsigned) (elements); ++i)                                                                                                             \</u></td></tr>
-<tr><th id="242">242</th><td><u>        {                                                                                                                                                                \</u></td></tr>
-<tr><th id="243">243</th><td><u>            if (_MT_FLOATABS((expected)[i] - (actual)[i]) &gt; (epsilon))                                                                                                   \</u></td></tr>
-<tr><th id="244">244</th><td><u>            {                                                                                                                                                            \</u></td></tr>
-<tr><th id="245">245</th><td><u>                MOS_TEST_FAIL("memories differ at %u by more then %f (expected = %f, actual = %f)", i, (epsilon), (expected)[i], (actual)[i]);                           \</u></td></tr>
-<tr><th id="246">246</th><td><u>                break;                                                                                                                                                   \</u></td></tr>
-<tr><th id="247">247</th><td><u>            }                                                                                                                                                            \</u></td></tr>
-<tr><th id="248">248</th><td><u>        }                                                                                                                                                                \</u></td></tr>
-<tr><th id="249">249</th><td><u>    } while (false)</u></td></tr>
-<tr><th id="250">250</th><td></td></tr>
-<tr><th id="251">251</th><td><u>#define <dfn class="macro" id="_M/_MT_RUN_TEST_AND_PRINT_RESULT" data-ref="_M/_MT_RUN_TEST_AND_PRINT_RESULT">_MT_RUN_TEST_AND_PRINT_RESULT</dfn>(_ResultVar, _TestFunc)                                                                                                             \</u></td></tr>
-<tr><th id="252">252</th><td><u>    do                                                                                                                                                                   \</u></td></tr>
-<tr><th id="253">253</th><td><u>    {                                                                                                                                                                    \</u></td></tr>
-<tr><th id="254">254</th><td><u>        bool _mt_test_skipped = false;                                                                                                                                   \</u></td></tr>
-<tr><th id="255">255</th><td><u>        bool _mt_loop_leave = false;                                                                                                                                     \</u></td></tr>
-<tr><th id="256">256</th><td><u>        _TestFunc(_ResultVar, &amp;_mt_test_skipped, &amp;_mt_loop_leave);                                                                                                       \</u></td></tr>
-<tr><th id="257">257</th><td><u>        u32 total = _ResultVar-&gt;n_total;                                                                                                                                 \</u></td></tr>
-<tr><th id="258">258</th><td><u>        u32 failed = _ResultVar-&gt;n_failed;                                                                                                                               \</u></td></tr>
-<tr><th id="259">259</th><td><u>        u32 skipped = _ResultVar-&gt;n_skipped;                                                                                                                             \</u></td></tr>
-<tr><th id="260">260</th><td><u>        u32 passed = total - failed - skipped;                                                                                                                           \</u></td></tr>
-<tr><th id="261">261</th><td><u>        if (failed == 0)                                                                                                                                                 \</u></td></tr>
-<tr><th id="262">262</th><td><u>            if (skipped == 0)                                                                                                                                            \</u></td></tr>
-<tr><th id="263">263</th><td><u>                MOS_TEST_LOG(MOS_TEST_GREEN, '\0', "%s: All %u test(s) passed", #_TestFunc, total);                                                                      \</u></td></tr>
-<tr><th id="264">264</th><td><u>            else                                                                                                                                                         \</u></td></tr>
-<tr><th id="265">265</th><td><u>                MOS_TEST_LOG(MOS_TEST_GREEN, '\0', "%s: All %u test(s) passed (%u skipped)", #_TestFunc, total, skipped);                                                \</u></td></tr>
-<tr><th id="266">266</th><td><u>        else                                                                                                                                                             \</u></td></tr>
-<tr><th id="267">267</th><td><u>            MOS_TEST_LOG(MOS_TEST_RED, 'X', "%s: %u out of %u test(s) failed (%u passed, %u skipped)", #_TestFunc, failed, total, passed, skipped);                      \</u></td></tr>
-<tr><th id="268">268</th><td><u>    } while (0)</u></td></tr>
+<tr><th id="27">27</th><td><u>#define <dfn class="macro" id="_M/MOS_TEST_GRAY" data-ref="_M/MOS_TEST_GRAY">MOS_TEST_GRAY</dfn>    LightGray</u></td></tr>
+<tr><th id="28">28</th><td><u>#define <dfn class="macro" id="_M/MOS_TEST_RED" data-ref="_M/MOS_TEST_RED">MOS_TEST_RED</dfn>     Red</u></td></tr>
+<tr><th id="29">29</th><td><u>#define <dfn class="macro" id="_M/MOS_TEST_GREEN" data-ref="_M/MOS_TEST_GREEN">MOS_TEST_GREEN</dfn>   Green</u></td></tr>
+<tr><th id="30">30</th><td><u>#define <dfn class="macro" id="_M/MOS_TEST_YELLOW" data-ref="_M/MOS_TEST_YELLOW">MOS_TEST_YELLOW</dfn>  Brown</u></td></tr>
+<tr><th id="31">31</th><td><u>#define <dfn class="macro" id="_M/MOS_TEST_BLUE" data-ref="_M/MOS_TEST_BLUE">MOS_TEST_BLUE</dfn>    LightBlue</u></td></tr>
+<tr><th id="32">32</th><td><u>#define <dfn class="macro" id="_M/MOS_TEST_MAGENTA" data-ref="_M/MOS_TEST_MAGENTA">MOS_TEST_MAGENTA</dfn> Magenta</u></td></tr>
+<tr><th id="33">33</th><td><u>#define <dfn class="macro" id="_M/MOS_TEST_CYAN" data-ref="_M/MOS_TEST_CYAN">MOS_TEST_CYAN</dfn>    Cyan</u></td></tr>
+<tr><th id="34">34</th><td><u>#define <dfn class="macro" id="_M/MOS_TEST_DEFAULT" data-ref="_M/MOS_TEST_DEFAULT">MOS_TEST_DEFAULT</dfn> MOS_TEST_GRAY</u></td></tr>
+<tr><th id="35">35</th><td></td></tr>
+<tr><th id="36">36</th><td><u>#define <dfn class="macro" id="_M/MOS_TEST_DEFINE_CONDITION" data-ref="_M/MOS_TEST_DEFINE_CONDITION">MOS_TEST_DEFINE_CONDITION</dfn>(condition, message)                                                                                                                    \</u></td></tr>
+<tr><th id="37">37</th><td><u>    const char *_mt_test_cond_##condition##_message = message;                                                                                                           \</u></td></tr>
+<tr><th id="38">38</th><td><u>    static bool condition</u></td></tr>
+<tr><th id="39">39</th><td></td></tr>
+<tr><th id="40">40</th><td><u>#define <dfn class="macro" id="_M/MOS_TEST_CONDITIONAL" data-ref="_M/MOS_TEST_CONDITIONAL">MOS_TEST_CONDITIONAL</dfn>(cond)                                                                                                                                       \</u></td></tr>
+<tr><th id="41">41</th><td><u>    for (MOS_TEST_CURRENT_TEST_SKIPPED = !(cond), (*_mt_loop_leave) = false, __extension__({                                                                             \</u></td></tr>
+<tr><th id="42">42</th><td><u>             if (MOS_TEST_CURRENT_TEST_SKIPPED)                                                                                                                          \</u></td></tr>
+<tr><th id="43">43</th><td><u>                 MOS_TEST_LOG(MOS_TEST_YELLOW, '\0', "Skipped '%s': condition '%s' not met.", _mt_test_cond_##cond##_message, #cond);                                    \</u></td></tr>
+<tr><th id="44">44</th><td><u>         });                                                                                                                                                             \</u></td></tr>
+<tr><th id="45">45</th><td><u>         !(*_mt_loop_leave); (*_mt_loop_leave) = true, MOS_TEST_CURRENT_TEST_SKIPPED = false)</u></td></tr>
+<tr><th id="46">46</th><td></td></tr>
+<tr><th id="47">47</th><td><u>#define <dfn class="macro" id="_M/MOS_TEST_SKIP" data-ref="_M/MOS_TEST_SKIP">MOS_TEST_SKIP</dfn>()                                                                                                                                                  \</u></td></tr>
+<tr><th id="48">48</th><td><u>    do                                                                                                                                                                   \</u></td></tr>
+<tr><th id="49">49</th><td><u>    {                                                                                                                                                                    \</u></td></tr>
+<tr><th id="50">50</th><td><u>        ++_MT_result-&gt;n_total;                                                                                                                                           \</u></td></tr>
+<tr><th id="51">51</th><td><u>        ++_MT_result-&gt;n_skipped;                                                                                                                                         \</u></td></tr>
+<tr><th id="52">52</th><td><u>    } while (0)</u></td></tr>
+<tr><th id="53">53</th><td></td></tr>
+<tr><th id="54">54</th><td><u>#define <dfn class="macro" id="_M/MOS_TEST_CASE" data-ref="_M/MOS_TEST_CASE">MOS_TEST_CASE</dfn>(_TestName)                                                                                                                                         \</u></td></tr>
+<tr><th id="55">55</th><td><u>    static void _TestName(mos_test_result_t *, bool *, bool *);                                                                                                          \</u></td></tr>
+<tr><th id="56">56</th><td><u>    static void _MT_WRAP_TEST_NAME(_TestName)(mos_test_result_t * result)                                                                                                \</u></td></tr>
+<tr><th id="57">57</th><td><u>    {                                                                                                                                                                    \</u></td></tr>
+<tr><th id="58">58</th><td><u>        MOS_TEST_LOG(MOS_TEST_BLUE, 'T', "Starting test " #_TestName " (line %d)", __LINE__);                                                                            \</u></td></tr>
+<tr><th id="59">59</th><td><u>        _MT_RUN_TEST_AND_PRINT_RESULT(result, _TestName);                                                                                                                \</u></td></tr>
+<tr><th id="60">60</th><td><u>    }                                                                                                                                                                    \</u></td></tr>
+<tr><th id="61">61</th><td><u>    _MT_REGISTER_TEST_CASE(_TestName, _MT_WRAP_TEST_NAME(_TestName));                                                                                                    \</u></td></tr>
+<tr><th id="62">62</th><td><u>    static void _TestName(mos_test_result_t *_MT_result, __maybe_unused bool *_mt_test_skipped, __maybe_unused bool *_mt_loop_leave)</u></td></tr>
+<tr><th id="63">63</th><td></td></tr>
+<tr><th id="64">64</th><td><u>#define <dfn class="macro" id="_M/MOS_TEST_DECL_PTEST" data-ref="_M/MOS_TEST_DECL_PTEST">MOS_TEST_DECL_PTEST</dfn>(_PTestName, ptest_args_printf_format, ...)                                                                                                   \</u></td></tr>
+<tr><th id="65">65</th><td><u>    static const char *_MT_PTEST_ARG_FORMAT(_PTestName) = "argument: " ptest_args_printf_format;                                                                         \</u></td></tr>
+<tr><th id="66">66</th><td><u>    static void _PTestName(mos_test_result_t *_MT_result, __maybe_unused bool *_mt_test_skipped, __maybe_unused bool *_mt_loop_leave, __VA_ARGS__)</u></td></tr>
+<tr><th id="67">67</th><td></td></tr>
+<tr><th id="68">68</th><td><u>#define <dfn class="macro" id="_M/MOS_TEST_PTEST_INSTANCE" data-ref="_M/MOS_TEST_PTEST_INSTANCE">MOS_TEST_PTEST_INSTANCE</dfn>(_PTestName, ...)                                                                                                                         \</u></td></tr>
+<tr><th id="69">69</th><td><u>    static void _MT_PTEST_CALLER(_PTestName)(mos_test_result_t * result, bool *_mt_test_skipped, bool *_mt_loop_leave)                                                   \</u></td></tr>
+<tr><th id="70">70</th><td><u>    {                                                                                                                                                                    \</u></td></tr>
+<tr><th id="71">71</th><td><u>        _PTestName(result, _mt_test_skipped, _mt_loop_leave, __VA_ARGS__);                                                                                               \</u></td></tr>
+<tr><th id="72">72</th><td><u>    }                                                                                                                                                                    \</u></td></tr>
+<tr><th id="73">73</th><td><u>    static void _MT_WRAP_PTEST_CALLER(_PTestName)(mos_test_result_t * result)                                                                                            \</u></td></tr>
+<tr><th id="74">74</th><td><u>    {                                                                                                                                                                    \</u></td></tr>
+<tr><th id="75">75</th><td><u>        MOS_TEST_LOG(MOS_TEST_BLUE, 'P', "Starting parameterised test %s at line %d", #_PTestName, __LINE__);                                                            \</u></td></tr>
+<tr><th id="76">76</th><td><u>        MOS_TEST_LOG(MOS_TEST_BLUE, '\0', _MT_PTEST_ARG_FORMAT(_PTestName), __VA_ARGS__);                                                                                \</u></td></tr>
+<tr><th id="77">77</th><td><u>        _MT_RUN_TEST_AND_PRINT_RESULT(result, _MT_PTEST_CALLER(_PTestName));                                                                                             \</u></td></tr>
+<tr><th id="78">78</th><td><u>    }                                                                                                                                                                    \</u></td></tr>
+<tr><th id="79">79</th><td><u>    _MT_REGISTER_TEST_CASE(_TestName, _MT_WRAP_PTEST_CALLER(_PTestName));</u></td></tr>
+<tr><th id="80">80</th><td></td></tr>
+<tr><th id="81">81</th><td><u>#define <dfn class="macro" id="_M/MOS_TEST_EXPECT_WARNING_N" data-ref="_M/MOS_TEST_EXPECT_WARNING_N">MOS_TEST_EXPECT_WARNING_N</dfn>(N, body, msg)                                                                                                                          \</u></td></tr>
+<tr><th id="82">82</th><td><u>    do                                                                                                                                                                   \</u></td></tr>
+<tr><th id="83">83</th><td><u>    {                                                                                                                                                                    \</u></td></tr>
+<tr><th id="84">84</th><td><u>        if (MOS_TEST_CURRENT_TEST_SKIPPED)                                                                                                                               \</u></td></tr>
+<tr><th id="85">85</th><td><u>        {                                                                                                                                                                \</u></td></tr>
+<tr><th id="86">86</th><td><u>            MOS_TEST_SKIP();                                                                                                                                             \</u></td></tr>
+<tr><th id="87">87</th><td><u>            break;                                                                                                                                                       \</u></td></tr>
+<tr><th id="88">88</th><td><u>        }                                                                                                                                                                \</u></td></tr>
+<tr><th id="89">89</th><td><u>        test_engine_n_warning_expected = N;                                                                                                                              \</u></td></tr>
+<tr><th id="90">90</th><td><u>        body;                                                                                                                                                            \</u></td></tr>
+<tr><th id="91">91</th><td><u>        if (test_engine_n_warning_expected != 0)                                                                                                                         \</u></td></tr>
+<tr><th id="92">92</th><td><u>            MOS_TEST_FAIL("%d more expected warning(s) not seen: %s, line %d", test_engine_n_warning_expected, msg, __LINE__);                                           \</u></td></tr>
+<tr><th id="93">93</th><td><u>    } while (0)</u></td></tr>
+<tr><th id="94">94</th><td></td></tr>
+<tr><th id="95">95</th><td><u>#define <dfn class="macro" id="_M/MOS_TEST_EXPECT_WARNING" data-ref="_M/MOS_TEST_EXPECT_WARNING">MOS_TEST_EXPECT_WARNING</dfn>(body, msg) MOS_TEST_EXPECT_WARNING_N(1, body, msg)</u></td></tr>
+<tr><th id="96">96</th><td><i>/*</i></td></tr>
+<tr><th id="97">97</th><td><i> * Test force fail</i></td></tr>
+<tr><th id="98">98</th><td><i> *</i></td></tr>
+<tr><th id="99">99</th><td><i> * Arguments:</i></td></tr>
+<tr><th id="100">100</th><td><i> *   - format           - message printf format</i></td></tr>
+<tr><th id="101">101</th><td><i> *   - args... [opt]    - arguments</i></td></tr>
+<tr><th id="102">102</th><td><i> */</i></td></tr>
+<tr><th id="103">103</th><td><u>#define <dfn class="macro" id="_M/MOS_TEST_FAIL" data-ref="_M/MOS_TEST_FAIL">MOS_TEST_FAIL</dfn>(format, ...)                                                                                                                                       \</u></td></tr>
+<tr><th id="104">104</th><td><u>    do                                                                                                                                                                   \</u></td></tr>
+<tr><th id="105">105</th><td><u>    {                                                                                                                                                                    \</u></td></tr>
+<tr><th id="106">106</th><td><u>        ++_MT_result-&gt;n_failed;                                                                                                                                          \</u></td></tr>
+<tr><th id="107">107</th><td><u>        MOS_TEST_LOG(MOS_TEST_RED, 'X', "line %d: " format, __LINE__, __VA_ARGS__);                                                                                      \</u></td></tr>
+<tr><th id="108">108</th><td><u>    } while (false)</u></td></tr>
+<tr><th id="109">109</th><td></td></tr>
+<tr><th id="110">110</th><td><i>/*</i></td></tr>
+<tr><th id="111">111</th><td><i> * Assertion</i></td></tr>
+<tr><th id="112">112</th><td><i> *</i></td></tr>
+<tr><th id="113">113</th><td><i> * Arguments:</i></td></tr>
+<tr><th id="114">114</th><td><i> *   - condition       - condition to test</i></td></tr>
+<tr><th id="115">115</th><td><i> *   - format           - message printf format</i></td></tr>
+<tr><th id="116">116</th><td><i> *   - args... [opt]    - arguments</i></td></tr>
+<tr><th id="117">117</th><td><i> */</i></td></tr>
+<tr><th id="118">118</th><td><u>#define <dfn class="macro" id="_M/MOS_TEST_ASSERT" data-ref="_M/MOS_TEST_ASSERT">MOS_TEST_ASSERT</dfn>(condition, format, ...)                                                                                                                          \</u></td></tr>
+<tr><th id="119">119</th><td><u>    do                                                                                                                                                                   \</u></td></tr>
+<tr><th id="120">120</th><td><u>    {                                                                                                                                                                    \</u></td></tr>
+<tr><th id="121">121</th><td><u>        if (MOS_TEST_CURRENT_TEST_SKIPPED)                                                                                                                               \</u></td></tr>
+<tr><th id="122">122</th><td><u>        {                                                                                                                                                                \</u></td></tr>
+<tr><th id="123">123</th><td><u>            MOS_TEST_SKIP();                                                                                                                                             \</u></td></tr>
+<tr><th id="124">124</th><td><u>            break;                                                                                                                                                       \</u></td></tr>
+<tr><th id="125">125</th><td><u>        }                                                                                                                                                                \</u></td></tr>
+<tr><th id="126">126</th><td><u>        ++_MT_result-&gt;n_total;                                                                                                                                           \</u></td></tr>
+<tr><th id="127">127</th><td><u>        if (!(condition))                                                                                                                                                \</u></td></tr>
+<tr><th id="128">128</th><td><u>            MOS_TEST_FAIL("ASSERTION FAILED: %s, " format, #condition, ##__VA_ARGS__);                                                                                   \</u></td></tr>
+<tr><th id="129">129</th><td><u>    } while (false)</u></td></tr>
+<tr><th id="130">130</th><td></td></tr>
+<tr><th id="131">131</th><td><i>/*</i></td></tr>
+<tr><th id="132">132</th><td><i> * Check if actual value is equal expected value.</i></td></tr>
+<tr><th id="133">133</th><td><i> *</i></td></tr>
+<tr><th id="134">134</th><td><i> * Arguments:</i></td></tr>
+<tr><th id="135">135</th><td><i> *   - expected         - expected value</i></td></tr>
+<tr><th id="136">136</th><td><i> *   - actual           - actual value</i></td></tr>
+<tr><th id="137">137</th><td><i> */</i></td></tr>
+<tr><th id="138">138</th><td><u>#define <dfn class="macro" id="_M/MOS_TEST_CHECK" data-ref="_M/MOS_TEST_CHECK">MOS_TEST_CHECK</dfn>(actual, expected)                                                                                                                                 \</u></td></tr>
+<tr><th id="139">139</th><td><u>    do                                                                                                                                                                   \</u></td></tr>
+<tr><th id="140">140</th><td><u>    {                                                                                                                                                                    \</u></td></tr>
+<tr><th id="141">141</th><td><u>        if (MOS_TEST_CURRENT_TEST_SKIPPED)                                                                                                                               \</u></td></tr>
+<tr><th id="142">142</th><td><u>        {                                                                                                                                                                \</u></td></tr>
+<tr><th id="143">143</th><td><u>            MOS_TEST_SKIP();                                                                                                                                             \</u></td></tr>
+<tr><th id="144">144</th><td><u>            break;                                                                                                                                                       \</u></td></tr>
+<tr><th id="145">145</th><td><u>        }                                                                                                                                                                \</u></td></tr>
+<tr><th id="146">146</th><td><u>        ++_MT_result-&gt;n_total;                                                                                                                                           \</u></td></tr>
+<tr><th id="147">147</th><td><u>        if ((expected) != (actual))                                                                                                                                      \</u></td></tr>
+<tr><th id="148">148</th><td><u>            MOS_TEST_FAIL("'%s' is %d, expected %d", #actual, (actual), (expected));                                                                                     \</u></td></tr>
+<tr><th id="149">149</th><td><u>    } while (false)</u></td></tr>
+<tr><th id="150">150</th><td></td></tr>
+<tr><th id="151">151</th><td><i>/*</i></td></tr>
+<tr><th id="152">152</th><td><i> * Check if actual string is equal expected string.</i></td></tr>
+<tr><th id="153">153</th><td><i> *</i></td></tr>
+<tr><th id="154">154</th><td><i> * Arguments:</i></td></tr>
+<tr><th id="155">155</th><td><i> *   - expected         - expected string</i></td></tr>
+<tr><th id="156">156</th><td><i> *   - actual           - actual string</i></td></tr>
+<tr><th id="157">157</th><td><i> */</i></td></tr>
+<tr><th id="158">158</th><td><u>#define <dfn class="macro" id="_M/MOS_TEST_CHECK_STRING" data-ref="_M/MOS_TEST_CHECK_STRING">MOS_TEST_CHECK_STRING</dfn>(actual, expected)                                                                                                                          \</u></td></tr>
+<tr><th id="159">159</th><td><u>    do                                                                                                                                                                   \</u></td></tr>
+<tr><th id="160">160</th><td><u>    {                                                                                                                                                                    \</u></td></tr>
+<tr><th id="161">161</th><td><u>        if (MOS_TEST_CURRENT_TEST_SKIPPED)                                                                                                                               \</u></td></tr>
+<tr><th id="162">162</th><td><u>        {                                                                                                                                                                \</u></td></tr>
+<tr><th id="163">163</th><td><u>            MOS_TEST_SKIP();                                                                                                                                             \</u></td></tr>
+<tr><th id="164">164</th><td><u>            break;                                                                                                                                                       \</u></td></tr>
+<tr><th id="165">165</th><td><u>        }                                                                                                                                                                \</u></td></tr>
+<tr><th id="166">166</th><td><u>        ++_MT_result-&gt;n_total;                                                                                                                                           \</u></td></tr>
+<tr><th id="167">167</th><td><u>        if (strcmp(expected, actual) != 0)                                                                                                                               \</u></td></tr>
+<tr><th id="168">168</th><td><u>            MOS_TEST_FAIL("values are different (expected = '%s', actual = '%s'), at line %u", (expected), (actual), (__LINE__));                                        \</u></td></tr>
+<tr><th id="169">169</th><td><u>    } while (false)</u></td></tr>
+<tr><th id="170">170</th><td></td></tr>
+<tr><th id="171">171</th><td><i>/*</i></td></tr>
+<tr><th id="172">172</th><td><i> * Check if actual value is not differ from expected value by more then epsilon.</i></td></tr>
+<tr><th id="173">173</th><td><i> *</i></td></tr>
+<tr><th id="174">174</th><td><i> * Arguments:</i></td></tr>
+<tr><th id="175">175</th><td><i> *   - expected         - expected value</i></td></tr>
+<tr><th id="176">176</th><td><i> *   - actual           - actual value</i></td></tr>
+<tr><th id="177">177</th><td><i> *   - epsilon          - maximum acceptable difference</i></td></tr>
+<tr><th id="178">178</th><td><i> */</i></td></tr>
+<tr><th id="179">179</th><td><u>#define <dfn class="macro" id="_M/MOS_TEST_CHECK_EPS" data-ref="_M/MOS_TEST_CHECK_EPS">MOS_TEST_CHECK_EPS</dfn>(actual, expected, epsilon)                                                                                                                    \</u></td></tr>
+<tr><th id="180">180</th><td><u>    do                                                                                                                                                                   \</u></td></tr>
+<tr><th id="181">181</th><td><u>    {                                                                                                                                                                    \</u></td></tr>
+<tr><th id="182">182</th><td><u>        if (MOS_TEST_CURRENT_TEST_SKIPPED)                                                                                                                               \</u></td></tr>
+<tr><th id="183">183</th><td><u>        {                                                                                                                                                                \</u></td></tr>
+<tr><th id="184">184</th><td><u>            MOS_TEST_SKIP();                                                                                                                                             \</u></td></tr>
+<tr><th id="185">185</th><td><u>            break;                                                                                                                                                       \</u></td></tr>
+<tr><th id="186">186</th><td><u>        }                                                                                                                                                                \</u></td></tr>
+<tr><th id="187">187</th><td><u>        ++_MT_result-&gt;n_total;                                                                                                                                           \</u></td></tr>
+<tr><th id="188">188</th><td><u>        if (_MT_FLOATABS((expected) - (actual)) &gt; (epsilon))                                                                                                             \</u></td></tr>
+<tr><th id="189">189</th><td><u>            MOS_TEST_FAIL("values differ by more then %f (expected = %f, actual = %f)", (epsilon), (expected), (actual));                                                \</u></td></tr>
+<tr><th id="190">190</th><td><u>    } while (false)</u></td></tr>
+<tr><th id="191">191</th><td></td></tr>
+<tr><th id="192">192</th><td><i>/*</i></td></tr>
+<tr><th id="193">193</th><td><i> * Check if every value in the actual array is equal to corresponding value</i></td></tr>
+<tr><th id="194">194</th><td><i> * in the expected array.</i></td></tr>
+<tr><th id="195">195</th><td><i> *</i></td></tr>
+<tr><th id="196">196</th><td><i> * Arguments:</i></td></tr>
+<tr><th id="197">197</th><td><i> *   - expected         - expected array pointer</i></td></tr>
+<tr><th id="198">198</th><td><i> *   - actual           - actual array pointer</i></td></tr>
+<tr><th id="199">199</th><td><i> *   - elements         - number of array elements</i></td></tr>
+<tr><th id="200">200</th><td><i> */</i></td></tr>
+<tr><th id="201">201</th><td><u>#define <dfn class="macro" id="_M/MOS_TEST_CHECK_ARRAY" data-ref="_M/MOS_TEST_CHECK_ARRAY">MOS_TEST_CHECK_ARRAY</dfn>(actual, expected, elements)                                                                                                                 \</u></td></tr>
+<tr><th id="202">202</th><td><u>    do                                                                                                                                                                   \</u></td></tr>
+<tr><th id="203">203</th><td><u>    {                                                                                                                                                                    \</u></td></tr>
+<tr><th id="204">204</th><td><u>        if (MOS_TEST_CURRENT_TEST_SKIPPED)                                                                                                                               \</u></td></tr>
+<tr><th id="205">205</th><td><u>        {                                                                                                                                                                \</u></td></tr>
+<tr><th id="206">206</th><td><u>            MOS_TEST_SKIP();                                                                                                                                             \</u></td></tr>
+<tr><th id="207">207</th><td><u>            break;                                                                                                                                                       \</u></td></tr>
+<tr><th id="208">208</th><td><u>        }                                                                                                                                                                \</u></td></tr>
+<tr><th id="209">209</th><td><u>        ++_MT_result-&gt;n_total;                                                                                                                                           \</u></td></tr>
+<tr><th id="210">210</th><td><u>        for (unsigned i = 0; i &lt; (unsigned) (elements); ++i)                                                                                                             \</u></td></tr>
+<tr><th id="211">211</th><td><u>        {                                                                                                                                                                \</u></td></tr>
+<tr><th id="212">212</th><td><u>            if ((expected)[i] != (actual)[i])                                                                                                                            \</u></td></tr>
+<tr><th id="213">213</th><td><u>            {                                                                                                                                                            \</u></td></tr>
+<tr><th id="214">214</th><td><u>                MOS_TEST_FAIL("memories differ at %u-th position (expected = %d, actual = %d)", i, (expected)[i], (actual)[i]);                                          \</u></td></tr>
+<tr><th id="215">215</th><td><u>                break;                                                                                                                                                   \</u></td></tr>
+<tr><th id="216">216</th><td><u>            }                                                                                                                                                            \</u></td></tr>
+<tr><th id="217">217</th><td><u>        }                                                                                                                                                                \</u></td></tr>
+<tr><th id="218">218</th><td><u>    } while (false)</u></td></tr>
+<tr><th id="219">219</th><td></td></tr>
+<tr><th id="220">220</th><td><i>/*</i></td></tr>
+<tr><th id="221">221</th><td><i> * Check if every value in the actual array is not differ from corresponding value</i></td></tr>
+<tr><th id="222">222</th><td><i> * in the expected array by more then epsilon.</i></td></tr>
+<tr><th id="223">223</th><td><i> *</i></td></tr>
+<tr><th id="224">224</th><td><i> * Arguments:</i></td></tr>
+<tr><th id="225">225</th><td><i> *   - expected         - expected array pointer</i></td></tr>
+<tr><th id="226">226</th><td><i> *   - actual           - actual array pointer</i></td></tr>
+<tr><th id="227">227</th><td><i> *   - epsilon          - maximum acceptable difference</i></td></tr>
+<tr><th id="228">228</th><td><i> *   - elements         - number of array elements</i></td></tr>
+<tr><th id="229">229</th><td><i> */</i></td></tr>
+<tr><th id="230">230</th><td><u>#define <dfn class="macro" id="_M/MOS_TEST_CHECK_ARRAY_EPS" data-ref="_M/MOS_TEST_CHECK_ARRAY_EPS">MOS_TEST_CHECK_ARRAY_EPS</dfn>(actual, expected, elements, epsilon)                                                                                                    \</u></td></tr>
+<tr><th id="231">231</th><td><u>    do                                                                                                                                                                   \</u></td></tr>
+<tr><th id="232">232</th><td><u>    {                                                                                                                                                                    \</u></td></tr>
+<tr><th id="233">233</th><td><u>        if (MOS_TEST_CURRENT_TEST_SKIPPED)                                                                                                                               \</u></td></tr>
+<tr><th id="234">234</th><td><u>        {                                                                                                                                                                \</u></td></tr>
+<tr><th id="235">235</th><td><u>            MOS_TEST_SKIP();                                                                                                                                             \</u></td></tr>
+<tr><th id="236">236</th><td><u>            break;                                                                                                                                                       \</u></td></tr>
+<tr><th id="237">237</th><td><u>        }                                                                                                                                                                \</u></td></tr>
+<tr><th id="238">238</th><td><u>        ++_MT_result-&gt;n_total;                                                                                                                                           \</u></td></tr>
+<tr><th id="239">239</th><td><u>        for (unsigned i = 0; i &lt; (unsigned) (elements); ++i)                                                                                                             \</u></td></tr>
+<tr><th id="240">240</th><td><u>        {                                                                                                                                                                \</u></td></tr>
+<tr><th id="241">241</th><td><u>            if (_MT_FLOATABS((expected)[i] - (actual)[i]) &gt; (epsilon))                                                                                                   \</u></td></tr>
+<tr><th id="242">242</th><td><u>            {                                                                                                                                                            \</u></td></tr>
+<tr><th id="243">243</th><td><u>                MOS_TEST_FAIL("memories differ at %u by more then %f (expected = %f, actual = %f)", i, (epsilon), (expected)[i], (actual)[i]);                           \</u></td></tr>
+<tr><th id="244">244</th><td><u>                break;                                                                                                                                                   \</u></td></tr>
+<tr><th id="245">245</th><td><u>            }                                                                                                                                                            \</u></td></tr>
+<tr><th id="246">246</th><td><u>        }                                                                                                                                                                \</u></td></tr>
+<tr><th id="247">247</th><td><u>    } while (false)</u></td></tr>
+<tr><th id="248">248</th><td></td></tr>
+<tr><th id="249">249</th><td><u>#define <dfn class="macro" id="_M/_MT_RUN_TEST_AND_PRINT_RESULT" data-ref="_M/_MT_RUN_TEST_AND_PRINT_RESULT">_MT_RUN_TEST_AND_PRINT_RESULT</dfn>(_ResultVar, _TestFunc)                                                                                                             \</u></td></tr>
+<tr><th id="250">250</th><td><u>    do                                                                                                                                                                   \</u></td></tr>
+<tr><th id="251">251</th><td><u>    {                                                                                                                                                                    \</u></td></tr>
+<tr><th id="252">252</th><td><u>        bool _mt_test_skipped = false;                                                                                                                                   \</u></td></tr>
+<tr><th id="253">253</th><td><u>        bool _mt_loop_leave = false;                                                                                                                                     \</u></td></tr>
+<tr><th id="254">254</th><td><u>        _TestFunc(_ResultVar, &amp;_mt_test_skipped, &amp;_mt_loop_leave);                                                                                                       \</u></td></tr>
+<tr><th id="255">255</th><td><u>        u32 total = _ResultVar-&gt;n_total;                                                                                                                                 \</u></td></tr>
+<tr><th id="256">256</th><td><u>        u32 failed = _ResultVar-&gt;n_failed;                                                                                                                               \</u></td></tr>
+<tr><th id="257">257</th><td><u>        u32 skipped = _ResultVar-&gt;n_skipped;                                                                                                                             \</u></td></tr>
+<tr><th id="258">258</th><td><u>        u32 passed = total - failed - skipped;                                                                                                                           \</u></td></tr>
+<tr><th id="259">259</th><td><u>        if (failed == 0)                                                                                                                                                 \</u></td></tr>
+<tr><th id="260">260</th><td><u>            if (skipped == 0)                                                                                                                                            \</u></td></tr>
+<tr><th id="261">261</th><td><u>                MOS_TEST_LOG(MOS_TEST_GREEN, '\0', "%s: All %u test(s) passed", #_TestFunc, total);                                                                      \</u></td></tr>
+<tr><th id="262">262</th><td><u>            else                                                                                                                                                         \</u></td></tr>
+<tr><th id="263">263</th><td><u>                MOS_TEST_LOG(MOS_TEST_GREEN, '\0', "%s: All %u test(s) passed (%u skipped)", #_TestFunc, total, skipped);                                                \</u></td></tr>
+<tr><th id="264">264</th><td><u>        else                                                                                                                                                             \</u></td></tr>
+<tr><th id="265">265</th><td><u>            MOS_TEST_LOG(MOS_TEST_RED, 'X', "%s: %u out of %u test(s) failed (%u passed, %u skipped)", #_TestFunc, failed, total, passed, skipped);                      \</u></td></tr>
+<tr><th id="266">266</th><td><u>    } while (0)</u></td></tr>
+<tr><th id="267">267</th><td></td></tr>
+<tr><th id="268">268</th><td><u>#define <dfn class="macro" id="_M/_MT_FLOATABS" data-ref="_M/_MT_FLOATABS">_MT_FLOATABS</dfn>(a) ((a) &lt; 0 ? -(a) : (a))</u></td></tr>
 <tr><th id="269">269</th><td></td></tr>
-<tr><th id="270">270</th><td><u>#define <dfn class="macro" id="_M/_MT_FLOATABS" data-ref="_M/_MT_FLOATABS">_MT_FLOATABS</dfn>(a) ((a) &lt; 0 ? -(a) : (a))</u></td></tr>
+<tr><th id="270">270</th><td><u>#define <dfn class="macro" id="_M/MOS_TEST_CURRENT_TEST_SKIPPED" data-ref="_M/MOS_TEST_CURRENT_TEST_SKIPPED">MOS_TEST_CURRENT_TEST_SKIPPED</dfn> (*_mt_test_skipped)</u></td></tr>
 <tr><th id="271">271</th><td></td></tr>
-<tr><th id="272">272</th><td><u>#define <dfn class="macro" id="_M/MOS_TEST_CURRENT_TEST_SKIPPED" data-ref="_M/MOS_TEST_CURRENT_TEST_SKIPPED">MOS_TEST_CURRENT_TEST_SKIPPED</dfn> (*_mt_test_skipped)</u></td></tr>
-<tr><th id="273">273</th><td></td></tr>
-<tr><th id="274">274</th><td><i>// Wrapper for the simple test</i></td></tr>
-<tr><th id="275">275</th><td><u>#define <dfn class="macro" id="_M/_MT_WRAP_TEST_NAME" data-ref="_M/_MT_WRAP_TEST_NAME">_MT_WRAP_TEST_NAME</dfn>(test_name) __mos_test_wrapped_test_##test_name</u></td></tr>
-<tr><th id="276">276</th><td></td></tr>
-<tr><th id="277">277</th><td><i>// Wrapper for the parameterized test</i></td></tr>
-<tr><th id="278">278</th><td><u>#define <dfn class="macro" id="_M/_MT_PTEST_ARG_FORMAT" data-ref="_M/_MT_PTEST_ARG_FORMAT">_MT_PTEST_ARG_FORMAT</dfn>(ptest_name)  __mos_test_ptest_args_format_##ptest_name</u></td></tr>
-<tr><th id="279">279</th><td><u>#define <dfn class="macro" id="_M/_MT_PTEST_CALLER" data-ref="_M/_MT_PTEST_CALLER">_MT_PTEST_CALLER</dfn>(ptest_name)      MOS_CONCAT(__mos_test_ptest_caller_##ptest_name, __LINE__)</u></td></tr>
-<tr><th id="280">280</th><td><u>#define <dfn class="macro" id="_M/_MT_WRAP_PTEST_CALLER" data-ref="_M/_MT_WRAP_PTEST_CALLER">_MT_WRAP_PTEST_CALLER</dfn>(ptest_name) MOS_CONCAT(__mos_test_wrapped_ptest_caller_##ptest_name, __LINE__)</u></td></tr>
-<tr><th id="281">281</th><td></td></tr>
-<tr><th id="282">282</th><td><b>typedef</b> <b>struct</b></td></tr>
-<tr><th id="283">283</th><td>{</td></tr>
-<tr><th id="284">284</th><td>    <em>void</em> (*<dfn class="decl field" id="(anonymous)::test_func" title='(anonymous struct)::test_func' data-ref="(anonymous)::test_func" data-ref-filename="(anonymous)..test_func">test_func</dfn>)(<a class="typedef" href="#mos_test_result_t" title='mos_test_result_t' data-type='struct mos_test_result_t' data-ref="mos_test_result_t" data-ref-filename="mos_test_result_t">mos_test_result_t</a> *);</td></tr>
-<tr><th id="285">285</th><td>    <em>const</em> <em>char</em> *<dfn class="decl field" id="(anonymous)::test_name" title='(anonymous struct)::test_name' data-ref="(anonymous)::test_name" data-ref-filename="(anonymous)..test_name">test_name</dfn>;</td></tr>
-<tr><th id="286">286</th><td>} <dfn class="typedef" id="mos_test_func_t" title='mos_test_func_t' data-type='struct mos_test_func_t' data-ref="mos_test_func_t" data-ref-filename="mos_test_func_t">mos_test_func_t</dfn>;</td></tr>
-<tr><th id="287">287</th><td></td></tr>
-<tr><th id="288">288</th><td><i>// ELF Section based test registration</i></td></tr>
-<tr><th id="289">289</th><td><u>#define <dfn class="macro" id="_M/_MT_REGISTER_TEST_CASE" data-ref="_M/_MT_REGISTER_TEST_CASE">_MT_REGISTER_TEST_CASE</dfn>(_TName, _TFunc) const mos_test_func_t __section(.mos.test_cases) MOS_CONCAT(test_cases_##_TName##_L, __LINE__) = { _TFunc, #_TName }</u></td></tr>
-<tr><th id="290">290</th><td><u>#define <dfn class="macro" id="_M/MOS_TEST_FOREACH_TEST_CASE" data-ref="_M/MOS_TEST_FOREACH_TEST_CASE">MOS_TEST_FOREACH_TEST_CASE</dfn>(_FPtr)      for (const mos_test_func_t *_FPtr = __MOS_TEST_CASES_START; _FPtr != __MOS_TEST_CASES_END; _FPtr++)</u></td></tr>
-<tr><th id="291">291</th><td></td></tr>
-<tr><th id="292">292</th><td><i>// Defined by the linker, do not rename.</i></td></tr>
-<tr><th id="293">293</th><td><b>extern</b> <em>const</em> <a class="typedef" href="#mos_test_func_t" title='mos_test_func_t' data-type='struct mos_test_func_t' data-ref="mos_test_func_t" data-ref-filename="mos_test_func_t">mos_test_func_t</a> <dfn class="decl" id="__MOS_TEST_CASES_START" title='__MOS_TEST_CASES_START' data-ref="__MOS_TEST_CASES_START" data-ref-filename="__MOS_TEST_CASES_START">__MOS_TEST_CASES_START</dfn>[];</td></tr>
-<tr><th id="294">294</th><td><b>extern</b> <em>const</em> <a class="typedef" href="#mos_test_func_t" title='mos_test_func_t' data-type='struct mos_test_func_t' data-ref="mos_test_func_t" data-ref-filename="mos_test_func_t">mos_test_func_t</a> <dfn class="decl" id="__MOS_TEST_CASES_END" title='__MOS_TEST_CASES_END' data-ref="__MOS_TEST_CASES_END" data-ref-filename="__MOS_TEST_CASES_END">__MOS_TEST_CASES_END</dfn>[];</td></tr>
-<tr><th id="295">295</th><td></td></tr>
+<tr><th id="272">272</th><td><i>// Wrapper for the simple test</i></td></tr>
+<tr><th id="273">273</th><td><u>#define <dfn class="macro" id="_M/_MT_WRAP_TEST_NAME" data-ref="_M/_MT_WRAP_TEST_NAME">_MT_WRAP_TEST_NAME</dfn>(test_name) __mos_test_wrapped_test_##test_name</u></td></tr>
+<tr><th id="274">274</th><td></td></tr>
+<tr><th id="275">275</th><td><i>// Wrapper for the parameterized test</i></td></tr>
+<tr><th id="276">276</th><td><u>#define <dfn class="macro" id="_M/_MT_PTEST_ARG_FORMAT" data-ref="_M/_MT_PTEST_ARG_FORMAT">_MT_PTEST_ARG_FORMAT</dfn>(ptest_name)  __mos_test_ptest_args_format_##ptest_name</u></td></tr>
+<tr><th id="277">277</th><td><u>#define <dfn class="macro" id="_M/_MT_PTEST_CALLER" data-ref="_M/_MT_PTEST_CALLER">_MT_PTEST_CALLER</dfn>(ptest_name)      MOS_CONCAT(__mos_test_ptest_caller_##ptest_name, __LINE__)</u></td></tr>
+<tr><th id="278">278</th><td><u>#define <dfn class="macro" id="_M/_MT_WRAP_PTEST_CALLER" data-ref="_M/_MT_WRAP_PTEST_CALLER">_MT_WRAP_PTEST_CALLER</dfn>(ptest_name) MOS_CONCAT(__mos_test_wrapped_ptest_caller_##ptest_name, __LINE__)</u></td></tr>
+<tr><th id="279">279</th><td></td></tr>
+<tr><th id="280">280</th><td><b>typedef</b> <b>struct</b></td></tr>
+<tr><th id="281">281</th><td>{</td></tr>
+<tr><th id="282">282</th><td>    <em>void</em> (*<dfn class="decl field" id="(anonymous)::test_func" title='(anonymous struct)::test_func' data-ref="(anonymous)::test_func" data-ref-filename="(anonymous)..test_func">test_func</dfn>)(<a class="typedef" href="#mos_test_result_t" title='mos_test_result_t' data-type='struct mos_test_result_t' data-ref="mos_test_result_t" data-ref-filename="mos_test_result_t">mos_test_result_t</a> *);</td></tr>
+<tr><th id="283">283</th><td>    <em>const</em> <em>char</em> *<dfn class="decl field" id="(anonymous)::test_name" title='(anonymous struct)::test_name' data-ref="(anonymous)::test_name" data-ref-filename="(anonymous)..test_name">test_name</dfn>;</td></tr>
+<tr><th id="284">284</th><td>} <dfn class="typedef" id="mos_test_func_t" title='mos_test_func_t' data-type='struct mos_test_func_t' data-ref="mos_test_func_t" data-ref-filename="mos_test_func_t">mos_test_func_t</dfn>;</td></tr>
+<tr><th id="285">285</th><td></td></tr>
+<tr><th id="286">286</th><td><i>// ELF Section based test registration</i></td></tr>
+<tr><th id="287">287</th><td><u>#define <dfn class="macro" id="_M/_MT_REGISTER_TEST_CASE" data-ref="_M/_MT_REGISTER_TEST_CASE">_MT_REGISTER_TEST_CASE</dfn>(_TName, _TFunc) const mos_test_func_t __section(.mos.test_cases) MOS_CONCAT(test_cases_##_TName##_L, __LINE__) = { _TFunc, #_TName }</u></td></tr>
+<tr><th id="288">288</th><td><u>#define <dfn class="macro" id="_M/MOS_TEST_FOREACH_TEST_CASE" data-ref="_M/MOS_TEST_FOREACH_TEST_CASE">MOS_TEST_FOREACH_TEST_CASE</dfn>(_FPtr)      for (const mos_test_func_t *_FPtr = __MOS_TEST_CASES_START; _FPtr != __MOS_TEST_CASES_END; _FPtr++)</u></td></tr>
+<tr><th id="289">289</th><td></td></tr>
+<tr><th id="290">290</th><td><i>// Defined by the linker, do not rename.</i></td></tr>
+<tr><th id="291">291</th><td><b>extern</b> <em>const</em> <a class="typedef" href="#mos_test_func_t" title='mos_test_func_t' data-type='struct mos_test_func_t' data-ref="mos_test_func_t" data-ref-filename="mos_test_func_t">mos_test_func_t</a> <dfn class="decl" id="__MOS_TEST_CASES_START" title='__MOS_TEST_CASES_START' data-ref="__MOS_TEST_CASES_START" data-ref-filename="__MOS_TEST_CASES_START">__MOS_TEST_CASES_START</dfn>[];</td></tr>
+<tr><th id="292">292</th><td><b>extern</b> <em>const</em> <a class="typedef" href="#mos_test_func_t" title='mos_test_func_t' data-type='struct mos_test_func_t' data-ref="mos_test_func_t" data-ref-filename="mos_test_func_t">mos_test_func_t</a> <dfn class="decl" id="__MOS_TEST_CASES_END" title='__MOS_TEST_CASES_END' data-ref="__MOS_TEST_CASES_END" data-ref-filename="__MOS_TEST_CASES_END">__MOS_TEST_CASES_END</dfn>[];</td></tr>
+<tr><th id="293">293</th><td></td></tr>
 </table><hr/><p id='footer'>
 Generated while processing <a href='cmdline_parser/test_cmdline_parser.c.html'>MOS/tests/cmdline_parser/test_cmdline_parser.c</a><br/>Generated on <em>2022-Dec-10</em> from project MOS<br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
 <br/>Generator usage only permitted with license.</p>

@@ -1,4 +1,4 @@
-<dec f='MOS/tests/test_engine_impl.h' l='160'/>
+<dec f='MOS/tests/test_engine_impl.h' l='158'/>
 <use f='MOS/tests/cmdline_parser/test_cmdline_parser.c' l='12' u='c'/>
 <use f='MOS/tests/cmdline_parser/test_cmdline_parser.c' l='23' u='c'/>
 <use f='MOS/tests/cmdline_parser/test_cmdline_parser.c' l='25' u='c'/>
@@ -34,7 +34,7 @@
 <use f='MOS/tests/cmdline_parser/test_cmdline_parser.c' l='131' u='c'/>
 <use f='MOS/tests/cmdline_parser/test_cmdline_parser.c' l='133' u='c'/>
 <use f='MOS/tests/cmdline_parser/test_cmdline_parser.c' l='135' u='c'/>
-<doc f='MOS/tests/test_engine_impl.h' l='153'>/*
+<doc f='MOS/tests/test_engine_impl.h' l='151'>/*
  * Check if actual string is equal expected string.
  *
  * Arguments:
