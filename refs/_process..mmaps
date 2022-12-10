@@ -1,4 +1,4 @@
-<dec f='MOS/kernel/include/mos/tasks/task_type.h' l='74' type='proc_vmblock_t *'/>
+<dec f='MOS/kernel/include/mos/tasks/task_types.h' l='74' type='proc_vmblock_t *'/>
 <offset>70272</offset>
 <use f='MOS/kernel/ksyscall.c' l='162' u='r' c='impl_syscall_heap_control'/>
 <use f='MOS/kernel/ksyscall.c' l='164' u='r' c='impl_syscall_heap_control'/>

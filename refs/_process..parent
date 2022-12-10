@@ -1,4 +1,4 @@
-<dec f='MOS/kernel/include/mos/tasks/task_type.h' l='62' type='process_t *'/>
+<dec f='MOS/kernel/include/mos/tasks/task_types.h' l='62' type='process_t *'/>
 <offset>192</offset>
 <use f='MOS/kernel/ksyscall.c' l='112' u='r' c='impl_syscall_get_parent_pid'/>
 <use f='MOS/kernel/ksyscall.c' l='113' u='r' c='impl_syscall_get_parent_pid'/>

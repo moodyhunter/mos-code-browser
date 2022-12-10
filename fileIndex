@@ -58,7 +58,7 @@ MOS/kernel/include/mos/filesystem/filesystem.h
 MOS/lib/include/lib/structures/tree.h
 MOS/kernel/include/mos/io/io.h
 MOS/lib/include/lib/sync/refcount.h
-MOS/kernel/include/mos/tasks/task_type.h
+MOS/kernel/include/mos/tasks/task_types.h
 MOS/lib/include/lib/structures/stack.h
 MOS/arch/x86/include/mos/x86/tasks/context.h
 MOS/arch/x86/mm/mm.c

@@ -1,4 +1,4 @@
-<dec f='MOS/kernel/include/mos/tasks/task_type.h' l='68' type='io_t *[1024]'/>
+<dec f='MOS/kernel/include/mos/tasks/task_types.h' l='68' type='io_t *[1024]'/>
 <offset>512</offset>
 <use f='MOS/kernel/ksyscall.c' l='49' u='r' c='impl_syscall_io_read'/>
 <use f='MOS/kernel/ksyscall.c' l='58' u='r' c='impl_syscall_io_write'/>

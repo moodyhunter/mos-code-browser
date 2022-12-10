@@ -1,4 +1,4 @@
-<use f='MOS/kernel/include/mos/tasks/task_type.h' l='11'/>
+<use f='MOS/kernel/include/mos/tasks/task_types.h' l='11'/>
 <use f='MOS/kernel/include/mos/tasks/process.h' l='10'/>
 <def f='MOS/kernel/include/mos/io/terminal.h' l='15' ll='28'/>
 <use f='MOS/kernel/include/mos/io/terminal.h' l='15'/>

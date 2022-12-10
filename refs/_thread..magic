@@ -1,4 +1,4 @@
-<dec f='MOS/kernel/include/mos/tasks/task_type.h' l='79' type='u32'/>
+<dec f='MOS/kernel/include/mos/tasks/task_types.h' l='79' type='u32'/>
 <offset>0</offset>
 <use f='MOS/kernel/include/mos/tasks/thread.h' l='16' u='r' c='thread_is_valid'/>
 <use f='MOS/kernel/tasks/thread.c' l='36' u='w' c='thread_allocate'/>
