@@ -14,6 +14,7 @@
 <use f='MOS/kernel/include/mos/mm/kmalloc.h' l='15' u='c'/>
 <use f='MOS/kernel/include/mos/mm/kmalloc.h' l='20' u='c'/>
 <use f='MOS/kernel/include/mos/mm/kmalloc.h' l='25' u='c'/>
+<use f='MOS/kernel/include/mos/mm/kmalloc.h' l='30' u='c'/>
 <use f='MOS/lib/include/lib/sync/refcount.h' l='10' u='c'/>
 <use f='MOS/lib/include/lib/sync/refcount.h' l='15' u='c'/>
 <use f='MOS/lib/include/lib/sync/refcount.h' l='20' u='c'/>
