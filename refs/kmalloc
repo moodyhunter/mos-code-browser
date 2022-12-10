@@ -16,7 +16,8 @@
 <use f='MOS/kernel/tasks/process.c' l='76' u='c' c='process_init'/>
 <use f='MOS/kernel/tasks/thread.c' l='35' u='c' c='thread_allocate'/>
 <use f='MOS/kernel/tasks/thread.c' l='48' u='c' c='thread_init'/>
-<use f='MOS/kernel/tasks/wait.c' l='15' u='c' c='wc_wait_for_thread'/>
+<use f='MOS/kernel/tasks/wait.c' l='22' u='c' c='wc_wait_for_thread'/>
+<use f='MOS/kernel/tasks/wait.c' l='31' u='c' c='wc_wait_for_mutex'/>
 <use f='MOS/tests/downwards_stack/test_downwards_stack.c' l='24' u='c' c='stack_push_pop_stack'/>
 <use f='MOS/tests/kmalloc/test_kmalloc.c' l='9' u='c' c='kmalloc_single'/>
 <use f='MOS/tests/kmalloc/test_kmalloc.c' l='21' u='c' c='kmalloc_stress'/>

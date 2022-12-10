@@ -1,3 +1,2 @@
 <def f='MOS/lib/include/lib/sync/spinlock.h' l='23' ll='26' macro='1' type='void spinlock_release(spinlock_t * lock)'/>
 <use f='MOS/lib/liballoc.c' l='65' u='c' c='liballoc_unlock'/>
-<use f='MOS/userspace/locks/main.c' l='15' u='c' c='thread_do_work'/>

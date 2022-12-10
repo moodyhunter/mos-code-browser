@@ -24,8 +24,10 @@
 <use f='MOS/userspace/init/main.c' l='125' u='c' c='main'/>
 <use f='MOS/userspace/init/main.c' l='133' u='c' c='main'/>
 <def f='MOS/userspace/libuserspace.c' l='81' ll='87' type='void printf(const char * fmt)'/>
-<use f='MOS/userspace/locks/main.c' l='23' u='c' c='thread_do_work'/>
-<use f='MOS/userspace/locks/main.c' l='34' u='c' c='main'/>
-<use f='MOS/userspace/locks/main.c' l='48' u='c' c='main'/>
+<use f='MOS/userspace/locks/main.c' l='40' u='c' c='thread_do_work'/>
+<use f='MOS/userspace/locks/main.c' l='50' u='c' c='thread_do_work'/>
+<use f='MOS/userspace/locks/main.c' l='55' u='c' c='main'/>
+<use f='MOS/userspace/locks/main.c' l='67' u='c' c='main'/>
+<use f='MOS/userspace/locks/main.c' l='71' u='c' c='main'/>
 <use f='MOS/userspace/ping-pong/ping.c' l='7' u='c' c='main'/>
 <use f='MOS/userspace/ping-pong/pong.c' l='7' u='c' c='main'/>

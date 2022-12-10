@@ -4,4 +4,5 @@
 <use f='MOS/kernel/ksyscall.c' l='83' u='c' c='impl_syscall_yield_cpu'/>
 <use f='MOS/kernel/ksyscall.c' l='150' u='c' c='impl_syscall_thread_exit'/>
 <use f='MOS/kernel/ksyscall.c' l='242' u='c' c='impl_syscall_wait_for_thread'/>
+<use f='MOS/kernel/ksyscall.c' l='265' u='c' c='impl_syscall_mutex_acquire'/>
 <def f='MOS/kernel/tasks/schedule.c' l='72' ll='78' type='void jump_to_scheduler()'/>

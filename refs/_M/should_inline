@@ -58,3 +58,5 @@
 <use f='MOS/build/include/mos/syscall/usermode.h' l='86' u='c'/>
 <use f='MOS/build/include/mos/syscall/usermode.h' l='91' u='c'/>
 <use f='MOS/build/include/mos/syscall/usermode.h' l='96' u='c'/>
+<use f='MOS/build/include/mos/syscall/usermode.h' l='111' u='c'/>
+<use f='MOS/build/include/mos/syscall/usermode.h' l='124' u='c'/>

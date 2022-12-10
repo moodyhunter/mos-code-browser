@@ -2,4 +2,5 @@
 <offset>64</offset>
 <use f='MOS/kernel/tasks/schedule.c' l='22' u='r' c='should_schedule_to_thread'/>
 <use f='MOS/kernel/tasks/schedule.c' l='24' u='r' c='should_schedule_to_thread'/>
-<use f='MOS/kernel/tasks/wait.c' l='17' u='w' c='wc_wait_for_thread'/>
+<use f='MOS/kernel/tasks/wait.c' l='24' u='w' c='wc_wait_for_thread'/>
+<use f='MOS/kernel/tasks/wait.c' l='33' u='w' c='wc_wait_for_mutex'/>

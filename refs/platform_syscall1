@@ -2,3 +2,5 @@
 <use f='MOS/build/include/mos/syscall/usermode.h' l='38' u='c' c='syscall_io_close'/>
 <use f='MOS/build/include/mos/syscall/usermode.h' l='43' u='c' c='syscall_exit'/>
 <use f='MOS/build/include/mos/syscall/usermode.h' l='98' u='c' c='syscall_wait_for_thread'/>
+<use f='MOS/build/include/mos/syscall/usermode.h' l='113' u='c' c='syscall_mutex_acquire'/>
+<use f='MOS/build/include/mos/syscall/usermode.h' l='126' u='c' c='syscall_mutex_release'/>

@@ -1,4 +1,5 @@
 <dec f='MOS/kernel/include/mos/tasks/task_type.h' l='18' type='3'/>
 <doc f='MOS/kernel/include/mos/tasks/task_type.h' l='18'>// ?</doc>
 <use f='MOS/kernel/ksyscall.c' l='234' u='r' c='impl_syscall_wait_for_thread'/>
+<use f='MOS/kernel/ksyscall.c' l='260' u='r' c='impl_syscall_mutex_acquire'/>
 <use f='MOS/kernel/tasks/thread.c' l='103' u='r' c='thread_add_wait_condition'/>
