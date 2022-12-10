@@ -1,10 +1,10 @@
 <dec f='MOS/kernel/include/mos/platform/platform.h' l='104' type='mos_platform_info_t *const'/>
 <use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='138' macro='1' u='r' c='x86_handle_interrupt'/>
-<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='239' macro='1' u='r' c='x86_handle_exception'/>
-<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='241' macro='1' u='r' c='x86_handle_exception'/>
-<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='241' macro='1' u='r' c='x86_handle_exception'/>
-<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='241' macro='1' u='r' c='x86_handle_exception'/>
-<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='258' macro='1' u='r' c='x86_handle_exception'/>
+<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='238' macro='1' u='r' c='x86_handle_exception'/>
+<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='240' macro='1' u='r' c='x86_handle_exception'/>
+<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='240' macro='1' u='r' c='x86_handle_exception'/>
+<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='240' macro='1' u='r' c='x86_handle_exception'/>
+<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='257' macro='1' u='r' c='x86_handle_exception'/>
 <use f='MOS/arch/x86/tasks/context.c' l='45' macro='1' u='r' c='x86_switch_to_thread'/>
 <use f='MOS/arch/x86/x86_platform.c' l='79' macro='1' u='r' c='x86_kpanic_hook'/>
 <use f='MOS/arch/x86/x86_platform.c' l='81' macro='1' u='r' c='x86_kpanic_hook'/>

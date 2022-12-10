@@ -1,2 +1,2 @@
 <def f='MOS/arch/x86/interrupt/x86_interrupt.c' l='109' ll='132' type='void x86_handle_nmi(x86_stack_frame * frame)'/>
-<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='184' u='c' c='x86_handle_exception'/>
+<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='183' u='c' c='x86_handle_exception'/>

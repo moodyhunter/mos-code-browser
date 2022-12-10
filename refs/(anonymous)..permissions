@@ -3,3 +3,12 @@
 <use f='MOS/kernel/filesystem/cpio/cpio.c' l='161' u='m' c='cpio_stat'/>
 <use f='MOS/kernel/filesystem/cpio/cpio.c' l='162' u='m' c='cpio_stat'/>
 <use f='MOS/kernel/filesystem/cpio/cpio.c' l='163' u='m' c='cpio_stat'/>
+<use f='MOS/userspace/init/main.c' l='27' u='m' c='file_api'/>
+<use f='MOS/userspace/init/main.c' l='28' u='m' c='file_api'/>
+<use f='MOS/userspace/init/main.c' l='29' u='m' c='file_api'/>
+<use f='MOS/userspace/init/main.c' l='30' u='m' c='file_api'/>
+<use f='MOS/userspace/init/main.c' l='31' u='m' c='file_api'/>
+<use f='MOS/userspace/init/main.c' l='32' u='m' c='file_api'/>
+<use f='MOS/userspace/init/main.c' l='33' u='m' c='file_api'/>
+<use f='MOS/userspace/init/main.c' l='34' u='m' c='file_api'/>
+<use f='MOS/userspace/init/main.c' l='35' u='m' c='file_api'/>

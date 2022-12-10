@@ -3,5 +3,5 @@
 <def f='MOS/arch/x86/interrupt/x86_interrupt.c' l='61' type='list_node_t [16]'/>
 <use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='66' u='a' c='x86_irq_handler_init'/>
 <use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='83' u='a' c='x86_install_interrupt_handler'/>
-<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='293' u='m' c='x86_handle_irq'/>
-<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='293' u='a' c='x86_handle_irq'/>
+<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='292' u='m' c='x86_handle_irq'/>
+<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='292' u='a' c='x86_handle_irq'/>

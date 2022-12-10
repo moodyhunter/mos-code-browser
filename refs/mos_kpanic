@@ -20,10 +20,11 @@
 <use f='MOS/arch/x86/interrupt/lapic.c' l='137' macro='1' u='c' c='lapic_memory_setup'/>
 <use f='MOS/arch/x86/interrupt/lapic.c' l='140' macro='1' u='c' c='lapic_memory_setup'/>
 <use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='131' macro='1' u='c' c='x86_handle_nmi'/>
-<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='172' macro='1' u='c' c='x86_handle_exception'/>
-<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='232' macro='1' u='c' c='x86_handle_exception'/>
-<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='260' macro='1' u='c' c='x86_handle_exception'/>
-<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='283' macro='1' u='c' c='x86_handle_exception'/>
+<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='163' macro='1' u='c' c='x86_handle_interrupt'/>
+<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='171' macro='1' u='c' c='x86_handle_exception'/>
+<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='231' macro='1' u='c' c='x86_handle_exception'/>
+<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='259' macro='1' u='c' c='x86_handle_exception'/>
+<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='282' macro='1' u='c' c='x86_handle_exception'/>
 <use f='MOS/arch/x86/mm/mm.c' l='21' macro='1' u='c' c='mem_add_region'/>
 <use f='MOS/arch/x86/mm/mm.c' l='68' macro='1' u='c' c='x86_mem_init'/>
 <use f='MOS/arch/x86/mm/paging.c' l='29' macro='1' u='c' c='x86_mm_prepare_paging'/>

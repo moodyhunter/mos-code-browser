@@ -39,11 +39,10 @@
 <use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='124' macro='1' u='c' c='x86_handle_nmi'/>
 <use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='128' macro='1' u='c' c='x86_handle_nmi'/>
 <use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='158' macro='1' u='c' c='x86_handle_interrupt'/>
-<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='164' macro='1' u='c' c='x86_handle_interrupt'/>
-<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='241' macro='1' u='c' c='x86_handle_exception'/>
-<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='252' macro='1' u='c' c='x86_handle_exception'/>
-<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='258' macro='1' u='c' c='x86_handle_exception'/>
-<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='300' macro='1' u='c' c='x86_handle_irq'/>
+<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='240' macro='1' u='c' c='x86_handle_exception'/>
+<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='251' macro='1' u='c' c='x86_handle_exception'/>
+<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='257' macro='1' u='c' c='x86_handle_exception'/>
+<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='299' macro='1' u='c' c='x86_handle_irq'/>
 <use f='MOS/arch/x86/mm/mm.c' l='32' macro='1' u='c' c='x86_mem_init'/>
 <use f='MOS/arch/x86/mm/mm.c' l='45' macro='1' u='c' c='x86_mem_init'/>
 <use f='MOS/arch/x86/mm/mm.c' l='53' macro='1' u='c' c='x86_mem_init'/>
@@ -159,6 +158,7 @@
 <use f='MOS/kernel/tasks/process.c' l='154' macro='1' u='c' c='process_attach_thread'/>
 <use f='MOS/kernel/tasks/process.c' l='168' macro='1' u='c' c='process_handle_exit'/>
 <use f='MOS/kernel/tasks/process.c' l='170' macro='1' u='c' c='process_handle_exit'/>
+<use f='MOS/kernel/tasks/process.c' l='176' macro='1' u='c' c='process_handle_exit'/>
 <use f='MOS/kernel/tasks/process.c' l='182' macro='1' u='c' c='process_handle_exit'/>
 <use f='MOS/kernel/tasks/process.c' l='197' macro='1' u='c' c='process_handle_cleanup'/>
 <use f='MOS/kernel/tasks/process.c' l='246' macro='1' u='c' c='process_grow_heap'/>

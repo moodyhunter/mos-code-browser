@@ -1,2 +1,2 @@
 <dec f='MOS/arch/x86/include/mos/x86/x86_interrupt.h' l='79' type='void x86_handle_interrupt(u32 esp)'/>
-<def f='MOS/arch/x86/interrupt/x86_interrupt.c' l='134' ll='168' type='void x86_handle_interrupt(u32 esp)'/>
+<def f='MOS/arch/x86/interrupt/x86_interrupt.c' l='134' ll='167' type='void x86_handle_interrupt(u32 esp)'/>

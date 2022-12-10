@@ -2,3 +2,6 @@
 <use f='MOS/kernel/include/mos/filesystem/filesystem.h' l='51' u='r' c='file_format_perm'/>
 <use f='MOS/kernel/include/mos/filesystem/filesystem.h' l='54' u='r' c='file_format_perm'/>
 <use f='MOS/kernel/include/mos/filesystem/filesystem.h' l='57' u='r' c='file_format_perm'/>
+<use f='MOS/userspace/init/main.c' l='27' u='r' c='file_api'/>
+<use f='MOS/userspace/init/main.c' l='30' u='r' c='file_api'/>
+<use f='MOS/userspace/init/main.c' l='33' u='r' c='file_api'/>

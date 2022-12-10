@@ -1,9 +1,8 @@
 <dec f='MOS/kernel/include/mos/printk.h' l='48'/>
 <use f='MOS/arch/x86/devices/serial.c' l='29' u='c'/>
 <use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='158' u='c'/>
-<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='164' u='c'/>
-<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='258' u='c'/>
-<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='300' u='c'/>
+<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='257' u='c'/>
+<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='299' u='c'/>
 <use f='MOS/arch/x86/mm/mm.c' l='45' u='c'/>
 <use f='MOS/arch/x86/mm/mm.c' l='53' u='c'/>
 <use f='MOS/arch/x86/x86_platform.c' l='71' u='c'/>
@@ -14,3 +13,4 @@
 <use f='MOS/kernel/panic.c' l='28' u='c'/>
 <use f='MOS/kernel/printk.c' l='23' u='c'/>
 <use f='MOS/kernel/printk.c' l='28' u='c'/>
+<use f='MOS/kernel/tasks/process.c' l='176' u='c'/>

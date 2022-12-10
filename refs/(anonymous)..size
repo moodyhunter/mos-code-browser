@@ -8,3 +8,4 @@
 <use f='MOS/kernel/filesystem/filesystem.c' l='163' u='r' c='vfs_path_readlink'/>
 <use f='MOS/kernel/filesystem/filesystem.c' l='164' u='r' c='vfs_path_readlink'/>
 <use f='MOS/kernel/filesystem/filesystem.c' l='169' u='r' c='vfs_path_readlink'/>
+<use f='MOS/userspace/init/main.c' l='24' u='r' c='file_api'/>

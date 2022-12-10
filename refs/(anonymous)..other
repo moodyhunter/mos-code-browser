@@ -4,3 +4,6 @@
 <use f='MOS/kernel/include/mos/filesystem/filesystem.h' l='59' u='r' c='file_format_perm'/>
 <offset>64</offset>
 <use f='MOS/kernel/filesystem/cpio/cpio.c' l='161' u='w' c='cpio_stat'/>
+<use f='MOS/userspace/init/main.c' l='33' u='r' c='file_api'/>
+<use f='MOS/userspace/init/main.c' l='34' u='r' c='file_api'/>
+<use f='MOS/userspace/init/main.c' l='35' u='r' c='file_api'/>

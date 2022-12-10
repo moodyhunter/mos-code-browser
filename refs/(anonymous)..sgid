@@ -1,3 +1,4 @@
 <dec f='MOS/kernel/include/mos/filesystem/filesystem.h' l='71' type='_Bool'/>
 <offset>208</offset>
 <use f='MOS/kernel/filesystem/cpio/cpio.c' l='166' u='w' c='cpio_stat'/>
+<use f='MOS/userspace/init/main.c' l='39' u='r' c='file_api'/>
