@@ -1,1 +1,1 @@
-<def f='MOS/arch/x86/include/mos/platform_syscall.h' l='50' ll='66' macro='1' type='long platform_syscall6(long number, long arg1, long arg2, long arg3, long arg4, long arg5, long arg6)'/>
+<def f='MOS/arch/x86/include/mos/platform_syscall.h' l='50' ll='75' macro='1' type='long platform_syscall6(long number, long arg1, long arg2, long arg3, long arg4, long arg5, long arg6)'/>
