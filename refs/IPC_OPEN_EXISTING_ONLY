@@ -1,0 +1,2 @@
+<dec f='MOS/kernel/include/mos/ipc/ipc_types.h' l='25' type='2'/>
+<use f='MOS/kernel/ipc/ipc.c' l='73' u='r' c='ipc_open'/>

@@ -1,4 +1,4 @@
-<dec f='MOS/kernel/include/mos/platform/platform.h' l='61' type='1'/>
-<use f='MOS/kernel/ksyscall.c' l='178' c='impl_syscall_heap_control'/>
+<dec f='MOS/kernel/include/mos/platform/platform.h' l='62' type='1'/>
+<use f='MOS/kernel/ksyscall.c' l='181' c='impl_syscall_heap_control'/>
 <use f='MOS/userspace/init/main.c' l='92' u='r' c='main'/>
 <use f='MOS/userspace/init/main.c' l='119' u='r' c='main'/>

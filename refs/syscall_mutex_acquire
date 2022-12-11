@@ -1,2 +1,2 @@
-<def f='MOS/build/include/mos/syscall/usermode.h' l='111' ll='114' macro='1' type='_Bool syscall_mutex_acquire(_Bool * mutex)'/>
+<def f='MOS/build/include/mos/syscall/usermode.h' l='112' ll='115' macro='1' type='_Bool syscall_mutex_acquire(_Bool * mutex)'/>
 <use f='MOS/userspace/locks/main.c' l='21' u='c' c='thread_do_work'/>

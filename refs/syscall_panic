@@ -1,1 +1,1 @@
-<def f='MOS/build/include/mos/syscall/usermode.h' l='11' ll='14' macro='1' type='void syscall_panic()'/>
+<def f='MOS/build/include/mos/syscall/usermode.h' l='12' ll='15' macro='1' type='void syscall_panic()'/>

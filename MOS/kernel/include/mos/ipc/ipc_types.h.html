@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>ipc_types.h source code [MOS/kernel/include/mos/ipc/ipc_types.h] - Woboq Code Browser</title>
+<meta name="woboq:interestingDefinitions" content="ipc_channel,ipc_msg "/>
+<link rel="stylesheet" href="/mos-code-browser/data/qtcreator.css" title="QtCreator"/>
+<link rel="alternate stylesheet" href="/mos-code-browser/data/kdevelop.css" title="KDevelop"/>
+<script type="text/javascript" src="/mos-code-browser/data/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="/mos-code-browser/data/jquery/jquery-ui.min.js"></script>
+<script>var file = 'MOS/kernel/include/mos/ipc/ipc_types.h'; var root_path = '../../../../..'; var data_path = '/mos-code-browser/data'; var ecma_script_api_version = 2;</script>
+<script src='/mos-code-browser/data/codebrowser.js'></script>
+</head>
+<body><div id='header'><h1 id='breadcrumb'><span>Browse the source code of </span><a href='../../../..'>MOS</a>/<a href='../../..'>kernel</a>/<a href='../..'>include</a>/<a href='..'>mos</a>/<a href='./'>ipc</a>/<a href='ipc_types.h.html'>ipc_types.h</a></h1></div>
+<hr/><div id='content'><table class="code">
+<tr><th id="1">1</th><td><i>// SPDX-License-Identifier: GPL-3.0-or-later</i></td></tr>
+<tr><th id="2">2</th><td></td></tr>
+<tr><th id="3">3</th><td><u>#pragma once</u></td></tr>
+<tr><th id="4">4</th><td></td></tr>
+<tr><th id="5">5</th><td><u>#include <a href="../../../../lib/include/lib/sync/refcount.h.html">"lib/sync/refcount.h"</a></u></td></tr>
+<tr><th id="6">6</th><td><u>#include <a href="../io/io.h.html">"mos/io/io.h"</a></u></td></tr>
+<tr><th id="7">7</th><td><u>#include <a href="../tasks/task_types.h.html">"mos/tasks/task_types.h"</a></u></td></tr>
+<tr><th id="8">8</th><td><u>#include <a href="../types.h.html">"mos/types.h"</a></u></td></tr>
+<tr><th id="9">9</th><td></td></tr>
+<tr><th id="10">10</th><td><u>#define <dfn class="macro" id="_M/IPC_MSG_MAGIC" data-ref="_M/IPC_MSG_MAGIC">IPC_MSG_MAGIC</dfn> MOS_FOURCC('I', 'M', 's', 'g')</u></td></tr>
+<tr><th id="11">11</th><td></td></tr>
+<tr><th id="12">12</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="13">13</th><td><i class="doc"> * <span class="command">\brief</span> Flags for ipc_channel_open()</i></td></tr>
+<tr><th id="14">14</th><td><i class="doc"> * <span class="command">\details</span></i></td></tr>
+<tr><th id="15">15</th><td><i class="doc"> * FLAG &amp; EXISTENCE | EXISTING  | NON-EXISTING</i></td></tr>
+<tr><th id="16">16</th><td><i class="doc"> * -----------------+-----------+--------------</i></td></tr>
+<tr><th id="17">17</th><td><i class="doc"> * CREATE_ONLY      | FAIL      | CREATE</i></td></tr>
+<tr><th id="18">18</th><td><i class="doc"> * EXISTING_ONLY    | OPEN      | FAIL</i></td></tr>
+<tr><th id="19">19</th><td><i class="doc"> * neither          | OPEN      | CREATE</i></td></tr>
+<tr><th id="20">20</th><td><i class="doc"> * both (invalid)   | FAIL      | FAIL</i></td></tr>
+<tr><th id="21">21</th><td><i class="doc"> */</i></td></tr>
+<tr><th id="22">22</th><td><b>typedef</b> <b>enum</b></td></tr>
+<tr><th id="23">23</th><td>{</td></tr>
+<tr><th id="24">24</th><td>    <dfn class="enum" id="IPC_OPEN_CREATE_ONLY" title='IPC_OPEN_CREATE_ONLY' data-ref="IPC_OPEN_CREATE_ONLY" data-ref-filename="IPC_OPEN_CREATE_ONLY">IPC_OPEN_CREATE_ONLY</dfn> = <var>1</var> &lt;&lt; <var>0</var>,</td></tr>
+<tr><th id="25">25</th><td>    <dfn class="enum" id="IPC_OPEN_EXISTING_ONLY" title='IPC_OPEN_EXISTING_ONLY' data-ref="IPC_OPEN_EXISTING_ONLY" data-ref-filename="IPC_OPEN_EXISTING_ONLY">IPC_OPEN_EXISTING_ONLY</dfn> = <var>1</var> &lt;&lt; <var>1</var>,</td></tr>
+<tr><th id="26">26</th><td>} <dfn class="typedef" id="ipc_open_flags" title='ipc_open_flags' data-type='enum ipc_open_flags' data-ref="ipc_open_flags" data-ref-filename="ipc_open_flags">ipc_open_flags</dfn>;</td></tr>
+<tr><th id="27">27</th><td></td></tr>
+<tr><th id="28">28</th><td><b>typedef</b> <b>struct</b> <dfn class="type def" id="ipc_msg" title='ipc_msg' data-ref="ipc_msg" data-ref-filename="ipc_msg"><a class="type" href="#ipc_msg" title='ipc_msg' data-ref="ipc_msg" data-ref-filename="ipc_msg">ipc_msg</a></dfn></td></tr>
+<tr><th id="29">29</th><td>{</td></tr>
+<tr><th id="30">30</th><td>    <a class="typedef" href="../types.h.html#u32" title='u32' data-type='unsigned int' data-ref="u32" data-ref-filename="u32">u32</a> <dfn class="decl field" id="ipc_msg::magic" title='ipc_msg::magic' data-ref="ipc_msg::magic" data-ref-filename="ipc_msg..magic">magic</dfn>;</td></tr>
+<tr><th id="31">31</th><td>    <a class="typedef" href="../types.h.html#u32" title='u32' data-type='unsigned int' data-ref="u32" data-ref-filename="u32">u32</a> <dfn class="decl field" id="ipc_msg::type" title='ipc_msg::type' data-ref="ipc_msg::type" data-ref-filename="ipc_msg..type">type</dfn>;</td></tr>
+<tr><th id="32">32</th><td>    <a class="typedef" href="../types.h.html#u32" title='u32' data-type='unsigned int' data-ref="u32" data-ref-filename="u32">u32</a> <dfn class="decl field" id="ipc_msg::length" title='ipc_msg::length' data-ref="ipc_msg::length" data-ref-filename="ipc_msg..length">length</dfn>;</td></tr>
+<tr><th id="33">33</th><td>    <em>char</em> <dfn class="decl field" id="ipc_msg::data" title='ipc_msg::data' data-ref="ipc_msg::data" data-ref-filename="ipc_msg..data">data</dfn>[]; <i>// variable length data</i></td></tr>
+<tr><th id="34">34</th><td>} <a class="macro" href="../mos_global.h.html#15" title="__attribute__((__packed__))" data-ref="_M/__packed">__packed</a> <dfn class="typedef" id="ipc_msg_t" title='ipc_msg_t' data-type='struct ipc_msg' data-ref="ipc_msg_t" data-ref-filename="ipc_msg_t">ipc_msg_t</dfn>;</td></tr>
+<tr><th id="35">35</th><td></td></tr>
+<tr><th id="36">36</th><td><b>typedef</b> <b>struct</b> <dfn class="type def" id="ipc_channel" title='ipc_channel' data-ref="ipc_channel" data-ref-filename="ipc_channel"><a class="type" href="#ipc_channel" title='ipc_channel' data-ref="ipc_channel" data-ref-filename="ipc_channel">ipc_channel</a></dfn></td></tr>
+<tr><th id="37">37</th><td>{</td></tr>
+<tr><th id="38">38</th><td>    <em>const</em> <em>char</em> *<dfn class="decl field" id="ipc_channel::name" title='ipc_channel::name' data-ref="ipc_channel::name" data-ref-filename="ipc_channel..name">name</dfn>;</td></tr>
+<tr><th id="39">39</th><td>    <a class="typedef" href="../types.h.html#76" title='paging_handle_t' data-type='struct paging_handle_t' data-ref="paging_handle_t" data-ref-filename="paging_handle_t">paging_handle_t</a> <dfn class="decl field" id="ipc_channel::address_space" title='ipc_channel::address_space' data-ref="ipc_channel::address_space" data-ref-filename="ipc_channel..address_space">address_space</dfn>;</td></tr>
+<tr><th id="40">40</th><td>    <a class="typedef" href="../platform/platform.h.html#vmblock_t" title='vmblock_t' data-type='struct vmblock_t' data-ref="vmblock_t" data-ref-filename="vmblock_t">vmblock_t</a> <dfn class="decl field" id="ipc_channel::vmblock" title='ipc_channel::vmblock' data-ref="ipc_channel::vmblock" data-ref-filename="ipc_channel..vmblock">vmblock</dfn>;</td></tr>
+<tr><th id="41">41</th><td>} <dfn class="typedef" id="ipc_server_t" title='ipc_server_t' data-type='struct ipc_channel' data-ref="ipc_server_t" data-ref-filename="ipc_server_t">ipc_server_t</dfn>;</td></tr>
+<tr><th id="42">42</th><td></td></tr>
+<tr><th id="43">43</th><td><b>typedef</b> <b>struct</b></td></tr>
+<tr><th id="44">44</th><td>{</td></tr>
+<tr><th id="45">45</th><td>    <a class="typedef" href="../io/io.h.html#io_t" title='io_t' data-type='struct _io_t' data-ref="io_t" data-ref-filename="io_t">io_t</a> <dfn class="decl field" id="(anonymous)::io" title='(anonymous struct)::io' data-ref="(anonymous)::io" data-ref-filename="(anonymous)..io">io</dfn>;</td></tr>
+<tr><th id="46">46</th><td>    <a class="typedef" href="#ipc_server_t" title='ipc_server_t' data-type='struct ipc_channel' data-ref="ipc_server_t" data-ref-filename="ipc_server_t">ipc_server_t</a> *<dfn class="decl field" id="(anonymous)::server" title='(anonymous struct)::server' data-ref="(anonymous)::server" data-ref-filename="(anonymous)..server">server</dfn>;</td></tr>
+<tr><th id="47">47</th><td>} <dfn class="typedef" id="ipc_io_t" title='ipc_io_t' data-type='struct ipc_io_t' data-ref="ipc_io_t" data-ref-filename="ipc_io_t">ipc_io_t</dfn>;</td></tr>
+<tr><th id="48">48</th><td></td></tr>
+</table><hr/><p id='footer'>
+Generated while processing <a href='../../../../arch/x86/interrupt/x86_interrupt.c.html'>MOS/arch/x86/interrupt/x86_interrupt.c</a><br/>Generated on <em>2022-Dec-11</em> from project MOS<br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
+<br/>Generator usage only permitted with license.</p>
+</div></body></html>

@@ -1,5 +1,5 @@
 <dec f='MOS/arch/x86/include/mos/x86/gdt/gdt_types.h' l='26' type='u32'/>
-<dec f='MOS/arch/x86/include/mos/x86/x86_platform.h' l='61' type='_Bool'/>
+<dec f='MOS/arch/x86/include/mos/x86/x86_platform.h' l='60' type='_Bool'/>
 <offset>128</offset>
 <doc f='MOS/arch/x86/include/mos/x86/gdt/gdt_types.h' l='26'>// only used in software; has no effect on hardware</doc>
 <use f='MOS/arch/x86/gdt/gdt.c' l='43' u='w' c='gdt32_set_entry'/>

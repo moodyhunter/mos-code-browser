@@ -1,4 +1,4 @@
-<dec f='MOS/arch/x86/include/mos/x86/x86_platform.h' l='68' type='const char'/>
-<doc f='MOS/arch/x86/include/mos/x86/x86_platform.h' l='68'>//     Paging area {</doc>
+<dec f='MOS/arch/x86/include/mos/x86/x86_platform.h' l='67' type='const char'/>
+<doc f='MOS/arch/x86/include/mos/x86/x86_platform.h' l='67'>//     Paging area {</doc>
 <use f='MOS/arch/x86/mm/paging.c' l='21' u='a'/>
 <use f='MOS/arch/x86/mm/paging.c' l='23' u='a'/>

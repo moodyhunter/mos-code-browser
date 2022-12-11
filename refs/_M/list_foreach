@@ -6,7 +6,7 @@
  * \param v Name of the variable to use for the current element (e.g. `item&apos;)
  * \param h List Head (e.g. `consoles&apos;)
  */</doc>
-<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='292' u='c'/>
+<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='291' u='c'/>
 <use f='MOS/kernel/device/console.c' l='49' u='c'/>
 <use f='MOS/kernel/device/console.c' l='59' u='c'/>
 <use f='MOS/kernel/panic.c' l='60' u='c'/>

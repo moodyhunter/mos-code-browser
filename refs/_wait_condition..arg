@@ -1,4 +1,4 @@
-<dec f='MOS/kernel/include/mos/tasks/task_types.h' l='52' type='void *'/>
+<dec f='MOS/kernel/include/mos/tasks/task_types.h' l='53' type='void *'/>
 <offset>0</offset>
 <use f='MOS/kernel/tasks/wait.c' l='9' u='r' c='wait_for_thread_is_ready'/>
 <use f='MOS/kernel/tasks/wait.c' l='16' u='r' c='wait_for_mutex_is_ready'/>

@@ -1,6 +1,6 @@
-<dec f='MOS/kernel/include/mos/tasks/task_types.h' l='43' type='mmap_flags'/>
+<dec f='MOS/kernel/include/mos/tasks/task_types.h' l='44' type='mmap_flags'/>
 <offset>224</offset>
-<doc f='MOS/kernel/include/mos/tasks/task_types.h' l='40'>// if MMAP_COW is set, then the flags in vm contains &apos;original&apos; flags
+<doc f='MOS/kernel/include/mos/tasks/task_types.h' l='41'>// if MMAP_COW is set, then the flags in vm contains &apos;original&apos; flags
     // of this block. Which means if there&apos;re no VM_WRITE flag, then the block
     // should not be writable.</doc>
 <use f='MOS/kernel/mm/cow.c' l='75' u='r' c='cow_handle_page_fault'/>
@@ -10,5 +10,5 @@
 <use f='MOS/kernel/tasks/process.c' l='162' u='w' c='process_attach_mmap'/>
 <use f='MOS/kernel/tasks/process.c' l='200' u='r' c='process_handle_cleanup'/>
 <use f='MOS/kernel/tasks/process.c' l='230' u='r' c='process_grow_heap'/>
-<use f='MOS/kernel/tasks/process.c' l='279' u='r' c='process_dump_mmaps'/>
 <use f='MOS/kernel/tasks/process.c' l='280' u='r' c='process_dump_mmaps'/>
+<use f='MOS/kernel/tasks/process.c' l='281' u='r' c='process_dump_mmaps'/>

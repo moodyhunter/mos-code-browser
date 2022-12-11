@@ -1,4 +1,5 @@
 <dec f='MOS/kernel/include/mos/tasks/task_types.h' l='32' type='2'/>
 <doc f='MOS/kernel/include/mos/tasks/task_types.h' l='32'>// this block is private, and should not be shared when forked</doc>
+<use f='MOS/kernel/ksyscall.c' l='297' u='r' c='impl_syscall_ipc_open'/>
 <use f='MOS/kernel/tasks/fork.c' l='24' u='r' c='process_handle_fork'/>
-<use f='MOS/kernel/tasks/process.c' l='280' u='r' c='process_dump_mmaps'/>
+<use f='MOS/kernel/tasks/process.c' l='281' u='r' c='process_dump_mmaps'/>

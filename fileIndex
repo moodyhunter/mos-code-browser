@@ -58,6 +58,7 @@ MOS/kernel/include/mos/filesystem/filesystem.h
 MOS/lib/include/lib/structures/tree.h
 MOS/kernel/include/mos/io/io.h
 MOS/lib/include/lib/sync/refcount.h
+MOS/kernel/include/mos/ipc/ipc_types.h
 MOS/kernel/include/mos/tasks/task_types.h
 MOS/lib/include/lib/structures/stack.h
 MOS/arch/x86/include/mos/x86/tasks/context.h
@@ -94,13 +95,18 @@ MOS/kernel/filesystem/pathutils.c
 MOS/kernel/io/io.c
 MOS/kernel/io/terminal.c
 MOS/kernel/include/mos/io/terminal.h
-MOS/kernel/kernel_init.c
+MOS/kernel/ipc/ipc.c
+MOS/kernel/include/mos/ipc/ipc.h
+MOS/lib/include/lib/structures/ring_buffer.h
 MOS/kernel/include/mos/tasks/thread.h
+MOS/kernel/kernel_init.c
 MOS/kernel/ksyscall.c
+MOS/kernel/include/mos/mm/shm.h
 MOS/build/include/mos/syscall/decl.h
 MOS/kernel/include/mos/tasks/wait.h
 MOS/kernel/mm/cow.c
 MOS/kernel/mm/memops.c
+MOS/kernel/mm/shm.c
 MOS/kernel/panic.c
 MOS/lib/include/lib/stdio.h
 MOS/kernel/printk.c
@@ -121,7 +127,6 @@ MOS/lib/structures/hashmap.c
 MOS/lib/structures/hashmap_common.c
 MOS/lib/structures/list.c
 MOS/lib/structures/ring_buffer.c
-MOS/lib/include/lib/structures/ring_buffer.h
 MOS/lib/structures/stack.c
 MOS/lib/structures/tree.c
 MOS/tests/cmdline_parser/test_cmdline_parser.c

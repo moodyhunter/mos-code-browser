@@ -3,8 +3,8 @@
 <use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='111' macro='1' u='r' c='x86_handle_nmi'/>
 <use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='124' macro='1' u='r' c='x86_handle_nmi'/>
 <use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='128' macro='1' u='r' c='x86_handle_nmi'/>
-<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='240' macro='1' u='r' c='x86_handle_exception'/>
-<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='251' macro='1' u='r' c='x86_handle_exception'/>
+<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='239' macro='1' u='r' c='x86_handle_exception'/>
+<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='250' macro='1' u='r' c='x86_handle_exception'/>
 <use f='MOS/arch/x86/mm/pmem_freelist.c' l='64' macro='1' u='r' c='pmem_freelist_setup'/>
 <use f='MOS/arch/x86/mm/pmem_freelist.c' l='70' macro='1' u='r' c='pmem_freelist_setup'/>
 <use f='MOS/arch/x86/x86_platform.c' l='83' macro='1' u='r' c='x86_kpanic_hook'/>
@@ -12,8 +12,8 @@
 <use f='MOS/arch/x86/x86_platform.c' l='91' macro='1' u='r' c='x86_kpanic_hook'/>
 <use f='MOS/arch/x86/x86_platform.c' l='97' macro='1' u='r' c='x86_kpanic_hook'/>
 <use f='MOS/arch/x86/x86_platform.c' l='101' macro='1' u='r' c='x86_kpanic_hook'/>
-<use f='MOS/kernel/kernel_init.c' l='51' macro='1' u='r' c='dump_cmdline'/>
-<use f='MOS/kernel/kernel_init.c' l='53' macro='1' u='r' c='dump_cmdline'/>
+<use f='MOS/kernel/kernel_init.c' l='52' macro='1' u='r' c='dump_cmdline'/>
+<use f='MOS/kernel/kernel_init.c' l='54' macro='1' u='r' c='dump_cmdline'/>
 <use f='MOS/kernel/mm/cow.c' l='87' macro='1' u='r' c='cow_handle_page_fault'/>
 <use f='MOS/kernel/printk.c' l='37' macro='1' u='r' c='printk_setup_console'/>
 <use f='MOS/kernel/printk.c' l='45' macro='1' u='r' c='printk_setup_console'/>

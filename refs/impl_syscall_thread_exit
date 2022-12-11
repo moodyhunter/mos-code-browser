@@ -1,4 +1,4 @@
-<dec f='MOS/build/include/mos/syscall/dispatcher.h' l='82' type='void impl_syscall_thread_exit()'/>
-<use f='MOS/build/include/mos/syscall/dispatcher.h' l='84' u='c' c='dispatch_syscall'/>
-<dec f='MOS/build/include/mos/syscall/decl.h' l='40' type='void impl_syscall_thread_exit()'/>
-<def f='MOS/kernel/ksyscall.c' l='145' macro='1' type='void impl_syscall_thread_exit()'/>
+<dec f='MOS/build/include/mos/syscall/dispatcher.h' l='81' type='void impl_syscall_thread_exit()'/>
+<use f='MOS/build/include/mos/syscall/dispatcher.h' l='83' u='c' c='dispatch_syscall'/>
+<dec f='MOS/build/include/mos/syscall/decl.h' l='41' type='void impl_syscall_thread_exit()'/>
+<def f='MOS/kernel/ksyscall.c' l='148' macro='1' type='void impl_syscall_thread_exit()'/>

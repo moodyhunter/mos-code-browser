@@ -6,4 +6,4 @@
  * \param name The name of the block device
  * \return blockdev_t* The pointer to such a block device, or NULL if nothing can be found.
  */</doc>
-<use f='MOS/kernel/kernel_init.c' l='22' u='c' c='mount_initrd'/>
+<use f='MOS/kernel/kernel_init.c' l='23' u='c' c='mount_initrd'/>

@@ -1,0 +1,2 @@
+<dec f='MOS/kernel/include/mos/tasks/task_types.h' l='33' type='4'/>
+<doc f='MOS/kernel/include/mos/tasks/task_types.h' l='33'>// this block is shared, and should be shared when forked (aka, two processes can write to the same block)</doc>

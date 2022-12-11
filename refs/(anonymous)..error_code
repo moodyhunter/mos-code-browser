@@ -1,6 +1,6 @@
-<dec f='MOS/arch/x86/include/mos/x86/x86_platform.h' l='43' type='reg32_t'/>
-<offset>480</offset>
+<dec f='MOS/arch/x86/include/mos/x86/x86_platform.h' l='42' type='reg32_t'/>
+<offset>416</offset>
+<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='222' u='r' c='x86_handle_exception'/>
 <use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='223' u='r' c='x86_handle_exception'/>
 <use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='224' u='r' c='x86_handle_exception'/>
-<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='225' u='r' c='x86_handle_exception'/>
-<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='282' u='r' c='x86_handle_exception'/>
+<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='281' u='r' c='x86_handle_exception'/>

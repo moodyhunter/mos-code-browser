@@ -4,6 +4,6 @@
 <use f='MOS/arch/x86/cpu/smp.c' l='89' u='c'/>
 <use f='MOS/arch/x86/cpu/smp.c' l='90' u='c'/>
 <use f='MOS/arch/x86/interrupt/lapic.c' l='152' u='c'/>
-<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='228' u='c'/>
+<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='227' u='c'/>
 <use f='MOS/userspace/init/main.c' l='9' u='c'/>
 <use f='MOS/userspace/init/main.c' l='94' u='c'/>

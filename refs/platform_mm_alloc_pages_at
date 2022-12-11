@@ -1,4 +1,4 @@
-<dec f='MOS/kernel/include/mos/platform/platform.h' l='128' type='vmblock_t platform_mm_alloc_pages_at(paging_handle_t table, uintptr_t vaddr, size_t npages, vm_flags vflags)'/>
+<dec f='MOS/kernel/include/mos/platform/platform.h' l='129' type='vmblock_t platform_mm_alloc_pages_at(paging_handle_t table, uintptr_t vaddr, size_t npages, vm_flags vflags)'/>
 <def f='MOS/arch/x86/x86_platform_api.c' l='96' ll='100' type='vmblock_t platform_mm_alloc_pages_at(paging_handle_t table, uintptr_t vaddr, size_t npages, vm_flags vflags)'/>
 <use f='MOS/kernel/mm/cow.c' l='38' u='c' c='copy_cow_pages_inplace'/>
 <use f='MOS/kernel/mm/cow.c' l='43' u='c' c='copy_cow_pages_inplace'/>

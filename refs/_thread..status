@@ -1,10 +1,10 @@
-<dec f='MOS/kernel/include/mos/tasks/task_types.h' l='81' type='thread_status_t'/>
-<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='163' u='r' c='x86_handle_interrupt'/>
+<dec f='MOS/kernel/include/mos/tasks/task_types.h' l='82' type='thread_status_t'/>
+<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='162' u='r' c='x86_handle_interrupt'/>
 <offset>64</offset>
 <use f='MOS/arch/x86/tasks/context.c' l='50' u='r' c='x86_switch_to_thread'/>
-<use f='MOS/kernel/ksyscall.c' l='229' u='r' c='impl_syscall_wait_for_thread'/>
-<use f='MOS/kernel/ksyscall.c' l='234' u='w' c='impl_syscall_wait_for_thread'/>
-<use f='MOS/kernel/ksyscall.c' l='260' u='w' c='impl_syscall_mutex_acquire'/>
+<use f='MOS/kernel/ksyscall.c' l='232' u='r' c='impl_syscall_wait_for_thread'/>
+<use f='MOS/kernel/ksyscall.c' l='237' u='w' c='impl_syscall_wait_for_thread'/>
+<use f='MOS/kernel/ksyscall.c' l='263' u='w' c='impl_syscall_mutex_acquire'/>
 <use f='MOS/kernel/tasks/fork.c' l='66' u='w' c='process_handle_fork'/>
 <use f='MOS/kernel/tasks/process.c' l='174' u='r' c='process_handle_exit'/>
 <use f='MOS/kernel/tasks/process.c' l='179' u='w' c='process_handle_exit'/>

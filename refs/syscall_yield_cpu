@@ -1,1 +1,1 @@
-<def f='MOS/build/include/mos/syscall/usermode.h' l='46' ll='49' macro='1' type='void syscall_yield_cpu()'/>
+<def f='MOS/build/include/mos/syscall/usermode.h' l='47' ll='50' macro='1' type='void syscall_yield_cpu()'/>

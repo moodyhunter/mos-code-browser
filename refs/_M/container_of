@@ -26,3 +26,4 @@
 <use f='MOS/kernel/io/terminal.c' l='12' u='c'/>
 <use f='MOS/kernel/io/terminal.c' l='23' u='c'/>
 <use f='MOS/kernel/io/terminal.c' l='34' u='c'/>
+<use f='MOS/kernel/ipc/ipc.c' l='51' u='c'/>

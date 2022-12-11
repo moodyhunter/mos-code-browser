@@ -1,5 +1,5 @@
 <def f='MOS/arch/x86/include/mos/platform_syscall.h' l='22' ll='27' macro='1' type='long platform_syscall2(long number, long arg1, long arg2)'/>
-<use f='MOS/build/include/mos/syscall/usermode.h' l='18' u='c' c='syscall_file_open'/>
-<use f='MOS/build/include/mos/syscall/usermode.h' l='23' u='c' c='syscall_file_stat'/>
-<use f='MOS/build/include/mos/syscall/usermode.h' l='58' u='c' c='syscall_exec'/>
-<use f='MOS/build/include/mos/syscall/usermode.h' l='93' u='c' c='syscall_heap_control'/>
+<use f='MOS/build/include/mos/syscall/usermode.h' l='19' u='c' c='syscall_file_open'/>
+<use f='MOS/build/include/mos/syscall/usermode.h' l='24' u='c' c='syscall_file_stat'/>
+<use f='MOS/build/include/mos/syscall/usermode.h' l='59' u='c' c='syscall_exec'/>
+<use f='MOS/build/include/mos/syscall/usermode.h' l='94' u='c' c='syscall_heap_control'/>

@@ -1,2 +1,2 @@
-<def f='MOS/build/include/mos/syscall/usermode.h' l='16' ll='19' macro='1' type='fd_t syscall_file_open(const char * file_path, file_open_flags flags)'/>
+<def f='MOS/build/include/mos/syscall/usermode.h' l='17' ll='20' macro='1' type='fd_t syscall_file_open(const char * file_path, file_open_flags flags)'/>
 <use f='MOS/userspace/init/main.c' l='45' u='c' c='file_api'/>

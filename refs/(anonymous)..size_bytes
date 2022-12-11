@@ -1,4 +1,4 @@
-<dec f='MOS/arch/x86/include/mos/x86/x86_platform.h' l='60' type='size_t'/>
+<dec f='MOS/arch/x86/include/mos/x86/x86_platform.h' l='59' type='size_t'/>
 <offset>64</offset>
 <use f='MOS/arch/x86/devices/initrd_blockdev.c' l='19' u='r' c='initrd_read'/>
 <use f='MOS/arch/x86/devices/initrd_blockdev.c' l='26' u='r' c='initrd_read'/>

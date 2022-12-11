@@ -3,3 +3,4 @@
 <def f='MOS/kernel/io/io.c' l='8' ll='15' type='void io_init(io_t * io, io_flags_t flags, size_t size, const io_op_t * ops)'/>
 <use f='MOS/kernel/io/terminal.c' l='64' u='c' c='terminal_create_console'/>
 <use f='MOS/kernel/io/terminal.c' l='74' u='c' c='terminal_create_pipe'/>
+<use f='MOS/kernel/ipc/ipc.c' l='116' u='c' c='ipc_create_server'/>

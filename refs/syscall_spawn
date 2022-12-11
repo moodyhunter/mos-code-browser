@@ -1,4 +1,4 @@
-<def f='MOS/build/include/mos/syscall/usermode.h' l='71' ll='74' macro='1' type='pid_t syscall_spawn(const char * file_path, int argc, const char *const * argv)'/>
+<def f='MOS/build/include/mos/syscall/usermode.h' l='72' ll='75' macro='1' type='pid_t syscall_spawn(const char * file_path, int argc, const char *const * argv)'/>
 <use f='MOS/userspace/init/main.c' l='77' u='c' c='main'/>
 <use f='MOS/userspace/init/main.c' l='78' u='c' c='main'/>
 <use f='MOS/userspace/init/main.c' l='82' u='c' c='main'/>

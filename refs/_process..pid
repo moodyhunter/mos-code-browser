@@ -1,15 +1,15 @@
-<dec f='MOS/kernel/include/mos/tasks/task_types.h' l='61' type='pid_t'/>
-<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='243' u='r' c='x86_handle_exception'/>
+<dec f='MOS/kernel/include/mos/tasks/task_types.h' l='62' type='pid_t'/>
+<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='242' u='r' c='x86_handle_exception'/>
 <offset>128</offset>
 <use f='MOS/arch/x86/x86_platform.c' l='83' u='r' c='x86_kpanic_hook'/>
-<use f='MOS/kernel/ksyscall.c' l='19' u='r' c='impl_syscall_panic'/>
-<use f='MOS/kernel/ksyscall.c' l='71' u='r' c='impl_syscall_exit'/>
-<use f='MOS/kernel/ksyscall.c' l='93' u='r' c='impl_syscall_fork'/>
-<use f='MOS/kernel/ksyscall.c' l='107' u='r' c='impl_syscall_get_pid'/>
-<use f='MOS/kernel/ksyscall.c' l='113' u='r' c='impl_syscall_get_parent_pid'/>
-<use f='MOS/kernel/ksyscall.c' l='125' u='r' c='impl_syscall_spawn'/>
-<use f='MOS/kernel/ksyscall.c' l='224' u='r' c='impl_syscall_wait_for_thread'/>
-<use f='MOS/kernel/ksyscall.c' l='224' u='r' c='impl_syscall_wait_for_thread'/>
+<use f='MOS/kernel/ksyscall.c' l='22' u='r' c='impl_syscall_panic'/>
+<use f='MOS/kernel/ksyscall.c' l='74' u='r' c='impl_syscall_exit'/>
+<use f='MOS/kernel/ksyscall.c' l='96' u='r' c='impl_syscall_fork'/>
+<use f='MOS/kernel/ksyscall.c' l='110' u='r' c='impl_syscall_get_pid'/>
+<use f='MOS/kernel/ksyscall.c' l='116' u='r' c='impl_syscall_get_parent_pid'/>
+<use f='MOS/kernel/ksyscall.c' l='128' u='r' c='impl_syscall_spawn'/>
+<use f='MOS/kernel/ksyscall.c' l='227' u='r' c='impl_syscall_wait_for_thread'/>
+<use f='MOS/kernel/ksyscall.c' l='227' u='r' c='impl_syscall_wait_for_thread'/>
 <use f='MOS/kernel/tasks/fork.c' l='18' u='r' c='process_handle_fork'/>
 <use f='MOS/kernel/tasks/fork.c' l='18' u='r' c='process_handle_fork'/>
 <use f='MOS/kernel/tasks/fork.c' l='36' u='r' c='process_handle_fork'/>

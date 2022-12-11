@@ -9,3 +9,4 @@
 <mbr r='_hashmap::key_compare_func' o='320' t='hashmap_key_compare_t'/>
 <use f='MOS/kernel/include/mos/tasks/process.h' l='9'/>
 <use f='MOS/kernel/include/mos/tasks/thread.h' l='9'/>
+<size>48</size>

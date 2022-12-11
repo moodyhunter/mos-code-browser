@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>ipc.h source code [MOS/kernel/include/mos/ipc/ipc.h] - Woboq Code Browser</title>
+<link rel="stylesheet" href="/mos-code-browser/data/qtcreator.css" title="QtCreator"/>
+<link rel="alternate stylesheet" href="/mos-code-browser/data/kdevelop.css" title="KDevelop"/>
+<script type="text/javascript" src="/mos-code-browser/data/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="/mos-code-browser/data/jquery/jquery-ui.min.js"></script>
+<script>var file = 'MOS/kernel/include/mos/ipc/ipc.h'; var root_path = '../../../../..'; var data_path = '/mos-code-browser/data'; var ecma_script_api_version = 2;</script>
+<script src='/mos-code-browser/data/codebrowser.js'></script>
+</head>
+<body><div id='header'><h1 id='breadcrumb'><span>Browse the source code of </span><a href='../../../..'>MOS</a>/<a href='../../..'>kernel</a>/<a href='../..'>include</a>/<a href='..'>mos</a>/<a href='./'>ipc</a>/<a href='ipc.h.html'>ipc.h</a></h1></div>
+<hr/><div id='content'><table class="code">
+<tr><th id="1">1</th><td><i>// SPDX-License-Identifier: GPL-3.0-or-later</i></td></tr>
+<tr><th id="2">2</th><td></td></tr>
+<tr><th id="3">3</th><td><u>#pragma once</u></td></tr>
+<tr><th id="4">4</th><td></td></tr>
+<tr><th id="5">5</th><td><u>#include <a href="ipc_types.h.html">"mos/ipc/ipc_types.h"</a></u></td></tr>
+<tr><th id="6">6</th><td><u>#include <a href="../tasks/task_types.h.html">"mos/tasks/task_types.h"</a></u></td></tr>
+<tr><th id="7">7</th><td></td></tr>
+<tr><th id="8">8</th><td><em>void</em> <a class="decl fn" href="../../../ipc/ipc.c.html#ipc_init" title='ipc_init' data-ref="ipc_init" data-ref-filename="ipc_init" id="ipc_init">ipc_init</a>(<em>void</em>);</td></tr>
+<tr><th id="9">9</th><td><a class="typedef" href="../io/io.h.html#io_t" title='io_t' data-type='struct _io_t' data-ref="io_t" data-ref-filename="io_t">io_t</a> *<a class="decl fn" href="../../../ipc/ipc.c.html#ipc_create_server" title='ipc_create_server' data-ref="ipc_create_server" data-ref-filename="ipc_create_server" id="ipc_create_server">ipc_create_server</a>(<a class="typedef" href="../tasks/task_types.h.html#process_t" title='process_t' data-type='struct _process' data-ref="process_t" data-ref-filename="process_t">process_t</a> *<dfn class="local col1 decl" id="1owner" title='owner' data-type='process_t *' data-ref="1owner" data-ref-filename="1owner">owner</dfn>, <a class="typedef" href="../platform/platform.h.html#vmblock_t" title='vmblock_t' data-type='struct vmblock_t' data-ref="vmblock_t" data-ref-filename="vmblock_t">vmblock_t</a> <dfn class="local col2 decl" id="2vmblock" title='vmblock' data-type='vmblock_t' data-ref="2vmblock" data-ref-filename="2vmblock">vmblock</dfn>, <em>const</em> <em>char</em> *<dfn class="local col3 decl" id="3name" title='name' data-type='const char *' data-ref="3name" data-ref-filename="3name">name</dfn>);</td></tr>
+<tr><th id="10">10</th><td><a class="typedef" href="../io/io.h.html#io_t" title='io_t' data-type='struct _io_t' data-ref="io_t" data-ref-filename="io_t">io_t</a> *<a class="decl fn" href="../../../ipc/ipc.c.html#ipc_create_client" title='ipc_create_client' data-ref="ipc_create_client" data-ref-filename="ipc_create_client" id="ipc_create_client">ipc_create_client</a>(<a class="typedef" href="../platform/platform.h.html#vmblock_t" title='vmblock_t' data-type='struct vmblock_t' data-ref="vmblock_t" data-ref-filename="vmblock_t">vmblock_t</a> <dfn class="local col4 decl" id="4vmblock" title='vmblock' data-type='vmblock_t' data-ref="4vmblock" data-ref-filename="4vmblock">vmblock</dfn>, <em>const</em> <em>char</em> *<dfn class="local col5 decl" id="5name" title='name' data-type='const char *' data-ref="5name" data-ref-filename="5name">name</dfn>);</td></tr>
+<tr><th id="11">11</th><td></td></tr>
+<tr><th id="12">12</th><td><a class="typedef" href="../io/io.h.html#io_t" title='io_t' data-type='struct _io_t' data-ref="io_t" data-ref-filename="io_t">io_t</a> *<a class="decl fn" href="../../../ipc/ipc.c.html#ipc_open" title='ipc_open' data-ref="ipc_open" data-ref-filename="ipc_open" id="ipc_open">ipc_open</a>(<a class="typedef" href="../tasks/task_types.h.html#process_t" title='process_t' data-type='struct _process' data-ref="process_t" data-ref-filename="process_t">process_t</a> *<dfn class="local col6 decl" id="6owner" title='owner' data-type='process_t *' data-ref="6owner" data-ref-filename="6owner">owner</dfn>, <a class="typedef" href="../platform/platform.h.html#vmblock_t" title='vmblock_t' data-type='struct vmblock_t' data-ref="vmblock_t" data-ref-filename="vmblock_t">vmblock_t</a> <dfn class="local col7 decl" id="7vmblock" title='vmblock' data-type='vmblock_t' data-ref="7vmblock" data-ref-filename="7vmblock">vmblock</dfn>, <em>const</em> <em>char</em> *<dfn class="local col8 decl" id="8name" title='name' data-type='const char *' data-ref="8name" data-ref-filename="8name">name</dfn>, <a class="typedef" href="ipc_types.h.html#ipc_open_flags" title='ipc_open_flags' data-type='enum ipc_open_flags' data-ref="ipc_open_flags" data-ref-filename="ipc_open_flags">ipc_open_flags</a> <dfn class="local col9 decl" id="9flags" title='flags' data-type='ipc_open_flags' data-ref="9flags" data-ref-filename="9flags">flags</dfn>);</td></tr>
+<tr><th id="13">13</th><td></td></tr>
+</table><hr/><p id='footer'>
+Generated while processing <a href='../../../ipc/ipc.c.html'>MOS/kernel/ipc/ipc.c</a><br/>Generated on <em>2022-Dec-11</em> from project MOS<br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
+<br/>Generator usage only permitted with license.</p>
+</div></body></html>

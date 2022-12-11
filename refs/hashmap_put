@@ -1,5 +1,6 @@
 <dec f='MOS/lib/include/lib/structures/hashmap.h' l='31' type='void * hashmap_put(hashmap_t * map, const void * key, void * value)'/>
 <use f='MOS/kernel/device/block.c' l='56' u='c' c='blockdev_register'/>
+<use f='MOS/kernel/ipc/ipc.c' l='112' u='c' c='ipc_create_server'/>
 <use f='MOS/kernel/tasks/fork.c' l='70' u='c' c='process_handle_fork'/>
 <use f='MOS/kernel/tasks/fork.c' l='73' u='c' c='process_handle_fork'/>
 <use f='MOS/kernel/tasks/process.c' l='111' u='c' c='process_new'/>

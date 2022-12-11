@@ -1,0 +1,3 @@
+<dec f='MOS/kernel/include/mos/ipc/ipc.h' l='10' type='io_t * ipc_create_client(vmblock_t vmblock, const char * name)'/>
+<use f='MOS/kernel/ipc/ipc.c' l='101' u='c' c='ipc_open'/>
+<def f='MOS/kernel/ipc/ipc.c' l='120' ll='131' type='io_t * ipc_create_client(vmblock_t vmblock, const char * name)'/>

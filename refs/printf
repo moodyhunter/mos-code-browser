@@ -29,5 +29,9 @@
 <use f='MOS/userspace/locks/main.c' l='55' u='c' c='main'/>
 <use f='MOS/userspace/locks/main.c' l='67' u='c' c='main'/>
 <use f='MOS/userspace/locks/main.c' l='71' u='c' c='main'/>
-<use f='MOS/userspace/ping-pong/ping.c' l='7' u='c' c='main'/>
+<use f='MOS/userspace/ping-pong/ping.c' l='9' u='c' c='main'/>
+<use f='MOS/userspace/ping-pong/ping.c' l='13' u='c' c='main'/>
+<use f='MOS/userspace/ping-pong/ping.c' l='21' u='c' c='main'/>
+<use f='MOS/userspace/ping-pong/ping.c' l='28' u='c' c='main'/>
+<use f='MOS/userspace/ping-pong/ping.c' l='31' u='c' c='main'/>
 <use f='MOS/userspace/ping-pong/pong.c' l='7' u='c' c='main'/>

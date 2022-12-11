@@ -1,2 +1,2 @@
-<def f='MOS/build/include/mos/syscall/usermode.h' l='21' ll='24' macro='1' type='_Bool syscall_file_stat(const char * file_path, file_stat_t * stat)'/>
+<def f='MOS/build/include/mos/syscall/usermode.h' l='22' ll='25' macro='1' type='_Bool syscall_file_stat(const char * file_path, file_stat_t * stat)'/>
 <use f='MOS/userspace/init/main.c' l='22' u='c' c='file_api'/>

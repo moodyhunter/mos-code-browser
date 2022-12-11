@@ -14,4 +14,4 @@
 <use f='MOS/arch/x86/interrupt/lapic.c' l='136' u='m' c='lapic_memory_setup'/>
 <use f='MOS/arch/x86/interrupt/lapic.c' l='139' u='m' c='lapic_memory_setup'/>
 <use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='99' u='r' c='x86_dump_registers'/>
-<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='154' u='r' c='x86_handle_interrupt'/>
+<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='153' u='r' c='x86_handle_interrupt'/>

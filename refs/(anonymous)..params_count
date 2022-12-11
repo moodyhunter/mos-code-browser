@@ -6,8 +6,8 @@
 <use f='MOS/kernel/cmdline.c' l='94' u='r' c='mos_cmdline_destroy'/>
 <use f='MOS/kernel/cmdline.c' l='101' u='r' c='mos_cmdline_destroy'/>
 <offset>64</offset>
-<use f='MOS/kernel/kernel_init.c' l='38' u='r' c='cmdline_get_init_path'/>
-<use f='MOS/kernel/kernel_init.c' l='59' u='r' c='dump_cmdline'/>
+<use f='MOS/kernel/kernel_init.c' l='39' u='r' c='cmdline_get_init_path'/>
+<use f='MOS/kernel/kernel_init.c' l='60' u='r' c='dump_cmdline'/>
 <use f='MOS/kernel/printk.c' l='19' u='r' c='printk_setup_console'/>
 <use f='MOS/kernel/printk.c' l='22' u='r' c='printk_setup_console'/>
 <use f='MOS/tests/cmdline_parser/test_cmdline_parser.c' l='13' u='r' c='simple_cmdline'/>

@@ -1,4 +1,4 @@
-<dec f='MOS/build/include/mos/syscall/dispatcher.h' l='62' type='pid_t impl_syscall_get_pid()'/>
-<use f='MOS/build/include/mos/syscall/dispatcher.h' l='64' u='c' c='dispatch_syscall'/>
-<dec f='MOS/build/include/mos/syscall/decl.h' l='30' type='pid_t impl_syscall_get_pid()'/>
-<def f='MOS/kernel/ksyscall.c' l='104' macro='1' type='pid_t impl_syscall_get_pid()'/>
+<dec f='MOS/build/include/mos/syscall/dispatcher.h' l='61' type='pid_t impl_syscall_get_pid()'/>
+<use f='MOS/build/include/mos/syscall/dispatcher.h' l='63' u='c' c='dispatch_syscall'/>
+<dec f='MOS/build/include/mos/syscall/decl.h' l='31' type='pid_t impl_syscall_get_pid()'/>
+<def f='MOS/kernel/ksyscall.c' l='107' macro='1' type='pid_t impl_syscall_get_pid()'/>

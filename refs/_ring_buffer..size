@@ -1,6 +1,7 @@
 <dec f='MOS/lib/include/lib/structures/ring_buffer.h' l='17' type='size_t'/>
 <use f='MOS/lib/include/lib/structures/ring_buffer.h' l='37' u='r' c='ring_buffer_is_empty'/>
 <use f='MOS/lib/include/lib/structures/ring_buffer.h' l='42' u='r' c='ring_buffer_is_full'/>
+<offset>64</offset>
 <use f='MOS/lib/structures/ring_buffer.c' l='11' u='r' c='ring_buffer_get'/>
 <use f='MOS/lib/structures/ring_buffer.c' l='29' u='w' c='ring_buffer_create'/>
 <use f='MOS/lib/structures/ring_buffer.c' l='45' u='w' c='ring_buffer_create_at'/>
@@ -15,7 +16,6 @@
 <use f='MOS/lib/structures/ring_buffer.c' l='112' u='w' c='ring_buffer_push_front'/>
 <use f='MOS/lib/structures/ring_buffer.c' l='121' u='r' c='ring_buffer_pop_front'/>
 <use f='MOS/lib/structures/ring_buffer.c' l='126' u='w' c='ring_buffer_pop_front'/>
-<offset>64</offset>
 <use f='MOS/tests/ring_buffer/test_ring_buffer.c' l='14' u='r' c='ringbuffer_creation_and_destruction'/>
 <use f='MOS/tests/ring_buffer/test_ring_buffer.c' l='14' u='r' c='ringbuffer_creation_and_destruction'/>
 <use f='MOS/tests/ring_buffer/test_ring_buffer.c' l='30' u='r' c='ringbuffer_put_and_get'/>

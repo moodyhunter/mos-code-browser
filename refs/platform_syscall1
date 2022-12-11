@@ -1,6 +1,6 @@
 <def f='MOS/arch/x86/include/mos/platform_syscall.h' l='15' ll='20' macro='1' type='long platform_syscall1(long number, long arg1)'/>
-<use f='MOS/build/include/mos/syscall/usermode.h' l='38' u='c' c='syscall_io_close'/>
-<use f='MOS/build/include/mos/syscall/usermode.h' l='43' u='c' c='syscall_exit'/>
-<use f='MOS/build/include/mos/syscall/usermode.h' l='98' u='c' c='syscall_wait_for_thread'/>
-<use f='MOS/build/include/mos/syscall/usermode.h' l='113' u='c' c='syscall_mutex_acquire'/>
-<use f='MOS/build/include/mos/syscall/usermode.h' l='126' u='c' c='syscall_mutex_release'/>
+<use f='MOS/build/include/mos/syscall/usermode.h' l='39' u='c' c='syscall_io_close'/>
+<use f='MOS/build/include/mos/syscall/usermode.h' l='44' u='c' c='syscall_exit'/>
+<use f='MOS/build/include/mos/syscall/usermode.h' l='99' u='c' c='syscall_wait_for_thread'/>
+<use f='MOS/build/include/mos/syscall/usermode.h' l='114' u='c' c='syscall_mutex_acquire'/>
+<use f='MOS/build/include/mos/syscall/usermode.h' l='127' u='c' c='syscall_mutex_release'/>

@@ -1,0 +1,2 @@
+<dec f='MOS/kernel/include/mos/mm/shm.h' l='9' type='void shm_init()'/>
+<def f='MOS/kernel/mm/shm.c' l='10' ll='13' type='void shm_init()'/>
