@@ -41,6 +41,7 @@
 <use f='MOS/arch/x86/include/mos/platform_syscall.h' l='29' u='c'/>
 <use f='MOS/arch/x86/include/mos/platform_syscall.h' l='36' u='c'/>
 <use f='MOS/arch/x86/include/mos/platform_syscall.h' l='43' u='c'/>
+<use f='MOS/arch/x86/include/mos/platform_syscall.h' l='50' u='c'/>
 <use f='MOS/build/include/mos/syscall/usermode.h' l='12' u='c'/>
 <use f='MOS/build/include/mos/syscall/usermode.h' l='17' u='c'/>
 <use f='MOS/build/include/mos/syscall/usermode.h' l='22' u='c'/>

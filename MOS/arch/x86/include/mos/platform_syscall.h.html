@@ -60,6 +60,24 @@
 <tr><th id="47">47</th><td>    <b>return</b> <a class="local col3 ref" href="#43result" title='result' data-ref="43result" data-ref-filename="43result">result</a>;</td></tr>
 <tr><th id="48">48</th><td>}</td></tr>
 <tr><th id="49">49</th><td></td></tr>
+<tr><th id="50">50</th><td><a class="macro" href="../../../../kernel/include/mos/mos_global.h.html#26" title="__attribute__((__unused__)) static inline" data-ref="_M/should_inline">should_inline</a> <em>long</em> <dfn class="decl def fn" id="platform_syscall6" title='platform_syscall6' data-ref="platform_syscall6" data-ref-filename="platform_syscall6">platform_syscall6</dfn>(<em>long</em> <dfn class="local col4 decl" id="44number" title='number' data-type='long' data-ref="44number" data-ref-filename="44number">number</dfn>, <em>long</em> <dfn class="local col5 decl" id="45arg1" title='arg1' data-type='long' data-ref="45arg1" data-ref-filename="45arg1">arg1</dfn>, <em>long</em> <dfn class="local col6 decl" id="46arg2" title='arg2' data-type='long' data-ref="46arg2" data-ref-filename="46arg2">arg2</dfn>, <em>long</em> <dfn class="local col7 decl" id="47arg3" title='arg3' data-type='long' data-ref="47arg3" data-ref-filename="47arg3">arg3</dfn>, <em>long</em> <dfn class="local col8 decl" id="48arg4" title='arg4' data-type='long' data-ref="48arg4" data-ref-filename="48arg4">arg4</dfn>, <em>long</em> <dfn class="local col9 decl" id="49arg5" title='arg5' data-type='long' data-ref="49arg5" data-ref-filename="49arg5">arg5</dfn>, <em>long</em> <dfn class="local col0 decl" id="50arg6" title='arg6' data-type='long' data-ref="50arg6" data-ref-filename="50arg6">arg6</dfn>)</td></tr>
+<tr><th id="51">51</th><td>{</td></tr>
+<tr><th id="52">52</th><td>    <em>long</em> <dfn class="local col1 decl" id="51result" title='result' data-type='long' data-ref="51result" data-ref-filename="51result">result</dfn> = <var>0</var>;</td></tr>
+<tr><th id="53">53</th><td>    <b>__asm__</b> <em>volatile</em>(<q>"push %%ebp\n"</q></td></tr>
+<tr><th id="54">54</th><td>                     <q>"mov %1, %%eax\n"</q></td></tr>
+<tr><th id="55">55</th><td>                     <q>"mov %2, %%ebx\n"</q></td></tr>
+<tr><th id="56">56</th><td>                     <q>"mov %3, %%ecx\n"</q></td></tr>
+<tr><th id="57">57</th><td>                     <q>"mov %4, %%edx\n"</q></td></tr>
+<tr><th id="58">58</th><td>                     <q>"mov %5, %%esi\n"</q></td></tr>
+<tr><th id="59">59</th><td>                     <q>"mov %6, %%edi\n"</q></td></tr>
+<tr><th id="60">60</th><td>                     <q>"mov %7, %%ebp\n"</q></td></tr>
+<tr><th id="61">61</th><td>                     <q>"int $0x88\n"</q></td></tr>
+<tr><th id="62">62</th><td>                     <q>"pop %%ebp\n"</q></td></tr>
+<tr><th id="63">63</th><td>                     : <q>"=a"</q>(<a class="local col1 ref" href="#51result" title='result' data-ref="51result" data-ref-filename="51result">result</a>)</td></tr>
+<tr><th id="64">64</th><td>                     : <q>"m"</q>(<a class="local col4 ref" href="#44number" title='number' data-ref="44number" data-ref-filename="44number">number</a>), <q>"m"</q>(<a class="local col5 ref" href="#45arg1" title='arg1' data-ref="45arg1" data-ref-filename="45arg1">arg1</a>), <q>"m"</q>(<a class="local col6 ref" href="#46arg2" title='arg2' data-ref="46arg2" data-ref-filename="46arg2">arg2</a>), <q>"m"</q>(<a class="local col7 ref" href="#47arg3" title='arg3' data-ref="47arg3" data-ref-filename="47arg3">arg3</a>), <q>"m"</q>(<a class="local col8 ref" href="#48arg4" title='arg4' data-ref="48arg4" data-ref-filename="48arg4">arg4</a>), <q>"m"</q>(<a class="local col9 ref" href="#49arg5" title='arg5' data-ref="49arg5" data-ref-filename="49arg5">arg5</a>), <q>"m"</q>(<a class="local col0 ref" href="#50arg6" title='arg6' data-ref="50arg6" data-ref-filename="50arg6">arg6</a>));</td></tr>
+<tr><th id="65">65</th><td>    <b>return</b> <a class="local col1 ref" href="#51result" title='result' data-ref="51result" data-ref-filename="51result">result</a>;</td></tr>
+<tr><th id="66">66</th><td>}</td></tr>
+<tr><th id="67">67</th><td></td></tr>
 </table><hr/><p id='footer'>
 Generated while processing <a href='../../../../userspace/init/main.c.html'>MOS/userspace/init/main.c</a><br/>Generated on <em>2022-Dec-11</em> from project MOS<br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
 <br/>Generator usage only permitted with license.</p>
