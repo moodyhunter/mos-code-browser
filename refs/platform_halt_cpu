@@ -1,5 +1,5 @@
-<dec f='MOS/kernel/include/mos/platform/platform.h' l='114' type='void platform_halt_cpu()'/>
-<doc f='MOS/kernel/include/mos/platform/platform.h' l='113'>// Platform CPU APIs</doc>
+<dec f='MOS/kernel/include/mos/platform/platform.h' l='118' type='void platform_halt_cpu()'/>
+<doc f='MOS/kernel/include/mos/platform/platform.h' l='117'>// Platform CPU APIs</doc>
 <def f='MOS/arch/x86/x86_platform_api.c' l='24' ll='27' type='void platform_halt_cpu()'/>
 <use f='MOS/kernel/panic.c' l='66' u='c' c='mos_kpanic'/>
 <use f='MOS/tests/test_engine.c' l='129' u='c' c='mos_test_engine_run_tests'/>
