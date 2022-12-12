@@ -1,3 +1,4 @@
 wc_condition_cleanup|wc_condition_cleanup
+wc_wait_for|wc_wait_for
 wc_wait_for_mutex|wc_wait_for_mutex
 wc_wait_for_thread|wc_wait_for_thread

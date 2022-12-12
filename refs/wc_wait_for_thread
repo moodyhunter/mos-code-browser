@@ -1,3 +1,3 @@
 <dec f='MOS/kernel/include/mos/tasks/wait.h' l='13' type='wait_condition_t * wc_wait_for_thread(thread_t * thread)'/>
 <use f='MOS/kernel/ksyscall.c' l='238' u='c' c='impl_syscall_wait_for_thread'/>
-<def f='MOS/kernel/tasks/wait.c' l='20' ll='27' type='wait_condition_t * wc_wait_for_thread(thread_t * target)'/>
+<def f='MOS/kernel/tasks/wait.c' l='20' ll='23' type='wait_condition_t * wc_wait_for_thread(thread_t * target)'/>
