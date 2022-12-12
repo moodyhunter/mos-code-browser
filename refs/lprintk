@@ -175,7 +175,7 @@
 <use f='MOS/kernel/tasks/process.c' l='246' macro='1' u='c' c='process_grow_heap'/>
 <use f='MOS/kernel/tasks/process.c' l='253' macro='1' u='c' c='process_dump_mmaps'/>
 <use f='MOS/kernel/tasks/process.c' l='271' macro='1' u='c' c='process_dump_mmaps'/>
-<use f='MOS/kernel/tasks/schedule.c' l='60' macro='1' u='c' c='schedule_to_thread'/>
+<use f='MOS/kernel/tasks/schedule.c' l='57' macro='1' u='c' c='schedule_to_thread'/>
 <use f='MOS/tests/test_engine.c' l='67' u='c' c='test_engine_warning_handler'/>
 <use f='MOS/tests/test_engine.c' l='68' u='c' c='test_engine_warning_handler'/>
 <use f='MOS/tests/test_engine.c' l='126' macro='1' u='c' c='mos_test_engine_run_tests'/>

@@ -1,3 +1,3 @@
 <dec f='MOS/kernel/include/mos/tasks/wait.h' l='14' type='wait_condition_t * wc_wait_for_mutex(_Bool * mutex)'/>
 <use f='MOS/kernel/ksyscall.c' l='262' u='c' c='impl_syscall_mutex_acquire'/>
-<def f='MOS/kernel/tasks/wait.c' l='25' ll='28' type='wait_condition_t * wc_wait_for_mutex(_Bool * mutex)'/>
+<def f='MOS/kernel/tasks/wait.c' l='26' ll='29' type='wait_condition_t * wc_wait_for_mutex(_Bool * mutex)'/>

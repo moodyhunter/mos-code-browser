@@ -1,4 +1,4 @@
 <dec f='MOS/kernel/include/mos/tasks/wait.h' l='16' type='wait_condition_t * wc_wait_for(void * arg, _Bool (*)(wait_condition_t *) verify, void (*)(wait_condition_t *) cleanup)'/>
-<use f='MOS/kernel/tasks/wait.c' l='22' u='c' c='wc_wait_for_thread'/>
-<use f='MOS/kernel/tasks/wait.c' l='27' u='c' c='wc_wait_for_mutex'/>
-<def f='MOS/kernel/tasks/wait.c' l='30' ll='37' type='wait_condition_t * wc_wait_for(void * arg, _Bool (*)(wait_condition_t *) verify, void (*)(wait_condition_t *) cleanup)'/>
+<use f='MOS/kernel/tasks/wait.c' l='23' u='c' c='wc_wait_for_thread'/>
+<use f='MOS/kernel/tasks/wait.c' l='28' u='c' c='wc_wait_for_mutex'/>
+<def f='MOS/kernel/tasks/wait.c' l='31' ll='38' type='wait_condition_t * wc_wait_for(void * arg, _Bool (*)(wait_condition_t *) verify, void (*)(wait_condition_t *) cleanup)'/>

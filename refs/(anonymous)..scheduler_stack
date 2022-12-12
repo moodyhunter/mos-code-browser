@@ -1,4 +1,4 @@
 <dec f='MOS/kernel/include/mos/platform/platform.h' l='81' type='uintptr_t'/>
 <offset>128</offset>
-<use f='MOS/kernel/tasks/schedule.c' l='61' u='a' c='schedule_to_thread'/>
-<use f='MOS/kernel/tasks/schedule.c' l='77' u='r' c='jump_to_scheduler'/>
+<use f='MOS/kernel/tasks/schedule.c' l='58' u='a' c='schedule_to_thread'/>
+<use f='MOS/kernel/tasks/schedule.c' l='74' u='r' c='jump_to_scheduler'/>
