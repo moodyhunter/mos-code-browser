@@ -1,4 +1,4 @@
 <def f='MOS/kernel/include/mos/tasks/thread.h' l='14' ll='17' macro='1' type='_Bool thread_is_valid(thread_t * thread)'/>
 <use f='MOS/kernel/tasks/process.c' l='152' u='c' c='process_attach_thread'/>
-<use f='MOS/kernel/tasks/thread.c' l='100' u='c' c='thread_add_wait_condition'/>
+<use f='MOS/kernel/tasks/thread.c' l='100' u='c' c='thread_set_wait_condition'/>
 <use f='MOS/kernel/tasks/thread.c' l='119' u='c' c='thread_handle_exit'/>

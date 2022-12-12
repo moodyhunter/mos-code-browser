@@ -17,6 +17,6 @@
 <use f='MOS/kernel/tasks/schedule.c' l='75' u='r' c='jump_to_scheduler'/>
 <use f='MOS/kernel/tasks/schedule.c' l='76' u='w' c='jump_to_scheduler'/>
 <use f='MOS/kernel/tasks/thread.c' l='39' u='w' c='thread_allocate'/>
-<use f='MOS/kernel/tasks/thread.c' l='103' u='r' c='thread_add_wait_condition'/>
+<use f='MOS/kernel/tasks/thread.c' l='103' u='r' c='thread_set_wait_condition'/>
 <use f='MOS/kernel/tasks/thread.c' l='123' u='w' c='thread_handle_exit'/>
 <use f='MOS/kernel/tasks/wait.c' l='10' u='r' c='thread_is_ready'/>

@@ -4,5 +4,5 @@
 <use f='MOS/kernel/tasks/schedule.c' l='21' u='r' c='should_schedule_to_thread'/>
 <use f='MOS/kernel/tasks/schedule.c' l='28' u='w' c='should_schedule_to_thread'/>
 <use f='MOS/kernel/tasks/thread.c' l='41' u='w' c='thread_allocate'/>
-<use f='MOS/kernel/tasks/thread.c' l='107' u='r' c='thread_add_wait_condition'/>
-<use f='MOS/kernel/tasks/thread.c' l='109' u='w' c='thread_add_wait_condition'/>
+<use f='MOS/kernel/tasks/thread.c' l='107' u='r' c='thread_set_wait_condition'/>
+<use f='MOS/kernel/tasks/thread.c' l='109' u='w' c='thread_set_wait_condition'/>
