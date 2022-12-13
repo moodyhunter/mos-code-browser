@@ -3,8 +3,10 @@
 <offset>0</offset>
 <dec f='MOS/kernel/include/mos/filesystem/filesystem.h' l='72' type='size_t'/>
 <offset>256</offset>
+<use f='MOS/kernel/elf/elf.c' l='58' u='r' c='elf_create_process'/>
+<use f='MOS/kernel/elf/elf.c' l='62' u='r' c='elf_create_process'/>
+<use f='MOS/kernel/elf/elf.c' l='63' u='r' c='elf_create_process'/>
 <use f='MOS/kernel/filesystem/cpio/cpio.c' l='154' u='w' c='cpio_stat'/>
-<use f='MOS/kernel/filesystem/filesystem.c' l='137' u='r' c='vfs_path_open'/>
 <use f='MOS/kernel/filesystem/filesystem.c' l='163' u='r' c='vfs_path_readlink'/>
 <use f='MOS/kernel/filesystem/filesystem.c' l='164' u='r' c='vfs_path_readlink'/>
 <use f='MOS/kernel/filesystem/filesystem.c' l='169' u='r' c='vfs_path_readlink'/>

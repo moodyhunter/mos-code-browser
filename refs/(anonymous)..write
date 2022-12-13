@@ -1,8 +1,8 @@
 <dec f='MOS/kernel/include/mos/io/io.h' l='21' type='size_t (*)(io_t *, const void *, size_t)'/>
 <offset>64</offset>
 <use f='MOS/kernel/filesystem/filesystem.c' l='55' u='w'/>
-<use f='MOS/kernel/io/io.c' l='109' u='r' c='io_write'/>
-<use f='MOS/kernel/io/io.c' l='114' u='r' c='io_write'/>
+<use f='MOS/kernel/io/io.c' l='108' u='r' c='io_write'/>
+<use f='MOS/kernel/io/io.c' l='113' u='r' c='io_write'/>
 <use f='MOS/kernel/io/terminal.c' l='50' u='w'/>
 <use f='MOS/kernel/ipc/ipc.c' l='168' u='w'/>
 <use f='MOS/kernel/ipc/ipc.c' l='174' u='w'/>

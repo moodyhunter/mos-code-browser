@@ -5,10 +5,10 @@
 <use f='MOS/arch/x86/x86_platform.c' l='86' u='m' c='x86_kpanic_hook'/>
 <use f='MOS/arch/x86/x86_platform.c' l='102' u='r' c='x86_kpanic_hook'/>
 <use f='MOS/arch/x86/x86_platform.c' l='126' u='m' c='x86_start_kernel'/>
-<use f='MOS/kernel/elf/elf.c' l='52' u='r' c='elf_create_process'/>
-<use f='MOS/kernel/elf/elf.c' l='207' u='r' c='elf_create_process'/>
-<use f='MOS/kernel/elf/elf.c' l='217' u='r' c='elf_create_process'/>
-<use f='MOS/kernel/elf/elf.c' l='225' u='r' c='elf_create_process'/>
+<use f='MOS/kernel/elf/elf.c' l='59' u='r' c='elf_create_process'/>
+<use f='MOS/kernel/elf/elf.c' l='214' u='r' c='elf_create_process'/>
+<use f='MOS/kernel/elf/elf.c' l='224' u='r' c='elf_create_process'/>
+<use f='MOS/kernel/elf/elf.c' l='232' u='r' c='elf_create_process'/>
 <use f='MOS/kernel/mm/memops.c' l='18' u='r' c='mos_kernel_mm_init'/>
 <use f='MOS/kernel/mm/memops.c' l='37' u='r' c='liballoc_alloc_page'/>
 <use f='MOS/kernel/mm/memops.c' l='63' u='r' c='liballoc_free_page'/>

@@ -1,6 +1,6 @@
 <dec f='MOS/kernel/include/mos/tasks/process.h' l='30' type='void process_attach_mmap(process_t * process, vmblock_t block, vm_type type, mmap_flags flags)'/>
-<use f='MOS/kernel/elf/elf.c' l='202' u='c' c='elf_create_process'/>
-<use f='MOS/kernel/elf/elf.c' l='210' u='c' c='elf_create_process'/>
+<use f='MOS/kernel/elf/elf.c' l='209' u='c' c='elf_create_process'/>
+<use f='MOS/kernel/elf/elf.c' l='217' u='c' c='elf_create_process'/>
 <use f='MOS/kernel/mm/shm.c' l='19' u='c' c='shm_allocate'/>
 <use f='MOS/kernel/mm/shm.c' l='28' u='c' c='shm_map_shared_block'/>
 <use f='MOS/kernel/tasks/fork.c' l='37' u='c' c='process_handle_fork'/>

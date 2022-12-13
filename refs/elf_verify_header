@@ -1,3 +1,3 @@
 <dec f='MOS/kernel/include/mos/elf/elf.h' l='223' type='elf_verify_result elf_verify_header(elf_header_t * header)'/>
 <def f='MOS/kernel/elf/elf.c' l='19' ll='40' type='elf_verify_result elf_verify_header(elf_header_t * header)'/>
-<use f='MOS/kernel/elf/elf.c' l='67' u='c' c='elf_create_process'/>
+<use f='MOS/kernel/elf/elf.c' l='74' u='c' c='elf_create_process'/>

@@ -1,6 +1,6 @@
 <dec f='MOS/kernel/include/mos/io/io.h' l='14' type='2'/>
 <use f='MOS/kernel/include/mos/filesystem/filesystem.h' l='12'/>
-<use f='MOS/kernel/io/io.c' l='104' u='r' c='io_write'/>
+<use f='MOS/kernel/io/io.c' l='103' u='r' c='io_write'/>
 <use f='MOS/kernel/io/terminal.c' l='64' u='r' c='terminal_create_console'/>
 <use f='MOS/kernel/io/terminal.c' l='74' u='r' c='terminal_create_pipe'/>
 <use f='MOS/kernel/ipc/ipc.c' l='246' u='r' c='ipc_accept'/>

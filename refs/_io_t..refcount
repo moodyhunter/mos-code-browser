@@ -1,8 +1,8 @@
 <dec f='MOS/kernel/include/mos/io/io.h' l='28' type='mos_refcount_t'/>
 <offset>64</offset>
 <use f='MOS/kernel/filesystem/filesystem.c' l='72' u='a' c='vfs_open'/>
-<use f='MOS/kernel/io/io.c' l='14' u='a' c='io_init'/>
-<use f='MOS/kernel/io/io.c' l='32' u='a' c='io_ref'/>
-<use f='MOS/kernel/io/io.c' l='51' u='a' c='io_unref'/>
-<use f='MOS/kernel/io/io.c' l='53' u='a' c='io_unref'/>
+<use f='MOS/kernel/io/io.c' l='13' u='a' c='io_init'/>
+<use f='MOS/kernel/io/io.c' l='31' u='a' c='io_ref'/>
+<use f='MOS/kernel/io/io.c' l='50' u='a' c='io_unref'/>
+<use f='MOS/kernel/io/io.c' l='52' u='a' c='io_unref'/>
 <use f='MOS/kernel/ipc/ipc.c' l='37' u='r' c='ipc_server_close'/>

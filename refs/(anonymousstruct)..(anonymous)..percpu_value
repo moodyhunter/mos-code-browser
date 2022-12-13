@@ -19,10 +19,10 @@
 <use f='MOS/arch/x86/x86_platform.c' l='102' macro='1' u='a' c='x86_kpanic_hook'/>
 <use f='MOS/arch/x86/x86_platform.c' l='126' macro='1' u='a' c='x86_start_kernel'/>
 <use f='MOS/arch/x86/x86_platform.c' l='160' macro='1' u='a' c='x86_start_kernel'/>
-<use f='MOS/kernel/elf/elf.c' l='52' macro='1' u='a' c='elf_create_process'/>
-<use f='MOS/kernel/elf/elf.c' l='207' macro='1' u='a' c='elf_create_process'/>
-<use f='MOS/kernel/elf/elf.c' l='217' macro='1' u='a' c='elf_create_process'/>
-<use f='MOS/kernel/elf/elf.c' l='225' macro='1' u='a' c='elf_create_process'/>
+<use f='MOS/kernel/elf/elf.c' l='59' macro='1' u='a' c='elf_create_process'/>
+<use f='MOS/kernel/elf/elf.c' l='214' macro='1' u='a' c='elf_create_process'/>
+<use f='MOS/kernel/elf/elf.c' l='224' macro='1' u='a' c='elf_create_process'/>
+<use f='MOS/kernel/elf/elf.c' l='232' macro='1' u='a' c='elf_create_process'/>
 <use f='MOS/kernel/ipc/ipc.c' l='233' macro='1' u='a' c='ipc_accept'/>
 <use f='MOS/kernel/ipc/ipc.c' l='234' macro='1' u='a' c='ipc_accept'/>
 <use f='MOS/kernel/ipc/ipc.c' l='245' macro='1' u='a' c='ipc_accept'/>

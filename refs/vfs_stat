@@ -1,3 +1,4 @@
 <dec f='MOS/kernel/include/mos/filesystem/filesystem.h' l='99' type='_Bool vfs_stat(const char * path, file_stat_t *restrict stat)'/>
+<use f='MOS/kernel/elf/elf.c' l='45' u='c' c='elf_create_process'/>
 <def f='MOS/kernel/filesystem/filesystem.c' l='76' ll='86' macro='1' type='_Bool vfs_stat(const char * path, file_stat_t *restrict stat)'/>
 <use f='MOS/kernel/ksyscall.c' l='43' u='c' c='impl_syscall_file_stat'/>
