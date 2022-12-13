@@ -24,6 +24,7 @@ MOS/arch/x86/include/mos/x86/tasks/tss_types.h
 MOS/arch/x86/acpi/madt.c
 MOS/arch/x86/boot/multiboot/startup.c
 MOS/kernel/include/mos/device/console.h
+MOS/lib/include/lib/sync/spinlock.h
 MOS/arch/x86/include/mos/x86/mm/paging_impl.h
 MOS/arch/x86/cpu/cpuid.c
 MOS/arch/x86/include/mos/x86/cpu/cpuid.h
@@ -119,7 +120,6 @@ MOS/kernel/tasks/thread.c
 MOS/kernel/tasks/wait.c
 MOS/lib/liballoc.c
 MOS/lib/include/lib/mos_lib.h
-MOS/lib/include/lib/sync/spinlock.h
 MOS/lib/stdio.c
 MOS/lib/stdio_impl.c
 MOS/lib/stdlib.c

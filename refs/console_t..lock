@@ -1,0 +1,5 @@
+<dec f='MOS/kernel/include/mos/device/console.h' l='71' type='spinlock_t'/>
+<offset>1024</offset>
+<use f='MOS/kernel/device/console.c' l='36' u='w' c='console_register'/>
+<use f='MOS/kernel/printk.c' l='75' u='a' c='print_to_console'/>
+<use f='MOS/kernel/printk.c' l='92' u='a' c='print_to_console'/>

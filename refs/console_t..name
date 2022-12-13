@@ -1,10 +1,10 @@
-<dec f='MOS/kernel/include/mos/device/console.h' l='48' type='const char *'/>
+<dec f='MOS/kernel/include/mos/device/console.h' l='49' type='const char *'/>
 <offset>128</offset>
 <use f='MOS/arch/x86/devices/text_mode_console.c' l='165' u='w'/>
 <use f='MOS/arch/x86/x86_platform.c' l='35' u='w'/>
 <use f='MOS/kernel/device/console.c' l='19' u='w'/>
-<use f='MOS/kernel/device/console.c' l='37' u='r' c='console_register'/>
-<use f='MOS/kernel/device/console.c' l='41' u='r' c='console_register'/>
-<use f='MOS/kernel/device/console.c' l='51' u='r' c='console_get'/>
-<use f='MOS/kernel/device/console.c' l='61' u='r' c='console_get_by_prefix'/>
-<use f='MOS/kernel/printk.c' l='45' u='r' c='printk_setup_console'/>
+<use f='MOS/kernel/device/console.c' l='39' u='r' c='console_register'/>
+<use f='MOS/kernel/device/console.c' l='43' u='r' c='console_register'/>
+<use f='MOS/kernel/device/console.c' l='53' u='r' c='console_get'/>
+<use f='MOS/kernel/device/console.c' l='63' u='r' c='console_get_by_prefix'/>
+<use f='MOS/kernel/printk.c' l='46' u='r' c='printk_setup_console'/>

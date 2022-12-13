@@ -1,6 +1,6 @@
-<use f='MOS/kernel/include/mos/device/console.h' l='42'/>
-<def f='MOS/kernel/include/mos/device/console.h' l='44' ll='70'/>
-<size>128</size>
+<use f='MOS/kernel/include/mos/device/console.h' l='43'/>
+<def f='MOS/kernel/include/mos/device/console.h' l='45' ll='72'/>
+<size>136</size>
 <mbr r='console_t::list_node' o='0' t='list_node_t'/>
 <mbr r='console_t::name' o='128' t='const char *'/>
 <mbr r='console_t::caps' o='192' t='console_caps_t'/>
@@ -16,5 +16,6 @@
 <mbr r='console_t::clear' o='832' t='_Bool (*)(console_t *)'/>
 <mbr r='console_t::close' o='896' t='_Bool (*)(console_t *)'/>
 <mbr r='console_t::data' o='960' t='void *'/>
+<mbr r='console_t::lock' o='1024' t='spinlock_t'/>
 <use f='MOS/kernel/include/mos/io/terminal.h' l='7'/>
-<size>128</size>
+<size>136</size>

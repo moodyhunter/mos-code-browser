@@ -3,4 +3,4 @@
 <use f='MOS/kernel/panic.c' l='53' macro='1' u='r' c='mos_kpanic'/>
 <use f='MOS/kernel/panic.c' l='54' macro='1' u='r' c='mos_kpanic'/>
 <use f='MOS/kernel/panic.c' l='55' macro='1' u='r' c='mos_kpanic'/>
-<use f='MOS/kernel/printk.c' l='64' c='deduce_level_color'/>
+<use f='MOS/kernel/printk.c' l='65' c='deduce_level_color'/>

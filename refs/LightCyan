@@ -1,2 +1,2 @@
-<dec f='MOS/kernel/include/mos/device/console.h' l='23' type='11'/>
+<dec f='MOS/kernel/include/mos/device/console.h' l='24' type='11'/>
 <use f='MOS/arch/x86/devices/serial_console.c' l='57' u='r' c='get_ansi_color'/>

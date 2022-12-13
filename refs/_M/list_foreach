@@ -7,9 +7,9 @@
  * \param h List Head (e.g. `consoles&apos;)
  */</doc>
 <use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='291' u='c'/>
-<use f='MOS/kernel/device/console.c' l='49' u='c'/>
-<use f='MOS/kernel/device/console.c' l='59' u='c'/>
+<use f='MOS/kernel/device/console.c' l='51' u='c'/>
+<use f='MOS/kernel/device/console.c' l='61' u='c'/>
 <use f='MOS/kernel/panic.c' l='60' u='c'/>
-<use f='MOS/kernel/printk.c' l='104' u='c'/>
+<use f='MOS/kernel/printk.c' l='107' u='c'/>
 <use f='MOS/tests/linked_list/test_linked_list.c' l='210' u='c'/>
 <use f='MOS/tests/test_engine.c' l='19' u='c'/>

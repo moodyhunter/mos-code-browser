@@ -1,2 +1,2 @@
-<dec f='MOS/kernel/include/mos/device/console.h' l='67' type='_Bool (*)(console_t *)'/>
+<dec f='MOS/kernel/include/mos/device/console.h' l='68' type='_Bool (*)(console_t *)'/>
 <offset>896</offset>

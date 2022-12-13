@@ -1,6 +1,6 @@
-<dec f='MOS/kernel/include/mos/device/console.h' l='64' type='int (*)(console_t *, const char *, size_t)'/>
+<dec f='MOS/kernel/include/mos/device/console.h' l='65' type='int (*)(console_t *, const char *, size_t)'/>
 <offset>768</offset>
 <use f='MOS/arch/x86/devices/serial_console.c' l='15' u='w' c='serial_console_setup'/>
 <use f='MOS/arch/x86/devices/text_mode_console.c' l='174' u='w'/>
 <use f='MOS/kernel/device/console.c' l='21' u='w'/>
-<use f='MOS/kernel/device/console.c' l='76' u='r' c='console_write'/>
+<use f='MOS/kernel/device/console.c' l='78' u='r' c='console_write'/>

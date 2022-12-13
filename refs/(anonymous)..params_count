@@ -8,8 +8,8 @@
 <offset>64</offset>
 <use f='MOS/kernel/kernel_init.c' l='39' u='r' c='cmdline_get_init_path'/>
 <use f='MOS/kernel/kernel_init.c' l='60' u='r' c='dump_cmdline'/>
-<use f='MOS/kernel/printk.c' l='19' u='r' c='printk_setup_console'/>
-<use f='MOS/kernel/printk.c' l='22' u='r' c='printk_setup_console'/>
+<use f='MOS/kernel/printk.c' l='20' u='r' c='printk_setup_console'/>
+<use f='MOS/kernel/printk.c' l='23' u='r' c='printk_setup_console'/>
 <use f='MOS/tests/cmdline_parser/test_cmdline_parser.c' l='13' u='r' c='simple_cmdline'/>
 <use f='MOS/tests/cmdline_parser/test_cmdline_parser.c' l='13' u='r' c='simple_cmdline'/>
 <use f='MOS/tests/cmdline_parser/test_cmdline_parser.c' l='24' u='r' c='two_arguments'/>

@@ -1,2 +1,2 @@
 <dec f='MOS/lib/include/lib/structures/list.h' l='48'/>
-<use f='MOS/kernel/device/console.c' l='42' u='c'/>
+<use f='MOS/kernel/device/console.c' l='44' u='c'/>

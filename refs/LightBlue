@@ -1,4 +1,4 @@
-<dec f='MOS/kernel/include/mos/device/console.h' l='21' type='9'/>
+<dec f='MOS/kernel/include/mos/device/console.h' l='22' type='9'/>
 <use f='MOS/arch/x86/devices/serial_console.c' l='55' u='r' c='get_ansi_color'/>
 <use f='MOS/tests/cmdline_parser/test_cmdline_parser.c' l='6' macro='1' u='r' c='__mos_test_wrapped_test_simple_cmdline'/>
 <use f='MOS/tests/cmdline_parser/test_cmdline_parser.c' l='17' macro='1' u='r' c='__mos_test_wrapped_test_two_arguments'/>

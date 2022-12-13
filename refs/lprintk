@@ -91,8 +91,8 @@
 <use f='MOS/arch/x86/x86_platform.c' l='148' macro='1' u='c' c='x86_start_kernel'/>
 <use f='MOS/arch/x86/x86_platform.c' l='152' macro='1' u='c' c='x86_start_kernel'/>
 <use f='MOS/arch/x86/x86_platform.c' l='157' macro='1' u='c' c='x86_start_kernel'/>
-<use f='MOS/kernel/device/console.c' l='37' macro='1' u='c' c='console_register'/>
-<use f='MOS/kernel/device/console.c' l='41' macro='1' u='c' c='console_register'/>
+<use f='MOS/kernel/device/console.c' l='39' macro='1' u='c' c='console_register'/>
+<use f='MOS/kernel/device/console.c' l='43' macro='1' u='c' c='console_register'/>
 <use f='MOS/kernel/elf/elf.c' l='70' macro='1' u='c' c='elf_create_process'/>
 <use f='MOS/kernel/elf/elf.c' l='77' macro='1' u='c' c='elf_create_process'/>
 <use f='MOS/kernel/elf/elf.c' l='86' macro='1' u='c' c='elf_create_process'/>
@@ -176,11 +176,11 @@
 <use f='MOS/kernel/panic.c' l='65' macro='1' u='c' c='mos_kpanic'/>
 <use f='MOS/kernel/panic.c' l='88' u='c' c='mos_kwarn'/>
 <use f='MOS/kernel/panic.c' l='89' u='c' c='mos_kwarn'/>
-<use f='MOS/kernel/printk.c' l='23' macro='1' u='c' c='printk_setup_console'/>
-<use f='MOS/kernel/printk.c' l='28' macro='1' u='c' c='printk_setup_console'/>
-<use f='MOS/kernel/printk.c' l='37' macro='1' u='c' c='printk_setup_console'/>
-<use f='MOS/kernel/printk.c' l='45' macro='1' u='c' c='printk_setup_console'/>
-<def f='MOS/kernel/printk.c' l='111' ll='117' type='void lprintk(int loglevel, const char * format)'/>
+<use f='MOS/kernel/printk.c' l='24' macro='1' u='c' c='printk_setup_console'/>
+<use f='MOS/kernel/printk.c' l='29' macro='1' u='c' c='printk_setup_console'/>
+<use f='MOS/kernel/printk.c' l='38' macro='1' u='c' c='printk_setup_console'/>
+<use f='MOS/kernel/printk.c' l='46' macro='1' u='c' c='printk_setup_console'/>
+<def f='MOS/kernel/printk.c' l='114' ll='120' type='void lprintk(int loglevel, const char * format)'/>
 <use f='MOS/kernel/tasks/fork.c' l='18' macro='1' u='c' c='process_handle_fork'/>
 <use f='MOS/kernel/tasks/fork.c' l='26' macro='1' u='c' c='process_handle_fork'/>
 <use f='MOS/kernel/tasks/fork.c' l='36' macro='1' u='c' c='process_handle_fork'/>

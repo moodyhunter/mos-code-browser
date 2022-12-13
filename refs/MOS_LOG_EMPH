@@ -15,9 +15,9 @@
 <use f='MOS/kernel/kernel_init.c' l='52' macro='1' u='r' c='dump_cmdline'/>
 <use f='MOS/kernel/kernel_init.c' l='54' macro='1' u='r' c='dump_cmdline'/>
 <use f='MOS/kernel/mm/cow.c' l='87' macro='1' u='r' c='cow_handle_page_fault'/>
-<use f='MOS/kernel/printk.c' l='37' macro='1' u='r' c='printk_setup_console'/>
-<use f='MOS/kernel/printk.c' l='45' macro='1' u='r' c='printk_setup_console'/>
-<use f='MOS/kernel/printk.c' l='61' c='deduce_level_color'/>
+<use f='MOS/kernel/printk.c' l='38' macro='1' u='r' c='printk_setup_console'/>
+<use f='MOS/kernel/printk.c' l='46' macro='1' u='r' c='printk_setup_console'/>
+<use f='MOS/kernel/printk.c' l='62' c='deduce_level_color'/>
 <use f='MOS/kernel/tasks/fork.c' l='18' macro='1' u='r' c='process_handle_fork'/>
 <use f='MOS/kernel/tasks/process.c' l='51' macro='1' u='r' c='process_allocate'/>
 <use f='MOS/tests/test_engine.c' l='126' macro='1' u='r' c='mos_test_engine_run_tests'/>

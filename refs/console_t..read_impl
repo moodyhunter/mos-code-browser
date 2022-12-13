@@ -1,5 +1,5 @@
-<dec f='MOS/kernel/include/mos/device/console.h' l='63' type='int (*)(console_t *, char *, size_t)'/>
+<dec f='MOS/kernel/include/mos/device/console.h' l='64' type='int (*)(console_t *, char *, size_t)'/>
 <offset>704</offset>
-<doc f='MOS/kernel/include/mos/device/console.h' l='62'>// not meant to be called directly, use console_read / console_write instead</doc>
+<doc f='MOS/kernel/include/mos/device/console.h' l='63'>// not meant to be called directly, use console_read / console_write instead</doc>
 <use f='MOS/arch/x86/devices/serial_console.c' l='16' u='w' c='serial_console_setup'/>
-<use f='MOS/kernel/device/console.c' l='70' u='r' c='console_read'/>
+<use f='MOS/kernel/device/console.c' l='72' u='r' c='console_read'/>

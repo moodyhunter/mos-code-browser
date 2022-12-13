@@ -1,5 +1,4 @@
-<dec f='MOS/kernel/include/mos/device/console.h' l='8'/>
-<use f='MOS/kernel/include/mos/device/console.h' l='20' u='c'/>
+<dec f='MOS/kernel/include/mos/device/console.h' l='9'/>
 <use f='MOS/kernel/include/mos/device/console.h' l='21' u='c'/>
 <use f='MOS/kernel/include/mos/device/console.h' l='22' u='c'/>
 <use f='MOS/kernel/include/mos/device/console.h' l='23' u='c'/>
@@ -7,3 +6,4 @@
 <use f='MOS/kernel/include/mos/device/console.h' l='25' u='c'/>
 <use f='MOS/kernel/include/mos/device/console.h' l='26' u='c'/>
 <use f='MOS/kernel/include/mos/device/console.h' l='27' u='c'/>
+<use f='MOS/kernel/include/mos/device/console.h' l='28' u='c'/>
