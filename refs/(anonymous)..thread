@@ -12,13 +12,7 @@
 <use f='MOS/arch/x86/x86_platform.c' l='83' macro='1' u='r' c='x86_kpanic_hook'/>
 <use f='MOS/arch/x86/x86_platform.c' l='85' macro='1' u='r' c='x86_kpanic_hook'/>
 <use f='MOS/arch/x86/x86_platform.c' l='86' macro='1' u='r' c='x86_kpanic_hook'/>
-<use f='MOS/kernel/ipc/ipc.c' l='233' macro='1' u='r' c='ipc_accept'/>
-<use f='MOS/kernel/ipc/ipc.c' l='234' macro='1' u='r' c='ipc_accept'/>
-<use f='MOS/kernel/ipc/ipc.c' l='245' macro='1' u='r' c='ipc_accept'/>
-<use f='MOS/kernel/ipc/ipc.c' l='267' macro='1' u='r' c='ipc_connect'/>
-<use f='MOS/kernel/ipc/ipc.c' l='268' macro='1' u='r' c='ipc_connect'/>
-<use f='MOS/kernel/ipc/ipc.c' l='300' macro='1' u='r' c='ipc_connect'/>
-<use f='MOS/kernel/ipc/ipc.c' l='301' macro='1' u='r' c='ipc_connect'/>
+<use f='MOS/kernel/ipc/ipc.c' l='242' macro='1' u='r' c='ipc_accept'/>
 <use f='MOS/kernel/kernel_init.c' l='110' macro='1' u='w' c='mos_start_kernel'/>
 <use f='MOS/kernel/ksyscall.c' l='21' macro='1' u='r' c='impl_syscall_panic'/>
 <use f='MOS/kernel/ksyscall.c' l='22' macro='1' u='r' c='impl_syscall_panic'/>
@@ -52,32 +46,30 @@
 <use f='MOS/kernel/ksyscall.c' l='239' macro='1' u='r' c='impl_syscall_wait_for_thread'/>
 <use f='MOS/kernel/ksyscall.c' l='239' macro='1' u='r' c='impl_syscall_wait_for_thread'/>
 <use f='MOS/kernel/ksyscall.c' l='249' macro='1' u='r' c='impl_syscall_wait_for_thread'/>
-<use f='MOS/kernel/ksyscall.c' l='251' macro='1' u='r' c='impl_syscall_wait_for_thread'/>
-<use f='MOS/kernel/ksyscall.c' l='263' macro='1' u='r' c='impl_syscall_mutex_acquire'/>
-<use f='MOS/kernel/ksyscall.c' l='267' macro='1' u='r' c='impl_syscall_mutex_acquire'/>
-<use f='MOS/kernel/ksyscall.c' l='272' macro='1' u='r' c='impl_syscall_mutex_acquire'/>
-<use f='MOS/kernel/ksyscall.c' l='275' macro='1' u='r' c='impl_syscall_mutex_acquire'/>
-<use f='MOS/kernel/ksyscall.c' l='276' macro='1' u='r' c='impl_syscall_mutex_acquire'/>
-<use f='MOS/kernel/ksyscall.c' l='281' macro='1' u='r' c='impl_syscall_mutex_acquire'/>
+<use f='MOS/kernel/ksyscall.c' l='257' macro='1' u='r' c='impl_syscall_mutex_acquire'/>
+<use f='MOS/kernel/ksyscall.c' l='261' macro='1' u='r' c='impl_syscall_mutex_acquire'/>
+<use f='MOS/kernel/ksyscall.c' l='266' macro='1' u='r' c='impl_syscall_mutex_acquire'/>
+<use f='MOS/kernel/ksyscall.c' l='270' macro='1' u='r' c='impl_syscall_mutex_acquire'/>
+<use f='MOS/kernel/ksyscall.c' l='277' macro='1' u='r' c='impl_syscall_mutex_release'/>
+<use f='MOS/kernel/ksyscall.c' l='282' macro='1' u='r' c='impl_syscall_mutex_release'/>
 <use f='MOS/kernel/ksyscall.c' l='288' macro='1' u='r' c='impl_syscall_mutex_release'/>
-<use f='MOS/kernel/ksyscall.c' l='293' macro='1' u='r' c='impl_syscall_mutex_release'/>
-<use f='MOS/kernel/ksyscall.c' l='299' macro='1' u='r' c='impl_syscall_mutex_release'/>
-<use f='MOS/kernel/ksyscall.c' l='308' macro='1' u='r' c='impl_syscall_ipc_create'/>
-<use f='MOS/kernel/ksyscall.c' l='312' macro='1' u='r' c='impl_syscall_ipc_create'/>
-<use f='MOS/kernel/ksyscall.c' l='317' macro='1' u='r' c='impl_syscall_ipc_accept'/>
-<use f='MOS/kernel/ksyscall.c' l='318' macro='1' u='r' c='impl_syscall_ipc_accept'/>
-<use f='MOS/kernel/ksyscall.c' l='322' macro='1' u='r' c='impl_syscall_ipc_accept'/>
-<use f='MOS/kernel/ksyscall.c' l='327' macro='1' u='r' c='impl_syscall_ipc_connect'/>
-<use f='MOS/kernel/ksyscall.c' l='328' macro='1' u='r' c='impl_syscall_ipc_connect'/>
-<use f='MOS/kernel/ksyscall.c' l='331' macro='1' u='r' c='impl_syscall_ipc_connect'/>
+<use f='MOS/kernel/ksyscall.c' l='297' macro='1' u='r' c='impl_syscall_ipc_create'/>
+<use f='MOS/kernel/ksyscall.c' l='301' macro='1' u='r' c='impl_syscall_ipc_create'/>
+<use f='MOS/kernel/ksyscall.c' l='306' macro='1' u='r' c='impl_syscall_ipc_accept'/>
+<use f='MOS/kernel/ksyscall.c' l='307' macro='1' u='r' c='impl_syscall_ipc_accept'/>
+<use f='MOS/kernel/ksyscall.c' l='311' macro='1' u='r' c='impl_syscall_ipc_accept'/>
+<use f='MOS/kernel/ksyscall.c' l='316' macro='1' u='r' c='impl_syscall_ipc_connect'/>
+<use f='MOS/kernel/ksyscall.c' l='317' macro='1' u='r' c='impl_syscall_ipc_connect'/>
+<use f='MOS/kernel/ksyscall.c' l='320' macro='1' u='r' c='impl_syscall_ipc_connect'/>
 <use f='MOS/kernel/mm/cow.c' l='26' macro='1' u='r' c='copy_cow_pages_inplace'/>
 <use f='MOS/kernel/mm/cow.c' l='54' macro='1' u='r' c='cow_handle_page_fault'/>
 <use f='MOS/kernel/mm/cow.c' l='63' macro='1' u='r' c='cow_handle_page_fault'/>
 <use f='MOS/kernel/tasks/fork.c' l='60' macro='1' u='r' c='process_handle_fork'/>
 <use f='MOS/kernel/tasks/process.c' l='203' macro='1' u='r' c='process_handle_cleanup'/>
-<use f='MOS/kernel/tasks/schedule.c' l='44' macro='1' u='r' c='mos_update_current'/>
-<use f='MOS/kernel/tasks/schedule.c' l='51' macro='1' u='w' c='mos_update_current'/>
-<use f='MOS/kernel/tasks/schedule.c' l='86' u='r' c='jump_to_scheduler'/>
-<use f='MOS/kernel/tasks/schedule.c' l='87' u='r' c='jump_to_scheduler'/>
-<use f='MOS/kernel/tasks/schedule.c' l='88' u='r' c='jump_to_scheduler'/>
-<use f='MOS/kernel/tasks/schedule.c' l='89' u='r' c='jump_to_scheduler'/>
+<use f='MOS/kernel/tasks/schedule.c' l='59' u='r' c='mos_update_current'/>
+<use f='MOS/kernel/tasks/schedule.c' l='67' u='w' c='mos_update_current'/>
+<use f='MOS/kernel/tasks/schedule.c' l='79' u='r' c='reschedule_for_wait_condition'/>
+<use f='MOS/kernel/tasks/schedule.c' l='97' u='r' c='reschedule'/>
+<use f='MOS/kernel/tasks/schedule.c' l='98' u='r' c='reschedule'/>
+<use f='MOS/kernel/tasks/schedule.c' l='99' u='r' c='reschedule'/>
+<use f='MOS/kernel/tasks/schedule.c' l='100' u='r' c='reschedule'/>

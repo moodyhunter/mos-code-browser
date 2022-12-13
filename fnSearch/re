@@ -2,4 +2,6 @@ refcount_dec|refcount_dec
 refcount_get|refcount_get
 refcount_inc|refcount_inc
 refcount_zero|refcount_zero
+reschedule|reschedule
+reschedule_for_wait_condition|reschedule_for_wait_condition
 realloc|realloc

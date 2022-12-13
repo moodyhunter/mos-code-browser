@@ -1,7 +1,0 @@
-<dec f='MOS/kernel/include/mos/tasks/thread.h' l='25' type='_Bool thread_set_wait_condition(thread_t * thread, wait_condition_t * condition)'/>
-<use f='MOS/kernel/ipc/ipc.c' l='234' u='c' c='ipc_accept'/>
-<use f='MOS/kernel/ipc/ipc.c' l='268' u='c' c='ipc_connect'/>
-<use f='MOS/kernel/ipc/ipc.c' l='301' u='c' c='ipc_connect'/>
-<use f='MOS/kernel/ksyscall.c' l='251' u='c' c='impl_syscall_wait_for_thread'/>
-<use f='MOS/kernel/ksyscall.c' l='276' u='c' c='impl_syscall_mutex_acquire'/>
-<def f='MOS/kernel/tasks/thread.c' l='98' ll='115' macro='1' type='_Bool thread_set_wait_condition(thread_t * thread, wait_condition_t * condition)'/>

@@ -7,4 +7,4 @@
 <use f='MOS/kernel/ipc/ipc.c' l='133' u='r' c='ipc_connection_client_read'/>
 <use f='MOS/kernel/ipc/ipc.c' l='145' u='r' c='ipc_connection_client_write'/>
 <use f='MOS/kernel/ipc/ipc.c' l='157' u='r' c='ipc_connection_client_close'/>
-<use f='MOS/kernel/ipc/ipc.c' l='242' u='r' c='ipc_accept'/>
+<use f='MOS/kernel/ipc/ipc.c' l='239' u='r' c='ipc_accept'/>

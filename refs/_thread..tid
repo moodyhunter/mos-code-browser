@@ -1,23 +1,23 @@
 <dec f='MOS/kernel/include/mos/tasks/task_types.h' l='81' type='tid_t'/>
+<offset>32</offset>
 <use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='162' u='r' c='x86_handle_interrupt'/>
 <use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='240' u='r' c='x86_handle_exception'/>
-<offset>32</offset>
 <use f='MOS/arch/x86/x86_platform.c' l='83' u='r' c='x86_kpanic_hook'/>
 <use f='MOS/kernel/ksyscall.c' l='22' u='r' c='impl_syscall_panic'/>
 <use f='MOS/kernel/ksyscall.c' l='151' u='r' c='impl_syscall_create_thread'/>
 <use f='MOS/kernel/ksyscall.c' l='157' u='r' c='impl_syscall_get_tid'/>
 <use f='MOS/kernel/ksyscall.c' l='163' u='r' c='impl_syscall_thread_exit'/>
-<use f='MOS/kernel/ksyscall.c' l='267' u='r' c='impl_syscall_mutex_acquire'/>
-<use f='MOS/kernel/ksyscall.c' l='272' u='r' c='impl_syscall_mutex_acquire'/>
-<use f='MOS/kernel/ksyscall.c' l='281' u='r' c='impl_syscall_mutex_acquire'/>
-<use f='MOS/kernel/ksyscall.c' l='293' u='r' c='impl_syscall_mutex_release'/>
-<use f='MOS/kernel/ksyscall.c' l='299' u='r' c='impl_syscall_mutex_release'/>
+<use f='MOS/kernel/ksyscall.c' l='261' u='r' c='impl_syscall_mutex_acquire'/>
+<use f='MOS/kernel/ksyscall.c' l='266' u='r' c='impl_syscall_mutex_acquire'/>
+<use f='MOS/kernel/ksyscall.c' l='270' u='r' c='impl_syscall_mutex_acquire'/>
+<use f='MOS/kernel/ksyscall.c' l='282' u='r' c='impl_syscall_mutex_release'/>
+<use f='MOS/kernel/ksyscall.c' l='288' u='r' c='impl_syscall_mutex_release'/>
 <use f='MOS/kernel/tasks/fork.c' l='70' u='a' c='process_handle_fork'/>
 <use f='MOS/kernel/tasks/process.c' l='162' u='r' c='process_attach_thread'/>
 <use f='MOS/kernel/tasks/process.c' l='184' u='r' c='process_handle_exit'/>
-<use f='MOS/kernel/tasks/schedule.c' l='61' u='r' c='schedule_to_thread'/>
-<use f='MOS/kernel/tasks/schedule.c' l='64' u='r' c='schedule_to_thread'/>
+<use f='MOS/kernel/tasks/schedule.c' l='47' u='r' c='schedule_to_thread'/>
+<use f='MOS/kernel/tasks/schedule.c' l='50' u='r' c='schedule_to_thread'/>
+<use f='MOS/kernel/tasks/schedule.c' l='80' u='r' c='reschedule_for_wait_condition'/>
+<use f='MOS/kernel/tasks/schedule.c' l='81' u='r' c='reschedule_for_wait_condition'/>
 <use f='MOS/kernel/tasks/thread.c' l='37' u='w' c='thread_allocate'/>
 <use f='MOS/kernel/tasks/thread.c' l='87' u='a' c='thread_new'/>
-<use f='MOS/kernel/tasks/thread.c' l='104' u='r' c='thread_set_wait_condition'/>
-<use f='MOS/kernel/tasks/thread.c' l='113' u='r' c='thread_set_wait_condition'/>

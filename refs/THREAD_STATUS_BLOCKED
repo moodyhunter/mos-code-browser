@@ -1,9 +1,6 @@
 <dec f='MOS/kernel/include/mos/tasks/task_types.h' l='18' type='3'/>
 <doc f='MOS/kernel/include/mos/tasks/task_types.h' l='18'>// thread is blocked by a wait condition</doc>
-<use f='MOS/kernel/ipc/ipc.c' l='233' u='r' c='ipc_accept'/>
-<use f='MOS/kernel/ipc/ipc.c' l='267' u='r' c='ipc_connect'/>
-<use f='MOS/kernel/ipc/ipc.c' l='300' u='r' c='ipc_connect'/>
 <use f='MOS/kernel/ksyscall.c' l='249' u='r' c='impl_syscall_wait_for_thread'/>
-<use f='MOS/kernel/ksyscall.c' l='275' u='r' c='impl_syscall_mutex_acquire'/>
 <use f='MOS/kernel/tasks/schedule.c' l='22' c='should_schedule_to_thread'/>
-<use f='MOS/kernel/tasks/thread.c' l='103' u='r' c='thread_set_wait_condition'/>
+<use f='MOS/kernel/tasks/schedule.c' l='80' u='r' c='reschedule_for_wait_condition'/>
+<use f='MOS/kernel/tasks/schedule.c' l='82' u='r' c='reschedule_for_wait_condition'/>

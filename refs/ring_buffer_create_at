@@ -1,4 +1,4 @@
 <dec f='MOS/lib/include/lib/structures/ring_buffer.h' l='24' type='ring_buffer_t * ring_buffer_create_at(void * data, size_t capacity)'/>
-<use f='MOS/kernel/ipc/ipc.c' l='247' u='c' c='ipc_accept'/>
-<use f='MOS/kernel/ipc/ipc.c' l='311' u='c' c='ipc_connect'/>
+<use f='MOS/kernel/ipc/ipc.c' l='244' u='c' c='ipc_accept'/>
+<use f='MOS/kernel/ipc/ipc.c' l='302' u='c' c='ipc_connect'/>
 <def f='MOS/lib/structures/ring_buffer.c' l='35' ll='49' type='ring_buffer_t * ring_buffer_create_at(void * data, size_t capacity)'/>

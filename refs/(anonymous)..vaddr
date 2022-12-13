@@ -15,8 +15,8 @@
 <use f='MOS/kernel/elf/elf.c' l='232' u='r' c='elf_create_process'/>
 <offset>96</offset>
 <doc f='MOS/kernel/include/mos/elf/elf.h' l='147'>// Virtual address of the segment</doc>
-<use f='MOS/kernel/ipc/ipc.c' l='247' u='r' c='ipc_accept'/>
-<use f='MOS/kernel/ipc/ipc.c' l='311' u='r' c='ipc_connect'/>
+<use f='MOS/kernel/ipc/ipc.c' l='244' u='r' c='ipc_accept'/>
+<use f='MOS/kernel/ipc/ipc.c' l='302' u='r' c='ipc_connect'/>
 <use f='MOS/kernel/ksyscall.c' l='192' u='r' c='impl_syscall_heap_control'/>
 <use f='MOS/kernel/ksyscall.c' l='193' u='r' c='impl_syscall_heap_control'/>
 <use f='MOS/kernel/ksyscall.c' l='196' u='r' c='impl_syscall_heap_control'/>

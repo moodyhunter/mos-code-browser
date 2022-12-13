@@ -1,4 +1,4 @@
-<dec f='MOS/kernel/include/mos/printk.h' l='47'/>
+<dec f='MOS/kernel/include/mos/printk.h' l='48'/>
 <use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='89' u='c'/>
 <use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='111' u='c'/>
 <use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='124' u='c'/>

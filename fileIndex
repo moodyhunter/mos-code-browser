@@ -30,6 +30,10 @@ MOS/arch/x86/include/mos/x86/cpu/cpuid.h
 MOS/arch/x86/cpu/smp.c
 MOS/arch/x86/include/mos/x86/cpu/smp.h
 MOS/kernel/include/mos/tasks/schedule.h
+MOS/kernel/include/mos/tasks/task_types.h
+MOS/lib/include/lib/structures/stack.h
+MOS/kernel/include/mos/io/io.h
+MOS/lib/include/lib/sync/refcount.h
 MOS/arch/x86/include/mos/x86/delays.h
 MOS/arch/x86/include/mos/x86/interrupt/apic.h
 MOS/arch/x86/include/mos/x86/mm/paging.h
@@ -56,13 +60,9 @@ MOS/lib/include/lib/liballoc.h
 MOS/build/include/mos/syscall/dispatcher.h
 MOS/kernel/include/mos/filesystem/filesystem.h
 MOS/lib/include/lib/structures/tree.h
-MOS/kernel/include/mos/io/io.h
-MOS/lib/include/lib/sync/refcount.h
 MOS/kernel/include/mos/ipc/ipc_types.h
 MOS/lib/include/lib/structures/ring_buffer.h
 MOS/kernel/include/mos/mm/mm_types.h
-MOS/kernel/include/mos/tasks/task_types.h
-MOS/lib/include/lib/structures/stack.h
 MOS/arch/x86/include/mos/x86/tasks/context.h
 MOS/arch/x86/mm/mm.c
 MOS/arch/x86/include/mos/x86/mm/mm.h

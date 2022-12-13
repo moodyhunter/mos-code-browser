@@ -4,5 +4,5 @@
 <use f='MOS/kernel/tasks/process.c' l='182' u='r' c='process_handle_exit'/>
 <use f='MOS/kernel/tasks/process.c' l='187' u='r' c='process_handle_exit'/>
 <use f='MOS/kernel/tasks/schedule.c' l='31' c='should_schedule_to_thread'/>
-<use f='MOS/kernel/tasks/thread.c' l='123' u='r' c='thread_handle_exit'/>
+<use f='MOS/kernel/tasks/thread.c' l='104' u='r' c='thread_handle_exit'/>
 <use f='MOS/kernel/tasks/wait.c' l='11' u='r' c='thread_is_ready'/>

@@ -4,4 +4,4 @@
 <use f='MOS/kernel/ipc/ipc.c' l='64' u='r' c='ipc_server_get_pending'/>
 <use f='MOS/kernel/ipc/ipc.c' l='199' u='w' c='ipc_create'/>
 <use f='MOS/kernel/ipc/ipc.c' l='219' u='r' c='ipc_accept'/>
-<use f='MOS/kernel/ipc/ipc.c' l='279' u='r' c='ipc_connect'/>
+<use f='MOS/kernel/ipc/ipc.c' l='273' u='r' c='ipc_connect'/>

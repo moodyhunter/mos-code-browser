@@ -1,7 +1,7 @@
 <dec f='MOS/kernel/include/mos/tasks/wait.h' l='16' type='wait_condition_t * wc_wait_for(void * arg, _Bool (*)(wait_condition_t *) verify, void (*)(wait_condition_t *) cleanup)'/>
 <use f='MOS/kernel/ipc/ipc.c' l='232' u='c' c='ipc_accept'/>
-<use f='MOS/kernel/ipc/ipc.c' l='266' u='c' c='ipc_connect'/>
-<use f='MOS/kernel/ipc/ipc.c' l='299' u='c' c='ipc_connect'/>
+<use f='MOS/kernel/ipc/ipc.c' l='263' u='c' c='ipc_connect'/>
+<use f='MOS/kernel/ipc/ipc.c' l='293' u='c' c='ipc_connect'/>
 <use f='MOS/kernel/tasks/wait.c' l='23' u='c' c='wc_wait_for_thread'/>
 <use f='MOS/kernel/tasks/wait.c' l='28' u='c' c='wc_wait_for_mutex'/>
 <def f='MOS/kernel/tasks/wait.c' l='31' ll='38' type='wait_condition_t * wc_wait_for(void * arg, _Bool (*)(wait_condition_t *) verify, void (*)(wait_condition_t *) cleanup)'/>

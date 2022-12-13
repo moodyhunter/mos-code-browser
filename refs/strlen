@@ -13,7 +13,7 @@
 <use f='MOS/kernel/filesystem/pathutils.c' l='152' u='c' c='path_to_string_relative'/>
 <use f='MOS/kernel/filesystem/pathutils.c' l='160' u='c' c='path_to_string_relative'/>
 <use f='MOS/kernel/ipc/ipc.c' l='198' u='c' c='ipc_create'/>
-<use f='MOS/kernel/ipc/ipc.c' l='265' u='c' c='ipc_connect'/>
+<use f='MOS/kernel/ipc/ipc.c' l='262' u='c' c='ipc_connect'/>
 <use f='MOS/kernel/printk.c' l='96' u='c' c='lvprintk'/>
 <use f='MOS/kernel/tasks/process.c' l='62' u='c' c='process_allocate'/>
 <use f='MOS/lib/stdio_impl.c' l='316' u='c' c='printf_diouxX'/>

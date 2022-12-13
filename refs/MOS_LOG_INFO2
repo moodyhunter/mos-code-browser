@@ -1,4 +1,4 @@
-<dec f='MOS/kernel/include/mos/printk.h' l='34' type='1'/>
+<dec f='MOS/kernel/include/mos/printk.h' l='35' type='1'/>
 <use f='MOS/arch/x86/acpi/acpi.c' l='58' macro='1' u='r' c='x86_acpi_init'/>
 <use f='MOS/arch/x86/acpi/acpi.c' l='65' macro='1' u='r' c='x86_acpi_init'/>
 <use f='MOS/arch/x86/acpi/acpi.c' l='75' macro='1' u='r' c='x86_acpi_init'/>
@@ -66,19 +66,19 @@
 <use f='MOS/kernel/io/io.c' l='105' macro='1' u='r' c='io_write'/>
 <use f='MOS/kernel/ipc/ipc.c' l='195' macro='1' u='r' c='ipc_create'/>
 <use f='MOS/kernel/ipc/ipc.c' l='231' macro='1' u='r' c='ipc_accept'/>
-<use f='MOS/kernel/ipc/ipc.c' l='237' macro='1' u='r' c='ipc_accept'/>
-<use f='MOS/kernel/ipc/ipc.c' l='263' macro='1' u='r' c='ipc_connect'/>
-<use f='MOS/kernel/ipc/ipc.c' l='271' macro='1' u='r' c='ipc_connect'/>
-<use f='MOS/kernel/ipc/ipc.c' l='276' macro='1' u='r' c='ipc_connect'/>
-<use f='MOS/kernel/ipc/ipc.c' l='309' macro='1' u='r' c='ipc_connect'/>
+<use f='MOS/kernel/ipc/ipc.c' l='234' macro='1' u='r' c='ipc_accept'/>
+<use f='MOS/kernel/ipc/ipc.c' l='260' macro='1' u='r' c='ipc_connect'/>
+<use f='MOS/kernel/ipc/ipc.c' l='265' macro='1' u='r' c='ipc_connect'/>
+<use f='MOS/kernel/ipc/ipc.c' l='270' macro='1' u='r' c='ipc_connect'/>
+<use f='MOS/kernel/ipc/ipc.c' l='300' macro='1' u='r' c='ipc_connect'/>
 <use f='MOS/kernel/kernel_init.c' l='26' macro='1' u='r' c='mount_initrd'/>
 <use f='MOS/kernel/kernel_init.c' l='32' macro='1' u='r' c='mount_initrd'/>
 <use f='MOS/kernel/ksyscall.c' l='90' macro='1' u='r' c='impl_syscall_exit'/>
 <use f='MOS/kernel/ksyscall.c' l='163' macro='1' u='r' c='impl_syscall_thread_exit'/>
-<use f='MOS/kernel/ksyscall.c' l='267' macro='1' u='r' c='impl_syscall_mutex_acquire'/>
-<use f='MOS/kernel/ksyscall.c' l='272' macro='1' u='r' c='impl_syscall_mutex_acquire'/>
-<use f='MOS/kernel/ksyscall.c' l='281' macro='1' u='r' c='impl_syscall_mutex_acquire'/>
-<use f='MOS/kernel/ksyscall.c' l='293' macro='1' u='r' c='impl_syscall_mutex_release'/>
+<use f='MOS/kernel/ksyscall.c' l='261' macro='1' u='r' c='impl_syscall_mutex_acquire'/>
+<use f='MOS/kernel/ksyscall.c' l='266' macro='1' u='r' c='impl_syscall_mutex_acquire'/>
+<use f='MOS/kernel/ksyscall.c' l='270' macro='1' u='r' c='impl_syscall_mutex_acquire'/>
+<use f='MOS/kernel/ksyscall.c' l='282' macro='1' u='r' c='impl_syscall_mutex_release'/>
 <use f='MOS/kernel/mm/cow.c' l='78' macro='1' u='r' c='cow_handle_page_fault'/>
 <use f='MOS/kernel/mm/cow.c' l='79' macro='1' u='r' c='cow_handle_page_fault'/>
 <use f='MOS/kernel/mm/shm.c' l='17' macro='1' u='r' c='shm_allocate'/>
@@ -92,4 +92,4 @@
 <use f='MOS/kernel/tasks/process.c' l='190' macro='1' u='r' c='process_handle_exit'/>
 <use f='MOS/kernel/tasks/process.c' l='205' macro='1' u='r' c='process_handle_cleanup'/>
 <use f='MOS/kernel/tasks/process.c' l='254' macro='1' u='r' c='process_grow_heap'/>
-<use f='MOS/kernel/tasks/schedule.c' l='64' macro='1' u='r' c='schedule_to_thread'/>
+<use f='MOS/kernel/tasks/schedule.c' l='50' macro='1' u='r' c='schedule_to_thread'/>

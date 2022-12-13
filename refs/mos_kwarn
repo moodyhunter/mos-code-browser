@@ -1,4 +1,4 @@
-<dec f='MOS/kernel/include/mos/printk.h' l='73' type='void mos_kwarn(const char * func, u32 line, const char * fmt)'/>
+<dec f='MOS/kernel/include/mos/printk.h' l='74' type='void mos_kwarn(const char * func, u32 line, const char * fmt)'/>
 <use f='MOS/arch/x86/acpi/madt.c' l='85' macro='1' u='c' c='acpi_parse_madt'/>
 <use f='MOS/arch/x86/acpi/madt.c' l='92' macro='1' u='c' c='acpi_parse_madt'/>
 <use f='MOS/arch/x86/acpi/madt.c' l='99' macro='1' u='c' c='acpi_parse_madt'/>
@@ -75,8 +75,7 @@
 <use f='MOS/kernel/tasks/process.c' l='120' macro='1' u='c' c='process_get'/>
 <use f='MOS/kernel/tasks/process.c' l='130' macro='1' u='c' c='process_attach_ref_fd'/>
 <use f='MOS/kernel/tasks/process.c' l='248' macro='1' u='c' c='process_grow_heap'/>
-<use f='MOS/kernel/tasks/thread.c' l='113' macro='1' u='c' c='thread_set_wait_condition'/>
-<use f='MOS/kernel/tasks/thread.c' l='122' macro='1' u='c' c='thread_handle_exit'/>
+<use f='MOS/kernel/tasks/thread.c' l='103' macro='1' u='c' c='thread_handle_exit'/>
 <use f='MOS/lib/liballoc.c' l='151' macro='1' u='c' c='allocate_new_pages_for'/>
 <use f='MOS/lib/liballoc.c' l='221' macro='1' u='c' c='liballoc_malloc'/>
 <use f='MOS/lib/liballoc.c' l='488' macro='1' u='c' c='liballoc_malloc'/>
