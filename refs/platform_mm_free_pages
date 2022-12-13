@@ -2,5 +2,5 @@
 <def f='MOS/arch/x86/x86_platform_api.c' l='140' ll='144' type='void platform_mm_free_pages(paging_handle_t table, uintptr_t vaddr, size_t n)'/>
 <use f='MOS/kernel/elf/elf.c' l='225' u='c' c='elf_create_process'/>
 <use f='MOS/kernel/mm/memops.c' l='63' u='c' c='liballoc_free_page'/>
-<use f='MOS/kernel/tasks/process.c' l='208' u='c' c='process_handle_cleanup'/>
-<use f='MOS/kernel/tasks/process.c' l='241' u='c' c='process_grow_heap'/>
+<use f='MOS/kernel/tasks/process.c' l='216' u='c' c='process_handle_cleanup'/>
+<use f='MOS/kernel/tasks/process.c' l='249' u='c' c='process_grow_heap'/>

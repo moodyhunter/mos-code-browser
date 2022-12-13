@@ -1,4 +1,4 @@
 <dec f='MOS/kernel/include/mos/tasks/wait.h' l='10' type='0'/>
-<use f='MOS/kernel/ksyscall.c' l='253' u='r' c='impl_syscall_mutex_acquire'/>
-<use f='MOS/kernel/ksyscall.c' l='282' u='r' c='impl_syscall_mutex_release'/>
+<use f='MOS/kernel/ksyscall.c' l='265' u='r' c='impl_syscall_mutex_acquire'/>
+<use f='MOS/kernel/ksyscall.c' l='294' u='r' c='impl_syscall_mutex_release'/>
 <use f='MOS/kernel/tasks/wait.c' l='18' u='r' c='mutex_is_ready'/>

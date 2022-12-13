@@ -1,4 +1,4 @@
 <dec f='MOS/build/include/mos/syscall/dispatcher.h' l='69' type='pid_t impl_syscall_spawn(const char * file_path, int argc, const char *const * argv)'/>
 <use f='MOS/build/include/mos/syscall/dispatcher.h' l='71' u='c' c='dispatch_syscall'/>
 <dec f='MOS/build/include/mos/syscall/decl.h' l='35' type='pid_t impl_syscall_spawn(const char * file_path, int argc, const char *const * argv)'/>
-<def f='MOS/kernel/ksyscall.c' l='119' macro='1' type='pid_t impl_syscall_spawn(const char * path, int argc, const char *const * argv)'/>
+<def f='MOS/kernel/ksyscall.c' l='131' macro='1' type='pid_t impl_syscall_spawn(const char * path, int argc, const char *const * argv)'/>

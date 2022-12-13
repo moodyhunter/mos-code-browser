@@ -33,8 +33,8 @@
 <use f='MOS/kernel/tasks/fork.c' l='35' u='r' c='process_handle_fork'/>
 <use f='MOS/kernel/tasks/fork.c' l='36' u='r' c='process_handle_fork'/>
 <use f='MOS/kernel/tasks/fork.c' l='44' u='r' c='process_handle_fork'/>
-<use f='MOS/kernel/tasks/process.c' l='275' u='r' c='process_dump_mmaps'/>
-<use f='MOS/kernel/tasks/process.c' l='276' u='r' c='process_dump_mmaps'/>
-<use f='MOS/kernel/tasks/process.c' l='277' u='r' c='process_dump_mmaps'/>
-<use f='MOS/kernel/tasks/process.c' l='278' u='r' c='process_dump_mmaps'/>
-<use f='MOS/kernel/tasks/process.c' l='279' u='r' c='process_dump_mmaps'/>
+<use f='MOS/kernel/tasks/process.c' l='283' u='r' c='process_dump_mmaps'/>
+<use f='MOS/kernel/tasks/process.c' l='284' u='r' c='process_dump_mmaps'/>
+<use f='MOS/kernel/tasks/process.c' l='285' u='r' c='process_dump_mmaps'/>
+<use f='MOS/kernel/tasks/process.c' l='286' u='r' c='process_dump_mmaps'/>
+<use f='MOS/kernel/tasks/process.c' l='287' u='r' c='process_dump_mmaps'/>

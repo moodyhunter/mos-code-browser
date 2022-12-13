@@ -38,6 +38,6 @@
 <use f='MOS/kernel/mm/shm.c' l='12' macro='1' u='r' c='shm_init'/>
 <use f='MOS/kernel/printk.c' l='60' c='deduce_level_color'/>
 <use f='MOS/kernel/printk.c' l='123' u='r' c='printk'/>
-<use f='MOS/kernel/tasks/process.c' l='168' macro='1' u='r' c='process_handle_exit'/>
-<use f='MOS/kernel/tasks/process.c' l='253' macro='1' u='r' c='process_dump_mmaps'/>
-<use f='MOS/kernel/tasks/process.c' l='271' macro='1' u='r' c='process_dump_mmaps'/>
+<use f='MOS/kernel/tasks/process.c' l='176' macro='1' u='r' c='process_handle_exit'/>
+<use f='MOS/kernel/tasks/process.c' l='261' macro='1' u='r' c='process_dump_mmaps'/>
+<use f='MOS/kernel/tasks/process.c' l='279' macro='1' u='r' c='process_dump_mmaps'/>

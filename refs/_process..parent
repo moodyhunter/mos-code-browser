@@ -1,6 +1,6 @@
 <dec f='MOS/kernel/include/mos/tasks/task_types.h' l='63' type='process_t *'/>
 <offset>192</offset>
-<use f='MOS/kernel/ksyscall.c' l='115' u='r' c='impl_syscall_get_parent_pid'/>
-<use f='MOS/kernel/ksyscall.c' l='116' u='r' c='impl_syscall_get_parent_pid'/>
+<use f='MOS/kernel/ksyscall.c' l='127' u='r' c='impl_syscall_get_parent_pid'/>
+<use f='MOS/kernel/ksyscall.c' l='128' u='r' c='impl_syscall_get_parent_pid'/>
 <use f='MOS/kernel/tasks/process.c' l='45' u='w' c='process_allocate'/>
 <use f='MOS/kernel/tasks/process.c' l='49' u='w' c='process_allocate'/>

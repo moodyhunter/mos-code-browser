@@ -1,3 +1,3 @@
-<dec f='MOS/kernel/include/mos/tasks/process.h' l='35' type='void process_dump_mmaps(process_t * process)'/>
+<dec f='MOS/kernel/include/mos/tasks/process.h' l='36' type='void process_dump_mmaps(process_t * process)'/>
 <use f='MOS/kernel/mm/cow.c' l='64' u='c' c='cow_handle_page_fault'/>
-<def f='MOS/kernel/tasks/process.c' l='251' ll='285' type='void process_dump_mmaps(process_t * process)'/>
+<def f='MOS/kernel/tasks/process.c' l='259' ll='293' type='void process_dump_mmaps(process_t * process)'/>

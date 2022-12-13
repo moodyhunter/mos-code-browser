@@ -2,7 +2,8 @@
 <offset>448</offset>
 <use f='MOS/kernel/tasks/fork.c' l='50' u='r' c='process_handle_fork'/>
 <use f='MOS/kernel/tasks/process.c' l='127' u='w' c='process_attach_ref_fd'/>
-<use f='MOS/kernel/tasks/process.c' l='141' u='r' c='process_detach_fd'/>
-<use f='MOS/kernel/tasks/process.c' l='145' u='w' c='process_detach_fd'/>
-<use f='MOS/kernel/tasks/process.c' l='182' u='r' c='process_handle_exit'/>
-<use f='MOS/kernel/tasks/process.c' l='183' u='r' c='process_handle_exit'/>
+<use f='MOS/kernel/tasks/process.c' l='141' u='r' c='process_get_fd'/>
+<use f='MOS/kernel/tasks/process.c' l='149' u='r' c='process_detach_fd'/>
+<use f='MOS/kernel/tasks/process.c' l='153' u='w' c='process_detach_fd'/>
+<use f='MOS/kernel/tasks/process.c' l='190' u='r' c='process_handle_exit'/>
+<use f='MOS/kernel/tasks/process.c' l='191' u='r' c='process_handle_exit'/>
