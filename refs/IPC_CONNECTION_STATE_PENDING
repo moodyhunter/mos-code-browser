@@ -1,6 +1,6 @@
 <dec f='MOS/kernel/include/mos/ipc/ipc_types.h' l='25' type='1'/>
 <doc f='MOS/kernel/include/mos/ipc/ipc_types.h' l='25'>// pending server accept</doc>
-<use f='MOS/kernel/ipc/ipc.c' l='48' u='r' c='ipc_server_close'/>
-<use f='MOS/kernel/ipc/ipc.c' l='66' u='r' c='ipc_server_get_pending'/>
-<use f='MOS/kernel/ipc/ipc.c' l='221' u='r' c='ipc_accept'/>
-<use f='MOS/kernel/ipc/ipc.c' l='288' u='r' c='ipc_connect'/>
+<use f='MOS/kernel/ipc/ipc.c' l='49' u='r' c='ipc_server_close'/>
+<use f='MOS/kernel/ipc/ipc.c' l='67' u='r' c='ipc_server_get_pending'/>
+<use f='MOS/kernel/ipc/ipc.c' l='274' u='r' c='ipc_accept'/>
+<use f='MOS/kernel/ipc/ipc.c' l='344' u='r' c='ipc_connect'/>

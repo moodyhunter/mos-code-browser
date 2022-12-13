@@ -1,7 +1,7 @@
 <dec f='MOS/kernel/include/mos/platform/platform.h' l='19'/>
 <use f='MOS/arch/x86/x86_platform.c' l='85' u='c'/>
 <use f='MOS/arch/x86/x86_platform.c' l='86' u='c'/>
-<use f='MOS/kernel/ipc/ipc.c' l='242' u='c'/>
+<use f='MOS/kernel/ipc/ipc.c' l='295' u='c'/>
 <use f='MOS/kernel/ksyscall.c' l='21' u='c'/>
 <use f='MOS/kernel/ksyscall.c' l='35' u='c'/>
 <use f='MOS/kernel/ksyscall.c' l='55' u='c'/>

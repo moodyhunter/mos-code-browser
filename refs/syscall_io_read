@@ -1,3 +1,4 @@
 <def f='MOS/build/include/mos/syscall/usermode.h' l='27' ll='30' macro='1' type='size_t syscall_io_read(fd_t fd, void * buffer, size_t size, size_t offset)'/>
 <use f='MOS/userspace/init/main.c' l='48' u='c' c='file_api'/>
-<use f='MOS/userspace/ping-pong/pong.c' l='15' u='c' c='main'/>
+<use f='MOS/userspace/ping-pong/ping.c' l='22' u='c' c='thread_main'/>
+<use f='MOS/userspace/ping-pong/pong.c' l='14' u='c' c='main'/>

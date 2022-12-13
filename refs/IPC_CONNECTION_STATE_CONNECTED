@@ -1,10 +1,10 @@
 <dec f='MOS/kernel/include/mos/ipc/ipc_types.h' l='26' type='2'/>
 <doc f='MOS/kernel/include/mos/ipc/ipc_types.h' l='26'>// connected</doc>
-<use f='MOS/kernel/ipc/ipc.c' l='91' u='r' c='wc_ipc_connection_is_connected_or_closed'/>
-<use f='MOS/kernel/ipc/ipc.c' l='97' u='r' c='ipc_connection_server_read'/>
-<use f='MOS/kernel/ipc/ipc.c' l='109' u='r' c='ipc_connection_server_write'/>
-<use f='MOS/kernel/ipc/ipc.c' l='121' u='r' c='ipc_connection_server_close'/>
-<use f='MOS/kernel/ipc/ipc.c' l='133' u='r' c='ipc_connection_client_read'/>
-<use f='MOS/kernel/ipc/ipc.c' l='145' u='r' c='ipc_connection_client_write'/>
-<use f='MOS/kernel/ipc/ipc.c' l='157' u='r' c='ipc_connection_client_close'/>
-<use f='MOS/kernel/ipc/ipc.c' l='239' u='r' c='ipc_accept'/>
+<use f='MOS/kernel/ipc/ipc.c' l='92' u='r' c='wc_ipc_connection_is_connected_or_closed'/>
+<use f='MOS/kernel/ipc/ipc.c' l='110' u='r' c='ipc_connection_server_read'/>
+<use f='MOS/kernel/ipc/ipc.c' l='139' u='r' c='ipc_connection_server_write'/>
+<use f='MOS/kernel/ipc/ipc.c' l='154' u='r' c='ipc_connection_server_close'/>
+<use f='MOS/kernel/ipc/ipc.c' l='166' u='r' c='ipc_connection_client_read'/>
+<use f='MOS/kernel/ipc/ipc.c' l='195' u='r' c='ipc_connection_client_write'/>
+<use f='MOS/kernel/ipc/ipc.c' l='210' u='r' c='ipc_connection_client_close'/>
+<use f='MOS/kernel/ipc/ipc.c' l='292' u='r' c='ipc_accept'/>

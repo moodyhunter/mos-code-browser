@@ -1,2 +1,2 @@
 <def f='MOS/build/include/mos/syscall/usermode.h' l='135' ll='138' macro='1' type='fd_t syscall_ipc_accept(fd_t fd)'/>
-<use f='MOS/userspace/ping-pong/ping.c' l='19' u='c' c='main'/>
+<use f='MOS/userspace/ping-pong/ping.c' l='42' u='c' c='main'/>

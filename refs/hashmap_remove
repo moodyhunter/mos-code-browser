@@ -1,5 +1,5 @@
 <dec f='MOS/lib/include/lib/structures/hashmap.h' l='33' type='void * hashmap_remove(hashmap_t * map, const void * key)'/>
-<use f='MOS/kernel/ipc/ipc.c' l='52' u='c' c='ipc_server_close'/>
+<use f='MOS/kernel/ipc/ipc.c' l='53' u='c' c='ipc_server_close'/>
 <def f='MOS/lib/structures/hashmap.c' l='100' ll='127' type='void * hashmap_remove(hashmap_t * map, const void * key)'/>
 <use f='MOS/tests/hashmap/test_hashmap.c' l='150' u='c' c='hashmap_remove_function'/>
 <use f='MOS/tests/hashmap/test_hashmap.c' l='157' u='c' c='hashmap_remove_function'/>

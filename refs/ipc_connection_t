@@ -1,11 +1,14 @@
 <use f='MOS/kernel/include/mos/ipc/ipc_types.h' l='47'/>
-<def f='MOS/kernel/include/mos/ipc/ipc_types.h' l='63' ll='70'/>
+<def f='MOS/kernel/include/mos/ipc/ipc_types.h' l='63' ll='72'/>
 <use f='MOS/kernel/include/mos/ipc/ipc_types.h' l='63'/>
-<size>128</size>
+<size>176</size>
 <mbr r='ipc_connection_t::server' o='0' t='ipc_server_t *'/>
 <mbr r='ipc_connection_t::state' o='64' t='ipc_connection_state'/>
 <mbr r='ipc_connection_t::shm_block' o='128' t='shm_block_t'/>
 <mbr r='ipc_connection_t::server_io' o='384' t='io_t'/>
 <mbr r='ipc_connection_t::client_io' o='640' t='io_t'/>
-<mbr r='ipc_connection_t::server_buffer' o='896' t='ring_buffer_t *'/>
-<mbr r='ipc_connection_t::client_buffer' o='960' t='ring_buffer_t *'/>
+<mbr r='ipc_connection_t::server_data_vaddr' o='896' t='uintptr_t'/>
+<mbr r='ipc_connection_t::client_data_vaddr' o='960' t='uintptr_t'/>
+<mbr r='ipc_connection_t::server_data_size' o='1024' t='size_t'/>
+<mbr r='ipc_connection_t::client_data_size' o='1088' t='size_t'/>
+<mbr r='ipc_connection_t::buffer_pos' o='1152' t='ring_buffer_pos_t'/>

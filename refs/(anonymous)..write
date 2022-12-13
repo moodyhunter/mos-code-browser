@@ -4,5 +4,5 @@
 <use f='MOS/kernel/io/io.c' l='108' u='r' c='io_write'/>
 <use f='MOS/kernel/io/io.c' l='113' u='r' c='io_write'/>
 <use f='MOS/kernel/io/terminal.c' l='50' u='w'/>
-<use f='MOS/kernel/ipc/ipc.c' l='168' u='w'/>
-<use f='MOS/kernel/ipc/ipc.c' l='174' u='w'/>
+<use f='MOS/kernel/ipc/ipc.c' l='221' u='w'/>
+<use f='MOS/kernel/ipc/ipc.c' l='227' u='w'/>

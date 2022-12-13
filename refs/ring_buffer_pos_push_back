@@ -1,4 +1,5 @@
 <dec f='MOS/lib/include/lib/structures/ring_buffer.h' l='38' type='size_t ring_buffer_pos_push_back(u8 * buffer, ring_buffer_pos_t * pos, const u8 * data, size_t size)'/>
 <use f='MOS/lib/include/lib/structures/ring_buffer.h' l='62' u='c' c='ring_buffer_pos_push_back_byte'/>
 <use f='MOS/lib/include/lib/structures/ring_buffer.h' l='70' u='c' c='ring_buffer_push_back'/>
+<use f='MOS/kernel/ipc/ipc.c' l='202' u='c' c='ipc_connection_client_write'/>
 <def f='MOS/lib/structures/ring_buffer.c' l='81' ll='94' type='size_t ring_buffer_pos_push_back(u8 * data, ring_buffer_pos_t * pos, const u8 * target, size_t size)'/>

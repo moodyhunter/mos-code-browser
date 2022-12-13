@@ -1,2 +1,2 @@
 <def f='MOS/build/include/mos/syscall/usermode.h' l='130' ll='133' macro='1' type='fd_t syscall_ipc_create(const char * name, size_t max_pending_connections)'/>
-<use f='MOS/userspace/ping-pong/ping.c' l='11' u='c' c='main'/>
+<use f='MOS/userspace/ping-pong/ping.c' l='33' u='c' c='main'/>

@@ -1,0 +1,5 @@
+<dec f='MOS/kernel/include/mos/ipc/ipc_types.h' l='69' type='uintptr_t'/>
+<offset>960</offset>
+<use f='MOS/kernel/ipc/ipc.c' l='187' u='r' c='ipc_connection_client_read'/>
+<use f='MOS/kernel/ipc/ipc.c' l='202' u='r' c='ipc_connection_client_write'/>
+<use f='MOS/kernel/ipc/ipc.c' l='347' u='w' c='ipc_connect'/>

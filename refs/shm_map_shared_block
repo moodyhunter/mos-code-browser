@@ -1,3 +1,3 @@
 <dec f='MOS/kernel/include/mos/mm/shm.h' l='14' type='vmblock_t shm_map_shared_block(shm_block_t source, process_t * owner)'/>
-<use f='MOS/kernel/ipc/ipc.c' l='242' u='c' c='ipc_accept'/>
+<use f='MOS/kernel/ipc/ipc.c' l='295' u='c' c='ipc_accept'/>
 <def f='MOS/kernel/mm/shm.c' l='23' ll='30' type='vmblock_t shm_map_shared_block(shm_block_t source, process_t * owner)'/>

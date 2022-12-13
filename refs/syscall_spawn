@@ -2,4 +2,4 @@
 <use f='MOS/userspace/init/main.c' l='77' u='c' c='main'/>
 <use f='MOS/userspace/init/main.c' l='78' u='c' c='main'/>
 <use f='MOS/userspace/init/main.c' l='82' u='c' c='main'/>
-<use f='MOS/userspace/ping-pong/ping.c' l='9' u='c' c='main'/>
+<use f='MOS/userspace/ping-pong/ping.c' l='31' u='c' c='main'/>

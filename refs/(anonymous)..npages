@@ -7,8 +7,7 @@
 <use f='MOS/kernel/elf/elf.c' l='215' u='r' c='elf_create_process'/>
 <use f='MOS/kernel/elf/elf.c' l='224' u='r' c='elf_create_process'/>
 <use f='MOS/kernel/elf/elf.c' l='232' u='r' c='elf_create_process'/>
-<use f='MOS/kernel/ipc/ipc.c' l='244' u='r' c='ipc_accept'/>
-<use f='MOS/kernel/ipc/ipc.c' l='302' u='r' c='ipc_connect'/>
+<use f='MOS/kernel/ipc/ipc.c' l='297' u='r' c='ipc_accept'/>
 <use f='MOS/kernel/ksyscall.c' l='193' u='r' c='impl_syscall_heap_control'/>
 <use f='MOS/kernel/ksyscall.c' l='208' u='r' c='impl_syscall_heap_control'/>
 <use f='MOS/kernel/ksyscall.c' l='211' u='r' c='impl_syscall_heap_control'/>

@@ -3,5 +3,5 @@
 <use f='MOS/kernel/io/io.c' l='78' u='r' c='io_read'/>
 <use f='MOS/kernel/io/terminal.c' l='64' u='r' c='terminal_create_console'/>
 <use f='MOS/kernel/io/terminal.c' l='74' u='r' c='terminal_create_pipe'/>
-<use f='MOS/kernel/ipc/ipc.c' l='243' u='r' c='ipc_accept'/>
-<use f='MOS/kernel/ipc/ipc.c' l='301' u='r' c='ipc_connect'/>
+<use f='MOS/kernel/ipc/ipc.c' l='296' u='r' c='ipc_accept'/>
+<use f='MOS/kernel/ipc/ipc.c' l='358' u='r' c='ipc_connect'/>

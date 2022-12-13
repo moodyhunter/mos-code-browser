@@ -1,4 +1,5 @@
 <def f='MOS/build/include/mos/syscall/usermode.h' l='32' ll='35' macro='1' type='size_t syscall_io_write(fd_t fd, const void * buffer, size_t size, size_t offset)'/>
 <use f='MOS/userspace/init/main.c' l='49' u='c' c='file_api'/>
 <use f='MOS/userspace/libuserspace.c' l='70' u='c' c='dvprintf'/>
-<use f='MOS/userspace/ping-pong/ping.c' l='23' u='c' c='main'/>
+<use f='MOS/userspace/ping-pong/ping.c' l='18' u='c' c='thread_main'/>
+<use f='MOS/userspace/ping-pong/pong.c' l='17' u='c' c='main'/>

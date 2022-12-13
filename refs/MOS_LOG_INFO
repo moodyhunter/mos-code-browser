@@ -28,8 +28,8 @@
 <use f='MOS/arch/x86/x86_platform.c' l='157' macro='1' u='r' c='x86_start_kernel'/>
 <use f='MOS/kernel/device/console.c' l='37' macro='1' u='r' c='console_register'/>
 <use f='MOS/kernel/filesystem/mount.c' l='40' macro='1' u='r' c='kmount'/>
-<use f='MOS/kernel/ipc/ipc.c' l='37' macro='1' u='r' c='ipc_server_close'/>
-<use f='MOS/kernel/ipc/ipc.c' l='180' macro='1' u='r' c='ipc_init'/>
+<use f='MOS/kernel/ipc/ipc.c' l='38' macro='1' u='r' c='ipc_server_close'/>
+<use f='MOS/kernel/ipc/ipc.c' l='233' macro='1' u='r' c='ipc_init'/>
 <use f='MOS/kernel/kernel_init.c' l='58' macro='1' u='r' c='dump_cmdline'/>
 <use f='MOS/kernel/kernel_init.c' l='65' macro='1' u='r' c='dump_cmdline'/>
 <use f='MOS/kernel/kernel_init.c' l='66' macro='1' u='r' c='dump_cmdline'/>
