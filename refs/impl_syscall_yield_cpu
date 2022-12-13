@@ -1,4 +1,4 @@
 <dec f='MOS/build/include/mos/syscall/dispatcher.h' l='49' type='void impl_syscall_yield_cpu()'/>
 <use f='MOS/build/include/mos/syscall/dispatcher.h' l='51' u='c' c='dispatch_syscall'/>
 <dec f='MOS/build/include/mos/syscall/decl.h' l='25' type='void impl_syscall_yield_cpu()'/>
-<def f='MOS/kernel/ksyscall.c' l='96' macro='1' type='void impl_syscall_yield_cpu()'/>
+<def f='MOS/kernel/ksyscall.c' l='104' macro='1' type='void impl_syscall_yield_cpu()'/>

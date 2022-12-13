@@ -1,1 +1,0 @@
-<def f='MOS/build/include/mos/syscall/usermode.h' l='12' ll='15' macro='1' type='void syscall_panic()'/>

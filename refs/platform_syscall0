@@ -1,5 +1,4 @@
 <def f='MOS/arch/x86/include/mos/platform_syscall.h' l='8' ll='13' macro='1' type='long platform_syscall0(long number)'/>
-<use f='MOS/build/include/mos/syscall/usermode.h' l='14' u='c' c='syscall_panic'/>
 <use f='MOS/build/include/mos/syscall/usermode.h' l='49' u='c' c='syscall_yield_cpu'/>
 <use f='MOS/build/include/mos/syscall/usermode.h' l='54' u='c' c='syscall_fork'/>
 <use f='MOS/build/include/mos/syscall/usermode.h' l='64' u='c' c='syscall_get_pid'/>

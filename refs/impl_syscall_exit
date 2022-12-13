@@ -1,4 +1,4 @@
 <dec f='MOS/build/include/mos/syscall/dispatcher.h' l='45' type='void impl_syscall_exit(u32 exit_code)'/>
 <use f='MOS/build/include/mos/syscall/dispatcher.h' l='47' u='c' c='dispatch_syscall'/>
 <dec f='MOS/build/include/mos/syscall/decl.h' l='23' type='void impl_syscall_exit(u32 exit_code)'/>
-<def f='MOS/kernel/ksyscall.c' l='84' macro='1' type='void impl_syscall_exit(u32 exit_code)'/>
+<def f='MOS/kernel/ksyscall.c' l='92' macro='1' type='void impl_syscall_exit(u32 exit_code)'/>

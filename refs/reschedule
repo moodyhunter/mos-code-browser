@@ -1,7 +1,7 @@
 <dec f='MOS/kernel/include/mos/tasks/schedule.h' l='13' type='void reschedule()'/>
 <use f='MOS/arch/x86/tasks/context.c' l='70' u='c' c='x86_timer_handler'/>
-<use f='MOS/kernel/ksyscall.c' l='92' u='c' c='impl_syscall_exit'/>
-<use f='MOS/kernel/ksyscall.c' l='98' u='c' c='impl_syscall_yield_cpu'/>
-<use f='MOS/kernel/ksyscall.c' l='165' u='c' c='impl_syscall_thread_exit'/>
+<use f='MOS/kernel/ksyscall.c' l='100' u='c' c='impl_syscall_exit'/>
+<use f='MOS/kernel/ksyscall.c' l='106' u='c' c='impl_syscall_yield_cpu'/>
+<use f='MOS/kernel/ksyscall.c' l='173' u='c' c='impl_syscall_thread_exit'/>
 <use f='MOS/kernel/tasks/schedule.c' l='84' u='c' c='reschedule_for_wait_condition'/>
 <def f='MOS/kernel/tasks/schedule.c' l='87' ll='101' type='void reschedule()'/>

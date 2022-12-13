@@ -1,4 +1,4 @@
 <dec f='MOS/build/include/mos/syscall/dispatcher.h' l='41' type='_Bool impl_syscall_io_close(fd_t fd)'/>
 <use f='MOS/build/include/mos/syscall/dispatcher.h' l='43' u='c' c='dispatch_syscall'/>
 <dec f='MOS/build/include/mos/syscall/decl.h' l='21' type='_Bool impl_syscall_io_close(fd_t fd)'/>
-<def f='MOS/kernel/ksyscall.c' l='76' macro='1' type='_Bool impl_syscall_io_close(fd_t fd)'/>
+<def f='MOS/kernel/ksyscall.c' l='84' macro='1' type='_Bool impl_syscall_io_close(fd_t fd)'/>

@@ -1,4 +1,4 @@
 <def f='MOS/build/include/mos/syscall/usermode.h' l='62' ll='65' macro='1' type='pid_t syscall_get_pid()'/>
 <use f='MOS/userspace/init/main.c' l='15' u='c' c='thread_work'/>
 <use f='MOS/userspace/init/main.c' l='74' u='c' c='main'/>
-<use f='MOS/userspace/init/main.c' l='135' u='c' c='main'/>
+<use f='MOS/userspace/init/main.c' l='133' u='c' c='main'/>

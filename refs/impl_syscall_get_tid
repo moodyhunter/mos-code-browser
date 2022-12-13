@@ -1,4 +1,4 @@
 <dec f='MOS/build/include/mos/syscall/dispatcher.h' l='77' type='tid_t impl_syscall_get_tid()'/>
 <use f='MOS/build/include/mos/syscall/dispatcher.h' l='79' u='c' c='dispatch_syscall'/>
 <dec f='MOS/build/include/mos/syscall/decl.h' l='39' type='tid_t impl_syscall_get_tid()'/>
-<def f='MOS/kernel/ksyscall.c' l='154' macro='1' type='tid_t impl_syscall_get_tid()'/>
+<def f='MOS/kernel/ksyscall.c' l='162' macro='1' type='tid_t impl_syscall_get_tid()'/>

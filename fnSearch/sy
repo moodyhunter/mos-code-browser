@@ -16,7 +16,7 @@ syscall_ipc_connect|syscall_ipc_connect
 syscall_ipc_create|syscall_ipc_create
 syscall_mutex_acquire|syscall_mutex_acquire
 syscall_mutex_release|syscall_mutex_release
-syscall_panic|syscall_panic
+syscall_poweroff|syscall_poweroff
 syscall_spawn|syscall_spawn
 syscall_thread_exit|syscall_thread_exit
 syscall_wait_for_thread|syscall_wait_for_thread

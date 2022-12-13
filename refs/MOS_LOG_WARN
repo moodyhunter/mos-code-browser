@@ -19,8 +19,8 @@
 <use f='MOS/kernel/ipc/ipc.c' l='338' macro='1' u='r' c='ipc_connect'/>
 <use f='MOS/kernel/ipc/ipc.c' l='354' macro='1' u='r' c='ipc_connect'/>
 <use f='MOS/kernel/kernel_init.c' l='45' macro='1' u='r' c='cmdline_get_init_path'/>
-<use f='MOS/kernel/ksyscall.c' l='239' macro='1' u='r' c='impl_syscall_wait_for_thread'/>
-<use f='MOS/kernel/ksyscall.c' l='288' macro='1' u='r' c='impl_syscall_mutex_release'/>
+<use f='MOS/kernel/ksyscall.c' l='247' macro='1' u='r' c='impl_syscall_wait_for_thread'/>
+<use f='MOS/kernel/ksyscall.c' l='295' macro='1' u='r' c='impl_syscall_mutex_release'/>
 <use f='MOS/kernel/panic.c' l='22' macro='1' u='r' c='kwarn_handler_set'/>
 <use f='MOS/kernel/panic.c' l='28' macro='1' u='r' c='kwarn_handler_remove'/>
 <use f='MOS/kernel/panic.c' l='88' u='r' c='mos_kwarn'/>

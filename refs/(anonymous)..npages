@@ -8,10 +8,10 @@
 <use f='MOS/kernel/elf/elf.c' l='224' u='r' c='elf_create_process'/>
 <use f='MOS/kernel/elf/elf.c' l='232' u='r' c='elf_create_process'/>
 <use f='MOS/kernel/ipc/ipc.c' l='297' u='r' c='ipc_accept'/>
-<use f='MOS/kernel/ksyscall.c' l='193' u='r' c='impl_syscall_heap_control'/>
-<use f='MOS/kernel/ksyscall.c' l='208' u='r' c='impl_syscall_heap_control'/>
-<use f='MOS/kernel/ksyscall.c' l='211' u='r' c='impl_syscall_heap_control'/>
+<use f='MOS/kernel/ksyscall.c' l='201' u='r' c='impl_syscall_heap_control'/>
+<use f='MOS/kernel/ksyscall.c' l='216' u='r' c='impl_syscall_heap_control'/>
 <use f='MOS/kernel/ksyscall.c' l='219' u='r' c='impl_syscall_heap_control'/>
+<use f='MOS/kernel/ksyscall.c' l='227' u='r' c='impl_syscall_heap_control'/>
 <use f='MOS/kernel/mm/cow.c' l='70' u='r' c='cow_handle_page_fault'/>
 <use f='MOS/kernel/mm/cow.c' l='79' u='r' c='cow_handle_page_fault'/>
 <use f='MOS/kernel/mm/cow.c' l='81' u='r' c='cow_handle_page_fault'/>
