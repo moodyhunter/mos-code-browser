@@ -3,7 +3,7 @@
 <use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='256' u='r' c='x86_handle_exception'/>
 <offset>64</offset>
 <use f='MOS/arch/x86/x86_platform.c' l='83' u='r' c='x86_kpanic_hook'/>
-<use f='MOS/kernel/kernel_init.c' l='110' u='r' c='mos_start_kernel'/>
+<use f='MOS/kernel/kernel_init.c' l='111' u='r' c='mos_start_kernel'/>
 <use f='MOS/kernel/ksyscall.c' l='22' u='r' c='impl_syscall_panic'/>
 <use f='MOS/kernel/ksyscall.c' l='227' u='r' c='impl_syscall_wait_for_thread'/>
 <use f='MOS/kernel/ksyscall.c' l='228' u='r' c='impl_syscall_wait_for_thread'/>

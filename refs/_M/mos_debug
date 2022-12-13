@@ -42,4 +42,4 @@
 <use f='MOS/kernel/tasks/process.c' l='170' u='c'/>
 <use f='MOS/kernel/tasks/process.c' l='182' u='c'/>
 <use f='MOS/kernel/tasks/process.c' l='197' u='c'/>
-<use f='MOS/kernel/tasks/schedule.c' l='57' u='c'/>
+<use f='MOS/kernel/tasks/schedule.c' l='56' u='c'/>

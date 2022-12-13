@@ -21,7 +21,7 @@
 <use f='MOS/kernel/tasks/process.c' l='232' u='r' c='process_grow_heap'/>
 <use f='MOS/kernel/tasks/process.c' l='237' u='r' c='process_grow_heap'/>
 <use f='MOS/kernel/tasks/process.c' l='241' u='r' c='process_grow_heap'/>
-<use f='MOS/kernel/tasks/schedule.c' l='46' u='r' c='mos_update_current'/>
+<use f='MOS/kernel/tasks/schedule.c' l='45' u='r' c='mos_update_current'/>
 <use f='MOS/kernel/tasks/thread.c' l='64' u='r' c='thread_new'/>
 <use f='MOS/kernel/tasks/thread.c' l='72' u='r' c='thread_new'/>
 <use f='MOS/kernel/tasks/thread.c' l='79' u='r' c='thread_new'/>
