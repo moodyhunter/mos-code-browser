@@ -1,0 +1,5 @@
+<dec f='MOS/kernel/include/mos/ipc/ipc_types.h' l='52' type='u32'/>
+<offset>0</offset>
+<use f='MOS/kernel/ipc/ipc.c' l='39' u='r' c='ipc_server_close'/>
+<use f='MOS/kernel/ipc/ipc.c' l='197' u='w' c='ipc_create'/>
+<use f='MOS/kernel/ipc/ipc.c' l='210' u='r' c='ipc_accept'/>

@@ -1,0 +1,4 @@
+<dec f='MOS/build/include/mos/syscall/dispatcher.h' l='105' type='fd_t impl_syscall_ipc_accept(fd_t fd)'/>
+<use f='MOS/build/include/mos/syscall/dispatcher.h' l='107' u='c' c='dispatch_syscall'/>
+<dec f='MOS/build/include/mos/syscall/decl.h' l='53' type='fd_t impl_syscall_ipc_accept(fd_t fd)'/>
+<def f='MOS/kernel/ksyscall.c' l='315' macro='1' type='fd_t impl_syscall_ipc_accept(fd_t listen_fd)'/>

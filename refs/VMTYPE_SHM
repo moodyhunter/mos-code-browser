@@ -1,4 +1,5 @@
 <dec f='MOS/kernel/include/mos/platform/platform.h' l='59' type='6'/>
 <doc f='MOS/kernel/include/mos/platform/platform.h' l='59'>// shared memory</doc>
-<use f='MOS/kernel/mm/shm.c' l='18' u='r' c='shm_allocate'/>
+<use f='MOS/kernel/mm/shm.c' l='19' u='r' c='shm_allocate'/>
+<use f='MOS/kernel/mm/shm.c' l='28' u='r' c='shm_map_shared_block'/>
 <use f='MOS/kernel/tasks/process.c' l='274' c='process_dump_mmaps'/>

@@ -1,3 +1,3 @@
 <dec f='MOS/kernel/include/mos/tasks/wait.h' l='18' type='_Bool wc_condition_verify(wait_condition_t * condition)'/>
-<use f='MOS/kernel/tasks/schedule.c' l='21' u='c' c='should_schedule_to_thread'/>
+<use f='MOS/kernel/tasks/schedule.c' l='25' u='c' c='should_schedule_to_thread'/>
 <def f='MOS/kernel/tasks/wait.c' l='40' ll='44' macro='1' type='_Bool wc_condition_verify(wait_condition_t * condition)'/>

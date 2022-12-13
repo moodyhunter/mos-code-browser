@@ -50,6 +50,7 @@
 <use f='MOS/kernel/io/io.c' l='96' u='c'/>
 <use f='MOS/kernel/io/io.c' l='101' u='c'/>
 <use f='MOS/kernel/io/terminal.c' l='58' u='c'/>
+<use f='MOS/kernel/ipc/ipc.c' l='41' u='c'/>
 <use f='MOS/kernel/ksyscall.c' l='24' u='c'/>
 <use f='MOS/kernel/ksyscall.c' l='52' u='c'/>
 <use f='MOS/kernel/ksyscall.c' l='67' u='c'/>

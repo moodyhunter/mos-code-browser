@@ -1,6 +1,9 @@
 <dec f='MOS/lib/include/lib/structures/hashmap.h' l='32' type='void * hashmap_get(const hashmap_t * map, const void * key)'/>
 <use f='MOS/kernel/device/block.c' l='72' u='c' c='blockdev_find'/>
-<use f='MOS/kernel/ipc/ipc.c' l='81' u='c' c='ipc_open'/>
+<use f='MOS/kernel/ipc/ipc.c' l='74' u='c' c='wc_ipc_name_is_ready'/>
+<use f='MOS/kernel/ipc/ipc.c' l='187' u='c' c='ipc_create'/>
+<use f='MOS/kernel/ipc/ipc.c' l='253' u='c' c='ipc_connect'/>
+<use f='MOS/kernel/ipc/ipc.c' l='273' u='c' c='ipc_connect'/>
 <use f='MOS/kernel/tasks/process.c' l='118' u='c' c='process_get'/>
 <use f='MOS/kernel/tasks/thread.c' l='95' u='c' c='thread_get'/>
 <def f='MOS/lib/structures/hashmap.c' l='84' ll='98' type='void * hashmap_get(const hashmap_t * map, const void * key)'/>

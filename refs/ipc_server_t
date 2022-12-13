@@ -1,0 +1,9 @@
+<use f='MOS/kernel/include/mos/ipc/ipc_types.h' l='48'/>
+<def f='MOS/kernel/include/mos/ipc/ipc_types.h' l='50' ll='61'/>
+<use f='MOS/kernel/include/mos/ipc/ipc_types.h' l='50'/>
+<size>72</size>
+<mbr r='ipc_server_t::magic' o='0' t='u32'/>
+<mbr r='ipc_server_t::name' o='64' t='const char *'/>
+<mbr r='ipc_server_t::io' o='128' t='io_t'/>
+<mbr r='ipc_server_t::max_pending' o='448' t='size_t'/>
+<mbr r='ipc_server_t::pending' o='512' t='ipc_connection_t *'/>

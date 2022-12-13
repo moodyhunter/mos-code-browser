@@ -20,3 +20,6 @@
 <use f='MOS/kernel/mm/memops.c' l='166' u='r' c='mm_copy_pages'/>
 <use f='MOS/kernel/mm/memops.c' l='179' u='r' c='mm_copy_pages'/>
 <use f='MOS/kernel/mm/memops.c' l='179' u='r' c='mm_copy_pages'/>
+<use f='MOS/kernel/mm/shm.c' l='17' u='r' c='shm_allocate'/>
+<use f='MOS/kernel/mm/shm.c' l='25' u='r' c='shm_map_shared_block'/>
+<use f='MOS/kernel/mm/shm.c' l='25' u='r' c='shm_map_shared_block'/>

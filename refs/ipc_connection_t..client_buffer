@@ -1,0 +1,3 @@
+<dec f='MOS/kernel/include/mos/ipc/ipc_types.h' l='69' type='ring_buffer_t *'/>
+<offset>1088</offset>
+<use f='MOS/kernel/ipc/ipc.c' l='311' u='w' c='ipc_connect'/>

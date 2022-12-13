@@ -1,6 +1,0 @@
-<def f='MOS/kernel/include/mos/ipc/ipc_types.h' l='36' ll='41'/>
-<use f='MOS/kernel/include/mos/ipc/ipc_types.h' l='36'/>
-<size>40</size>
-<mbr r='ipc_channel::name' o='0' t='const char *'/>
-<mbr r='ipc_channel::address_space' o='64' t='paging_handle_t'/>
-<mbr r='ipc_channel::vmblock' o='128' t='vmblock_t'/>

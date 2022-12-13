@@ -1,8 +1,11 @@
 <dec f='MOS/kernel/include/mos/tasks/schedule.h' l='10' type='void jump_to_scheduler()'/>
 <use f='MOS/arch/x86/tasks/context.c' l='70' u='c' c='x86_timer_handler'/>
+<use f='MOS/kernel/ipc/ipc.c' l='236' u='c' c='ipc_accept'/>
+<use f='MOS/kernel/ipc/ipc.c' l='270' u='c' c='ipc_connect'/>
+<use f='MOS/kernel/ipc/ipc.c' l='303' u='c' c='ipc_connect'/>
 <use f='MOS/kernel/ksyscall.c' l='92' u='c' c='impl_syscall_exit'/>
 <use f='MOS/kernel/ksyscall.c' l='98' u='c' c='impl_syscall_yield_cpu'/>
 <use f='MOS/kernel/ksyscall.c' l='165' u='c' c='impl_syscall_thread_exit'/>
 <use f='MOS/kernel/ksyscall.c' l='257' u='c' c='impl_syscall_wait_for_thread'/>
 <use f='MOS/kernel/ksyscall.c' l='280' u='c' c='impl_syscall_mutex_acquire'/>
-<def f='MOS/kernel/tasks/schedule.c' l='68' ll='82' type='void jump_to_scheduler()'/>
+<def f='MOS/kernel/tasks/schedule.c' l='76' ll='90' type='void jump_to_scheduler()'/>

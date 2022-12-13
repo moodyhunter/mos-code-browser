@@ -1,3 +1,0 @@
-<dec f='MOS/kernel/include/mos/ipc/ipc_types.h' l='40' type='vmblock_t'/>
-<offset>128</offset>
-<use f='MOS/kernel/ipc/ipc.c' l='111' u='w' c='ipc_create_server'/>

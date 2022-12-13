@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"><title>ipc_types.h source code [MOS/kernel/include/mos/ipc/ipc_types.h] - Woboq Code Browser</title>
-<meta name="woboq:interestingDefinitions" content="ipc_channel,ipc_msg "/>
+<meta name="woboq:interestingDefinitions" content="ipc_connection_t,ipc_server_t "/>
 <link rel="stylesheet" href="/mos-code-browser/data/qtcreator.css" title="QtCreator"/>
 <link rel="alternate stylesheet" href="/mos-code-browser/data/kdevelop.css" title="KDevelop"/>
 <script type="text/javascript" src="/mos-code-browser/data/jquery/jquery.min.js"></script>
@@ -16,50 +16,73 @@
 <tr><th id="2">2</th><td></td></tr>
 <tr><th id="3">3</th><td><u>#pragma once</u></td></tr>
 <tr><th id="4">4</th><td></td></tr>
-<tr><th id="5">5</th><td><u>#include <a href="../../../../lib/include/lib/sync/refcount.h.html">"lib/sync/refcount.h"</a></u></td></tr>
-<tr><th id="6">6</th><td><u>#include <a href="../io/io.h.html">"mos/io/io.h"</a></u></td></tr>
-<tr><th id="7">7</th><td><u>#include <a href="../tasks/task_types.h.html">"mos/tasks/task_types.h"</a></u></td></tr>
-<tr><th id="8">8</th><td><u>#include <a href="../types.h.html">"mos/types.h"</a></u></td></tr>
-<tr><th id="9">9</th><td></td></tr>
-<tr><th id="10">10</th><td><u>#define <dfn class="macro" id="_M/IPC_MSG_MAGIC" data-ref="_M/IPC_MSG_MAGIC">IPC_MSG_MAGIC</dfn> MOS_FOURCC('I', 'M', 's', 'g')</u></td></tr>
+<tr><th id="5">5</th><td><u>#include <a href="../../../../lib/include/lib/structures/ring_buffer.h.html">"lib/structures/ring_buffer.h"</a></u></td></tr>
+<tr><th id="6">6</th><td><u>#include <a href="../../../../lib/include/lib/sync/refcount.h.html">"lib/sync/refcount.h"</a></u></td></tr>
+<tr><th id="7">7</th><td><u>#include <a href="../io/io.h.html">"mos/io/io.h"</a></u></td></tr>
+<tr><th id="8">8</th><td><u>#include <a href="../mm/mm_types.h.html">"mos/mm/mm_types.h"</a></u></td></tr>
+<tr><th id="9">9</th><td><u>#include <a href="../tasks/task_types.h.html">"mos/tasks/task_types.h"</a></u></td></tr>
+<tr><th id="10">10</th><td><u>#include <a href="../types.h.html">"mos/types.h"</a></u></td></tr>
 <tr><th id="11">11</th><td></td></tr>
-<tr><th id="12">12</th><td><i class="doc">/**</i></td></tr>
-<tr><th id="13">13</th><td><i class="doc"> * <span class="command">\brief</span> Flags for ipc_channel_open()</i></td></tr>
-<tr><th id="14">14</th><td><i class="doc"> * <span class="command">\details</span></i></td></tr>
-<tr><th id="15">15</th><td><i class="doc"> * FLAG &amp; EXISTENCE | EXISTING  | NON-EXISTING</i></td></tr>
-<tr><th id="16">16</th><td><i class="doc"> * -----------------+-----------+--------------</i></td></tr>
-<tr><th id="17">17</th><td><i class="doc"> * CREATE_ONLY      | FAIL      | CREATE</i></td></tr>
-<tr><th id="18">18</th><td><i class="doc"> * EXISTING_ONLY    | OPEN      | FAIL</i></td></tr>
-<tr><th id="19">19</th><td><i class="doc"> * neither          | OPEN      | CREATE</i></td></tr>
-<tr><th id="20">20</th><td><i class="doc"> * both (invalid)   | FAIL      | FAIL</i></td></tr>
-<tr><th id="21">21</th><td><i class="doc"> */</i></td></tr>
+<tr><th id="12">12</th><td><u>#define <dfn class="macro" id="_M/IPC_MSG_MAGIC" data-ref="_M/IPC_MSG_MAGIC">IPC_MSG_MAGIC</dfn>    MOS_FOURCC('I', 'M', 's', 'g')</u></td></tr>
+<tr><th id="13">13</th><td><u>#define <dfn class="macro" id="_M/IPC_SERVER_MAGIC" data-ref="_M/IPC_SERVER_MAGIC">IPC_SERVER_MAGIC</dfn> MOS_FOURCC('I', 'S', 'r', 'v')</u></td></tr>
+<tr><th id="14">14</th><td><u>#define <dfn class="macro" id="_M/IPC_CLIENT_MAGIC" data-ref="_M/IPC_CLIENT_MAGIC">IPC_CLIENT_MAGIC</dfn> MOS_FOURCC('I', 'C', 'l', 't')</u></td></tr>
+<tr><th id="15">15</th><td></td></tr>
+<tr><th id="16">16</th><td><b>typedef</b> <b>enum</b></td></tr>
+<tr><th id="17">17</th><td>{</td></tr>
+<tr><th id="18">18</th><td>    <dfn class="enum" id="IPC_CONNECT_DEFAULT" title='IPC_CONNECT_DEFAULT' data-ref="IPC_CONNECT_DEFAULT" data-ref-filename="IPC_CONNECT_DEFAULT">IPC_CONNECT_DEFAULT</dfn> = <var>0</var>,</td></tr>
+<tr><th id="19">19</th><td>    <dfn class="enum" id="IPC_CONNECT_NONBLOCK" title='IPC_CONNECT_NONBLOCK' data-ref="IPC_CONNECT_NONBLOCK" data-ref-filename="IPC_CONNECT_NONBLOCK">IPC_CONNECT_NONBLOCK</dfn> = <var>1</var> &lt;&lt; <var>0</var>,</td></tr>
+<tr><th id="20">20</th><td>} <dfn class="typedef" id="ipc_connect_flags" title='ipc_connect_flags' data-type='enum ipc_connect_flags' data-ref="ipc_connect_flags" data-ref-filename="ipc_connect_flags">ipc_connect_flags</dfn>;</td></tr>
+<tr><th id="21">21</th><td></td></tr>
 <tr><th id="22">22</th><td><b>typedef</b> <b>enum</b></td></tr>
 <tr><th id="23">23</th><td>{</td></tr>
-<tr><th id="24">24</th><td>    <dfn class="enum" id="IPC_OPEN_CREATE_ONLY" title='IPC_OPEN_CREATE_ONLY' data-ref="IPC_OPEN_CREATE_ONLY" data-ref-filename="IPC_OPEN_CREATE_ONLY">IPC_OPEN_CREATE_ONLY</dfn> = <var>1</var> &lt;&lt; <var>0</var>,</td></tr>
-<tr><th id="25">25</th><td>    <dfn class="enum" id="IPC_OPEN_EXISTING_ONLY" title='IPC_OPEN_EXISTING_ONLY' data-ref="IPC_OPEN_EXISTING_ONLY" data-ref-filename="IPC_OPEN_EXISTING_ONLY">IPC_OPEN_EXISTING_ONLY</dfn> = <var>1</var> &lt;&lt; <var>1</var>,</td></tr>
-<tr><th id="26">26</th><td>} <dfn class="typedef" id="ipc_open_flags" title='ipc_open_flags' data-type='enum ipc_open_flags' data-ref="ipc_open_flags" data-ref-filename="ipc_open_flags">ipc_open_flags</dfn>;</td></tr>
-<tr><th id="27">27</th><td></td></tr>
-<tr><th id="28">28</th><td><b>typedef</b> <b>struct</b> <dfn class="type def" id="ipc_msg" title='ipc_msg' data-ref="ipc_msg" data-ref-filename="ipc_msg"><a class="type" href="#ipc_msg" title='ipc_msg' data-ref="ipc_msg" data-ref-filename="ipc_msg">ipc_msg</a></dfn></td></tr>
-<tr><th id="29">29</th><td>{</td></tr>
-<tr><th id="30">30</th><td>    <a class="typedef" href="../types.h.html#u32" title='u32' data-type='unsigned int' data-ref="u32" data-ref-filename="u32">u32</a> <dfn class="decl field" id="ipc_msg::magic" title='ipc_msg::magic' data-ref="ipc_msg::magic" data-ref-filename="ipc_msg..magic">magic</dfn>;</td></tr>
-<tr><th id="31">31</th><td>    <a class="typedef" href="../types.h.html#u32" title='u32' data-type='unsigned int' data-ref="u32" data-ref-filename="u32">u32</a> <dfn class="decl field" id="ipc_msg::type" title='ipc_msg::type' data-ref="ipc_msg::type" data-ref-filename="ipc_msg..type">type</dfn>;</td></tr>
-<tr><th id="32">32</th><td>    <a class="typedef" href="../types.h.html#u32" title='u32' data-type='unsigned int' data-ref="u32" data-ref-filename="u32">u32</a> <dfn class="decl field" id="ipc_msg::length" title='ipc_msg::length' data-ref="ipc_msg::length" data-ref-filename="ipc_msg..length">length</dfn>;</td></tr>
-<tr><th id="33">33</th><td>    <em>char</em> <dfn class="decl field" id="ipc_msg::data" title='ipc_msg::data' data-ref="ipc_msg::data" data-ref-filename="ipc_msg..data">data</dfn>[]; <i>// variable length data</i></td></tr>
-<tr><th id="34">34</th><td>} <a class="macro" href="../mos_global.h.html#15" title="__attribute__((__packed__))" data-ref="_M/__packed">__packed</a> <dfn class="typedef" id="ipc_msg_t" title='ipc_msg_t' data-type='struct ipc_msg' data-ref="ipc_msg_t" data-ref-filename="ipc_msg_t">ipc_msg_t</dfn>;</td></tr>
-<tr><th id="35">35</th><td></td></tr>
-<tr><th id="36">36</th><td><b>typedef</b> <b>struct</b> <dfn class="type def" id="ipc_channel" title='ipc_channel' data-ref="ipc_channel" data-ref-filename="ipc_channel"><a class="type" href="#ipc_channel" title='ipc_channel' data-ref="ipc_channel" data-ref-filename="ipc_channel">ipc_channel</a></dfn></td></tr>
-<tr><th id="37">37</th><td>{</td></tr>
-<tr><th id="38">38</th><td>    <em>const</em> <em>char</em> *<dfn class="decl field" id="ipc_channel::name" title='ipc_channel::name' data-ref="ipc_channel::name" data-ref-filename="ipc_channel..name">name</dfn>;</td></tr>
-<tr><th id="39">39</th><td>    <a class="typedef" href="../types.h.html#76" title='paging_handle_t' data-type='struct paging_handle_t' data-ref="paging_handle_t" data-ref-filename="paging_handle_t">paging_handle_t</a> <dfn class="decl field" id="ipc_channel::address_space" title='ipc_channel::address_space' data-ref="ipc_channel::address_space" data-ref-filename="ipc_channel..address_space">address_space</dfn>;</td></tr>
-<tr><th id="40">40</th><td>    <a class="typedef" href="../platform/platform.h.html#vmblock_t" title='vmblock_t' data-type='struct vmblock_t' data-ref="vmblock_t" data-ref-filename="vmblock_t">vmblock_t</a> <dfn class="decl field" id="ipc_channel::vmblock" title='ipc_channel::vmblock' data-ref="ipc_channel::vmblock" data-ref-filename="ipc_channel..vmblock">vmblock</dfn>;</td></tr>
-<tr><th id="41">41</th><td>} <dfn class="typedef" id="ipc_server_t" title='ipc_server_t' data-type='struct ipc_channel' data-ref="ipc_server_t" data-ref-filename="ipc_server_t">ipc_server_t</dfn>;</td></tr>
-<tr><th id="42">42</th><td></td></tr>
-<tr><th id="43">43</th><td><b>typedef</b> <b>struct</b></td></tr>
-<tr><th id="44">44</th><td>{</td></tr>
-<tr><th id="45">45</th><td>    <a class="typedef" href="../io/io.h.html#io_t" title='io_t' data-type='struct _io_t' data-ref="io_t" data-ref-filename="io_t">io_t</a> <dfn class="decl field" id="(anonymous)::io" title='(anonymous struct)::io' data-ref="(anonymous)::io" data-ref-filename="(anonymous)..io">io</dfn>;</td></tr>
-<tr><th id="46">46</th><td>    <a class="typedef" href="#ipc_server_t" title='ipc_server_t' data-type='struct ipc_channel' data-ref="ipc_server_t" data-ref-filename="ipc_server_t">ipc_server_t</a> *<dfn class="decl field" id="(anonymous)::server" title='(anonymous struct)::server' data-ref="(anonymous)::server" data-ref-filename="(anonymous)..server">server</dfn>;</td></tr>
-<tr><th id="47">47</th><td>} <dfn class="typedef" id="ipc_io_t" title='ipc_io_t' data-type='struct ipc_io_t' data-ref="ipc_io_t" data-ref-filename="ipc_io_t">ipc_io_t</dfn>;</td></tr>
-<tr><th id="48">48</th><td></td></tr>
+<tr><th id="24">24</th><td>    <dfn class="enum" id="IPC_CONNECTION_STATE_INVALID" title='IPC_CONNECTION_STATE_INVALID' data-ref="IPC_CONNECTION_STATE_INVALID" data-ref-filename="IPC_CONNECTION_STATE_INVALID">IPC_CONNECTION_STATE_INVALID</dfn> = <var>0</var>, <i>// invalid connection (not connected)</i></td></tr>
+<tr><th id="25">25</th><td>    <dfn class="enum" id="IPC_CONNECTION_STATE_PENDING" title='IPC_CONNECTION_STATE_PENDING' data-ref="IPC_CONNECTION_STATE_PENDING" data-ref-filename="IPC_CONNECTION_STATE_PENDING">IPC_CONNECTION_STATE_PENDING</dfn>,     <i>// pending server accept</i></td></tr>
+<tr><th id="26">26</th><td>    <dfn class="enum" id="IPC_CONNECTION_STATE_CONNECTED" title='IPC_CONNECTION_STATE_CONNECTED' data-ref="IPC_CONNECTION_STATE_CONNECTED" data-ref-filename="IPC_CONNECTION_STATE_CONNECTED">IPC_CONNECTION_STATE_CONNECTED</dfn>,   <i>// connected</i></td></tr>
+<tr><th id="27">27</th><td>    <dfn class="enum" id="IPC_CONNECTION_STATE_CLOSED" title='IPC_CONNECTION_STATE_CLOSED' data-ref="IPC_CONNECTION_STATE_CLOSED" data-ref-filename="IPC_CONNECTION_STATE_CLOSED">IPC_CONNECTION_STATE_CLOSED</dfn>,</td></tr>
+<tr><th id="28">28</th><td>} <dfn class="typedef" id="ipc_connection_state" title='ipc_connection_state' data-type='enum ipc_connection_state' data-ref="ipc_connection_state" data-ref-filename="ipc_connection_state">ipc_connection_state</dfn>;</td></tr>
+<tr><th id="29">29</th><td></td></tr>
+<tr><th id="30">30</th><td><b>typedef</b> <b>enum</b></td></tr>
+<tr><th id="31">31</th><td>{</td></tr>
+<tr><th id="32">32</th><td>    <dfn class="enum" id="IPC_MSG_TYPE_DATA" title='IPC_MSG_TYPE_DATA' data-ref="IPC_MSG_TYPE_DATA" data-ref-filename="IPC_MSG_TYPE_DATA">IPC_MSG_TYPE_DATA</dfn>,</td></tr>
+<tr><th id="33">33</th><td>    <dfn class="enum" id="IPC_MSG_TYPE_CONNECT" title='IPC_MSG_TYPE_CONNECT' data-ref="IPC_MSG_TYPE_CONNECT" data-ref-filename="IPC_MSG_TYPE_CONNECT">IPC_MSG_TYPE_CONNECT</dfn>,</td></tr>
+<tr><th id="34">34</th><td>    <dfn class="enum" id="IPC_MSG_TYPE_DISCONNECT" title='IPC_MSG_TYPE_DISCONNECT' data-ref="IPC_MSG_TYPE_DISCONNECT" data-ref-filename="IPC_MSG_TYPE_DISCONNECT">IPC_MSG_TYPE_DISCONNECT</dfn>,</td></tr>
+<tr><th id="35">35</th><td>    <dfn class="enum" id="IPC_MSG_TYPE_DISCONNECT_ACK" title='IPC_MSG_TYPE_DISCONNECT_ACK' data-ref="IPC_MSG_TYPE_DISCONNECT_ACK" data-ref-filename="IPC_MSG_TYPE_DISCONNECT_ACK">IPC_MSG_TYPE_DISCONNECT_ACK</dfn>,</td></tr>
+<tr><th id="36">36</th><td>    <dfn class="enum" id="IPC_MSG_TYPE_CONNECT_ACK" title='IPC_MSG_TYPE_CONNECT_ACK' data-ref="IPC_MSG_TYPE_CONNECT_ACK" data-ref-filename="IPC_MSG_TYPE_CONNECT_ACK">IPC_MSG_TYPE_CONNECT_ACK</dfn>,</td></tr>
+<tr><th id="37">37</th><td>} <dfn class="typedef" id="ipc_msg_type" title='ipc_msg_type' data-type='enum ipc_msg_type' data-ref="ipc_msg_type" data-ref-filename="ipc_msg_type">ipc_msg_type</dfn>;</td></tr>
+<tr><th id="38">38</th><td></td></tr>
+<tr><th id="39">39</th><td><b>typedef</b> <b>struct</b></td></tr>
+<tr><th id="40">40</th><td>{</td></tr>
+<tr><th id="41">41</th><td>    <a class="typedef" href="../types.h.html#u32" title='u32' data-type='unsigned int' data-ref="u32" data-ref-filename="u32">u32</a> <dfn class="decl field" id="(anonymous)::magic" title='(anonymous struct)::magic' data-ref="(anonymous)::magic" data-ref-filename="(anonymous)..magic">magic</dfn>;</td></tr>
+<tr><th id="42">42</th><td>    <a class="typedef" href="#ipc_msg_type" title='ipc_msg_type' data-type='enum ipc_msg_type' data-ref="ipc_msg_type" data-ref-filename="ipc_msg_type">ipc_msg_type</a> <dfn class="decl field" id="(anonymous)::type" title='(anonymous struct)::type' data-ref="(anonymous)::type" data-ref-filename="(anonymous)..type">type</dfn>;</td></tr>
+<tr><th id="43">43</th><td>    <a class="typedef" href="../types.h.html#u32" title='u32' data-type='unsigned int' data-ref="u32" data-ref-filename="u32">u32</a> <dfn class="decl field" id="(anonymous)::length" title='(anonymous struct)::length' data-ref="(anonymous)::length" data-ref-filename="(anonymous)..length">length</dfn>;</td></tr>
+<tr><th id="44">44</th><td>    <em>char</em> <dfn class="decl field" id="(anonymous)::data" title='(anonymous struct)::data' data-ref="(anonymous)::data" data-ref-filename="(anonymous)..data">data</dfn>[]; <i>// variable length data</i></td></tr>
+<tr><th id="45">45</th><td>} <a class="macro" href="../mos_global.h.html#15" title="__attribute__((__packed__))" data-ref="_M/__packed">__packed</a> <dfn class="typedef" id="ipc_msg_t" title='ipc_msg_t' data-type='struct ipc_msg_t' data-ref="ipc_msg_t" data-ref-filename="ipc_msg_t">ipc_msg_t</dfn>;</td></tr>
+<tr><th id="46">46</th><td></td></tr>
+<tr><th id="47">47</th><td><b>typedef</b> <b>struct</b> <a class="type" href="#ipc_connection_t" title='ipc_connection_t' data-ref="ipc_connection_t" data-ref-filename="ipc_connection_t">ipc_connection_t</a> <dfn class="typedef" id="ipc_connection_t" title='ipc_connection_t' data-type='struct ipc_connection_t' data-ref="ipc_connection_t" data-ref-filename="ipc_connection_t">ipc_connection_t</dfn>;</td></tr>
+<tr><th id="48">48</th><td><b>typedef</b> <b>struct</b> <a class="type" href="#ipc_server_t" title='ipc_server_t' data-ref="ipc_server_t" data-ref-filename="ipc_server_t">ipc_server_t</a> <dfn class="typedef" id="ipc_server_t" title='ipc_server_t' data-type='struct ipc_server_t' data-ref="ipc_server_t" data-ref-filename="ipc_server_t">ipc_server_t</dfn>;</td></tr>
+<tr><th id="49">49</th><td></td></tr>
+<tr><th id="50">50</th><td><b>typedef</b> <b>struct</b> <dfn class="type def" id="ipc_server_t" title='ipc_server_t' data-ref="ipc_server_t" data-ref-filename="ipc_server_t"><a class="type" href="#ipc_server_t" title='ipc_server_t' data-ref="ipc_server_t" data-ref-filename="ipc_server_t">ipc_server_t</a></dfn></td></tr>
+<tr><th id="51">51</th><td>{</td></tr>
+<tr><th id="52">52</th><td>    <a class="typedef" href="../types.h.html#u32" title='u32' data-type='unsigned int' data-ref="u32" data-ref-filename="u32">u32</a> <dfn class="decl field" id="ipc_server_t::magic" title='ipc_server_t::magic' data-ref="ipc_server_t::magic" data-ref-filename="ipc_server_t..magic">magic</dfn>;</td></tr>
+<tr><th id="53">53</th><td>    <em>const</em> <em>char</em> *<dfn class="decl field" id="ipc_server_t::name" title='ipc_server_t::name' data-ref="ipc_server_t::name" data-ref-filename="ipc_server_t..name">name</dfn>;</td></tr>
+<tr><th id="54">54</th><td>    <i>// a server socket does not implement any read/write operations</i></td></tr>
+<tr><th id="55">55</th><td><i>    // (it's essentially a file descriptor that to 'accept' new connections)</i></td></tr>
+<tr><th id="56">56</th><td><i>    // only the close operation is implemented</i></td></tr>
+<tr><th id="57">57</th><td>    <a class="typedef" href="../io/io.h.html#io_t" title='io_t' data-type='struct _io_t' data-ref="io_t" data-ref-filename="io_t">io_t</a> <dfn class="decl field" id="ipc_server_t::io" title='ipc_server_t::io' data-ref="ipc_server_t::io" data-ref-filename="ipc_server_t..io">io</dfn>;</td></tr>
+<tr><th id="58">58</th><td></td></tr>
+<tr><th id="59">59</th><td>    <span class='typedef' title='size_t' data-type='unsigned long' data-ref="size_t" data-ref-filename="size_t">size_t</span> <dfn class="decl field" id="ipc_server_t::max_pending" title='ipc_server_t::max_pending' data-ref="ipc_server_t::max_pending" data-ref-filename="ipc_server_t..max_pending">max_pending</dfn>;</td></tr>
+<tr><th id="60">60</th><td>    <a class="typedef" href="#ipc_connection_t" title='ipc_connection_t' data-type='struct ipc_connection_t' data-ref="ipc_connection_t" data-ref-filename="ipc_connection_t">ipc_connection_t</a> *<dfn class="decl field" id="ipc_server_t::pending" title='ipc_server_t::pending' data-ref="ipc_server_t::pending" data-ref-filename="ipc_server_t..pending">pending</dfn>;</td></tr>
+<tr><th id="61">61</th><td>} <a class="typedef" href="#ipc_server_t" title='ipc_server_t' data-type='struct ipc_server_t' data-ref="ipc_server_t" data-ref-filename="ipc_server_t">ipc_server_t</a>;</td></tr>
+<tr><th id="62">62</th><td></td></tr>
+<tr><th id="63">63</th><td><b>typedef</b> <b>struct</b> <dfn class="type def" id="ipc_connection_t" title='ipc_connection_t' data-ref="ipc_connection_t" data-ref-filename="ipc_connection_t"><a class="type" href="#ipc_connection_t" title='ipc_connection_t' data-ref="ipc_connection_t" data-ref-filename="ipc_connection_t">ipc_connection_t</a></dfn></td></tr>
+<tr><th id="64">64</th><td>{</td></tr>
+<tr><th id="65">65</th><td>    <a class="typedef" href="#ipc_server_t" title='ipc_server_t' data-type='struct ipc_server_t' data-ref="ipc_server_t" data-ref-filename="ipc_server_t">ipc_server_t</a> *<dfn class="decl field" id="ipc_connection_t::server" title='ipc_connection_t::server' data-ref="ipc_connection_t::server" data-ref-filename="ipc_connection_t..server">server</dfn>;</td></tr>
+<tr><th id="66">66</th><td>    <a class="typedef" href="#ipc_connection_state" title='ipc_connection_state' data-type='enum ipc_connection_state' data-ref="ipc_connection_state" data-ref-filename="ipc_connection_state">ipc_connection_state</a> <dfn class="decl field" id="ipc_connection_t::state" title='ipc_connection_t::state' data-ref="ipc_connection_t::state" data-ref-filename="ipc_connection_t..state">state</dfn>;</td></tr>
+<tr><th id="67">67</th><td>    <a class="typedef" href="../mm/mm_types.h.html#shm_block_t" title='shm_block_t' data-type='struct shm_block_t' data-ref="shm_block_t" data-ref-filename="shm_block_t">shm_block_t</a> <dfn class="decl field" id="ipc_connection_t::shm_block" title='ipc_connection_t::shm_block' data-ref="ipc_connection_t::shm_block" data-ref-filename="ipc_connection_t..shm_block">shm_block</dfn>;</td></tr>
+<tr><th id="68">68</th><td>    <a class="typedef" href="../io/io.h.html#io_t" title='io_t' data-type='struct _io_t' data-ref="io_t" data-ref-filename="io_t">io_t</a> <dfn class="decl field" id="ipc_connection_t::server_io" title='ipc_connection_t::server_io' data-ref="ipc_connection_t::server_io" data-ref-filename="ipc_connection_t..server_io">server_io</dfn>, <dfn class="decl field" id="ipc_connection_t::client_io" title='ipc_connection_t::client_io' data-ref="ipc_connection_t::client_io" data-ref-filename="ipc_connection_t..client_io">client_io</dfn>;</td></tr>
+<tr><th id="69">69</th><td>    <a class="typedef" href="../../../../lib/include/lib/structures/ring_buffer.h.html#ring_buffer_t" title='ring_buffer_t' data-type='struct _ring_buffer' data-ref="ring_buffer_t" data-ref-filename="ring_buffer_t">ring_buffer_t</a> *<dfn class="decl field" id="ipc_connection_t::server_buffer" title='ipc_connection_t::server_buffer' data-ref="ipc_connection_t::server_buffer" data-ref-filename="ipc_connection_t..server_buffer">server_buffer</dfn>, *<dfn class="decl field" id="ipc_connection_t::client_buffer" title='ipc_connection_t::client_buffer' data-ref="ipc_connection_t::client_buffer" data-ref-filename="ipc_connection_t..client_buffer">client_buffer</dfn>; <i>// mapped to the same paddr</i></td></tr>
+<tr><th id="70">70</th><td>} <a class="typedef" href="#ipc_connection_t" title='ipc_connection_t' data-type='struct ipc_connection_t' data-ref="ipc_connection_t" data-ref-filename="ipc_connection_t">ipc_connection_t</a>;</td></tr>
+<tr><th id="71">71</th><td></td></tr>
 </table><hr/><p id='footer'>
 Generated while processing <a href='../../../../arch/x86/interrupt/x86_interrupt.c.html'>MOS/arch/x86/interrupt/x86_interrupt.c</a><br/>Generated on <em>2022-Dec-13</em> from project MOS<br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
 <br/>Generator usage only permitted with license.</p>

@@ -1,0 +1,20 @@
+<dec f='MOS/kernel/include/mos/ipc/ipc_types.h' l='66' type='ipc_connection_state'/>
+<offset>64</offset>
+<use f='MOS/kernel/ipc/ipc.c' l='48' u='r' c='ipc_server_close'/>
+<use f='MOS/kernel/ipc/ipc.c' l='49' u='w' c='ipc_server_close'/>
+<use f='MOS/kernel/ipc/ipc.c' l='66' u='r' c='ipc_server_get_pending'/>
+<use f='MOS/kernel/ipc/ipc.c' l='91' u='r' c='wc_ipc_connection_is_connected_or_closed'/>
+<use f='MOS/kernel/ipc/ipc.c' l='91' u='r' c='wc_ipc_connection_is_connected_or_closed'/>
+<use f='MOS/kernel/ipc/ipc.c' l='97' u='r' c='ipc_connection_server_read'/>
+<use f='MOS/kernel/ipc/ipc.c' l='109' u='r' c='ipc_connection_server_write'/>
+<use f='MOS/kernel/ipc/ipc.c' l='121' u='r' c='ipc_connection_server_close'/>
+<use f='MOS/kernel/ipc/ipc.c' l='127' u='w' c='ipc_connection_server_close'/>
+<use f='MOS/kernel/ipc/ipc.c' l='133' u='r' c='ipc_connection_client_read'/>
+<use f='MOS/kernel/ipc/ipc.c' l='145' u='r' c='ipc_connection_client_write'/>
+<use f='MOS/kernel/ipc/ipc.c' l='157' u='r' c='ipc_connection_client_close'/>
+<use f='MOS/kernel/ipc/ipc.c' l='163' u='w' c='ipc_connection_client_close'/>
+<use f='MOS/kernel/ipc/ipc.c' l='221' u='r' c='ipc_accept'/>
+<use f='MOS/kernel/ipc/ipc.c' l='242' u='w' c='ipc_accept'/>
+<use f='MOS/kernel/ipc/ipc.c' l='281' u='r' c='ipc_connect'/>
+<use f='MOS/kernel/ipc/ipc.c' l='294' u='w' c='ipc_connect'/>
+<use f='MOS/kernel/ipc/ipc.c' l='304' u='r' c='ipc_connect'/>

@@ -1,2 +1,3 @@
 shm_allocate|shm_allocate
 shm_init|shm_init
+shm_map_shared_block|shm_map_shared_block

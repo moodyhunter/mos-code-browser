@@ -2,6 +2,9 @@
 <use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='162' u='r' c='x86_handle_interrupt'/>
 <offset>64</offset>
 <use f='MOS/arch/x86/tasks/context.c' l='50' u='r' c='x86_switch_to_thread'/>
+<use f='MOS/kernel/ipc/ipc.c' l='233' u='w' c='ipc_accept'/>
+<use f='MOS/kernel/ipc/ipc.c' l='267' u='w' c='ipc_connect'/>
+<use f='MOS/kernel/ipc/ipc.c' l='300' u='w' c='ipc_connect'/>
 <use f='MOS/kernel/ksyscall.c' l='244' u='r' c='impl_syscall_wait_for_thread'/>
 <use f='MOS/kernel/ksyscall.c' l='249' u='w' c='impl_syscall_wait_for_thread'/>
 <use f='MOS/kernel/ksyscall.c' l='275' u='w' c='impl_syscall_mutex_acquire'/>
@@ -9,14 +12,13 @@
 <use f='MOS/kernel/tasks/process.c' l='182' u='r' c='process_handle_exit'/>
 <use f='MOS/kernel/tasks/process.c' l='187' u='w' c='process_handle_exit'/>
 <use f='MOS/kernel/tasks/schedule.c' l='15' u='r' c='should_schedule_to_thread'/>
-<use f='MOS/kernel/tasks/schedule.c' l='15' u='r' c='should_schedule_to_thread'/>
-<use f='MOS/kernel/tasks/schedule.c' l='40' u='r' c='mos_update_current'/>
-<use f='MOS/kernel/tasks/schedule.c' l='40' u='r' c='mos_update_current'/>
-<use f='MOS/kernel/tasks/schedule.c' l='41' u='w' c='mos_update_current'/>
-<use f='MOS/kernel/tasks/schedule.c' l='44' u='w' c='mos_update_current'/>
-<use f='MOS/kernel/tasks/schedule.c' l='78' u='r' c='jump_to_scheduler'/>
-<use f='MOS/kernel/tasks/schedule.c' l='79' u='r' c='jump_to_scheduler'/>
-<use f='MOS/kernel/tasks/schedule.c' l='80' u='w' c='jump_to_scheduler'/>
+<use f='MOS/kernel/tasks/schedule.c' l='37' u='r' c='should_schedule_to_thread'/>
+<use f='MOS/kernel/tasks/schedule.c' l='48' u='r' c='mos_update_current'/>
+<use f='MOS/kernel/tasks/schedule.c' l='49' u='w' c='mos_update_current'/>
+<use f='MOS/kernel/tasks/schedule.c' l='52' u='w' c='mos_update_current'/>
+<use f='MOS/kernel/tasks/schedule.c' l='86' u='r' c='jump_to_scheduler'/>
+<use f='MOS/kernel/tasks/schedule.c' l='87' u='r' c='jump_to_scheduler'/>
+<use f='MOS/kernel/tasks/schedule.c' l='88' u='w' c='jump_to_scheduler'/>
 <use f='MOS/kernel/tasks/thread.c' l='39' u='w' c='thread_allocate'/>
 <use f='MOS/kernel/tasks/thread.c' l='103' u='r' c='thread_set_wait_condition'/>
 <use f='MOS/kernel/tasks/thread.c' l='123' u='w' c='thread_handle_exit'/>

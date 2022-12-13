@@ -1,3 +1,0 @@
-<dec f='MOS/kernel/include/mos/ipc/ipc.h' l='9' type='io_t * ipc_create_server(process_t * owner, vmblock_t vmblock, const char * name)'/>
-<use f='MOS/kernel/ipc/ipc.c' l='97' u='c' c='ipc_open'/>
-<def f='MOS/kernel/ipc/ipc.c' l='105' ll='118' type='io_t * ipc_create_server(process_t * owner, vmblock_t vmblock, const char * name)'/>

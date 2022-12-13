@@ -64,7 +64,13 @@
 <use f='MOS/kernel/io/io.c' l='38' macro='1' u='r' c='io_unref'/>
 <use f='MOS/kernel/io/io.c' l='81' macro='1' u='r' c='io_read'/>
 <use f='MOS/kernel/io/io.c' l='106' macro='1' u='r' c='io_write'/>
-<use f='MOS/kernel/ipc/ipc.c' l='107' macro='1' u='r' c='ipc_create_server'/>
+<use f='MOS/kernel/ipc/ipc.c' l='195' macro='1' u='r' c='ipc_create'/>
+<use f='MOS/kernel/ipc/ipc.c' l='231' macro='1' u='r' c='ipc_accept'/>
+<use f='MOS/kernel/ipc/ipc.c' l='237' macro='1' u='r' c='ipc_accept'/>
+<use f='MOS/kernel/ipc/ipc.c' l='263' macro='1' u='r' c='ipc_connect'/>
+<use f='MOS/kernel/ipc/ipc.c' l='271' macro='1' u='r' c='ipc_connect'/>
+<use f='MOS/kernel/ipc/ipc.c' l='276' macro='1' u='r' c='ipc_connect'/>
+<use f='MOS/kernel/ipc/ipc.c' l='309' macro='1' u='r' c='ipc_connect'/>
 <use f='MOS/kernel/kernel_init.c' l='26' macro='1' u='r' c='mount_initrd'/>
 <use f='MOS/kernel/kernel_init.c' l='32' macro='1' u='r' c='mount_initrd'/>
 <use f='MOS/kernel/ksyscall.c' l='90' macro='1' u='r' c='impl_syscall_exit'/>
@@ -75,6 +81,8 @@
 <use f='MOS/kernel/ksyscall.c' l='293' macro='1' u='r' c='impl_syscall_mutex_release'/>
 <use f='MOS/kernel/mm/cow.c' l='78' macro='1' u='r' c='cow_handle_page_fault'/>
 <use f='MOS/kernel/mm/cow.c' l='79' macro='1' u='r' c='cow_handle_page_fault'/>
+<use f='MOS/kernel/mm/shm.c' l='17' macro='1' u='r' c='shm_allocate'/>
+<use f='MOS/kernel/mm/shm.c' l='25' macro='1' u='r' c='shm_map_shared_block'/>
 <use f='MOS/kernel/printk.c' l='59' c='deduce_level_color'/>
 <use f='MOS/kernel/tasks/fork.c' l='26' macro='1' u='r' c='process_handle_fork'/>
 <use f='MOS/kernel/tasks/fork.c' l='36' macro='1' u='r' c='process_handle_fork'/>
@@ -84,4 +92,4 @@
 <use f='MOS/kernel/tasks/process.c' l='190' macro='1' u='r' c='process_handle_exit'/>
 <use f='MOS/kernel/tasks/process.c' l='205' macro='1' u='r' c='process_handle_cleanup'/>
 <use f='MOS/kernel/tasks/process.c' l='254' macro='1' u='r' c='process_grow_heap'/>
-<use f='MOS/kernel/tasks/schedule.c' l='56' macro='1' u='r' c='schedule_to_thread'/>
+<use f='MOS/kernel/tasks/schedule.c' l='64' macro='1' u='r' c='schedule_to_thread'/>

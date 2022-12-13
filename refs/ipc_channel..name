@@ -1,7 +1,0 @@
-<dec f='MOS/kernel/include/mos/ipc/ipc_types.h' l='38' type='const char *'/>
-<offset>0</offset>
-<use f='MOS/kernel/ipc/ipc.c' l='29' u='r' c='ipc_channel_compare'/>
-<use f='MOS/kernel/ipc/ipc.c' l='29' u='r' c='ipc_channel_compare'/>
-<use f='MOS/kernel/ipc/ipc.c' l='53' u='r' c='ipc_server_close'/>
-<use f='MOS/kernel/ipc/ipc.c' l='109' u='w' c='ipc_create_server'/>
-<use f='MOS/kernel/ipc/ipc.c' l='112' u='r' c='ipc_create_server'/>

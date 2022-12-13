@@ -3,3 +3,4 @@
 <use f='MOS/kernel/include/mos/mm/kmalloc.h' l='8' u='c'/>
 <use f='MOS/kernel/include/mos/panic.h' l='7' u='c'/>
 <use f='MOS/kernel/include/mos/cmdline.h' l='7' u='c'/>
+<use f='MOS/kernel/include/mos/mm/shm.h' l='10' u='c'/>

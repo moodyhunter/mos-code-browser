@@ -59,6 +59,8 @@ MOS/lib/include/lib/structures/tree.h
 MOS/kernel/include/mos/io/io.h
 MOS/lib/include/lib/sync/refcount.h
 MOS/kernel/include/mos/ipc/ipc_types.h
+MOS/lib/include/lib/structures/ring_buffer.h
+MOS/kernel/include/mos/mm/mm_types.h
 MOS/kernel/include/mos/tasks/task_types.h
 MOS/lib/include/lib/structures/stack.h
 MOS/arch/x86/include/mos/x86/tasks/context.h
@@ -97,13 +99,12 @@ MOS/kernel/io/terminal.c
 MOS/kernel/include/mos/io/terminal.h
 MOS/kernel/ipc/ipc.c
 MOS/kernel/include/mos/ipc/ipc.h
-MOS/lib/include/lib/structures/ring_buffer.h
+MOS/kernel/include/mos/mm/shm.h
 MOS/kernel/include/mos/tasks/thread.h
+MOS/kernel/include/mos/tasks/wait.h
 MOS/kernel/kernel_init.c
 MOS/kernel/ksyscall.c
-MOS/kernel/include/mos/mm/shm.h
 MOS/build/include/mos/syscall/decl.h
-MOS/kernel/include/mos/tasks/wait.h
 MOS/kernel/mm/cow.c
 MOS/kernel/mm/memops.c
 MOS/kernel/mm/shm.c

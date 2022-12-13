@@ -1,4 +1,4 @@
-ipc_create_client|ipc_create_client
-ipc_create_server|ipc_create_server
+ipc_accept|ipc_accept
+ipc_connect|ipc_connect
+ipc_create|ipc_create
 ipc_init|ipc_init
-ipc_open|ipc_open

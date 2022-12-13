@@ -4,3 +4,4 @@
 <use f='MOS/build/include/mos/syscall/usermode.h' l='99' u='c' c='syscall_wait_for_thread'/>
 <use f='MOS/build/include/mos/syscall/usermode.h' l='114' u='c' c='syscall_mutex_acquire'/>
 <use f='MOS/build/include/mos/syscall/usermode.h' l='127' u='c' c='syscall_mutex_release'/>
+<use f='MOS/build/include/mos/syscall/usermode.h' l='137' u='c' c='syscall_ipc_accept'/>

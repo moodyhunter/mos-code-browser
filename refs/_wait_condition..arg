@@ -1,5 +1,9 @@
 <dec f='MOS/kernel/include/mos/tasks/task_types.h' l='53' type='void *'/>
 <offset>0</offset>
+<use f='MOS/kernel/ipc/ipc.c' l='74' u='r' c='wc_ipc_name_is_ready'/>
+<use f='MOS/kernel/ipc/ipc.c' l='79' u='r' c='wc_ipc_name_cleanup'/>
+<use f='MOS/kernel/ipc/ipc.c' l='84' u='r' c='wc_ipc_has_pending'/>
+<use f='MOS/kernel/ipc/ipc.c' l='90' u='r' c='wc_ipc_connection_is_connected_or_closed'/>
 <use f='MOS/kernel/tasks/wait.c' l='10' u='r' c='thread_is_ready'/>
 <use f='MOS/kernel/tasks/wait.c' l='17' u='r' c='mutex_is_ready'/>
 <use f='MOS/kernel/tasks/wait.c' l='34' u='w' c='wc_wait_for'/>

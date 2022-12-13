@@ -52,6 +52,7 @@
 <use f='MOS/kernel/io/io.c' l='101' macro='1' u='c' c='io_write'/>
 <use f='MOS/kernel/io/io.c' l='111' macro='1' u='c' c='io_write'/>
 <use f='MOS/kernel/io/terminal.c' l='58' macro='1' u='c' c='terminal_create_console'/>
+<use f='MOS/kernel/ipc/ipc.c' l='41' macro='1' u='c' c='ipc_server_close'/>
 <use f='MOS/kernel/ksyscall.c' l='24' macro='1' u='c' c='impl_syscall_panic'/>
 <use f='MOS/kernel/ksyscall.c' l='52' macro='1' u='c' c='impl_syscall_io_read'/>
 <use f='MOS/kernel/ksyscall.c' l='67' macro='1' u='c' c='impl_syscall_io_write'/>

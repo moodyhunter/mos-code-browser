@@ -1,0 +1,4 @@
+<dec f='MOS/build/include/mos/syscall/dispatcher.h' l='101' type='fd_t impl_syscall_ipc_create(const char * name, size_t max_pending_connections)'/>
+<use f='MOS/build/include/mos/syscall/dispatcher.h' l='103' u='c' c='dispatch_syscall'/>
+<dec f='MOS/build/include/mos/syscall/decl.h' l='51' type='fd_t impl_syscall_ipc_create(const char * name, size_t max_pending_connections)'/>
+<def f='MOS/kernel/ksyscall.c' l='306' macro='1' type='fd_t impl_syscall_ipc_create(const char * name, size_t max_pending_connections)'/>

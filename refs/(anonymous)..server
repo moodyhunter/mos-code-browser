@@ -1,4 +1,0 @@
-<dec f='MOS/kernel/include/mos/ipc/ipc_types.h' l='46' type='ipc_server_t *'/>
-<offset>320</offset>
-<use f='MOS/kernel/ipc/ipc.c' l='52' u='r' c='ipc_server_close'/>
-<use f='MOS/kernel/ipc/ipc.c' l='115' u='w' c='ipc_create_server'/>

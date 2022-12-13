@@ -1,0 +1,2 @@
+<dec f='MOS/kernel/include/mos/ipc/ipc_types.h' l='18' type='0'/>
+<use f='MOS/userspace/ping-pong/pong.c' l='10' u='r' c='main'/>

@@ -5,4 +5,4 @@
 <use f='MOS/kernel/io/io.c' l='32' u='a' c='io_ref'/>
 <use f='MOS/kernel/io/io.c' l='51' u='a' c='io_unref'/>
 <use f='MOS/kernel/io/io.c' l='53' u='a' c='io_unref'/>
-<use f='MOS/kernel/ipc/ipc.c' l='50' u='r' c='ipc_server_close'/>
+<use f='MOS/kernel/ipc/ipc.c' l='37' u='r' c='ipc_server_close'/>

@@ -1,0 +1,4 @@
+<dec f='MOS/kernel/include/mos/ipc/ipc_types.h' l='13'/>
+<use f='MOS/kernel/ipc/ipc.c' l='39' u='c'/>
+<use f='MOS/kernel/ipc/ipc.c' l='197' u='c'/>
+<use f='MOS/kernel/ipc/ipc.c' l='210' u='c'/>

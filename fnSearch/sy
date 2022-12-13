@@ -11,7 +11,9 @@ syscall_heap_control|syscall_heap_control
 syscall_io_close|syscall_io_close
 syscall_io_read|syscall_io_read
 syscall_io_write|syscall_io_write
-syscall_ipc_open|syscall_ipc_open
+syscall_ipc_accept|syscall_ipc_accept
+syscall_ipc_connect|syscall_ipc_connect
+syscall_ipc_create|syscall_ipc_create
 syscall_mutex_acquire|syscall_mutex_acquire
 syscall_mutex_release|syscall_mutex_release
 syscall_panic|syscall_panic

@@ -1,0 +1,6 @@
+<dec f='MOS/kernel/include/mos/ipc/ipc_types.h' l='27' type='3'/>
+<use f='MOS/kernel/ipc/ipc.c' l='49' u='r' c='ipc_server_close'/>
+<use f='MOS/kernel/ipc/ipc.c' l='91' u='r' c='wc_ipc_connection_is_connected_or_closed'/>
+<use f='MOS/kernel/ipc/ipc.c' l='127' u='r' c='ipc_connection_server_close'/>
+<use f='MOS/kernel/ipc/ipc.c' l='163' u='r' c='ipc_connection_client_close'/>
+<use f='MOS/kernel/ipc/ipc.c' l='304' u='r' c='ipc_connect'/>

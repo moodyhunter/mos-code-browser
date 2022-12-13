@@ -1,0 +1,6 @@
+<dec f='MOS/kernel/include/mos/ipc/ipc_types.h' l='53' type='const char *'/>
+<offset>64</offset>
+<use f='MOS/kernel/ipc/ipc.c' l='52' u='r' c='ipc_server_close'/>
+<use f='MOS/kernel/ipc/ipc.c' l='53' u='r' c='ipc_server_close'/>
+<use f='MOS/kernel/ipc/ipc.c' l='198' u='w' c='ipc_create'/>
+<use f='MOS/kernel/ipc/ipc.c' l='202' u='r' c='ipc_create'/>
