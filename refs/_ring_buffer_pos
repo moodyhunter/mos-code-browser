@@ -1,0 +1,15 @@
+<def f='MOS/lib/include/lib/structures/ring_buffer.h' l='16' ll='22'/>
+<use f='MOS/lib/include/lib/structures/ring_buffer.h' l='16'/>
+<size>32</size>
+<doc f='MOS/lib/include/lib/structures/ring_buffer.h' l='8'>/**
+ * \defgroup ringbuffer libs.RingBuffer
+ * \ingroup libs
+ * \brief A ring buffer.
+ * @{
+ */
+
+// A position-only ring buffer specifier.</doc>
+<mbr r='_ring_buffer_pos::size' o='0' t='size_t'/>
+<mbr r='_ring_buffer_pos::capacity' o='64' t='size_t'/>
+<mbr r='_ring_buffer_pos::head' o='128' t='size_t'/>
+<mbr r='_ring_buffer_pos::next_pos' o='192' t='size_t'/>

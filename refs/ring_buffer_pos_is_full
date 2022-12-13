@@ -1,0 +1,2 @@
+<def f='MOS/lib/include/lib/structures/ring_buffer.h' l='59' macro='1' type='_Bool ring_buffer_pos_is_full(ring_buffer_pos_t * pos)'/>
+<use f='MOS/lib/include/lib/structures/ring_buffer.h' l='67' u='c' c='ring_buffer_is_full'/>

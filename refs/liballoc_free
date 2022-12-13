@@ -6,8 +6,8 @@
 <use f='MOS/lib/structures/hashmap.c' l='52' u='c' c='hashmap_deinit'/>
 <use f='MOS/lib/structures/hashmap.c' l='56' u='c' c='hashmap_deinit'/>
 <use f='MOS/lib/structures/hashmap.c' l='119' u='c' c='hashmap_remove'/>
-<use f='MOS/lib/structures/ring_buffer.c' l='25' u='c' c='ring_buffer_create'/>
-<use f='MOS/lib/structures/ring_buffer.c' l='53' u='c' c='ring_buffer_destroy'/>
-<use f='MOS/lib/structures/ring_buffer.c' l='54' u='c' c='ring_buffer_destroy'/>
-<use f='MOS/lib/structures/ring_buffer.c' l='70' u='c' c='ring_buffer_resize'/>
+<use f='MOS/lib/structures/ring_buffer.c' l='26' u='c' c='ring_buffer_create'/>
+<use f='MOS/lib/structures/ring_buffer.c' l='56' u='c' c='ring_buffer_destroy'/>
+<use f='MOS/lib/structures/ring_buffer.c' l='57' u='c' c='ring_buffer_destroy'/>
+<use f='MOS/lib/structures/ring_buffer.c' l='73' u='c' c='ring_buffer_resize'/>
 <use f='MOS/userspace/include/lib/memory.h' l='12' u='c' c='free'/>

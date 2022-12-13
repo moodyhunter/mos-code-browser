@@ -1,3 +1,4 @@
-<dec f='MOS/lib/include/lib/structures/ring_buffer.h' l='30' type='size_t ring_buffer_pop_back(ring_buffer_t * buffer, u8 * data, size_t size)'/>
-<use f='MOS/lib/include/lib/structures/ring_buffer.h' l='48' u='c' c='ring_buffer_pop_back_byte'/>
-<def f='MOS/lib/structures/ring_buffer.c' l='91' ll='103' type='size_t ring_buffer_pop_back(ring_buffer_t * buffer, u8 * data, size_t size)'/>
+<def f='MOS/lib/include/lib/structures/ring_buffer.h' l='71' macro='1' type='size_t ring_buffer_pop_back(ring_buffer_t * buffer, u8 * buf, size_t size)'/>
+<use f='MOS/tests/ring_buffer/test_ring_buffer.c' l='470' u='c' c='ringbuffer_push_pop_multiple_bytes'/>
+<use f='MOS/tests/ring_buffer/test_ring_buffer.c' l='495' u='c' c='ringbuffer_push_pop_multiple_bytes'/>
+<use f='MOS/tests/ring_buffer/test_ring_buffer.c' l='507' u='c' c='ringbuffer_push_pop_multiple_bytes'/>

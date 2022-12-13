@@ -1,0 +1,4 @@
+<dec f='MOS/lib/include/lib/structures/ring_buffer.h' l='41' type='size_t ring_buffer_pos_push_front(u8 * buffer, ring_buffer_pos_t * pos, const u8 * data, size_t size)'/>
+<use f='MOS/lib/include/lib/structures/ring_buffer.h' l='63' u='c' c='ring_buffer_pos_push_front_byte'/>
+<use f='MOS/lib/include/lib/structures/ring_buffer.h' l='73' u='c' c='ring_buffer_push_front'/>
+<def f='MOS/lib/structures/ring_buffer.c' l='116' ll='133' type='size_t ring_buffer_pos_push_front(u8 * data, ring_buffer_pos_t * pos, const u8 * target, size_t size)'/>

@@ -43,3 +43,4 @@
 <use f='MOS/tests/ring_buffer/test_ring_buffer.c' l='178' u='c'/>
 <use f='MOS/tests/ring_buffer/test_ring_buffer.c' l='252' u='c'/>
 <use f='MOS/tests/ring_buffer/test_ring_buffer.c' l='290' u='c'/>
+<use f='MOS/tests/ring_buffer/test_ring_buffer.c' l='398' u='c'/>

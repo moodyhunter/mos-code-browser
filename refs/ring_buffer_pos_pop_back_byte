@@ -1,0 +1,2 @@
+<def f='MOS/lib/include/lib/structures/ring_buffer.h' l='44' ll='49' macro='1' type='u8 ring_buffer_pos_pop_back_byte(u8 * buffer, ring_buffer_pos_t * pos)'/>
+<use f='MOS/lib/include/lib/structures/ring_buffer.h' l='79' u='c' c='ring_buffer_pop_back_byte'/>

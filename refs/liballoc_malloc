@@ -7,8 +7,8 @@
 <use f='MOS/lib/liballoc.c' l='671' u='c' c='liballoc_realloc'/>
 <use f='MOS/lib/string.c' l='149' u='c' c='duplicate_string'/>
 <use f='MOS/lib/structures/hashmap.c' l='75' u='c' c='hashmap_put'/>
-<use f='MOS/lib/structures/ring_buffer.c' l='19' u='c' c='ring_buffer_create'/>
-<use f='MOS/lib/structures/ring_buffer.c' l='22' u='c' c='ring_buffer_create'/>
-<use f='MOS/lib/structures/ring_buffer.c' l='40' u='c' c='ring_buffer_create_at'/>
-<use f='MOS/lib/structures/ring_buffer.c' l='61' u='c' c='ring_buffer_resize'/>
+<use f='MOS/lib/structures/ring_buffer.c' l='20' u='c' c='ring_buffer_create'/>
+<use f='MOS/lib/structures/ring_buffer.c' l='23' u='c' c='ring_buffer_create'/>
+<use f='MOS/lib/structures/ring_buffer.c' l='38' u='c' c='ring_buffer_create_at'/>
+<use f='MOS/lib/structures/ring_buffer.c' l='64' u='c' c='ring_buffer_resize'/>
 <use f='MOS/userspace/include/lib/memory.h' l='8' u='c' c='malloc'/>
