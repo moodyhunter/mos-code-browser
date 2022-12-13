@@ -1,3 +1,3 @@
 <dec f='MOS/kernel/include/mos/mm/shm.h' l='10' type='vmblock_t shm_allocate(process_t * owner, size_t npages, mmap_flags flags)'/>
-<use f='MOS/kernel/ksyscall.c' l='297' u='c' c='impl_syscall_ipc_open'/>
+<use f='MOS/kernel/ksyscall.c' l='299' u='c' c='impl_syscall_ipc_open'/>
 <def f='MOS/kernel/mm/shm.c' l='15' ll='20' type='vmblock_t shm_allocate(process_t * owner, size_t npages, mmap_flags flags)'/>

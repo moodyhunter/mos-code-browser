@@ -1,3 +1,3 @@
 <dec f='MOS/kernel/include/mos/ipc/ipc.h' l='12' type='io_t * ipc_open(process_t * owner, vmblock_t vmblock, const char * name, ipc_open_flags flags)'/>
 <def f='MOS/kernel/ipc/ipc.c' l='70' ll='103' type='io_t * ipc_open(process_t * owner, vmblock_t vmblock, const char * name, ipc_open_flags flags)'/>
-<use f='MOS/kernel/ksyscall.c' l='298' u='c' c='impl_syscall_ipc_open'/>
+<use f='MOS/kernel/ksyscall.c' l='300' u='c' c='impl_syscall_ipc_open'/>

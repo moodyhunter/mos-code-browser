@@ -35,7 +35,7 @@
 <use f='MOS/kernel/ksyscall.c' l='227' macro='1' u='r' c='impl_syscall_wait_for_thread'/>
 <use f='MOS/kernel/ksyscall.c' l='227' u='r' c='impl_syscall_wait_for_thread'/>
 <use f='MOS/kernel/ksyscall.c' l='228' u='r' c='impl_syscall_wait_for_thread'/>
-<use f='MOS/kernel/ksyscall.c' l='295' macro='1' u='r' c='impl_syscall_ipc_open'/>
+<use f='MOS/kernel/ksyscall.c' l='297' macro='1' u='r' c='impl_syscall_ipc_open'/>
 <use f='MOS/kernel/mm/cow.c' l='26' macro='1' u='r' c='copy_cow_pages_inplace'/>
 <use f='MOS/kernel/mm/cow.c' l='63' macro='1' u='r' c='cow_handle_page_fault'/>
 <use f='MOS/kernel/tasks/process.c' l='153' u='r' c='process_attach_thread'/>

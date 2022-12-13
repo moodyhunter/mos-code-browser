@@ -61,10 +61,12 @@
 <use f='MOS/kernel/ksyscall.c' l='260' macro='1' u='m' c='impl_syscall_mutex_acquire'/>
 <use f='MOS/kernel/ksyscall.c' l='263' macro='1' u='m' c='impl_syscall_mutex_acquire'/>
 <use f='MOS/kernel/ksyscall.c' l='264' macro='1' u='m' c='impl_syscall_mutex_acquire'/>
-<use f='MOS/kernel/ksyscall.c' l='274' macro='1' u='m' c='impl_syscall_mutex_release'/>
-<use f='MOS/kernel/ksyscall.c' l='279' macro='1' u='m' c='impl_syscall_mutex_release'/>
-<use f='MOS/kernel/ksyscall.c' l='294' macro='1' u='m' c='impl_syscall_ipc_open'/>
-<use f='MOS/kernel/ksyscall.c' l='295' macro='1' u='m' c='impl_syscall_ipc_open'/>
+<use f='MOS/kernel/ksyscall.c' l='269' macro='1' u='m' c='impl_syscall_mutex_acquire'/>
+<use f='MOS/kernel/ksyscall.c' l='276' macro='1' u='m' c='impl_syscall_mutex_release'/>
+<use f='MOS/kernel/ksyscall.c' l='281' macro='1' u='m' c='impl_syscall_mutex_release'/>
+<use f='MOS/kernel/ksyscall.c' l='287' macro='1' u='m' c='impl_syscall_mutex_release'/>
+<use f='MOS/kernel/ksyscall.c' l='296' macro='1' u='m' c='impl_syscall_ipc_open'/>
+<use f='MOS/kernel/ksyscall.c' l='297' macro='1' u='m' c='impl_syscall_ipc_open'/>
 <use f='MOS/kernel/mm/cow.c' l='26' macro='1' u='m' c='copy_cow_pages_inplace'/>
 <use f='MOS/kernel/mm/cow.c' l='54' macro='1' u='m' c='cow_handle_page_fault'/>
 <use f='MOS/kernel/mm/cow.c' l='63' macro='1' u='m' c='cow_handle_page_fault'/>

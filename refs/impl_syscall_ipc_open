@@ -1,4 +1,4 @@
 <dec f='MOS/build/include/mos/syscall/dispatcher.h' l='101' type='fd_t impl_syscall_ipc_open(const char * name, ipc_open_flags flags, size_t buffer_size)'/>
 <use f='MOS/build/include/mos/syscall/dispatcher.h' l='103' u='c' c='dispatch_syscall'/>
 <dec f='MOS/build/include/mos/syscall/decl.h' l='51' type='fd_t impl_syscall_ipc_open(const char * name, ipc_open_flags flags, size_t buffer_size)'/>
-<def f='MOS/kernel/ksyscall.c' l='292' macro='1' type='fd_t impl_syscall_ipc_open(const char * name, ipc_open_flags flags, size_t buffer_size)'/>
+<def f='MOS/kernel/ksyscall.c' l='294' macro='1' type='fd_t impl_syscall_ipc_open(const char * name, ipc_open_flags flags, size_t buffer_size)'/>
