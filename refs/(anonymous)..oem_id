@@ -1,4 +1,4 @@
-<dec f='MOS/arch/x86/include/mos/x86/acpi/acpi_types.h' l='11' type='char [6]'/>
-<dec f='MOS/arch/x86/include/mos/x86/acpi/acpi_types.h' l='36' type='char [6]'/>
-<use f='MOS/arch/x86/acpi/acpi.c' l='104' c='acpi_find_rsdp'/>
+<dec f='MOS/arch/x86/include/mos/x86/acpi/acpi_types.h' l='11' type='char[6]'/>
+<dec f='MOS/arch/x86/include/mos/x86/acpi/acpi_types.h' l='36' type='char[6]'/>
+<use f='MOS/arch/x86/acpi/acpi.c' l='105' c='acpi_find_rsdp'/>
 <offset>80</offset>

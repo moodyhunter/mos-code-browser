@@ -3,5 +3,5 @@
 <use f='MOS/arch/x86/acpi/acpi.c' l='42' u='w' c='x86_acpi_init'/>
 <use f='MOS/arch/x86/acpi/acpi.c' l='43' u='r' c='x86_acpi_init'/>
 <use f='MOS/arch/x86/acpi/acpi.c' l='46' u='r' c='x86_acpi_init'/>
-<use f='MOS/arch/x86/acpi/acpi.c' l='48' u='r' c='x86_acpi_init'/>
-<use f='MOS/arch/x86/acpi/acpi.c' l='51' u='r' c='x86_acpi_init'/>
+<use f='MOS/arch/x86/acpi/acpi.c' l='49' u='r' c='x86_acpi_init'/>
+<use f='MOS/arch/x86/acpi/acpi.c' l='52' u='r' c='x86_acpi_init'/>

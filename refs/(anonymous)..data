@@ -1,3 +1,3 @@
-<dec f='MOS/kernel/include/mos/ipc/ipc_types.h' l='44' type='char []'/>
+<dec f='MOS/kernel/include/mos/ipc/ipc_types.h' l='44' type='char[]'/>
 <offset>96</offset>
 <doc f='MOS/kernel/include/mos/ipc/ipc_types.h' l='44'>// variable length data</doc>

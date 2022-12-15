@@ -1,9 +1,9 @@
 <dec f='MOS/arch/x86/include/mos/x86/acpi/acpi_types.h' l='20' type='acpi_rsdp_v1_t'/>
 <use f='MOS/arch/x86/acpi/acpi.c' l='42' u='m' c='x86_acpi_init'/>
-<use f='MOS/arch/x86/acpi/acpi.c' l='104' u='m' c='acpi_find_rsdp'/>
-<use f='MOS/arch/x86/acpi/acpi.c' l='104' u='m' c='acpi_find_rsdp'/>
-<use f='MOS/arch/x86/acpi/acpi.c' l='106' u='m' c='acpi_find_rsdp'/>
+<use f='MOS/arch/x86/acpi/acpi.c' l='105' u='m' c='acpi_find_rsdp'/>
+<use f='MOS/arch/x86/acpi/acpi.c' l='105' u='m' c='acpi_find_rsdp'/>
 <use f='MOS/arch/x86/acpi/acpi.c' l='107' u='m' c='acpi_find_rsdp'/>
+<use f='MOS/arch/x86/acpi/acpi.c' l='108' u='m' c='acpi_find_rsdp'/>
 <offset>0</offset>
 <use f='MOS/arch/x86/boot/multiboot/startup.c' l='202' u='m' c='x86_startup'/>
 <use f='MOS/arch/x86/boot/multiboot/startup.c' l='202' u='m' c='x86_startup'/>

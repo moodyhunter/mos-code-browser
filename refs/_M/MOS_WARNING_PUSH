@@ -1,5 +1,5 @@
 <dec f='MOS/kernel/include/mos/mos_global.h' l='48'/>
-<use f='MOS/arch/x86/acpi/acpi.c' l='70' u='c'/>
+<use f='MOS/arch/x86/acpi/acpi.c' l='71' u='c'/>
 <use f='MOS/tests/printf/test_printf.c' l='38' u='c'/>
 <use f='MOS/tests/printf/test_printf.c' l='147' u='c'/>
 <use f='MOS/tests/printf/test_printf.c' l='269' u='c'/>

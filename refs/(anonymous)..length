@@ -1,7 +1,7 @@
 <dec f='MOS/arch/x86/include/mos/x86/acpi/acpi_types.h' l='21' type='u32'/>
 <dec f='MOS/arch/x86/include/mos/x86/acpi/acpi_types.h' l='33' type='u32'/>
 <use f='MOS/arch/x86/acpi/acpi.c' l='23' u='r' c='verify_sdt_checksum'/>
-<use f='MOS/arch/x86/acpi/acpi.c' l='48' u='r' c='x86_acpi_init'/>
+<use f='MOS/arch/x86/acpi/acpi.c' l='49' u='r' c='x86_acpi_init'/>
 <offset>32</offset>
 <dec f='MOS/kernel/include/mos/ipc/ipc_types.h' l='43' type='u32'/>
 <offset>64</offset>

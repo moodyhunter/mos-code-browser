@@ -2,11 +2,11 @@
 <use f='MOS/arch/x86/acpi/acpi.c' l='35' macro='1' u='c' c='x86_acpi_init'/>
 <use f='MOS/arch/x86/acpi/acpi.c' l='40' macro='1' u='c' c='x86_acpi_init'/>
 <use f='MOS/arch/x86/acpi/acpi.c' l='44' macro='1' u='c' c='x86_acpi_init'/>
-<use f='MOS/arch/x86/acpi/acpi.c' l='46' macro='1' u='c' c='x86_acpi_init'/>
-<use f='MOS/arch/x86/acpi/acpi.c' l='57' macro='1' u='c' c='x86_acpi_init'/>
-<use f='MOS/arch/x86/acpi/acpi.c' l='64' macro='1' u='c' c='x86_acpi_init'/>
-<use f='MOS/arch/x86/acpi/acpi.c' l='73' macro='1' u='c' c='x86_acpi_init'/>
-<use f='MOS/arch/x86/acpi/acpi.c' l='107' macro='1' u='c' c='acpi_find_rsdp'/>
+<use f='MOS/arch/x86/acpi/acpi.c' l='47' macro='1' u='c' c='x86_acpi_init'/>
+<use f='MOS/arch/x86/acpi/acpi.c' l='58' macro='1' u='c' c='x86_acpi_init'/>
+<use f='MOS/arch/x86/acpi/acpi.c' l='65' macro='1' u='c' c='x86_acpi_init'/>
+<use f='MOS/arch/x86/acpi/acpi.c' l='74' macro='1' u='c' c='x86_acpi_init'/>
+<use f='MOS/arch/x86/acpi/acpi.c' l='108' macro='1' u='c' c='acpi_find_rsdp'/>
 <use f='MOS/arch/x86/acpi/madt.c' l='27' macro='1' u='c' c='acpi_parse_madt'/>
 <use f='MOS/arch/x86/acpi/madt.c' l='44' macro='1' u='c' c='acpi_parse_madt'/>
 <use f='MOS/arch/x86/acpi/madt.c' l='47' macro='1' u='c' c='acpi_parse_madt'/>
