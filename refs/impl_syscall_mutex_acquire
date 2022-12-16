@@ -1,4 +1,4 @@
 <dec f='MOS/build/include/mos/syscall/dispatcher.h' l='93' type='_Bool impl_syscall_mutex_acquire(_Bool * mutex)'/>
 <use f='MOS/build/include/mos/syscall/dispatcher.h' l='95' u='c' c='dispatch_syscall'/>
 <dec f='MOS/build/include/mos/syscall/decl.h' l='47' type='_Bool impl_syscall_mutex_acquire(_Bool * mutex)'/>
-<def f='MOS/kernel/ksyscall.c' l='262' macro='1' type='_Bool impl_syscall_mutex_acquire(_Bool * mutex)'/>
+<def f='MOS/kernel/ksyscall.c' l='261' macro='1' type='_Bool impl_syscall_mutex_acquire(_Bool * mutex)'/>

@@ -1,5 +1,5 @@
-<dec f='MOS/kernel/include/mos/tasks/task_types.h' l='88' type='wait_condition_t *'/>
-<offset>704</offset>
+<dec f='MOS/kernel/include/mos/tasks/task_types.h' l='89' type='wait_condition_t *'/>
+<offset>768</offset>
 <use f='MOS/kernel/tasks/schedule.c' l='24' u='r' c='should_schedule_to_thread'/>
 <use f='MOS/kernel/tasks/schedule.c' l='25' u='r' c='should_schedule_to_thread'/>
 <use f='MOS/kernel/tasks/schedule.c' l='27' u='r' c='should_schedule_to_thread'/>

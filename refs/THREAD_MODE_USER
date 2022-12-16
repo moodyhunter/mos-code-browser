@@ -1,0 +1,5 @@
+<dec f='MOS/kernel/include/mos/tasks/task_types.h' l='25' type='1'/>
+<use f='MOS/arch/x86/tasks/context.c' l='48' u='r' c='x86_switch_to_thread'/>
+<use f='MOS/kernel/ksyscall.c' l='154' u='r' c='impl_syscall_create_thread'/>
+<use f='MOS/kernel/tasks/process.c' l='106' u='r' c='process_new'/>
+<use f='MOS/kernel/tasks/thread.c' l='70' u='r' c='thread_new'/>
