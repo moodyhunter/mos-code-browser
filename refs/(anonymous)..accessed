@@ -1,6 +1,6 @@
 <dec f='MOS/arch/x86/include/mos/x86/gdt/gdt_types.h' l='18' type='u32'/>
 <offset>40</offset>
-<use f='MOS/arch/x86/gdt/gdt.c' l='51' u='w' c='gdt32_set_entry'/>
-<use f='MOS/arch/x86/gdt/gdt.c' l='77' u='w' c='x86_gdt_init'/>
+<use f='MOS/arch/x86/gdt/gdt.c' l='50' u='w' c='gdt32_set_entry'/>
+<use f='MOS/arch/x86/gdt/gdt.c' l='76' u='w' c='x86_gdt_init'/>
 <dec f='MOS/kernel/include/mos/filesystem/filesystem.h' l='18' type='u64'/>
 <offset>0</offset>

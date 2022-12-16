@@ -1,4 +1,4 @@
 <dec f='MOS/arch/x86/include/mos/x86/gdt/gdt_types.h' l='28' type='u32'/>
 <offset>54</offset>
 <doc f='MOS/arch/x86/include/mos/x86/gdt/gdt_types.h' l='28'>// 32-bit opcodes for code, uint32_t stack for data</doc>
-<use f='MOS/arch/x86/gdt/gdt.c' l='46' u='w' c='gdt32_set_entry'/>
+<use f='MOS/arch/x86/gdt/gdt.c' l='45' u='w' c='gdt32_set_entry'/>

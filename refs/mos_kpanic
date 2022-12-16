@@ -15,7 +15,7 @@
 <use f='MOS/arch/x86/acpi/madt.c' l='72' macro='1' u='c' c='acpi_parse_madt'/>
 <use f='MOS/arch/x86/acpi/madt.c' l='75' macro='1' u='c' c='acpi_parse_madt'/>
 <use f='MOS/arch/x86/cpu/cpuid.c' l='21' macro='1' u='c' c='cpuid_get_manufacturer'/>
-<use f='MOS/arch/x86/gdt/gdt.c' l='36' macro='1' u='c' c='gdt32_set_entry'/>
+<use f='MOS/arch/x86/gdt/gdt.c' l='35' macro='1' u='c' c='gdt32_set_entry'/>
 <use f='MOS/arch/x86/interrupt/ioapic.c' l='101' macro='1' u='c' c='ioapic_init'/>
 <use f='MOS/arch/x86/interrupt/lapic.c' l='137' macro='1' u='c' c='lapic_memory_setup'/>
 <use f='MOS/arch/x86/interrupt/lapic.c' l='140' macro='1' u='c' c='lapic_memory_setup'/>

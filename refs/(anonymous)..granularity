@@ -1,4 +1,4 @@
 <dec f='MOS/arch/x86/include/mos/x86/gdt/gdt_types.h' l='29' type='u32'/>
 <offset>55</offset>
 <doc f='MOS/arch/x86/include/mos/x86/gdt/gdt_types.h' l='29'>// 1 to use 4k page addressing, 0 for byte addressing</doc>
-<use f='MOS/arch/x86/gdt/gdt.c' l='50' u='w' c='gdt32_set_entry'/>
+<use f='MOS/arch/x86/gdt/gdt.c' l='49' u='w' c='gdt32_set_entry'/>

@@ -1,5 +1,5 @@
-<dec f='MOS/arch/x86/gdt/gdt.c' l='16' type='0'/>
-<use f='MOS/arch/x86/gdt/gdt.c' l='49' u='r' c='gdt32_set_entry'/>
-<use f='MOS/arch/x86/gdt/gdt.c' l='67' u='r' c='x86_gdt_init'/>
-<use f='MOS/arch/x86/gdt/gdt.c' l='69' u='r' c='x86_gdt_init'/>
-<use f='MOS/arch/x86/gdt/gdt.c' l='73' u='r' c='x86_gdt_init'/>
+<dec f='MOS/arch/x86/gdt/gdt.c' l='15' type='0'/>
+<use f='MOS/arch/x86/gdt/gdt.c' l='48' u='r' c='gdt32_set_entry'/>
+<use f='MOS/arch/x86/gdt/gdt.c' l='66' u='r' c='x86_gdt_init'/>
+<use f='MOS/arch/x86/gdt/gdt.c' l='68' u='r' c='x86_gdt_init'/>
+<use f='MOS/arch/x86/gdt/gdt.c' l='72' u='r' c='x86_gdt_init'/>
