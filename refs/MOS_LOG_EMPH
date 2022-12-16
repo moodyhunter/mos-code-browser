@@ -12,8 +12,8 @@
 <use f='MOS/arch/x86/x86_platform.c' l='91' macro='1' u='r' c='x86_kpanic_hook'/>
 <use f='MOS/arch/x86/x86_platform.c' l='97' macro='1' u='r' c='x86_kpanic_hook'/>
 <use f='MOS/arch/x86/x86_platform.c' l='101' macro='1' u='r' c='x86_kpanic_hook'/>
-<use f='MOS/kernel/kernel_init.c' l='53' macro='1' u='r' c='dump_cmdline'/>
-<use f='MOS/kernel/kernel_init.c' l='55' macro='1' u='r' c='dump_cmdline'/>
+<use f='MOS/kernel/kernel_init.c' l='54' macro='1' u='r' c='dump_cmdline'/>
+<use f='MOS/kernel/kernel_init.c' l='56' macro='1' u='r' c='dump_cmdline'/>
 <use f='MOS/kernel/mm/cow.c' l='87' macro='1' u='r' c='cow_handle_page_fault'/>
 <use f='MOS/kernel/printk.c' l='38' macro='1' u='r' c='printk_setup_console'/>
 <use f='MOS/kernel/printk.c' l='46' macro='1' u='r' c='printk_setup_console'/>

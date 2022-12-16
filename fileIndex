@@ -84,6 +84,10 @@ MOS/kernel/device/block.c
 MOS/lib/include/lib/structures/hashmap.h
 MOS/lib/include/lib/structures/hashmap_common.h
 MOS/kernel/device/console.c
+MOS/kernel/device/device_manager.c
+MOS/kernel/include/mos/device/device_manager.h
+MOS/kernel/include/mos/ipc/ipc.h
+MOS/kernel/include/mos/tasks/kthread.h
 MOS/kernel/elf/elf.c
 MOS/kernel/include/mos/elf/elf.h
 MOS/kernel/include/mos/mm/memops.h
@@ -99,12 +103,10 @@ MOS/kernel/io/io.c
 MOS/kernel/io/terminal.c
 MOS/kernel/include/mos/io/terminal.h
 MOS/kernel/ipc/ipc.c
-MOS/kernel/include/mos/ipc/ipc.h
 MOS/kernel/include/mos/mm/shm.h
 MOS/kernel/include/mos/tasks/thread.h
 MOS/kernel/include/mos/tasks/wait.h
 MOS/kernel/kernel_init.c
-MOS/kernel/include/mos/tasks/kthread.h
 MOS/kernel/ksyscall.c
 MOS/build/include/mos/syscall/decl.h
 MOS/kernel/mm/cow.c

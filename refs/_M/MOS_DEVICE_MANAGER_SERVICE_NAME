@@ -1,0 +1,5 @@
+<dec f='MOS/kernel/include/mos/device/device_manager.h' l='17'/>
+<use f='MOS/kernel/device/device_manager.c' l='29' u='c'/>
+<doc f='MOS/kernel/include/mos/device/device_manager.h' l='14'>/**
+ * @brief IPC service name for the device manager
+ */</doc>

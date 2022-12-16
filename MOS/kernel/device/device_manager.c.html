@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>device_manager.c source code [MOS/kernel/device/device_manager.c] - Woboq Code Browser</title>
+<link rel="stylesheet" href="/mos-code-browser/data/qtcreator.css" title="QtCreator"/>
+<link rel="alternate stylesheet" href="/mos-code-browser/data/kdevelop.css" title="KDevelop"/>
+<script type="text/javascript" src="/mos-code-browser/data/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="/mos-code-browser/data/jquery/jquery-ui.min.js"></script>
+<script>var file = 'MOS/kernel/device/device_manager.c'; var root_path = '../../..'; var data_path = '/mos-code-browser/data'; var ecma_script_api_version = 2;</script>
+<script src='/mos-code-browser/data/codebrowser.js'></script>
+</head>
+<body><div id='header'><h1 id='breadcrumb'><span>Browse the source code of </span><a href='../..'>MOS</a>/<a href='..'>kernel</a>/<a href='./'>device</a>/<a href='device_manager.c.html'>device_manager.c</a></h1></div>
+<hr/><div id='content'><table class="code">
+<tr><th id="1">1</th><td><i>// SPDX-License-Identifier: GPL-3.0-or-later</i></td></tr>
+<tr><th id="2">2</th><td></td></tr>
+<tr><th id="3">3</th><td><u>#include <a href="../include/mos/device/device_manager.h.html">"mos/device/device_manager.h"</a></u></td></tr>
+<tr><th id="4">4</th><td></td></tr>
+<tr><th id="5">5</th><td><u>#include <a href="../include/mos/ipc/ipc.h.html">"mos/ipc/ipc.h"</a></u></td></tr>
+<tr><th id="6">6</th><td><u>#include <a href="../include/mos/ipc/ipc_types.h.html">"mos/ipc/ipc_types.h"</a></u></td></tr>
+<tr><th id="7">7</th><td><u>#include <a href="../include/mos/platform/platform.h.html">"mos/platform/platform.h"</a></u></td></tr>
+<tr><th id="8">8</th><td><u>#include <a href="../include/mos/printk.h.html">"mos/printk.h"</a></u></td></tr>
+<tr><th id="9">9</th><td><u>#include <a href="../include/mos/tasks/kthread.h.html">"mos/tasks/kthread.h"</a></u></td></tr>
+<tr><th id="10">10</th><td></td></tr>
+<tr><th id="11">11</th><td><em>static</em> <a class="typedef" href="../include/mos/io/io.h.html#io_t" title='io_t' data-type='struct _io_t' data-ref="io_t" data-ref-filename="io_t">io_t</a> *<dfn class="tu decl def" id="server_io" title='server_io' data-type='io_t *' data-ref="server_io" data-ref-filename="server_io">server_io</dfn> = <span class="macro" title="((void*)0)" data-ref="_M/NULL">NULL</span>;</td></tr>
+<tr><th id="12">12</th><td></td></tr>
+<tr><th id="13">13</th><td><em>static</em> <em>void</em> <dfn class="tu decl def fn" id="device_manager_thread" title='device_manager_thread' data-type='void device_manager_thread(void * arg)' data-ref="device_manager_thread" data-ref-filename="device_manager_thread">device_manager_thread</dfn>(<em>void</em> *<dfn class="local col3 decl" id="13arg" title='arg' data-type='void *' data-ref="13arg" data-ref-filename="13arg">arg</dfn>)</td></tr>
+<tr><th id="14">14</th><td>{</td></tr>
+<tr><th id="15">15</th><td>    (<em>void</em>) <a class="local col3 ref" href="#13arg" title='arg' data-ref="13arg" data-ref-filename="13arg">arg</a>;</td></tr>
+<tr><th id="16">16</th><td>    <a class="macro" href="../include/mos/printk.h.html#21" title="do { if (__builtin_expect(!!(!(server_io != ((void*)0))), 0)) mos_kpanic(__func__, 16, &quot;&quot; &quot;Assertion failed: %s \n&quot; &quot;Device manager not initialized&quot;, &quot;server_io != NULL&quot;); } while (0)" data-ref="_M/MOS_ASSERT_X">MOS_ASSERT_X</a>(<a class="tu ref" href="#server_io" title='server_io' data-use='r' data-ref="server_io" data-ref-filename="server_io">server_io</a> != <span class="macro" title="((void*)0)" data-ref="_M/NULL">NULL</span>, <q>"Device manager not initialized"</q>);</td></tr>
+<tr><th id="17">17</th><td></td></tr>
+<tr><th id="18">18</th><td>    <b>while</b> (<span class="macro" title="1" data-ref="_M/true">true</span>)</td></tr>
+<tr><th id="19">19</th><td>    {</td></tr>
+<tr><th id="20">20</th><td>        <a class="typedef" href="../include/mos/io/io.h.html#io_t" title='io_t' data-type='struct _io_t' data-ref="io_t" data-ref-filename="io_t">io_t</a> *<span class='warning' title="unused variable &apos;io&apos;"><dfn class="local col4 decl" id="14io" title='io' data-type='io_t *' data-ref="14io" data-ref-filename="14io">io</dfn></span> = <a class="ref fn" href="../include/mos/ipc/ipc.h.html#ipc_accept" title='ipc_accept' data-ref="ipc_accept" data-ref-filename="ipc_accept">ipc_accept</a>(<a class="tu ref" href="#server_io" title='server_io' data-use='r' data-ref="server_io" data-ref-filename="server_io">server_io</a>);</td></tr>
+<tr><th id="21">21</th><td>    }</td></tr>
+<tr><th id="22">22</th><td></td></tr>
+<tr><th id="23">23</th><td>    <b>return</b>;</td></tr>
+<tr><th id="24">24</th><td>}</td></tr>
+<tr><th id="25">25</th><td></td></tr>
+<tr><th id="26">26</th><td><em>void</em> <dfn class="decl def fn" id="device_manager_init" title='device_manager_init' data-ref="device_manager_init" data-ref-filename="device_manager_init">device_manager_init</dfn>()</td></tr>
+<tr><th id="27">27</th><td>{</td></tr>
+<tr><th id="28">28</th><td>    <a class="macro" href="../include/mos/printk.h.html#21" title="do { if (__builtin_expect(!!(!(server_io == ((void*)0))), 0)) mos_kpanic(__func__, 28, &quot;&quot; &quot;Assertion failed: %s \n&quot; &quot;Device manager already initialized&quot;, &quot;server_io == NULL&quot;); } while (0)" data-ref="_M/MOS_ASSERT_X">MOS_ASSERT_X</a>(<a class="tu ref" href="#server_io" title='server_io' data-use='r' data-ref="server_io" data-ref-filename="server_io">server_io</a> == <span class="macro" title="((void*)0)" data-ref="_M/NULL">NULL</span>, <q>"Device manager already initialized"</q>);</td></tr>
+<tr><th id="29">29</th><td>    <a class="tu ref" href="#server_io" title='server_io' data-use='w' data-ref="server_io" data-ref-filename="server_io">server_io</a> = <a class="ref fn" href="../include/mos/ipc/ipc.h.html#ipc_create" title='ipc_create' data-ref="ipc_create" data-ref-filename="ipc_create">ipc_create</a>(<a class="macro" href="../include/mos/device/device_manager.h.html#17" title="&quot;mos.device_manager&quot;" data-ref="_M/MOS_DEVICE_MANAGER_SERVICE_NAME">MOS_DEVICE_MANAGER_SERVICE_NAME</a>, <var>32</var>);</td></tr>
+<tr><th id="30">30</th><td>    <a class="ref fn" href="../include/mos/tasks/kthread.h.html#kthread_create" title='kthread_create' data-ref="kthread_create" data-ref-filename="kthread_create">kthread_create</a>(<a class="tu ref fn" href="#device_manager_thread" title='device_manager_thread' data-use='r' data-ref="device_manager_thread" data-ref-filename="device_manager_thread">device_manager_thread</a>, <var>0</var>, <q>"device_manager"</q>);</td></tr>
+<tr><th id="31">31</th><td>}</td></tr>
+<tr><th id="32">32</th><td></td></tr>
+</table><hr/><p id='footer'>
+Generated on <em>2022-Dec-16</em> from project MOS<br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
+<br/>Generator usage only permitted with license.</p>
+</div></body></html>

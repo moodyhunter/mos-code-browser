@@ -60,6 +60,8 @@
 <use f='MOS/kernel/cmdline.c' l='70' macro='1' u='c' c='mos_cmdline_create'/>
 <use f='MOS/kernel/cmdline.c' l='111' macro='1' u='c' c='mos_cmdline_get_arg'/>
 <use f='MOS/kernel/device/block.c' l='51' macro='1' u='c' c='blockdev_register'/>
+<use f='MOS/kernel/device/device_manager.c' l='16' macro='1' u='c' c='device_manager_thread'/>
+<use f='MOS/kernel/device/device_manager.c' l='28' macro='1' u='c' c='device_manager_init'/>
 <use f='MOS/kernel/elf/elf.c' l='63' macro='1' u='c' c='elf_create_process'/>
 <use f='MOS/kernel/elf/elf.c' l='127' macro='1' u='c' c='elf_create_process'/>
 <use f='MOS/kernel/elf/elf.c' l='159' macro='1' u='c' c='elf_create_process'/>
@@ -78,10 +80,10 @@
 <use f='MOS/kernel/filesystem/pathutils.c' l='98' macro='1' u='c' c='path_resolve'/>
 <use f='MOS/kernel/io/terminal.c' l='17' macro='1' u='c' c='terminal_io_read'/>
 <use f='MOS/kernel/io/terminal.c' l='28' macro='1' u='c' c='terminal_io_write'/>
-<use f='MOS/kernel/kernel_init.c' l='68' macro='1' u='c' c='dump_cmdline'/>
-<use f='MOS/kernel/kernel_init.c' l='92' macro='1' u='c' c='mos_start_kernel'/>
-<use f='MOS/kernel/kernel_init.c' l='101' macro='1' u='c' c='mos_start_kernel'/>
-<use f='MOS/kernel/kernel_init.c' l='117' macro='1' u='c' c='mos_start_kernel'/>
+<use f='MOS/kernel/kernel_init.c' l='69' macro='1' u='c' c='dump_cmdline'/>
+<use f='MOS/kernel/kernel_init.c' l='93' macro='1' u='c' c='mos_start_kernel'/>
+<use f='MOS/kernel/kernel_init.c' l='102' macro='1' u='c' c='mos_start_kernel'/>
+<use f='MOS/kernel/kernel_init.c' l='119' macro='1' u='c' c='mos_start_kernel'/>
 <use f='MOS/kernel/ksyscall.c' l='96' macro='1' u='c' c='impl_syscall_exit'/>
 <use f='MOS/kernel/ksyscall.c' l='101' macro='1' u='c' c='impl_syscall_exit'/>
 <use f='MOS/kernel/ksyscall.c' l='129' macro='1' u='c' c='impl_syscall_get_pid'/>

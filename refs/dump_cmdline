@@ -1,2 +1,2 @@
-<def f='MOS/kernel/kernel_init.c' l='51' ll='72' type='void dump_cmdline()'/>
-<use f='MOS/kernel/kernel_init.c' l='80' u='c' c='mos_start_kernel'/>
+<def f='MOS/kernel/kernel_init.c' l='52' ll='73' type='void dump_cmdline()'/>
+<use f='MOS/kernel/kernel_init.c' l='81' u='c' c='mos_start_kernel'/>

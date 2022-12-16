@@ -1,0 +1,69 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>device_manager.h source code [MOS/kernel/include/mos/device/device_manager.h] - Woboq Code Browser</title>
+<meta name="woboq:interestingDefinitions" content="device_driver_t,device_t "/>
+<link rel="stylesheet" href="/mos-code-browser/data/qtcreator.css" title="QtCreator"/>
+<link rel="alternate stylesheet" href="/mos-code-browser/data/kdevelop.css" title="KDevelop"/>
+<script type="text/javascript" src="/mos-code-browser/data/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="/mos-code-browser/data/jquery/jquery-ui.min.js"></script>
+<script>var file = 'MOS/kernel/include/mos/device/device_manager.h'; var root_path = '../../../../..'; var data_path = '/mos-code-browser/data'; var ecma_script_api_version = 2;</script>
+<script src='/mos-code-browser/data/codebrowser.js'></script>
+</head>
+<body><div id='header'><h1 id='breadcrumb'><span>Browse the source code of </span><a href='../../../..'>MOS</a>/<a href='../../..'>kernel</a>/<a href='../..'>include</a>/<a href='..'>mos</a>/<a href='./'>device</a>/<a href='device_manager.h.html'>device_manager.h</a></h1></div>
+<hr/><div id='content'><table class="code">
+<tr><th id="1">1</th><td><i>// SPDX-License-Identifier: GPL-3.0-or-later</i></td></tr>
+<tr><th id="2">2</th><td></td></tr>
+<tr><th id="3">3</th><td><u>#pragma once</u></td></tr>
+<tr><th id="4">4</th><td></td></tr>
+<tr><th id="5">5</th><td><u>#include <a href="../ipc/ipc_types.h.html">"mos/ipc/ipc_types.h"</a></u></td></tr>
+<tr><th id="6">6</th><td><u>#include <a href="../types.h.html">"mos/types.h"</a></u></td></tr>
+<tr><th id="7">7</th><td></td></tr>
+<tr><th id="8">8</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="9">9</th><td><i class="doc"> * <span class="command">@defgroup</span> <span class="verb">device_manager Device Manager</span></i></td></tr>
+<tr><th id="10">10</th><td><i class="doc"> * <span class="command">@brief</span> Device Manager</i></td></tr>
+<tr><th id="11">11</th><td><i class="doc"> * @{</i></td></tr>
+<tr><th id="12">12</th><td><i class="doc"> */</i></td></tr>
+<tr><th id="13">13</th><td></td></tr>
+<tr><th id="14">14</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="15">15</th><td><i class="doc"> * <span class="command">@brief</span> IPC service name for the device manager</i></td></tr>
+<tr><th id="16">16</th><td><i class="doc"> */</i></td></tr>
+<tr><th id="17">17</th><td><u>#define <dfn class="macro" id="_M/MOS_DEVICE_MANAGER_SERVICE_NAME" data-ref="_M/MOS_DEVICE_MANAGER_SERVICE_NAME">MOS_DEVICE_MANAGER_SERVICE_NAME</dfn> "mos.device_manager"</u></td></tr>
+<tr><th id="18">18</th><td></td></tr>
+<tr><th id="19">19</th><td><b>typedef</b> <b>struct</b> <a class="type" href="#device_t" title='device_t' data-ref="device_t" data-ref-filename="device_t">device_t</a> <dfn class="typedef" id="device_t" title='device_t' data-type='struct device_t' data-ref="device_t" data-ref-filename="device_t">device_t</dfn>;</td></tr>
+<tr><th id="20">20</th><td><b>typedef</b> <b>struct</b> <a class="type" href="#device_driver_t" title='device_driver_t' data-ref="device_driver_t" data-ref-filename="device_driver_t">device_driver_t</a> <dfn class="typedef" id="device_driver_t" title='device_driver_t' data-type='struct device_driver_t' data-ref="device_driver_t" data-ref-filename="device_driver_t">device_driver_t</dfn>;</td></tr>
+<tr><th id="21">21</th><td></td></tr>
+<tr><th id="22">22</th><td><b>typedef</b> <b>struct</b> <dfn class="type def" id="device_driver_t" title='device_driver_t' data-ref="device_driver_t" data-ref-filename="device_driver_t"><a class="type" href="#device_driver_t" title='device_driver_t' data-ref="device_driver_t" data-ref-filename="device_driver_t">device_driver_t</a></dfn></td></tr>
+<tr><th id="23">23</th><td>{</td></tr>
+<tr><th id="24">24</th><td>    <em>const</em> <em>char</em> *<dfn class="decl field" id="device_driver_t::driver_name" title='device_driver_t::driver_name' data-ref="device_driver_t::driver_name" data-ref-filename="device_driver_t..driver_name">driver_name</dfn>;</td></tr>
+<tr><th id="25">25</th><td>    <em>const</em> <em>char</em> *<dfn class="decl field" id="device_driver_t::author" title='device_driver_t::author' data-ref="device_driver_t::author" data-ref-filename="device_driver_t..author">author</dfn>;</td></tr>
+<tr><th id="26">26</th><td></td></tr>
+<tr><th id="27">27</th><td>    <span class="macro" title="_Bool" data-ref="_M/bool">bool</span> (*<dfn class="decl field" id="device_driver_t::probe" title='device_driver_t::probe' data-ref="device_driver_t::probe" data-ref-filename="device_driver_t..probe">probe</dfn>)(<a class="typedef" href="#device_driver_t" title='device_driver_t' data-type='struct device_driver_t' data-ref="device_driver_t" data-ref-filename="device_driver_t">device_driver_t</a> *<dfn class="local col1 decl" id="1driver" title='driver' data-type='device_driver_t *' data-ref="1driver" data-ref-filename="1driver">driver</dfn>, <a class="typedef" href="#device_t" title='device_t' data-type='struct device_t' data-ref="device_t" data-ref-filename="device_t">device_t</a> *<dfn class="local col2 decl" id="2dev" title='dev' data-type='device_t *' data-ref="2dev" data-ref-filename="2dev">dev</dfn>);</td></tr>
+<tr><th id="28">28</th><td>} <a class="typedef" href="#device_driver_t" title='device_driver_t' data-type='struct device_driver_t' data-ref="device_driver_t" data-ref-filename="device_driver_t">device_driver_t</a>;</td></tr>
+<tr><th id="29">29</th><td></td></tr>
+<tr><th id="30">30</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="31">31</th><td><i class="doc"> * <span class="command">@brief</span> Device type</i></td></tr>
+<tr><th id="32">32</th><td><i class="doc"> */</i></td></tr>
+<tr><th id="33">33</th><td><b>typedef</b> <b>enum</b></td></tr>
+<tr><th id="34">34</th><td>{</td></tr>
+<tr><th id="35">35</th><td>    <dfn class="enum" id="DEVICE_TYPE_BLOCK" title='DEVICE_TYPE_BLOCK' data-ref="DEVICE_TYPE_BLOCK" data-ref-filename="DEVICE_TYPE_BLOCK">DEVICE_TYPE_BLOCK</dfn>,</td></tr>
+<tr><th id="36">36</th><td>    <dfn class="enum" id="DEVICE_TYPE_CHAR" title='DEVICE_TYPE_CHAR' data-ref="DEVICE_TYPE_CHAR" data-ref-filename="DEVICE_TYPE_CHAR">DEVICE_TYPE_CHAR</dfn>,</td></tr>
+<tr><th id="37">37</th><td>    <dfn class="enum" id="DEVICE_TYPE_NET" title='DEVICE_TYPE_NET' data-ref="DEVICE_TYPE_NET" data-ref-filename="DEVICE_TYPE_NET">DEVICE_TYPE_NET</dfn>,</td></tr>
+<tr><th id="38">38</th><td>} <dfn class="typedef" id="device_type_t" title='device_type_t' data-type='enum device_type_t' data-ref="device_type_t" data-ref-filename="device_type_t">device_type_t</dfn>;</td></tr>
+<tr><th id="39">39</th><td></td></tr>
+<tr><th id="40">40</th><td><b>typedef</b> <b>struct</b> <dfn class="type def" id="device_t" title='device_t' data-ref="device_t" data-ref-filename="device_t"><a class="type" href="#device_t" title='device_t' data-ref="device_t" data-ref-filename="device_t">device_t</a></dfn></td></tr>
+<tr><th id="41">41</th><td>{</td></tr>
+<tr><th id="42">42</th><td>    <em>const</em> <em>char</em> *<dfn class="decl field" id="device_t::name" title='device_t::name' data-ref="device_t::name" data-ref-filename="device_t..name">name</dfn>;</td></tr>
+<tr><th id="43">43</th><td>    <em>const</em> <em>char</em> *<dfn class="decl field" id="device_t::description" title='device_t::description' data-ref="device_t::description" data-ref-filename="device_t..description">description</dfn>;</td></tr>
+<tr><th id="44">44</th><td>    <a class="typedef" href="#device_type_t" title='device_type_t' data-type='enum device_type_t' data-ref="device_type_t" data-ref-filename="device_type_t">device_type_t</a> <dfn class="decl field" id="device_t::type" title='device_t::type' data-ref="device_t::type" data-ref-filename="device_t..type">type</dfn>;</td></tr>
+<tr><th id="45">45</th><td>    <a class="typedef" href="#device_driver_t" title='device_driver_t' data-type='struct device_driver_t' data-ref="device_driver_t" data-ref-filename="device_driver_t">device_driver_t</a> *<dfn class="decl field" id="device_t::driver" title='device_t::driver' data-ref="device_t::driver" data-ref-filename="device_t..driver">driver</dfn>;</td></tr>
+<tr><th id="46">46</th><td>} <a class="typedef" href="#device_t" title='device_t' data-type='struct device_t' data-ref="device_t" data-ref-filename="device_t">device_t</a>;</td></tr>
+<tr><th id="47">47</th><td></td></tr>
+<tr><th id="48">48</th><td><em>void</em> <a class="decl fn" href="../../../device/device_manager.c.html#device_manager_init" title='device_manager_init' data-ref="device_manager_init" data-ref-filename="device_manager_init" id="device_manager_init">device_manager_init</a>();</td></tr>
+<tr><th id="49">49</th><td></td></tr>
+<tr><th id="50">50</th><td><i class="doc">/** @} */</i></td></tr>
+<tr><th id="51">51</th><td></td></tr>
+</table><hr/><p id='footer'>
+Generated while processing <a href='../../../device/device_manager.c.html'>MOS/kernel/device/device_manager.c</a><br/>Generated on <em>2022-Dec-16</em> from project MOS<br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
+<br/>Generator usage only permitted with license.</p>
+</div></body></html>

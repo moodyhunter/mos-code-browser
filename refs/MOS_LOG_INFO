@@ -30,11 +30,11 @@
 <use f='MOS/kernel/filesystem/mount.c' l='40' macro='1' u='r' c='kmount'/>
 <use f='MOS/kernel/ipc/ipc.c' l='38' macro='1' u='r' c='ipc_server_close'/>
 <use f='MOS/kernel/ipc/ipc.c' l='233' macro='1' u='r' c='ipc_init'/>
-<use f='MOS/kernel/kernel_init.c' l='59' macro='1' u='r' c='dump_cmdline'/>
-<use f='MOS/kernel/kernel_init.c' l='66' macro='1' u='r' c='dump_cmdline'/>
+<use f='MOS/kernel/kernel_init.c' l='60' macro='1' u='r' c='dump_cmdline'/>
 <use f='MOS/kernel/kernel_init.c' l='67' macro='1' u='r' c='dump_cmdline'/>
-<use f='MOS/kernel/kernel_init.c' l='79' macro='1' u='r' c='mos_start_kernel'/>
-<use f='MOS/kernel/kernel_init.c' l='112' macro='1' u='r' c='mos_start_kernel'/>
+<use f='MOS/kernel/kernel_init.c' l='68' macro='1' u='r' c='dump_cmdline'/>
+<use f='MOS/kernel/kernel_init.c' l='80' macro='1' u='r' c='mos_start_kernel'/>
+<use f='MOS/kernel/kernel_init.c' l='113' macro='1' u='r' c='mos_start_kernel'/>
 <use f='MOS/kernel/mm/shm.c' l='12' macro='1' u='r' c='shm_init'/>
 <use f='MOS/kernel/printk.c' l='61' c='deduce_level_color'/>
 <use f='MOS/kernel/printk.c' l='126' u='r' c='printk'/>

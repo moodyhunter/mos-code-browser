@@ -1,0 +1,7 @@
+<use f='MOS/kernel/include/mos/device/device_manager.h' l='20'/>
+<def f='MOS/kernel/include/mos/device/device_manager.h' l='22' ll='28'/>
+<use f='MOS/kernel/include/mos/device/device_manager.h' l='22'/>
+<size>24</size>
+<mbr r='device_driver_t::driver_name' o='0' t='const char *'/>
+<mbr r='device_driver_t::author' o='64' t='const char *'/>
+<mbr r='device_driver_t::probe' o='128' t='_Bool (*)(device_driver_t *, device_t *)'/>
