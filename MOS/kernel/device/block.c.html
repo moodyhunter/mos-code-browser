@@ -24,16 +24,16 @@
 <tr><th id="11">11</th><td><u>#include <a href="../include/mos/types.h.html">"mos/types.h"</a></u></td></tr>
 <tr><th id="12">12</th><td></td></tr>
 <tr><th id="13">13</th><td><i class="doc" data-doc="blockdev_map">/**</i></td></tr>
-<tr><th id="14">14</th><td><i class="doc" data-doc="blockdev_map"> * <span class="command">\brief</span> The hashmap of all registered block devices.</i></td></tr>
-<tr><th id="15">15</th><td><i class="doc" data-doc="blockdev_map"> * <span class="command">\note</span> Key: Name of the block device, Value: Pointer to the block device.</i></td></tr>
+<tr><th id="14">14</th><td><i class="doc" data-doc="blockdev_map"> * <span class="command">@brief</span> The hashmap of all registered block devices.</i></td></tr>
+<tr><th id="15">15</th><td><i class="doc" data-doc="blockdev_map"> * <span class="command">@note</span> Key: Name of the block device, Value: Pointer to the block device.</i></td></tr>
 <tr><th id="16">16</th><td><i class="doc" data-doc="blockdev_map"> */</i></td></tr>
 <tr><th id="17">17</th><td><em>static</em> <a class="typedef" href="../../lib/include/lib/structures/hashmap.h.html#hashmap_t" title='hashmap_t' data-type='struct _hashmap' data-ref="hashmap_t" data-ref-filename="hashmap_t">hashmap_t</a> *<dfn class="tu decl def" id="blockdev_map" title='blockdev_map' data-type='hashmap_t *' data-ref="blockdev_map" data-ref-filename="blockdev_map">blockdev_map</dfn> = <span class="macro" title="((void*)0)" data-ref="_M/NULL">NULL</span>;</td></tr>
 <tr><th id="18">18</th><td></td></tr>
 <tr><th id="19">19</th><td><i class="doc" data-doc="hashmap_blockdev_hash">/**</i></td></tr>
-<tr><th id="20">20</th><td><i class="doc" data-doc="hashmap_blockdev_hash"> * <span class="command">\brief</span> Get the hash of a block device</i></td></tr>
+<tr><th id="20">20</th><td><i class="doc" data-doc="hashmap_blockdev_hash"> * <span class="command">@brief</span> Get the hash of a block device</i></td></tr>
 <tr><th id="21">21</th><td><i class="doc" data-doc="hashmap_blockdev_hash"> *</i></td></tr>
-<tr><th id="22">22</th><td><i class="doc" data-doc="hashmap_blockdev_hash"> * <span class="command">\param</span> <span class="arg">key</span> The name of the block device</i></td></tr>
-<tr><th id="23">23</th><td><i class="doc" data-doc="hashmap_blockdev_hash"> * <span class="command">\return</span> hash_t The hash of that name</i></td></tr>
+<tr><th id="22">22</th><td><i class="doc" data-doc="hashmap_blockdev_hash"> * <span class="command">@param</span> <span class="arg">key</span> The name of the block device</i></td></tr>
+<tr><th id="23">23</th><td><i class="doc" data-doc="hashmap_blockdev_hash"> * <span class="command">@return</span> hash_t The hash of that name</i></td></tr>
 <tr><th id="24">24</th><td><i class="doc" data-doc="hashmap_blockdev_hash"> */</i></td></tr>
 <tr><th id="25">25</th><td><em>static</em> <a class="typedef" href="../include/mos/types.h.html#77" title='hash_t' data-type='struct hash_t' data-ref="hash_t" data-ref-filename="hash_t">hash_t</a> <dfn class="tu decl def fn" id="hashmap_blockdev_hash" title='hashmap_blockdev_hash' data-type='hash_t hashmap_blockdev_hash(const void * key)' data-ref="hashmap_blockdev_hash" data-ref-filename="hashmap_blockdev_hash">hashmap_blockdev_hash</dfn>(<em>const</em> <em>void</em> *<dfn class="local col3 decl" id="23key" title='key' data-type='const void *' data-ref="23key" data-ref-filename="23key">key</dfn>)</td></tr>
 <tr><th id="26">26</th><td>{</td></tr>
@@ -41,11 +41,11 @@
 <tr><th id="28">28</th><td>}</td></tr>
 <tr><th id="29">29</th><td></td></tr>
 <tr><th id="30">30</th><td><i class="doc" data-doc="hashmap_blockdev_compare">/**</i></td></tr>
-<tr><th id="31">31</th><td><i class="doc" data-doc="hashmap_blockdev_compare"> * <span class="command">\brief</span> Compare two block devices</i></td></tr>
+<tr><th id="31">31</th><td><i class="doc" data-doc="hashmap_blockdev_compare"> * <span class="command">@brief</span> Compare two block devices</i></td></tr>
 <tr><th id="32">32</th><td><i class="doc" data-doc="hashmap_blockdev_compare"> *</i></td></tr>
-<tr><th id="33">33</th><td><i class="doc" data-doc="hashmap_blockdev_compare"> * <span class="command">\param</span> <span class="arg">key1</span> Name of the first block device</i></td></tr>
-<tr><th id="34">34</th><td><i class="doc" data-doc="hashmap_blockdev_compare"> * <span class="command">\param</span> <span class="arg">key2</span> Name of the second block device</i></td></tr>
-<tr><th id="35">35</th><td><i class="doc" data-doc="hashmap_blockdev_compare"> * <span class="command">\return</span> int 0 if the names are equal, otherwise 1</i></td></tr>
+<tr><th id="33">33</th><td><i class="doc" data-doc="hashmap_blockdev_compare"> * <span class="command">@param</span> <span class="arg">key1</span> Name of the first block device</i></td></tr>
+<tr><th id="34">34</th><td><i class="doc" data-doc="hashmap_blockdev_compare"> * <span class="command">@param</span> <span class="arg">key2</span> Name of the second block device</i></td></tr>
+<tr><th id="35">35</th><td><i class="doc" data-doc="hashmap_blockdev_compare"> * <span class="command">@return</span> int 0 if the names are equal, otherwise 1</i></td></tr>
 <tr><th id="36">36</th><td><i class="doc" data-doc="hashmap_blockdev_compare"> */</i></td></tr>
 <tr><th id="37">37</th><td><em>static</em> <em>int</em> <dfn class="tu decl def fn" id="hashmap_blockdev_compare" title='hashmap_blockdev_compare' data-type='int hashmap_blockdev_compare(const void * key1, const void * key2)' data-ref="hashmap_blockdev_compare" data-ref-filename="hashmap_blockdev_compare">hashmap_blockdev_compare</dfn>(<em>const</em> <em>void</em> *<dfn class="local col4 decl" id="24key1" title='key1' data-type='const void *' data-ref="24key1" data-ref-filename="24key1">key1</dfn>, <em>const</em> <em>void</em> *<dfn class="local col5 decl" id="25key2" title='key2' data-type='const void *' data-ref="25key2" data-ref-filename="25key2">key2</dfn>)</td></tr>
 <tr><th id="38">38</th><td>{</td></tr>
@@ -53,9 +53,9 @@
 <tr><th id="40">40</th><td>}</td></tr>
 <tr><th id="41">41</th><td></td></tr>
 <tr><th id="42">42</th><td><i class="doc">/**</i></td></tr>
-<tr><th id="43">43</th><td><i class="doc"> * <span class="command">\brief</span> Register a block device</i></td></tr>
+<tr><th id="43">43</th><td><i class="doc"> * <span class="command">@brief</span> Register a block device</i></td></tr>
 <tr><th id="44">44</th><td><i class="doc"> *</i></td></tr>
-<tr><th id="45">45</th><td><i class="doc"> * <span class="command">\param</span> <span class="arg">dev</span> The block device to register</i></td></tr>
+<tr><th id="45">45</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">dev</span> The block device to register</i></td></tr>
 <tr><th id="46">46</th><td><i class="doc"> */</i></td></tr>
 <tr><th id="47">47</th><td><em>void</em> <dfn class="decl def fn" id="blockdev_register" title='blockdev_register' data-ref="blockdev_register" data-ref-filename="blockdev_register">blockdev_register</dfn>(<a class="typedef" href="../include/mos/device/block.h.html#blockdev_t" title='blockdev_t' data-type='struct _blockdev' data-ref="blockdev_t" data-ref-filename="blockdev_t">blockdev_t</a> *<dfn class="local col6 decl" id="26dev" title='dev' data-type='blockdev_t *' data-ref="26dev" data-ref-filename="26dev">dev</dfn>)</td></tr>
 <tr><th id="48">48</th><td>{</td></tr>
@@ -73,10 +73,10 @@
 <tr><th id="60">60</th><td>}</td></tr>
 <tr><th id="61">61</th><td></td></tr>
 <tr><th id="62">62</th><td><i class="doc">/**</i></td></tr>
-<tr><th id="63">63</th><td><i class="doc"> * <span class="command">\brief</span> Get a block device by name</i></td></tr>
+<tr><th id="63">63</th><td><i class="doc"> * <span class="command">@brief</span> Get a block device by name</i></td></tr>
 <tr><th id="64">64</th><td><i class="doc"> *</i></td></tr>
-<tr><th id="65">65</th><td><i class="doc"> * <span class="command">\param</span> <span class="arg">name</span> The name of the block device</i></td></tr>
-<tr><th id="66">66</th><td><i class="doc"> * <span class="command">\return</span> blockdev_t* The pointer to such a block device, or NULL if nothing can be found.</i></td></tr>
+<tr><th id="65">65</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">name</span> The name of the block device</i></td></tr>
+<tr><th id="66">66</th><td><i class="doc"> * <span class="command">@return</span> blockdev_t* The pointer to such a block device, or NULL if nothing can be found.</i></td></tr>
 <tr><th id="67">67</th><td><i class="doc"> */</i></td></tr>
 <tr><th id="68">68</th><td><a class="typedef" href="../include/mos/device/block.h.html#blockdev_t" title='blockdev_t' data-type='struct _blockdev' data-ref="blockdev_t" data-ref-filename="blockdev_t">blockdev_t</a> *<dfn class="decl def fn" id="blockdev_find" title='blockdev_find' data-ref="blockdev_find" data-ref-filename="blockdev_find">blockdev_find</dfn>(<em>const</em> <em>char</em> *<dfn class="local col8 decl" id="28name" title='name' data-type='const char *' data-ref="28name" data-ref-filename="28name">name</dfn>)</td></tr>
 <tr><th id="69">69</th><td>{</td></tr>

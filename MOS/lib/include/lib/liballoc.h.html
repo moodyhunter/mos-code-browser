@@ -24,7 +24,7 @@
 <tr><th id="11">11</th><td><i class="doc"> * It could be as simple as disabling interrupts or acquiring a spinlock.</i></td></tr>
 <tr><th id="12">12</th><td><i class="doc"> * It's up to you to decide.</i></td></tr>
 <tr><th id="13">13</th><td><i class="doc"> *</i></td></tr>
-<tr><th id="14">14</th><td><i class="doc"> * <span class="command">\return</span> 0 if the lock was acquired successfully. Anything else is failure.</i></td></tr>
+<tr><th id="14">14</th><td><i class="doc"> * <span class="command">@return</span> 0 if the lock was acquired successfully. Anything else is failure.</i></td></tr>
 <tr><th id="15">15</th><td><i class="doc"> */</i></td></tr>
 <tr><th id="16">16</th><td><b>extern</b> <em>int</em> <dfn class="decl fn" id="liballoc_lock" title='liballoc_lock' data-ref="liballoc_lock" data-ref-filename="liballoc_lock">liballoc_lock</dfn>();</td></tr>
 <tr><th id="17">17</th><td></td></tr>
@@ -32,7 +32,7 @@
 <tr><th id="19">19</th><td><i class="doc"> * If it disabled interrupts, it enables interrupts. If it had acquiried a spinlock,</i></td></tr>
 <tr><th id="20">20</th><td><i class="doc"> * it releases the spinlock. etc.</i></td></tr>
 <tr><th id="21">21</th><td><i class="doc"> *</i></td></tr>
-<tr><th id="22">22</th><td><i class="doc"> * <span class="command">\return</span> 0 if the lock was successfully released.</i></td></tr>
+<tr><th id="22">22</th><td><i class="doc"> * <span class="command">@return</span> 0 if the lock was successfully released.</i></td></tr>
 <tr><th id="23">23</th><td><i class="doc"> */</i></td></tr>
 <tr><th id="24">24</th><td><b>extern</b> <em>int</em> <dfn class="decl fn" id="liballoc_unlock" title='liballoc_unlock' data-ref="liballoc_unlock" data-ref-filename="liballoc_unlock">liballoc_unlock</dfn>();</td></tr>
 <tr><th id="25">25</th><td><u>#<span data-ppcond="9">endif</span></u></td></tr>

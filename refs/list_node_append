@@ -1,4 +1,4 @@
-<dec f='MOS/lib/include/lib/structures/list.h' l='64' type='void list_node_append(list_node_t * head, list_node_t * item)'/>
+<dec f='MOS/lib/include/lib/structures/list.h' l='65' type='void list_node_append(list_node_t * head, list_node_t * item)'/>
 <use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='83' u='c' c='x86_install_interrupt_handler'/>
 <use f='MOS/kernel/device/console.c' l='38' u='c' c='console_register'/>
 <use f='MOS/kernel/panic.c' l='96' u='c' c='mos_install_kpanic_hook'/>

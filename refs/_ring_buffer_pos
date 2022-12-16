@@ -2,9 +2,9 @@
 <use f='MOS/lib/include/lib/structures/ring_buffer.h' l='16'/>
 <size>32</size>
 <doc f='MOS/lib/include/lib/structures/ring_buffer.h' l='8'>/**
- * \defgroup ringbuffer libs.RingBuffer
- * \ingroup libs
- * \brief A ring buffer.
+ * @defgroup ringbuffer libs.RingBuffer
+ * @ingroup libs
+ * @brief A ring buffer.
  * @{
  */
 

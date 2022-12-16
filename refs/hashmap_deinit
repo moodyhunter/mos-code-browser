@@ -3,12 +3,12 @@
 <use f='MOS/kernel/tasks/thread.c' l='55' u='c' c='thread_deinit'/>
 <def f='MOS/lib/structures/hashmap.c' l='43' ll='57' type='void hashmap_deinit(hashmap_t * map)'/>
 <doc f='MOS/lib/structures/hashmap.c' l='35'>/**
- * \brief Deinitialize a hashmap.
- * \pre The hashmap must be initialized.
- * \pre The hashmap should be empty, otherwise the entries will be leaked.
- * \warning This function does not free the hashmap itself, nor does it free the keys or values, but only the internal data structures.
+ * @brief Deinitialize a hashmap.
+ * @pre The hashmap must be initialized.
+ * @pre The hashmap should be empty, otherwise the entries will be leaked.
+ * @warning This function does not free the hashmap itself, nor does it free the keys or values, but only the internal data structures.
  *
- * \param map The hashmap to deinitialize.
+ * @param map The hashmap to deinitialize.
  */</doc>
 <use f='MOS/tests/hashmap/test_hashmap.c' l='20' u='c' c='hashmap_init_simple_macro'/>
 <use f='MOS/tests/hashmap/test_hashmap.c' l='37' u='c' c='hashmap_put_single'/>

@@ -1,6 +1,6 @@
-<dec f='MOS/lib/include/lib/structures/list.h' l='36'/>
-<doc f='MOS/lib/include/lib/structures/list.h' l='33'>/**
- * \brief Get the container struct of a list node
+<dec f='MOS/lib/include/lib/structures/list.h' l='37'/>
+<doc f='MOS/lib/include/lib/structures/list.h' l='34'>/**
+ * @brief Get the container struct of a list node
  */</doc>
 <use f='MOS/tests/linked_list/test_linked_list.c' l='178' u='c'/>
 <use f='MOS/tests/linked_list/test_linked_list.c' l='179' u='c'/>

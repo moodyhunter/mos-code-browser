@@ -1,6 +1,6 @@
-<use f='MOS/lib/include/lib/structures/list.h' l='13'/>
-<def f='MOS/lib/include/lib/structures/list.h' l='16' ll='20'/>
+<use f='MOS/lib/include/lib/structures/list.h' l='14'/>
+<def f='MOS/lib/include/lib/structures/list.h' l='17' ll='21'/>
 <size>16</size>
-<doc f='MOS/lib/include/lib/structures/list.h' l='15'>/** \brief A node in a linked list. */</doc>
+<doc f='MOS/lib/include/lib/structures/list.h' l='16'>/** @brief A node in a linked list. */</doc>
 <mbr r='list_node::prev' o='0' t='list_node_t *'/>
 <mbr r='list_node::next' o='64' t='list_node_t *'/>

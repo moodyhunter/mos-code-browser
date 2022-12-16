@@ -3,7 +3,7 @@
  * It could be as simple as disabling interrupts or acquiring a spinlock.
  * It&apos;s up to you to decide.
  *
- * \return 0 if the lock was acquired successfully. Anything else is failure.
+ * @return 0 if the lock was acquired successfully. Anything else is failure.
  */</doc>
 <def f='MOS/lib/liballoc.c' l='57' ll='61' type='int liballoc_lock()'/>
 <use f='MOS/lib/liballoc.c' l='216' u='c' c='liballoc_malloc'/>

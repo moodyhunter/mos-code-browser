@@ -1,4 +1,4 @@
-<dec f='MOS/lib/include/lib/structures/list.h' l='63' type='void list_node_prepend(list_node_t * head, list_node_t * item)'/>
+<dec f='MOS/lib/include/lib/structures/list.h' l='64' type='void list_node_prepend(list_node_t * head, list_node_t * item)'/>
 <def f='MOS/lib/structures/list.c' l='57' ll='60' type='void list_node_prepend(list_node_t * head, list_node_t * item)'/>
 <use f='MOS/tests/linked_list/test_linked_list.c' l='78' u='c' c='test_list_node_prepend'/>
 <use f='MOS/tests/linked_list/test_linked_list.c' l='79' u='c' c='test_list_node_prepend'/>

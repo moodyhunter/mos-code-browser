@@ -3,9 +3,9 @@
 <use f='MOS/lib/include/lib/structures/stack.h' l='13'/>
 <size>24</size>
 <doc f='MOS/lib/include/lib/structures/stack.h' l='7'>/**
- * \defgroup down_stack libs.DownStack
- * \ingroup libs
- * \brief A stack that grows down.
+ * @defgroup down_stack libs.DownStack
+ * @ingroup libs
+ * @brief A stack that grows down.
  * @{
  */</doc>
 <mbr r='_downwards_stack_t::top' o='0' t='uintptr_t'/>

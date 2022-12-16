@@ -1,8 +1,8 @@
 <dec f='MOS/lib/include/lib/structures/hashmap_common.h' l='13'/>
 <doc f='MOS/lib/include/lib/structures/hashmap_common.h' l='7'>/**
- * \defgroup libs_hashmap_commonfuncs libs.HashMap.Common
- * \ingroup libs_hashmap
- * \brief Common hash and comparison functions for hashmaps.
+ * @defgroup libs_hashmap_commonfuncs libs.HashMap.Common
+ * @ingroup libs_hashmap
+ * @brief Common hash and comparison functions for hashmaps.
  * @{
  */</doc>
 <use f='MOS/tests/hashmap/test_hashmap.c' l='13' u='c'/>

@@ -1,8 +1,8 @@
 <dec f='MOS/lib/include/lib/stdlib.h' l='17' type='s32 abs(s32 x)'/>
 <doc f='MOS/lib/include/lib/stdlib.h' l='10'>/**
- * \defgroup libs_stdlib libs.Stdlib
- * \ingroup libs
- * \brief Some standard library functions.
+ * @defgroup libs_stdlib libs.Stdlib
+ * @ingroup libs
+ * @brief Some standard library functions.
  * @{
  */</doc>
 <def f='MOS/lib/stdlib.c' l='13' ll='16' type='s32 abs(s32 x)'/>

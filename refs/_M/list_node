@@ -1,6 +1,6 @@
-<dec f='MOS/lib/include/lib/structures/list.h' l='42'/>
-<doc f='MOS/lib/include/lib/structures/list.h' l='38'>/**
- * \brief Get the `list_node&apos; of a list element.
+<dec f='MOS/lib/include/lib/structures/list.h' l='43'/>
+<doc f='MOS/lib/include/lib/structures/list.h' l='39'>/**
+ * @brief Get the `list_node&apos; of a list element.
  * This is exactly the reverse of `list_entry&apos; above.
  */</doc>
 <use f='MOS/arch/x86/devices/serial_console.c' l='23' u='c'/>

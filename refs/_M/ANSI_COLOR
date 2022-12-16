@@ -17,9 +17,9 @@
 <use f='MOS/arch/x86/devices/serial_console.c' l='61' u='c'/>
 <use f='MOS/arch/x86/devices/serial_console.c' l='68' u='c'/>
 <doc f='MOS/lib/include/lib/ansi_colors.h' l='12'>/**
- * \brief ANSI color codes creator.
+ * @brief ANSI color codes creator.
  *
- * \details
+ * @details
  * Usage:
  * - a foreground color: ANSI_COLOR(foreground)
  * - a foreground color with style: ANSI_COLOR(foreground, style)

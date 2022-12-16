@@ -1,5 +1,5 @@
-<dec f='MOS/lib/include/lib/structures/list.h' l='28'/>
-<doc f='MOS/lib/include/lib/structures/list.h' l='27'>// clang-format off</doc>
+<dec f='MOS/lib/include/lib/structures/list.h' l='29'/>
+<doc f='MOS/lib/include/lib/structures/list.h' l='28'>// clang-format off</doc>
 <use f='MOS/kernel/device/console.c' l='22' u='c'/>
 <use f='MOS/kernel/panic.c' l='17' u='c'/>
 <use f='MOS/tests/linked_list/test_linked_list.c' l='23' u='c'/>

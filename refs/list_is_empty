@@ -1,4 +1,4 @@
-<dec f='MOS/lib/include/lib/structures/list.h' l='60' type='_Bool list_is_empty(list_node_t * head)'/>
+<dec f='MOS/lib/include/lib/structures/list.h' l='61' type='_Bool list_is_empty(list_node_t * head)'/>
 <def f='MOS/lib/structures/list.c' l='32' ll='35' macro='1' type='_Bool list_is_empty(list_node_t * head)'/>
 <use f='MOS/tests/linked_list/test_linked_list.c' l='28' u='c' c='test_list_init'/>
 <use f='MOS/tests/linked_list/test_linked_list.c' l='34' u='c' c='test_list_init'/>
