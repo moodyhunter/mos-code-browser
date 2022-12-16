@@ -2,4 +2,4 @@
 <use f='MOS/kernel/ksyscall.c' l='63' u='c' c='impl_syscall_io_read'/>
 <use f='MOS/kernel/ksyscall.c' l='78' u='c' c='impl_syscall_io_write'/>
 <use f='MOS/kernel/ksyscall.c' l='313' u='c' c='impl_syscall_ipc_accept'/>
-<def f='MOS/kernel/tasks/process.c' l='138' ll='144' type='io_t * process_get_fd(process_t * process, fd_t fd)'/>
+<def f='MOS/kernel/tasks/process.c' l='146' ll='152' type='io_t * process_get_fd(process_t * process, fd_t fd)'/>

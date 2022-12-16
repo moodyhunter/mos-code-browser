@@ -9,8 +9,8 @@
 <use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='239' macro='1' u='a' c='x86_handle_exception'/>
 <use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='239' macro='1' u='a' c='x86_handle_exception'/>
 <use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='256' macro='1' u='a' c='x86_handle_exception'/>
-<use f='MOS/arch/x86/tasks/context.c' l='45' macro='1' u='a' c='x86_switch_to_thread'/>
-<use f='MOS/arch/x86/tasks/context.c' l='50' macro='1' u='a' c='x86_switch_to_thread'/>
+<use f='MOS/arch/x86/tasks/context.c' l='51' macro='1' u='a' c='x86_switch_to_thread'/>
+<use f='MOS/arch/x86/tasks/context.c' l='57' macro='1' u='a' c='x86_switch_to_thread'/>
 <use f='MOS/arch/x86/tasks/tss.c' l='13' macro='1' u='a' c='x86_tss_init'/>
 <use f='MOS/arch/x86/tasks/tss.c' l='14' macro='1' u='a' c='x86_tss_init'/>
 <use f='MOS/arch/x86/x86_platform.c' l='79' macro='1' u='a' c='x86_kpanic_hook'/>
@@ -29,7 +29,7 @@
 <use f='MOS/kernel/elf/elf.c' l='224' macro='1' u='a' c='elf_create_process'/>
 <use f='MOS/kernel/elf/elf.c' l='232' macro='1' u='a' c='elf_create_process'/>
 <use f='MOS/kernel/ipc/ipc.c' l='295' macro='1' u='a' c='ipc_accept'/>
-<use f='MOS/kernel/kernel_init.c' l='110' macro='1' u='a' c='mos_start_kernel'/>
+<use f='MOS/kernel/kernel_init.c' l='111' macro='1' u='a' c='mos_start_kernel'/>
 <use f='MOS/kernel/ksyscall.c' l='22' macro='1' u='a' c='impl_syscall_poweroff'/>
 <use f='MOS/kernel/ksyscall.c' l='43' macro='1' u='a' c='impl_syscall_file_open'/>
 <use f='MOS/kernel/ksyscall.c' l='63' macro='1' u='a' c='impl_syscall_io_read'/>
@@ -86,7 +86,7 @@
 <use f='MOS/kernel/mm/memops.c' l='118' macro='1' u='a' c='mm_unmap_proxy_space'/>
 <use f='MOS/kernel/mm/memops.c' l='123' macro='1' u='a' c='mm_copy_pages'/>
 <use f='MOS/kernel/tasks/fork.c' l='60' macro='1' u='a' c='process_handle_fork'/>
-<use f='MOS/kernel/tasks/process.c' l='203' macro='1' u='a' c='process_handle_cleanup'/>
+<use f='MOS/kernel/tasks/process.c' l='211' macro='1' u='a' c='process_handle_cleanup'/>
 <use f='MOS/kernel/tasks/schedule.c' l='51' macro='1' u='a' c='schedule_to_thread'/>
 <use f='MOS/kernel/tasks/schedule.c' l='58' macro='1' u='a' c='mos_update_current'/>
 <use f='MOS/kernel/tasks/schedule.c' l='79' macro='1' u='a' c='reschedule_for_wait_condition'/>

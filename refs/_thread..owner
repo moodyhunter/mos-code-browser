@@ -3,8 +3,8 @@
 <use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='239' macro='1' u='r' c='x86_handle_exception'/>
 <use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='239' macro='1' u='r' c='x86_handle_exception'/>
 <use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='256' macro='1' u='r' c='x86_handle_exception'/>
-<use f='MOS/arch/x86/tasks/context.c' l='45' u='r' c='x86_switch_to_thread'/>
-<use f='MOS/arch/x86/tasks/context.c' l='46' u='r' c='x86_switch_to_thread'/>
+<use f='MOS/arch/x86/tasks/context.c' l='51' u='r' c='x86_switch_to_thread'/>
+<use f='MOS/arch/x86/tasks/context.c' l='54' u='r' c='x86_switch_to_thread'/>
 <use f='MOS/arch/x86/x86_platform.c' l='83' macro='1' u='r' c='x86_kpanic_hook'/>
 <use f='MOS/arch/x86/x86_platform.c' l='83' macro='1' u='r' c='x86_kpanic_hook'/>
 <use f='MOS/arch/x86/x86_platform.c' l='85' macro='1' u='r' c='x86_kpanic_hook'/>
@@ -41,7 +41,7 @@
 <use f='MOS/kernel/ksyscall.c' l='326' macro='1' u='r' c='impl_syscall_ipc_connect'/>
 <use f='MOS/kernel/mm/cow.c' l='26' macro='1' u='r' c='copy_cow_pages_inplace'/>
 <use f='MOS/kernel/mm/cow.c' l='63' macro='1' u='r' c='cow_handle_page_fault'/>
-<use f='MOS/kernel/tasks/process.c' l='161' u='r' c='process_attach_thread'/>
-<use f='MOS/kernel/tasks/process.c' l='203' macro='1' u='r' c='process_handle_cleanup'/>
+<use f='MOS/kernel/tasks/process.c' l='169' u='r' c='process_attach_thread'/>
+<use f='MOS/kernel/tasks/process.c' l='211' macro='1' u='r' c='process_handle_cleanup'/>
 <use f='MOS/kernel/tasks/schedule.c' l='68' u='r' c='mos_update_current'/>
 <use f='MOS/kernel/tasks/thread.c' l='38' u='w' c='thread_allocate'/>

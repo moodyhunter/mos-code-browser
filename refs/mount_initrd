@@ -1,2 +1,2 @@
-<def f='MOS/kernel/kernel_init.c' l='21' ll='34' macro='1' type='_Bool mount_initrd()'/>
-<use f='MOS/kernel/kernel_init.c' l='90' u='c' c='mos_start_kernel'/>
+<def f='MOS/kernel/kernel_init.c' l='22' ll='35' macro='1' type='_Bool mount_initrd()'/>
+<use f='MOS/kernel/kernel_init.c' l='91' u='c' c='mos_start_kernel'/>

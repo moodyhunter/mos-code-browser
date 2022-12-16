@@ -3,4 +3,4 @@
 <use f='MOS/kernel/filesystem/pathutils.c' l='44' u='a' c='impl_path_get_subpath'/>
 <use f='MOS/kernel/filesystem/pathutils.c' l='87' u='a' c='path_find_fsnode'/>
 <use f='MOS/kernel/filesystem/pathutils.c' l='111' u='a' c='path_resolve'/>
-<use f='MOS/kernel/kernel_init.c' l='28' u='a' c='mount_initrd'/>
+<use f='MOS/kernel/kernel_init.c' l='29' u='a' c='mount_initrd'/>

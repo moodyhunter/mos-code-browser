@@ -1,4 +1,4 @@
 <dec f='MOS/kernel/include/mos/tasks/process.h' l='29' type='void process_attach_thread(process_t * process, thread_t * thread)'/>
 <use f='MOS/kernel/tasks/fork.c' l='69' u='c' c='process_handle_fork'/>
-<def f='MOS/kernel/tasks/process.c' l='157' ll='164' type='void process_attach_thread(process_t * process, thread_t * thread)'/>
-<use f='MOS/kernel/tasks/thread.c' l='91' u='c' c='thread_new'/>
+<def f='MOS/kernel/tasks/process.c' l='165' ll='172' type='void process_attach_thread(process_t * process, thread_t * thread)'/>
+<use f='MOS/kernel/tasks/thread.c' l='98' u='c' c='thread_new'/>

@@ -6,4 +6,4 @@
 <use f='MOS/kernel/mm/memops.c' l='182' u='c' c='mm_copy_pages'/>
 <use f='MOS/kernel/mm/memops.c' l='189' u='c' c='mm_copy_pages'/>
 <use f='MOS/kernel/mm/memops.c' l='190' u='c' c='mm_copy_pages'/>
-<use f='MOS/kernel/tasks/thread.c' l='82' u='c' c='thread_new'/>
+<use f='MOS/kernel/tasks/thread.c' l='83' u='c' c='thread_new'/>

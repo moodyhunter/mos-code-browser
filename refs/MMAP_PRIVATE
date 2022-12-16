@@ -3,4 +3,4 @@
 <use f='MOS/kernel/ipc/ipc.c' l='342' u='r' c='ipc_connect'/>
 <use f='MOS/kernel/mm/shm.c' l='28' u='r' c='shm_map_shared_block'/>
 <use f='MOS/kernel/tasks/fork.c' l='24' u='r' c='process_handle_fork'/>
-<use f='MOS/kernel/tasks/process.c' l='289' u='r' c='process_dump_mmaps'/>
+<use f='MOS/kernel/tasks/process.c' l='297' u='r' c='process_dump_mmaps'/>

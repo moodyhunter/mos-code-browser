@@ -1,0 +1,2 @@
+<dec f='MOS/kernel/include/mos/tasks/kthread.h' l='8' type='thread_t * kthread_create(thread_entry_t entry, void * arg, const char * name)'/>
+<def f='MOS/kernel/tasks/kthread.c' l='20' ll='24' type='thread_t * kthread_create(thread_entry_t entry, void * arg, const char * name)'/>

@@ -1,3 +1,3 @@
 <dec f='MOS/kernel/include/mos/printk.h' l='70' type='void printk_setup_console()'/>
-<use f='MOS/kernel/kernel_init.c' l='76' u='c' c='mos_start_kernel'/>
+<use f='MOS/kernel/kernel_init.c' l='77' u='c' c='mos_start_kernel'/>
 <def f='MOS/kernel/printk.c' l='16' ll='53' type='void printk_setup_console()'/>

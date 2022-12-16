@@ -74,10 +74,10 @@
 <use f='MOS/kernel/panic.c' l='30' macro='1' u='c' c='kwarn_handler_remove'/>
 <def f='MOS/kernel/panic.c' l='72' ll='90' type='void mos_kwarn(const char * func, u32 line, const char * fmt)'/>
 <use f='MOS/kernel/printk.c' l='51' macro='1' u='c' c='printk_setup_console'/>
-<use f='MOS/kernel/tasks/process.c' l='120' macro='1' u='c' c='process_get'/>
-<use f='MOS/kernel/tasks/process.c' l='130' macro='1' u='c' c='process_attach_ref_fd'/>
-<use f='MOS/kernel/tasks/process.c' l='248' macro='1' u='c' c='process_grow_heap'/>
-<use f='MOS/kernel/tasks/thread.c' l='106' macro='1' u='c' c='thread_handle_exit'/>
+<use f='MOS/kernel/tasks/process.c' l='128' macro='1' u='c' c='process_get'/>
+<use f='MOS/kernel/tasks/process.c' l='138' macro='1' u='c' c='process_attach_ref_fd'/>
+<use f='MOS/kernel/tasks/process.c' l='256' macro='1' u='c' c='process_grow_heap'/>
+<use f='MOS/kernel/tasks/thread.c' l='113' macro='1' u='c' c='thread_handle_exit'/>
 <use f='MOS/lib/liballoc.c' l='151' macro='1' u='c' c='allocate_new_pages_for'/>
 <use f='MOS/lib/liballoc.c' l='221' macro='1' u='c' c='liballoc_malloc'/>
 <use f='MOS/lib/liballoc.c' l='488' macro='1' u='c' c='liballoc_malloc'/>

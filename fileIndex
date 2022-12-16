@@ -104,6 +104,7 @@ MOS/kernel/include/mos/mm/shm.h
 MOS/kernel/include/mos/tasks/thread.h
 MOS/kernel/include/mos/tasks/wait.h
 MOS/kernel/kernel_init.c
+MOS/kernel/include/mos/tasks/kthread.h
 MOS/kernel/ksyscall.c
 MOS/build/include/mos/syscall/decl.h
 MOS/kernel/mm/cow.c
@@ -114,6 +115,7 @@ MOS/lib/include/lib/stdio.h
 MOS/kernel/printk.c
 MOS/kernel/stack_protector.c
 MOS/kernel/tasks/fork.c
+MOS/kernel/tasks/kthread.c
 MOS/kernel/tasks/process.c
 MOS/kernel/tasks/schedule.c
 MOS/kernel/tasks/thread.c
