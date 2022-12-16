@@ -7,7 +7,7 @@
 <use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='239' macro='1' u='m' c='x86_handle_exception'/>
 <use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='239' macro='1' u='m' c='x86_handle_exception'/>
 <use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='256' macro='1' u='m' c='x86_handle_exception'/>
-<use f='MOS/arch/x86/tasks/context.c' l='51' macro='1' u='m' c='x86_switch_to_thread'/>
+<use f='MOS/arch/x86/tasks/context.c' l='52' macro='1' u='m' c='x86_switch_to_thread'/>
 <use f='MOS/arch/x86/x86_platform.c' l='79' macro='1' u='m' c='x86_kpanic_hook'/>
 <use f='MOS/arch/x86/x86_platform.c' l='81' macro='1' u='m' c='x86_kpanic_hook'/>
 <use f='MOS/arch/x86/x86_platform.c' l='83' macro='1' u='m' c='x86_kpanic_hook'/>
@@ -81,6 +81,7 @@
 <use f='MOS/kernel/mm/memops.c' l='118' macro='1' u='m' c='mm_unmap_proxy_space'/>
 <use f='MOS/kernel/mm/memops.c' l='123' macro='1' u='m' c='mm_copy_pages'/>
 <use f='MOS/kernel/tasks/fork.c' l='60' macro='1' u='m' c='process_handle_fork'/>
+<use f='MOS/kernel/tasks/kthread.c' l='25' macro='1' u='m' c='kthread_entry'/>
 <use f='MOS/kernel/tasks/process.c' l='211' macro='1' u='m' c='process_handle_cleanup'/>
 <use f='MOS/kernel/tasks/schedule.c' l='51' macro='1' u='m' c='schedule_to_thread'/>
 <use f='MOS/kernel/tasks/schedule.c' l='58' macro='1' u='m' c='mos_update_current'/>

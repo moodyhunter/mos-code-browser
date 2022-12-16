@@ -3,4 +3,4 @@
 <offset>0</offset>
 <use f='MOS/arch/x86/tasks/context.c' l='22' u='m' c='x86_setup_thread_context'/>
 <use f='MOS/arch/x86/tasks/context.c' l='24' u='a' c='x86_setup_thread_context'/>
-<use f='MOS/arch/x86/tasks/context.c' l='46' u='a' c='x86_copy_thread_context'/>
+<use f='MOS/arch/x86/tasks/context.c' l='47' u='a' c='x86_copy_thread_context'/>

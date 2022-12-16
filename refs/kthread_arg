@@ -1,0 +1,3 @@
+<def f='MOS/kernel/tasks/kthread.c' l='14' ll='18'/>
+<use f='MOS/kernel/tasks/kthread.c' l='14'/>
+<size>16</size>

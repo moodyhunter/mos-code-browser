@@ -6,3 +6,4 @@
 <use f='MOS/kernel/io/terminal.c' l='70' u='c' c='terminal_create_pipe'/>
 <use f='MOS/kernel/ipc/ipc.c' l='234' u='c' c='ipc_init'/>
 <use f='MOS/kernel/ipc/ipc.c' l='249' u='c' c='ipc_create'/>
+<use f='MOS/kernel/tasks/kthread.c' l='37' u='c' c='kthread_create'/>

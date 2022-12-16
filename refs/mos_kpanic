@@ -107,7 +107,7 @@
 <use f='MOS/kernel/stack_protector.c' l='10' macro='1' u='c' c='__stack_chk_fail'/>
 <use f='MOS/kernel/tasks/fork.c' l='15' macro='1' u='c' c='process_handle_fork'/>
 <use f='MOS/kernel/tasks/fork.c' l='34' macro='1' u='c' c='process_handle_fork'/>
-<use f='MOS/kernel/tasks/kthread.c' l='16' macro='1' u='c' c='kthread_init'/>
+<use f='MOS/kernel/tasks/kthread.c' l='31' macro='1' u='c' c='kthread_init'/>
 <use f='MOS/kernel/tasks/process.c' l='106' macro='1' u='c' c='process_new'/>
 <use f='MOS/kernel/tasks/process.c' l='120' macro='1' u='c' c='process_new'/>
 <use f='MOS/kernel/tasks/process.c' l='134' macro='1' u='c' c='process_attach_ref_fd'/>

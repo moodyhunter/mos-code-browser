@@ -1,6 +1,6 @@
 <dec f='MOS/lib/include/lib/structures/stack.h' l='15' type='uintptr_t'/>
 <offset>0</offset>
-<use f='MOS/arch/x86/tasks/context.c' l='57' u='r' c='x86_switch_to_thread'/>
+<use f='MOS/arch/x86/tasks/context.c' l='58' u='r' c='x86_switch_to_thread'/>
 <use f='MOS/kernel/tasks/thread.c' l='87' u='r' c='thread_new'/>
 <use f='MOS/lib/structures/stack.c' l='12' u='w' c='stack_init'/>
 <use f='MOS/lib/structures/stack.c' l='25' u='r' c='stack_grow'/>

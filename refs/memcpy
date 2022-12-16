@@ -2,7 +2,7 @@
 <doc f='MOS/lib/include/lib/string.h' l='17'>// ! The memory areas must not overlap.</doc>
 <use f='MOS/arch/x86/cpu/smp.c' l='90' u='c' c='x86_smp_init'/>
 <use f='MOS/arch/x86/devices/initrd_blockdev.c' l='29' u='c' c='initrd_read'/>
-<use f='MOS/arch/x86/tasks/context.c' l='45' u='c' c='x86_copy_thread_context'/>
+<use f='MOS/arch/x86/tasks/context.c' l='46' u='c' c='x86_copy_thread_context'/>
 <use f='MOS/kernel/filesystem/cpio/cpio.c' l='129' u='c' c='cpio_open'/>
 <use f='MOS/kernel/filesystem/pathutils.c' l='162' u='c' c='path_to_string_relative'/>
 <use f='MOS/kernel/mm/cow.c' l='41' u='c' c='copy_cow_pages_inplace'/>

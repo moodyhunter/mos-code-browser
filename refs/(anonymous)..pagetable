@@ -1,6 +1,6 @@
 <dec f='MOS/kernel/include/mos/platform/platform.h' l='82' type='paging_handle_t'/>
 <offset>192</offset>
-<use f='MOS/arch/x86/tasks/context.c' l='51' u='m' c='x86_switch_to_thread'/>
+<use f='MOS/arch/x86/tasks/context.c' l='52' u='m' c='x86_switch_to_thread'/>
 <use f='MOS/arch/x86/x86_platform.c' l='79' u='m' c='x86_kpanic_hook'/>
 <use f='MOS/arch/x86/x86_platform.c' l='86' u='m' c='x86_kpanic_hook'/>
 <use f='MOS/arch/x86/x86_platform.c' l='102' u='r' c='x86_kpanic_hook'/>
