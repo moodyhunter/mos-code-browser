@@ -1,5 +1,5 @@
 <def f='MOS/kernel/include/mos/mm/kmalloc.h' l='25' ll='28' macro='1' type='void kfree(const void * ptr)'/>
-<use f='MOS/arch/x86/x86_platform_api.c' l='94' u='c' c='platform_mm_destroy_user_pgd'/>
+<use f='MOS/arch/x86/x86_platform_api.c' l='105' u='c' c='platform_mm_destroy_user_pgd'/>
 <use f='MOS/kernel/cmdline.c' l='93' u='c' c='mos_cmdline_destroy'/>
 <use f='MOS/kernel/cmdline.c' l='98' u='c' c='mos_cmdline_destroy'/>
 <use f='MOS/kernel/cmdline.c' l='99' u='c' c='mos_cmdline_destroy'/>

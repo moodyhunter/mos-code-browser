@@ -22,7 +22,7 @@
 <use f='MOS/arch/x86/x86_platform.c' l='102' macro='1' u='c' c='x86_kpanic_hook'/>
 <use f='MOS/arch/x86/x86_platform.c' l='126' macro='1' u='c' c='x86_start_kernel'/>
 <use f='MOS/arch/x86/x86_platform.c' l='160' macro='1' u='c' c='x86_start_kernel'/>
-<def f='MOS/arch/x86/x86_platform_api.c' l='29' ll='32' type='u32 platform_current_cpu_id()'/>
+<def f='MOS/arch/x86/x86_platform_api.c' l='30' ll='33' type='u32 platform_current_cpu_id()'/>
 <use f='MOS/kernel/elf/elf.c' l='59' macro='1' u='c' c='elf_create_process'/>
 <use f='MOS/kernel/elf/elf.c' l='214' macro='1' u='c' c='elf_create_process'/>
 <use f='MOS/kernel/elf/elf.c' l='224' macro='1' u='c' c='elf_create_process'/>

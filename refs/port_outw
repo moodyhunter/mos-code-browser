@@ -1,2 +1,2 @@
 <def f='MOS/arch/x86/include/mos/x86/devices/port.h' l='36' ll='39' macro='1' type='void port_outw(x86_port_t port, u16 value)'/>
-<use f='MOS/arch/x86/x86_platform_api.c' l='18' u='c' c='platform_shutdown'/>
+<use f='MOS/arch/x86/x86_platform_api.c' l='19' u='c' c='platform_shutdown'/>

@@ -3,4 +3,4 @@
 <use f='MOS/arch/x86/x86_platform.c' l='170' u='c' c='x86_start_kernel'/>
 <use f='MOS/arch/x86/x86_platform.c' l='171' u='c' c='x86_start_kernel'/>
 <use f='MOS/arch/x86/x86_platform.c' l='172' u='c' c='x86_start_kernel'/>
-<use f='MOS/arch/x86/x86_platform_api.c' l='46' u='c' c='platform_irq_handler_install'/>
+<use f='MOS/arch/x86/x86_platform_api.c' l='57' u='c' c='platform_irq_handler_install'/>

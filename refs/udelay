@@ -1,1 +1,2 @@
 <def f='MOS/arch/x86/include/mos/x86/delays.h' l='28' ll='33' macro='1' type='void udelay(u64 us)'/>
+<use f='MOS/arch/x86/x86_platform_api.c' l='42' u='c' c='platform_usleep'/>

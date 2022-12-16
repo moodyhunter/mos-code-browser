@@ -1,2 +1,2 @@
 <def f='MOS/arch/x86/include/mos/x86/cpu/cpu.h' l='30' ll='35' macro='1' type='u32 x86_cpu_get_id()'/>
-<use f='MOS/arch/x86/x86_platform_api.c' l='31' u='c' c='platform_current_cpu_id'/>
+<use f='MOS/arch/x86/x86_platform_api.c' l='32' u='c' c='platform_current_cpu_id'/>

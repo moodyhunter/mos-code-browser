@@ -2,3 +2,4 @@
 <use f='MOS/arch/x86/cpu/smp.c' l='66' u='c' c='x86_cpu_start'/>
 <use f='MOS/arch/x86/cpu/smp.c' l='72' u='c' c='x86_cpu_start'/>
 <use f='MOS/arch/x86/cpu/smp.c' l='74' u='c' c='x86_cpu_start'/>
+<use f='MOS/arch/x86/x86_platform_api.c' l='37' u='c' c='platform_msleep'/>

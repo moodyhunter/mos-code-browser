@@ -1,6 +1,6 @@
-<dec f='MOS/kernel/include/mos/platform/platform.h' l='133' type='vmblock_t platform_mm_alloc_pages(paging_handle_t table, size_t npages, pgalloc_hints hints, vm_flags vm_flags)'/>
-<doc f='MOS/kernel/include/mos/platform/platform.h' l='132'>// Platform Paging APIs</doc>
-<def f='MOS/arch/x86/x86_platform_api.c' l='97' ll='101' type='vmblock_t platform_mm_alloc_pages(paging_handle_t table, size_t npages, pgalloc_hints hints, vm_flags vm_flags)'/>
+<dec f='MOS/kernel/include/mos/platform/platform.h' l='135' type='vmblock_t platform_mm_alloc_pages(paging_handle_t table, size_t npages, pgalloc_hints hints, vm_flags vm_flags)'/>
+<doc f='MOS/kernel/include/mos/platform/platform.h' l='134'>// Platform Paging APIs</doc>
+<def f='MOS/arch/x86/x86_platform_api.c' l='108' ll='112' type='vmblock_t platform_mm_alloc_pages(paging_handle_t table, size_t npages, pgalloc_hints hints, vm_flags vm_flags)'/>
 <use f='MOS/kernel/elf/elf.c' l='59' u='c' c='elf_create_process'/>
 <use f='MOS/kernel/mm/memops.c' l='18' u='c' c='mos_kernel_mm_init'/>
 <use f='MOS/kernel/mm/memops.c' l='37' u='c' c='liballoc_alloc_page'/>

@@ -8,9 +8,9 @@
 <use f='MOS/arch/x86/x86_platform.c' l='86' u='r' c='x86_kpanic_hook'/>
 <use f='MOS/arch/x86/x86_platform.c' l='86' u='r' c='x86_kpanic_hook'/>
 <use f='MOS/arch/x86/x86_platform.c' l='126' u='w' c='x86_start_kernel'/>
-<use f='MOS/arch/x86/x86_platform_api.c' l='59' u='w' c='platform_mm_get_kernel_pgd'/>
-<use f='MOS/arch/x86/x86_platform_api.c' l='69' u='w' c='platform_mm_create_user_pgd'/>
-<use f='MOS/arch/x86/x86_platform_api.c' l='94' u='r' c='platform_mm_destroy_user_pgd'/>
+<use f='MOS/arch/x86/x86_platform_api.c' l='70' u='w' c='platform_mm_get_kernel_pgd'/>
+<use f='MOS/arch/x86/x86_platform_api.c' l='80' u='w' c='platform_mm_create_user_pgd'/>
+<use f='MOS/arch/x86/x86_platform_api.c' l='105' u='r' c='platform_mm_destroy_user_pgd'/>
 <use f='MOS/kernel/mm/memops.c' l='132' u='r' c='mm_copy_pages'/>
 <use f='MOS/kernel/mm/memops.c' l='132' u='r' c='mm_copy_pages'/>
 <use f='MOS/kernel/mm/memops.c' l='148' u='r' c='mm_copy_pages'/>

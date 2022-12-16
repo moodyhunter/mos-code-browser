@@ -1,5 +1,5 @@
-<dec f='MOS/kernel/include/mos/platform/platform.h' l='134' type='vmblock_t platform_mm_alloc_pages_at(paging_handle_t table, uintptr_t vaddr, size_t npages, vm_flags vflags)'/>
-<def f='MOS/arch/x86/x86_platform_api.c' l='103' ll='107' type='vmblock_t platform_mm_alloc_pages_at(paging_handle_t table, uintptr_t vaddr, size_t npages, vm_flags vflags)'/>
+<dec f='MOS/kernel/include/mos/platform/platform.h' l='136' type='vmblock_t platform_mm_alloc_pages_at(paging_handle_t table, uintptr_t vaddr, size_t npages, vm_flags vflags)'/>
+<def f='MOS/arch/x86/x86_platform_api.c' l='114' ll='118' type='vmblock_t platform_mm_alloc_pages_at(paging_handle_t table, uintptr_t vaddr, size_t npages, vm_flags vflags)'/>
 <use f='MOS/kernel/mm/cow.c' l='38' u='c' c='copy_cow_pages_inplace'/>
 <use f='MOS/kernel/mm/cow.c' l='43' u='c' c='copy_cow_pages_inplace'/>
 <use f='MOS/kernel/tasks/process.c' l='253' u='c' c='process_grow_heap'/>
