@@ -77,7 +77,7 @@
 <use f='MOS/kernel/tasks/process.c' l='126' macro='1' u='c' c='process_get'/>
 <use f='MOS/kernel/tasks/process.c' l='136' macro='1' u='c' c='process_attach_ref_fd'/>
 <use f='MOS/kernel/tasks/process.c' l='254' macro='1' u='c' c='process_grow_heap'/>
-<use f='MOS/kernel/tasks/thread.c' l='101' macro='1' u='c' c='thread_handle_exit'/>
+<use f='MOS/kernel/tasks/thread.c' l='100' macro='1' u='c' c='thread_handle_exit'/>
 <use f='MOS/lib/liballoc.c' l='151' macro='1' u='c' c='allocate_new_pages_for'/>
 <use f='MOS/lib/liballoc.c' l='221' macro='1' u='c' c='liballoc_malloc'/>
 <use f='MOS/lib/liballoc.c' l='488' macro='1' u='c' c='liballoc_malloc'/>

@@ -4,8 +4,7 @@
 <use f='MOS/kernel/elf/elf.c' l='59' u='c' c='elf_create_process'/>
 <use f='MOS/kernel/mm/memops.c' l='18' u='c' c='mos_kernel_mm_init'/>
 <use f='MOS/kernel/mm/memops.c' l='37' u='c' c='liballoc_alloc_page'/>
-<use f='MOS/kernel/mm/shm.c' l='18' u='c' c='shm_allocate'/>
+<use f='MOS/kernel/mm/shm.c' l='19' u='c' c='shm_allocate'/>
 <use f='MOS/kernel/tasks/fork.c' l='36' u='c' c='process_handle_fork'/>
 <use f='MOS/kernel/tasks/process.c' l='114' u='c' c='process_new'/>
 <use f='MOS/kernel/tasks/thread.c' l='66' u='c' c='thread_new'/>
-<use f='MOS/kernel/tasks/thread.c' l='73' u='c' c='thread_new'/>

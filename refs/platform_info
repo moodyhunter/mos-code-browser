@@ -1,7 +1,7 @@
 <dec f='MOS/kernel/include/mos/platform/platform.h' l='110' type='mos_platform_info_t *const'/>
 <use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='138' macro='1' u='r' c='x86_handle_interrupt'/>
 <use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='237' macro='1' u='r' c='x86_handle_exception'/>
-<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='260' macro='1' u='r' c='x86_handle_exception'/>
+<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='257' macro='1' u='r' c='x86_handle_exception'/>
 <use f='MOS/arch/x86/tasks/context.c' l='45' macro='1' u='r' c='x86_switch_to_thread'/>
 <use f='MOS/arch/x86/x86_platform.c' l='79' macro='1' u='r' c='x86_kpanic_hook'/>
 <use f='MOS/arch/x86/x86_platform.c' l='81' macro='1' u='r' c='x86_kpanic_hook'/>
@@ -64,8 +64,8 @@
 <use f='MOS/kernel/ksyscall.c' l='323' macro='1' u='r' c='impl_syscall_ipc_connect'/>
 <use f='MOS/kernel/ksyscall.c' l='326' macro='1' u='r' c='impl_syscall_ipc_connect'/>
 <use f='MOS/kernel/mm/cow.c' l='26' macro='1' u='r' c='copy_cow_pages_inplace'/>
-<use f='MOS/kernel/mm/cow.c' l='54' macro='1' u='r' c='cow_handle_page_fault'/>
-<use f='MOS/kernel/mm/cow.c' l='63' macro='1' u='r' c='cow_handle_page_fault'/>
+<use f='MOS/kernel/mm/cow.c' l='45' macro='1' u='r' c='cow_handle_page_fault'/>
+<use f='MOS/kernel/mm/cow.c' l='57' macro='1' u='r' c='cow_handle_page_fault'/>
 <use f='MOS/kernel/mm/memops.c' l='18' macro='1' u='r' c='mos_kernel_mm_init'/>
 <use f='MOS/kernel/mm/memops.c' l='37' macro='1' u='r' c='liballoc_alloc_page'/>
 <use f='MOS/kernel/mm/memops.c' l='63' macro='1' u='r' c='liballoc_free_page'/>

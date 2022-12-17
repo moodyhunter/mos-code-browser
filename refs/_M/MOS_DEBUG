@@ -2,3 +2,4 @@
 <use f='MOS/arch/x86/interrupt/lapic.c' l='82' u='a'/>
 <use f='MOS/arch/x86/interrupt/lapic.c' l='94' u='a'/>
 <use f='MOS/arch/x86/mm/paging.c' l='68' u='c'/>
+<use f='MOS/kernel/mm/cow.c' l='58' u='c'/>

@@ -1,4 +1,4 @@
-<dec f='MOS/kernel/include/mos/tasks/task_types.h' l='66' type='paging_handle_t'/>
+<dec f='MOS/kernel/include/mos/tasks/task_types.h' l='67' type='paging_handle_t'/>
 <offset>352</offset>
 <use f='MOS/arch/x86/tasks/context.c' l='45' u='m' c='x86_switch_to_thread'/>
 <use f='MOS/arch/x86/tasks/context.c' l='46' u='m' c='x86_switch_to_thread'/>
@@ -9,13 +9,15 @@
 <use f='MOS/kernel/elf/elf.c' l='214' u='r' c='elf_create_process'/>
 <use f='MOS/kernel/elf/elf.c' l='215' u='r' c='elf_create_process'/>
 <use f='MOS/kernel/mm/cow.c' l='26' u='r' c='copy_cow_pages_inplace'/>
+<use f='MOS/kernel/mm/cow.c' l='81' u='r' c='cow_handle_page_fault'/>
 <use f='MOS/kernel/mm/cow.c' l='82' u='r' c='cow_handle_page_fault'/>
-<use f='MOS/kernel/mm/shm.c' l='17' u='m' c='shm_allocate'/>
-<use f='MOS/kernel/mm/shm.c' l='18' u='r' c='shm_allocate'/>
-<use f='MOS/kernel/mm/shm.c' l='20' u='r' c='shm_allocate'/>
-<use f='MOS/kernel/mm/shm.c' l='25' u='m' c='shm_map_shared_block'/>
-<use f='MOS/kernel/mm/shm.c' l='26' u='r' c='shm_map_shared_block'/>
+<use f='MOS/kernel/mm/cow.c' l='93' u='r' c='cow_handle_page_fault'/>
+<use f='MOS/kernel/mm/shm.c' l='18' u='m' c='shm_allocate'/>
+<use f='MOS/kernel/mm/shm.c' l='19' u='r' c='shm_allocate'/>
+<use f='MOS/kernel/mm/shm.c' l='21' u='r' c='shm_allocate'/>
+<use f='MOS/kernel/mm/shm.c' l='26' u='m' c='shm_map_shared_block'/>
 <use f='MOS/kernel/mm/shm.c' l='27' u='r' c='shm_map_shared_block'/>
+<use f='MOS/kernel/mm/shm.c' l='28' u='r' c='shm_map_shared_block'/>
 <use f='MOS/kernel/tasks/fork.c' l='36' u='r' c='process_handle_fork'/>
 <use f='MOS/kernel/tasks/fork.c' l='43' u='r' c='process_handle_fork'/>
 <use f='MOS/kernel/tasks/fork.c' l='43' u='r' c='process_handle_fork'/>

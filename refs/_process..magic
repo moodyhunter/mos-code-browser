@@ -1,4 +1,4 @@
-<dec f='MOS/kernel/include/mos/tasks/task_types.h' l='60' type='u32'/>
+<dec f='MOS/kernel/include/mos/tasks/task_types.h' l='61' type='u32'/>
 <offset>0</offset>
 <use f='MOS/kernel/include/mos/tasks/process.h' l='18' u='r' c='process_is_valid'/>
 <use f='MOS/kernel/tasks/process.c' l='38' u='w' c='process_allocate'/>

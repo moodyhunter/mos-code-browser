@@ -1,8 +1,8 @@
 <dec f='MOS/lib/include/lib/structures/list.h' l='20' type='list_node_t *'/>
 <offset>64</offset>
 <use f='MOS/arch/x86/devices/text_mode_console.c' l='166' macro='1' u='w'/>
-<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='295' macro='1' u='r' c='x86_handle_irq'/>
-<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='295' macro='1' u='r' c='x86_handle_irq'/>
+<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='292' macro='1' u='r' c='x86_handle_irq'/>
+<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='292' macro='1' u='r' c='x86_handle_irq'/>
 <use f='MOS/kernel/device/console.c' l='22' macro='1' u='w'/>
 <use f='MOS/kernel/device/console.c' l='26' macro='1' u='w'/>
 <use f='MOS/kernel/device/console.c' l='51' macro='1' u='r' c='console_get'/>

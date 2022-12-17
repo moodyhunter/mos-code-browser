@@ -5,4 +5,4 @@
 <use f='MOS/kernel/mm/memops.c' l='80' u='c' c='mm_alloc_zeroed_pages'/>
 <use f='MOS/kernel/mm/memops.c' l='101' u='c' c='mm_alloc_zeroed_pages_at'/>
 <use f='MOS/kernel/mm/memops.c' l='112' u='c' c='mm_map_proxy_space'/>
-<use f='MOS/kernel/mm/shm.c' l='27' u='c' c='shm_map_shared_block'/>
+<use f='MOS/kernel/mm/shm.c' l='28' u='c' c='shm_map_shared_block'/>

@@ -28,6 +28,7 @@
 <use f='MOS/kernel/mm/cow.c' l='19' u='r' c='mm_make_process_map_cow'/>
 <use f='MOS/kernel/mm/cow.c' l='20' u='r' c='mm_make_process_map_cow'/>
 <use f='MOS/kernel/mm/cow.c' l='82' u='r' c='cow_handle_page_fault'/>
+<use f='MOS/kernel/mm/cow.c' l='93' u='r' c='cow_handle_page_fault'/>
 <use f='MOS/kernel/mm/memops.c' l='85' u='w' c='mm_alloc_zeroed_pages'/>
 <use f='MOS/kernel/mm/memops.c' l='106' u='w' c='mm_alloc_zeroed_pages_at'/>
 <use f='MOS/kernel/tasks/fork.c' l='36' u='r' c='process_handle_fork'/>

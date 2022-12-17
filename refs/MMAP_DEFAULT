@@ -4,4 +4,3 @@
 <use f='MOS/kernel/tasks/fork.c' l='38' u='r' c='process_handle_fork'/>
 <use f='MOS/kernel/tasks/process.c' l='115' u='r' c='process_new'/>
 <use f='MOS/kernel/tasks/thread.c' l='68' u='r' c='thread_new'/>
-<use f='MOS/kernel/tasks/thread.c' l='74' u='r' c='thread_new'/>

@@ -1,8 +1,8 @@
 <dec f='MOS/kernel/include/mos/mm/mm_types.h' l='11' type='vmblock_t'/>
 <offset>64</offset>
 <use f='MOS/kernel/ipc/ipc.c' l='347' u='m' c='ipc_connect'/>
-<use f='MOS/kernel/mm/shm.c' l='20' u='w' c='shm_allocate'/>
-<use f='MOS/kernel/mm/shm.c' l='25' u='m' c='shm_map_shared_block'/>
+<use f='MOS/kernel/mm/shm.c' l='21' u='w' c='shm_allocate'/>
 <use f='MOS/kernel/mm/shm.c' l='26' u='m' c='shm_map_shared_block'/>
 <use f='MOS/kernel/mm/shm.c' l='27' u='m' c='shm_map_shared_block'/>
-<use f='MOS/kernel/mm/shm.c' l='27' u='m' c='shm_map_shared_block'/>
+<use f='MOS/kernel/mm/shm.c' l='28' u='m' c='shm_map_shared_block'/>
+<use f='MOS/kernel/mm/shm.c' l='28' u='m' c='shm_map_shared_block'/>

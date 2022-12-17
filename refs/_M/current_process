@@ -27,5 +27,5 @@
 <use f='MOS/kernel/ksyscall.c' l='323' u='c'/>
 <use f='MOS/kernel/ksyscall.c' l='326' u='c'/>
 <use f='MOS/kernel/mm/cow.c' l='26' u='c'/>
-<use f='MOS/kernel/mm/cow.c' l='63' u='c'/>
+<use f='MOS/kernel/mm/cow.c' l='57' u='c'/>
 <use f='MOS/kernel/tasks/process.c' l='209' u='c'/>

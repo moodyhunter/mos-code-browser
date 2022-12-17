@@ -1,4 +1,4 @@
-<dec f='MOS/kernel/include/mos/tasks/task_types.h' l='62' type='pid_t'/>
+<dec f='MOS/kernel/include/mos/tasks/task_types.h' l='63' type='pid_t'/>
 <offset>128</offset>
 <use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='245' u='r' c='x86_handle_exception'/>
 <use f='MOS/arch/x86/x86_platform.c' l='83' u='r' c='x86_kpanic_hook'/>

@@ -1,4 +1,4 @@
-<dec f='MOS/kernel/include/mos/tasks/task_types.h' l='81' type='tid_t'/>
+<dec f='MOS/kernel/include/mos/tasks/task_types.h' l='82' type='tid_t'/>
 <offset>32</offset>
 <use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='162' u='r' c='x86_handle_interrupt'/>
 <use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='243' u='r' c='x86_handle_exception'/>
@@ -19,4 +19,4 @@
 <use f='MOS/kernel/tasks/schedule.c' l='80' u='r' c='reschedule_for_wait_condition'/>
 <use f='MOS/kernel/tasks/schedule.c' l='81' u='r' c='reschedule_for_wait_condition'/>
 <use f='MOS/kernel/tasks/thread.c' l='37' u='w' c='thread_allocate'/>
-<use f='MOS/kernel/tasks/thread.c' l='85' u='a' c='thread_new'/>
+<use f='MOS/kernel/tasks/thread.c' l='84' u='a' c='thread_new'/>

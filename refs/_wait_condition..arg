@@ -1,4 +1,4 @@
-<dec f='MOS/kernel/include/mos/tasks/task_types.h' l='53' type='void *'/>
+<dec f='MOS/kernel/include/mos/tasks/task_types.h' l='54' type='void *'/>
 <offset>0</offset>
 <use f='MOS/kernel/ipc/ipc.c' l='75' u='r' c='wc_ipc_name_is_ready'/>
 <use f='MOS/kernel/ipc/ipc.c' l='80' u='r' c='wc_ipc_name_cleanup'/>

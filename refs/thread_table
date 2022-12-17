@@ -6,5 +6,5 @@
 <use f='MOS/kernel/tasks/thread.c' l='49' u='r' c='thread_init'/>
 <use f='MOS/kernel/tasks/thread.c' l='54' u='r' c='thread_deinit'/>
 <use f='MOS/kernel/tasks/thread.c' l='55' u='r' c='thread_deinit'/>
-<use f='MOS/kernel/tasks/thread.c' l='85' u='r' c='thread_new'/>
-<use f='MOS/kernel/tasks/thread.c' l='93' u='r' c='thread_get'/>
+<use f='MOS/kernel/tasks/thread.c' l='84' u='r' c='thread_new'/>
+<use f='MOS/kernel/tasks/thread.c' l='92' u='r' c='thread_get'/>

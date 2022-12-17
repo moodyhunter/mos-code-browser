@@ -1,6 +1,6 @@
-<use f='MOS/kernel/include/mos/tasks/task_types.h' l='47'/>
-<def f='MOS/kernel/include/mos/tasks/task_types.h' l='51' ll='56'/>
-<use f='MOS/kernel/include/mos/tasks/task_types.h' l='51'/>
+<use f='MOS/kernel/include/mos/tasks/task_types.h' l='48'/>
+<def f='MOS/kernel/include/mos/tasks/task_types.h' l='52' ll='57'/>
+<use f='MOS/kernel/include/mos/tasks/task_types.h' l='52'/>
 <size>24</size>
 <mbr r='_wait_condition::arg' o='0' t='void *'/>
 <mbr r='_wait_condition::verify' o='64' t='_Bool (*)(wait_condition_t *)'/>

@@ -8,7 +8,7 @@
 <use f='MOS/arch/x86/acpi/madt.c' l='34' macro='1' u='r' c='acpi_parse_madt'/>
 <use f='MOS/arch/x86/acpi/madt.c' l='36' u='r' c='acpi_parse_madt'/>
 <use f='MOS/arch/x86/acpi/madt.c' l='112' u='r' c='acpi_parse_madt'/>
-<dec f='MOS/kernel/include/mos/tasks/task_types.h' l='39' type='vm_type'/>
+<dec f='MOS/kernel/include/mos/tasks/task_types.h' l='40' type='vm_type'/>
 <offset>192</offset>
 <use f='MOS/arch/x86/interrupt/idt.c' l='30' u='w' c='idt_set_descriptor'/>
 <dec f='MOS/kernel/include/mos/filesystem/filesystem.h' l='65' type='file_type_t'/>
