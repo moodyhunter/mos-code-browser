@@ -23,8 +23,8 @@
 <use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='162' macro='1' u='c' c='x86_handle_interrupt'/>
 <use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='170' macro='1' u='c' c='x86_handle_exception'/>
 <use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='230' macro='1' u='c' c='x86_handle_exception'/>
-<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='258' macro='1' u='c' c='x86_handle_exception'/>
-<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='281' macro='1' u='c' c='x86_handle_exception'/>
+<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='262' macro='1' u='c' c='x86_handle_exception'/>
+<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='285' macro='1' u='c' c='x86_handle_exception'/>
 <use f='MOS/arch/x86/mm/mm.c' l='21' macro='1' u='c' c='mem_add_region'/>
 <use f='MOS/arch/x86/mm/mm.c' l='68' macro='1' u='c' c='x86_mem_init'/>
 <use f='MOS/arch/x86/mm/paging.c' l='29' macro='1' u='c' c='x86_mm_prepare_paging'/>

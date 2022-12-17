@@ -1,8 +1,8 @@
 <dec f='MOS/kernel/include/mos/printk.h' l='32' type='4'/>
 <use f='MOS/arch/x86/devices/serial.c' l='29' macro='1' u='r' c='serial_irq_handler'/>
 <use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='157' macro='1' u='r' c='x86_handle_interrupt'/>
-<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='256' macro='1' u='r' c='x86_handle_exception'/>
-<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='298' macro='1' u='r' c='x86_handle_irq'/>
+<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='260' macro='1' u='r' c='x86_handle_exception'/>
+<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='302' macro='1' u='r' c='x86_handle_irq'/>
 <use f='MOS/arch/x86/mm/mm.c' l='45' macro='1' u='r' c='x86_mem_init'/>
 <use f='MOS/arch/x86/mm/mm.c' l='53' macro='1' u='r' c='x86_mem_init'/>
 <use f='MOS/arch/x86/x86_platform.c' l='71' macro='1' u='r' c='do_backtrace'/>

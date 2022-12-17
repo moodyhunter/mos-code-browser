@@ -5,5 +5,5 @@
 <use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='104' u='r' c='x86_dump_registers'/>
 <use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='144' u='r' c='x86_handle_interrupt'/>
 <use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='233' u='r' c='x86_handle_exception'/>
-<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='244' u='r' c='x86_handle_exception'/>
-<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='260' u='r' c='x86_handle_exception'/>
+<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='248' u='r' c='x86_handle_exception'/>
+<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='264' u='r' c='x86_handle_exception'/>
