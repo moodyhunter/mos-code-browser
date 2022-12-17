@@ -1,3 +1,3 @@
 <dec f='MOS/arch/x86/include/mos/x86/mm/paging_impl.h' l='77' type='_Bool pg_page_get_is_mapped(x86_pg_infra_t * pg, uintptr_t vaddr)'/>
-<def f='MOS/arch/x86/mm/paging_impl.c' l='319' ll='336' macro='1' type='_Bool pg_page_get_is_mapped(x86_pg_infra_t * pg, uintptr_t vaddr)'/>
+<def f='MOS/arch/x86/mm/paging_impl.c' l='321' ll='338' macro='1' type='_Bool pg_page_get_is_mapped(x86_pg_infra_t * pg, uintptr_t vaddr)'/>
 <use f='MOS/arch/x86/x86_platform_api.c' l='176' u='c' c='platform_mm_get_is_mapped'/>
