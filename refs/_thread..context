@@ -3,5 +3,5 @@
 <use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='142' u='r' c='x86_handle_interrupt'/>
 <use f='MOS/arch/x86/tasks/context.c' l='24' u='w' c='x86_setup_thread_context'/>
 <use f='MOS/arch/x86/tasks/context.c' l='63' u='r' c='x86_switch_to_thread'/>
-<use f='MOS/kernel/tasks/fork.c' l='67' u='r' c='process_handle_fork'/>
-<use f='MOS/kernel/tasks/fork.c' l='67' u='a' c='process_handle_fork'/>
+<use f='MOS/kernel/tasks/fork.c' l='68' u='r' c='process_handle_fork'/>
+<use f='MOS/kernel/tasks/fork.c' l='68' u='a' c='process_handle_fork'/>

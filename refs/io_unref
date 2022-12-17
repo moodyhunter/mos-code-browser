@@ -3,5 +3,5 @@
 <def f='MOS/kernel/io/io.c' l='35' ll='64' type='void io_unref(io_t * io)'/>
 <use f='MOS/kernel/io/terminal.c' l='40' u='c' c='terminal_io_close'/>
 <use f='MOS/kernel/io/terminal.c' l='41' u='c' c='terminal_io_close'/>
-<use f='MOS/kernel/tasks/process.c' l='159' u='c' c='process_detach_fd'/>
-<use f='MOS/kernel/tasks/process.c' l='203' u='c' c='process_handle_exit'/>
+<use f='MOS/kernel/tasks/process.c' l='157' u='c' c='process_detach_fd'/>
+<use f='MOS/kernel/tasks/process.c' l='201' u='c' c='process_handle_exit'/>

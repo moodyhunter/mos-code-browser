@@ -4,6 +4,5 @@
 <use f='MOS/kernel/device/block.c' l='53' u='c' c='blockdev_register'/>
 <use f='MOS/kernel/elf/elf.c' l='187' u='c' c='elf_create_process'/>
 <use f='MOS/kernel/mm/memops.c' l='19' u='c' c='mos_kernel_mm_init'/>
-<use f='MOS/kernel/tasks/process.c' l='37' u='c' c='process_allocate'/>
 <use f='MOS/lib/liballoc.c' l='597' u='c' c='liballoc_calloc'/>
 <def f='MOS/lib/string.c' l='94' ll='112' type='void memzero(void * s, size_t n)'/>

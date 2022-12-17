@@ -18,5 +18,5 @@
 <use f='MOS/kernel/printk.c' l='38' u='c'/>
 <use f='MOS/kernel/printk.c' l='46' u='c'/>
 <use f='MOS/kernel/tasks/fork.c' l='18' u='c'/>
-<use f='MOS/kernel/tasks/process.c' l='50' u='c'/>
+<use f='MOS/kernel/tasks/process.c' l='49' u='c'/>
 <use f='MOS/tests/test_engine.c' l='126' u='c'/>

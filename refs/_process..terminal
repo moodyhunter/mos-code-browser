@@ -1,6 +1,6 @@
 <dec f='MOS/kernel/include/mos/tasks/task_types.h' l='64' type='terminal_t *'/>
 <offset>256</offset>
 <use f='MOS/kernel/ksyscall.c' l='144' u='r' c='impl_syscall_spawn'/>
-<use f='MOS/kernel/tasks/process.c' l='104' u='w' c='process_new'/>
-<use f='MOS/kernel/tasks/process.c' l='104' u='r' c='process_new'/>
-<use f='MOS/kernel/tasks/process.c' l='109' u='w' c='process_new'/>
+<use f='MOS/kernel/tasks/process.c' l='102' u='w' c='process_new'/>
+<use f='MOS/kernel/tasks/process.c' l='102' u='r' c='process_new'/>
+<use f='MOS/kernel/tasks/process.c' l='107' u='w' c='process_new'/>

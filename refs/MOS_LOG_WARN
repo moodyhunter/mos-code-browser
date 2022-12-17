@@ -28,6 +28,6 @@
 <use f='MOS/kernel/printk.c' l='24' macro='1' u='r' c='printk_setup_console'/>
 <use f='MOS/kernel/printk.c' l='29' macro='1' u='r' c='printk_setup_console'/>
 <use f='MOS/kernel/printk.c' l='63' c='deduce_level_color'/>
-<use f='MOS/kernel/tasks/process.c' l='192' macro='1' u='r' c='process_handle_exit'/>
+<use f='MOS/kernel/tasks/process.c' l='190' macro='1' u='r' c='process_handle_exit'/>
 <use f='MOS/tests/test_engine.c' l='67' u='r' c='test_engine_warning_handler'/>
 <use f='MOS/tests/test_engine.c' l='68' u='r' c='test_engine_warning_handler'/>

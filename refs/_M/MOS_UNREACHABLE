@@ -8,4 +8,4 @@
 <use f='MOS/kernel/kernel_init.c' l='119' u='c'/>
 <use f='MOS/kernel/ksyscall.c' l='101' u='c'/>
 <use f='MOS/kernel/ksyscall.c' l='173' u='c'/>
-<use f='MOS/kernel/tasks/process.c' l='284' u='c'/>
+<use f='MOS/kernel/tasks/process.c' l='282' u='c'/>

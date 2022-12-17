@@ -11,4 +11,4 @@
 <use f='MOS/kernel/ipc/ipc.c' l='342' u='r' c='ipc_connect'/>
 <use f='MOS/kernel/mm/memops.c' l='18' u='r' c='mos_kernel_mm_init'/>
 <use f='MOS/kernel/mm/memops.c' l='37' u='r' c='liballoc_alloc_page'/>
-<use f='MOS/kernel/tasks/thread.c' l='67' u='r' c='thread_new'/>
+<use f='MOS/kernel/tasks/thread.c' l='66' u='r' c='thread_new'/>

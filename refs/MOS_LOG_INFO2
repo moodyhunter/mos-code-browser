@@ -91,9 +91,9 @@
 <use f='MOS/kernel/tasks/fork.c' l='26' macro='1' u='r' c='process_handle_fork'/>
 <use f='MOS/kernel/tasks/fork.c' l='36' macro='1' u='r' c='process_handle_fork'/>
 <use f='MOS/kernel/tasks/fork.c' l='44' macro='1' u='r' c='process_handle_fork'/>
-<use f='MOS/kernel/tasks/process.c' l='170' macro='1' u='r' c='process_attach_thread'/>
-<use f='MOS/kernel/tasks/process.c' l='186' macro='1' u='r' c='process_handle_exit'/>
-<use f='MOS/kernel/tasks/process.c' l='198' macro='1' u='r' c='process_handle_exit'/>
-<use f='MOS/kernel/tasks/process.c' l='213' macro='1' u='r' c='process_handle_cleanup'/>
-<use f='MOS/kernel/tasks/process.c' l='262' macro='1' u='r' c='process_grow_heap'/>
+<use f='MOS/kernel/tasks/process.c' l='168' macro='1' u='r' c='process_attach_thread'/>
+<use f='MOS/kernel/tasks/process.c' l='184' macro='1' u='r' c='process_handle_exit'/>
+<use f='MOS/kernel/tasks/process.c' l='196' macro='1' u='r' c='process_handle_exit'/>
+<use f='MOS/kernel/tasks/process.c' l='211' macro='1' u='r' c='process_handle_cleanup'/>
+<use f='MOS/kernel/tasks/process.c' l='260' macro='1' u='r' c='process_grow_heap'/>
 <use f='MOS/kernel/tasks/schedule.c' l='50' macro='1' u='r' c='schedule_to_thread'/>
