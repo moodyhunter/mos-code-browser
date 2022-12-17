@@ -1,4 +1,4 @@
-<dec f='MOS/kernel/include/mos/platform/platform.h' l='137' type='vmblock_t platform_mm_get_free_pages(paging_handle_t table, size_t npages, pgalloc_hints hints)'/>
+<dec f='MOS/kernel/include/mos/platform/platform.h' l='138' type='vmblock_t platform_mm_get_free_pages(paging_handle_t table, size_t npages, pgalloc_hints hints)'/>
 <def f='MOS/arch/x86/x86_platform_api.c' l='120' ll='124' type='vmblock_t platform_mm_get_free_pages(paging_handle_t table, size_t npages, pgalloc_hints hints)'/>
 <use f='MOS/kernel/mm/memops.c' l='69' u='c' c='mm_alloc_zeroed_pages'/>
 <use f='MOS/kernel/mm/memops.c' l='111' u='c' c='mm_map_proxy_space'/>

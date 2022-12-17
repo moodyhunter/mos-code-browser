@@ -1,4 +1,4 @@
-<dec f='MOS/kernel/include/mos/platform/platform.h' l='88' type='size_t'/>
+<dec f='MOS/kernel/include/mos/platform/platform.h' l='89' type='size_t'/>
 <offset>64</offset>
 <use f='MOS/arch/x86/mm/paging_impl.c' l='37' u='w' c='pg_page_alloc_at'/>
 <use f='MOS/arch/x86/mm/paging_impl.c' l='43' u='w' c='pg_page_alloc_at'/>
@@ -23,11 +23,11 @@
 <use f='MOS/kernel/mm/shm.c' l='25' u='r' c='shm_map_shared_block'/>
 <use f='MOS/kernel/mm/shm.c' l='26' u='r' c='shm_map_shared_block'/>
 <use f='MOS/kernel/mm/shm.c' l='27' u='r' c='shm_map_shared_block'/>
-<use f='MOS/kernel/tasks/fork.c' l='34' u='r' c='process_handle_fork'/>
 <use f='MOS/kernel/tasks/fork.c' l='35' u='r' c='process_handle_fork'/>
 <use f='MOS/kernel/tasks/fork.c' l='36' u='r' c='process_handle_fork'/>
-<use f='MOS/kernel/tasks/fork.c' l='42' u='r' c='process_handle_fork'/>
-<use f='MOS/kernel/tasks/fork.c' l='44' u='r' c='process_handle_fork'/>
+<use f='MOS/kernel/tasks/fork.c' l='37' u='r' c='process_handle_fork'/>
+<use f='MOS/kernel/tasks/fork.c' l='43' u='r' c='process_handle_fork'/>
+<use f='MOS/kernel/tasks/fork.c' l='45' u='r' c='process_handle_fork'/>
 <use f='MOS/kernel/tasks/process.c' l='222' u='r' c='process_handle_cleanup'/>
 <use f='MOS/kernel/tasks/process.c' l='242' u='r' c='process_grow_heap'/>
 <use f='MOS/kernel/tasks/process.c' l='247' u='r' c='process_grow_heap'/>
@@ -36,5 +36,3 @@
 <use f='MOS/kernel/tasks/process.c' l='261' u='w' c='process_grow_heap'/>
 <use f='MOS/kernel/tasks/process.c' l='288' u='r' c='process_dump_mmaps'/>
 <use f='MOS/kernel/tasks/thread.c' l='67' u='r' c='thread_new'/>
-<use f='MOS/kernel/tasks/thread.c' l='82' u='r' c='thread_new'/>
-<use f='MOS/kernel/tasks/thread.c' l='84' u='r' c='thread_new'/>

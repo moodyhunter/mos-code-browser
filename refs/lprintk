@@ -181,10 +181,10 @@
 <use f='MOS/kernel/printk.c' l='38' macro='1' u='c' c='printk_setup_console'/>
 <use f='MOS/kernel/printk.c' l='46' macro='1' u='c' c='printk_setup_console'/>
 <def f='MOS/kernel/printk.c' l='114' ll='120' type='void lprintk(int loglevel, const char * format)'/>
-<use f='MOS/kernel/tasks/fork.c' l='18' macro='1' u='c' c='process_handle_fork'/>
-<use f='MOS/kernel/tasks/fork.c' l='26' macro='1' u='c' c='process_handle_fork'/>
-<use f='MOS/kernel/tasks/fork.c' l='36' macro='1' u='c' c='process_handle_fork'/>
-<use f='MOS/kernel/tasks/fork.c' l='44' macro='1' u='c' c='process_handle_fork'/>
+<use f='MOS/kernel/tasks/fork.c' l='19' macro='1' u='c' c='process_handle_fork'/>
+<use f='MOS/kernel/tasks/fork.c' l='27' macro='1' u='c' c='process_handle_fork'/>
+<use f='MOS/kernel/tasks/fork.c' l='37' macro='1' u='c' c='process_handle_fork'/>
+<use f='MOS/kernel/tasks/fork.c' l='45' macro='1' u='c' c='process_handle_fork'/>
 <use f='MOS/kernel/tasks/process.c' l='49' macro='1' u='c' c='process_allocate'/>
 <use f='MOS/kernel/tasks/process.c' l='53' macro='1' u='c' c='process_allocate'/>
 <use f='MOS/kernel/tasks/process.c' l='168' macro='1' u='c' c='process_attach_thread'/>

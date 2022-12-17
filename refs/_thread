@@ -8,8 +8,8 @@
 <mbr r='_thread::name' o='64' t='const char *'/>
 <mbr r='_thread::state' o='128' t='thread_status_t'/>
 <mbr r='_thread::owner' o='192' t='process_t *'/>
-<mbr r='_thread::stack' o='256' t='downwards_stack_t'/>
-<mbr r='_thread::kernel_stack' o='448' t='downwards_stack_t'/>
+<mbr r='_thread::u_stack' o='256' t='downwards_stack_t'/>
+<mbr r='_thread::k_stack' o='448' t='downwards_stack_t'/>
 <mbr r='_thread::context' o='640' t='platform_context_t *'/>
 <mbr r='_thread::mode' o='704' t='thread_mode'/>
 <mbr r='_thread::waiting_condition' o='768' t='wait_condition_t *'/>

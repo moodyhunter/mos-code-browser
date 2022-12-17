@@ -4,4 +4,4 @@
 <use f='MOS/kernel/ksyscall.c' l='106' u='c' c='impl_syscall_yield_cpu'/>
 <use f='MOS/kernel/ksyscall.c' l='172' u='c' c='impl_syscall_thread_exit'/>
 <use f='MOS/kernel/tasks/schedule.c' l='84' u='c' c='reschedule_for_wait_condition'/>
-<def f='MOS/kernel/tasks/schedule.c' l='87' ll='101' type='void reschedule()'/>
+<def f='MOS/kernel/tasks/schedule.c' l='87' ll='103' type='void reschedule()'/>

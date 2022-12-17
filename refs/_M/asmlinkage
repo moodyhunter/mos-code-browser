@@ -4,4 +4,4 @@
 <use f='MOS/arch/x86/include/mos/x86/x86_platform.h' l='89' u='c'/>
 <use f='MOS/arch/x86/include/mos/x86/x86_platform.h' l='90' u='c'/>
 <use f='MOS/arch/x86/boot/multiboot/startup.c' l='135' u='c'/>
-<use f='MOS/arch/x86/tasks/context.c' l='17' u='c'/>
+<use f='MOS/arch/x86/tasks/context.c' l='23' u='c'/>

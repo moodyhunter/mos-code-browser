@@ -1,11 +1,4 @@
 <dec f='MOS/lib/include/lib/structures/stack.h' l='24' type='void stack_push(downwards_stack_t * stack, const void * data, size_t size)'/>
-<use f='MOS/arch/x86/tasks/context.c' l='27' u='c' c='x86_setup_thread_context'/>
-<use f='MOS/arch/x86/tasks/context.c' l='28' u='c' c='x86_setup_thread_context'/>
-<use f='MOS/arch/x86/tasks/context.c' l='33' u='c' c='x86_setup_thread_context'/>
-<use f='MOS/arch/x86/tasks/context.c' l='35' u='c' c='x86_setup_thread_context'/>
-<use f='MOS/arch/x86/tasks/context.c' l='36' u='c' c='x86_setup_thread_context'/>
-<use f='MOS/arch/x86/tasks/context.c' l='37' u='c' c='x86_setup_thread_context'/>
-<use f='MOS/arch/x86/tasks/context.c' l='38' u='c' c='x86_setup_thread_context'/>
 <def f='MOS/lib/structures/stack.c' l='35' ll='46' type='void stack_push(downwards_stack_t * stack, const void * data, size_t size)'/>
 <use f='MOS/tests/downwards_stack/test_downwards_stack.c' l='34' u='c' c='stack_push_pop_stack'/>
 <use f='MOS/tests/downwards_stack/test_downwards_stack.c' l='40' u='c' c='stack_push_pop_stack'/>

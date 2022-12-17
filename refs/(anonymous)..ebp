@@ -6,5 +6,5 @@
 <use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='143' u='w' c='x86_handle_interrupt'/>
 <use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='143' u='r' c='x86_handle_interrupt'/>
 <use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='153' u='r' c='x86_handle_interrupt'/>
-<offset>64</offset>
-<use f='MOS/arch/x86/tasks/context.c' l='23' u='w' c='x86_setup_thread_context'/>
+<offset>128</offset>
+<use f='MOS/arch/x86/tasks/context.c' l='31' u='w' c='x86_setup_thread_context'/>

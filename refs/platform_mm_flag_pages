@@ -1,4 +1,4 @@
-<dec f='MOS/kernel/include/mos/platform/platform.h' l='141' type='void platform_mm_flag_pages(paging_handle_t table, uintptr_t vaddr, size_t n, vm_flags flags)'/>
+<dec f='MOS/kernel/include/mos/platform/platform.h' l='142' type='void platform_mm_flag_pages(paging_handle_t table, uintptr_t vaddr, size_t n, vm_flags flags)'/>
 <def f='MOS/arch/x86/x86_platform_api.c' l='164' ll='168' type='void platform_mm_flag_pages(paging_handle_t table, uintptr_t vaddr, size_t n, vm_flags flags)'/>
 <use f='MOS/kernel/elf/elf.c' l='215' u='c' c='elf_create_process'/>
 <use f='MOS/kernel/mm/cow.c' l='19' u='c' c='mm_make_process_map_cow'/>

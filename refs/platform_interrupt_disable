@@ -1,3 +1,3 @@
-<dec f='MOS/kernel/include/mos/platform/platform.h' l='125' type='void platform_interrupt_disable()'/>
+<dec f='MOS/kernel/include/mos/platform/platform.h' l='126' type='void platform_interrupt_disable()'/>
 <def f='MOS/arch/x86/x86_platform_api.c' l='50' ll='53' type='void platform_interrupt_disable()'/>
 <use f='MOS/kernel/panic.c' l='44' u='c' c='mos_kpanic'/>

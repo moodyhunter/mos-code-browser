@@ -5,11 +5,11 @@
 <dec f='MOS/arch/x86/include/mos/x86/acpi/acpi_types.h' l='180' type='u16'/>
 <dec f='MOS/arch/x86/include/mos/x86/acpi/acpi_types.h' l='198' type='u32'/>
 <dec f='MOS/arch/x86/include/mos/x86/acpi/acpi_types.h' l='206' type='u32'/>
-<dec f='MOS/kernel/include/mos/platform/platform.h' l='89' type='vm_flags'/>
+<dec f='MOS/kernel/include/mos/platform/platform.h' l='90' type='vm_flags'/>
 <dec f='MOS/arch/x86/include/mos/x86/boot/multiboot.h' l='123' type='multiboot_info_flags_t'/>
 <dec f='MOS/arch/x86/include/mos/x86/boot/multiboot.h' l='227' type='u16'/>
 <offset>96</offset>
-<doc f='MOS/kernel/include/mos/platform/platform.h' l='89'>// the expected flags for the region, regardless of the copy-on-write state</doc>
+<doc f='MOS/kernel/include/mos/platform/platform.h' l='90'>// the expected flags for the region, regardless of the copy-on-write state</doc>
 <doc f='MOS/arch/x86/include/mos/x86/boot/multiboot.h' l='122'>/* Multiboot info version number */</doc>
 <use f='MOS/arch/x86/acpi/madt.c' l='41' u='r' c='acpi_parse_madt'/>
 <use f='MOS/arch/x86/acpi/madt.c' l='66' u='r' c='acpi_parse_madt'/>
@@ -30,9 +30,9 @@
 <use f='MOS/kernel/mm/cow.c' l='82' u='r' c='cow_handle_page_fault'/>
 <use f='MOS/kernel/mm/memops.c' l='85' u='w' c='mm_alloc_zeroed_pages'/>
 <use f='MOS/kernel/mm/memops.c' l='106' u='w' c='mm_alloc_zeroed_pages_at'/>
-<use f='MOS/kernel/tasks/fork.c' l='35' u='r' c='process_handle_fork'/>
 <use f='MOS/kernel/tasks/fork.c' l='36' u='r' c='process_handle_fork'/>
-<use f='MOS/kernel/tasks/fork.c' l='44' u='r' c='process_handle_fork'/>
+<use f='MOS/kernel/tasks/fork.c' l='37' u='r' c='process_handle_fork'/>
+<use f='MOS/kernel/tasks/fork.c' l='45' u='r' c='process_handle_fork'/>
 <use f='MOS/kernel/tasks/process.c' l='289' u='r' c='process_dump_mmaps'/>
 <use f='MOS/kernel/tasks/process.c' l='290' u='r' c='process_dump_mmaps'/>
 <use f='MOS/kernel/tasks/process.c' l='291' u='r' c='process_dump_mmaps'/>

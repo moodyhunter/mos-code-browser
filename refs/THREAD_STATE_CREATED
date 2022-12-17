@@ -1,6 +1,6 @@
 <dec f='MOS/kernel/include/mos/tasks/task_types.h' l='16' type='1'/>
 <doc f='MOS/kernel/include/mos/tasks/task_types.h' l='16'>// created or forked, but not ever started</doc>
 <use f='MOS/arch/x86/tasks/context.c' l='53' u='r' c='x86_switch_to_thread'/>
-<use f='MOS/kernel/tasks/fork.c' l='67' u='r' c='process_handle_fork'/>
+<use f='MOS/kernel/tasks/fork.c' l='68' u='r' c='process_handle_fork'/>
 <use f='MOS/kernel/tasks/schedule.c' l='18' c='should_schedule_to_thread'/>
 <use f='MOS/kernel/tasks/thread.c' l='39' u='r' c='thread_allocate'/>

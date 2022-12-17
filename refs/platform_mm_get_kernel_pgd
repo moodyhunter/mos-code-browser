@@ -1,4 +1,4 @@
-<dec f='MOS/kernel/include/mos/platform/platform.h' l='130' type='paging_handle_t platform_mm_get_kernel_pgd()'/>
-<doc f='MOS/kernel/include/mos/platform/platform.h' l='129'>// Platform Page Table APIs</doc>
+<dec f='MOS/kernel/include/mos/platform/platform.h' l='131' type='paging_handle_t platform_mm_get_kernel_pgd()'/>
+<doc f='MOS/kernel/include/mos/platform/platform.h' l='130'>// Platform Page Table APIs</doc>
 <def f='MOS/arch/x86/x86_platform_api.c' l='67' ll='72' type='paging_handle_t platform_mm_get_kernel_pgd()'/>
 <use f='MOS/kernel/tasks/process.c' l='71' u='c' c='process_allocate'/>

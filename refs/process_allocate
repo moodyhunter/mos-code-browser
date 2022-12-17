@@ -1,5 +1,5 @@
 <dec f='MOS/kernel/include/mos/tasks/process.h' l='21' type='process_t * process_allocate(process_t * parent, uid_t euid, const char * name)'/>
-<use f='MOS/kernel/tasks/fork.c' l='17' u='c' c='process_handle_fork'/>
+<use f='MOS/kernel/tasks/fork.c' l='18' u='c' c='process_handle_fork'/>
 <use f='MOS/kernel/tasks/kthread.c' l='30' u='c' c='kthread_init'/>
 <def f='MOS/kernel/tasks/process.c' l='34' ll='79' type='process_t * process_allocate(process_t * parent, uid_t euid, const char * name)'/>
 <use f='MOS/kernel/tasks/process.c' l='95' u='c' c='process_new'/>

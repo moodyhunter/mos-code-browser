@@ -88,9 +88,9 @@
 <use f='MOS/kernel/mm/shm.c' l='17' macro='1' u='r' c='shm_allocate'/>
 <use f='MOS/kernel/mm/shm.c' l='25' macro='1' u='r' c='shm_map_shared_block'/>
 <use f='MOS/kernel/printk.c' l='60' c='deduce_level_color'/>
-<use f='MOS/kernel/tasks/fork.c' l='26' macro='1' u='r' c='process_handle_fork'/>
-<use f='MOS/kernel/tasks/fork.c' l='36' macro='1' u='r' c='process_handle_fork'/>
-<use f='MOS/kernel/tasks/fork.c' l='44' macro='1' u='r' c='process_handle_fork'/>
+<use f='MOS/kernel/tasks/fork.c' l='27' macro='1' u='r' c='process_handle_fork'/>
+<use f='MOS/kernel/tasks/fork.c' l='37' macro='1' u='r' c='process_handle_fork'/>
+<use f='MOS/kernel/tasks/fork.c' l='45' macro='1' u='r' c='process_handle_fork'/>
 <use f='MOS/kernel/tasks/process.c' l='168' macro='1' u='r' c='process_attach_thread'/>
 <use f='MOS/kernel/tasks/process.c' l='184' macro='1' u='r' c='process_handle_exit'/>
 <use f='MOS/kernel/tasks/process.c' l='196' macro='1' u='r' c='process_handle_exit'/>
