@@ -35,5 +35,5 @@
 <use f='MOS/arch/x86/x86_platform.c' l='145' u='r' c='x86_start_kernel'/>
 <use f='MOS/arch/x86/x86_platform_api.c' l='70' u='r' c='platform_mm_get_kernel_pgd'/>
 <use f='MOS/arch/x86/x86_platform_api.c' l='76' u='r' c='platform_mm_create_user_pgd'/>
-<use f='MOS/arch/x86/x86_platform_api.c' l='86' u='r' c='platform_mm_create_user_pgd'/>
-<use f='MOS/arch/x86/x86_platform_api.c' l='86' u='r' c='platform_mm_create_user_pgd'/>
+<use f='MOS/arch/x86/x86_platform_api.c' l='83' u='r' c='platform_mm_create_user_pgd'/>
+<use f='MOS/arch/x86/x86_platform_api.c' l='83' u='r' c='platform_mm_create_user_pgd'/>

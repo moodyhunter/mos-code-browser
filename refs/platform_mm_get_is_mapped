@@ -1,4 +1,4 @@
 <dec f='MOS/kernel/include/mos/platform/platform.h' l='144' type='_Bool platform_mm_get_is_mapped(paging_handle_t table, uintptr_t vaddr)'/>
-<def f='MOS/arch/x86/x86_platform_api.c' l='176' ll='180' macro='1' type='_Bool platform_mm_get_is_mapped(paging_handle_t table, uintptr_t vaddr)'/>
+<def f='MOS/arch/x86/x86_platform_api.c' l='173' ll='177' macro='1' type='_Bool platform_mm_get_is_mapped(paging_handle_t table, uintptr_t vaddr)'/>
 <use f='MOS/kernel/elf/elf.c' l='153' u='c' c='elf_create_process'/>
 <use f='MOS/kernel/mm/memops.c' l='91' u='c' c='mm_alloc_zeroed_pages_at'/>

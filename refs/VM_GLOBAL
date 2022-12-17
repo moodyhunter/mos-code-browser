@@ -11,5 +11,4 @@
 <use f='MOS/arch/x86/mm/paging_impl.c' l='315' u='r' c='pg_page_get_flags'/>
 <use f='MOS/arch/x86/x86_platform.c' l='135' u='r' c='x86_start_kernel'/>
 <use f='MOS/arch/x86/x86_platform.c' l='145' u='r' c='x86_start_kernel'/>
-<use f='MOS/arch/x86/x86_platform_api.c' l='83' u='r' c='platform_mm_create_user_pgd'/>
 <use f='MOS/kernel/tasks/process.c' l='292' u='r' c='process_dump_mmaps'/>

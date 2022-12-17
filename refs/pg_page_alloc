@@ -1,4 +1,4 @@
 <dec f='MOS/arch/x86/include/mos/x86/mm/paging_impl.h' l='67' type='vmblock_t pg_page_alloc(x86_pg_infra_t * pg, size_t n, pgalloc_hints flags, vm_flags vm_flags)'/>
 <def f='MOS/arch/x86/mm/paging_impl.c' l='24' ll='28' type='vmblock_t pg_page_alloc(x86_pg_infra_t * pg, size_t n_page, pgalloc_hints hints, vm_flags vm_flag)'/>
 <use f='MOS/arch/x86/x86_platform_api.c' l='76' u='c' c='platform_mm_create_user_pgd'/>
-<use f='MOS/arch/x86/x86_platform_api.c' l='111' u='c' c='platform_mm_alloc_pages'/>
+<use f='MOS/arch/x86/x86_platform_api.c' l='108' u='c' c='platform_mm_alloc_pages'/>

@@ -21,7 +21,7 @@
 <use f='MOS/arch/x86/boot/multiboot/startup.c' l='176' u='r' c='x86_startup'/>
 <use f='MOS/arch/x86/mm/paging_impl.c' l='44' u='w' c='pg_page_alloc_at'/>
 <use f='MOS/arch/x86/x86_platform.c' l='119' u='r' c='x86_start_kernel'/>
-<use f='MOS/arch/x86/x86_platform_api.c' l='146' u='w' c='platform_mm_copy_maps'/>
+<use f='MOS/arch/x86/x86_platform_api.c' l='143' u='w' c='platform_mm_copy_maps'/>
 <dec f='MOS/kernel/include/mos/elf/elf.h' l='100' type='u32'/>
 <use f='MOS/kernel/elf/elf.c' l='216' u='w' c='elf_create_process'/>
 <offset>384</offset>
