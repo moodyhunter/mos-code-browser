@@ -1,0 +1,2 @@
+<def f='MOS/lib/include/lib/structures/bitmap.h' l='19' ll='24' macro='1' type='size_t bitmap_find_first_free_n_from(bitmap_line_t * bitmap, size_t bitmap_nlines, size_t n_bits, size_t start_line)'/>
+<use f='MOS/arch/x86/mm/paging_impl.c' l='63' u='c' c='pg_page_get_free'/>

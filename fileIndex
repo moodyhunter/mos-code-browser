@@ -26,6 +26,7 @@ MOS/arch/x86/boot/multiboot/startup.c
 MOS/kernel/include/mos/device/console.h
 MOS/lib/include/lib/sync/spinlock.h
 MOS/arch/x86/include/mos/x86/mm/paging_impl.h
+MOS/lib/include/lib/structures/bitmap.h
 MOS/arch/x86/cpu/cpuid.c
 MOS/arch/x86/include/mos/x86/cpu/cpuid.h
 MOS/arch/x86/cpu/smp.c
@@ -128,6 +129,7 @@ MOS/lib/stdio.c
 MOS/lib/stdio_impl.c
 MOS/lib/stdlib.c
 MOS/lib/string.c
+MOS/lib/structures/bitmap.c
 MOS/lib/structures/hashmap.c
 MOS/lib/structures/hashmap_common.c
 MOS/lib/structures/list.c

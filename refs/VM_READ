@@ -2,7 +2,7 @@
 <use f='MOS/kernel/include/mos/platform/platform.h' l='39' u='r'/>
 <use f='MOS/arch/x86/boot/multiboot/startup.c' l='159' u='r' c='x86_startup'/>
 <use f='MOS/arch/x86/boot/multiboot/startup.c' l='160' u='r' c='x86_startup'/>
-<use f='MOS/arch/x86/mm/paging_impl.c' l='313' u='r' c='pg_page_get_flags'/>
+<use f='MOS/arch/x86/mm/paging_impl.c' l='262' u='r' c='pg_page_get_flags'/>
 <use f='MOS/kernel/elf/elf.c' l='131' u='r' c='elf_create_process'/>
 <use f='MOS/kernel/elf/elf.c' l='143' u='r' c='elf_create_process'/>
 <use f='MOS/kernel/mm/memops.c' l='84' u='r' c='mm_alloc_zeroed_pages'/>

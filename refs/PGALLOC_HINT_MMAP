@@ -1,4 +1,4 @@
 <dec f='MOS/kernel/include/mos/platform/platform.h' l='48' type='3'/>
-<use f='MOS/arch/x86/mm/paging_impl.c' l='62' c='pg_page_get_free'/>
+<use f='MOS/arch/x86/mm/paging_impl.c' l='58' c='pg_page_get_free'/>
 <use f='MOS/kernel/mm/shm.c' l='19' u='r' c='shm_allocate'/>
 <use f='MOS/kernel/mm/shm.c' l='27' u='r' c='shm_map_shared_block'/>

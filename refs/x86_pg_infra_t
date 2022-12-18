@@ -1,12 +1,12 @@
-<def f='MOS/arch/x86/include/mos/x86/mm/paging_impl.h' l='55' ll='60'/>
-<use f='MOS/arch/x86/include/mos/x86/mm/paging_impl.h' l='55'/>
-<size>4329468</size>
-<doc f='MOS/arch/x86/include/mos/x86/mm/paging_impl.h' l='52'>// !! FIXME: This is HUGE for a process, consider allocate it on demand
+<def f='MOS/arch/x86/include/mos/x86/mm/paging_impl.h' l='53' ll='58'/>
+<use f='MOS/arch/x86/include/mos/x86/mm/paging_impl.h' l='53'/>
+<size>4329472</size>
+<doc f='MOS/arch/x86/include/mos/x86/mm/paging_impl.h' l='50'>// !! FIXME: This is HUGE for a process, consider allocate it on demand
 // !! FIXME: This is HUGE for a process, consider allocate it on demand
 // !! FIXME: This is HUGE for a process, consider allocate it on demand</doc>
 <mbr r='x86_pg_infra_t::pgdir' o='0' t='x86_pgdir_entry[1024]'/>
 <mbr r='x86_pg_infra_t::pgtable' o='32768' t='x86_pgtable_entry[1048576]'/>
-<mbr r='x86_pg_infra_t::page_map' o='33587200' t='pagemap_line_t[32767]'/>
+<mbr r='x86_pg_infra_t::page_map' o='33587200' t='bitmap_line_t[32768]'/>
 <use f='MOS/arch/x86/include/mos/x86/mm/paging.h' l='8'/>
 <use f='MOS/arch/x86/include/mos/x86/mm/pmem_freelist.h' l='7'/>
-<size>4329468</size>
+<size>4329472</size>

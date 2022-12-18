@@ -1,3 +1,3 @@
-<dec f='MOS/arch/x86/include/mos/x86/mm/paging_impl.h' l='83' type='void pg_do_unmap_page(x86_pg_infra_t * pg, uintptr_t vaddr)'/>
-<use f='MOS/arch/x86/mm/paging_impl.c' l='188' u='c' c='pg_do_unmap_pages'/>
-<def f='MOS/arch/x86/mm/paging_impl.c' l='250' ll='275' type='void pg_do_unmap_page(x86_pg_infra_t * pg, uintptr_t vaddr)'/>
+<dec f='MOS/arch/x86/include/mos/x86/mm/paging_impl.h' l='81' type='void pg_do_unmap_page(x86_pg_infra_t * pg, uintptr_t vaddr)'/>
+<use f='MOS/arch/x86/mm/paging_impl.c' l='136' u='c' c='pg_do_unmap_pages'/>
+<def f='MOS/arch/x86/mm/paging_impl.c' l='199' ll='224' type='void pg_do_unmap_page(x86_pg_infra_t * pg, uintptr_t vaddr)'/>

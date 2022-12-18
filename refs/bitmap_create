@@ -1,0 +1,2 @@
+<dec f='MOS/lib/include/lib/structures/bitmap.h' l='10' type='bitmap_line_t * bitmap_create(size_t size)'/>
+<def f='MOS/lib/structures/bitmap.c' l='8' ll='14' type='bitmap_line_t * bitmap_create(size_t size)'/>

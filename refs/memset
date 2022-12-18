@@ -1,7 +1,6 @@
 <dec f='MOS/lib/include/lib/string.h' l='20' type='void * memset(void * s, int c, size_t n)'/>
 <use f='MOS/arch/x86/devices/text_mode_console.c' l='36' u='c' c='screen_scroll'/>
 <use f='MOS/arch/x86/gdt/gdt.c' l='62' u='c' c='x86_gdt_init'/>
-<use f='MOS/arch/x86/mm/paging.c' l='33' u='c' c='x86_mm_prepare_paging'/>
 <use f='MOS/arch/x86/mm/pmem_freelist.c' l='53' u='c' c='pmem_freelist_setup'/>
 <use f='MOS/arch/x86/mm/pmem_freelist.c' l='224' u='c' c='pmem_freelist_remove_region'/>
 <use f='MOS/arch/x86/x86_platform_api.c' l='78' u='c' c='platform_mm_create_user_pgd'/>

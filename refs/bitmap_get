@@ -1,0 +1,7 @@
+<dec f='MOS/lib/include/lib/structures/bitmap.h' l='15' type='_Bool bitmap_get(bitmap_line_t * bitmap, size_t bitmap_nlines, size_t index)'/>
+<use f='MOS/arch/x86/mm/paging_impl.c' l='64' u='c' c='pg_page_get_free'/>
+<use f='MOS/arch/x86/mm/paging_impl.c' l='172' u='c' c='pg_do_map_page'/>
+<use f='MOS/arch/x86/mm/paging_impl.c' l='194' u='c' c='pg_do_map_page'/>
+<use f='MOS/arch/x86/mm/paging_impl.c' l='216' u='c' c='pg_do_unmap_page'/>
+<def f='MOS/lib/structures/bitmap.c' l='44' ll='51' macro='1' type='_Bool bitmap_get(bitmap_line_t * bitmap, size_t bitmap_nlines, size_t index)'/>
+<use f='MOS/lib/structures/bitmap.c' l='81' u='c' c='bitmap_find_first_free_n'/>

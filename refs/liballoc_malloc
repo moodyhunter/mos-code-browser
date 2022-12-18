@@ -6,6 +6,7 @@
 <use f='MOS/lib/liballoc.c' l='613' u='c' c='liballoc_realloc'/>
 <use f='MOS/lib/liballoc.c' l='671' u='c' c='liballoc_realloc'/>
 <use f='MOS/lib/string.c' l='149' u='c' c='duplicate_string'/>
+<use f='MOS/lib/structures/bitmap.c' l='11' u='c' c='bitmap_create'/>
 <use f='MOS/lib/structures/hashmap.c' l='75' u='c' c='hashmap_put'/>
 <use f='MOS/lib/structures/ring_buffer.c' l='20' u='c' c='ring_buffer_create'/>
 <use f='MOS/lib/structures/ring_buffer.c' l='23' u='c' c='ring_buffer_create'/>

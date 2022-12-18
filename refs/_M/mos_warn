@@ -9,7 +9,6 @@
 <use f='MOS/arch/x86/interrupt/lapic.c' l='85' u='c'/>
 <use f='MOS/arch/x86/interrupt/lapic.c' l='97' u='c'/>
 <use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='211' u='c'/>
-<use f='MOS/arch/x86/mm/paging_impl.c' l='74' u='c'/>
 <use f='MOS/arch/x86/mm/pmem_freelist.c' l='288' u='c'/>
 <use f='MOS/kernel/device/block.c' l='59' u='c'/>
 <use f='MOS/kernel/elf/elf.c' l='47' u='c'/>

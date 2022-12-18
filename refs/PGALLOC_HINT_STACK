@@ -1,5 +1,5 @@
 <dec f='MOS/kernel/include/mos/platform/platform.h' l='47' type='2'/>
-<use f='MOS/arch/x86/mm/paging_impl.c' l='61' c='pg_page_get_free'/>
+<use f='MOS/arch/x86/mm/paging_impl.c' l='57' c='pg_page_get_free'/>
 <use f='MOS/kernel/tasks/fork.c' l='36' u='r' c='process_handle_fork'/>
 <use f='MOS/kernel/tasks/thread.c' l='65' u='r' c='thread_new'/>
 <use f='MOS/kernel/tasks/thread.c' l='73' u='r' c='thread_new'/>

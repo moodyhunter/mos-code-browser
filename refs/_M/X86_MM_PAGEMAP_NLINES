@@ -1,0 +1,9 @@
+<dec f='MOS/arch/x86/include/mos/x86/mm/paging_impl.h' l='48'/>
+<use f='MOS/arch/x86/include/mos/x86/mm/paging_impl.h' l='57' u='c'/>
+<use f='MOS/arch/x86/mm/paging_impl.c' l='63' u='c'/>
+<use f='MOS/arch/x86/mm/paging_impl.c' l='64' u='c'/>
+<use f='MOS/arch/x86/mm/paging_impl.c' l='172' u='c'/>
+<use f='MOS/arch/x86/mm/paging_impl.c' l='192' u='c'/>
+<use f='MOS/arch/x86/mm/paging_impl.c' l='194' u='c'/>
+<use f='MOS/arch/x86/mm/paging_impl.c' l='216' u='c'/>
+<use f='MOS/arch/x86/mm/paging_impl.c' l='222' u='c'/>
