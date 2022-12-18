@@ -1,4 +1,4 @@
 <dec f='MOS/kernel/include/mos/ipc/ipc.h' l='12' type='io_t * ipc_accept(io_t * server)'/>
 <use f='MOS/kernel/device/device_manager.c' l='20' u='c' c='device_manager_thread'/>
 <def f='MOS/kernel/ipc/ipc.c' l='260' ll='300' type='io_t * ipc_accept(io_t * server)'/>
-<use f='MOS/kernel/ksyscall.c' l='314' u='c' c='impl_syscall_ipc_accept'/>
+<use f='MOS/kernel/ksyscall.c' l='313' u='c' c='impl_syscall_ipc_accept'/>

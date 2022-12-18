@@ -7,10 +7,10 @@
 <use f='MOS/kernel/ksyscall.c' l='164' u='r' c='impl_syscall_get_tid'/>
 <use f='MOS/kernel/ksyscall.c' l='170' u='r' c='impl_syscall_thread_exit'/>
 <use f='MOS/kernel/ksyscall.c' l='267' u='r' c='impl_syscall_mutex_acquire'/>
-<use f='MOS/kernel/ksyscall.c' l='272' u='r' c='impl_syscall_mutex_acquire'/>
+<use f='MOS/kernel/ksyscall.c' l='271' u='r' c='impl_syscall_mutex_acquire'/>
 <use f='MOS/kernel/ksyscall.c' l='276' u='r' c='impl_syscall_mutex_acquire'/>
-<use f='MOS/kernel/ksyscall.c' l='288' u='r' c='impl_syscall_mutex_release'/>
-<use f='MOS/kernel/ksyscall.c' l='294' u='r' c='impl_syscall_mutex_release'/>
+<use f='MOS/kernel/ksyscall.c' l='287' u='r' c='impl_syscall_mutex_release'/>
+<use f='MOS/kernel/ksyscall.c' l='293' u='r' c='impl_syscall_mutex_release'/>
 <use f='MOS/kernel/tasks/fork.c' l='72' u='a' c='process_handle_fork'/>
 <use f='MOS/kernel/tasks/process.c' l='168' u='r' c='process_attach_thread'/>
 <use f='MOS/kernel/tasks/process.c' l='190' u='r' c='process_handle_exit'/>

@@ -1,0 +1,2 @@
+<use f='MOS/kernel/ksyscall.c' l='265' u='c' c='impl_syscall_mutex_acquire'/>
+<use f='MOS/kernel/ksyscall.c' l='291' u='c' c='impl_syscall_mutex_release'/>

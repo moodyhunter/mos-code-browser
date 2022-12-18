@@ -34,11 +34,11 @@
 <use f='MOS/kernel/ksyscall.c' l='246' macro='1' u='r' c='impl_syscall_wait_for_thread'/>
 <use f='MOS/kernel/ksyscall.c' l='246' u='r' c='impl_syscall_wait_for_thread'/>
 <use f='MOS/kernel/ksyscall.c' l='247' u='r' c='impl_syscall_wait_for_thread'/>
-<use f='MOS/kernel/ksyscall.c' l='307' macro='1' u='r' c='impl_syscall_ipc_create'/>
-<use f='MOS/kernel/ksyscall.c' l='313' macro='1' u='r' c='impl_syscall_ipc_accept'/>
-<use f='MOS/kernel/ksyscall.c' l='317' macro='1' u='r' c='impl_syscall_ipc_accept'/>
-<use f='MOS/kernel/ksyscall.c' l='323' macro='1' u='r' c='impl_syscall_ipc_connect'/>
-<use f='MOS/kernel/ksyscall.c' l='326' macro='1' u='r' c='impl_syscall_ipc_connect'/>
+<use f='MOS/kernel/ksyscall.c' l='306' macro='1' u='r' c='impl_syscall_ipc_create'/>
+<use f='MOS/kernel/ksyscall.c' l='312' macro='1' u='r' c='impl_syscall_ipc_accept'/>
+<use f='MOS/kernel/ksyscall.c' l='316' macro='1' u='r' c='impl_syscall_ipc_accept'/>
+<use f='MOS/kernel/ksyscall.c' l='322' macro='1' u='r' c='impl_syscall_ipc_connect'/>
+<use f='MOS/kernel/ksyscall.c' l='325' macro='1' u='r' c='impl_syscall_ipc_connect'/>
 <use f='MOS/kernel/mm/cow.c' l='26' macro='1' u='r' c='copy_cow_pages_inplace'/>
 <use f='MOS/kernel/mm/cow.c' l='57' macro='1' u='r' c='cow_handle_page_fault'/>
 <use f='MOS/kernel/tasks/process.c' l='167' u='r' c='process_attach_thread'/>

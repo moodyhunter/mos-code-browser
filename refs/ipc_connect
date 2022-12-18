@@ -1,3 +1,3 @@
 <dec f='MOS/kernel/include/mos/ipc/ipc.h' l='14' type='io_t * ipc_connect(process_t * owner, const char * name, ipc_connect_flags flags, size_t buffer_size)'/>
 <def f='MOS/kernel/ipc/ipc.c' l='302' ll='360' type='io_t * ipc_connect(process_t * owner, const char * name, ipc_connect_flags flags, size_t buffer_size)'/>
-<use f='MOS/kernel/ksyscall.c' l='323' u='c' c='impl_syscall_ipc_connect'/>
+<use f='MOS/kernel/ksyscall.c' l='322' u='c' c='impl_syscall_ipc_connect'/>

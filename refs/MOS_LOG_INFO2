@@ -80,9 +80,9 @@
 <use f='MOS/kernel/ksyscall.c' l='98' macro='1' u='r' c='impl_syscall_exit'/>
 <use f='MOS/kernel/ksyscall.c' l='170' macro='1' u='r' c='impl_syscall_thread_exit'/>
 <use f='MOS/kernel/ksyscall.c' l='267' macro='1' u='r' c='impl_syscall_mutex_acquire'/>
-<use f='MOS/kernel/ksyscall.c' l='272' macro='1' u='r' c='impl_syscall_mutex_acquire'/>
+<use f='MOS/kernel/ksyscall.c' l='271' macro='1' u='r' c='impl_syscall_mutex_acquire'/>
 <use f='MOS/kernel/ksyscall.c' l='276' macro='1' u='r' c='impl_syscall_mutex_acquire'/>
-<use f='MOS/kernel/ksyscall.c' l='288' macro='1' u='r' c='impl_syscall_mutex_release'/>
+<use f='MOS/kernel/ksyscall.c' l='293' macro='1' u='r' c='impl_syscall_mutex_release'/>
 <use f='MOS/kernel/mm/cow.c' l='75' macro='1' u='r' c='cow_handle_page_fault'/>
 <use f='MOS/kernel/mm/cow.c' l='85' macro='1' u='r' c='cow_handle_page_fault'/>
 <use f='MOS/kernel/mm/cow.c' l='95' macro='1' u='r' c='cow_handle_page_fault'/>
