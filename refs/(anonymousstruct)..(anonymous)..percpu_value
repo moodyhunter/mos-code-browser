@@ -21,9 +21,8 @@
 <use f='MOS/arch/x86/x86_platform.c' l='115' macro='1' u='a' c='x86_kpanic_hook'/>
 <use f='MOS/arch/x86/x86_platform.c' l='151' macro='1' u='a' c='x86_start_kernel'/>
 <use f='MOS/arch/x86/x86_platform.c' l='152' macro='1' u='a' c='x86_start_kernel'/>
-<use f='MOS/arch/x86/x86_platform.c' l='212' macro='1' u='a' c='x86_start_kernel'/>
-<use f='MOS/arch/x86/x86_platform.c' l='228' macro='1' u='a' c='x86_start_kernel'/>
-<use f='MOS/arch/x86/x86_platform.c' l='249' macro='1' u='a' c='x86_start_kernel'/>
+<use f='MOS/arch/x86/x86_platform.c' l='231' macro='1' u='a' c='x86_start_kernel'/>
+<use f='MOS/arch/x86/x86_platform.c' l='252' macro='1' u='a' c='x86_start_kernel'/>
 <use f='MOS/kernel/elf/elf.c' l='60' macro='1' u='a' c='elf_create_process'/>
 <use f='MOS/kernel/elf/elf.c' l='215' macro='1' u='a' c='elf_create_process'/>
 <use f='MOS/kernel/elf/elf.c' l='225' macro='1' u='a' c='elf_create_process'/>

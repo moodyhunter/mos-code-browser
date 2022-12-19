@@ -3,4 +3,4 @@
 <offset>0</offset>
 <use f='MOS/arch/x86/acpi/madt.c' l='56' u='r' c='madt_parse_table'/>
 <use f='MOS/arch/x86/cpu/smp.c' l='44' u='w' c='ap_begin_exec'/>
-<use f='MOS/arch/x86/x86_platform.c' l='228' u='w' c='x86_start_kernel'/>
+<use f='MOS/arch/x86/x86_platform.c' l='231' u='w' c='x86_start_kernel'/>

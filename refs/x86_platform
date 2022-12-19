@@ -43,9 +43,10 @@
 <use f='MOS/arch/x86/x86_platform.c' l='167' u='m' c='x86_start_kernel'/>
 <use f='MOS/arch/x86/x86_platform.c' l='168' u='m' c='x86_start_kernel'/>
 <use f='MOS/arch/x86/x86_platform.c' l='184' u='m' c='x86_start_kernel'/>
-<use f='MOS/arch/x86/x86_platform.c' l='201' u='m' c='x86_start_kernel'/>
-<use f='MOS/arch/x86/x86_platform.c' l='203' u='m' c='x86_start_kernel'/>
-<use f='MOS/arch/x86/x86_platform.c' l='228' u='m' c='x86_start_kernel'/>
-<def f='MOS/arch/x86/x86_platform.c' l='255' type='mos_platform_info_t'/>
-<use f='MOS/arch/x86/x86_platform.c' l='256' u='a'/>
+<use f='MOS/arch/x86/x86_platform.c' l='202' u='m' c='x86_start_kernel'/>
+<use f='MOS/arch/x86/x86_platform.c' l='204' u='m' c='x86_start_kernel'/>
+<use f='MOS/arch/x86/x86_platform.c' l='215' u='m' c='x86_start_kernel'/>
+<use f='MOS/arch/x86/x86_platform.c' l='231' u='m' c='x86_start_kernel'/>
+<def f='MOS/arch/x86/x86_platform.c' l='258' type='mos_platform_info_t'/>
+<use f='MOS/arch/x86/x86_platform.c' l='259' u='a'/>
 <use f='MOS/arch/x86/x86_platform_api.c' l='70' u='m' c='platform_mm_create_user_pgd'/>

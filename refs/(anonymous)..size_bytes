@@ -5,8 +5,8 @@
 <use f='MOS/arch/x86/devices/initrd_blockdev.c' l='19' u='r' c='initrd_read'/>
 <use f='MOS/arch/x86/mm/mm.c' l='16' u='w' c='mem_add_region'/>
 <use f='MOS/arch/x86/x86_platform.c' l='188' u='w' c='x86_start_kernel'/>
-<use f='MOS/arch/x86/x86_platform.c' l='204' u='r' c='x86_start_kernel'/>
 <use f='MOS/arch/x86/x86_platform.c' l='207' u='r' c='x86_start_kernel'/>
+<use f='MOS/arch/x86/x86_platform.c' l='210' u='r' c='x86_start_kernel'/>
 <use f='MOS/kernel/mm/paging/pmalloc.c' l='46' u='r' c='mos_pmalloc_setup'/>
 <use f='MOS/kernel/mm/paging/pmalloc.c' l='48' u='r' c='mos_pmalloc_setup'/>
 <use f='MOS/kernel/mm/paging/pmalloc.c' l='48' u='r' c='mos_pmalloc_setup'/>

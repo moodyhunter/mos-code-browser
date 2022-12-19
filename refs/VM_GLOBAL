@@ -11,6 +11,6 @@
 <use f='MOS/arch/x86/x86_platform.c' l='130' u='r' c='x86_start_kernel'/>
 <use f='MOS/arch/x86/x86_platform.c' l='135' u='r' c='x86_start_kernel'/>
 <use f='MOS/arch/x86/x86_platform.c' l='180' u='r' c='x86_start_kernel'/>
-<use f='MOS/arch/x86/x86_platform.c' l='209' u='r' c='x86_start_kernel'/>
-<use f='MOS/arch/x86/x86_platform.c' l='246' u='r' c='x86_start_kernel'/>
+<use f='MOS/arch/x86/x86_platform.c' l='212' u='r' c='x86_start_kernel'/>
+<use f='MOS/arch/x86/x86_platform.c' l='249' u='r' c='x86_start_kernel'/>
 <use f='MOS/kernel/tasks/process.c' l='293' u='r' c='process_dump_mmaps'/>

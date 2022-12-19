@@ -56,6 +56,7 @@
 <use f='MOS/arch/x86/x86_platform.c' l='58' macro='1' u='c' c='x86_keyboard_handler'/>
 <use f='MOS/arch/x86/x86_platform.c' l='156' macro='1' u='c' c='x86_start_kernel'/>
 <use f='MOS/arch/x86/x86_platform.c' l='198' macro='1' u='c' c='x86_start_kernel'/>
+<use f='MOS/arch/x86/x86_platform.c' l='206' macro='1' u='c' c='x86_start_kernel'/>
 <use f='MOS/kernel/cmdline.c' l='70' macro='1' u='c' c='mos_cmdline_create'/>
 <use f='MOS/kernel/cmdline.c' l='111' macro='1' u='c' c='mos_cmdline_get_arg'/>
 <use f='MOS/kernel/device/block.c' l='51' macro='1' u='c' c='blockdev_register'/>

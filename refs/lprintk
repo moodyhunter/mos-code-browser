@@ -68,9 +68,9 @@
 <use f='MOS/arch/x86/x86_platform.c' l='166' macro='1' u='c' c='x86_start_kernel'/>
 <use f='MOS/arch/x86/x86_platform.c' l='170' macro='1' u='c' c='x86_start_kernel'/>
 <use f='MOS/arch/x86/x86_platform.c' l='192' macro='1' u='c' c='x86_start_kernel'/>
-<use f='MOS/arch/x86/x86_platform.c' l='220' macro='1' u='c' c='x86_start_kernel'/>
-<use f='MOS/arch/x86/x86_platform.c' l='227' macro='1' u='c' c='x86_start_kernel'/>
-<use f='MOS/arch/x86/x86_platform.c' l='242' macro='1' u='c' c='x86_start_kernel'/>
+<use f='MOS/arch/x86/x86_platform.c' l='223' macro='1' u='c' c='x86_start_kernel'/>
+<use f='MOS/arch/x86/x86_platform.c' l='230' macro='1' u='c' c='x86_start_kernel'/>
+<use f='MOS/arch/x86/x86_platform.c' l='245' macro='1' u='c' c='x86_start_kernel'/>
 <use f='MOS/arch/x86/x86_platform_api.c' l='121' macro='1' u='c' c='platform_mm_map_pages'/>
 <use f='MOS/arch/x86/x86_platform_api.c' l='130' macro='1' u='c' c='platform_mm_unmap_pages'/>
 <use f='MOS/kernel/device/console.c' l='39' macro='1' u='c' c='console_register'/>

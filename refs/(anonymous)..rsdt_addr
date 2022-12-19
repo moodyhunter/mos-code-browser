@@ -1,5 +1,5 @@
 <dec f='MOS/arch/x86/include/mos/x86/acpi/acpi_types.h' l='13' type='u32'/>
 <use f='MOS/arch/x86/acpi/acpi.c' l='35' u='r' c='acpi_parse_rsdt'/>
 <offset>128</offset>
-<use f='MOS/arch/x86/x86_platform.c' l='204' u='r' c='x86_start_kernel'/>
-<use f='MOS/arch/x86/x86_platform.c' l='204' u='r' c='x86_start_kernel'/>
+<use f='MOS/arch/x86/x86_platform.c' l='207' u='r' c='x86_start_kernel'/>
+<use f='MOS/arch/x86/x86_platform.c' l='207' u='r' c='x86_start_kernel'/>

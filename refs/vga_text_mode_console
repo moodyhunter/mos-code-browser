@@ -2,4 +2,4 @@
 <def f='MOS/arch/x86/devices/text_mode_console.c' l='164' ll='176' type='console_t'/>
 <use f='MOS/arch/x86/devices/text_mode_console.c' l='166' u='m'/>
 <use f='MOS/arch/x86/devices/text_mode_console.c' l='166' u='m'/>
-<use f='MOS/arch/x86/x86_platform.c' l='250' u='a' c='x86_start_kernel'/>
+<use f='MOS/arch/x86/x86_platform.c' l='253' u='a' c='x86_start_kernel'/>

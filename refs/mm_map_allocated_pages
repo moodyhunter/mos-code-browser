@@ -16,8 +16,8 @@
 <use f='MOS/arch/x86/interrupt/lapic.c' l='158' u='c' c='lapic_memory_setup'/>
 <use f='MOS/arch/x86/x86_platform.c' l='167' u='c' c='x86_start_kernel'/>
 <use f='MOS/arch/x86/x86_platform.c' l='168' u='c' c='x86_start_kernel'/>
-<use f='MOS/arch/x86/x86_platform.c' l='212' u='c' c='x86_start_kernel'/>
-<use f='MOS/arch/x86/x86_platform.c' l='249' u='c' c='x86_start_kernel'/>
+<use f='MOS/arch/x86/x86_platform.c' l='215' u='c' c='x86_start_kernel'/>
+<use f='MOS/arch/x86/x86_platform.c' l='252' u='c' c='x86_start_kernel'/>
 <use f='MOS/kernel/mm/memops.c' l='87' u='c' c='mm_alloc_zeroed_pages'/>
 <use f='MOS/kernel/mm/paging/paging.c' l='109' u='c' c='mm_alloc_pages_at'/>
 <use f='MOS/kernel/mm/paging/paging.c' l='122' u='c' c='mm_map_pages'/>

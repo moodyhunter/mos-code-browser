@@ -5,7 +5,7 @@
 <use f='MOS/arch/x86/mm/mm.c' l='14' u='m' c='mem_add_region'/>
 <use f='MOS/arch/x86/mm/mm.c' l='26' u='m' c='x86_mem_init'/>
 <use f='MOS/arch/x86/x86_platform.c' l='156' u='m' c='x86_start_kernel'/>
-<use f='MOS/arch/x86/x86_platform.c' l='201' u='m' c='x86_start_kernel'/>
-<use f='MOS/arch/x86/x86_platform.c' l='203' u='m' c='x86_start_kernel'/>
+<use f='MOS/arch/x86/x86_platform.c' l='202' u='m' c='x86_start_kernel'/>
+<use f='MOS/arch/x86/x86_platform.c' l='204' u='m' c='x86_start_kernel'/>
 <use f='MOS/kernel/mm/paging/pmalloc.c' l='40' u='m' c='mos_pmalloc_setup'/>
 <use f='MOS/kernel/mm/paging/pmalloc.c' l='42' u='m' c='mos_pmalloc_setup'/>
