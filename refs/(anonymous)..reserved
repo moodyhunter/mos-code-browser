@@ -8,4 +8,4 @@
 <dec f='MOS/arch/x86/include/mos/x86/interrupt/idt_types.h' l='12' type='u32'/>
 <offset>37</offset>
 <doc f='MOS/arch/x86/include/mos/x86/acpi/acpi_types.h' l='66'>// field used in ACPI 1.0; no longer in use, for compatibility only</doc>
-<use f='MOS/arch/x86/interrupt/idt.c' l='32' u='w' c='idt_set_descriptor'/>
+<use f='MOS/arch/x86/interrupt/idt.c' l='25' u='w' c='idt_set_descriptor'/>

@@ -1,4 +1,4 @@
 <dec f='MOS/kernel/include/mos/platform/platform.h' l='166' type='void platform_switch_to_thread(uintptr_t * old_stack, thread_t * new_thread)'/>
 <doc f='MOS/kernel/include/mos/platform/platform.h' l='165'>// Platform Context Switching APIs</doc>
-<def f='MOS/arch/x86/x86_platform_api.c' l='116' ll='119' type='void platform_switch_to_thread(uintptr_t * old_stack, thread_t * new_thread)'/>
+<def f='MOS/arch/x86/x86_platform_api.c' l='114' ll='117' type='void platform_switch_to_thread(uintptr_t * old_stack, thread_t * new_thread)'/>
 <use f='MOS/kernel/tasks/schedule.c' l='51' u='c' c='schedule_to_thread'/>

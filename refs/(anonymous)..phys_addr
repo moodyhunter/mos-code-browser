@@ -1,4 +1,3 @@
 <dec f='MOS/arch/x86/include/mos/x86/boot/multiboot.h' l='115' type='u64'/>
 <offset>32</offset>
-<use f='MOS/arch/x86/boot/multiboot/startup.c' l='201' u='r' c='x86_startup'/>
 <use f='MOS/arch/x86/mm/mm.c' l='37' u='r' c='x86_mem_init'/>

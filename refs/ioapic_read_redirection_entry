@@ -1,1 +1,1 @@
-<def f='MOS/arch/x86/interrupt/ioapic.c' l='79' ll='91' type='ioapic_redirection_entry_t ioapic_read_redirection_entry(u32 irq)'/>
+<def f='MOS/arch/x86/interrupt/ioapic.c' l='78' ll='90' macro='1' type='ioapic_redirection_entry_t ioapic_read_redirection_entry(u32 irq)'/>

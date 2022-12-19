@@ -1,6 +1,6 @@
 <def f='MOS/kernel/include/mos/boot/startup.h' l='31' ll='35' macro='1' type='void mos_startup_map_pages(uintptr_t vaddr, uintptr_t paddr, size_t npages, vm_flags flags)'/>
 <use f='MOS/kernel/include/mos/boot/startup.h' l='42' u='c' c='mos_startup_map_bytes'/>
-<use f='MOS/arch/x86/boot/multiboot/startup.c' l='168' u='c' c='x86_startup'/>
-<use f='MOS/arch/x86/boot/multiboot/startup.c' l='171' u='c' c='x86_startup'/>
-<use f='MOS/arch/x86/boot/multiboot/startup.c' l='174' u='c' c='x86_startup'/>
-<use f='MOS/arch/x86/boot/multiboot/startup.c' l='181' u='c' c='x86_startup'/>
+<use f='MOS/arch/x86/boot/multiboot/startup.c' l='164' u='c' c='x86_startup'/>
+<use f='MOS/arch/x86/boot/multiboot/startup.c' l='167' u='c' c='x86_startup'/>
+<use f='MOS/arch/x86/boot/multiboot/startup.c' l='170' u='c' c='x86_startup'/>
+<use f='MOS/arch/x86/boot/multiboot/startup.c' l='177' u='c' c='x86_startup'/>

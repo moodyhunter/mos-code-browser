@@ -1,3 +1,0 @@
-<def f='MOS/arch/x86/cpu/smp.c' l='59' ll='82' type='void x86_cpu_start(int apic_id, uintptr_t stack_addr)'/>
-<use f='MOS/arch/x86/cpu/smp.c' l='101' u='c' c='x86_smp_init'/>
-<doc f='MOS/arch/x86/cpu/smp.c' l='57'>// clang-format on</doc>

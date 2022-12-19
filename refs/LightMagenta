@@ -1,3 +1,2 @@
 <dec f='MOS/kernel/include/mos/device/console.h' l='26' type='13'/>
-<use f='MOS/arch/x86/boot/multiboot/startup.c' l='65' u='r' c='print_debug_info'/>
 <use f='MOS/arch/x86/devices/serial_console.c' l='59' u='r' c='get_ansi_color'/>

@@ -1,4 +1,4 @@
 <dec f='MOS/arch/x86/include/mos/x86/interrupt/idt_types.h' l='10' type='u16'/>
 <offset>16</offset>
 <doc f='MOS/arch/x86/include/mos/x86/interrupt/idt_types.h' l='10'>// The GDT segment selector that the CPU will load into CS before calling the ISR</doc>
-<use f='MOS/arch/x86/interrupt/idt.c' l='27' u='w' c='idt_set_descriptor'/>
+<use f='MOS/arch/x86/interrupt/idt.c' l='20' u='w' c='idt_set_descriptor'/>

@@ -4,5 +4,5 @@
 <use f='MOS/arch/x86/mm/mm.c' l='74' u='c' c='x86_mem_init'/>
 <use f='MOS/arch/x86/mm/mm.c' l='75' u='c' c='x86_mem_init'/>
 <use f='MOS/arch/x86/mm/mm.c' l='76' u='c' c='x86_mem_init'/>
-<use f='MOS/kernel/mm/paging/pmalloc.c' l='66' u='c' c='pmalloc_dump'/>
+<use f='MOS/kernel/mm/paging/pmalloc.c' l='67' u='c' c='pmalloc_dump'/>
 <def f='MOS/lib/stdlib.c' l='55' ll='75' type='void format_size(char * buf, size_t buf_size, u64 size)'/>

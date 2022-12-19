@@ -1,3 +1,3 @@
 <dec f='MOS/arch/x86/include/mos/x86/mm/paging.h' l='12' type='void x86_mm_prepare_paging()'/>
-<def f='MOS/arch/x86/mm/paging.c' l='16' ll='30' type='void x86_mm_prepare_paging()'/>
-<use f='MOS/arch/x86/x86_platform.c' l='147' u='c' c='x86_start_kernel'/>
+<def f='MOS/arch/x86/mm/paging.c' l='16' ll='25' type='void x86_mm_prepare_paging()'/>
+<use f='MOS/arch/x86/x86_platform.c' l='159' u='c' c='x86_start_kernel'/>

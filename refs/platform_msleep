@@ -1,2 +1,2 @@
 <dec f='MOS/kernel/include/mos/platform/platform.h' l='140' type='void platform_msleep(u64 ms)'/>
-<def f='MOS/arch/x86/x86_platform_api.c' l='37' ll='40' type='void platform_msleep(u64 ms)'/>
+<def f='MOS/arch/x86/x86_platform_api.c' l='35' ll='38' type='void platform_msleep(u64 ms)'/>

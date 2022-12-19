@@ -1,4 +1,4 @@
-<def f='MOS/arch/x86/boot/multiboot/startup.c' l='41' macro='1' type='const uintptr_t'/>
-<use f='MOS/arch/x86/boot/multiboot/startup.c' l='173' u='r' c='x86_startup'/>
-<use f='MOS/arch/x86/boot/multiboot/startup.c' l='174' u='r' c='x86_startup'/>
-<use f='MOS/arch/x86/boot/multiboot/startup.c' l='174' u='r' c='x86_startup'/>
+<def f='MOS/arch/x86/boot/multiboot/startup.c' l='37' macro='1' type='const uintptr_t'/>
+<use f='MOS/arch/x86/boot/multiboot/startup.c' l='169' u='r' c='x86_startup'/>
+<use f='MOS/arch/x86/boot/multiboot/startup.c' l='170' u='r' c='x86_startup'/>
+<use f='MOS/arch/x86/boot/multiboot/startup.c' l='170' u='r' c='x86_startup'/>

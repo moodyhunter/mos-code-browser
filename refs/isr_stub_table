@@ -1,3 +1,3 @@
-<dec f='MOS/arch/x86/include/mos/x86/x86_interrupt.h' l='75' type='void *[]'/>
-<use f='MOS/arch/x86/interrupt/idt.c' l='39' u='r' c='x86_idt_init'/>
-<use f='MOS/arch/x86/interrupt/idt.c' l='45' u='r' c='x86_idt_init'/>
+<dec f='MOS/arch/x86/include/mos/x86/x86_interrupt.h' l='77' type='void *[]'/>
+<use f='MOS/arch/x86/interrupt/idt.c' l='32' u='r' c='x86_idt_init'/>
+<use f='MOS/arch/x86/interrupt/idt.c' l='38' u='r' c='x86_idt_init'/>

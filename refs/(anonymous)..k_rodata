@@ -1,7 +1,7 @@
 <dec f='MOS/kernel/include/mos/platform/platform.h' l='113' type='vmblock_t'/>
 <offset>5696</offset>
-<use f='MOS/arch/x86/mm/paging.c' l='28' u='r' c='x86_mm_prepare_paging'/>
-<use f='MOS/arch/x86/x86_platform.c' l='119' u='m' c='x86_start_kernel'/>
-<use f='MOS/arch/x86/x86_platform.c' l='120' u='m' c='x86_start_kernel'/>
-<use f='MOS/arch/x86/x86_platform.c' l='121' u='m' c='x86_start_kernel'/>
-<use f='MOS/arch/x86/x86_platform.c' l='122' u='m' c='x86_start_kernel'/>
+<use f='MOS/arch/x86/x86_platform.c' l='132' u='m' c='x86_start_kernel'/>
+<use f='MOS/arch/x86/x86_platform.c' l='133' u='m' c='x86_start_kernel'/>
+<use f='MOS/arch/x86/x86_platform.c' l='134' u='m' c='x86_start_kernel'/>
+<use f='MOS/arch/x86/x86_platform.c' l='135' u='m' c='x86_start_kernel'/>
+<use f='MOS/arch/x86/x86_platform.c' l='163' u='r' c='x86_start_kernel'/>

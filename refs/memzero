@@ -1,13 +1,13 @@
 <dec f='MOS/lib/include/lib/string.h' l='21' type='void memzero(void * s, size_t n)'/>
 <use f='MOS/arch/x86/mm/paging.c' l='24' u='c' c='x86_mm_prepare_paging'/>
 <use f='MOS/arch/x86/tasks/tss.c' l='12' u='c' c='x86_tss_init'/>
-<use f='MOS/arch/x86/x86_platform_api.c' l='74' u='c' c='platform_mm_create_user_pgd'/>
+<use f='MOS/arch/x86/x86_platform_api.c' l='72' u='c' c='platform_mm_create_user_pgd'/>
 <use f='MOS/kernel/device/block.c' l='53' u='c' c='blockdev_register'/>
 <use f='MOS/kernel/elf/elf.c' l='188' u='c' c='elf_create_process'/>
 <use f='MOS/kernel/mm/cow.c' l='85' u='c' c='cow_handle_page_fault'/>
 <use f='MOS/kernel/mm/memops.c' l='20' u='c' c='mos_kernel_mm_init'/>
-<use f='MOS/kernel/mm/paging/pmalloc.c' l='36' u='c' c='mos_pmalloc_setup'/>
-<use f='MOS/kernel/mm/paging/pmalloc.c' l='191' u='c' c='pmalloc_acquire_region'/>
+<use f='MOS/kernel/mm/paging/pmalloc.c' l='37' u='c' c='mos_pmalloc_setup'/>
+<use f='MOS/kernel/mm/paging/pmalloc.c' l='192' u='c' c='pmalloc_acquire_region'/>
 <use f='MOS/lib/liballoc.c' l='597' u='c' c='liballoc_calloc'/>
 <def f='MOS/lib/string.c' l='94' ll='112' type='void memzero(void * s, size_t n)'/>
 <use f='MOS/lib/structures/bitmap.c' l='18' u='c' c='bitmap_zero'/>

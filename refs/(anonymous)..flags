@@ -11,26 +11,28 @@
 <offset>96</offset>
 <doc f='MOS/kernel/include/mos/platform/platform.h' l='97'>// the expected flags for the region, regardless of the copy-on-write state</doc>
 <doc f='MOS/arch/x86/include/mos/x86/boot/multiboot.h' l='122'>/* Multiboot info version number */</doc>
-<use f='MOS/arch/x86/acpi/madt.c' l='41' u='r' c='acpi_parse_madt'/>
-<use f='MOS/arch/x86/acpi/madt.c' l='66' u='r' c='acpi_parse_madt'/>
-<use f='MOS/arch/x86/acpi/madt.c' l='84' u='r' c='acpi_parse_madt'/>
-<use f='MOS/arch/x86/acpi/madt.c' l='91' u='r' c='acpi_parse_madt'/>
-<use f='MOS/arch/x86/acpi/madt.c' l='106' u='r' c='acpi_parse_madt'/>
-<use f='MOS/arch/x86/boot/multiboot/startup.c' l='140' u='r' c='x86_startup'/>
-<use f='MOS/arch/x86/boot/multiboot/startup.c' l='149' u='r' c='x86_startup'/>
-<use f='MOS/arch/x86/boot/multiboot/startup.c' l='176' u='r' c='x86_startup'/>
-<use f='MOS/arch/x86/interrupt/ioapic.c' l='97' u='w' c='ioapic_init'/>
-<use f='MOS/arch/x86/interrupt/lapic.c' l='159' u='w' c='lapic_memory_setup'/>
-<use f='MOS/arch/x86/x86_platform.c' l='112' u='w' c='x86_start_kernel'/>
-<use f='MOS/arch/x86/x86_platform.c' l='117' u='w' c='x86_start_kernel'/>
-<use f='MOS/arch/x86/x86_platform.c' l='122' u='w' c='x86_start_kernel'/>
-<use f='MOS/arch/x86/x86_platform.c' l='134' u='r' c='x86_start_kernel'/>
-<use f='MOS/arch/x86/x86_platform.c' l='157' u='w' c='x86_start_kernel'/>
-<use f='MOS/arch/x86/x86_platform.c' l='175' u='w' c='x86_start_kernel'/>
-<use f='MOS/arch/x86/x86_platform.c' l='207' u='w' c='x86_start_kernel'/>
-<use f='MOS/arch/x86/x86_platform_api.c' l='127' u='r' c='platform_mm_map_pages'/>
-<use f='MOS/arch/x86/x86_platform_api.c' l='146' u='w' c='platform_mm_get_block_info'/>
-<use f='MOS/arch/x86/x86_platform_api.c' l='167' u='w' c='platform_mm_copy_maps'/>
+<use f='MOS/arch/x86/acpi/madt.c' l='41' u='r' c='madt_parse_table'/>
+<use f='MOS/arch/x86/acpi/madt.c' l='66' u='r' c='madt_parse_table'/>
+<use f='MOS/arch/x86/acpi/madt.c' l='84' u='r' c='madt_parse_table'/>
+<use f='MOS/arch/x86/acpi/madt.c' l='91' u='r' c='madt_parse_table'/>
+<use f='MOS/arch/x86/acpi/madt.c' l='106' u='r' c='madt_parse_table'/>
+<use f='MOS/arch/x86/boot/multiboot/startup.c' l='136' u='r' c='x86_startup'/>
+<use f='MOS/arch/x86/boot/multiboot/startup.c' l='145' u='r' c='x86_startup'/>
+<use f='MOS/arch/x86/boot/multiboot/startup.c' l='172' u='r' c='x86_startup'/>
+<use f='MOS/arch/x86/interrupt/ioapic.c' l='100' u='w' c='ioapic_init'/>
+<use f='MOS/arch/x86/interrupt/lapic.c' l='156' u='w' c='lapic_memory_setup'/>
+<use f='MOS/arch/x86/x86_platform.c' l='45' u='w'/>
+<use f='MOS/arch/x86/x86_platform.c' l='52' u='w'/>
+<use f='MOS/arch/x86/x86_platform.c' l='125' u='w' c='x86_start_kernel'/>
+<use f='MOS/arch/x86/x86_platform.c' l='130' u='w' c='x86_start_kernel'/>
+<use f='MOS/arch/x86/x86_platform.c' l='135' u='w' c='x86_start_kernel'/>
+<use f='MOS/arch/x86/x86_platform.c' l='148' u='r' c='x86_start_kernel'/>
+<use f='MOS/arch/x86/x86_platform.c' l='180' u='w' c='x86_start_kernel'/>
+<use f='MOS/arch/x86/x86_platform.c' l='209' u='w' c='x86_start_kernel'/>
+<use f='MOS/arch/x86/x86_platform.c' l='246' u='w' c='x86_start_kernel'/>
+<use f='MOS/arch/x86/x86_platform_api.c' l='125' u='r' c='platform_mm_map_pages'/>
+<use f='MOS/arch/x86/x86_platform_api.c' l='144' u='w' c='platform_mm_get_block_info'/>
+<use f='MOS/arch/x86/x86_platform_api.c' l='165' u='w' c='platform_mm_copy_maps'/>
 <dec f='MOS/kernel/include/mos/elf/elf.h' l='100' type='u32'/>
 <use f='MOS/kernel/elf/elf.c' l='217' u='w' c='elf_create_process'/>
 <offset>384</offset>

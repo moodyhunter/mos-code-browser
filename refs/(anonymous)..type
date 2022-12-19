@@ -3,15 +3,14 @@
 <dec f='MOS/arch/x86/include/mos/x86/interrupt/idt_types.h' l='13' type='u32'/>
 <offset>40</offset>
 <doc f='MOS/arch/x86/include/mos/x86/interrupt/idt_types.h' l='13'>// The type of interrupt</doc>
-<use f='MOS/arch/x86/acpi/madt.c' l='34' macro='1' u='r' c='acpi_parse_madt'/>
-<use f='MOS/arch/x86/acpi/madt.c' l='34' macro='1' u='r' c='acpi_parse_madt'/>
-<use f='MOS/arch/x86/acpi/madt.c' l='34' macro='1' u='r' c='acpi_parse_madt'/>
-<use f='MOS/arch/x86/acpi/madt.c' l='36' u='r' c='acpi_parse_madt'/>
-<use f='MOS/arch/x86/acpi/madt.c' l='112' u='r' c='acpi_parse_madt'/>
-<dec f='MOS/kernel/include/mos/tasks/task_types.h' l='40' type='vm_type'/>
-<offset>256</offset>
-<use f='MOS/arch/x86/interrupt/idt.c' l='30' u='w' c='idt_set_descriptor'/>
+<use f='MOS/arch/x86/acpi/madt.c' l='34' macro='1' u='r' c='madt_parse_table'/>
+<use f='MOS/arch/x86/acpi/madt.c' l='34' macro='1' u='r' c='madt_parse_table'/>
+<use f='MOS/arch/x86/acpi/madt.c' l='34' macro='1' u='r' c='madt_parse_table'/>
+<use f='MOS/arch/x86/acpi/madt.c' l='36' u='r' c='madt_parse_table'/>
+<use f='MOS/arch/x86/acpi/madt.c' l='112' u='r' c='madt_parse_table'/>
+<use f='MOS/arch/x86/interrupt/idt.c' l='23' u='w' c='idt_set_descriptor'/>
 <dec f='MOS/kernel/include/mos/filesystem/filesystem.h' l='65' type='file_type_t'/>
+<dec f='MOS/kernel/include/mos/tasks/task_types.h' l='40' type='vm_type'/>
 <dec f='MOS/kernel/include/mos/ipc/ipc_types.h' l='42' type='ipc_msg_type'/>
 <offset>32</offset>
 <use f='MOS/arch/x86/mm/mm.c' l='54' u='r' c='x86_mem_init'/>

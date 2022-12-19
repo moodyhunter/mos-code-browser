@@ -1,17 +1,19 @@
 <dec f='MOS/kernel/include/mos/platform/platform.h' l='96' type='size_t'/>
 <offset>128</offset>
-<use f='MOS/arch/x86/interrupt/ioapic.c' l='97' u='w' c='ioapic_init'/>
-<use f='MOS/arch/x86/interrupt/lapic.c' l='158' u='w' c='lapic_memory_setup'/>
-<use f='MOS/arch/x86/x86_platform.c' l='110' u='w' c='x86_start_kernel'/>
-<use f='MOS/arch/x86/x86_platform.c' l='115' u='w' c='x86_start_kernel'/>
-<use f='MOS/arch/x86/x86_platform.c' l='120' u='w' c='x86_start_kernel'/>
-<use f='MOS/arch/x86/x86_platform.c' l='155' u='w' c='x86_start_kernel'/>
-<use f='MOS/arch/x86/x86_platform.c' l='173' u='w' c='x86_start_kernel'/>
-<use f='MOS/arch/x86/x86_platform.c' l='205' u='w' c='x86_start_kernel'/>
-<use f='MOS/arch/x86/x86_platform_api.c' l='123' u='r' c='platform_mm_map_pages'/>
-<use f='MOS/arch/x86/x86_platform_api.c' l='126' u='r' c='platform_mm_map_pages'/>
-<use f='MOS/arch/x86/x86_platform_api.c' l='145' u='w' c='platform_mm_get_block_info'/>
-<use f='MOS/arch/x86/x86_platform_api.c' l='166' u='w' c='platform_mm_copy_maps'/>
+<use f='MOS/arch/x86/interrupt/ioapic.c' l='99' u='w' c='ioapic_init'/>
+<use f='MOS/arch/x86/interrupt/lapic.c' l='155' u='w' c='lapic_memory_setup'/>
+<use f='MOS/arch/x86/x86_platform.c' l='43' u='w'/>
+<use f='MOS/arch/x86/x86_platform.c' l='50' u='w'/>
+<use f='MOS/arch/x86/x86_platform.c' l='123' u='w' c='x86_start_kernel'/>
+<use f='MOS/arch/x86/x86_platform.c' l='128' u='w' c='x86_start_kernel'/>
+<use f='MOS/arch/x86/x86_platform.c' l='133' u='w' c='x86_start_kernel'/>
+<use f='MOS/arch/x86/x86_platform.c' l='182' u='w' c='x86_start_kernel'/>
+<use f='MOS/arch/x86/x86_platform.c' l='207' u='w' c='x86_start_kernel'/>
+<use f='MOS/arch/x86/x86_platform.c' l='244' u='w' c='x86_start_kernel'/>
+<use f='MOS/arch/x86/x86_platform_api.c' l='121' u='r' c='platform_mm_map_pages'/>
+<use f='MOS/arch/x86/x86_platform_api.c' l='124' u='r' c='platform_mm_map_pages'/>
+<use f='MOS/arch/x86/x86_platform_api.c' l='143' u='w' c='platform_mm_get_block_info'/>
+<use f='MOS/arch/x86/x86_platform_api.c' l='164' u='w' c='platform_mm_copy_maps'/>
 <use f='MOS/kernel/elf/elf.c' l='216' u='r' c='elf_create_process'/>
 <use f='MOS/kernel/elf/elf.c' l='225' u='r' c='elf_create_process'/>
 <use f='MOS/kernel/ipc/ipc.c' l='297' u='r' c='ipc_accept'/>

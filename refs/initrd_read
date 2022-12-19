@@ -1,3 +1,3 @@
-<dec f='MOS/arch/x86/include/mos/x86/devices/initrd_blockdev.h' l='18' type='size_t initrd_read(blockdev_t * dev, void * buf, size_t size, size_t bytes_read)'/>
-<use f='MOS/arch/x86/devices/initrd_blockdev.c' l='11' u='r' c='initrd_blockdev_preinstall'/>
-<def f='MOS/arch/x86/devices/initrd_blockdev.c' l='15' ll='32' type='size_t initrd_read(blockdev_t * dev, void * buf, size_t size, size_t offset)'/>
+<dec f='MOS/arch/x86/include/mos/x86/devices/initrd_blockdev.h' l='14' type='size_t initrd_read(blockdev_t * dev, void * buf, size_t size, size_t bytes_read)'/>
+<def f='MOS/arch/x86/devices/initrd_blockdev.c' l='7' ll='24' type='size_t initrd_read(blockdev_t * dev, void * buf, size_t size, size_t offset)'/>
+<use f='MOS/arch/x86/x86_platform.c' l='187' u='r' c='x86_start_kernel'/>

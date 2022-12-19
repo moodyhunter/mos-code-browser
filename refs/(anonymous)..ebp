@@ -2,9 +2,9 @@
 <dec f='MOS/arch/x86/include/mos/x86/x86_platform.h' l='39' type='reg32_t'/>
 <offset>192</offset>
 <dec f='MOS/arch/x86/include/mos/x86/tasks/context.h' l='11' type='reg32_t'/>
-<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='100' u='r' c='x86_dump_registers'/>
-<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='143' u='w' c='x86_handle_interrupt'/>
-<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='143' u='r' c='x86_handle_interrupt'/>
-<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='153' u='r' c='x86_handle_interrupt'/>
+<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='93' u='r' c='x86_dump_registers'/>
+<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='270' u='w' c='x86_handle_interrupt'/>
+<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='270' u='r' c='x86_handle_interrupt'/>
+<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='280' u='r' c='x86_handle_interrupt'/>
 <offset>128</offset>
 <use f='MOS/arch/x86/tasks/context.c' l='31' u='w' c='x86_setup_thread_context'/>

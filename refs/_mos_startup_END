@@ -1,2 +1,2 @@
-<dec f='MOS/arch/x86/boot/multiboot/startup.c' l='20' type='const char'/>
-<use f='MOS/arch/x86/boot/multiboot/startup.c' l='35' u='a'/>
+<dec f='MOS/arch/x86/boot/multiboot/startup.c' l='16' type='const char'/>
+<use f='MOS/arch/x86/boot/multiboot/startup.c' l='31' u='a'/>

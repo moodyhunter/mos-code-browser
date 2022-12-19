@@ -1,10 +1,10 @@
 <def f='MOS/arch/x86/include/mos/x86/mm/paging_impl.h' l='55' ll='58' macro='1' type='x86_pg_infra_t * x86_get_pg_infra(paging_handle_t table)'/>
-<use f='MOS/arch/x86/x86_platform.c' l='85' u='c' c='x86_kpanic_hook'/>
-<use f='MOS/arch/x86/x86_platform.c' l='102' u='c' c='x86_kpanic_hook'/>
-<use f='MOS/arch/x86/x86_platform_api.c' l='125' u='c' c='platform_mm_map_pages'/>
-<use f='MOS/arch/x86/x86_platform_api.c' l='134' u='c' c='platform_mm_unmap_pages'/>
-<use f='MOS/arch/x86/x86_platform_api.c' l='141' u='c' c='platform_mm_get_block_info'/>
-<use f='MOS/arch/x86/x86_platform_api.c' l='152' u='c' c='platform_mm_copy_maps'/>
-<use f='MOS/arch/x86/x86_platform_api.c' l='153' u='c' c='platform_mm_copy_maps'/>
-<use f='MOS/arch/x86/x86_platform_api.c' l='175' u='c' c='platform_mm_flag_pages'/>
-<use f='MOS/arch/x86/x86_platform_api.c' l='181' u='c' c='platform_mm_get_flags'/>
+<use f='MOS/arch/x86/x86_platform.c' l='98' u='c' c='x86_kpanic_hook'/>
+<use f='MOS/arch/x86/x86_platform.c' l='115' u='c' c='x86_kpanic_hook'/>
+<use f='MOS/arch/x86/x86_platform_api.c' l='123' u='c' c='platform_mm_map_pages'/>
+<use f='MOS/arch/x86/x86_platform_api.c' l='132' u='c' c='platform_mm_unmap_pages'/>
+<use f='MOS/arch/x86/x86_platform_api.c' l='139' u='c' c='platform_mm_get_block_info'/>
+<use f='MOS/arch/x86/x86_platform_api.c' l='150' u='c' c='platform_mm_copy_maps'/>
+<use f='MOS/arch/x86/x86_platform_api.c' l='151' u='c' c='platform_mm_copy_maps'/>
+<use f='MOS/arch/x86/x86_platform_api.c' l='173' u='c' c='platform_mm_flag_pages'/>
+<use f='MOS/arch/x86/x86_platform_api.c' l='179' u='c' c='platform_mm_get_flags'/>

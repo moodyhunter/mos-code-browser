@@ -1,7 +1,4 @@
 <def f='MOS/kernel/include/mos/boot/startup.h' l='51' ll='55' macro='1' type='void mos_startup_map_bios(uintptr_t paddr, size_t nbytes, vm_flags flags)'/>
+<use f='MOS/arch/x86/boot/multiboot/startup.c' l='152' u='c' c='x86_startup'/>
+<use f='MOS/arch/x86/boot/multiboot/startup.c' l='155' u='c' c='x86_startup'/>
 <use f='MOS/arch/x86/boot/multiboot/startup.c' l='156' u='c' c='x86_startup'/>
-<use f='MOS/arch/x86/boot/multiboot/startup.c' l='159' u='c' c='x86_startup'/>
-<use f='MOS/arch/x86/boot/multiboot/startup.c' l='160' u='c' c='x86_startup'/>
-<use f='MOS/arch/x86/boot/multiboot/startup.c' l='204' u='c' c='x86_startup'/>
-<use f='MOS/arch/x86/interrupt/ioapic.c' l='96' u='c' c='ioapic_init'/>
-<use f='MOS/arch/x86/interrupt/lapic.c' l='153' u='c' c='lapic_memory_setup'/>

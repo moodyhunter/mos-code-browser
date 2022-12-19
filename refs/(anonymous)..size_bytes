@@ -1,12 +1,13 @@
 <dec f='MOS/kernel/include/mos/platform/platform.h' l='103' type='size_t'/>
 <offset>64</offset>
+<use f='MOS/arch/x86/devices/initrd_blockdev.c' l='11' u='r' c='initrd_read'/>
+<use f='MOS/arch/x86/devices/initrd_blockdev.c' l='18' u='r' c='initrd_read'/>
 <use f='MOS/arch/x86/devices/initrd_blockdev.c' l='19' u='r' c='initrd_read'/>
-<use f='MOS/arch/x86/devices/initrd_blockdev.c' l='26' u='r' c='initrd_read'/>
-<use f='MOS/arch/x86/devices/initrd_blockdev.c' l='27' u='r' c='initrd_read'/>
 <use f='MOS/arch/x86/mm/mm.c' l='16' u='w' c='mem_add_region'/>
-<use f='MOS/arch/x86/x86_platform.c' l='173' u='r' c='x86_start_kernel'/>
-<use f='MOS/arch/x86/x86_platform.c' l='224' u='w' c='x86_start_kernel'/>
-<use f='MOS/kernel/mm/paging/pmalloc.c' l='45' u='r' c='mos_pmalloc_setup'/>
-<use f='MOS/kernel/mm/paging/pmalloc.c' l='47' u='r' c='mos_pmalloc_setup'/>
-<use f='MOS/kernel/mm/paging/pmalloc.c' l='47' u='r' c='mos_pmalloc_setup'/>
-<use f='MOS/kernel/mm/paging/pmalloc.c' l='51' u='r' c='mos_pmalloc_setup'/>
+<use f='MOS/arch/x86/x86_platform.c' l='188' u='w' c='x86_start_kernel'/>
+<use f='MOS/arch/x86/x86_platform.c' l='204' u='r' c='x86_start_kernel'/>
+<use f='MOS/arch/x86/x86_platform.c' l='207' u='r' c='x86_start_kernel'/>
+<use f='MOS/kernel/mm/paging/pmalloc.c' l='46' u='r' c='mos_pmalloc_setup'/>
+<use f='MOS/kernel/mm/paging/pmalloc.c' l='48' u='r' c='mos_pmalloc_setup'/>
+<use f='MOS/kernel/mm/paging/pmalloc.c' l='48' u='r' c='mos_pmalloc_setup'/>
+<use f='MOS/kernel/mm/paging/pmalloc.c' l='52' u='r' c='mos_pmalloc_setup'/>

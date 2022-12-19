@@ -1,4 +1,4 @@
 <dec f='MOS/kernel/include/mos/mos_global.h' l='12'/>
 <use f='MOS/kernel/include/mos/device/console.h' l='71' u='c'/>
 <use f='MOS/arch/x86/gdt/gdt.c' l='11' u='c'/>
-<use f='MOS/arch/x86/interrupt/idt.c' l='13' u='c'/>
+<use f='MOS/arch/x86/interrupt/idt.c' l='6' u='c'/>

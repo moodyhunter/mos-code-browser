@@ -1,3 +1,3 @@
 <dec f='MOS/arch/x86/include/mos/x86/interrupt/apic.h' l='66' type='void ioapic_enable_with_mode(u32 irq, u32 cpu, ioapic_trigger_mode_t trigger_mode, ioapic_polarity_t polarity)'/>
 <use f='MOS/arch/x86/include/mos/x86/interrupt/apic.h' l='71' u='c' c='ioapic_enable_interrupt'/>
-<def f='MOS/arch/x86/interrupt/ioapic.c' l='132' ll='144' type='void ioapic_enable_with_mode(u32 irq, u32 cpu, ioapic_trigger_mode_t trigger_mode, ioapic_polarity_t polarity)'/>
+<def f='MOS/arch/x86/interrupt/ioapic.c' l='126' ll='138' type='void ioapic_enable_with_mode(u32 irq, u32 cpu, ioapic_trigger_mode_t trigger_mode, ioapic_polarity_t polarity)'/>

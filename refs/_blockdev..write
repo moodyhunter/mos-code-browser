@@ -1,3 +1,2 @@
 <dec f='MOS/kernel/include/mos/device/block.h' l='11' type='size_t (*)(struct _blockdev *, const void *, size_t, size_t)'/>
-<use f='MOS/arch/x86/devices/initrd_blockdev.c' l='12' u='w' c='initrd_blockdev_preinstall'/>
 <offset>128</offset>

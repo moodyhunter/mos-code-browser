@@ -1,2 +1,2 @@
 <dec f='MOS/kernel/include/mos/platform/platform.h' l='146' type='_Bool platform_irq_handler_install(u32 irq, irq_handler handler)'/>
-<def f='MOS/arch/x86/x86_platform_api.c' l='57' ll='60' macro='1' type='_Bool platform_irq_handler_install(u32 irq, irq_handler handler)'/>
+<def f='MOS/arch/x86/x86_platform_api.c' l='55' ll='58' macro='1' type='_Bool platform_irq_handler_install(u32 irq, irq_handler handler)'/>

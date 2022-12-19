@@ -1,9 +1,9 @@
 <dec f='MOS/lib/include/lib/string.h' l='15' type='s32 strncmp(const char * str1, const char * str2, size_t n)'/>
-<use f='MOS/arch/x86/acpi/acpi.c' l='46' u='c' c='x86_acpi_init'/>
-<use f='MOS/arch/x86/acpi/acpi.c' l='54' u='c' c='x86_acpi_init'/>
-<use f='MOS/arch/x86/acpi/acpi.c' l='61' u='c' c='x86_acpi_init'/>
-<use f='MOS/arch/x86/acpi/acpi.c' l='68' u='c' c='x86_acpi_init'/>
-<use f='MOS/arch/x86/acpi/acpi.c' l='89' u='c' c='acpi_find_rsdp'/>
+<use f='MOS/arch/x86/acpi/acpi.c' l='39' u='c' c='acpi_parse_rsdt'/>
+<use f='MOS/arch/x86/acpi/acpi.c' l='47' u='c' c='acpi_parse_rsdt'/>
+<use f='MOS/arch/x86/acpi/acpi.c' l='54' u='c' c='acpi_parse_rsdt'/>
+<use f='MOS/arch/x86/acpi/acpi.c' l='61' u='c' c='acpi_parse_rsdt'/>
+<use f='MOS/arch/x86/acpi/acpi.c' l='82' u='c' c='acpi_find_rsdp'/>
 <use f='MOS/kernel/cmdline.c' l='47' u='c' c='mos_cmdline_create'/>
 <use f='MOS/kernel/cmdline.c' l='53' u='c' c='mos_cmdline_create'/>
 <use f='MOS/kernel/device/console.c' l='63' u='c' c='console_get_by_prefix'/>

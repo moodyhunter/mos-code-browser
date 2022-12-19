@@ -1,3 +1,0 @@
-<dec f='MOS/arch/x86/include/mos/x86/acpi/acpi.h' l='12' type='void x86_acpi_init()'/>
-<def f='MOS/arch/x86/acpi/acpi.c' l='28' ll='83' type='void x86_acpi_init()'/>
-<use f='MOS/arch/x86/x86_platform.c' l='183' u='c' c='x86_start_kernel'/>

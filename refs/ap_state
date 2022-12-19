@@ -1,5 +1,5 @@
-<def f='MOS/arch/x86/cpu/smp.c' l='19' ll='25' type='volatile enum (unnamed enum at /home/runner/work/MOS/MOS/arch/x86/cpu/smp.c:19:10)'/>
+<def f='MOS/arch/x86/cpu/smp.c' l='16' ll='22' type='volatile enum (unnamed enum at /home/runner/work/MOS/MOS/arch/x86/cpu/smp.c:16:10)'/>
 <use f='MOS/arch/x86/cpu/smp.c' l='61' u='w' c='x86_cpu_start'/>
-<use f='MOS/arch/x86/cpu/smp.c' l='69' u='w' c='x86_cpu_start'/>
+<use f='MOS/arch/x86/cpu/smp.c' l='67' u='w' c='x86_cpu_start'/>
 <use f='MOS/arch/x86/cpu/smp.c' l='56' u='r' c='x86_cpu_start'/>
-<use f='MOS/arch/x86/cpu/smp.c' l='80' u='w' c='x86_cpu_start'/>
+<use f='MOS/arch/x86/cpu/smp.c' l='78' u='w' c='x86_cpu_start'/>

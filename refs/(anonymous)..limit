@@ -2,4 +2,4 @@
 <dec f='MOS/arch/x86/include/mos/x86/interrupt/idt_types.h' l='22' type='u16'/>
 <offset>0</offset>
 <use f='MOS/arch/x86/gdt/gdt.c' l='82' u='w' c='x86_gdt_init'/>
-<use f='MOS/arch/x86/interrupt/idt.c' l='50' u='w' c='x86_idt_init'/>
+<use f='MOS/arch/x86/interrupt/idt.c' l='41' u='w' c='x86_idt_init'/>

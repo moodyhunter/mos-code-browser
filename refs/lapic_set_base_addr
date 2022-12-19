@@ -1,2 +1,2 @@
 <def f='MOS/arch/x86/interrupt/lapic.c' l='58' ll='63' type='void lapic_set_base_addr(uintptr_t base_addr)'/>
-<use f='MOS/arch/x86/interrupt/lapic.c' l='168' u='c' c='lapic_enable'/>
+<use f='MOS/arch/x86/interrupt/lapic.c' l='164' u='c' c='lapic_enable'/>

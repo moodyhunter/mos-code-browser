@@ -1,2 +1,2 @@
 acpi_find_rsdp|acpi_find_rsdp
-acpi_parse_madt|acpi_parse_madt
+acpi_parse_rsdt|acpi_parse_rsdt

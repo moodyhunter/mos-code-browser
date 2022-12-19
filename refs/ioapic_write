@@ -1,3 +1,3 @@
-<def f='MOS/arch/x86/interrupt/ioapic.c' l='61' ll='65' macro='1' type='void ioapic_write(u32 reg, u32 value)'/>
+<def f='MOS/arch/x86/interrupt/ioapic.c' l='60' ll='64' macro='1' type='void ioapic_write(u32 reg, u32 value)'/>
+<use f='MOS/arch/x86/interrupt/ioapic.c' l='74' u='c' c='ioapic_write_redirection_entry'/>
 <use f='MOS/arch/x86/interrupt/ioapic.c' l='75' u='c' c='ioapic_write_redirection_entry'/>
-<use f='MOS/arch/x86/interrupt/ioapic.c' l='76' u='c' c='ioapic_write_redirection_entry'/>

@@ -1,2 +1,2 @@
-<dec f='MOS/arch/x86/include/mos/x86/x86_interrupt.h' l='76' type='void *[]'/>
-<use f='MOS/arch/x86/interrupt/idt.c' l='42' u='r' c='x86_idt_init'/>
+<dec f='MOS/arch/x86/include/mos/x86/x86_interrupt.h' l='78' type='void *[]'/>
+<use f='MOS/arch/x86/interrupt/idt.c' l='35' u='r' c='x86_idt_init'/>

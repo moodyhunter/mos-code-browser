@@ -1,4 +1,4 @@
 <dec f='MOS/kernel/include/mos/platform/platform.h' l='162' type='void platform_context_setup(thread_t * thread, thread_entry_t entry, void * arg)'/>
 <doc f='MOS/kernel/include/mos/platform/platform.h' l='161'>// Platform Thread / Process APIs</doc>
-<def f='MOS/arch/x86/x86_platform_api.c' l='101' ll='104' type='void platform_context_setup(thread_t * thread, thread_entry_t entry, void * arg)'/>
+<def f='MOS/arch/x86/x86_platform_api.c' l='99' ll='102' type='void platform_context_setup(thread_t * thread, thread_entry_t entry, void * arg)'/>
 <use f='MOS/kernel/tasks/thread.c' l='84' u='c' c='thread_new'/>

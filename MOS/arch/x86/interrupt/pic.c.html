@@ -13,53 +13,46 @@
 <hr/><div id='content'><table class="code">
 <tr><th id="1">1</th><td><i>// SPDX-License-Identifier: GPL-3.0-or-later</i></td></tr>
 <tr><th id="2">2</th><td></td></tr>
-<tr><th id="3">3</th><td><u>#include <a href="../include/mos/x86/interrupt/pic.h.html">"mos/x86/interrupt/pic.h"</a></u></td></tr>
-<tr><th id="4">4</th><td></td></tr>
-<tr><th id="5">5</th><td><u>#include <a href="../../../kernel/include/mos/types.h.html">"mos/types.h"</a></u></td></tr>
-<tr><th id="6">6</th><td><u>#include <a href="../include/mos/x86/devices/port.h.html">"mos/x86/devices/port.h"</a></u></td></tr>
-<tr><th id="7">7</th><td><u>#include <a href="../include/mos/x86/x86_platform.h.html">"mos/x86/x86_platform.h"</a></u></td></tr>
-<tr><th id="8">8</th><td></td></tr>
-<tr><th id="9">9</th><td><i>// Reinitialize the PIC controllers.</i></td></tr>
-<tr><th id="10">10</th><td><i>// Giving them specified vector offsets rather than 8h and 70h, as configured by default</i></td></tr>
-<tr><th id="11">11</th><td><i>// ICW: Initialization command words</i></td></tr>
-<tr><th id="12">12</th><td><u>#define <dfn class="macro" id="_M/ICW1_ICW4" data-ref="_M/ICW1_ICW4">ICW1_ICW4</dfn>      0x01 /* ICW4 (not) needed */</u></td></tr>
-<tr><th id="13">13</th><td><u>#define <dfn class="macro" id="_M/ICW1_SINGLE" data-ref="_M/ICW1_SINGLE">ICW1_SINGLE</dfn>    0x02 /* Single (cascade) mode */</u></td></tr>
-<tr><th id="14">14</th><td><u>#define <dfn class="macro" id="_M/ICW1_INTERVAL4" data-ref="_M/ICW1_INTERVAL4">ICW1_INTERVAL4</dfn> 0x04 /* Call address interval 4 (8) */</u></td></tr>
-<tr><th id="15">15</th><td><u>#define <dfn class="macro" id="_M/ICW1_LEVEL" data-ref="_M/ICW1_LEVEL">ICW1_LEVEL</dfn>     0x08 /* Level triggered (edge) mode */</u></td></tr>
-<tr><th id="16">16</th><td><u>#define <dfn class="macro" id="_M/ICW1_INIT" data-ref="_M/ICW1_INIT">ICW1_INIT</dfn>      0x10 /* Initialization - required! */</u></td></tr>
-<tr><th id="17">17</th><td></td></tr>
-<tr><th id="18">18</th><td><u>#define <dfn class="macro" id="_M/ICW4_8086" data-ref="_M/ICW4_8086">ICW4_8086</dfn>       0x01 /* 8086/88 (MCS-80/85) mode */</u></td></tr>
-<tr><th id="19">19</th><td><u>#define <dfn class="macro" id="_M/ICW4_AUTO" data-ref="_M/ICW4_AUTO">ICW4_AUTO</dfn>       0x02 /* Auto (normal) EOI */</u></td></tr>
-<tr><th id="20">20</th><td><u>#define <dfn class="macro" id="_M/ICW4_BUF_SLAVE" data-ref="_M/ICW4_BUF_SLAVE">ICW4_BUF_SLAVE</dfn>  0x08 /* Buffered mode/slave */</u></td></tr>
-<tr><th id="21">21</th><td><u>#define <dfn class="macro" id="_M/ICW4_BUF_MASTER" data-ref="_M/ICW4_BUF_MASTER">ICW4_BUF_MASTER</dfn> 0x0C /* Buffered mode/master */</u></td></tr>
-<tr><th id="22">22</th><td><u>#define <dfn class="macro" id="_M/ICW4_SFNM" data-ref="_M/ICW4_SFNM">ICW4_SFNM</dfn>       0x10 /* Special fully nested (not) */</u></td></tr>
+<tr><th id="3">3</th><td><u>#include <a href="../../../kernel/include/mos/types.h.html">"mos/types.h"</a></u></td></tr>
+<tr><th id="4">4</th><td><u>#include <a href="../include/mos/x86/devices/port.h.html">"mos/x86/devices/port.h"</a></u></td></tr>
+<tr><th id="5">5</th><td><u>#include <a href="../include/mos/x86/x86_platform.h.html">"mos/x86/x86_platform.h"</a></u></td></tr>
+<tr><th id="6">6</th><td></td></tr>
+<tr><th id="7">7</th><td><i>// Reinitialize the PIC controllers.</i></td></tr>
+<tr><th id="8">8</th><td><i>// Giving them specified vector offsets rather than 8h and 70h, as configured by default</i></td></tr>
+<tr><th id="9">9</th><td><i>// ICW: Initialization command words</i></td></tr>
+<tr><th id="10">10</th><td><u>#define <dfn class="macro" id="_M/ICW1_ICW4" data-ref="_M/ICW1_ICW4">ICW1_ICW4</dfn> 0x01 /* ICW4 (not) needed */</u></td></tr>
+<tr><th id="11">11</th><td><u>#define <dfn class="macro" id="_M/ICW1_INIT" data-ref="_M/ICW1_INIT">ICW1_INIT</dfn> 0x10 /* Initialization - required! */</u></td></tr>
+<tr><th id="12">12</th><td><u>#define <dfn class="macro" id="_M/ICW4_8086" data-ref="_M/ICW4_8086">ICW4_8086</dfn> 0x01 /* 8086/88 (MCS-80/85) mode */</u></td></tr>
+<tr><th id="13">13</th><td></td></tr>
+<tr><th id="14">14</th><td><u>#define <dfn class="macro" id="_M/PIC1" data-ref="_M/PIC1">PIC1</dfn>         0x20 // IO base address for master PIC</u></td></tr>
+<tr><th id="15">15</th><td><u>#define <dfn class="macro" id="_M/PIC2" data-ref="_M/PIC2">PIC2</dfn>         0xA0 // IO base address for slave  PIC</u></td></tr>
+<tr><th id="16">16</th><td><u>#define <dfn class="macro" id="_M/PIC1_COMMAND" data-ref="_M/PIC1_COMMAND">PIC1_COMMAND</dfn> (PIC1)</u></td></tr>
+<tr><th id="17">17</th><td><u>#define <dfn class="macro" id="_M/PIC1_DATA" data-ref="_M/PIC1_DATA">PIC1_DATA</dfn>    (PIC1 + 1)</u></td></tr>
+<tr><th id="18">18</th><td><u>#define <dfn class="macro" id="_M/PIC2_COMMAND" data-ref="_M/PIC2_COMMAND">PIC2_COMMAND</dfn> (PIC2)</u></td></tr>
+<tr><th id="19">19</th><td><u>#define <dfn class="macro" id="_M/PIC2_DATA" data-ref="_M/PIC2_DATA">PIC2_DATA</dfn>    (PIC2 + 1)</u></td></tr>
+<tr><th id="20">20</th><td></td></tr>
+<tr><th id="21">21</th><td><u>#define <dfn class="macro" id="_M/PIC1_OFFSET" data-ref="_M/PIC1_OFFSET">PIC1_OFFSET</dfn> 0x20</u></td></tr>
+<tr><th id="22">22</th><td><u>#define <dfn class="macro" id="_M/PIC2_OFFSET" data-ref="_M/PIC2_OFFSET">PIC2_OFFSET</dfn> 0x28</u></td></tr>
 <tr><th id="23">23</th><td></td></tr>
-<tr><th id="24">24</th><td><u>#define <dfn class="macro" id="_M/PIC1" data-ref="_M/PIC1">PIC1</dfn>         0x20 // IO base address for master PIC</u></td></tr>
-<tr><th id="25">25</th><td><u>#define <dfn class="macro" id="_M/PIC2" data-ref="_M/PIC2">PIC2</dfn>         0xA0 // IO base address for slave  PIC</u></td></tr>
-<tr><th id="26">26</th><td><u>#define <dfn class="macro" id="_M/PIC1_COMMAND" data-ref="_M/PIC1_COMMAND">PIC1_COMMAND</dfn> (PIC1)</u></td></tr>
-<tr><th id="27">27</th><td><u>#define <dfn class="macro" id="_M/PIC1_DATA" data-ref="_M/PIC1_DATA">PIC1_DATA</dfn>    (PIC1 + 1)</u></td></tr>
-<tr><th id="28">28</th><td><u>#define <dfn class="macro" id="_M/PIC2_COMMAND" data-ref="_M/PIC2_COMMAND">PIC2_COMMAND</dfn> (PIC2)</u></td></tr>
-<tr><th id="29">29</th><td><u>#define <dfn class="macro" id="_M/PIC2_DATA" data-ref="_M/PIC2_DATA">PIC2_DATA</dfn>    (PIC2 + 1)</u></td></tr>
-<tr><th id="30">30</th><td></td></tr>
-<tr><th id="31">31</th><td><i>// We now have APIC, so PIC is not used anymore, but the above initialization code is still used</i></td></tr>
-<tr><th id="32">32</th><td><em>void</em> <dfn class="decl def fn" id="pic_remap_irq" title='pic_remap_irq' data-ref="pic_remap_irq" data-ref-filename="pic_remap_irq">pic_remap_irq</dfn>(<em>int</em> <dfn class="local col1 decl" id="1offset_master" title='offset_master' data-type='int' data-ref="1offset_master" data-ref-filename="1offset_master">offset_master</dfn>, <em>int</em> <dfn class="local col2 decl" id="2offset_slave" title='offset_slave' data-type='int' data-ref="2offset_slave" data-ref-filename="2offset_slave">offset_slave</dfn>)</td></tr>
-<tr><th id="33">33</th><td>{</td></tr>
-<tr><th id="34">34</th><td>    <a class="ref fn" href="../include/mos/x86/devices/port.h.html#port_outb" title='port_outb' data-ref="port_outb" data-ref-filename="port_outb">port_outb</a>(<a class="macro" href="#26" title="(0x20)" data-ref="_M/PIC1_COMMAND">PIC1_COMMAND</a>, <a class="macro" href="#16" title="0x10" data-ref="_M/ICW1_INIT">ICW1_INIT</a> | <a class="macro" href="#12" title="0x01" data-ref="_M/ICW1_ICW4">ICW1_ICW4</a>); <i>// starts the initialization sequence (in cascade mode)</i></td></tr>
-<tr><th id="35">35</th><td>    <a class="ref fn" href="../include/mos/x86/devices/port.h.html#port_outb" title='port_outb' data-ref="port_outb" data-ref-filename="port_outb">port_outb</a>(<a class="macro" href="#28" title="(0xA0)" data-ref="_M/PIC2_COMMAND">PIC2_COMMAND</a>, <a class="macro" href="#16" title="0x10" data-ref="_M/ICW1_INIT">ICW1_INIT</a> | <a class="macro" href="#12" title="0x01" data-ref="_M/ICW1_ICW4">ICW1_ICW4</a>);</td></tr>
-<tr><th id="36">36</th><td></td></tr>
-<tr><th id="37">37</th><td>    <a class="ref fn" href="../include/mos/x86/devices/port.h.html#port_outb" title='port_outb' data-ref="port_outb" data-ref-filename="port_outb">port_outb</a>(<a class="macro" href="#27" title="(0x20 + 1)" data-ref="_M/PIC1_DATA">PIC1_DATA</a>, <a class="local col1 ref" href="#1offset_master" title='offset_master' data-ref="1offset_master" data-ref-filename="1offset_master">offset_master</a>); <i>// ICW2: Master PIC vector offset</i></td></tr>
-<tr><th id="38">38</th><td>    <a class="ref fn" href="../include/mos/x86/devices/port.h.html#port_outb" title='port_outb' data-ref="port_outb" data-ref-filename="port_outb">port_outb</a>(<a class="macro" href="#29" title="(0xA0 + 1)" data-ref="_M/PIC2_DATA">PIC2_DATA</a>, <a class="local col2 ref" href="#2offset_slave" title='offset_slave' data-ref="2offset_slave" data-ref-filename="2offset_slave">offset_slave</a>);  <i>// ICW2: Slave PIC vector offset</i></td></tr>
-<tr><th id="39">39</th><td></td></tr>
-<tr><th id="40">40</th><td>    <a class="ref fn" href="../include/mos/x86/devices/port.h.html#port_outb" title='port_outb' data-ref="port_outb" data-ref-filename="port_outb">port_outb</a>(<a class="macro" href="#27" title="(0x20 + 1)" data-ref="_M/PIC1_DATA">PIC1_DATA</a>, <var>4</var>); <i>// ICW3: tell Master PIC that there is a slave PIC at IRQ2 (0000 0100)</i></td></tr>
-<tr><th id="41">41</th><td>    <a class="ref fn" href="../include/mos/x86/devices/port.h.html#port_outb" title='port_outb' data-ref="port_outb" data-ref-filename="port_outb">port_outb</a>(<a class="macro" href="#29" title="(0xA0 + 1)" data-ref="_M/PIC2_DATA">PIC2_DATA</a>, <var>2</var>); <i>// ICW3: tell Slave PIC its cascade identity (0000 0010)</i></td></tr>
+<tr><th id="24">24</th><td><i>// We now have APIC, so PIC is not used anymore, but the above initialization code is still used</i></td></tr>
+<tr><th id="25">25</th><td><em>void</em> <dfn class="decl def fn" id="pic_remap_irq" title='pic_remap_irq' data-ref="pic_remap_irq" data-ref-filename="pic_remap_irq">pic_remap_irq</dfn>()</td></tr>
+<tr><th id="26">26</th><td>{</td></tr>
+<tr><th id="27">27</th><td>    <a class="ref fn" href="../include/mos/x86/devices/port.h.html#port_outb" title='port_outb' data-ref="port_outb" data-ref-filename="port_outb">port_outb</a>(<a class="macro" href="#16" title="(0x20)" data-ref="_M/PIC1_COMMAND">PIC1_COMMAND</a>, <a class="macro" href="#11" title="0x10" data-ref="_M/ICW1_INIT">ICW1_INIT</a> | <a class="macro" href="#10" title="0x01" data-ref="_M/ICW1_ICW4">ICW1_ICW4</a>); <i>// starts the initialization sequence (in cascade mode)</i></td></tr>
+<tr><th id="28">28</th><td>    <a class="ref fn" href="../include/mos/x86/devices/port.h.html#port_outb" title='port_outb' data-ref="port_outb" data-ref-filename="port_outb">port_outb</a>(<a class="macro" href="#18" title="(0xA0)" data-ref="_M/PIC2_COMMAND">PIC2_COMMAND</a>, <a class="macro" href="#11" title="0x10" data-ref="_M/ICW1_INIT">ICW1_INIT</a> | <a class="macro" href="#10" title="0x01" data-ref="_M/ICW1_ICW4">ICW1_ICW4</a>);</td></tr>
+<tr><th id="29">29</th><td></td></tr>
+<tr><th id="30">30</th><td>    <a class="ref fn" href="../include/mos/x86/devices/port.h.html#port_outb" title='port_outb' data-ref="port_outb" data-ref-filename="port_outb">port_outb</a>(<a class="macro" href="#17" title="(0x20 + 1)" data-ref="_M/PIC1_DATA">PIC1_DATA</a>, <a class="macro" href="#21" title="0x20" data-ref="_M/PIC1_OFFSET">PIC1_OFFSET</a>); <i>// ICW2: Master PIC vector offset</i></td></tr>
+<tr><th id="31">31</th><td>    <a class="ref fn" href="../include/mos/x86/devices/port.h.html#port_outb" title='port_outb' data-ref="port_outb" data-ref-filename="port_outb">port_outb</a>(<a class="macro" href="#19" title="(0xA0 + 1)" data-ref="_M/PIC2_DATA">PIC2_DATA</a>, <a class="macro" href="#22" title="0x28" data-ref="_M/PIC2_OFFSET">PIC2_OFFSET</a>); <i>// ICW2: Slave PIC vector offset</i></td></tr>
+<tr><th id="32">32</th><td></td></tr>
+<tr><th id="33">33</th><td>    <a class="ref fn" href="../include/mos/x86/devices/port.h.html#port_outb" title='port_outb' data-ref="port_outb" data-ref-filename="port_outb">port_outb</a>(<a class="macro" href="#17" title="(0x20 + 1)" data-ref="_M/PIC1_DATA">PIC1_DATA</a>, <var>4</var>); <i>// ICW3: tell Master PIC that there is a slave PIC at IRQ2 (0000 0100)</i></td></tr>
+<tr><th id="34">34</th><td>    <a class="ref fn" href="../include/mos/x86/devices/port.h.html#port_outb" title='port_outb' data-ref="port_outb" data-ref-filename="port_outb">port_outb</a>(<a class="macro" href="#19" title="(0xA0 + 1)" data-ref="_M/PIC2_DATA">PIC2_DATA</a>, <var>2</var>); <i>// ICW3: tell Slave PIC its cascade identity (0000 0010)</i></td></tr>
+<tr><th id="35">35</th><td></td></tr>
+<tr><th id="36">36</th><td>    <a class="ref fn" href="../include/mos/x86/devices/port.h.html#port_outb" title='port_outb' data-ref="port_outb" data-ref-filename="port_outb">port_outb</a>(<a class="macro" href="#17" title="(0x20 + 1)" data-ref="_M/PIC1_DATA">PIC1_DATA</a>, <a class="macro" href="#12" title="0x01" data-ref="_M/ICW4_8086">ICW4_8086</a>);</td></tr>
+<tr><th id="37">37</th><td>    <a class="ref fn" href="../include/mos/x86/devices/port.h.html#port_outb" title='port_outb' data-ref="port_outb" data-ref-filename="port_outb">port_outb</a>(<a class="macro" href="#19" title="(0xA0 + 1)" data-ref="_M/PIC2_DATA">PIC2_DATA</a>, <a class="macro" href="#12" title="0x01" data-ref="_M/ICW4_8086">ICW4_8086</a>);</td></tr>
+<tr><th id="38">38</th><td></td></tr>
+<tr><th id="39">39</th><td>    <a class="ref fn" href="../include/mos/x86/devices/port.h.html#port_outb" title='port_outb' data-ref="port_outb" data-ref-filename="port_outb">port_outb</a>(<a class="macro" href="#19" title="(0xA0 + 1)" data-ref="_M/PIC2_DATA">PIC2_DATA</a>, <var>0xFF</var>); <i>// mask all interrupts on slave PIC</i></td></tr>
+<tr><th id="40">40</th><td>    <a class="ref fn" href="../include/mos/x86/devices/port.h.html#port_outb" title='port_outb' data-ref="port_outb" data-ref-filename="port_outb">port_outb</a>(<a class="macro" href="#17" title="(0x20 + 1)" data-ref="_M/PIC1_DATA">PIC1_DATA</a>, <var>0xFF</var>); <i>// mask all interrupts on master PIC</i></td></tr>
+<tr><th id="41">41</th><td>}</td></tr>
 <tr><th id="42">42</th><td></td></tr>
-<tr><th id="43">43</th><td>    <a class="ref fn" href="../include/mos/x86/devices/port.h.html#port_outb" title='port_outb' data-ref="port_outb" data-ref-filename="port_outb">port_outb</a>(<a class="macro" href="#27" title="(0x20 + 1)" data-ref="_M/PIC1_DATA">PIC1_DATA</a>, <a class="macro" href="#18" title="0x01" data-ref="_M/ICW4_8086">ICW4_8086</a>);</td></tr>
-<tr><th id="44">44</th><td>    <a class="ref fn" href="../include/mos/x86/devices/port.h.html#port_outb" title='port_outb' data-ref="port_outb" data-ref-filename="port_outb">port_outb</a>(<a class="macro" href="#29" title="(0xA0 + 1)" data-ref="_M/PIC2_DATA">PIC2_DATA</a>, <a class="macro" href="#18" title="0x01" data-ref="_M/ICW4_8086">ICW4_8086</a>);</td></tr>
-<tr><th id="45">45</th><td></td></tr>
-<tr><th id="46">46</th><td>    <a class="ref fn" href="../include/mos/x86/devices/port.h.html#port_outb" title='port_outb' data-ref="port_outb" data-ref-filename="port_outb">port_outb</a>(<a class="macro" href="#29" title="(0xA0 + 1)" data-ref="_M/PIC2_DATA">PIC2_DATA</a>, <var>0xFF</var>); <i>// mask all interrupts on slave PIC</i></td></tr>
-<tr><th id="47">47</th><td>    <a class="ref fn" href="../include/mos/x86/devices/port.h.html#port_outb" title='port_outb' data-ref="port_outb" data-ref-filename="port_outb">port_outb</a>(<a class="macro" href="#27" title="(0x20 + 1)" data-ref="_M/PIC1_DATA">PIC1_DATA</a>, <var>0xFF</var>); <i>// mask all interrupts on master PIC</i></td></tr>
-<tr><th id="48">48</th><td>}</td></tr>
-<tr><th id="49">49</th><td></td></tr>
 </table><hr/><p id='footer'>
 Generated on <em>2022-Dec-19</em> from project MOS<br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
 <br/>Generator usage only permitted with license.</p>

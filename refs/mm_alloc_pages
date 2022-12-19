@@ -12,7 +12,7 @@
  * @details This function first finds a block of virtual memory using
  * @ref mm_get_free_pages, then allocates and maps the pages.
  */</doc>
-<use f='MOS/arch/x86/x86_platform_api.c' l='72' u='c' c='platform_mm_create_user_pgd'/>
+<use f='MOS/arch/x86/x86_platform_api.c' l='70' u='c' c='platform_mm_create_user_pgd'/>
 <use f='MOS/kernel/elf/elf.c' l='60' u='c' c='elf_create_process'/>
 <use f='MOS/kernel/mm/memops.c' l='19' u='c' c='mos_kernel_mm_init'/>
 <use f='MOS/kernel/mm/memops.c' l='37' u='c' c='liballoc_alloc_page'/>

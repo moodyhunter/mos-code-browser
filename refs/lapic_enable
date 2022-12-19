@@ -1,4 +1,4 @@
 <dec f='MOS/arch/x86/include/mos/x86/interrupt/apic.h' l='34' type='void lapic_enable()'/>
 <use f='MOS/arch/x86/cpu/smp.c' l='36' u='c' c='ap_begin_exec'/>
-<def f='MOS/arch/x86/interrupt/lapic.c' l='166' ll='183' type='void lapic_enable()'/>
-<use f='MOS/arch/x86/x86_platform.c' l='188' u='c' c='x86_start_kernel'/>
+<def f='MOS/arch/x86/interrupt/lapic.c' l='162' ll='179' type='void lapic_enable()'/>
+<use f='MOS/arch/x86/x86_platform.c' l='223' u='c' c='x86_start_kernel'/>

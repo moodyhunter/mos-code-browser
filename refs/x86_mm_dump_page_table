@@ -1,5 +1,5 @@
 <dec f='MOS/arch/x86/include/mos/x86/mm/paging.h' l='14' type='void x86_mm_dump_page_table(x86_pg_infra_t * pg)'/>
-<def f='MOS/arch/x86/mm/paging.c' l='110' ll='167' type='void x86_mm_dump_page_table(x86_pg_infra_t * pg)'/>
-<use f='MOS/arch/x86/x86_platform.c' l='85' u='c' c='x86_kpanic_hook'/>
-<use f='MOS/arch/x86/x86_platform.c' l='92' u='c' c='x86_kpanic_hook'/>
-<use f='MOS/arch/x86/x86_platform.c' l='102' u='c' c='x86_kpanic_hook'/>
+<def f='MOS/arch/x86/mm/paging.c' l='105' ll='162' type='void x86_mm_dump_page_table(x86_pg_infra_t * pg)'/>
+<use f='MOS/arch/x86/x86_platform.c' l='98' u='c' c='x86_kpanic_hook'/>
+<use f='MOS/arch/x86/x86_platform.c' l='105' u='c' c='x86_kpanic_hook'/>
+<use f='MOS/arch/x86/x86_platform.c' l='115' u='c' c='x86_kpanic_hook'/>

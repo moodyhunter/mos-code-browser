@@ -1,2 +1,2 @@
-<def f='MOS/arch/x86/boot/multiboot/startup.c' l='72' ll='82' macro='1' type='void startup_setup_pgd(int pgdid, x86_pgtable_entry * pgtable)'/>
-<use f='MOS/arch/x86/boot/multiboot/startup.c' l='103' u='c' c='mos_startup_map_single_page'/>
+<def f='MOS/arch/x86/boot/multiboot/startup.c' l='68' ll='78' macro='1' type='void startup_setup_pgd(int pgdid, x86_pgtable_entry * pgtable)'/>
+<use f='MOS/arch/x86/boot/multiboot/startup.c' l='99' u='c' c='mos_startup_map_single_page'/>

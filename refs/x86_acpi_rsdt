@@ -1,7 +1,7 @@
 <dec f='MOS/arch/x86/include/mos/x86/acpi/acpi.h' l='8' type='acpi_rsdt_t *'/>
 <def f='MOS/arch/x86/acpi/acpi.c' l='16' type='acpi_rsdt_t *'/>
-<use f='MOS/arch/x86/acpi/acpi.c' l='42' u='w' c='x86_acpi_init'/>
-<use f='MOS/arch/x86/acpi/acpi.c' l='43' u='r' c='x86_acpi_init'/>
-<use f='MOS/arch/x86/acpi/acpi.c' l='46' u='r' c='x86_acpi_init'/>
-<use f='MOS/arch/x86/acpi/acpi.c' l='49' u='r' c='x86_acpi_init'/>
-<use f='MOS/arch/x86/acpi/acpi.c' l='52' u='r' c='x86_acpi_init'/>
+<use f='MOS/arch/x86/acpi/acpi.c' l='35' u='w' c='acpi_parse_rsdt'/>
+<use f='MOS/arch/x86/acpi/acpi.c' l='36' u='r' c='acpi_parse_rsdt'/>
+<use f='MOS/arch/x86/acpi/acpi.c' l='39' u='r' c='acpi_parse_rsdt'/>
+<use f='MOS/arch/x86/acpi/acpi.c' l='42' u='r' c='acpi_parse_rsdt'/>
+<use f='MOS/arch/x86/acpi/acpi.c' l='45' u='r' c='acpi_parse_rsdt'/>

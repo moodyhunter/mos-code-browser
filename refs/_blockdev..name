@@ -1,6 +1,6 @@
 <dec f='MOS/kernel/include/mos/device/block.h' l='9' type='const char *'/>
-<use f='MOS/arch/x86/devices/initrd_blockdev.c' l='10' u='w' c='initrd_blockdev_preinstall'/>
 <offset>0</offset>
+<use f='MOS/arch/x86/x86_platform.c' l='187' u='w' c='x86_start_kernel'/>
 <use f='MOS/kernel/device/block.c' l='56' u='r' c='blockdev_register'/>
 <use f='MOS/kernel/device/block.c' l='59' u='r' c='blockdev_register'/>
 <use f='MOS/kernel/filesystem/filesystem.c' l='111' u='r' c='vfs_path_open'/>

@@ -1,8 +1,8 @@
 <dec f='MOS/kernel/include/mos/tasks/task_types.h' l='62' type='const char *'/>
+<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='205' u='r' c='x86_handle_exception'/>
+<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='216' u='r' c='x86_handle_exception'/>
 <offset>64</offset>
-<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='246' u='r' c='x86_handle_exception'/>
-<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='257' u='r' c='x86_handle_exception'/>
-<use f='MOS/arch/x86/x86_platform.c' l='83' u='r' c='x86_kpanic_hook'/>
+<use f='MOS/arch/x86/x86_platform.c' l='96' u='r' c='x86_kpanic_hook'/>
 <use f='MOS/kernel/kernel_init.c' l='113' u='r' c='mos_start_kernel'/>
 <use f='MOS/kernel/ksyscall.c' l='246' u='r' c='impl_syscall_wait_for_thread'/>
 <use f='MOS/kernel/ksyscall.c' l='247' u='r' c='impl_syscall_wait_for_thread'/>

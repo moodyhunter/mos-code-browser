@@ -1,8 +1,8 @@
 <dec f='MOS/arch/x86/include/mos/x86/mm/paging_impl.h' l='51' type='x86_pgdir_entry[1024]'/>
 <offset>0</offset>
-<use f='MOS/arch/x86/mm/paging.c' l='34' c='x86_mm_enable_paging'/>
-<use f='MOS/arch/x86/mm/paging.c' l='35' u='r' c='x86_mm_enable_paging'/>
-<use f='MOS/arch/x86/mm/paging.c' l='123' u='r' c='x86_mm_dump_page_table'/>
+<use f='MOS/arch/x86/mm/paging.c' l='29' c='x86_mm_enable_paging'/>
+<use f='MOS/arch/x86/mm/paging.c' l='30' u='r' c='x86_mm_enable_paging'/>
+<use f='MOS/arch/x86/mm/paging.c' l='118' u='r' c='x86_mm_dump_page_table'/>
 <use f='MOS/arch/x86/mm/paging_impl.c' l='35' u='m' c='pg_page_flag'/>
 <use f='MOS/arch/x86/mm/paging_impl.c' l='38' u='m' c='pg_page_flag'/>
 <use f='MOS/arch/x86/mm/paging_impl.c' l='41' u='m' c='pg_page_flag'/>
@@ -14,4 +14,4 @@
 <use f='MOS/arch/x86/mm/paging_impl.c' l='132' u='r' c='pg_page_get_mapped_paddr'/>
 <use f='MOS/arch/x86/mm/paging_impl.c' l='150' u='r' c='pg_page_get_flags'/>
 <use f='MOS/arch/x86/mm/paging_impl.c' l='154' u='r' c='pg_page_get_flags'/>
-<use f='MOS/arch/x86/x86_platform_api.c' l='85' u='a' c='platform_mm_create_user_pgd'/>
+<use f='MOS/arch/x86/x86_platform_api.c' l='83' u='a' c='platform_mm_create_user_pgd'/>
