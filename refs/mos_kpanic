@@ -98,7 +98,6 @@
 <use f='MOS/kernel/ksyscall.c' l='311' macro='1' u='c' c='impl_syscall_ipc_accept'/>
 <use f='MOS/kernel/ksyscall.c' l='321' macro='1' u='c' c='impl_syscall_ipc_connect'/>
 <use f='MOS/kernel/mm/cow.c' l='56' macro='1' u='c' c='cow_handle_page_fault'/>
-<use f='MOS/kernel/mm/cow.c' l='101' macro='1' u='c' c='cow_handle_page_fault'/>
 <use f='MOS/kernel/mm/memops.c' l='38' macro='1' u='c' c='liballoc_alloc_page'/>
 <use f='MOS/kernel/mm/memops.c' l='49' macro='1' u='c' c='liballoc_free_page'/>
 <use f='MOS/kernel/mm/paging/paging.c' l='27' macro='1' u='c' c='pagemap_mark_used'/>

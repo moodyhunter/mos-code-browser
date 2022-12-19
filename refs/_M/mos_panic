@@ -33,7 +33,6 @@
 <use f='MOS/kernel/kernel_init.c' l='102' u='c'/>
 <use f='MOS/kernel/ksyscall.c' l='96' u='c'/>
 <use f='MOS/kernel/mm/cow.c' l='56' u='c'/>
-<use f='MOS/kernel/mm/cow.c' l='101' u='c'/>
 <use f='MOS/kernel/mm/paging/paging.c' l='27' u='c'/>
 <use f='MOS/kernel/mm/paging/paging.c' l='51' u='c'/>
 <use f='MOS/kernel/mm/paging/pmalloc.c' l='88' u='c'/>

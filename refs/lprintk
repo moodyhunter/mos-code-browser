@@ -143,6 +143,7 @@
 <use f='MOS/kernel/mm/cow.c' l='86' macro='1' u='c' c='cow_handle_page_fault'/>
 <use f='MOS/kernel/mm/cow.c' l='91' macro='1' u='c' c='cow_handle_page_fault'/>
 <use f='MOS/kernel/mm/cow.c' l='96' macro='1' u='c' c='cow_handle_page_fault'/>
+<use f='MOS/kernel/mm/cow.c' l='101' macro='1' u='c' c='cow_handle_page_fault'/>
 <use f='MOS/kernel/mm/cow.c' l='105' macro='1' u='c' c='cow_handle_page_fault'/>
 <use f='MOS/kernel/mm/paging/pmalloc.c' l='34' macro='1' u='c' c='mos_pmalloc_setup'/>
 <use f='MOS/kernel/mm/paging/pmalloc.c' l='47' macro='1' u='c' c='mos_pmalloc_setup'/>
