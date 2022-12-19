@@ -5,5 +5,5 @@
 <use f='MOS/arch/x86/gdt/gdt.c' l='42' u='w' c='gdt32_set_entry'/>
 <use f='MOS/arch/x86/gdt/gdt.c' l='79' u='w' c='x86_gdt_init'/>
 <use f='MOS/arch/x86/mm/mm.c' l='17' u='w' c='mem_add_region'/>
-<use f='MOS/arch/x86/x86_platform.c' l='225' u='w' c='x86_start_kernel'/>
+<use f='MOS/arch/x86/x86_platform.c' l='224' u='w' c='x86_start_kernel'/>
 <use f='MOS/kernel/mm/paging/pmalloc.c' l='42' u='r' c='mos_pmalloc_setup'/>

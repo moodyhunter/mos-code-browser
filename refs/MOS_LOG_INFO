@@ -21,9 +21,9 @@
 <use f='MOS/arch/x86/x86_platform.c' l='144' macro='1' u='r' c='x86_start_kernel'/>
 <use f='MOS/arch/x86/x86_platform.c' l='165' macro='1' u='r' c='x86_start_kernel'/>
 <use f='MOS/arch/x86/x86_platform.c' l='182' macro='1' u='r' c='x86_start_kernel'/>
-<use f='MOS/arch/x86/x86_platform.c' l='186' macro='1' u='r' c='x86_start_kernel'/>
+<use f='MOS/arch/x86/x86_platform.c' l='185' macro='1' u='r' c='x86_start_kernel'/>
 <use f='MOS/arch/x86/x86_platform.c' l='191' macro='1' u='r' c='x86_start_kernel'/>
-<use f='MOS/arch/x86/x86_platform.c' l='204' macro='1' u='r' c='x86_start_kernel'/>
+<use f='MOS/arch/x86/x86_platform.c' l='203' macro='1' u='r' c='x86_start_kernel'/>
 <use f='MOS/kernel/device/console.c' l='39' macro='1' u='r' c='console_register'/>
 <use f='MOS/kernel/filesystem/mount.c' l='40' macro='1' u='r' c='kmount'/>
 <use f='MOS/kernel/ipc/ipc.c' l='38' macro='1' u='r' c='ipc_server_close'/>

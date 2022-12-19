@@ -27,8 +27,8 @@
 <use f='MOS/arch/x86/x86_platform.c' l='139' macro='1' u='c' c='x86_start_kernel'/>
 <use f='MOS/arch/x86/x86_platform.c' l='161' macro='1' u='c' c='x86_start_kernel'/>
 <use f='MOS/arch/x86/x86_platform.c' l='178' macro='1' u='c' c='x86_start_kernel'/>
-<use f='MOS/arch/x86/x86_platform.c' l='194' macro='1' u='c' c='x86_start_kernel'/>
-<use f='MOS/arch/x86/x86_platform.c' l='211' macro='1' u='c' c='x86_start_kernel'/>
+<use f='MOS/arch/x86/x86_platform.c' l='193' macro='1' u='c' c='x86_start_kernel'/>
+<use f='MOS/arch/x86/x86_platform.c' l='210' macro='1' u='c' c='x86_start_kernel'/>
 <def f='MOS/arch/x86/x86_platform_api.c' l='32' ll='35' type='u32 platform_current_cpu_id()'/>
 <use f='MOS/arch/x86/x86_platform_api.c' l='72' macro='1' u='c' c='platform_mm_create_user_pgd'/>
 <use f='MOS/kernel/elf/elf.c' l='60' macro='1' u='c' c='elf_create_process'/>

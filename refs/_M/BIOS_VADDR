@@ -12,4 +12,4 @@
 <use f='MOS/arch/x86/interrupt/lapic.c' l='149' u='c'/>
 <use f='MOS/arch/x86/x86_platform.c' l='174' u='c'/>
 <use f='MOS/arch/x86/x86_platform.c' l='179' u='c'/>
-<use f='MOS/arch/x86/x86_platform.c' l='207' u='c'/>
+<use f='MOS/arch/x86/x86_platform.c' l='206' u='c'/>

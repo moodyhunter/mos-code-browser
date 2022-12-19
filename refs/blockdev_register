@@ -1,5 +1,5 @@
 <dec f='MOS/kernel/include/mos/device/block.h' l='15' type='void blockdev_register(blockdev_t * dev)'/>
-<use f='MOS/arch/x86/x86_platform.c' l='228' u='c' c='x86_start_kernel'/>
+<use f='MOS/arch/x86/x86_platform.c' l='227' u='c' c='x86_start_kernel'/>
 <def f='MOS/kernel/device/block.c' l='47' ll='60' type='void blockdev_register(blockdev_t * dev)'/>
 <doc f='MOS/kernel/device/block.c' l='42'>/**
  * @brief Register a block device
