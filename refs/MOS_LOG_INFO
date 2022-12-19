@@ -12,10 +12,10 @@
 <use f='MOS/arch/x86/mm/mm.c' l='30' macro='1' u='r' c='x86_mem_init'/>
 <use f='MOS/arch/x86/mm/mm.c' l='77' macro='1' u='r' c='x86_mem_init'/>
 <use f='MOS/arch/x86/mm/paging.c' l='31' macro='1' u='r' c='x86_mm_enable_paging'/>
-<use f='MOS/arch/x86/mm/paging.c' l='41' macro='1' u='r' c='page_table_dump_range'/>
-<use f='MOS/arch/x86/mm/paging.c' l='65' macro='1' u='r' c='page_table_dump_range'/>
-<use f='MOS/arch/x86/mm/paging.c' l='98' macro='1' u='r' c='page_table_dump_range'/>
-<use f='MOS/arch/x86/mm/paging.c' l='107' macro='1' u='r' c='x86_mm_dump_page_table'/>
+<use f='MOS/arch/x86/mm/paging.c' l='40' macro='1' u='r' c='page_table_dump_range'/>
+<use f='MOS/arch/x86/mm/paging.c' l='64' macro='1' u='r' c='page_table_dump_range'/>
+<use f='MOS/arch/x86/mm/paging.c' l='97' macro='1' u='r' c='page_table_dump_range'/>
+<use f='MOS/arch/x86/mm/paging.c' l='106' macro='1' u='r' c='x86_mm_dump_page_table'/>
 <use f='MOS/arch/x86/x86_platform.c' l='67' macro='1' u='r' c='x86_keyboard_handler'/>
 <use f='MOS/arch/x86/x86_platform.c' l='75' macro='1' u='r' c='do_backtrace'/>
 <use f='MOS/arch/x86/x86_platform.c' l='161' macro='1' u='r' c='x86_start_kernel'/>
