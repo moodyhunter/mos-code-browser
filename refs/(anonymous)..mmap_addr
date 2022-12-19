@@ -2,4 +2,4 @@
 <offset>416</offset>
 <use f='MOS/arch/x86/boot/multiboot/startup.c' l='148' u='r' c='x86_startup'/>
 <use f='MOS/arch/x86/boot/multiboot/startup.c' l='149' u='r' c='x86_startup'/>
-<use f='MOS/arch/x86/x86_platform.c' l='155' u='r' c='x86_start_kernel'/>
+<use f='MOS/arch/x86/x86_platform.c' l='156' u='r' c='x86_start_kernel'/>

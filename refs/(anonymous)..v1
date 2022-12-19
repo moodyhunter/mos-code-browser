@@ -5,5 +5,5 @@
 <use f='MOS/arch/x86/acpi/acpi.c' l='100' u='m' c='acpi_find_rsdp'/>
 <use f='MOS/arch/x86/acpi/acpi.c' l='101' u='m' c='acpi_find_rsdp'/>
 <offset>0</offset>
-<use f='MOS/arch/x86/x86_platform.c' l='207' u='m' c='x86_start_kernel'/>
-<use f='MOS/arch/x86/x86_platform.c' l='207' u='m' c='x86_start_kernel'/>
+<use f='MOS/arch/x86/x86_platform.c' l='208' u='m' c='x86_start_kernel'/>
+<use f='MOS/arch/x86/x86_platform.c' l='208' u='m' c='x86_start_kernel'/>

@@ -2,15 +2,15 @@
 <offset>12288</offset>
 <use f='MOS/arch/x86/interrupt/ioapic.c' l='102' u='r' c='ioapic_init'/>
 <use f='MOS/arch/x86/interrupt/lapic.c' l='158' u='r' c='lapic_memory_setup'/>
-<use f='MOS/arch/x86/x86_platform.c' l='151' u='m' c='x86_start_kernel'/>
 <use f='MOS/arch/x86/x86_platform.c' l='152' u='m' c='x86_start_kernel'/>
-<use f='MOS/arch/x86/x86_platform.c' l='162' u='r' c='x86_start_kernel'/>
+<use f='MOS/arch/x86/x86_platform.c' l='153' u='m' c='x86_start_kernel'/>
 <use f='MOS/arch/x86/x86_platform.c' l='163' u='r' c='x86_start_kernel'/>
 <use f='MOS/arch/x86/x86_platform.c' l='164' u='r' c='x86_start_kernel'/>
-<use f='MOS/arch/x86/x86_platform.c' l='167' u='r' c='x86_start_kernel'/>
+<use f='MOS/arch/x86/x86_platform.c' l='165' u='r' c='x86_start_kernel'/>
 <use f='MOS/arch/x86/x86_platform.c' l='168' u='r' c='x86_start_kernel'/>
-<use f='MOS/arch/x86/x86_platform.c' l='184' u='r' c='x86_start_kernel'/>
-<use f='MOS/arch/x86/x86_platform.c' l='215' u='r' c='x86_start_kernel'/>
+<use f='MOS/arch/x86/x86_platform.c' l='169' u='r' c='x86_start_kernel'/>
+<use f='MOS/arch/x86/x86_platform.c' l='185' u='r' c='x86_start_kernel'/>
+<use f='MOS/arch/x86/x86_platform.c' l='216' u='r' c='x86_start_kernel'/>
 <use f='MOS/arch/x86/x86_platform_api.c' l='70' u='r' c='platform_mm_create_user_pgd'/>
 <use f='MOS/kernel/mm/paging/paging.c' l='12' u='r' c='mm_map_allocated_pages'/>
 <use f='MOS/kernel/mm/paging/paging.c' l='12' u='r' c='mm_unmap_pages'/>

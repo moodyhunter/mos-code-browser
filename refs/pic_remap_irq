@@ -1,4 +1,4 @@
 <dec f='MOS/arch/x86/include/mos/x86/x86_interrupt.h' l='73' type='void pic_remap_irq()'/>
 <def f='MOS/arch/x86/interrupt/pic.c' l='25' ll='41' type='void pic_remap_irq()'/>
 <doc f='MOS/arch/x86/interrupt/pic.c' l='24'>// We now have APIC, so PIC is not used anymore, but the above initialization code is still used</doc>
-<use f='MOS/arch/x86/x86_platform.c' l='227' u='c' c='x86_start_kernel'/>
+<use f='MOS/arch/x86/x86_platform.c' l='228' u='c' c='x86_start_kernel'/>

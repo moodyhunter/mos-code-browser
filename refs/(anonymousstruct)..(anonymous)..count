@@ -3,8 +3,8 @@
 <use f='MOS/arch/x86/mm/mm.c' l='11' u='r' c='mem_add_region'/>
 <use f='MOS/arch/x86/mm/mm.c' l='14' u='w' c='mem_add_region'/>
 <use f='MOS/arch/x86/mm/mm.c' l='26' u='w' c='x86_mem_init'/>
-<use f='MOS/arch/x86/x86_platform.c' l='156' u='r' c='x86_start_kernel'/>
-<use f='MOS/arch/x86/x86_platform.c' l='202' u='r' c='x86_start_kernel'/>
+<use f='MOS/arch/x86/x86_platform.c' l='157' u='r' c='x86_start_kernel'/>
+<use f='MOS/arch/x86/x86_platform.c' l='203' u='r' c='x86_start_kernel'/>
 <dec f='MOS/kernel/include/mos/elf/elf.h' l='105' type='u16'/>
 <dec f='MOS/kernel/include/mos/elf/elf.h' l='110' type='u16'/>
 <use f='MOS/kernel/elf/elf.c' l='67' u='r' c='elf_create_process'/>

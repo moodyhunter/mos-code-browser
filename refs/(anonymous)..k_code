@@ -4,4 +4,4 @@
 <use f='MOS/arch/x86/x86_platform.c' l='123' u='m' c='x86_start_kernel'/>
 <use f='MOS/arch/x86/x86_platform.c' l='124' u='m' c='x86_start_kernel'/>
 <use f='MOS/arch/x86/x86_platform.c' l='125' u='m' c='x86_start_kernel'/>
-<use f='MOS/arch/x86/x86_platform.c' l='162' u='r' c='x86_start_kernel'/>
+<use f='MOS/arch/x86/x86_platform.c' l='163' u='r' c='x86_start_kernel'/>

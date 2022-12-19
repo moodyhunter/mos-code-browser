@@ -3,4 +3,4 @@
 <use f='MOS/arch/x86/x86_platform.c' l='37' u='w'/>
 <use f='MOS/arch/x86/x86_platform.c' l='38' u='w'/>
 <use f='MOS/arch/x86/x86_platform.c' l='39' u='w'/>
-<use f='MOS/arch/x86/x86_platform.c' l='141' u='a' c='x86_start_kernel'/>
+<use f='MOS/arch/x86/x86_platform.c' l='137' u='a' c='x86_start_kernel'/>

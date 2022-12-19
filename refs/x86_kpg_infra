@@ -18,6 +18,6 @@
 <use f='MOS/arch/x86/tasks/context.c' l='46' u='r' c='x86_switch_to_thread'/>
 <use f='MOS/arch/x86/x86_platform.c' l='92' u='r' c='x86_kpanic_hook'/>
 <use f='MOS/arch/x86/x86_platform.c' l='105' u='r' c='x86_kpanic_hook'/>
-<use f='MOS/arch/x86/x86_platform.c' l='151' u='r' c='x86_start_kernel'/>
+<use f='MOS/arch/x86/x86_platform.c' l='152' u='r' c='x86_start_kernel'/>
 <use f='MOS/arch/x86/x86_platform_api.c' l='77' u='r' c='platform_mm_create_user_pgd'/>
 <use f='MOS/arch/x86/x86_platform_api.c' l='77' u='r' c='platform_mm_create_user_pgd'/>

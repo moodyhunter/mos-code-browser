@@ -7,8 +7,8 @@
 <use f='MOS/arch/x86/x86_platform.c' l='92' u='r' c='x86_kpanic_hook'/>
 <use f='MOS/arch/x86/x86_platform.c' l='99' u='r' c='x86_kpanic_hook'/>
 <use f='MOS/arch/x86/x86_platform.c' l='99' u='r' c='x86_kpanic_hook'/>
-<use f='MOS/arch/x86/x86_platform.c' l='151' u='w' c='x86_start_kernel'/>
-<use f='MOS/arch/x86/x86_platform.c' l='151' u='w' c='x86_start_kernel'/>
+<use f='MOS/arch/x86/x86_platform.c' l='152' u='w' c='x86_start_kernel'/>
+<use f='MOS/arch/x86/x86_platform.c' l='152' u='w' c='x86_start_kernel'/>
 <use f='MOS/arch/x86/x86_platform_api.c' l='74' u='w' c='platform_mm_create_user_pgd'/>
 <use f='MOS/arch/x86/x86_platform_api.c' l='96' u='r' c='platform_mm_destroy_user_pgd'/>
 <use f='MOS/arch/x86/x86_platform_api.c' l='121' u='r' c='platform_mm_map_pages'/>
