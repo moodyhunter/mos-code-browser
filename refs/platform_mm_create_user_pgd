@@ -1,4 +1,4 @@
 <dec f='MOS/kernel/include/mos/platform/platform.h' l='150' type='paging_handle_t platform_mm_create_user_pgd()'/>
 <doc f='MOS/kernel/include/mos/platform/platform.h' l='149'>// Platform Page Table APIs</doc>
 <def f='MOS/arch/x86/x86_platform_api.c' l='67' ll='92' type='paging_handle_t platform_mm_create_user_pgd()'/>
-<use f='MOS/kernel/mm/paging/paging.c' l='157' u='c' c='mm_create_user_pgd'/>
+<use f='MOS/kernel/mm/paging/paging.c' l='170' u='c' c='mm_create_user_pgd'/>

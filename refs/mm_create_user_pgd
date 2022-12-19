@@ -1,8 +1,8 @@
-<dec f='MOS/kernel/include/mos/mm/paging/paging.h' l='161' type='paging_handle_t mm_create_user_pgd()'/>
-<doc f='MOS/kernel/include/mos/mm/paging/paging.h' l='156'>/**
+<dec f='MOS/kernel/include/mos/mm/paging/paging.h' l='170' type='paging_handle_t mm_create_user_pgd()'/>
+<doc f='MOS/kernel/include/mos/mm/paging/paging.h' l='165'>/**
  * @brief Create a user-mode platform-dependent page table.
  * @return paging_handle_t The created page table.
  * @note A platform-independent page-map is also created.
  */</doc>
-<def f='MOS/kernel/mm/paging/paging.c' l='155' ll='160' type='paging_handle_t mm_create_user_pgd()'/>
+<def f='MOS/kernel/mm/paging/paging.c' l='168' ll='173' type='paging_handle_t mm_create_user_pgd()'/>
 <use f='MOS/kernel/tasks/process.c' l='76' u='c' c='process_allocate'/>

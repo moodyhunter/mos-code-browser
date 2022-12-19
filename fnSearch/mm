@@ -10,6 +10,7 @@ mm_copy_maps|mm_copy_maps
 mm_create_user_pgd|mm_create_user_pgd
 mm_destroy_user_pgd|mm_destroy_user_pgd
 mm_free_pages|mm_free_pages
+mm_get_block_info|mm_get_block_info
 mm_get_free_pages|mm_get_free_pages
 mm_get_is_mapped|mm_get_is_mapped
 mm_map_allocated_pages|mm_map_allocated_pages

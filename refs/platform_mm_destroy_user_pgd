@@ -1,3 +1,3 @@
 <dec f='MOS/kernel/include/mos/platform/platform.h' l='151' type='void platform_mm_destroy_user_pgd(paging_handle_t table)'/>
 <def f='MOS/arch/x86/x86_platform_api.c' l='94' ll='97' type='void platform_mm_destroy_user_pgd(paging_handle_t table)'/>
-<use f='MOS/kernel/mm/paging/paging.c' l='164' u='c' c='mm_destroy_user_pgd'/>
+<use f='MOS/kernel/mm/paging/paging.c' l='177' u='c' c='mm_destroy_user_pgd'/>

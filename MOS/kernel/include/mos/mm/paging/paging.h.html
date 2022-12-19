@@ -168,21 +168,30 @@
 <tr><th id="154">154</th><td><span class="macro" title="_Bool" data-ref="_M/bool">bool</span> <dfn class="decl fn" id="mm_get_is_mapped" title='mm_get_is_mapped' data-ref="mm_get_is_mapped" data-ref-filename="mm_get_is_mapped">mm_get_is_mapped</dfn>(<a class="typedef" href="../../platform/platform.h.html#paging_handle_t" title='paging_handle_t' data-type='struct paging_handle_t' data-ref="paging_handle_t" data-ref-filename="paging_handle_t">paging_handle_t</a> <dfn class="local col7 decl" id="47table" title='table' data-type='paging_handle_t' data-ref="47table" data-ref-filename="47table">table</dfn>, <a class="typedef" href="../../types.h.html#uintptr_t" title='uintptr_t' data-type='unsigned long' data-ref="uintptr_t" data-ref-filename="uintptr_t">uintptr_t</a> <dfn class="local col8 decl" id="48vaddr" title='vaddr' data-type='uintptr_t' data-ref="48vaddr" data-ref-filename="48vaddr">vaddr</dfn>);</td></tr>
 <tr><th id="155">155</th><td></td></tr>
 <tr><th id="156">156</th><td><i class="doc">/**</i></td></tr>
-<tr><th id="157">157</th><td><i class="doc"> * <span class="command">@brief</span> Create a user-mode platform-dependent page table.</i></td></tr>
-<tr><th id="158">158</th><td><i class="doc"> * <span class="command">@return</span> paging_handle_t The created page table.</i></td></tr>
-<tr><th id="159">159</th><td><i class="doc"> * <span class="command">@note</span> A platform-independent page-map is also created.</i></td></tr>
-<tr><th id="160">160</th><td><i class="doc"> */</i></td></tr>
-<tr><th id="161">161</th><td><a class="typedef" href="../../platform/platform.h.html#paging_handle_t" title='paging_handle_t' data-type='struct paging_handle_t' data-ref="paging_handle_t" data-ref-filename="paging_handle_t">paging_handle_t</a> <dfn class="decl fn" id="mm_create_user_pgd" title='mm_create_user_pgd' data-ref="mm_create_user_pgd" data-ref-filename="mm_create_user_pgd">mm_create_user_pgd</dfn>();</td></tr>
-<tr><th id="162">162</th><td></td></tr>
-<tr><th id="163">163</th><td><i class="doc">/**</i></td></tr>
-<tr><th id="164">164</th><td><i class="doc"> * <span class="command">@brief</span> Destroy a user-mode platform-dependent page table.</i></td></tr>
-<tr><th id="165">165</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">table</span> The page table to destroy.</i></td></tr>
-<tr><th id="166">166</th><td><i class="doc"> * <span class="command">@note</span> The platform-independent page-map is also destroyed.</i></td></tr>
-<tr><th id="167">167</th><td><i class="doc"> */</i></td></tr>
-<tr><th id="168">168</th><td><em>void</em> <dfn class="decl fn" id="mm_destroy_user_pgd" title='mm_destroy_user_pgd' data-ref="mm_destroy_user_pgd" data-ref-filename="mm_destroy_user_pgd">mm_destroy_user_pgd</dfn>(<a class="typedef" href="../../platform/platform.h.html#paging_handle_t" title='paging_handle_t' data-type='struct paging_handle_t' data-ref="paging_handle_t" data-ref-filename="paging_handle_t">paging_handle_t</a> <dfn class="local col9 decl" id="49table" title='table' data-type='paging_handle_t' data-ref="49table" data-ref-filename="49table">table</dfn>);</td></tr>
-<tr><th id="169">169</th><td></td></tr>
-<tr><th id="170">170</th><td><i class="doc">/** @} */</i></td></tr>
+<tr><th id="157">157</th><td><i class="doc"> * <span class="command">@brief</span> Get the block info of a virtual address in a page table.</i></td></tr>
+<tr><th id="158">158</th><td><i class="doc"> *</i></td></tr>
+<tr><th id="159">159</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">table</span> The page table to get the physical address from.</i></td></tr>
+<tr><th id="160">160</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">vaddr</span> The virtual address to get the physical address of.</i></td></tr>
+<tr><th id="161">161</th><td><i class="doc"> * <span class="command">@return</span> vmblock_t The block info of the virtual address.</i></td></tr>
+<tr><th id="162">162</th><td><i class="doc"> */</i></td></tr>
+<tr><th id="163">163</th><td><a class="typedef" href="../../platform/platform.h.html#vmblock_t" title='vmblock_t' data-type='struct vmblock_t' data-ref="vmblock_t" data-ref-filename="vmblock_t">vmblock_t</a> <dfn class="decl fn" id="mm_get_block_info" title='mm_get_block_info' data-ref="mm_get_block_info" data-ref-filename="mm_get_block_info">mm_get_block_info</dfn>(<a class="typedef" href="../../platform/platform.h.html#paging_handle_t" title='paging_handle_t' data-type='struct paging_handle_t' data-ref="paging_handle_t" data-ref-filename="paging_handle_t">paging_handle_t</a> <dfn class="local col9 decl" id="49table" title='table' data-type='paging_handle_t' data-ref="49table" data-ref-filename="49table">table</dfn>, <a class="typedef" href="../../types.h.html#uintptr_t" title='uintptr_t' data-type='unsigned long' data-ref="uintptr_t" data-ref-filename="uintptr_t">uintptr_t</a> <dfn class="local col0 decl" id="50vaddr" title='vaddr' data-type='uintptr_t' data-ref="50vaddr" data-ref-filename="50vaddr">vaddr</dfn>, <span class='typedef' title='size_t' data-type='unsigned long' data-ref="size_t" data-ref-filename="size_t">size_t</span> <dfn class="local col1 decl" id="51n_pages" title='n_pages' data-type='size_t' data-ref="51n_pages" data-ref-filename="51n_pages">n_pages</dfn>);</td></tr>
+<tr><th id="164">164</th><td></td></tr>
+<tr><th id="165">165</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="166">166</th><td><i class="doc"> * <span class="command">@brief</span> Create a user-mode platform-dependent page table.</i></td></tr>
+<tr><th id="167">167</th><td><i class="doc"> * <span class="command">@return</span> paging_handle_t The created page table.</i></td></tr>
+<tr><th id="168">168</th><td><i class="doc"> * <span class="command">@note</span> A platform-independent page-map is also created.</i></td></tr>
+<tr><th id="169">169</th><td><i class="doc"> */</i></td></tr>
+<tr><th id="170">170</th><td><a class="typedef" href="../../platform/platform.h.html#paging_handle_t" title='paging_handle_t' data-type='struct paging_handle_t' data-ref="paging_handle_t" data-ref-filename="paging_handle_t">paging_handle_t</a> <dfn class="decl fn" id="mm_create_user_pgd" title='mm_create_user_pgd' data-ref="mm_create_user_pgd" data-ref-filename="mm_create_user_pgd">mm_create_user_pgd</dfn>();</td></tr>
 <tr><th id="171">171</th><td></td></tr>
+<tr><th id="172">172</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="173">173</th><td><i class="doc"> * <span class="command">@brief</span> Destroy a user-mode platform-dependent page table.</i></td></tr>
+<tr><th id="174">174</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">table</span> The page table to destroy.</i></td></tr>
+<tr><th id="175">175</th><td><i class="doc"> * <span class="command">@note</span> The platform-independent page-map is also destroyed.</i></td></tr>
+<tr><th id="176">176</th><td><i class="doc"> */</i></td></tr>
+<tr><th id="177">177</th><td><em>void</em> <dfn class="decl fn" id="mm_destroy_user_pgd" title='mm_destroy_user_pgd' data-ref="mm_destroy_user_pgd" data-ref-filename="mm_destroy_user_pgd">mm_destroy_user_pgd</dfn>(<a class="typedef" href="../../platform/platform.h.html#paging_handle_t" title='paging_handle_t' data-type='struct paging_handle_t' data-ref="paging_handle_t" data-ref-filename="paging_handle_t">paging_handle_t</a> <dfn class="local col2 decl" id="52table" title='table' data-type='paging_handle_t' data-ref="52table" data-ref-filename="52table">table</dfn>);</td></tr>
+<tr><th id="178">178</th><td></td></tr>
+<tr><th id="179">179</th><td><i class="doc">/** @} */</i></td></tr>
+<tr><th id="180">180</th><td></td></tr>
 </table><hr/><p id='footer'>
 Generated while processing <a href='../../../../../arch/x86/interrupt/ioapic.c.html'>MOS/arch/x86/interrupt/ioapic.c</a><br/>Generated on <em>2022-Dec-19</em> from project MOS<br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
 <br/>Generator usage only permitted with license.</p>

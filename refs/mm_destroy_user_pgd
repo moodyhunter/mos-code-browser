@@ -1,7 +1,7 @@
-<dec f='MOS/kernel/include/mos/mm/paging/paging.h' l='168' type='void mm_destroy_user_pgd(paging_handle_t table)'/>
-<doc f='MOS/kernel/include/mos/mm/paging/paging.h' l='163'>/**
+<dec f='MOS/kernel/include/mos/mm/paging/paging.h' l='177' type='void mm_destroy_user_pgd(paging_handle_t table)'/>
+<doc f='MOS/kernel/include/mos/mm/paging/paging.h' l='172'>/**
  * @brief Destroy a user-mode platform-dependent page table.
  * @param table The page table to destroy.
  * @note The platform-independent page-map is also destroyed.
  */</doc>
-<def f='MOS/kernel/mm/paging/paging.c' l='162' ll='166' type='void mm_destroy_user_pgd(paging_handle_t table)'/>
+<def f='MOS/kernel/mm/paging/paging.c' l='175' ll='179' type='void mm_destroy_user_pgd(paging_handle_t table)'/>
