@@ -1,0 +1,5 @@
+<dec f='MOS/kernel/include/mos/platform/platform.h' l='124' type='size_t'/>
+<offset>64</offset>
+<use f='MOS/arch/x86/mm/mm.c' l='27' u='w' c='x86_mem_init'/>
+<use f='MOS/arch/x86/mm/mm.c' l='74' u='r' c='x86_mem_init'/>
+<use f='MOS/arch/x86/mm/mm.c' l='76' u='r' c='x86_mem_init'/>

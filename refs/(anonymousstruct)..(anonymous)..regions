@@ -1,0 +1,6 @@
+<dec f='MOS/kernel/include/mos/platform/platform.h' l='118' type='memregion_t[32]'/>
+<offset>64</offset>
+<use f='MOS/arch/x86/mm/mm.c' l='14' u='a' c='mem_add_region'/>
+<use f='MOS/arch/x86/x86_platform.c' l='168' u='m' c='x86_start_kernel'/>
+<use f='MOS/arch/x86/x86_platform.c' l='171' u='a' c='x86_start_kernel'/>
+<use f='MOS/kernel/mm/paging/pmalloc.c' l='41' u='a' c='mos_pmalloc_setup'/>

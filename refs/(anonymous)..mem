@@ -1,0 +1,11 @@
+<dec f='MOS/kernel/include/mos/platform/platform.h' l='125' type='struct (unnamed struct at /home/runner/work/MOS/MOS/kernel/include/mos/platform/platform.h:121:5)'/>
+<offset>12160</offset>
+<use f='MOS/arch/x86/mm/mm.c' l='20' u='m' c='mem_add_region'/>
+<use f='MOS/arch/x86/mm/mm.c' l='21' u='m' c='mem_add_region'/>
+<use f='MOS/arch/x86/mm/mm.c' l='27' u='m' c='x86_mem_init'/>
+<use f='MOS/arch/x86/mm/mm.c' l='28' u='m' c='x86_mem_init'/>
+<use f='MOS/arch/x86/mm/mm.c' l='74' u='m' c='x86_mem_init'/>
+<use f='MOS/arch/x86/mm/mm.c' l='75' u='m' c='x86_mem_init'/>
+<use f='MOS/arch/x86/mm/mm.c' l='76' u='m' c='x86_mem_init'/>
+<use f='MOS/arch/x86/mm/mm.c' l='76' u='m' c='x86_mem_init'/>
+<use f='MOS/kernel/mm/paging/pmalloc.c' l='28' u='m' c='freelist_size'/>

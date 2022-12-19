@@ -1,4 +1,4 @@
-<dec f='MOS/kernel/include/mos/platform/platform.h' l='131' type='u32 platform_current_cpu_id()'/>
+<dec f='MOS/kernel/include/mos/platform/platform.h' l='139' type='u32 platform_current_cpu_id()'/>
 <use f='MOS/arch/x86/cpu/smp.c' l='44' macro='1' u='c' c='ap_begin_exec'/>
 <use f='MOS/arch/x86/gdt/gdt.c' l='72' macro='1' u='c' c='x86_gdt_init'/>
 <use f='MOS/arch/x86/interrupt/ioapic.c' l='98' macro='1' u='c' c='ioapic_init'/>

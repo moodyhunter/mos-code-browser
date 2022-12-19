@@ -1,4 +1,4 @@
-<dec f='MOS/kernel/include/mos/platform/platform.h' l='121' type='mos_platform_info_t *const'/>
+<dec f='MOS/kernel/include/mos/platform/platform.h' l='129' type='mos_platform_info_t *const'/>
 <use f='MOS/arch/x86/interrupt/ioapic.c' l='98' macro='1' u='r' c='ioapic_init'/>
 <use f='MOS/arch/x86/interrupt/lapic.c' l='161' macro='1' u='r' c='lapic_memory_setup'/>
 <use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='138' macro='1' u='r' c='x86_handle_interrupt'/>
