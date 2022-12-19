@@ -3,9 +3,9 @@
 <use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='157' macro='1' u='r' c='x86_handle_interrupt'/>
 <use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='257' macro='1' u='r' c='x86_handle_exception'/>
 <use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='299' macro='1' u='r' c='x86_handle_irq'/>
-<use f='MOS/arch/x86/mm/mm.c' l='45' macro='1' u='r' c='x86_mem_init'/>
-<use f='MOS/arch/x86/mm/mm.c' l='53' macro='1' u='r' c='x86_mem_init'/>
-<use f='MOS/arch/x86/x86_platform.c' l='71' macro='1' u='r' c='do_backtrace'/>
+<use f='MOS/arch/x86/mm/mm.c' l='43' macro='1' u='r' c='x86_mem_init'/>
+<use f='MOS/arch/x86/mm/mm.c' l='51' macro='1' u='r' c='x86_mem_init'/>
+<use f='MOS/arch/x86/x86_platform.c' l='72' macro='1' u='r' c='do_backtrace'/>
 <use f='MOS/kernel/filesystem/mount.c' l='85' macro='1' u='r' c='kunmount'/>
 <use f='MOS/kernel/ipc/ipc.c' l='112' macro='1' u='r' c='ipc_connection_server_read'/>
 <use f='MOS/kernel/ipc/ipc.c' l='141' macro='1' u='r' c='ipc_connection_server_write'/>
@@ -28,6 +28,6 @@
 <use f='MOS/kernel/printk.c' l='24' macro='1' u='r' c='printk_setup_console'/>
 <use f='MOS/kernel/printk.c' l='29' macro='1' u='r' c='printk_setup_console'/>
 <use f='MOS/kernel/printk.c' l='63' c='deduce_level_color'/>
-<use f='MOS/kernel/tasks/process.c' l='190' macro='1' u='r' c='process_handle_exit'/>
+<use f='MOS/kernel/tasks/process.c' l='191' macro='1' u='r' c='process_handle_exit'/>
 <use f='MOS/tests/test_engine.c' l='67' u='r' c='test_engine_warning_handler'/>
 <use f='MOS/tests/test_engine.c' l='68' u='r' c='test_engine_warning_handler'/>

@@ -1,0 +1,7 @@
+<dec f='MOS/kernel/include/mos/mm/paging/paging.h' l='25' type='void mm_unmap_pages(paging_handle_t table, uintptr_t vaddr, size_t npages)'/>
+<use f='MOS/kernel/elf/elf.c' l='225' u='c' c='elf_create_process'/>
+<use f='MOS/kernel/mm/cow.c' l='34' u='c' c='copy_cow_pages_inplace'/>
+<use f='MOS/kernel/mm/cow.c' l='82' u='c' c='cow_handle_page_fault'/>
+<use f='MOS/kernel/mm/memops.c' l='125' u='c' c='mm_unmap_proxy_space'/>
+<def f='MOS/kernel/mm/paging/paging.c' l='136' ll='140' type='void mm_unmap_pages(paging_handle_t table, uintptr_t vaddr, size_t npages)'/>
+<use f='MOS/kernel/mm/paging/paging.c' l='144' u='c' c='mm_free_pages'/>

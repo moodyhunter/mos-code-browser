@@ -1,0 +1,3 @@
+<dec f='MOS/kernel/include/mos/platform/platform.h' l='148' type='vmblock_t platform_mm_get_block_info(paging_handle_t table, uintptr_t vaddr, size_t npages)'/>
+<def f='MOS/arch/x86/x86_platform_api.c' l='139' ll='148' type='vmblock_t platform_mm_get_block_info(paging_handle_t table, uintptr_t vaddr, size_t npages)'/>
+<use f='MOS/kernel/mm/memops.c' l='63' u='c' c='liballoc_free_page'/>

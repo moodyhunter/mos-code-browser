@@ -1,3 +1,3 @@
 <dec f='MOS/arch/x86/include/mos/x86/acpi/madt.h' l='11' type='u32 x86_ioapic_get_irq_override(u32 irq)'/>
 <def f='MOS/arch/x86/acpi/madt.c' l='17' ll='22' type='u32 x86_ioapic_get_irq_override(u32 irq)'/>
-<use f='MOS/arch/x86/interrupt/ioapic.c' l='141' u='c' c='ioapic_enable_with_mode'/>
+<use f='MOS/arch/x86/interrupt/ioapic.c' l='142' u='c' c='ioapic_enable_with_mode'/>

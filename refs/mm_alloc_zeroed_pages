@@ -1,3 +1,3 @@
 <dec f='MOS/kernel/include/mos/mm/memops.h' l='8' type='vmblock_t mm_alloc_zeroed_pages(paging_handle_t handle, size_t npages, pgalloc_hints hints, vm_flags flags)'/>
-<def f='MOS/kernel/mm/memops.c' l='67' ll='87' type='vmblock_t mm_alloc_zeroed_pages(paging_handle_t handle, size_t npages, pgalloc_hints hints, vm_flags flags)'/>
-<use f='MOS/kernel/tasks/thread.c' l='73' u='c' c='thread_new'/>
+<def f='MOS/kernel/mm/memops.c' l='68' ll='94' type='vmblock_t mm_alloc_zeroed_pages(paging_handle_t handle, size_t npages, pgalloc_hints hints, vm_flags flags)'/>
+<use f='MOS/kernel/tasks/thread.c' l='74' u='c' c='thread_new'/>

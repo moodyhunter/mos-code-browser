@@ -1,4 +1,0 @@
-<dec f='MOS/arch/x86/include/mos/x86/mm/mm.h' l='9'/>
-<use f='MOS/arch/x86/include/mos/x86/mm/mm.h' l='11' u='c'/>
-<use f='MOS/arch/x86/mm/mm.c' l='10' u='c'/>
-<use f='MOS/arch/x86/mm/mm.c' l='20' u='c'/>

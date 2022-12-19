@@ -1,4 +1,4 @@
-<dec f='MOS/arch/x86/include/mos/x86/x86_platform.h' l='79' type='x86_percpu_tss_t'/>
+<dec f='MOS/arch/x86/include/mos/x86/x86_platform.h' l='68' type='x86_percpu_tss_t'/>
 <use f='MOS/arch/x86/gdt/gdt.c' l='72' u='m' c='x86_gdt_init'/>
 <use f='MOS/arch/x86/gdt/gdt.c' l='72' u='r' c='x86_gdt_init'/>
 <use f='MOS/arch/x86/tasks/context.c' l='48' u='m' c='x86_switch_to_thread'/>

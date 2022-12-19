@@ -1,11 +1,42 @@
-<dec f='MOS/arch/x86/include/mos/x86/x86_platform.h' l='73' type='mos_platform_info_t'/>
+<dec f='MOS/arch/x86/include/mos/x86/x86_platform.h' l='62' type='mos_platform_info_t'/>
 <use f='MOS/arch/x86/acpi/madt.c' l='29' u='m' c='acpi_parse_madt'/>
 <use f='MOS/arch/x86/acpi/madt.c' l='50' u='m' c='acpi_parse_madt'/>
 <use f='MOS/arch/x86/acpi/madt.c' l='117' u='m' c='acpi_parse_madt'/>
 <use f='MOS/arch/x86/cpu/smp.c' l='44' u='m' c='ap_begin_exec'/>
 <use f='MOS/arch/x86/cpu/smp.c' l='92' u='m' c='x86_smp_init'/>
 <use f='MOS/arch/x86/cpu/smp.c' l='95' u='m' c='x86_smp_init'/>
-<use f='MOS/arch/x86/x86_platform.c' l='159' u='m' c='x86_start_kernel'/>
-<use f='MOS/arch/x86/x86_platform.c' l='160' u='m' c='x86_start_kernel'/>
-<def f='MOS/arch/x86/x86_platform.c' l='190' ll='199' type='mos_platform_info_t'/>
-<use f='MOS/arch/x86/x86_platform.c' l='201' u='a'/>
+<use f='MOS/arch/x86/mm/mm.c' l='11' u='m' c='mem_add_region'/>
+<use f='MOS/arch/x86/mm/mm.c' l='14' u='m' c='mem_add_region'/>
+<use f='MOS/arch/x86/mm/mm.c' l='14' u='m' c='mem_add_region'/>
+<use f='MOS/arch/x86/mm/mm.c' l='20' u='m' c='mem_add_region'/>
+<use f='MOS/arch/x86/mm/mm.c' l='21' u='m' c='mem_add_region'/>
+<use f='MOS/arch/x86/mm/mm.c' l='26' u='m' c='x86_mem_init'/>
+<use f='MOS/arch/x86/mm/mm.c' l='27' u='m' c='x86_mem_init'/>
+<use f='MOS/arch/x86/mm/mm.c' l='28' u='m' c='x86_mem_init'/>
+<use f='MOS/arch/x86/mm/mm.c' l='74' u='m' c='x86_mem_init'/>
+<use f='MOS/arch/x86/mm/mm.c' l='75' u='m' c='x86_mem_init'/>
+<use f='MOS/arch/x86/mm/mm.c' l='76' u='m' c='x86_mem_init'/>
+<use f='MOS/arch/x86/mm/mm.c' l='76' u='m' c='x86_mem_init'/>
+<use f='MOS/arch/x86/mm/paging.c' l='32' u='m' c='x86_mm_prepare_paging'/>
+<use f='MOS/arch/x86/mm/paging.c' l='33' u='m' c='x86_mm_prepare_paging'/>
+<use f='MOS/arch/x86/mm/paging.c' l='34' u='m' c='x86_mm_prepare_paging'/>
+<use f='MOS/arch/x86/x86_platform.c' l='109' u='m' c='x86_start_kernel'/>
+<use f='MOS/arch/x86/x86_platform.c' l='110' u='m' c='x86_start_kernel'/>
+<use f='MOS/arch/x86/x86_platform.c' l='111' u='m' c='x86_start_kernel'/>
+<use f='MOS/arch/x86/x86_platform.c' l='112' u='m' c='x86_start_kernel'/>
+<use f='MOS/arch/x86/x86_platform.c' l='114' u='m' c='x86_start_kernel'/>
+<use f='MOS/arch/x86/x86_platform.c' l='115' u='m' c='x86_start_kernel'/>
+<use f='MOS/arch/x86/x86_platform.c' l='116' u='m' c='x86_start_kernel'/>
+<use f='MOS/arch/x86/x86_platform.c' l='117' u='m' c='x86_start_kernel'/>
+<use f='MOS/arch/x86/x86_platform.c' l='119' u='m' c='x86_start_kernel'/>
+<use f='MOS/arch/x86/x86_platform.c' l='120' u='m' c='x86_start_kernel'/>
+<use f='MOS/arch/x86/x86_platform.c' l='121' u='m' c='x86_start_kernel'/>
+<use f='MOS/arch/x86/x86_platform.c' l='122' u='m' c='x86_start_kernel'/>
+<use f='MOS/arch/x86/x86_platform.c' l='139' u='m' c='x86_start_kernel'/>
+<use f='MOS/arch/x86/x86_platform.c' l='166' u='m' c='x86_start_kernel'/>
+<use f='MOS/arch/x86/x86_platform.c' l='168' u='m' c='x86_start_kernel'/>
+<use f='MOS/arch/x86/x86_platform.c' l='171' u='m' c='x86_start_kernel'/>
+<use f='MOS/arch/x86/x86_platform.c' l='193' u='m' c='x86_start_kernel'/>
+<use f='MOS/arch/x86/x86_platform.c' l='194' u='m' c='x86_start_kernel'/>
+<def f='MOS/arch/x86/x86_platform.c' l='234' type='mos_platform_info_t'/>
+<use f='MOS/arch/x86/x86_platform.c' l='235' u='a'/>

@@ -1,0 +1,4 @@
+<dec f='MOS/kernel/include/mos/constants.h' l='15'/>
+<use f='MOS/arch/x86/mm/mm.c' l='41' u='c'/>
+<use f='MOS/arch/x86/mm/mm.c' l='47' u='c'/>
+<use f='MOS/arch/x86/mm/mm.c' l='49' u='c'/>

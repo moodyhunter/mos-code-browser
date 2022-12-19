@@ -2,4 +2,4 @@
 <def f='MOS/arch/x86/cpu/cpuid.c' l='30' ll='38' type='void cpuid_get_processor_info(processor_version_t * info)'/>
 <use f='MOS/arch/x86/cpu/cpuid.c' l='66' u='c' c='cpuid_print_cpu_info'/>
 <use f='MOS/arch/x86/cpu/smp.c' l='39' u='c' c='ap_begin_exec'/>
-<use f='MOS/arch/x86/interrupt/lapic.c' l='134' u='c' c='lapic_memory_setup'/>
+<use f='MOS/arch/x86/interrupt/lapic.c' l='135' u='c' c='lapic_memory_setup'/>

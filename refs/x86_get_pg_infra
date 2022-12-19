@@ -1,13 +1,10 @@
-<def f='MOS/arch/x86/include/mos/x86/mm/paging_impl.h' l='60' ll='63' macro='1' type='x86_pg_infra_t * x86_get_pg_infra(paging_handle_t table)'/>
+<def f='MOS/arch/x86/include/mos/x86/mm/paging_impl.h' l='55' ll='58' macro='1' type='x86_pg_infra_t * x86_get_pg_infra(paging_handle_t table)'/>
 <use f='MOS/arch/x86/x86_platform.c' l='85' u='c' c='x86_kpanic_hook'/>
 <use f='MOS/arch/x86/x86_platform.c' l='102' u='c' c='x86_kpanic_hook'/>
-<use f='MOS/arch/x86/x86_platform_api.c' l='107' u='c' c='platform_mm_alloc_pages'/>
-<use f='MOS/arch/x86/x86_platform_api.c' l='113' u='c' c='platform_mm_alloc_pages_at'/>
-<use f='MOS/arch/x86/x86_platform_api.c' l='119' u='c' c='platform_mm_get_free_pages'/>
-<use f='MOS/arch/x86/x86_platform_api.c' l='125' u='c' c='platform_mm_copy_maps'/>
-<use f='MOS/arch/x86/x86_platform_api.c' l='126' u='c' c='platform_mm_copy_maps'/>
-<use f='MOS/arch/x86/x86_platform_api.c' l='151' u='c' c='platform_mm_unmap_pages'/>
-<use f='MOS/arch/x86/x86_platform_api.c' l='157' u='c' c='platform_mm_free_pages'/>
-<use f='MOS/arch/x86/x86_platform_api.c' l='163' u='c' c='platform_mm_flag_pages'/>
-<use f='MOS/arch/x86/x86_platform_api.c' l='169' u='c' c='platform_mm_get_flags'/>
-<use f='MOS/arch/x86/x86_platform_api.c' l='175' u='c' c='platform_mm_get_is_mapped'/>
+<use f='MOS/arch/x86/x86_platform_api.c' l='125' u='c' c='platform_mm_map_pages'/>
+<use f='MOS/arch/x86/x86_platform_api.c' l='134' u='c' c='platform_mm_unmap_pages'/>
+<use f='MOS/arch/x86/x86_platform_api.c' l='141' u='c' c='platform_mm_get_block_info'/>
+<use f='MOS/arch/x86/x86_platform_api.c' l='152' u='c' c='platform_mm_copy_maps'/>
+<use f='MOS/arch/x86/x86_platform_api.c' l='153' u='c' c='platform_mm_copy_maps'/>
+<use f='MOS/arch/x86/x86_platform_api.c' l='175' u='c' c='platform_mm_flag_pages'/>
+<use f='MOS/arch/x86/x86_platform_api.c' l='181' u='c' c='platform_mm_get_flags'/>

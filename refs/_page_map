@@ -1,0 +1,5 @@
+<use f='MOS/kernel/include/mos/platform/platform.h' l='26'/>
+<def f='MOS/kernel/include/mos/mm/paging/paging.h' l='12' ll='15'/>
+<use f='MOS/kernel/include/mos/mm/paging/paging.h' l='12'/>
+<size>98304</size>
+<mbr r='_page_map::ummap' o='0' t='bitmap_line_t[24576]'/>

@@ -1,2 +1,2 @@
-<dec f='MOS/build/include/mos/kconfig.h' l='17'/>
+<dec f='MOS/build/include/mos/kconfig.h' l='18'/>
 <use f='MOS/kernel/include/mos/tasks/task_types.h' l='73' u='c'/>

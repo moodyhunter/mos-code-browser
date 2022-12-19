@@ -1,3 +1,0 @@
-<dec f='MOS/kernel/include/mos/platform/platform.h' l='103' type='struct (unnamed struct at /home/runner/work/MOS/MOS/kernel/include/mos/platform/platform.h:95:5)'/>
-<offset>0</offset>
-<use f='MOS/arch/x86/x86_platform.c' l='191' u='w'/>

@@ -1,3 +1,0 @@
-<dec f='MOS/arch/x86/include/mos/x86/mm/pmem_freelist.h' l='12' type='void pmem_freelist_setup()'/>
-<use f='MOS/arch/x86/mm/paging.c' l='36' u='c' c='x86_mm_prepare_paging'/>
-<def f='MOS/arch/x86/mm/pmem_freelist.c' l='48' ll='72' type='void pmem_freelist_setup()'/>

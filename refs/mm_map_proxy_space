@@ -1,8 +1,8 @@
 <dec f='MOS/kernel/include/mos/mm/memops.h' l='11' type='vmblock_t mm_map_proxy_space(paging_handle_t from, uintptr_t fvaddr, size_t npages)'/>
-<def f='MOS/kernel/mm/memops.c' l='109' ll='114' type='vmblock_t mm_map_proxy_space(paging_handle_t src, uintptr_t srcvaddr, size_t npages)'/>
-<use f='MOS/kernel/mm/memops.c' l='140' u='c' c='mm_copy_pages'/>
-<use f='MOS/kernel/mm/memops.c' l='156' u='c' c='mm_copy_pages'/>
-<use f='MOS/kernel/mm/memops.c' l='174' u='c' c='mm_copy_pages'/>
-<use f='MOS/kernel/mm/memops.c' l='182' u='c' c='mm_copy_pages'/>
+<def f='MOS/kernel/mm/memops.c' l='116' ll='121' type='vmblock_t mm_map_proxy_space(paging_handle_t src, uintptr_t srcvaddr, size_t npages)'/>
+<use f='MOS/kernel/mm/memops.c' l='147' u='c' c='mm_copy_pages'/>
+<use f='MOS/kernel/mm/memops.c' l='163' u='c' c='mm_copy_pages'/>
+<use f='MOS/kernel/mm/memops.c' l='181' u='c' c='mm_copy_pages'/>
 <use f='MOS/kernel/mm/memops.c' l='189' u='c' c='mm_copy_pages'/>
-<use f='MOS/kernel/mm/memops.c' l='190' u='c' c='mm_copy_pages'/>
+<use f='MOS/kernel/mm/memops.c' l='196' u='c' c='mm_copy_pages'/>
+<use f='MOS/kernel/mm/memops.c' l='197' u='c' c='mm_copy_pages'/>

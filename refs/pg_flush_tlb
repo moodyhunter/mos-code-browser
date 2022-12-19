@@ -1,4 +1,4 @@
-<def f='MOS/arch/x86/mm/paging_impl.c' l='15' ll='18' macro='1' type='void pg_flush_tlb(uintptr_t vaddr)'/>
-<use f='MOS/arch/x86/mm/paging_impl.c' l='108' u='c' c='pg_page_flag'/>
-<use f='MOS/arch/x86/mm/paging_impl.c' l='196' u='c' c='pg_do_map_page'/>
-<use f='MOS/arch/x86/mm/paging_impl.c' l='223' u='c' c='pg_do_unmap_page'/>
+<def f='MOS/arch/x86/mm/paging_impl.c' l='18' ll='21' macro='1' type='void pg_flush_tlb(uintptr_t vaddr)'/>
+<use f='MOS/arch/x86/mm/paging_impl.c' l='51' u='c' c='pg_page_flag'/>
+<use f='MOS/arch/x86/mm/paging_impl.c' l='99' u='c' c='pg_do_map_page'/>
+<use f='MOS/arch/x86/mm/paging_impl.c' l='118' u='c' c='pg_do_unmap_page'/>

@@ -1,9 +1,9 @@
 <dec f='MOS/kernel/include/mos/tasks/task_types.h' l='31' type='1'/>
 <doc f='MOS/kernel/include/mos/tasks/task_types.h' l='31'>// this block is currently copy-on-write-mapped</doc>
-<use f='MOS/kernel/mm/cow.c' l='73' u='r' c='cow_handle_page_fault'/>
-<use f='MOS/kernel/mm/cow.c' l='94' u='r' c='cow_handle_page_fault'/>
-<use f='MOS/kernel/tasks/fork.c' l='42' u='r' c='process_handle_fork'/>
-<use f='MOS/kernel/tasks/fork.c' l='46' u='r' c='process_handle_fork'/>
-<use f='MOS/kernel/tasks/process.c' l='219' u='r' c='process_handle_cleanup'/>
-<use f='MOS/kernel/tasks/process.c' l='244' u='r' c='process_grow_heap'/>
-<use f='MOS/kernel/tasks/process.c' l='294' u='r' c='process_dump_mmaps'/>
+<use f='MOS/kernel/mm/cow.c' l='74' u='r' c='cow_handle_page_fault'/>
+<use f='MOS/kernel/mm/cow.c' l='95' u='r' c='cow_handle_page_fault'/>
+<use f='MOS/kernel/tasks/fork.c' l='43' u='r' c='process_handle_fork'/>
+<use f='MOS/kernel/tasks/fork.c' l='47' u='r' c='process_handle_fork'/>
+<use f='MOS/kernel/tasks/process.c' l='220' u='r' c='process_handle_cleanup'/>
+<use f='MOS/kernel/tasks/process.c' l='245' u='r' c='process_grow_heap'/>
+<use f='MOS/kernel/tasks/process.c' l='295' u='r' c='process_dump_mmaps'/>

@@ -1,0 +1,6 @@
+<dec f='MOS/kernel/include/mos/mm/paging/paging.h' l='21' type='void mm_free_pages(paging_handle_t table, vmblock_t block)'/>
+<use f='MOS/kernel/elf/elf.c' l='233' u='c' c='elf_create_process'/>
+<use f='MOS/kernel/mm/memops.c' l='64' u='c' c='liballoc_free_page'/>
+<def f='MOS/kernel/mm/paging/paging.c' l='142' ll='146' type='void mm_free_pages(paging_handle_t table, vmblock_t block)'/>
+<use f='MOS/kernel/tasks/process.c' l='223' u='c' c='process_handle_cleanup'/>
+<use f='MOS/kernel/tasks/process.c' l='256' u='c' c='process_grow_heap'/>

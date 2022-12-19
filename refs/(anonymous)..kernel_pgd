@@ -1,0 +1,8 @@
+<dec f='MOS/kernel/include/mos/platform/platform.h' l='118' type='paging_handle_t'/>
+<offset>12288</offset>
+<use f='MOS/arch/x86/x86_platform.c' l='139' u='w' c='x86_start_kernel'/>
+<use f='MOS/kernel/mm/paging/paging.c' l='12' u='r' c='mm_map_allocated_pages'/>
+<use f='MOS/kernel/mm/paging/paging.c' l='12' u='r' c='mm_unmap_pages'/>
+<use f='MOS/kernel/mm/paging/paging.c' l='12' u='r' c='mm_copy_maps'/>
+<use f='MOS/kernel/mm/paging/paging.c' l='12' u='r' c='mm_copy_maps'/>
+<use f='MOS/kernel/tasks/process.c' l='72' u='r' c='process_allocate'/>

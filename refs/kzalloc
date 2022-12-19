@@ -6,8 +6,9 @@
 <use f='MOS/kernel/io/terminal.c' l='70' u='c' c='terminal_create_pipe'/>
 <use f='MOS/kernel/ipc/ipc.c' l='234' u='c' c='ipc_init'/>
 <use f='MOS/kernel/ipc/ipc.c' l='249' u='c' c='ipc_create'/>
+<use f='MOS/kernel/mm/paging/paging.c' l='158' u='c' c='mm_create_user_pgd'/>
 <use f='MOS/kernel/tasks/kthread.c' l='37' u='c' c='kthread_create'/>
-<use f='MOS/kernel/tasks/process.c' l='36' u='c' c='process_allocate'/>
-<use f='MOS/kernel/tasks/process.c' l='83' u='c' c='process_init'/>
-<use f='MOS/kernel/tasks/thread.c' l='35' u='c' c='thread_allocate'/>
-<use f='MOS/kernel/tasks/thread.c' l='48' u='c' c='thread_init'/>
+<use f='MOS/kernel/tasks/process.c' l='37' u='c' c='process_allocate'/>
+<use f='MOS/kernel/tasks/process.c' l='84' u='c' c='process_init'/>
+<use f='MOS/kernel/tasks/thread.c' l='36' u='c' c='thread_allocate'/>
+<use f='MOS/kernel/tasks/thread.c' l='49' u='c' c='thread_init'/>

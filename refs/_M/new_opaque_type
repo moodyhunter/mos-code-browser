@@ -1,4 +1,4 @@
 <dec f='MOS/kernel/include/mos/types.h' l='73'/>
-<use f='MOS/kernel/include/mos/types.h' l='77' u='c'/>
-<use f='MOS/kernel/include/mos/types.h' l='80' u='w'/>
+<use f='MOS/kernel/include/mos/types.h' l='76' u='c'/>
+<use f='MOS/kernel/include/mos/types.h' l='79' u='w'/>
 <doc f='MOS/kernel/include/mos/types.h' l='71'>// clang-format on</doc>

@@ -1,0 +1,6 @@
+<dec f='MOS/kernel/include/mos/mm/paging/paging.h' l='17' type='vmblock_t mm_get_free_pages(paging_handle_t table, size_t npages, pgalloc_hints hints)'/>
+<use f='MOS/kernel/mm/memops.c' l='70' u='c' c='mm_alloc_zeroed_pages'/>
+<use f='MOS/kernel/mm/memops.c' l='118' u='c' c='mm_map_proxy_space'/>
+<def f='MOS/kernel/mm/paging/paging.c' l='73' ll='106' type='vmblock_t mm_get_free_pages(paging_handle_t table, size_t n_pages, pgalloc_hints hints)'/>
+<use f='MOS/kernel/mm/paging/paging.c' l='110' u='c' c='mm_alloc_pages'/>
+<use f='MOS/kernel/mm/shm.c' l='28' u='c' c='shm_map_shared_block'/>

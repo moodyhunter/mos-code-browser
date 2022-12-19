@@ -1,6 +1,6 @@
 <dec f='MOS/kernel/include/mos/elf/elf.h' l='203' type='uintptr_t'/>
-<use f='MOS/kernel/elf/elf.c' l='115' u='r' c='elf_create_process'/>
-<use f='MOS/kernel/elf/elf.c' l='185' u='r' c='elf_create_process'/>
-<use f='MOS/kernel/elf/elf.c' l='185' u='r' c='elf_create_process'/>
+<use f='MOS/kernel/elf/elf.c' l='116' u='r' c='elf_create_process'/>
+<use f='MOS/kernel/elf/elf.c' l='186' u='r' c='elf_create_process'/>
+<use f='MOS/kernel/elf/elf.c' l='186' u='r' c='elf_create_process'/>
 <offset>96</offset>
 <doc f='MOS/kernel/include/mos/elf/elf.h' l='203'>// Virtual address of the section in memory, if loaded</doc>

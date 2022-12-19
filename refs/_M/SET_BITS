@@ -1,6 +1,5 @@
 <dec f='MOS/kernel/include/mos/mos_global.h' l='38'/>
-<use f='MOS/arch/x86/interrupt/lapic.c' l='104' u='c'/>
-<use f='MOS/arch/x86/interrupt/lapic.c' l='111' u='c'/>
+<use f='MOS/arch/x86/interrupt/lapic.c' l='105' u='c'/>
 <use f='MOS/arch/x86/interrupt/lapic.c' l='112' u='c'/>
 <use f='MOS/arch/x86/interrupt/lapic.c' l='113' u='c'/>
 <use f='MOS/arch/x86/interrupt/lapic.c' l='114' u='c'/>
@@ -8,3 +7,4 @@
 <use f='MOS/arch/x86/interrupt/lapic.c' l='116' u='c'/>
 <use f='MOS/arch/x86/interrupt/lapic.c' l='117' u='c'/>
 <use f='MOS/arch/x86/interrupt/lapic.c' l='118' u='c'/>
+<use f='MOS/arch/x86/interrupt/lapic.c' l='119' u='c'/>

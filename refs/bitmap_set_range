@@ -1,0 +1,2 @@
+<dec f='MOS/lib/include/lib/structures/bitmap.h' l='17' type='void bitmap_set_range(bitmap_line_t * bitmap, size_t bitmap_nlines, size_t start, size_t end, _Bool value)'/>
+<def f='MOS/lib/structures/bitmap.c' l='98' ll='145' type='void bitmap_set_range(bitmap_line_t * bitmap, size_t bitmap_nlines, size_t start_bit, size_t end_bit, _Bool value)'/>

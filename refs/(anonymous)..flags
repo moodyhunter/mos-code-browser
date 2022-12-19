@@ -5,11 +5,11 @@
 <dec f='MOS/arch/x86/include/mos/x86/acpi/acpi_types.h' l='180' type='u16'/>
 <dec f='MOS/arch/x86/include/mos/x86/acpi/acpi_types.h' l='198' type='u32'/>
 <dec f='MOS/arch/x86/include/mos/x86/acpi/acpi_types.h' l='206' type='u32'/>
-<dec f='MOS/kernel/include/mos/platform/platform.h' l='90' type='vm_flags'/>
+<dec f='MOS/kernel/include/mos/platform/platform.h' l='97' type='vm_flags'/>
 <dec f='MOS/arch/x86/include/mos/x86/boot/multiboot.h' l='123' type='multiboot_info_flags_t'/>
 <dec f='MOS/arch/x86/include/mos/x86/boot/multiboot.h' l='227' type='u16'/>
 <offset>96</offset>
-<doc f='MOS/kernel/include/mos/platform/platform.h' l='90'>// the expected flags for the region, regardless of the copy-on-write state</doc>
+<doc f='MOS/kernel/include/mos/platform/platform.h' l='97'>// the expected flags for the region, regardless of the copy-on-write state</doc>
 <doc f='MOS/arch/x86/include/mos/x86/boot/multiboot.h' l='122'>/* Multiboot info version number */</doc>
 <use f='MOS/arch/x86/acpi/madt.c' l='41' u='r' c='acpi_parse_madt'/>
 <use f='MOS/arch/x86/acpi/madt.c' l='66' u='r' c='acpi_parse_madt'/>
@@ -19,23 +19,34 @@
 <use f='MOS/arch/x86/boot/multiboot/startup.c' l='140' u='r' c='x86_startup'/>
 <use f='MOS/arch/x86/boot/multiboot/startup.c' l='149' u='r' c='x86_startup'/>
 <use f='MOS/arch/x86/boot/multiboot/startup.c' l='176' u='r' c='x86_startup'/>
-<use f='MOS/arch/x86/mm/paging_impl.c' l='40' u='w' c='pg_page_alloc_at'/>
-<use f='MOS/arch/x86/x86_platform.c' l='119' u='r' c='x86_start_kernel'/>
-<use f='MOS/arch/x86/x86_platform_api.c' l='143' u='w' c='platform_mm_copy_maps'/>
+<use f='MOS/arch/x86/interrupt/ioapic.c' l='97' u='w' c='ioapic_init'/>
+<use f='MOS/arch/x86/interrupt/lapic.c' l='159' u='w' c='lapic_memory_setup'/>
+<use f='MOS/arch/x86/x86_platform.c' l='112' u='w' c='x86_start_kernel'/>
+<use f='MOS/arch/x86/x86_platform.c' l='117' u='w' c='x86_start_kernel'/>
+<use f='MOS/arch/x86/x86_platform.c' l='122' u='w' c='x86_start_kernel'/>
+<use f='MOS/arch/x86/x86_platform.c' l='134' u='r' c='x86_start_kernel'/>
+<use f='MOS/arch/x86/x86_platform.c' l='157' u='w' c='x86_start_kernel'/>
+<use f='MOS/arch/x86/x86_platform.c' l='175' u='w' c='x86_start_kernel'/>
+<use f='MOS/arch/x86/x86_platform.c' l='208' u='w' c='x86_start_kernel'/>
+<use f='MOS/arch/x86/x86_platform_api.c' l='127' u='r' c='platform_mm_map_pages'/>
+<use f='MOS/arch/x86/x86_platform_api.c' l='146' u='w' c='platform_mm_get_block_info'/>
+<use f='MOS/arch/x86/x86_platform_api.c' l='167' u='w' c='platform_mm_copy_maps'/>
 <dec f='MOS/kernel/include/mos/elf/elf.h' l='100' type='u32'/>
-<use f='MOS/kernel/elf/elf.c' l='216' u='w' c='elf_create_process'/>
+<use f='MOS/kernel/elf/elf.c' l='217' u='w' c='elf_create_process'/>
 <offset>384</offset>
-<use f='MOS/kernel/mm/cow.c' l='19' u='r' c='mm_make_process_map_cow'/>
 <use f='MOS/kernel/mm/cow.c' l='20' u='r' c='mm_make_process_map_cow'/>
-<use f='MOS/kernel/mm/cow.c' l='82' u='r' c='cow_handle_page_fault'/>
-<use f='MOS/kernel/mm/cow.c' l='93' u='r' c='cow_handle_page_fault'/>
-<use f='MOS/kernel/mm/memops.c' l='85' u='w' c='mm_alloc_zeroed_pages'/>
-<use f='MOS/kernel/mm/memops.c' l='106' u='w' c='mm_alloc_zeroed_pages_at'/>
-<use f='MOS/kernel/tasks/fork.c' l='36' u='r' c='process_handle_fork'/>
+<use f='MOS/kernel/mm/cow.c' l='21' u='r' c='mm_make_process_map_cow'/>
+<use f='MOS/kernel/mm/cow.c' l='83' u='r' c='cow_handle_page_fault'/>
+<use f='MOS/kernel/mm/cow.c' l='94' u='r' c='cow_handle_page_fault'/>
+<use f='MOS/kernel/mm/memops.c' l='84' u='w' c='mm_alloc_zeroed_pages'/>
+<use f='MOS/kernel/mm/memops.c' l='92' u='w' c='mm_alloc_zeroed_pages'/>
+<use f='MOS/kernel/mm/memops.c' l='113' u='w' c='mm_alloc_zeroed_pages_at'/>
+<use f='MOS/kernel/mm/paging/paging.c' l='119' u='w' c='mm_alloc_pages_at'/>
 <use f='MOS/kernel/tasks/fork.c' l='37' u='r' c='process_handle_fork'/>
-<use f='MOS/kernel/tasks/fork.c' l='45' u='r' c='process_handle_fork'/>
-<use f='MOS/kernel/tasks/process.c' l='289' u='r' c='process_dump_mmaps'/>
+<use f='MOS/kernel/tasks/fork.c' l='38' u='r' c='process_handle_fork'/>
+<use f='MOS/kernel/tasks/fork.c' l='46' u='r' c='process_handle_fork'/>
 <use f='MOS/kernel/tasks/process.c' l='290' u='r' c='process_dump_mmaps'/>
 <use f='MOS/kernel/tasks/process.c' l='291' u='r' c='process_dump_mmaps'/>
 <use f='MOS/kernel/tasks/process.c' l='292' u='r' c='process_dump_mmaps'/>
 <use f='MOS/kernel/tasks/process.c' l='293' u='r' c='process_dump_mmaps'/>
+<use f='MOS/kernel/tasks/process.c' l='294' u='r' c='process_dump_mmaps'/>

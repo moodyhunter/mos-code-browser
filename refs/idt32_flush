@@ -1,2 +1,2 @@
-<dec f='MOS/arch/x86/include/mos/x86/x86_platform.h' l='88' type='void idt32_flush(idtr32_t * idtr)'/>
+<dec f='MOS/arch/x86/include/mos/x86/x86_platform.h' l='77' type='void idt32_flush(idtr32_t * idtr)'/>
 <use f='MOS/arch/x86/interrupt/idt.c' l='51' u='c' c='x86_idt_init'/>

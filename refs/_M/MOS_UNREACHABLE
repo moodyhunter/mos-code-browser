@@ -1,5 +1,4 @@
 <dec f='MOS/kernel/include/mos/printk.h' l='17'/>
-<use f='MOS/arch/x86/mm/pmem_freelist.c' l='289' u='c'/>
 <use f='MOS/kernel/filesystem/cpio/cpio.c' l='80' u='c'/>
 <use f='MOS/kernel/filesystem/mount.c' l='25' u='c'/>
 <use f='MOS/kernel/io/terminal.c' l='17' u='c'/>
@@ -8,4 +7,4 @@
 <use f='MOS/kernel/kernel_init.c' l='119' u='c'/>
 <use f='MOS/kernel/ksyscall.c' l='101' u='c'/>
 <use f='MOS/kernel/ksyscall.c' l='173' u='c'/>
-<use f='MOS/kernel/tasks/process.c' l='282' u='c'/>
+<use f='MOS/kernel/tasks/process.c' l='283' u='c'/>

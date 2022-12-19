@@ -1,8 +1,8 @@
-<dec f='MOS/kernel/include/mos/platform/platform.h' l='142' type='void platform_mm_flag_pages(paging_handle_t table, uintptr_t vaddr, size_t n, vm_flags flags)'/>
-<def f='MOS/arch/x86/x86_platform_api.c' l='161' ll='165' type='void platform_mm_flag_pages(paging_handle_t table, uintptr_t vaddr, size_t n, vm_flags flags)'/>
-<use f='MOS/kernel/elf/elf.c' l='215' u='c' c='elf_create_process'/>
-<use f='MOS/kernel/mm/cow.c' l='19' u='c' c='mm_make_process_map_cow'/>
+<dec f='MOS/kernel/include/mos/platform/platform.h' l='150' type='void platform_mm_flag_pages(paging_handle_t table, uintptr_t vaddr, size_t n, vm_flags flags)'/>
+<def f='MOS/arch/x86/x86_platform_api.c' l='173' ll='177' type='void platform_mm_flag_pages(paging_handle_t table, uintptr_t vaddr, size_t n, vm_flags flags)'/>
+<use f='MOS/kernel/elf/elf.c' l='216' u='c' c='elf_create_process'/>
 <use f='MOS/kernel/mm/cow.c' l='20' u='c' c='mm_make_process_map_cow'/>
-<use f='MOS/kernel/mm/cow.c' l='93' u='c' c='cow_handle_page_fault'/>
-<use f='MOS/kernel/mm/memops.c' l='84' u='c' c='mm_alloc_zeroed_pages'/>
-<use f='MOS/kernel/mm/memops.c' l='105' u='c' c='mm_alloc_zeroed_pages_at'/>
+<use f='MOS/kernel/mm/cow.c' l='21' u='c' c='mm_make_process_map_cow'/>
+<use f='MOS/kernel/mm/cow.c' l='94' u='c' c='cow_handle_page_fault'/>
+<use f='MOS/kernel/mm/memops.c' l='91' u='c' c='mm_alloc_zeroed_pages'/>
+<use f='MOS/kernel/mm/memops.c' l='112' u='c' c='mm_alloc_zeroed_pages_at'/>

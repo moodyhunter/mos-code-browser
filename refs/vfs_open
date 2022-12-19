@@ -1,5 +1,5 @@
 <dec f='MOS/kernel/include/mos/filesystem/filesystem.h' l='98' type='file_t * vfs_open(const char * path, file_open_flags flags)'/>
-<use f='MOS/kernel/elf/elf.c' l='51' u='c' c='elf_create_process'/>
+<use f='MOS/kernel/elf/elf.c' l='52' u='c' c='elf_create_process'/>
 <def f='MOS/kernel/filesystem/filesystem.c' l='60' ll='74' type='file_t * vfs_open(const char * path, file_open_flags flags)'/>
 <doc f='MOS/kernel/filesystem/filesystem.c' l='58'>// END: filesystem&apos;s io_t operations</doc>
 <use f='MOS/kernel/ksyscall.c' l='40' u='c' c='impl_syscall_file_open'/>

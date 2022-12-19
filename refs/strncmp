@@ -7,7 +7,7 @@
 <use f='MOS/kernel/cmdline.c' l='47' u='c' c='mos_cmdline_create'/>
 <use f='MOS/kernel/cmdline.c' l='53' u='c' c='mos_cmdline_create'/>
 <use f='MOS/kernel/device/console.c' l='63' u='c' c='console_get_by_prefix'/>
-<use f='MOS/kernel/elf/elf.c' l='24' u='c' c='elf_verify_header'/>
+<use f='MOS/kernel/elf/elf.c' l='25' u='c' c='elf_verify_header'/>
 <use f='MOS/kernel/filesystem/cpio/cpio.c' l='37' u='c' c='cpio_read_metadata'/>
 <use f='MOS/kernel/filesystem/cpio/cpio.c' l='50' u='c' c='cpio_read_metadata'/>
 <use f='MOS/kernel/filesystem/cpio/cpio.c' l='95' u='c' c='cpio_mount'/>

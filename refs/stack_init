@@ -1,7 +1,7 @@
 <dec f='MOS/lib/include/lib/structures/stack.h' l='20' type='void stack_init(downwards_stack_t * stack, void * mem_region_bottom, size_t size)'/>
-<use f='MOS/kernel/tasks/thread.c' l='67' u='c' c='thread_new'/>
-<use f='MOS/kernel/tasks/thread.c' l='74' u='c' c='thread_new'/>
-<use f='MOS/kernel/tasks/thread.c' l='80' u='c' c='thread_new'/>
+<use f='MOS/kernel/tasks/thread.c' l='68' u='c' c='thread_new'/>
+<use f='MOS/kernel/tasks/thread.c' l='75' u='c' c='thread_new'/>
+<use f='MOS/kernel/tasks/thread.c' l='81' u='c' c='thread_new'/>
 <def f='MOS/lib/structures/stack.c' l='8' ll='15' type='void stack_init(downwards_stack_t * stack, void * mem_region_bottom, size_t size)'/>
 <use f='MOS/tests/downwards_stack/test_downwards_stack.c' l='10' u='c' c='stack_init_deinit'/>
 <use f='MOS/tests/downwards_stack/test_downwards_stack.c' l='25' u='c' c='stack_push_pop_stack'/>

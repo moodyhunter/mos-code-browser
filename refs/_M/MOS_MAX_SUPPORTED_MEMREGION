@@ -1,0 +1,3 @@
+<dec f='MOS/build/include/mos/kconfig.h' l='16'/>
+<use f='MOS/kernel/include/mos/platform/platform.h' l='115' u='c'/>
+<use f='MOS/arch/x86/mm/mm.c' l='11' u='c'/>

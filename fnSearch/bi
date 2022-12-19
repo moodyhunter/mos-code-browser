@@ -1,8 +1,7 @@
-bitmap_find_first_free_n_from|bitmap_find_first_free_n_from
 bitmap_clear|bitmap_clear
 bitmap_create|bitmap_create
 bitmap_find_first_free_n|bitmap_find_first_free_n
 bitmap_get|bitmap_get
-bitmap_nlines|bitmap_nlines
 bitmap_set|bitmap_set
+bitmap_set_range|bitmap_set_range
 bitmap_zero|bitmap_zero

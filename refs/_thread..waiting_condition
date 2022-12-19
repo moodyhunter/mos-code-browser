@@ -6,4 +6,4 @@
 <use f='MOS/kernel/tasks/schedule.c' l='28' u='w' c='should_schedule_to_thread'/>
 <use f='MOS/kernel/tasks/schedule.c' l='81' u='r' c='reschedule_for_wait_condition'/>
 <use f='MOS/kernel/tasks/schedule.c' l='83' u='w' c='reschedule_for_wait_condition'/>
-<use f='MOS/kernel/tasks/thread.c' l='41' u='w' c='thread_allocate'/>
+<use f='MOS/kernel/tasks/thread.c' l='42' u='w' c='thread_allocate'/>

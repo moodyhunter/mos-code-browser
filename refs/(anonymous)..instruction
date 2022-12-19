@@ -1,4 +1,4 @@
-<dec f='MOS/kernel/include/mos/platform/platform.h' l='74' type='uintptr_t'/>
+<dec f='MOS/kernel/include/mos/platform/platform.h' l='81' type='uintptr_t'/>
 <offset>0</offset>
 <use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='144' u='w' c='x86_handle_interrupt'/>
 <use f='MOS/arch/x86/tasks/context.c' l='28' u='w' c='x86_setup_thread_context'/>

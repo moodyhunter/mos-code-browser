@@ -1,5 +1,5 @@
 <dec f='MOS/arch/x86/include/mos/x86/x86_interrupt.h' l='11'/>
 <use f='MOS/arch/x86/interrupt/idt.c' l='38' u='c'/>
-<use f='MOS/arch/x86/interrupt/ioapic.c' l='125' u='c'/>
-<use f='MOS/arch/x86/interrupt/ioapic.c' l='136' u='c'/>
-<use f='MOS/arch/x86/interrupt/ioapic.c' l='148' u='c'/>
+<use f='MOS/arch/x86/interrupt/ioapic.c' l='126' u='c'/>
+<use f='MOS/arch/x86/interrupt/ioapic.c' l='137' u='c'/>
+<use f='MOS/arch/x86/interrupt/ioapic.c' l='149' u='c'/>

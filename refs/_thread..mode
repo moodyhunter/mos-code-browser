@@ -2,5 +2,5 @@
 <offset>704</offset>
 <use f='MOS/arch/x86/tasks/context.c' l='29' u='r' c='x86_setup_thread_context'/>
 <use f='MOS/arch/x86/tasks/context.c' l='60' u='r' c='x86_switch_to_thread'/>
-<use f='MOS/kernel/tasks/fork.c' l='64' u='r' c='process_handle_fork'/>
-<use f='MOS/kernel/tasks/thread.c' l='40' u='w' c='thread_allocate'/>
+<use f='MOS/kernel/tasks/fork.c' l='65' u='r' c='process_handle_fork'/>
+<use f='MOS/kernel/tasks/thread.c' l='41' u='w' c='thread_allocate'/>

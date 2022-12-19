@@ -1,5 +1,5 @@
 <dec f='MOS/kernel/include/mos/ipc/ipc_types.h' l='70' type='size_t'/>
-<offset>1088</offset>
+<offset>1216</offset>
 <use f='MOS/kernel/ipc/ipc.c' l='98' u='r' c='wc_ipc_connection_wait_for_client_data'/>
 <use f='MOS/kernel/ipc/ipc.c' l='147' u='w' c='ipc_connection_server_write'/>
 <use f='MOS/kernel/ipc/ipc.c' l='172' u='r' c='ipc_connection_client_read'/>

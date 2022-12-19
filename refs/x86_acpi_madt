@@ -5,4 +5,4 @@
 <def f='MOS/arch/x86/acpi/madt.c' l='10' type='acpi_madt_t *'/>
 <use f='MOS/arch/x86/acpi/madt.c' l='26' u='r' c='acpi_parse_madt'/>
 <use f='MOS/arch/x86/acpi/madt.c' l='34' u='r' c='acpi_parse_madt'/>
-<use f='MOS/arch/x86/interrupt/lapic.c' l='142' u='r' c='lapic_memory_setup'/>
+<use f='MOS/arch/x86/interrupt/lapic.c' l='143' u='r' c='lapic_memory_setup'/>

@@ -1,21 +1,32 @@
-<dec f='MOS/kernel/include/mos/platform/platform.h' l='83' type='paging_handle_t'/>
+<dec f='MOS/kernel/include/mos/platform/platform.h' l='90' type='paging_handle_t'/>
 <offset>192</offset>
+<use f='MOS/arch/x86/interrupt/ioapic.c' l='98' u='r' c='ioapic_init'/>
+<use f='MOS/arch/x86/interrupt/lapic.c' l='161' u='r' c='lapic_memory_setup'/>
+<use f='MOS/arch/x86/mm/paging.c' l='32' u='r' c='x86_mm_prepare_paging'/>
+<use f='MOS/arch/x86/mm/paging.c' l='33' u='r' c='x86_mm_prepare_paging'/>
+<use f='MOS/arch/x86/mm/paging.c' l='34' u='r' c='x86_mm_prepare_paging'/>
 <use f='MOS/arch/x86/tasks/context.c' l='45' u='m' c='x86_switch_to_thread'/>
 <use f='MOS/arch/x86/x86_platform.c' l='79' u='m' c='x86_kpanic_hook'/>
 <use f='MOS/arch/x86/x86_platform.c' l='86' u='m' c='x86_kpanic_hook'/>
 <use f='MOS/arch/x86/x86_platform.c' l='102' u='r' c='x86_kpanic_hook'/>
-<use f='MOS/arch/x86/x86_platform.c' l='126' u='m' c='x86_start_kernel'/>
-<use f='MOS/kernel/elf/elf.c' l='59' u='r' c='elf_create_process'/>
-<use f='MOS/kernel/elf/elf.c' l='214' u='r' c='elf_create_process'/>
-<use f='MOS/kernel/elf/elf.c' l='224' u='r' c='elf_create_process'/>
-<use f='MOS/kernel/elf/elf.c' l='232' u='r' c='elf_create_process'/>
-<use f='MOS/kernel/mm/memops.c' l='18' u='r' c='mos_kernel_mm_init'/>
+<use f='MOS/arch/x86/x86_platform.c' l='137' u='m' c='x86_start_kernel'/>
+<use f='MOS/arch/x86/x86_platform.c' l='138' u='m' c='x86_start_kernel'/>
+<use f='MOS/arch/x86/x86_platform.c' l='139' u='r' c='x86_start_kernel'/>
+<use f='MOS/arch/x86/x86_platform.c' l='161' u='r' c='x86_start_kernel'/>
+<use f='MOS/arch/x86/x86_platform.c' l='178' u='r' c='x86_start_kernel'/>
+<use f='MOS/arch/x86/x86_platform.c' l='211' u='r' c='x86_start_kernel'/>
+<use f='MOS/arch/x86/x86_platform_api.c' l='72' u='r' c='platform_mm_create_user_pgd'/>
+<use f='MOS/kernel/elf/elf.c' l='60' u='r' c='elf_create_process'/>
+<use f='MOS/kernel/elf/elf.c' l='215' u='r' c='elf_create_process'/>
+<use f='MOS/kernel/elf/elf.c' l='225' u='r' c='elf_create_process'/>
+<use f='MOS/kernel/elf/elf.c' l='233' u='r' c='elf_create_process'/>
+<use f='MOS/kernel/mm/memops.c' l='19' u='r' c='mos_kernel_mm_init'/>
 <use f='MOS/kernel/mm/memops.c' l='37' u='r' c='liballoc_alloc_page'/>
 <use f='MOS/kernel/mm/memops.c' l='63' u='r' c='liballoc_free_page'/>
-<use f='MOS/kernel/mm/memops.c' l='80' u='r' c='mm_alloc_zeroed_pages'/>
-<use f='MOS/kernel/mm/memops.c' l='101' u='r' c='mm_alloc_zeroed_pages_at'/>
-<use f='MOS/kernel/mm/memops.c' l='111' u='r' c='mm_map_proxy_space'/>
-<use f='MOS/kernel/mm/memops.c' l='112' u='r' c='mm_map_proxy_space'/>
-<use f='MOS/kernel/mm/memops.c' l='118' u='r' c='mm_unmap_proxy_space'/>
-<use f='MOS/kernel/mm/memops.c' l='123' u='r' c='mm_copy_pages'/>
+<use f='MOS/kernel/mm/memops.c' l='64' u='r' c='liballoc_free_page'/>
+<use f='MOS/kernel/mm/memops.c' l='108' u='r' c='mm_alloc_zeroed_pages_at'/>
+<use f='MOS/kernel/mm/memops.c' l='118' u='r' c='mm_map_proxy_space'/>
+<use f='MOS/kernel/mm/memops.c' l='119' u='r' c='mm_map_proxy_space'/>
+<use f='MOS/kernel/mm/memops.c' l='125' u='r' c='mm_unmap_proxy_space'/>
+<use f='MOS/kernel/mm/memops.c' l='130' u='r' c='mm_copy_pages'/>
 <use f='MOS/kernel/tasks/schedule.c' l='68' u='w' c='mos_update_current'/>

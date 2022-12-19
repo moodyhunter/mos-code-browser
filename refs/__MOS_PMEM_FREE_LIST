@@ -1,0 +1,3 @@
+<dec f='MOS/kernel/mm/paging/pmem_freelist.c' l='21' type='const void'/>
+<use f='MOS/kernel/mm/paging/pmem_freelist.c' l='22' u='a'/>
+<use f='MOS/kernel/mm/paging/pmem_freelist.c' l='23' u='a'/>

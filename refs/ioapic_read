@@ -1,6 +1,6 @@
 <def f='MOS/arch/x86/interrupt/ioapic.c' l='55' ll='59' macro='1' type='u32 ioapic_read(u32 reg)'/>
 <use f='MOS/arch/x86/interrupt/ioapic.c' l='87' u='c' c='ioapic_read_redirection_entry'/>
 <use f='MOS/arch/x86/interrupt/ioapic.c' l='88' u='c' c='ioapic_read_redirection_entry'/>
-<use f='MOS/arch/x86/interrupt/ioapic.c' l='104' u='c' c='ioapic_init'/>
-<use f='MOS/arch/x86/interrupt/ioapic.c' l='116' u='c' c='ioapic_init'/>
-<use f='MOS/arch/x86/interrupt/ioapic.c' l='118' u='c' c='ioapic_init'/>
+<use f='MOS/arch/x86/interrupt/ioapic.c' l='105' u='c' c='ioapic_init'/>
+<use f='MOS/arch/x86/interrupt/ioapic.c' l='117' u='c' c='ioapic_init'/>
+<use f='MOS/arch/x86/interrupt/ioapic.c' l='119' u='c' c='ioapic_init'/>

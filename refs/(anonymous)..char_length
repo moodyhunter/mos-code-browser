@@ -1,4 +1,4 @@
 <dec f='MOS/arch/x86/include/mos/x86/devices/serial.h' l='118' type='serial_char_length_t'/>
 <use f='MOS/arch/x86/devices/serial.c' l='110' u='r' c='serial_device_setup'/>
 <offset>64</offset>
-<use f='MOS/arch/x86/x86_platform.c' l='32' u='w'/>
+<use f='MOS/arch/x86/x86_platform.c' l='35' u='w'/>

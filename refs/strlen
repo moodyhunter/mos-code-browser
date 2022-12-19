@@ -15,9 +15,9 @@
 <use f='MOS/kernel/ipc/ipc.c' l='251' u='c' c='ipc_create'/>
 <use f='MOS/kernel/ipc/ipc.c' l='316' u='c' c='ipc_connect'/>
 <use f='MOS/kernel/printk.c' l='99' u='c' c='lvprintk'/>
-<use f='MOS/kernel/tasks/fork.c' l='67' u='c' c='process_handle_fork'/>
-<use f='MOS/kernel/tasks/process.c' l='60' u='c' c='process_allocate'/>
-<use f='MOS/kernel/tasks/thread.c' l='62' u='c' c='thread_new'/>
+<use f='MOS/kernel/tasks/fork.c' l='68' u='c' c='process_handle_fork'/>
+<use f='MOS/kernel/tasks/process.c' l='61' u='c' c='process_allocate'/>
+<use f='MOS/kernel/tasks/thread.c' l='63' u='c' c='thread_new'/>
 <use f='MOS/lib/stdio_impl.c' l='316' u='c' c='printf_diouxX'/>
 <use f='MOS/lib/stdio_impl.c' l='328' u='c' c='printf_diouxX'/>
 <use f='MOS/lib/stdio_impl.c' l='328' u='c' c='printf_diouxX'/>

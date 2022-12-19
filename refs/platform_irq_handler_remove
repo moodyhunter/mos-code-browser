@@ -1,2 +1,2 @@
-<dec f='MOS/kernel/include/mos/platform/platform.h' l='128' type='void platform_irq_handler_remove(u32 irq, irq_handler handler)'/>
-<def f='MOS/arch/x86/x86_platform_api.c' l='60' ll='65' type='void platform_irq_handler_remove(u32 irq, irq_handler handler)'/>
+<dec f='MOS/kernel/include/mos/platform/platform.h' l='139' type='void platform_irq_handler_remove(u32 irq, irq_handler handler)'/>
+<def f='MOS/arch/x86/x86_platform_api.c' l='62' ll='67' type='void platform_irq_handler_remove(u32 irq, irq_handler handler)'/>

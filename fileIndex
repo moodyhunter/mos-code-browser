@@ -26,7 +26,6 @@ MOS/arch/x86/boot/multiboot/startup.c
 MOS/kernel/include/mos/device/console.h
 MOS/lib/include/lib/sync/spinlock.h
 MOS/arch/x86/include/mos/x86/mm/paging_impl.h
-MOS/lib/include/lib/structures/bitmap.h
 MOS/arch/x86/cpu/cpuid.c
 MOS/arch/x86/include/mos/x86/cpu/cpuid.h
 MOS/arch/x86/cpu/smp.c
@@ -53,6 +52,8 @@ MOS/arch/x86/gdt/gdt.c
 MOS/arch/x86/interrupt/idt.c
 MOS/arch/x86/include/mos/x86/interrupt/pic.h
 MOS/arch/x86/interrupt/ioapic.c
+MOS/kernel/include/mos/mm/paging/paging.h
+MOS/lib/include/lib/structures/bitmap.h
 MOS/arch/x86/interrupt/lapic.c
 MOS/arch/x86/interrupt/pic.c
 MOS/arch/x86/interrupt/x86_interrupt.c
@@ -70,9 +71,8 @@ MOS/arch/x86/mm/mm.c
 MOS/arch/x86/include/mos/x86/mm/mm.h
 MOS/lib/include/lib/stdlib.h
 MOS/arch/x86/mm/paging.c
-MOS/arch/x86/include/mos/x86/mm/pmem_freelist.h
+MOS/kernel/include/mos/mm/paging/pmem_freelist.h
 MOS/arch/x86/mm/paging_impl.c
-MOS/arch/x86/mm/pmem_freelist.c
 MOS/arch/x86/tasks/context.c
 MOS/arch/x86/tasks/tss.c
 MOS/arch/x86/x86_platform.c
@@ -112,6 +112,8 @@ MOS/kernel/ksyscall.c
 MOS/build/include/mos/syscall/decl.h
 MOS/kernel/mm/cow.c
 MOS/kernel/mm/memops.c
+MOS/kernel/mm/paging/paging.c
+MOS/kernel/mm/paging/pmem_freelist.c
 MOS/kernel/mm/shm.c
 MOS/kernel/panic.c
 MOS/lib/include/lib/stdio.h

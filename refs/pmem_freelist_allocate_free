@@ -1,0 +1,3 @@
+<dec f='MOS/kernel/include/mos/mm/paging/pmem_freelist.h' l='12' type='uintptr_t pmem_freelist_allocate_free(size_t pages)'/>
+<use f='MOS/kernel/mm/paging/paging.c' l='116' u='c' c='mm_alloc_pages_at'/>
+<def f='MOS/kernel/mm/paging/pmem_freelist.c' l='270' ll='287' type='uintptr_t pmem_freelist_allocate_free(size_t pages)'/>

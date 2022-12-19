@@ -1,3 +1,2 @@
-<dec f='MOS/arch/x86/include/mos/x86/mm/pmem_freelist.h' l='10' type='void pmem_freelist_dump()'/>
-<def f='MOS/arch/x86/mm/pmem_freelist.c' l='33' ll='46' type='void pmem_freelist_dump()'/>
-<use f='MOS/arch/x86/x86_platform.c' l='78' u='c' c='x86_kpanic_hook'/>
+<dec f='MOS/kernel/include/mos/mm/paging/pmem_freelist.h' l='10' type='void pmem_freelist_dump()'/>
+<def f='MOS/kernel/mm/paging/pmem_freelist.c' l='31' ll='44' type='void pmem_freelist_dump()'/>

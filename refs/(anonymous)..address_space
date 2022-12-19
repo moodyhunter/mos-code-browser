@@ -1,5 +1,5 @@
 <dec f='MOS/kernel/include/mos/mm/mm_types.h' l='10' type='paging_handle_t'/>
 <offset>0</offset>
-<use f='MOS/kernel/mm/shm.c' l='21' u='w' c='shm_allocate'/>
-<use f='MOS/kernel/mm/shm.c' l='26' u='m' c='shm_map_shared_block'/>
-<use f='MOS/kernel/mm/shm.c' l='28' u='r' c='shm_map_shared_block'/>
+<use f='MOS/kernel/mm/shm.c' l='22' u='w' c='shm_allocate'/>
+<use f='MOS/kernel/mm/shm.c' l='27' u='m' c='shm_map_shared_block'/>
+<use f='MOS/kernel/mm/shm.c' l='29' u='r' c='shm_map_shared_block'/>

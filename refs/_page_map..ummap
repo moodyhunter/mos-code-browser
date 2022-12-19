@@ -1,0 +1,6 @@
+<dec f='MOS/kernel/include/mos/mm/paging/paging.h' l='14' type='bitmap_line_t[24576]'/>
+<offset>0</offset>
+<use f='MOS/kernel/mm/paging/paging.c' l='23' u='r' c='pagemap_use'/>
+<use f='MOS/kernel/mm/paging/paging.c' l='47' u='r' c='pagemap_free'/>
+<use f='MOS/kernel/mm/paging/paging.c' l='69' u='r' c='mm_get_is_mapped'/>
+<use f='MOS/kernel/mm/paging/paging.c' l='85' u='r' c='mm_get_free_pages'/>

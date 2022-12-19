@@ -6,4 +6,4 @@
 <use f='MOS/arch/x86/interrupt/ioapic.c' l='96' u='r' c='ioapic_init'/>
 <use f='MOS/arch/x86/interrupt/ioapic.c' l='97' u='r' c='ioapic_init'/>
 <use f='MOS/arch/x86/interrupt/ioapic.c' l='97' u='r' c='ioapic_init'/>
-<use f='MOS/arch/x86/interrupt/ioapic.c' l='99' u='r' c='ioapic_init'/>
+<use f='MOS/arch/x86/interrupt/ioapic.c' l='100' u='r' c='ioapic_init'/>

@@ -1,0 +1,7 @@
+<dec f='MOS/kernel/include/mos/platform/platform.h' l='114' type='size_t'/>
+<offset>5952</offset>
+<use f='MOS/arch/x86/mm/mm.c' l='11' u='r' c='mem_add_region'/>
+<use f='MOS/arch/x86/mm/mm.c' l='14' u='w' c='mem_add_region'/>
+<use f='MOS/arch/x86/mm/mm.c' l='26' u='w' c='x86_mem_init'/>
+<use f='MOS/arch/x86/x86_platform.c' l='166' u='r' c='x86_start_kernel'/>
+<use f='MOS/kernel/mm/paging/pmem_freelist.c' l='54' u='r' c='mos_pmem_freelist_setup'/>

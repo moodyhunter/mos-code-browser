@@ -1,19 +1,19 @@
 <dec f='MOS/kernel/include/mos/tasks/task_types.h' l='76' type='proc_vmblock_t *'/>
-<offset>70272</offset>
+<offset>70336</offset>
 <use f='MOS/kernel/ksyscall.c' l='184' u='r' c='impl_syscall_heap_control'/>
 <use f='MOS/kernel/ksyscall.c' l='186' u='r' c='impl_syscall_heap_control'/>
-<use f='MOS/kernel/mm/cow.c' l='64' u='r' c='cow_handle_page_fault'/>
-<use f='MOS/kernel/mm/cow.c' l='71' u='r' c='cow_handle_page_fault'/>
-<use f='MOS/kernel/mm/cow.c' l='84' u='r' c='cow_handle_page_fault'/>
-<use f='MOS/kernel/mm/cow.c' l='94' u='r' c='cow_handle_page_fault'/>
-<use f='MOS/kernel/tasks/fork.c' l='24' u='r' c='process_handle_fork'/>
-<use f='MOS/kernel/tasks/fork.c' l='42' u='r' c='process_handle_fork'/>
-<use f='MOS/kernel/tasks/fork.c' l='44' u='r' c='process_handle_fork'/>
-<use f='MOS/kernel/tasks/process.c' l='175' u='w' c='process_attach_mmap'/>
-<use f='MOS/kernel/tasks/process.c' l='175' u='r' c='process_attach_mmap'/>
+<use f='MOS/kernel/mm/cow.c' l='65' u='r' c='cow_handle_page_fault'/>
+<use f='MOS/kernel/mm/cow.c' l='72' u='r' c='cow_handle_page_fault'/>
+<use f='MOS/kernel/mm/cow.c' l='85' u='r' c='cow_handle_page_fault'/>
+<use f='MOS/kernel/mm/cow.c' l='95' u='r' c='cow_handle_page_fault'/>
+<use f='MOS/kernel/tasks/fork.c' l='25' u='r' c='process_handle_fork'/>
+<use f='MOS/kernel/tasks/fork.c' l='43' u='r' c='process_handle_fork'/>
+<use f='MOS/kernel/tasks/fork.c' l='45' u='r' c='process_handle_fork'/>
+<use f='MOS/kernel/tasks/process.c' l='176' u='w' c='process_attach_mmap'/>
 <use f='MOS/kernel/tasks/process.c' l='176' u='r' c='process_attach_mmap'/>
-<use f='MOS/kernel/tasks/process.c' l='214' u='r' c='process_handle_cleanup'/>
+<use f='MOS/kernel/tasks/process.c' l='177' u='r' c='process_attach_mmap'/>
 <use f='MOS/kernel/tasks/process.c' l='215' u='r' c='process_handle_cleanup'/>
-<use f='MOS/kernel/tasks/process.c' l='233' u='r' c='process_grow_heap'/>
-<use f='MOS/kernel/tasks/process.c' l='235' u='r' c='process_grow_heap'/>
-<use f='MOS/kernel/tasks/process.c' l='270' u='r' c='process_dump_mmaps'/>
+<use f='MOS/kernel/tasks/process.c' l='216' u='r' c='process_handle_cleanup'/>
+<use f='MOS/kernel/tasks/process.c' l='234' u='r' c='process_grow_heap'/>
+<use f='MOS/kernel/tasks/process.c' l='236' u='r' c='process_grow_heap'/>
+<use f='MOS/kernel/tasks/process.c' l='271' u='r' c='process_dump_mmaps'/>

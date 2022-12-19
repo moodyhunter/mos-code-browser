@@ -1,14 +1,15 @@
-<dec f='MOS/kernel/include/mos/platform/platform.h' l='39' type='12'/>
-<use f='MOS/kernel/include/mos/platform/platform.h' l='40' u='r'/>
-<doc f='MOS/kernel/include/mos/platform/platform.h' l='38'>// composite flags (for convenience)</doc>
+<dec f='MOS/kernel/include/mos/platform/platform.h' l='40' type='12'/>
+<use f='MOS/kernel/include/mos/platform/platform.h' l='41' u='r'/>
+<doc f='MOS/kernel/include/mos/platform/platform.h' l='39'>// composite flags (for convenience)</doc>
 <use f='MOS/arch/x86/boot/multiboot/startup.c' l='164' u='r' c='x86_startup'/>
 <use f='MOS/arch/x86/interrupt/ioapic.c' l='96' u='r' c='ioapic_init'/>
 <use f='MOS/arch/x86/interrupt/ioapic.c' l='97' u='r' c='ioapic_init'/>
-<use f='MOS/arch/x86/interrupt/lapic.c' l='152' u='r' c='lapic_memory_setup'/>
 <use f='MOS/arch/x86/interrupt/lapic.c' l='153' u='r' c='lapic_memory_setup'/>
-<use f='MOS/arch/x86/x86_platform_api.c' l='76' u='r' c='platform_mm_create_user_pgd'/>
-<use f='MOS/kernel/elf/elf.c' l='59' u='r' c='elf_create_process'/>
+<use f='MOS/arch/x86/interrupt/lapic.c' l='159' u='r' c='lapic_memory_setup'/>
+<use f='MOS/arch/x86/x86_platform.c' l='208' u='r' c='x86_start_kernel'/>
+<use f='MOS/arch/x86/x86_platform_api.c' l='72' u='r' c='platform_mm_create_user_pgd'/>
+<use f='MOS/kernel/elf/elf.c' l='60' u='r' c='elf_create_process'/>
 <use f='MOS/kernel/ipc/ipc.c' l='342' u='r' c='ipc_connect'/>
-<use f='MOS/kernel/mm/memops.c' l='18' u='r' c='mos_kernel_mm_init'/>
+<use f='MOS/kernel/mm/memops.c' l='19' u='r' c='mos_kernel_mm_init'/>
 <use f='MOS/kernel/mm/memops.c' l='37' u='r' c='liballoc_alloc_page'/>
-<use f='MOS/kernel/tasks/thread.c' l='66' u='r' c='thread_new'/>
+<use f='MOS/kernel/tasks/thread.c' l='67' u='r' c='thread_new'/>

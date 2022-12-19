@@ -3,4 +3,4 @@
 <use f='MOS/arch/x86/boot/multiboot/startup.c' l='152' u='r' c='x86_startup'/>
 <use f='MOS/arch/x86/boot/multiboot/startup.c' l='153' u='r' c='x86_startup'/>
 <use f='MOS/arch/x86/boot/multiboot/startup.c' l='197' u='r' c='x86_startup'/>
-<use f='MOS/arch/x86/x86_platform.c' l='123' u='r' c='x86_start_kernel'/>
+<use f='MOS/arch/x86/x86_platform.c' l='142' u='r' c='x86_start_kernel'/>

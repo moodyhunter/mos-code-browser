@@ -2,5 +2,5 @@
 <offset>192</offset>
 <use f='MOS/kernel/ksyscall.c' l='135' u='r' c='impl_syscall_get_parent_pid'/>
 <use f='MOS/kernel/ksyscall.c' l='136' u='r' c='impl_syscall_get_parent_pid'/>
-<use f='MOS/kernel/tasks/process.c' l='44' u='w' c='process_allocate'/>
-<use f='MOS/kernel/tasks/process.c' l='48' u='w' c='process_allocate'/>
+<use f='MOS/kernel/tasks/process.c' l='45' u='w' c='process_allocate'/>
+<use f='MOS/kernel/tasks/process.c' l='49' u='w' c='process_allocate'/>

@@ -1,5 +1,6 @@
-<dec f='MOS/arch/x86/include/mos/x86/mm/paging_impl.h' l='74' type='vm_flags pg_page_get_flags(x86_pg_infra_t * pg, uintptr_t vaddr)'/>
-<def f='MOS/arch/x86/mm/paging_impl.c' l='246' ll='268' type='vm_flags pg_page_get_flags(x86_pg_infra_t * pg, uintptr_t vaddr)'/>
-<use f='MOS/arch/x86/x86_platform_api.c' l='136' u='c' c='platform_mm_copy_maps'/>
-<use f='MOS/arch/x86/x86_platform_api.c' l='143' u='c' c='platform_mm_copy_maps'/>
-<use f='MOS/arch/x86/x86_platform_api.c' l='170' u='c' c='platform_mm_get_flags'/>
+<dec f='MOS/arch/x86/include/mos/x86/mm/paging_impl.h' l='62' type='vm_flags pg_page_get_flags(x86_pg_infra_t * pg, uintptr_t vaddr)'/>
+<def f='MOS/arch/x86/mm/paging_impl.c' l='143' ll='168' type='vm_flags pg_page_get_flags(x86_pg_infra_t * pg, uintptr_t vaddr)'/>
+<use f='MOS/arch/x86/x86_platform_api.c' l='146' u='c' c='platform_mm_get_block_info'/>
+<use f='MOS/arch/x86/x86_platform_api.c' l='160' u='c' c='platform_mm_copy_maps'/>
+<use f='MOS/arch/x86/x86_platform_api.c' l='167' u='c' c='platform_mm_copy_maps'/>
+<use f='MOS/arch/x86/x86_platform_api.c' l='182' u='c' c='platform_mm_get_flags'/>

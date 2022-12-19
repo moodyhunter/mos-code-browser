@@ -1,7 +1,7 @@
-<dec f='MOS/arch/x86/include/mos/x86/devices/initrd_blockdev.h' l='12' type='x86_pmblock_t'/>
+<dec f='MOS/arch/x86/include/mos/x86/devices/initrd_blockdev.h' l='12' type='memregion_t'/>
 <use f='MOS/arch/x86/devices/initrd_blockdev.c' l='19' u='m' c='initrd_read'/>
 <use f='MOS/arch/x86/devices/initrd_blockdev.c' l='26' u='m' c='initrd_read'/>
 <use f='MOS/arch/x86/devices/initrd_blockdev.c' l='27' u='m' c='initrd_read'/>
 <use f='MOS/arch/x86/devices/initrd_blockdev.c' l='29' u='m' c='initrd_read'/>
 <offset>0</offset>
-<use f='MOS/arch/x86/x86_platform.c' l='181' u='w' c='x86_start_kernel'/>
+<use f='MOS/arch/x86/x86_platform.c' l='225' u='w' c='x86_start_kernel'/>

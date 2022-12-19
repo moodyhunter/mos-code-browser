@@ -1,4 +1,4 @@
-<dec f='MOS/kernel/include/mos/constants.h' l='17'/>
+<dec f='MOS/kernel/include/mos/constants.h' l='19'/>
 <use f='MOS/kernel/include/mos/boot/startup.h' l='54' u='c'/>
 <use f='MOS/arch/x86/acpi/acpi.c' l='30' u='c'/>
 <use f='MOS/arch/x86/acpi/acpi.c' l='33' u='c'/>
@@ -8,8 +8,8 @@
 <use f='MOS/arch/x86/boot/multiboot/startup.c' l='192' u='c'/>
 <use f='MOS/arch/x86/boot/multiboot/startup.c' l='194' u='c'/>
 <use f='MOS/arch/x86/devices/text_mode_console.c' l='27' u='c'/>
-<use f='MOS/arch/x86/interrupt/lapic.c' l='145' u='c'/>
-<use f='MOS/arch/x86/interrupt/lapic.c' l='148' u='c'/>
-<use f='MOS/arch/x86/mm/paging.c' l='40' u='c'/>
-<use f='MOS/arch/x86/x86_platform.c' l='145' u='c'/>
-<use f='MOS/arch/x86/x86_platform.c' l='146' u='c'/>
+<use f='MOS/arch/x86/interrupt/lapic.c' l='146' u='c'/>
+<use f='MOS/arch/x86/interrupt/lapic.c' l='149' u='c'/>
+<use f='MOS/arch/x86/x86_platform.c' l='174' u='c'/>
+<use f='MOS/arch/x86/x86_platform.c' l='179' u='c'/>
+<use f='MOS/arch/x86/x86_platform.c' l='207' u='c'/>
