@@ -7,5 +7,3 @@ path_to_string_relative|path_to_string_relative
 path_treeop_decrement_refcount|path_treeop_decrement_refcount
 path_treeop_increment_refcount|path_treeop_increment_refcount
 path_verify_prefix|path_verify_prefix
-pagemap_free|pagemap_free
-pagemap_use|pagemap_use

@@ -61,7 +61,7 @@
 <use f='MOS/arch/x86/x86_platform.c' l='72' macro='1' u='c' c='do_backtrace'/>
 <use f='MOS/arch/x86/x86_platform.c' l='83' macro='1' u='c' c='x86_kpanic_hook'/>
 <use f='MOS/arch/x86/x86_platform.c' l='84' macro='1' u='c' c='x86_kpanic_hook'/>
-<use f='MOS/arch/x86/x86_platform.c' l='88' macro='1' u='c' c='x86_kpanic_hook'/>
+<use f='MOS/arch/x86/x86_platform.c' l='91' macro='1' u='c' c='x86_kpanic_hook'/>
 <use f='MOS/arch/x86/x86_platform.c' l='97' macro='1' u='c' c='x86_kpanic_hook'/>
 <use f='MOS/arch/x86/x86_platform.c' l='101' macro='1' u='c' c='x86_kpanic_hook'/>
 <use f='MOS/arch/x86/x86_platform.c' l='144' macro='1' u='c' c='x86_start_kernel'/>

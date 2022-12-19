@@ -1,8 +1,8 @@
 <dec f='MOS/lib/include/lib/structures/bitmap.h' l='18' type='_Bool bitmap_get(bitmap_line_t * bitmap, size_t bitmap_nlines, size_t index)'/>
-<use f='MOS/kernel/mm/paging/paging.c' l='32' u='c' c='pagemap_use'/>
-<use f='MOS/kernel/mm/paging/paging.c' l='35' u='c' c='pagemap_use'/>
-<use f='MOS/kernel/mm/paging/paging.c' l='56' u='c' c='pagemap_free'/>
-<use f='MOS/kernel/mm/paging/paging.c' l='70' u='c' c='mm_get_is_mapped'/>
-<use f='MOS/kernel/mm/paging/paging.c' l='91' u='c' c='mm_get_free_pages'/>
+<use f='MOS/kernel/mm/paging/paging.c' l='32' u='c' c='pagemap_mark_used'/>
+<use f='MOS/kernel/mm/paging/paging.c' l='35' u='c' c='pagemap_mark_used'/>
+<use f='MOS/kernel/mm/paging/paging.c' l='56' u='c' c='pagemap_mark_free'/>
+<use f='MOS/kernel/mm/paging/paging.c' l='80' u='c' c='mm_get_free_pages'/>
+<use f='MOS/kernel/mm/paging/paging.c' l='152' u='c' c='mm_get_is_mapped'/>
 <def f='MOS/lib/structures/bitmap.c' l='39' ll='46' macro='1' type='_Bool bitmap_get(bitmap_line_t * bitmap, size_t bitmap_nlines, size_t index)'/>
 <use f='MOS/lib/structures/bitmap.c' l='80' u='c' c='bitmap_find_first_free_n'/>

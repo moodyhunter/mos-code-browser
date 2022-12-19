@@ -1,10 +1,10 @@
 <dec f='MOS/kernel/include/mos/platform/platform.h' l='76' type='page_map_t *'/>
 <offset>64</offset>
 <use f='MOS/arch/x86/x86_platform.c' l='138' u='w' c='x86_start_kernel'/>
-<use f='MOS/kernel/mm/paging/paging.c' l='69' u='r' c='mm_get_is_mapped'/>
-<use f='MOS/kernel/mm/paging/paging.c' l='85' u='r' c='mm_get_free_pages'/>
-<use f='MOS/kernel/mm/paging/paging.c' l='132' u='r' c='mm_map_allocated_pages'/>
-<use f='MOS/kernel/mm/paging/paging.c' l='138' u='r' c='mm_unmap_pages'/>
-<use f='MOS/kernel/mm/paging/paging.c' l='150' u='r' c='mm_copy_maps'/>
+<use f='MOS/kernel/mm/paging/paging.c' l='74' u='r' c='mm_get_free_pages'/>
+<use f='MOS/kernel/mm/paging/paging.c' l='127' u='r' c='mm_map_allocated_pages'/>
+<use f='MOS/kernel/mm/paging/paging.c' l='133' u='r' c='mm_unmap_pages'/>
+<use f='MOS/kernel/mm/paging/paging.c' l='139' u='r' c='mm_copy_maps'/>
+<use f='MOS/kernel/mm/paging/paging.c' l='151' u='r' c='mm_get_is_mapped'/>
 <use f='MOS/kernel/mm/paging/paging.c' l='158' u='w' c='mm_create_user_pgd'/>
 <use f='MOS/kernel/mm/paging/paging.c' l='165' u='r' c='mm_destroy_user_pgd'/>

@@ -1,8 +1,21 @@
-<dec f='MOS/kernel/include/mos/mm/paging/paging.h' l='24' type='void mm_map_allocated_pages(paging_handle_t table, vmblock_t block)'/>
+<dec f='MOS/kernel/include/mos/mm/paging/paging.h' l='114' type='void mm_map_allocated_pages(paging_handle_t table, vmblock_t block)'/>
 <use f='MOS/arch/x86/interrupt/ioapic.c' l='98' u='c' c='ioapic_init'/>
+<doc f='MOS/kernel/include/mos/mm/paging/paging.h' l='101'>/**
+ * @brief Map a block of virtual memory to a given block of physical memory, without the interaction of the physical memory allocator.
+ *
+ * @param table The page table to map in.
+ * @param block The block of virtual memory to map.
+ *
+ * @details This function maps the pages in the block, unlike the above @ref mm_map_pages, this function does
+ * not request the corresponding physical memory from the physical memory allocator, instead, it assumes that
+ * the physical memory is already allocated.
+ *
+ * @note This function can be used to map the hardware memory to a specific virtual address, as hardware memory is
+ * not managed by the physical memory allocator.
+ */</doc>
 <use f='MOS/arch/x86/interrupt/lapic.c' l='161' u='c' c='lapic_memory_setup'/>
 <use f='MOS/arch/x86/x86_platform.c' l='178' u='c' c='x86_start_kernel'/>
 <use f='MOS/kernel/mm/memops.c' l='87' u='c' c='mm_alloc_zeroed_pages'/>
-<use f='MOS/kernel/mm/paging/paging.c' l='120' u='c' c='mm_alloc_pages_at'/>
-<use f='MOS/kernel/mm/paging/paging.c' l='127' u='c' c='mm_map_pages'/>
-<def f='MOS/kernel/mm/paging/paging.c' l='130' ll='134' type='void mm_map_allocated_pages(paging_handle_t table, vmblock_t block)'/>
+<use f='MOS/kernel/mm/paging/paging.c' l='109' u='c' c='mm_alloc_pages_at'/>
+<use f='MOS/kernel/mm/paging/paging.c' l='122' u='c' c='mm_map_pages'/>
+<def f='MOS/kernel/mm/paging/paging.c' l='125' ll='129' type='void mm_map_allocated_pages(paging_handle_t table, vmblock_t block)'/>

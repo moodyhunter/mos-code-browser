@@ -14,6 +14,6 @@
 <use f='MOS/arch/x86/x86_platform_api.c' l='144' u='w' c='platform_mm_get_block_info'/>
 <use f='MOS/kernel/mm/memops.c' l='85' u='w' c='mm_alloc_zeroed_pages'/>
 <use f='MOS/kernel/mm/memops.c' l='85' u='r' c='mm_alloc_zeroed_pages'/>
-<use f='MOS/kernel/mm/paging/paging.c' l='119' u='w' c='mm_alloc_pages_at'/>
-<use f='MOS/kernel/mm/paging/paging.c' l='126' u='r' c='mm_map_pages'/>
-<use f='MOS/kernel/mm/paging/paging.c' l='145' u='r' c='mm_free_pages'/>
+<use f='MOS/kernel/mm/paging/paging.c' l='108' u='w' c='mm_alloc_pages_at'/>
+<use f='MOS/kernel/mm/paging/paging.c' l='116' u='r' c='mm_free_pages'/>
+<use f='MOS/kernel/mm/paging/paging.c' l='121' u='r' c='mm_map_pages'/>

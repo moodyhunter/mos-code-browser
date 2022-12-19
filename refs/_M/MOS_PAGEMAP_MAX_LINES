@@ -1,1 +1,12 @@
-<dec f='MOS/kernel/include/mos/mm/paging/paging.h' l='8'/>
+<dec f='MOS/kernel/include/mos/mm/paging/paging.h' l='19'/>
+<doc f='MOS/kernel/include/mos/mm/paging/paging.h' l='8'>/**
+ * @defgroup paging Platform-Independent Paging Interface
+ * @ingroup mm
+ * @brief This module provides a platform-independent interface to interact
+ * with the paging subsystem, such as allocating and freeing pages, and
+ * mapping and unmapping them.
+ *
+ * @{
+ */
+
+/// @brief Maximum &apos;lines&apos; in a page map, see also @ref bitmap_line_t.</doc>

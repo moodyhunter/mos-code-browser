@@ -41,7 +41,7 @@
 <use f='MOS/kernel/mm/memops.c' l='84' u='w' c='mm_alloc_zeroed_pages'/>
 <use f='MOS/kernel/mm/memops.c' l='92' u='w' c='mm_alloc_zeroed_pages'/>
 <use f='MOS/kernel/mm/memops.c' l='113' u='w' c='mm_alloc_zeroed_pages_at'/>
-<use f='MOS/kernel/mm/paging/paging.c' l='119' u='w' c='mm_alloc_pages_at'/>
+<use f='MOS/kernel/mm/paging/paging.c' l='108' u='w' c='mm_alloc_pages_at'/>
 <use f='MOS/kernel/tasks/fork.c' l='37' u='r' c='process_handle_fork'/>
 <use f='MOS/kernel/tasks/fork.c' l='38' u='r' c='process_handle_fork'/>
 <use f='MOS/kernel/tasks/fork.c' l='46' u='r' c='process_handle_fork'/>

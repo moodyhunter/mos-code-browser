@@ -1,9 +1,22 @@
-<dec f='MOS/kernel/include/mos/mm/paging/paging.h' l='19' type='vmblock_t mm_alloc_pages(paging_handle_t table, size_t npages, pgalloc_hints hints, vm_flags flags)'/>
+<dec f='MOS/kernel/include/mos/mm/paging/paging.h' l='64' type='vmblock_t mm_alloc_pages(paging_handle_t table, size_t npages, pgalloc_hints hints, vm_flags flags)'/>
+<doc f='MOS/kernel/include/mos/mm/paging/paging.h' l='51'>/**
+ * @brief Allocate npages pages from a page table.
+ *
+ * @param table The page table to allocate from.
+ * @param npages The number of pages to allocate.
+ * @param hints Allocation hints, see @ref pgalloc_hints.
+ * @param flags Flags to set on the pages, see @ref vm_flags.
+ * @return vmblock_t The allocated block of virtual memory, with the
+ * number of pages, physical addresses and flags set.
+ *
+ * @details This function first finds a block of virtual memory using
+ * @ref mm_get_free_pages, then allocates and maps the pages.
+ */</doc>
 <use f='MOS/arch/x86/x86_platform_api.c' l='72' u='c' c='platform_mm_create_user_pgd'/>
 <use f='MOS/kernel/elf/elf.c' l='60' u='c' c='elf_create_process'/>
 <use f='MOS/kernel/mm/memops.c' l='19' u='c' c='mos_kernel_mm_init'/>
 <use f='MOS/kernel/mm/memops.c' l='37' u='c' c='liballoc_alloc_page'/>
-<def f='MOS/kernel/mm/paging/paging.c' l='108' ll='112' type='vmblock_t mm_alloc_pages(paging_handle_t table, size_t npages, pgalloc_hints hints, vm_flags flags)'/>
+<def f='MOS/kernel/mm/paging/paging.c' l='97' ll='101' type='vmblock_t mm_alloc_pages(paging_handle_t table, size_t npages, pgalloc_hints hints, vm_flags flags)'/>
 <use f='MOS/kernel/mm/shm.c' l='20' u='c' c='shm_allocate'/>
 <use f='MOS/kernel/tasks/fork.c' l='37' u='c' c='process_handle_fork'/>
 <use f='MOS/kernel/tasks/process.c' l='115' u='c' c='process_new'/>

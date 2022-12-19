@@ -1,6 +1,17 @@
-<dec f='MOS/kernel/include/mos/mm/paging/paging.h' l='23' type='void mm_map_pages(paging_handle_t table, vmblock_t block)'/>
+<dec f='MOS/kernel/include/mos/mm/paging/paging.h' l='99' type='void mm_map_pages(paging_handle_t table, vmblock_t block)'/>
+<doc f='MOS/kernel/include/mos/mm/paging/paging.h' l='88'>/**
+ * @brief Map a block of virtual memory to a given block of physical memory, with the physical memory requested from the physical memory allocator.
+ *
+ * @param table The page table to map in.
+ * @param block The block of virtual memory to map.
+ *
+ * @details This function maps the pages in the block, then try requesting the corresponding physical memory
+ * from the physical memory allocator, if the physical memory is not available, the action will fail.
+ *
+ * @warning This function is rarely used directly, it&apos;s only used to map the kernel image.
+ */</doc>
 <use f='MOS/arch/x86/mm/paging.c' l='32' u='c' c='x86_mm_prepare_paging'/>
 <use f='MOS/arch/x86/mm/paging.c' l='33' u='c' c='x86_mm_prepare_paging'/>
 <use f='MOS/arch/x86/mm/paging.c' l='34' u='c' c='x86_mm_prepare_paging'/>
 <use f='MOS/arch/x86/x86_platform.c' l='161' u='c' c='x86_start_kernel'/>
-<def f='MOS/kernel/mm/paging/paging.c' l='124' ll='128' type='void mm_map_pages(paging_handle_t table, vmblock_t block)'/>
+<def f='MOS/kernel/mm/paging/paging.c' l='119' ll='123' type='void mm_map_pages(paging_handle_t table, vmblock_t block)'/>

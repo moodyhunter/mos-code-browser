@@ -1,7 +1,21 @@
-<dec f='MOS/kernel/include/mos/mm/paging/paging.h' l='27' type='vmblock_t mm_copy_maps(paging_handle_t from, uintptr_t fvaddr, paging_handle_t to, uintptr_t tvaddr, size_t npages)'/>
+<dec f='MOS/kernel/include/mos/mm/paging/paging.h' l='145' type='vmblock_t mm_copy_maps(paging_handle_t from, uintptr_t fvaddr, paging_handle_t to, uintptr_t tvaddr, size_t npages)'/>
+<doc f='MOS/kernel/include/mos/mm/paging/paging.h' l='131'>/**
+ * @brief Copy a block of virtual memory from one page table to another.
+ *
+ * @param from The page table to copy from.
+ * @param fvaddr The virtual address to copy from.
+ * @param to The page table to copy to.
+ * @param tvaddr The virtual address to copy to.
+ * @param npages The number of pages to copy.
+ *
+ * @details This function copies the pages mappings, including the flags and physical addresses, from one page
+ * table to another.
+ *
+ * @note This function does not copy the actual data, it&apos;s used intensively by CoW, Zero-on-Demand and shared memory.
+ */</doc>
 <use f='MOS/kernel/elf/elf.c' l='215' u='c' c='elf_create_process'/>
 <use f='MOS/kernel/mm/cow.c' l='19' u='c' c='mm_make_process_map_cow'/>
 <use f='MOS/kernel/mm/memops.c' l='108' u='c' c='mm_alloc_zeroed_pages_at'/>
 <use f='MOS/kernel/mm/memops.c' l='119' u='c' c='mm_map_proxy_space'/>
-<def f='MOS/kernel/mm/paging/paging.c' l='148' ll='153' type='vmblock_t mm_copy_maps(paging_handle_t from, uintptr_t fvaddr, paging_handle_t to, uintptr_t tvaddr, size_t npages)'/>
+<def f='MOS/kernel/mm/paging/paging.c' l='137' ll='142' type='vmblock_t mm_copy_maps(paging_handle_t from, uintptr_t fvaddr, paging_handle_t to, uintptr_t tvaddr, size_t npages)'/>
 <use f='MOS/kernel/mm/shm.c' l='29' u='c' c='shm_map_shared_block'/>
