@@ -9,4 +9,4 @@
 <use f='MOS/kernel/elf/elf.c' l='153' u='c'/>
 <use f='MOS/kernel/elf/elf.c' l='163' u='c'/>
 <use f='MOS/kernel/elf/elf.c' l='214' u='c'/>
-<use f='MOS/kernel/mm/paging/pmem_freelist.c' l='78' u='c'/>
+<use f='MOS/kernel/mm/paging/pmalloc.c' l='208' u='c'/>

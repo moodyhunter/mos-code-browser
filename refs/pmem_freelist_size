@@ -1,3 +1,0 @@
-<dec f='MOS/kernel/include/mos/mm/paging/pmem_freelist.h' l='9' type='size_t pmem_freelist_size()'/>
-<def f='MOS/kernel/mm/paging/pmem_freelist.c' l='26' ll='29' type='size_t pmem_freelist_size()'/>
-<use f='MOS/kernel/mm/paging/pmem_freelist.c' l='48' u='c' c='mos_pmem_freelist_setup'/>

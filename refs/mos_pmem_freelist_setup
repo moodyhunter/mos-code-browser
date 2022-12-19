@@ -1,3 +1,0 @@
-<dec f='MOS/kernel/include/mos/mm/paging/pmem_freelist.h' l='7' type='void mos_pmem_freelist_setup()'/>
-<use f='MOS/arch/x86/x86_platform.c' l='145' u='c' c='x86_start_kernel'/>
-<def f='MOS/kernel/mm/paging/pmem_freelist.c' l='46' ll='70' type='void mos_pmem_freelist_setup()'/>

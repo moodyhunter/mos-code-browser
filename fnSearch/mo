@@ -11,7 +11,7 @@ mos_cmdline_get_arg|mos_cmdline_get_arg
 mos_start_kernel|mos_start_kernel
 mount_initrd|mount_initrd
 mos_kernel_mm_init|mos_kernel_mm_init
-mos_pmem_freelist_setup|mos_pmem_freelist_setup
+mos_pmalloc_setup|mos_pmalloc_setup
 mos_install_kpanic_hook|mos_install_kpanic_hook
 mos_kpanic|mos_kpanic
 mos_kwarn|mos_kwarn

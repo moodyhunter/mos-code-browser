@@ -10,12 +10,12 @@
 <use f='MOS/arch/x86/interrupt/lapic.c' l='182' macro='1' u='r' c='lapic_enable'/>
 <use f='MOS/arch/x86/mm/mm.c' l='30' macro='1' u='r' c='x86_mem_init'/>
 <use f='MOS/arch/x86/mm/mm.c' l='77' macro='1' u='r' c='x86_mem_init'/>
-<use f='MOS/arch/x86/mm/paging.c' l='31' macro='1' u='r' c='x86_mm_prepare_paging'/>
-<use f='MOS/arch/x86/mm/paging.c' l='41' macro='1' u='r' c='x86_mm_enable_paging'/>
-<use f='MOS/arch/x86/mm/paging.c' l='51' macro='1' u='r' c='page_table_dump_range'/>
-<use f='MOS/arch/x86/mm/paging.c' l='75' macro='1' u='r' c='page_table_dump_range'/>
-<use f='MOS/arch/x86/mm/paging.c' l='108' macro='1' u='r' c='page_table_dump_range'/>
-<use f='MOS/arch/x86/mm/paging.c' l='117' macro='1' u='r' c='x86_mm_dump_page_table'/>
+<use f='MOS/arch/x86/mm/paging.c' l='26' macro='1' u='r' c='x86_mm_prepare_paging'/>
+<use f='MOS/arch/x86/mm/paging.c' l='36' macro='1' u='r' c='x86_mm_enable_paging'/>
+<use f='MOS/arch/x86/mm/paging.c' l='46' macro='1' u='r' c='page_table_dump_range'/>
+<use f='MOS/arch/x86/mm/paging.c' l='70' macro='1' u='r' c='page_table_dump_range'/>
+<use f='MOS/arch/x86/mm/paging.c' l='103' macro='1' u='r' c='page_table_dump_range'/>
+<use f='MOS/arch/x86/mm/paging.c' l='112' macro='1' u='r' c='x86_mm_dump_page_table'/>
 <use f='MOS/arch/x86/x86_platform.c' l='54' macro='1' u='r' c='x86_keyboard_handler'/>
 <use f='MOS/arch/x86/x86_platform.c' l='62' macro='1' u='r' c='do_backtrace'/>
 <use f='MOS/arch/x86/x86_platform.c' l='144' macro='1' u='r' c='x86_start_kernel'/>
@@ -33,8 +33,8 @@
 <use f='MOS/kernel/kernel_init.c' l='68' macro='1' u='r' c='dump_cmdline'/>
 <use f='MOS/kernel/kernel_init.c' l='80' macro='1' u='r' c='mos_start_kernel'/>
 <use f='MOS/kernel/kernel_init.c' l='113' macro='1' u='r' c='mos_start_kernel'/>
-<use f='MOS/kernel/mm/paging/pmem_freelist.c' l='33' macro='1' u='r' c='pmem_freelist_dump'/>
-<use f='MOS/kernel/mm/paging/pmem_freelist.c' l='41' macro='1' u='r' c='pmem_freelist_dump'/>
+<use f='MOS/kernel/mm/paging/pmalloc.c' l='59' macro='1' u='r' c='pmalloc_dump'/>
+<use f='MOS/kernel/mm/paging/pmalloc.c' l='67' macro='1' u='r' c='pmalloc_dump'/>
 <use f='MOS/kernel/mm/shm.c' l='13' macro='1' u='r' c='shm_init'/>
 <use f='MOS/kernel/printk.c' l='61' c='deduce_level_color'/>
 <use f='MOS/kernel/printk.c' l='126' u='r' c='printk'/>

@@ -1,2 +1,0 @@
-<dec f='MOS/kernel/include/mos/mm/paging/pmem_freelist.h' l='10' type='void pmem_freelist_dump()'/>
-<def f='MOS/kernel/mm/paging/pmem_freelist.c' l='31' ll='44' type='void pmem_freelist_dump()'/>

@@ -1,4 +1,0 @@
-<dec f='MOS/kernel/include/mos/mm/paging/pmem_freelist.h' l='15' type='void pmem_freelist_remove_region(uintptr_t start_addr, size_t size_bytes)'/>
-<use f='MOS/kernel/mm/paging/paging.c' l='121' u='c' c='mm_map_pages'/>
-<def f='MOS/kernel/mm/paging/pmem_freelist.c' l='156' ll='265' type='void pmem_freelist_remove_region(uintptr_t start_addr, size_t size_bytes)'/>
-<use f='MOS/kernel/mm/paging/pmem_freelist.c' l='280' u='c' c='pmem_freelist_allocate_free'/>

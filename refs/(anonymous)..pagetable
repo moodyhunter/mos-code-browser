@@ -2,9 +2,9 @@
 <offset>192</offset>
 <use f='MOS/arch/x86/interrupt/ioapic.c' l='98' u='r' c='ioapic_init'/>
 <use f='MOS/arch/x86/interrupt/lapic.c' l='161' u='r' c='lapic_memory_setup'/>
-<use f='MOS/arch/x86/mm/paging.c' l='32' u='r' c='x86_mm_prepare_paging'/>
-<use f='MOS/arch/x86/mm/paging.c' l='33' u='r' c='x86_mm_prepare_paging'/>
-<use f='MOS/arch/x86/mm/paging.c' l='34' u='r' c='x86_mm_prepare_paging'/>
+<use f='MOS/arch/x86/mm/paging.c' l='27' u='r' c='x86_mm_prepare_paging'/>
+<use f='MOS/arch/x86/mm/paging.c' l='28' u='r' c='x86_mm_prepare_paging'/>
+<use f='MOS/arch/x86/mm/paging.c' l='29' u='r' c='x86_mm_prepare_paging'/>
 <use f='MOS/arch/x86/tasks/context.c' l='45' u='m' c='x86_switch_to_thread'/>
 <use f='MOS/arch/x86/x86_platform.c' l='79' u='m' c='x86_kpanic_hook'/>
 <use f='MOS/arch/x86/x86_platform.c' l='86' u='m' c='x86_kpanic_hook'/>
