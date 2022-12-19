@@ -16,6 +16,7 @@
 <use f='MOS/kernel/elf/elf.c' l='128' u='c'/>
 <use f='MOS/kernel/elf/elf.c' l='160' u='c'/>
 <use f='MOS/kernel/filesystem/filesystem.c' l='72' u='c'/>
+<use f='MOS/kernel/mm/cow.c' l='59' u='c'/>
 <use f='MOS/kernel/mm/memops.c' l='38' u='c'/>
 <use f='MOS/kernel/mm/memops.c' l='49' u='c'/>
 <use f='MOS/kernel/mm/paging/paging.c' l='33' u='c'/>

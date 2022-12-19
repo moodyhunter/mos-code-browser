@@ -69,9 +69,9 @@
 <use f='MOS/kernel/ksyscall.c' l='271' macro='1' u='r' c='impl_syscall_mutex_acquire'/>
 <use f='MOS/kernel/ksyscall.c' l='276' macro='1' u='r' c='impl_syscall_mutex_acquire'/>
 <use f='MOS/kernel/ksyscall.c' l='293' macro='1' u='r' c='impl_syscall_mutex_release'/>
-<use f='MOS/kernel/mm/cow.c' l='76' macro='1' u='r' c='cow_handle_page_fault'/>
-<use f='MOS/kernel/mm/cow.c' l='86' macro='1' u='r' c='cow_handle_page_fault'/>
-<use f='MOS/kernel/mm/cow.c' l='96' macro='1' u='r' c='cow_handle_page_fault'/>
+<use f='MOS/kernel/mm/cow.c' l='77' macro='1' u='r' c='cow_handle_page_fault'/>
+<use f='MOS/kernel/mm/cow.c' l='87' macro='1' u='r' c='cow_handle_page_fault'/>
+<use f='MOS/kernel/mm/cow.c' l='97' macro='1' u='r' c='cow_handle_page_fault'/>
 <use f='MOS/kernel/mm/paging/pmalloc.c' l='34' macro='1' u='r' c='mos_pmalloc_setup'/>
 <use f='MOS/kernel/mm/paging/pmalloc.c' l='81' macro='1' u='r' c='pmalloc_alloc'/>
 <use f='MOS/kernel/mm/paging/pmalloc.c' l='104' macro='1' u='r' c='pmalloc_acquire_region'/>

@@ -1,6 +1,6 @@
 <dec f='MOS/kernel/include/mos/tasks/task_types.h' l='34' type='8'/>
 <doc f='MOS/kernel/include/mos/tasks/task_types.h' l='34'>// this block should be zeroed on demand</doc>
 <use f='MOS/kernel/elf/elf.c' l='210' u='r' c='elf_create_process'/>
-<use f='MOS/kernel/mm/cow.c' l='75' u='r' c='cow_handle_page_fault'/>
-<use f='MOS/kernel/mm/cow.c' l='85' u='r' c='cow_handle_page_fault'/>
+<use f='MOS/kernel/mm/cow.c' l='76' u='r' c='cow_handle_page_fault'/>
+<use f='MOS/kernel/mm/cow.c' l='86' u='r' c='cow_handle_page_fault'/>
 <use f='MOS/kernel/tasks/thread.c' l='76' u='r' c='thread_new'/>

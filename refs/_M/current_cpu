@@ -19,6 +19,7 @@
 <use f='MOS/kernel/elf/elf.c' l='215' u='c'/>
 <use f='MOS/kernel/elf/elf.c' l='225' u='c'/>
 <use f='MOS/kernel/elf/elf.c' l='233' u='c'/>
+<use f='MOS/kernel/mm/cow.c' l='59' u='c'/>
 <use f='MOS/kernel/mm/memops.c' l='19' u='c'/>
 <use f='MOS/kernel/mm/memops.c' l='37' u='c'/>
 <use f='MOS/kernel/mm/memops.c' l='63' u='c'/>

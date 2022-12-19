@@ -3,10 +3,10 @@
 <doc f='MOS/kernel/include/mos/tasks/task_types.h' l='42'>// if MMAP_COW is set, then the flags in vm contains &apos;original&apos; flags
     // of this block. Which means if there&apos;re no VM_WRITE flag, then the block
     // should not be writable.</doc>
-<use f='MOS/kernel/mm/cow.c' l='74' u='r' c='cow_handle_page_fault'/>
 <use f='MOS/kernel/mm/cow.c' l='75' u='r' c='cow_handle_page_fault'/>
-<use f='MOS/kernel/mm/cow.c' l='85' u='w' c='cow_handle_page_fault'/>
-<use f='MOS/kernel/mm/cow.c' l='95' u='w' c='cow_handle_page_fault'/>
+<use f='MOS/kernel/mm/cow.c' l='76' u='r' c='cow_handle_page_fault'/>
+<use f='MOS/kernel/mm/cow.c' l='86' u='w' c='cow_handle_page_fault'/>
+<use f='MOS/kernel/mm/cow.c' l='96' u='w' c='cow_handle_page_fault'/>
 <use f='MOS/kernel/tasks/fork.c' l='26' u='r' c='process_handle_fork'/>
 <use f='MOS/kernel/tasks/fork.c' l='43' u='w' c='process_handle_fork'/>
 <use f='MOS/kernel/tasks/process.c' l='177' u='w' c='process_attach_mmap'/>

@@ -3,6 +3,6 @@
 <use f='MOS/kernel/elf/elf.c' l='216' u='c' c='elf_create_process'/>
 <use f='MOS/kernel/mm/cow.c' l='20' u='c' c='mm_make_process_map_cow'/>
 <use f='MOS/kernel/mm/cow.c' l='21' u='c' c='mm_make_process_map_cow'/>
-<use f='MOS/kernel/mm/cow.c' l='94' u='c' c='cow_handle_page_fault'/>
+<use f='MOS/kernel/mm/cow.c' l='95' u='c' c='cow_handle_page_fault'/>
 <use f='MOS/kernel/mm/memops.c' l='91' u='c' c='mm_alloc_zeroed_pages'/>
 <use f='MOS/kernel/mm/memops.c' l='112' u='c' c='mm_alloc_zeroed_pages_at'/>

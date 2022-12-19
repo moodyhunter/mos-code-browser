@@ -84,6 +84,7 @@
 <use f='MOS/kernel/mm/cow.c' l='27' macro='1' u='a' c='copy_cow_pages_inplace'/>
 <use f='MOS/kernel/mm/cow.c' l='46' macro='1' u='a' c='cow_handle_page_fault'/>
 <use f='MOS/kernel/mm/cow.c' l='58' macro='1' u='a' c='cow_handle_page_fault'/>
+<use f='MOS/kernel/mm/cow.c' l='59' macro='1' u='a' c='cow_handle_page_fault'/>
 <use f='MOS/kernel/mm/memops.c' l='19' macro='1' u='a' c='mos_kernel_mm_init'/>
 <use f='MOS/kernel/mm/memops.c' l='37' macro='1' u='a' c='liballoc_alloc_page'/>
 <use f='MOS/kernel/mm/memops.c' l='63' macro='1' u='a' c='liballoc_free_page'/>

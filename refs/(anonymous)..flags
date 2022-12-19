@@ -36,8 +36,8 @@
 <offset>384</offset>
 <use f='MOS/kernel/mm/cow.c' l='20' u='r' c='mm_make_process_map_cow'/>
 <use f='MOS/kernel/mm/cow.c' l='21' u='r' c='mm_make_process_map_cow'/>
-<use f='MOS/kernel/mm/cow.c' l='83' u='r' c='cow_handle_page_fault'/>
-<use f='MOS/kernel/mm/cow.c' l='94' u='r' c='cow_handle_page_fault'/>
+<use f='MOS/kernel/mm/cow.c' l='84' u='r' c='cow_handle_page_fault'/>
+<use f='MOS/kernel/mm/cow.c' l='95' u='r' c='cow_handle_page_fault'/>
 <use f='MOS/kernel/mm/memops.c' l='84' u='w' c='mm_alloc_zeroed_pages'/>
 <use f='MOS/kernel/mm/memops.c' l='92' u='w' c='mm_alloc_zeroed_pages'/>
 <use f='MOS/kernel/mm/memops.c' l='113' u='w' c='mm_alloc_zeroed_pages_at'/>

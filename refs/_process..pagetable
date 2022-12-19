@@ -9,9 +9,10 @@
 <use f='MOS/kernel/elf/elf.c' l='215' u='r' c='elf_create_process'/>
 <use f='MOS/kernel/elf/elf.c' l='216' u='r' c='elf_create_process'/>
 <use f='MOS/kernel/mm/cow.c' l='27' u='r' c='copy_cow_pages_inplace'/>
-<use f='MOS/kernel/mm/cow.c' l='82' u='r' c='cow_handle_page_fault'/>
+<use f='MOS/kernel/mm/cow.c' l='59' u='m' c='cow_handle_page_fault'/>
 <use f='MOS/kernel/mm/cow.c' l='83' u='r' c='cow_handle_page_fault'/>
-<use f='MOS/kernel/mm/cow.c' l='94' u='r' c='cow_handle_page_fault'/>
+<use f='MOS/kernel/mm/cow.c' l='84' u='r' c='cow_handle_page_fault'/>
+<use f='MOS/kernel/mm/cow.c' l='95' u='r' c='cow_handle_page_fault'/>
 <use f='MOS/kernel/mm/shm.c' l='19' u='m' c='shm_allocate'/>
 <use f='MOS/kernel/mm/shm.c' l='20' u='r' c='shm_allocate'/>
 <use f='MOS/kernel/mm/shm.c' l='22' u='r' c='shm_allocate'/>

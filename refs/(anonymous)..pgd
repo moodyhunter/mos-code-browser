@@ -12,6 +12,8 @@
 <use f='MOS/arch/x86/x86_platform_api.c' l='98' u='r' c='platform_mm_destroy_user_pgd'/>
 <use f='MOS/arch/x86/x86_platform_api.c' l='123' u='r' c='platform_mm_map_pages'/>
 <use f='MOS/arch/x86/x86_platform_api.c' l='132' u='r' c='platform_mm_unmap_pages'/>
+<use f='MOS/kernel/mm/cow.c' l='59' u='r' c='cow_handle_page_fault'/>
+<use f='MOS/kernel/mm/cow.c' l='59' u='r' c='cow_handle_page_fault'/>
 <use f='MOS/kernel/mm/memops.c' l='139' u='r' c='mm_copy_pages'/>
 <use f='MOS/kernel/mm/memops.c' l='139' u='r' c='mm_copy_pages'/>
 <use f='MOS/kernel/mm/memops.c' l='155' u='r' c='mm_copy_pages'/>
