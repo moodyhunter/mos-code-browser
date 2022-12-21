@@ -1,7 +1,7 @@
 <dec f='MOS/kernel/include/mos/device/console.h' l='15' type='2'/>
 <use f='MOS/kernel/include/mos/device/console.h' l='23' u='r'/>
-<use f='MOS/arch/x86/boot/multiboot/startup.c' l='185' u='r' c='x86_startup'/>
-<use f='MOS/arch/x86/boot/multiboot/startup.c' l='185' u='r' c='x86_startup'/>
+<use f='MOS/arch/x86/boot/multiboot/startup.c' l='186' u='r' c='x86_startup'/>
+<use f='MOS/arch/x86/boot/multiboot/startup.c' l='186' u='r' c='x86_startup'/>
 <use f='MOS/arch/x86/devices/serial_console.c' l='48' u='r' c='get_ansi_color'/>
 <use f='MOS/tests/cmdline_parser/test_cmdline_parser.c' l='6' macro='1' u='r' c='__mos_test_wrapped_test_simple_cmdline'/>
 <use f='MOS/tests/cmdline_parser/test_cmdline_parser.c' l='6' macro='1' u='r' c='__mos_test_wrapped_test_simple_cmdline'/>

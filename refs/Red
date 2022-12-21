@@ -1,15 +1,15 @@
 <dec f='MOS/kernel/include/mos/device/console.h' l='17' type='4'/>
 <use f='MOS/kernel/include/mos/device/console.h' l='25' u='r'/>
-<use f='MOS/arch/x86/boot/multiboot/startup.c' l='47' u='r' c='startup_setup_pgd'/>
-<use f='MOS/arch/x86/boot/multiboot/startup.c' l='47' u='r' c='startup_setup_pgd'/>
-<use f='MOS/arch/x86/boot/multiboot/startup.c' l='47' u='r' c='startup_setup_pgd'/>
-<use f='MOS/arch/x86/boot/multiboot/startup.c' l='47' u='r' c='startup_setup_pgd'/>
-<use f='MOS/arch/x86/boot/multiboot/startup.c' l='47' u='r' c='mos_startup_map_single_page'/>
-<use f='MOS/arch/x86/boot/multiboot/startup.c' l='47' u='r' c='mos_startup_map_single_page'/>
-<use f='MOS/arch/x86/boot/multiboot/startup.c' l='47' u='r' c='mos_startup_map_single_page'/>
-<use f='MOS/arch/x86/boot/multiboot/startup.c' l='47' u='r' c='x86_startup'/>
-<use f='MOS/arch/x86/boot/multiboot/startup.c' l='47' u='r' c='x86_startup'/>
-<use f='MOS/arch/x86/boot/multiboot/startup.c' l='47' u='r' c='x86_startup'/>
+<use f='MOS/arch/x86/boot/multiboot/startup.c' l='48' u='r' c='startup_setup_pgd'/>
+<use f='MOS/arch/x86/boot/multiboot/startup.c' l='48' u='r' c='startup_setup_pgd'/>
+<use f='MOS/arch/x86/boot/multiboot/startup.c' l='48' u='r' c='startup_setup_pgd'/>
+<use f='MOS/arch/x86/boot/multiboot/startup.c' l='48' u='r' c='startup_setup_pgd'/>
+<use f='MOS/arch/x86/boot/multiboot/startup.c' l='48' u='r' c='mos_startup_map_single_page'/>
+<use f='MOS/arch/x86/boot/multiboot/startup.c' l='48' u='r' c='mos_startup_map_single_page'/>
+<use f='MOS/arch/x86/boot/multiboot/startup.c' l='48' u='r' c='mos_startup_map_single_page'/>
+<use f='MOS/arch/x86/boot/multiboot/startup.c' l='48' u='r' c='x86_startup'/>
+<use f='MOS/arch/x86/boot/multiboot/startup.c' l='48' u='r' c='x86_startup'/>
+<use f='MOS/arch/x86/boot/multiboot/startup.c' l='48' u='r' c='x86_startup'/>
 <use f='MOS/arch/x86/devices/serial_console.c' l='50' u='r' c='get_ansi_color'/>
 <use f='MOS/arch/x86/devices/serial_console.c' l='67' u='r' c='get_ansi_color'/>
 <use f='MOS/kernel/printk.c' l='64' u='r' c='deduce_level_color'/>

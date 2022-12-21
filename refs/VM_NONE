@@ -1,6 +1,6 @@
 <dec f='MOS/kernel/include/mos/platform/platform.h' l='30' type='2'/>
-<use f='MOS/arch/x86/boot/multiboot/startup.c' l='139' u='r' c='x86_startup'/>
-<use f='MOS/arch/x86/boot/multiboot/startup.c' l='143' u='r' c='x86_startup'/>
-<use f='MOS/arch/x86/boot/multiboot/startup.c' l='146' u='r' c='x86_startup'/>
-<use f='MOS/arch/x86/boot/multiboot/startup.c' l='164' u='r' c='x86_startup'/>
-<use f='MOS/arch/x86/boot/multiboot/startup.c' l='174' u='r' c='x86_startup'/>
+<use f='MOS/arch/x86/boot/multiboot/startup.c' l='140' u='r' c='x86_startup'/>
+<use f='MOS/arch/x86/boot/multiboot/startup.c' l='144' u='r' c='x86_startup'/>
+<use f='MOS/arch/x86/boot/multiboot/startup.c' l='147' u='r' c='x86_startup'/>
+<use f='MOS/arch/x86/boot/multiboot/startup.c' l='165' u='r' c='x86_startup'/>
+<use f='MOS/arch/x86/boot/multiboot/startup.c' l='175' u='r' c='x86_startup'/>

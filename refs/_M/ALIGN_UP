@@ -1,2 +1,2 @@
 <dec f='MOS/kernel/include/mos/mos_global.h' l='52'/>
-<use f='MOS/arch/x86/boot/multiboot/startup.c' l='92' u='c'/>
+<use f='MOS/arch/x86/boot/multiboot/startup.c' l='93' u='c'/>

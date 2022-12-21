@@ -1,17 +1,17 @@
-<def f='MOS/arch/x86/boot/multiboot/startup.c' l='55' ll='63' macro='1' type='void print_debug_info(char a, char b, char color1, char color2)'/>
-<use f='MOS/arch/x86/boot/multiboot/startup.c' l='47' u='c' c='startup_setup_pgd'/>
-<use f='MOS/arch/x86/boot/multiboot/startup.c' l='47' u='c' c='startup_setup_pgd'/>
-<use f='MOS/arch/x86/boot/multiboot/startup.c' l='47' u='c' c='startup_setup_pgd'/>
-<use f='MOS/arch/x86/boot/multiboot/startup.c' l='47' u='c' c='startup_setup_pgd'/>
-<use f='MOS/arch/x86/boot/multiboot/startup.c' l='47' u='c' c='mos_startup_map_single_page'/>
-<use f='MOS/arch/x86/boot/multiboot/startup.c' l='47' u='c' c='mos_startup_map_single_page'/>
-<use f='MOS/arch/x86/boot/multiboot/startup.c' l='47' u='c' c='mos_startup_map_single_page'/>
-<use f='MOS/arch/x86/boot/multiboot/startup.c' l='47' u='c' c='x86_startup'/>
-<use f='MOS/arch/x86/boot/multiboot/startup.c' l='47' u='c' c='x86_startup'/>
-<use f='MOS/arch/x86/boot/multiboot/startup.c' l='53' u='c' c='x86_startup'/>
-<use f='MOS/arch/x86/boot/multiboot/startup.c' l='47' u='c' c='x86_startup'/>
-<use f='MOS/arch/x86/boot/multiboot/startup.c' l='53' u='c' c='x86_startup'/>
-<use f='MOS/arch/x86/boot/multiboot/startup.c' l='53' u='c' c='x86_startup'/>
-<use f='MOS/arch/x86/boot/multiboot/startup.c' l='53' u='c' c='x86_startup'/>
-<use f='MOS/arch/x86/boot/multiboot/startup.c' l='53' u='c' c='x86_startup'/>
-<use f='MOS/arch/x86/boot/multiboot/startup.c' l='185' u='c' c='x86_startup'/>
+<def f='MOS/arch/x86/boot/multiboot/startup.c' l='56' ll='64' macro='1' type='void print_debug_info(char a, char b, char color1, char color2)'/>
+<use f='MOS/arch/x86/boot/multiboot/startup.c' l='48' u='c' c='startup_setup_pgd'/>
+<use f='MOS/arch/x86/boot/multiboot/startup.c' l='48' u='c' c='startup_setup_pgd'/>
+<use f='MOS/arch/x86/boot/multiboot/startup.c' l='48' u='c' c='startup_setup_pgd'/>
+<use f='MOS/arch/x86/boot/multiboot/startup.c' l='48' u='c' c='startup_setup_pgd'/>
+<use f='MOS/arch/x86/boot/multiboot/startup.c' l='48' u='c' c='mos_startup_map_single_page'/>
+<use f='MOS/arch/x86/boot/multiboot/startup.c' l='48' u='c' c='mos_startup_map_single_page'/>
+<use f='MOS/arch/x86/boot/multiboot/startup.c' l='48' u='c' c='mos_startup_map_single_page'/>
+<use f='MOS/arch/x86/boot/multiboot/startup.c' l='48' u='c' c='x86_startup'/>
+<use f='MOS/arch/x86/boot/multiboot/startup.c' l='48' u='c' c='x86_startup'/>
+<use f='MOS/arch/x86/boot/multiboot/startup.c' l='54' u='c' c='x86_startup'/>
+<use f='MOS/arch/x86/boot/multiboot/startup.c' l='48' u='c' c='x86_startup'/>
+<use f='MOS/arch/x86/boot/multiboot/startup.c' l='54' u='c' c='x86_startup'/>
+<use f='MOS/arch/x86/boot/multiboot/startup.c' l='54' u='c' c='x86_startup'/>
+<use f='MOS/arch/x86/boot/multiboot/startup.c' l='54' u='c' c='x86_startup'/>
+<use f='MOS/arch/x86/boot/multiboot/startup.c' l='54' u='c' c='x86_startup'/>
+<use f='MOS/arch/x86/boot/multiboot/startup.c' l='186' u='c' c='x86_startup'/>

@@ -1,3 +1,0 @@
-<def f='MOS/arch/x86/boot/multiboot/startup.c' l='38' macro='1' type='x86_pgtable_entry[196608]'/>
-<use f='MOS/arch/x86/boot/multiboot/startup.c' l='96' u='a' c='mos_startup_map_single_page'/>
-<use f='MOS/arch/x86/boot/multiboot/startup.c' l='136' u='r' c='x86_startup'/>

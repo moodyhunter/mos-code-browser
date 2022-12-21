@@ -1,5 +1,5 @@
 <dec f='MOS/kernel/include/mos/device/console.h' l='28' type='15'/>
-<use f='MOS/arch/x86/boot/multiboot/startup.c' l='62' u='r' c='print_debug_info'/>
+<use f='MOS/arch/x86/boot/multiboot/startup.c' l='63' u='r' c='print_debug_info'/>
 <use f='MOS/arch/x86/devices/serial_console.c' l='61' u='r' c='get_ansi_color'/>
 <use f='MOS/arch/x86/devices/text_mode_console.c' l='30'/>
 <use f='MOS/kernel/printk.c' l='65' u='r' c='deduce_level_color'/>

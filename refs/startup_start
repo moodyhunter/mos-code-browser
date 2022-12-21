@@ -1,3 +1,3 @@
 <def f='MOS/arch/x86/boot/multiboot/startup.c' l='27' macro='1' type='const uintptr_t'/>
-<use f='MOS/arch/x86/boot/multiboot/startup.c' l='157' u='r' c='x86_startup'/>
-<use f='MOS/arch/x86/boot/multiboot/startup.c' l='157' u='r' c='x86_startup'/>
+<use f='MOS/arch/x86/boot/multiboot/startup.c' l='158' u='r' c='x86_startup'/>
+<use f='MOS/arch/x86/boot/multiboot/startup.c' l='158' u='r' c='x86_startup'/>

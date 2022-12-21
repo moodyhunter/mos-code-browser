@@ -1,7 +1,7 @@
 <dec f='MOS/kernel/include/mos/platform/platform.h' l='40' type='12'/>
 <use f='MOS/kernel/include/mos/platform/platform.h' l='41' u='r'/>
 <doc f='MOS/kernel/include/mos/platform/platform.h' l='39'>// composite flags (for convenience)</doc>
-<use f='MOS/arch/x86/boot/multiboot/startup.c' l='157' u='r' c='x86_startup'/>
+<use f='MOS/arch/x86/boot/multiboot/startup.c' l='158' u='r' c='x86_startup'/>
 <use f='MOS/arch/x86/interrupt/ioapic.c' l='100' u='r' c='ioapic_init'/>
 <use f='MOS/arch/x86/interrupt/lapic.c' l='156' u='r' c='lapic_memory_setup'/>
 <use f='MOS/arch/x86/x86_platform.c' l='250' u='r' c='x86_start_kernel'/>

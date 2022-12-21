@@ -1,9 +1,9 @@
 <dec f='MOS/kernel/include/mos/mos_global.h' l='54'/>
 <use f='MOS/kernel/include/mos/boot/startup.h' l='41' u='c'/>
-<use f='MOS/arch/x86/boot/multiboot/startup.c' l='160' u='c'/>
-<use f='MOS/arch/x86/boot/multiboot/startup.c' l='163' u='c'/>
-<use f='MOS/arch/x86/boot/multiboot/startup.c' l='166' u='c'/>
-<use f='MOS/arch/x86/boot/multiboot/startup.c' l='172' u='c'/>
+<use f='MOS/arch/x86/boot/multiboot/startup.c' l='161' u='c'/>
+<use f='MOS/arch/x86/boot/multiboot/startup.c' l='164' u='c'/>
+<use f='MOS/arch/x86/boot/multiboot/startup.c' l='167' u='c'/>
+<use f='MOS/arch/x86/boot/multiboot/startup.c' l='173' u='c'/>
 <use f='MOS/arch/x86/x86_platform.c' l='123' u='c'/>
 <use f='MOS/arch/x86/x86_platform.c' l='128' u='c'/>
 <use f='MOS/arch/x86/x86_platform.c' l='133' u='c'/>
