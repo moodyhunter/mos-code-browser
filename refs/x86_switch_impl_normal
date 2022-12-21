@@ -1,3 +1,3 @@
 <dec f='MOS/arch/x86/tasks/context.c' l='21' type='void x86_switch_impl_normal()'/>
-<use f='MOS/arch/x86/tasks/context.c' l='55' u='r' c='x86_switch_to_thread'/>
-<use f='MOS/arch/x86/tasks/context.c' l='70' u='r' c='x86_switch_to_scheduler'/>
+<use f='MOS/arch/x86/tasks/context.c' l='54' u='r' c='x86_switch_to_thread'/>
+<use f='MOS/arch/x86/tasks/context.c' l='69' u='r' c='x86_switch_to_scheduler'/>

@@ -1,2 +1,2 @@
 <dec f='MOS/arch/x86/tasks/context.c' l='19' type='void x86_switch_impl_new_user_thread()'/>
-<use f='MOS/arch/x86/tasks/context.c' l='60' u='r' c='x86_switch_to_thread'/>
+<use f='MOS/arch/x86/tasks/context.c' l='59' u='r' c='x86_switch_to_thread'/>

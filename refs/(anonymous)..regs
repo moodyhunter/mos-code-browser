@@ -1,0 +1,3 @@
+<dec f='MOS/arch/x86/include/mos/x86/tasks/context.h' l='12' type='x86_stack_frame'/>
+<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='270' u='w' c='x86_handle_interrupt'/>
+<offset>128</offset>

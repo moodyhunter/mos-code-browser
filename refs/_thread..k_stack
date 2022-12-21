@@ -1,8 +1,8 @@
 <dec f='MOS/kernel/include/mos/tasks/task_types.h' l='87' type='downwards_stack_t'/>
 <offset>448</offset>
 <use f='MOS/arch/x86/tasks/context.c' l='29' u='m' c='x86_setup_thread_context'/>
-<use f='MOS/arch/x86/tasks/context.c' l='48' u='m' c='x86_switch_to_thread'/>
-<use f='MOS/arch/x86/tasks/context.c' l='64' u='m' c='x86_switch_to_thread'/>
+<use f='MOS/arch/x86/tasks/context.c' l='47' u='m' c='x86_switch_to_thread'/>
+<use f='MOS/arch/x86/tasks/context.c' l='63' u='m' c='x86_switch_to_thread'/>
 <use f='MOS/kernel/tasks/fork.c' l='67' u='w' c='process_handle_fork'/>
 <use f='MOS/kernel/tasks/fork.c' l='67' u='r' c='process_handle_fork'/>
 <use f='MOS/kernel/tasks/schedule.c' l='102' u='m' c='reschedule'/>
