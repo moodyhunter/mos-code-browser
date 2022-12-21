@@ -7,3 +7,4 @@
 <mbr r='x86_pg_infra_t::pgdir' o='0' t='x86_pgdir_entry[1024]'/>
 <mbr r='x86_pg_infra_t::pgtable' o='32768' t='x86_pgtable_entry[1048576]'/>
 <use f='MOS/arch/x86/include/mos/x86/mm/paging.h' l='8'/>
+<size>4198400</size>

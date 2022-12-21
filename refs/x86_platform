@@ -1,10 +1,10 @@
-<dec f='MOS/arch/x86/include/mos/x86/x86_platform.h' l='61' type='mos_platform_info_t'/>
+<dec f='MOS/arch/x86/include/mos/x86/x86_platform.h' l='58' type='mos_platform_info_t'/>
 <use f='MOS/arch/x86/acpi/madt.c' l='29' u='m' c='madt_parse_table'/>
 <use f='MOS/arch/x86/acpi/madt.c' l='50' u='m' c='madt_parse_table'/>
 <use f='MOS/arch/x86/acpi/madt.c' l='117' u='m' c='madt_parse_table'/>
-<use f='MOS/arch/x86/cpu/smp.c' l='44' u='m' c='ap_begin_exec'/>
-<use f='MOS/arch/x86/cpu/smp.c' l='92' u='m' c='x86_smp_start_all'/>
-<use f='MOS/arch/x86/cpu/smp.c' l='95' u='m' c='x86_smp_start_all'/>
+<use f='MOS/arch/x86/cpu/smp.c' l='45' u='m' c='ap_begin_exec'/>
+<use f='MOS/arch/x86/cpu/smp.c' l='93' u='m' c='x86_smp_start_all'/>
+<use f='MOS/arch/x86/cpu/smp.c' l='96' u='m' c='x86_smp_start_all'/>
 <use f='MOS/arch/x86/interrupt/ioapic.c' l='102' u='m' c='ioapic_init'/>
 <use f='MOS/arch/x86/interrupt/lapic.c' l='158' u='m' c='lapic_memory_setup'/>
 <use f='MOS/arch/x86/mm/mm.c' l='11' u='m' c='mem_add_region'/>

@@ -1,5 +1,5 @@
 <dec f='MOS/arch/x86/include/mos/x86/boot/multiboot.h' l='147' type='multiboot_memory_map_t *'/>
 <offset>416</offset>
-<use f='MOS/arch/x86/boot/multiboot/startup.c' l='148' u='r' c='x86_startup'/>
-<use f='MOS/arch/x86/boot/multiboot/startup.c' l='149' u='r' c='x86_startup'/>
+<use f='MOS/arch/x86/boot/multiboot/startup.c' l='145' u='r' c='x86_startup'/>
+<use f='MOS/arch/x86/boot/multiboot/startup.c' l='146' u='r' c='x86_startup'/>
 <use f='MOS/arch/x86/x86_platform.c' l='156' u='r' c='x86_start_kernel'/>

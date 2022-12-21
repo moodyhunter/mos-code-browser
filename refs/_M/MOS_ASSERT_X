@@ -2,7 +2,6 @@
 <use f='MOS/arch/x86/gdt/gdt.c' l='35' u='c'/>
 <use f='MOS/arch/x86/interrupt/ioapic.c' l='94' u='c'/>
 <use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='289' u='c'/>
-<use f='MOS/arch/x86/mm/paging.c' l='20' u='c'/>
 <use f='MOS/arch/x86/mm/paging_impl.c' l='25' u='c'/>
 <use f='MOS/arch/x86/mm/paging_impl.c' l='35' u='c'/>
 <use f='MOS/arch/x86/mm/paging_impl.c' l='36' u='c'/>

@@ -1,4 +1,0 @@
-<dec f='MOS/arch/x86/boot/multiboot/startup.c' l='27' type='const void'/>
-<use f='MOS/arch/x86/boot/multiboot/startup.c' l='40' u='a'/>
-<dec f='MOS/arch/x86/cpu/smp.c' l='28' type='const void'/>
-<use f='MOS/arch/x86/cpu/smp.c' l='29' u='a'/>

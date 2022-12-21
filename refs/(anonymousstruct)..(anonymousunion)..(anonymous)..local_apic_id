@@ -1,7 +1,7 @@
 <dec f='MOS/arch/x86/include/mos/x86/cpu/cpuid.h' l='56' type='u8'/>
 <offset>24</offset>
-<use f='MOS/arch/x86/cpu/smp.c' l='41' u='r' c='ap_begin_exec'/>
-<use f='MOS/arch/x86/cpu/smp.c' l='44' u='r' c='ap_begin_exec'/>
-<use f='MOS/arch/x86/cpu/smp.c' l='46' u='r' c='ap_begin_exec'/>
-<use f='MOS/arch/x86/cpu/smp.c' l='48' u='r' c='ap_begin_exec'/>
-<use f='MOS/arch/x86/cpu/smp.c' l='48' u='r' c='ap_begin_exec'/>
+<use f='MOS/arch/x86/cpu/smp.c' l='42' u='r' c='ap_begin_exec'/>
+<use f='MOS/arch/x86/cpu/smp.c' l='45' u='r' c='ap_begin_exec'/>
+<use f='MOS/arch/x86/cpu/smp.c' l='47' u='r' c='ap_begin_exec'/>
+<use f='MOS/arch/x86/cpu/smp.c' l='49' u='r' c='ap_begin_exec'/>
+<use f='MOS/arch/x86/cpu/smp.c' l='49' u='r' c='ap_begin_exec'/>

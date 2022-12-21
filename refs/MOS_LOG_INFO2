@@ -16,9 +16,9 @@
 <use f='MOS/arch/x86/cpu/cpuid.c' l='69' macro='1' u='r' c='cpuid_print_cpu_info'/>
 <use f='MOS/arch/x86/cpu/cpuid.c' l='70' macro='1' u='r' c='cpuid_print_cpu_info'/>
 <use f='MOS/arch/x86/cpu/cpuid.c' l='71' macro='1' u='r' c='cpuid_print_cpu_info'/>
-<use f='MOS/arch/x86/cpu/smp.c' l='68' macro='1' u='r' c='x86_cpu_start'/>
-<use f='MOS/arch/x86/cpu/smp.c' l='76' macro='1' u='r' c='x86_cpu_start'/>
-<use f='MOS/arch/x86/cpu/smp.c' l='79' macro='1' u='r' c='x86_cpu_start'/>
+<use f='MOS/arch/x86/cpu/smp.c' l='69' macro='1' u='r' c='x86_cpu_start'/>
+<use f='MOS/arch/x86/cpu/smp.c' l='77' macro='1' u='r' c='x86_cpu_start'/>
+<use f='MOS/arch/x86/cpu/smp.c' l='80' macro='1' u='r' c='x86_cpu_start'/>
 <use f='MOS/arch/x86/interrupt/ioapic.c' l='120' macro='1' u='r' c='ioapic_init'/>
 <use f='MOS/arch/x86/interrupt/ioapic.c' l='128' macro='1' u='r' c='ioapic_enable_with_mode'/>
 <use f='MOS/arch/x86/interrupt/lapic.c' l='67' macro='1' u='r' c='lapic_read32'/>
@@ -26,8 +26,7 @@
 <use f='MOS/arch/x86/interrupt/lapic.c' l='81' macro='1' u='r' c='lapic_write32'/>
 <use f='MOS/arch/x86/interrupt/lapic.c' l='92' macro='1' u='r' c='lapic_write64'/>
 <use f='MOS/arch/x86/mm/mm.c' l='67' macro='1' u='r' c='x86_mem_init'/>
-<use f='MOS/arch/x86/mm/paging.c' l='21' macro='1' u='r' c='x86_mm_prepare_paging'/>
-<use f='MOS/arch/x86/mm/paging.c' l='29' macro='1' u='r' c='x86_mm_enable_paging'/>
+<use f='MOS/arch/x86/mm/paging.c' l='26' macro='1' u='r' c='x86_mm_enable_paging'/>
 <use f='MOS/arch/x86/mm/paging_impl.c' l='28' macro='1' u='r' c='pg_page_flag'/>
 <use f='MOS/arch/x86/x86_platform_api.c' l='121' macro='1' u='r' c='platform_mm_map_pages'/>
 <use f='MOS/arch/x86/x86_platform_api.c' l='130' macro='1' u='r' c='platform_mm_unmap_pages'/>

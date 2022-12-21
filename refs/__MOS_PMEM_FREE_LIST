@@ -1,3 +1,0 @@
-<dec f='MOS/kernel/mm/paging/pmalloc.c' l='20' type='const void'/>
-<use f='MOS/kernel/mm/paging/pmalloc.c' l='21' u='a'/>
-<use f='MOS/kernel/mm/paging/pmalloc.c' l='22' u='a'/>

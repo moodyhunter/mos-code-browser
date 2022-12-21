@@ -1,4 +1,8 @@
 <dec f='MOS/kernel/include/mos/mos_global.h' l='12'/>
 <use f='MOS/kernel/include/mos/device/console.h' l='71' u='c'/>
+<use f='MOS/arch/x86/boot/multiboot/startup.c' l='37' u='c'/>
+<use f='MOS/arch/x86/boot/multiboot/startup.c' l='38' u='c'/>
 <use f='MOS/arch/x86/gdt/gdt.c' l='11' u='c'/>
 <use f='MOS/arch/x86/interrupt/idt.c' l='6' u='c'/>
+<use f='MOS/arch/x86/mm/paging.c' l='14' u='c'/>
+<use f='MOS/kernel/mm/paging/pmalloc.c' l='21' u='c'/>

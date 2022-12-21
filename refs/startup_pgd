@@ -1,8 +1,10 @@
-<def f='MOS/arch/x86/boot/multiboot/startup.c' l='40' macro='1' type='x86_pgdir_entry *const'/>
-<use f='MOS/arch/x86/boot/multiboot/startup.c' l='73' u='r' c='startup_setup_pgd'/>
-<use f='MOS/arch/x86/boot/multiboot/startup.c' l='75' u='r' c='startup_setup_pgd'/>
-<use f='MOS/arch/x86/boot/multiboot/startup.c' l='76' u='r' c='startup_setup_pgd'/>
-<use f='MOS/arch/x86/boot/multiboot/startup.c' l='77' u='r' c='startup_setup_pgd'/>
-<use f='MOS/arch/x86/boot/multiboot/startup.c' l='87' u='r' c='mos_startup_map_single_page'/>
-<use f='MOS/arch/x86/boot/multiboot/startup.c' l='138' u='r' c='x86_startup'/>
-<use f='MOS/arch/x86/boot/multiboot/startup.c' l='181' u='r' c='x86_startup'/>
+<def f='MOS/arch/x86/boot/multiboot/startup.c' l='37' macro='1' type='x86_pgdir_entry[1024]'/>
+<use f='MOS/arch/x86/boot/multiboot/startup.c' l='70' u='m' c='startup_setup_pgd'/>
+<use f='MOS/arch/x86/boot/multiboot/startup.c' l='72' u='r' c='startup_setup_pgd'/>
+<use f='MOS/arch/x86/boot/multiboot/startup.c' l='73' u='m' c='startup_setup_pgd'/>
+<use f='MOS/arch/x86/boot/multiboot/startup.c' l='74' u='m' c='startup_setup_pgd'/>
+<use f='MOS/arch/x86/boot/multiboot/startup.c' l='84' u='a' c='mos_startup_map_single_page'/>
+<use f='MOS/arch/x86/boot/multiboot/startup.c' l='135' u='r' c='x86_startup'/>
+<use f='MOS/arch/x86/boot/multiboot/startup.c' l='178' c='x86_startup'/>
+<dec f='MOS/arch/x86/cpu/smp.c' l='28' type='x86_pgdir_entry[1024]'/>
+<use f='MOS/arch/x86/cpu/smp.c' l='30' u='a'/>

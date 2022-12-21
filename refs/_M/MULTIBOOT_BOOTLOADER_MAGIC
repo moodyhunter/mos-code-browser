@@ -1,2 +1,2 @@
 <dec f='MOS/arch/x86/include/mos/x86/boot/multiboot.h' l='32'/>
-<use f='MOS/arch/x86/boot/multiboot/startup.c' l='135' u='c'/>
+<use f='MOS/arch/x86/boot/multiboot/startup.c' l='132' u='c'/>

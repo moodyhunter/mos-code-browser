@@ -1,4 +1,4 @@
 <dec f='MOS/arch/x86/include/mos/x86/x86_platform.h' l='54' type='const char'/>
 <dec f='MOS/arch/x86/boot/multiboot/startup.c' l='19' type='const char'/>
-<use f='MOS/arch/x86/boot/multiboot/startup.c' l='34' u='a'/>
+<use f='MOS/arch/x86/boot/multiboot/startup.c' l='31' u='a'/>
 <use f='MOS/arch/x86/x86_platform.c' l='123' u='a' c='x86_start_kernel'/>

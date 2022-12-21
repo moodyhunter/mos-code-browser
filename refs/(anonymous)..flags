@@ -16,9 +16,9 @@
 <use f='MOS/arch/x86/acpi/madt.c' l='84' u='r' c='madt_parse_table'/>
 <use f='MOS/arch/x86/acpi/madt.c' l='91' u='r' c='madt_parse_table'/>
 <use f='MOS/arch/x86/acpi/madt.c' l='106' u='r' c='madt_parse_table'/>
-<use f='MOS/arch/x86/boot/multiboot/startup.c' l='136' u='r' c='x86_startup'/>
-<use f='MOS/arch/x86/boot/multiboot/startup.c' l='145' u='r' c='x86_startup'/>
-<use f='MOS/arch/x86/boot/multiboot/startup.c' l='172' u='r' c='x86_startup'/>
+<use f='MOS/arch/x86/boot/multiboot/startup.c' l='133' u='r' c='x86_startup'/>
+<use f='MOS/arch/x86/boot/multiboot/startup.c' l='142' u='r' c='x86_startup'/>
+<use f='MOS/arch/x86/boot/multiboot/startup.c' l='169' u='r' c='x86_startup'/>
 <use f='MOS/arch/x86/interrupt/ioapic.c' l='100' u='w' c='ioapic_init'/>
 <use f='MOS/arch/x86/interrupt/lapic.c' l='156' u='w' c='lapic_memory_setup'/>
 <use f='MOS/arch/x86/x86_platform.c' l='45' u='w'/>

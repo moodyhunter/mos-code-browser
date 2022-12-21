@@ -1,5 +1,5 @@
 <dec f='MOS/lib/include/lib/string.h' l='21' type='void memzero(void * s, size_t n)'/>
-<use f='MOS/arch/x86/mm/paging.c' l='24' u='c' c='x86_mm_prepare_paging'/>
+<use f='MOS/arch/x86/mm/paging.c' l='21' u='c' c='x86_mm_prepare_paging'/>
 <use f='MOS/arch/x86/tasks/tss.c' l='12' u='c' c='x86_tss_init'/>
 <use f='MOS/arch/x86/x86_platform_api.c' l='72' u='c' c='platform_mm_create_user_pgd'/>
 <use f='MOS/kernel/device/block.c' l='53' u='c' c='blockdev_register'/>
