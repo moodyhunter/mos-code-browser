@@ -1,6 +1,6 @@
 <dec f='MOS/lib/include/lib/mos_lib.h' l='16'/>
-<use f='MOS/lib/liballoc.c' l='195' u='c'/>
-<use f='MOS/lib/liballoc.c' l='594' u='c'/>
+<use f='MOS/lib/liballoc.c' l='197' u='c'/>
+<use f='MOS/lib/liballoc.c' l='596' u='c'/>
 <use f='MOS/lib/structures/hashmap.c' l='45' u='c'/>
 <use f='MOS/lib/structures/hashmap.c' l='61' u='c'/>
 <use f='MOS/lib/structures/hashmap.c' l='86' u='c'/>

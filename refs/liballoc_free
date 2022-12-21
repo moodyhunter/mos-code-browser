@@ -1,8 +1,8 @@
 <dec f='MOS/lib/include/lib/liballoc.h' l='32' type='void liballoc_free(const void * ptr)'/>
 <use f='MOS/kernel/include/mos/mm/kmalloc.h' l='27' u='c' c='kfree'/>
-<def f='MOS/lib/liballoc.c' l='497' ll='590' type='void liballoc_free(const void * ptr)'/>
-<use f='MOS/lib/liballoc.c' l='607' u='c' c='liballoc_realloc'/>
-<use f='MOS/lib/liballoc.c' l='673' u='c' c='liballoc_realloc'/>
+<def f='MOS/lib/liballoc.c' l='499' ll='592' type='void liballoc_free(const void * ptr)'/>
+<use f='MOS/lib/liballoc.c' l='609' u='c' c='liballoc_realloc'/>
+<use f='MOS/lib/liballoc.c' l='675' u='c' c='liballoc_realloc'/>
 <use f='MOS/lib/structures/hashmap.c' l='52' u='c' c='hashmap_deinit'/>
 <use f='MOS/lib/structures/hashmap.c' l='56' u='c' c='hashmap_deinit'/>
 <use f='MOS/lib/structures/hashmap.c' l='119' u='c' c='hashmap_remove'/>

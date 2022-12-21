@@ -1,5 +1,5 @@
 <dec f='MOS/lib/include/lib/liballoc.h' l='31' type='void * liballoc_calloc(size_t object, size_t n_objects)'/>
 <use f='MOS/kernel/include/mos/mm/kmalloc.h' l='17' u='c' c='kcalloc'/>
-<def f='MOS/lib/liballoc.c' l='592' ll='599' type='void * liballoc_calloc(size_t nobj, size_t size)'/>
+<def f='MOS/lib/liballoc.c' l='594' ll='601' type='void * liballoc_calloc(size_t nobj, size_t size)'/>
 <use f='MOS/lib/structures/hashmap.c' l='27' u='c' c='hashmap_init'/>
 <use f='MOS/userspace/include/lib/memory.h' l='16' u='c' c='calloc'/>

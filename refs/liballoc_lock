@@ -5,7 +5,7 @@
  *
  * @return 0 if the lock was acquired successfully. Anything else is failure.
  */</doc>
-<def f='MOS/lib/liballoc.c' l='57' ll='61' type='int liballoc_lock()'/>
-<use f='MOS/lib/liballoc.c' l='216' u='c' c='liballoc_malloc'/>
-<use f='MOS/lib/liballoc.c' l='512' u='c' c='liballoc_free'/>
-<use f='MOS/lib/liballoc.c' l='621' u='c' c='liballoc_realloc'/>
+<def f='MOS/lib/liballoc.c' l='58' ll='62' type='int liballoc_lock()'/>
+<use f='MOS/lib/liballoc.c' l='218' u='c' c='liballoc_malloc'/>
+<use f='MOS/lib/liballoc.c' l='514' u='c' c='liballoc_free'/>
+<use f='MOS/lib/liballoc.c' l='623' u='c' c='liballoc_realloc'/>

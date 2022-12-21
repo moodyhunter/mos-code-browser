@@ -1,2 +1,2 @@
-<dec f='MOS/build/include/mos/kconfig.h' l='27'/>
-<use f='MOS/kernel/kernel_init.c' l='83' u='c'/>
+<dec f='MOS/build/include/mos/kconfig.h' l='19'/>
+<use f='MOS/kernel/kernel_init.c' l='84' u='c'/>

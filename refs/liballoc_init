@@ -1,4 +1,4 @@
 <dec f='MOS/lib/include/lib/liballoc.h' l='28' type='void liballoc_init()'/>
 <use f='MOS/kernel/mm/memops.c' l='22' u='c' c='mos_kernel_mm_init'/>
-<def f='MOS/lib/liballoc.c' l='191' ll='202' type='void liballoc_init()'/>
+<def f='MOS/lib/liballoc.c' l='193' ll='204' type='void liballoc_init()'/>
 <use f='MOS/userspace/libuserspace.c' l='45' u='c' c='__liballoc_userspace_init'/>

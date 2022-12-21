@@ -12,4 +12,4 @@
 <use f='MOS/kernel/elf/elf.c' l='107' u='r' c='elf_create_process'/>
 <use f='MOS/kernel/elf/elf.c' l='120' u='r' c='elf_create_process'/>
 <offset>16</offset>
-<use f='MOS/kernel/mm/paging/pmalloc.c' l='40' u='r' c='mos_pmalloc_setup'/>
+<use f='MOS/kernel/mm/paging/pmalloc.c' l='39' u='r' c='mos_pmalloc_setup'/>

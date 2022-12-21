@@ -1,10 +1,10 @@
 <dec f='MOS/lib/include/lib/liballoc.h' l='29' type='void * liballoc_malloc(size_t size)'/>
 <use f='MOS/kernel/include/mos/mm/kmalloc.h' l='12' u='c' c='kmalloc'/>
-<def f='MOS/lib/liballoc.c' l='204' ll='495' type='void * liballoc_malloc(size_t req_size)'/>
-<use f='MOS/lib/liballoc.c' l='226' u='c' c='liballoc_malloc'/>
-<use f='MOS/lib/liballoc.c' l='596' u='c' c='liballoc_calloc'/>
-<use f='MOS/lib/liballoc.c' l='613' u='c' c='liballoc_realloc'/>
-<use f='MOS/lib/liballoc.c' l='671' u='c' c='liballoc_realloc'/>
+<def f='MOS/lib/liballoc.c' l='206' ll='497' type='void * liballoc_malloc(size_t req_size)'/>
+<use f='MOS/lib/liballoc.c' l='228' u='c' c='liballoc_malloc'/>
+<use f='MOS/lib/liballoc.c' l='598' u='c' c='liballoc_calloc'/>
+<use f='MOS/lib/liballoc.c' l='615' u='c' c='liballoc_realloc'/>
+<use f='MOS/lib/liballoc.c' l='673' u='c' c='liballoc_realloc'/>
 <use f='MOS/lib/string.c' l='149' u='c' c='duplicate_string'/>
 <use f='MOS/lib/structures/bitmap.c' l='11' u='c' c='bitmap_create'/>
 <use f='MOS/lib/structures/hashmap.c' l='75' u='c' c='hashmap_put'/>

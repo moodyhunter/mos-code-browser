@@ -1,4 +1,4 @@
 <dec f='MOS/lib/include/lib/liballoc.h' l='35' type='_Bool liballoc_free_page(void * vptr, size_t npages)'/>
 <def f='MOS/kernel/mm/memops.c' l='47' ll='66' macro='1' type='_Bool liballoc_free_page(void * vptr, size_t npages)'/>
-<use f='MOS/lib/liballoc.c' l='573' u='c' c='liballoc_free'/>
+<use f='MOS/lib/liballoc.c' l='575' u='c' c='liballoc_free'/>
 <def f='MOS/userspace/libuserspace.c' l='109' ll='115' macro='1' type='_Bool liballoc_free_page(void * vptr, size_t npages)'/>

@@ -1,5 +1,5 @@
 <dec f='MOS/lib/include/lib/liballoc.h' l='34' type='void * liballoc_alloc_page(size_t npages)'/>
 <def f='MOS/kernel/mm/memops.c' l='29' ll='44' type='void * liballoc_alloc_page(size_t npages)'/>
 <doc f='MOS/kernel/mm/memops.c' l='28'>// !! This function is called by liballoc, not intended to be called by anyone else !!</doc>
-<use f='MOS/lib/liballoc.c' l='147' u='c' c='allocate_new_pages_for'/>
+<use f='MOS/lib/liballoc.c' l='149' u='c' c='allocate_new_pages_for'/>
 <def f='MOS/userspace/libuserspace.c' l='100' ll='107' type='void * liballoc_alloc_page(size_t npages)'/>

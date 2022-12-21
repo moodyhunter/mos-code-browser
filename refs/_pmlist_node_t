@@ -1,4 +1,4 @@
-<def f='MOS/kernel/mm/paging/pmalloc.c' l='14' ll='19'/>
-<use f='MOS/kernel/mm/paging/pmalloc.c' l='16'/>
-<use f='MOS/kernel/mm/paging/pmalloc.c' l='14'/>
+<def f='MOS/kernel/mm/paging/pmalloc.c' l='13' ll='18'/>
+<use f='MOS/kernel/mm/paging/pmalloc.c' l='15'/>
+<use f='MOS/kernel/mm/paging/pmalloc.c' l='13'/>
 <size>24</size>

@@ -1,3 +1,0 @@
-<dec f='MOS/build/include/mos/kconfig.h' l='26'/>
-<use f='MOS/kernel/include/mos/printk.h' l='10' u='a'/>
-<use f='MOS/kernel/include/mos/printk.h' l='39' u='c'/>

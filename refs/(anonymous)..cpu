@@ -23,7 +23,7 @@
 <use f='MOS/kernel/elf/elf.c' l='225' macro='1' u='m' c='elf_create_process'/>
 <use f='MOS/kernel/elf/elf.c' l='233' macro='1' u='m' c='elf_create_process'/>
 <use f='MOS/kernel/ipc/ipc.c' l='295' macro='1' u='m' c='ipc_accept'/>
-<use f='MOS/kernel/kernel_init.c' l='112' macro='1' u='m' c='mos_start_kernel'/>
+<use f='MOS/kernel/kernel_init.c' l='113' macro='1' u='m' c='mos_start_kernel'/>
 <use f='MOS/kernel/ksyscall.c' l='22' macro='1' u='m' c='impl_syscall_poweroff'/>
 <use f='MOS/kernel/ksyscall.c' l='43' macro='1' u='m' c='impl_syscall_file_open'/>
 <use f='MOS/kernel/ksyscall.c' l='63' macro='1' u='m' c='impl_syscall_io_read'/>

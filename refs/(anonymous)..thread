@@ -10,7 +10,7 @@
 <use f='MOS/arch/x86/x86_platform.c' l='98' macro='1' u='r' c='x86_kpanic_hook'/>
 <use f='MOS/arch/x86/x86_platform.c' l='99' macro='1' u='r' c='x86_kpanic_hook'/>
 <use f='MOS/kernel/ipc/ipc.c' l='295' macro='1' u='r' c='ipc_accept'/>
-<use f='MOS/kernel/kernel_init.c' l='112' macro='1' u='w' c='mos_start_kernel'/>
+<use f='MOS/kernel/kernel_init.c' l='113' macro='1' u='w' c='mos_start_kernel'/>
 <use f='MOS/kernel/ksyscall.c' l='22' macro='1' u='r' c='impl_syscall_poweroff'/>
 <use f='MOS/kernel/ksyscall.c' l='43' macro='1' u='r' c='impl_syscall_file_open'/>
 <use f='MOS/kernel/ksyscall.c' l='63' macro='1' u='r' c='impl_syscall_io_read'/>

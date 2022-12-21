@@ -1,3 +1,3 @@
 <dec f='MOS/kernel/include/mos/mm/paging/pmalloc.h' l='11' type='uintptr_t pmalloc_alloc(size_t n_pages)'/>
 <use f='MOS/kernel/mm/paging/paging.c' l='105' u='c' c='mm_alloc_pages_at'/>
-<def f='MOS/kernel/mm/paging/pmalloc.c' l='73' ll='90' type='uintptr_t pmalloc_alloc(size_t pages)'/>
+<def f='MOS/kernel/mm/paging/pmalloc.c' l='72' ll='89' type='uintptr_t pmalloc_alloc(size_t pages)'/>

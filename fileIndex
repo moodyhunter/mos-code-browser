@@ -77,7 +77,6 @@ MOS/arch/x86/x86_platform.c
 MOS/kernel/include/mos/mm/paging/pmalloc.h
 MOS/kernel/include/mos/panic.h
 MOS/arch/x86/x86_platform_api.c
-MOS/build/kconfig.c
 MOS/kernel/cmdline.c
 MOS/kernel/include/mos/cmdline.h
 MOS/kernel/device/block.c

@@ -16,7 +16,7 @@
 <use f='MOS/kernel/mm/memops.c' l='182' u='c' c='mm_copy_pages'/>
 <use f='MOS/kernel/mm/memops.c' l='190' u='c' c='mm_copy_pages'/>
 <use f='MOS/kernel/mm/memops.c' l='198' u='c' c='mm_copy_pages'/>
-<use f='MOS/lib/liballoc.c' l='672' u='c' c='liballoc_realloc'/>
+<use f='MOS/lib/liballoc.c' l='674' u='c' c='liballoc_realloc'/>
 <def f='MOS/lib/string.c' l='39' ll='61' type='void * memcpy(void *restrict dest, const void *restrict src, size_t n)'/>
 <use f='MOS/lib/structures/ring_buffer.c' l='89' u='c' c='ring_buffer_pos_push_back'/>
 <use f='MOS/lib/structures/ring_buffer.c' l='90' u='c' c='ring_buffer_pos_push_back'/>

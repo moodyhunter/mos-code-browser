@@ -1,4 +1,4 @@
-<dec f='MOS/kernel/include/mos/printk.h' l='47'/>
+<dec f='MOS/kernel/include/mos/printk.h' l='50'/>
 <use f='MOS/arch/x86/acpi/acpi.c' l='52' u='c'/>
 <use f='MOS/arch/x86/acpi/acpi.c' l='59' u='c'/>
 <use f='MOS/arch/x86/acpi/acpi.c' l='69' u='c'/>
@@ -37,15 +37,15 @@
 <use f='MOS/kernel/ipc/ipc.c' l='319' u='c'/>
 <use f='MOS/kernel/ipc/ipc.c' l='324' u='c'/>
 <use f='MOS/kernel/ipc/ipc.c' l='357' u='c'/>
-<use f='MOS/kernel/kernel_init.c' l='28' u='c'/>
-<use f='MOS/kernel/kernel_init.c' l='34' u='c'/>
+<use f='MOS/kernel/kernel_init.c' l='29' u='c'/>
+<use f='MOS/kernel/kernel_init.c' l='35' u='c'/>
 <use f='MOS/kernel/ksyscall.c' l='98' u='c'/>
 <use f='MOS/kernel/ksyscall.c' l='170' u='c'/>
 <use f='MOS/kernel/ksyscall.c' l='267' u='c'/>
 <use f='MOS/kernel/ksyscall.c' l='271' u='c'/>
 <use f='MOS/kernel/ksyscall.c' l='276' u='c'/>
 <use f='MOS/kernel/ksyscall.c' l='293' u='c'/>
-<use f='MOS/kernel/mm/paging/pmalloc.c' l='35' u='c'/>
+<use f='MOS/kernel/mm/paging/pmalloc.c' l='34' u='c'/>
 <use f='MOS/kernel/mm/shm.c' l='19' u='c'/>
 <use f='MOS/kernel/mm/shm.c' l='27' u='c'/>
 <use f='MOS/kernel/tasks/fork.c' l='38' u='c'/>

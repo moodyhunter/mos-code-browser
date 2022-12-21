@@ -8,4 +8,4 @@
 <use f='MOS/arch/x86/mm/mm.c' l='75' u='m' c='x86_mem_init'/>
 <use f='MOS/arch/x86/mm/mm.c' l='76' u='m' c='x86_mem_init'/>
 <use f='MOS/arch/x86/mm/mm.c' l='76' u='m' c='x86_mem_init'/>
-<use f='MOS/kernel/mm/paging/pmalloc.c' l='28' u='m' c='freelist_size'/>
+<use f='MOS/kernel/mm/paging/pmalloc.c' l='27' u='m' c='freelist_size'/>
