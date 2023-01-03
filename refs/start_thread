@@ -1,4 +1,5 @@
 <dec f='MOS/userspace/include/libuserspace.h' l='19' type='tid_t start_thread(const char * name, thread_entry_t entry, void * arg)'/>
+<use f='MOS/userspace/init/main.c' l='84' u='c' c='main'/>
 <def f='MOS/userspace/libuserspace.c' l='117' ll='123' type='tid_t start_thread(const char * name, thread_entry_t entry, void * arg)'/>
 <use f='MOS/userspace/locks/main.c' l='57' u='c' c='main'/>
 <use f='MOS/userspace/locks/main.c' l='58' u='c' c='main'/>

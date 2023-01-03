@@ -144,9 +144,9 @@
 <use f='MOS/kernel/tasks/schedule.c' l='37' macro='1' u='c' c='should_schedule_to_thread'/>
 <use f='MOS/kernel/tasks/schedule.c' l='47' macro='1' u='c' c='schedule_to_thread'/>
 <use f='MOS/kernel/tasks/schedule.c' l='60' macro='1' u='c' c='mos_update_current'/>
+<use f='MOS/kernel/tasks/schedule.c' l='79' macro='1' u='c' c='reschedule_for_wait_condition'/>
 <use f='MOS/kernel/tasks/schedule.c' l='80' macro='1' u='c' c='reschedule_for_wait_condition'/>
-<use f='MOS/kernel/tasks/schedule.c' l='81' macro='1' u='c' c='reschedule_for_wait_condition'/>
-<use f='MOS/kernel/tasks/schedule.c' l='97' macro='1' u='c' c='reschedule'/>
+<use f='MOS/kernel/tasks/schedule.c' l='96' macro='1' u='c' c='reschedule'/>
 <use f='MOS/kernel/tasks/wait.c' l='42' macro='1' u='c' c='wc_condition_verify'/>
 <use f='MOS/lib/liballoc.c' l='197' macro='1' u='c' c='liballoc_init'/>
 <use f='MOS/lib/liballoc.c' l='596' macro='1' u='c' c='liballoc_calloc'/>

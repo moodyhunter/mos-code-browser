@@ -61,9 +61,9 @@
 <use f='MOS/kernel/tasks/kthread.c' l='25' macro='1' u='r' c='kthread_entry'/>
 <use f='MOS/kernel/tasks/process.c' l='210' macro='1' u='r' c='process_handle_cleanup'/>
 <use f='MOS/kernel/tasks/schedule.c' l='59' u='r' c='mos_update_current'/>
-<use f='MOS/kernel/tasks/schedule.c' l='67' u='w' c='mos_update_current'/>
-<use f='MOS/kernel/tasks/schedule.c' l='79' u='r' c='reschedule_for_wait_condition'/>
+<use f='MOS/kernel/tasks/schedule.c' l='66' u='w' c='mos_update_current'/>
+<use f='MOS/kernel/tasks/schedule.c' l='78' u='r' c='reschedule_for_wait_condition'/>
+<use f='MOS/kernel/tasks/schedule.c' l='96' u='r' c='reschedule'/>
 <use f='MOS/kernel/tasks/schedule.c' l='97' u='r' c='reschedule'/>
 <use f='MOS/kernel/tasks/schedule.c' l='98' u='r' c='reschedule'/>
-<use f='MOS/kernel/tasks/schedule.c' l='99' u='r' c='reschedule'/>
-<use f='MOS/kernel/tasks/schedule.c' l='102' u='r' c='reschedule'/>
+<use f='MOS/kernel/tasks/schedule.c' l='101' u='r' c='reschedule'/>

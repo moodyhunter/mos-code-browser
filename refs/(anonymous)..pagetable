@@ -21,4 +21,4 @@
 <use f='MOS/kernel/mm/memops.c' l='119' u='r' c='mm_map_proxy_space'/>
 <use f='MOS/kernel/mm/memops.c' l='125' u='r' c='mm_unmap_proxy_space'/>
 <use f='MOS/kernel/mm/memops.c' l='130' u='r' c='mm_copy_pages'/>
-<use f='MOS/kernel/tasks/schedule.c' l='68' u='w' c='mos_update_current'/>
+<use f='MOS/kernel/tasks/schedule.c' l='67' u='w' c='mos_update_current'/>

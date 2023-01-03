@@ -1,5 +1,5 @@
 <dec f='MOS/kernel/include/mos/tasks/task_types.h' l='18' type='3'/>
 <doc f='MOS/kernel/include/mos/tasks/task_types.h' l='18'>// thread is blocked by a wait condition</doc>
 <use f='MOS/kernel/tasks/schedule.c' l='22' c='should_schedule_to_thread'/>
-<use f='MOS/kernel/tasks/schedule.c' l='80' u='r' c='reschedule_for_wait_condition'/>
-<use f='MOS/kernel/tasks/schedule.c' l='82' u='r' c='reschedule_for_wait_condition'/>
+<use f='MOS/kernel/tasks/schedule.c' l='79' u='r' c='reschedule_for_wait_condition'/>
+<use f='MOS/kernel/tasks/schedule.c' l='81' u='r' c='reschedule_for_wait_condition'/>
