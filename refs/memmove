@@ -1,6 +1,6 @@
 <dec f='MOS/lib/include/lib/string.h' l='19' type='void * memmove(void * dest, const void * src, size_t n)'/>
 <use f='MOS/arch/x86/devices/text_mode_console.c' l='35' u='c' c='screen_scroll'/>
-<use f='MOS/kernel/mm/paging/pmalloc.c' l='190' u='c' c='pmalloc_acquire_region'/>
+<use f='MOS/kernel/mm/paging/pmalloc.c' l='189' u='c' c='pmalloc_acquire_region'/>
 <def f='MOS/lib/string.c' l='63' ll='84' type='void * memmove(void * dest, const void * source, size_t length)'/>
 <use f='MOS/tests/memops/test_memops.c' l='32' u='c' c='test_lib_memmove_simple'/>
 <use f='MOS/tests/memops/test_memops.c' l='47' u='c' c='test_memmove_overlapped'/>

@@ -112,12 +112,12 @@
 <use f='MOS/kernel/mm/paging/paging.c' l='91' macro='1' u='c' c='mm_get_free_pages'/>
 <use f='MOS/kernel/mm/paging/paging.c' l='106' macro='1' u='c' c='mm_alloc_pages_at'/>
 <use f='MOS/kernel/mm/paging/paging.c' l='163' macro='1' u='c' c='mm_get_block_info'/>
-<use f='MOS/kernel/mm/paging/pmalloc.c' l='88' macro='1' u='c' c='pmalloc_alloc'/>
+<use f='MOS/kernel/mm/paging/pmalloc.c' l='87' macro='1' u='c' c='pmalloc_alloc'/>
+<use f='MOS/kernel/mm/paging/pmalloc.c' l='98' macro='1' u='c' c='pmalloc_acquire_region'/>
 <use f='MOS/kernel/mm/paging/pmalloc.c' l='99' macro='1' u='c' c='pmalloc_acquire_region'/>
-<use f='MOS/kernel/mm/paging/pmalloc.c' l='100' macro='1' u='c' c='pmalloc_acquire_region'/>
-<use f='MOS/kernel/mm/paging/pmalloc.c' l='175' macro='1' u='c' c='pmalloc_acquire_region'/>
-<use f='MOS/kernel/mm/paging/pmalloc.c' l='222' macro='1' u='c' c='pmalloc_release_region'/>
-<use f='MOS/kernel/mm/paging/pmalloc.c' l='272' macro='1' u='c' c='pmalloc_release_region'/>
+<use f='MOS/kernel/mm/paging/pmalloc.c' l='174' macro='1' u='c' c='pmalloc_acquire_region'/>
+<use f='MOS/kernel/mm/paging/pmalloc.c' l='221' macro='1' u='c' c='pmalloc_release_region'/>
+<use f='MOS/kernel/mm/paging/pmalloc.c' l='271' macro='1' u='c' c='pmalloc_release_region'/>
 <def f='MOS/kernel/panic.c' l='34' ll='70' macro='1' type='void mos_kpanic(const char * func, u32 line, const char * fmt)'/>
 <use f='MOS/kernel/stack_protector.c' l='10' macro='1' u='c' c='__stack_chk_fail'/>
 <use f='MOS/kernel/tasks/fork.c' l='17' macro='1' u='c' c='process_handle_fork'/>
