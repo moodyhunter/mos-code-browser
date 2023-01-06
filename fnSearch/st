@@ -3,6 +3,7 @@ strcat|strcat
 strchr|strchr
 strcmp|strcmp
 strcpy|strcpy
+strdup|strdup
 strlen|strlen
 strncmp|strncmp
 strncpy|strncpy

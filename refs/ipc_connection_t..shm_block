@@ -1,4 +1,4 @@
 <dec f='MOS/kernel/include/mos/ipc/ipc_types.h' l='67' type='shm_block_t'/>
 <offset>128</offset>
 <use f='MOS/kernel/ipc/ipc.c' l='295' u='r' c='ipc_accept'/>
-<use f='MOS/kernel/ipc/ipc.c' l='345' u='w' c='ipc_connect'/>
+<use f='MOS/kernel/ipc/ipc.c' l='344' u='w' c='ipc_connect'/>

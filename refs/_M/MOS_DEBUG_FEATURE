@@ -1,4 +1,4 @@
-<dec f='MOS/kernel/include/mos/mos_global.h' l='62'/>
+<dec f='MOS/kernel/include/mos/mos_global.h' l='63'/>
 <use f='MOS/arch/x86/interrupt/lapic.c' l='83' u='c'/>
 <use f='MOS/arch/x86/interrupt/lapic.c' l='95' u='c'/>
 <use f='MOS/arch/x86/mm/paging.c' l='30' u='c'/>

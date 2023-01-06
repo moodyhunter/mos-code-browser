@@ -16,8 +16,8 @@
 <use f='MOS/kernel/ipc/ipc.c' l='244' macro='1' u='r' c='ipc_create'/>
 <use f='MOS/kernel/ipc/ipc.c' l='265' macro='1' u='r' c='ipc_accept'/>
 <use f='MOS/kernel/ipc/ipc.c' l='310' macro='1' u='r' c='ipc_connect'/>
-<use f='MOS/kernel/ipc/ipc.c' l='338' macro='1' u='r' c='ipc_connect'/>
-<use f='MOS/kernel/ipc/ipc.c' l='354' macro='1' u='r' c='ipc_connect'/>
+<use f='MOS/kernel/ipc/ipc.c' l='337' macro='1' u='r' c='ipc_connect'/>
+<use f='MOS/kernel/ipc/ipc.c' l='353' macro='1' u='r' c='ipc_connect'/>
 <use f='MOS/kernel/kernel_init.c' l='48' macro='1' u='r' c='cmdline_get_init_path'/>
 <use f='MOS/kernel/ksyscall.c' l='246' macro='1' u='r' c='impl_syscall_wait_for_thread'/>
 <use f='MOS/kernel/ksyscall.c' l='287' macro='1' u='r' c='impl_syscall_mutex_release'/>

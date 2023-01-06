@@ -116,11 +116,11 @@
 <use f='MOS/kernel/ipc/ipc.c' l='287' macro='1' u='c' c='ipc_accept'/>
 <use f='MOS/kernel/ipc/ipc.c' l='310' macro='1' u='c' c='ipc_connect'/>
 <use f='MOS/kernel/ipc/ipc.c' l='314' macro='1' u='c' c='ipc_connect'/>
-<use f='MOS/kernel/ipc/ipc.c' l='319' macro='1' u='c' c='ipc_connect'/>
-<use f='MOS/kernel/ipc/ipc.c' l='324' macro='1' u='c' c='ipc_connect'/>
-<use f='MOS/kernel/ipc/ipc.c' l='338' macro='1' u='c' c='ipc_connect'/>
-<use f='MOS/kernel/ipc/ipc.c' l='354' macro='1' u='c' c='ipc_connect'/>
-<use f='MOS/kernel/ipc/ipc.c' l='357' macro='1' u='c' c='ipc_connect'/>
+<use f='MOS/kernel/ipc/ipc.c' l='318' macro='1' u='c' c='ipc_connect'/>
+<use f='MOS/kernel/ipc/ipc.c' l='323' macro='1' u='c' c='ipc_connect'/>
+<use f='MOS/kernel/ipc/ipc.c' l='337' macro='1' u='c' c='ipc_connect'/>
+<use f='MOS/kernel/ipc/ipc.c' l='353' macro='1' u='c' c='ipc_connect'/>
+<use f='MOS/kernel/ipc/ipc.c' l='356' macro='1' u='c' c='ipc_connect'/>
 <use f='MOS/kernel/kernel_init.c' l='29' macro='1' u='c' c='mount_initrd'/>
 <use f='MOS/kernel/kernel_init.c' l='35' macro='1' u='c' c='mount_initrd'/>
 <use f='MOS/kernel/kernel_init.c' l='48' macro='1' u='c' c='cmdline_get_init_path'/>

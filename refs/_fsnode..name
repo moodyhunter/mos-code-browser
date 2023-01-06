@@ -27,7 +27,6 @@
 <use f='MOS/kernel/filesystem/pathutils.c' l='23' u='w'/>
 <use f='MOS/kernel/filesystem/pathutils.c' l='60' u='w' c='impl_path_get_subpath'/>
 <use f='MOS/kernel/filesystem/pathutils.c' l='152' u='r' c='path_to_string_relative'/>
-<use f='MOS/kernel/filesystem/pathutils.c' l='152' u='r' c='path_to_string_relative'/>
 <use f='MOS/kernel/filesystem/pathutils.c' l='160' u='r' c='path_to_string_relative'/>
 <use f='MOS/kernel/filesystem/pathutils.c' l='162' u='r' c='path_to_string_relative'/>
 <use f='MOS/kernel/filesystem/pathutils.c' l='177' u='r' c='path_treeop_decrement_refcount'/>

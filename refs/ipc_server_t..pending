@@ -7,5 +7,5 @@
 <use f='MOS/kernel/ipc/ipc.c' l='253' u='w' c='ipc_create'/>
 <use f='MOS/kernel/ipc/ipc.c' l='274' u='r' c='ipc_accept'/>
 <use f='MOS/kernel/ipc/ipc.c' l='276' u='r' c='ipc_accept'/>
-<use f='MOS/kernel/ipc/ipc.c' l='329' u='r' c='ipc_connect'/>
-<use f='MOS/kernel/ipc/ipc.c' l='331' u='r' c='ipc_connect'/>
+<use f='MOS/kernel/ipc/ipc.c' l='328' u='r' c='ipc_connect'/>
+<use f='MOS/kernel/ipc/ipc.c' l='330' u='r' c='ipc_connect'/>

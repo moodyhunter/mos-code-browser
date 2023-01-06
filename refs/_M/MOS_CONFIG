@@ -1,6 +1,7 @@
-<dec f='MOS/kernel/include/mos/mos_global.h' l='60'/>
+<dec f='MOS/kernel/include/mos/mos_global.h' l='61'/>
 <use f='MOS/kernel/include/mos/printk.h' l='42' u='c'/>
-<doc f='MOS/kernel/include/mos/mos_global.h' l='59'>// If the feature is enabled, the expression will be 1, otherwise 0, which will cause a division by zero error.</doc>
+<doc f='MOS/kernel/include/mos/mos_global.h' l='59'>// If the feature is enabled, the expression will be 1, otherwise -1.
+// If the given feature is not defined, the expression will be 0, which throws a division by zero error.</doc>
 <use f='MOS/lib/liballoc.c' l='55' u='c'/>
 <use f='MOS/lib/liballoc.c' l='180' u='c'/>
 <use f='MOS/lib/liballoc.c' l='217' u='c'/>

@@ -1,9 +1,9 @@
-<dec f='MOS/lib/include/lib/string.h' l='31' type='s64 strntoll(const char * str, char ** endptr, int base, size_t n)'/>
+<dec f='MOS/lib/include/lib/string.h' l='32' type='s64 strntoll(const char * str, char ** endptr, int base, size_t n)'/>
 <use f='MOS/kernel/filesystem/cpio/cpio.c' l='45' u='c' c='cpio_read_metadata'/>
 <use f='MOS/kernel/filesystem/cpio/cpio.c' l='66' u='c' c='cpio_read_metadata'/>
 <use f='MOS/kernel/filesystem/cpio/cpio.c' l='156' u='c' c='cpio_stat'/>
 <use f='MOS/kernel/filesystem/cpio/cpio.c' l='157' u='c' c='cpio_stat'/>
 <use f='MOS/kernel/filesystem/cpio/cpio.c' l='160' u='c' c='cpio_stat'/>
 <use f='MOS/kernel/filesystem/cpio/cpio.c' l='190' u='c' c='cpio_readlink'/>
-<use f='MOS/lib/string.c' l='157' u='c' c='strtoll'/>
-<def f='MOS/lib/string.c' l='160' ll='188' type='s64 strntoll(const char * str, char ** endptr, int base, size_t n)'/>
+<use f='MOS/lib/string.c' l='164' u='c' c='strtoll'/>
+<def f='MOS/lib/string.c' l='167' ll='195' type='s64 strntoll(const char * str, char ** endptr, int base, size_t n)'/>

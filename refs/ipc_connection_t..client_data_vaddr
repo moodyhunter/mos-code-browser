@@ -2,4 +2,4 @@
 <offset>1088</offset>
 <use f='MOS/kernel/ipc/ipc.c' l='187' u='r' c='ipc_connection_client_read'/>
 <use f='MOS/kernel/ipc/ipc.c' l='202' u='r' c='ipc_connection_client_write'/>
-<use f='MOS/kernel/ipc/ipc.c' l='347' u='w' c='ipc_connect'/>
+<use f='MOS/kernel/ipc/ipc.c' l='346' u='w' c='ipc_connect'/>

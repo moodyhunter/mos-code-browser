@@ -69,25 +69,26 @@
 <tr><th id="56">56</th><td></td></tr>
 <tr><th id="57">57</th><td><u>#define <dfn class="macro" id="_M/MOS_FOURCC" data-ref="_M/MOS_FOURCC">MOS_FOURCC</dfn>(a, b, c, d) ((u32) (a) | ((u32) (b) &lt;&lt; 8) | ((u32) (c) &lt;&lt; 16) | ((u32) (d) &lt;&lt; 24))</u></td></tr>
 <tr><th id="58">58</th><td></td></tr>
-<tr><th id="59">59</th><td><i>// If the feature is enabled, the expression will be 1, otherwise 0, which will cause a division by zero error.</i></td></tr>
-<tr><th id="60">60</th><td><u>#define <dfn class="macro" id="_M/MOS_CONFIG" data-ref="_M/MOS_CONFIG">MOS_CONFIG</dfn>(feat) (1 / feat == 1)</u></td></tr>
-<tr><th id="61">61</th><td></td></tr>
-<tr><th id="62">62</th><td><u>#define <dfn class="macro" id="_M/MOS_DEBUG_FEATURE" data-ref="_M/MOS_DEBUG_FEATURE">MOS_DEBUG_FEATURE</dfn>(feat) MOS_CONFIG(MOS_CONCAT(MOS_DEBUG_, feat))</u></td></tr>
-<tr><th id="63">63</th><td></td></tr>
-<tr><th id="64">64</th><td><i class="doc">/**</i></td></tr>
-<tr><th id="65">65</th><td><i class="doc"> * <span class="command">@brief</span> Returns true for the first call, false for all subsequent calls.</i></td></tr>
-<tr><th id="66">66</th><td><i class="doc"> */</i></td></tr>
-<tr><th id="67">67</th><td><u>#define <dfn class="macro" id="_M/once" data-ref="_M/once">once</dfn>()                                                                                                                                                           \</u></td></tr>
-<tr><th id="68">68</th><td><u>    __extension__({                                                                                                                                                      \</u></td></tr>
-<tr><th id="69">69</th><td><u>        static bool __seen = false;                                                                                                                                      \</u></td></tr>
-<tr><th id="70">70</th><td><u>        bool ret = false;                                                                                                                                                \</u></td></tr>
-<tr><th id="71">71</th><td><u>        if (__seen)                                                                                                                                                      \</u></td></tr>
-<tr><th id="72">72</th><td><u>            ret = false;                                                                                                                                                 \</u></td></tr>
-<tr><th id="73">73</th><td><u>        else                                                                                                                                                             \</u></td></tr>
-<tr><th id="74">74</th><td><u>            __seen = true, ret = true;                                                                                                                                   \</u></td></tr>
-<tr><th id="75">75</th><td><u>        ret;                                                                                                                                                             \</u></td></tr>
-<tr><th id="76">76</th><td><u>    })</u></td></tr>
-<tr><th id="77">77</th><td></td></tr>
+<tr><th id="59">59</th><td><i>// If the feature is enabled, the expression will be 1, otherwise -1.</i></td></tr>
+<tr><th id="60">60</th><td><i>// If the given feature is not defined, the expression will be 0, which throws a division by zero error.</i></td></tr>
+<tr><th id="61">61</th><td><u>#define <dfn class="macro" id="_M/MOS_CONFIG" data-ref="_M/MOS_CONFIG">MOS_CONFIG</dfn>(feat) (1 / feat == 1)</u></td></tr>
+<tr><th id="62">62</th><td></td></tr>
+<tr><th id="63">63</th><td><u>#define <dfn class="macro" id="_M/MOS_DEBUG_FEATURE" data-ref="_M/MOS_DEBUG_FEATURE">MOS_DEBUG_FEATURE</dfn>(feat) MOS_CONFIG(MOS_CONCAT(MOS_DEBUG_, feat))</u></td></tr>
+<tr><th id="64">64</th><td></td></tr>
+<tr><th id="65">65</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="66">66</th><td><i class="doc"> * <span class="command">@brief</span> Returns true for the first call, false for all subsequent calls.</i></td></tr>
+<tr><th id="67">67</th><td><i class="doc"> */</i></td></tr>
+<tr><th id="68">68</th><td><u>#define <dfn class="macro" id="_M/once" data-ref="_M/once">once</dfn>()                                                                                                                                                           \</u></td></tr>
+<tr><th id="69">69</th><td><u>    __extension__({                                                                                                                                                      \</u></td></tr>
+<tr><th id="70">70</th><td><u>        static bool __seen = false;                                                                                                                                      \</u></td></tr>
+<tr><th id="71">71</th><td><u>        bool ret = false;                                                                                                                                                \</u></td></tr>
+<tr><th id="72">72</th><td><u>        if (__seen)                                                                                                                                                      \</u></td></tr>
+<tr><th id="73">73</th><td><u>            ret = false;                                                                                                                                                 \</u></td></tr>
+<tr><th id="74">74</th><td><u>        else                                                                                                                                                             \</u></td></tr>
+<tr><th id="75">75</th><td><u>            __seen = true, ret = true;                                                                                                                                   \</u></td></tr>
+<tr><th id="76">76</th><td><u>        ret;                                                                                                                                                             \</u></td></tr>
+<tr><th id="77">77</th><td><u>    })</u></td></tr>
+<tr><th id="78">78</th><td></td></tr>
 </table><hr/><p id='footer'>
 Generated while processing <a href='../../../arch/x86/acpi/acpi.c.html'>MOS/arch/x86/acpi/acpi.c</a><br/>Generated on <em>2023-Jan-06</em> from project MOS<br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
 <br/>Generator usage only permitted with license.</p>

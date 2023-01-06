@@ -57,9 +57,9 @@
 <use f='MOS/kernel/ipc/ipc.c' l='284' macro='1' u='r' c='ipc_accept'/>
 <use f='MOS/kernel/ipc/ipc.c' l='287' macro='1' u='r' c='ipc_accept'/>
 <use f='MOS/kernel/ipc/ipc.c' l='314' macro='1' u='r' c='ipc_connect'/>
-<use f='MOS/kernel/ipc/ipc.c' l='319' macro='1' u='r' c='ipc_connect'/>
-<use f='MOS/kernel/ipc/ipc.c' l='324' macro='1' u='r' c='ipc_connect'/>
-<use f='MOS/kernel/ipc/ipc.c' l='357' macro='1' u='r' c='ipc_connect'/>
+<use f='MOS/kernel/ipc/ipc.c' l='318' macro='1' u='r' c='ipc_connect'/>
+<use f='MOS/kernel/ipc/ipc.c' l='323' macro='1' u='r' c='ipc_connect'/>
+<use f='MOS/kernel/ipc/ipc.c' l='356' macro='1' u='r' c='ipc_connect'/>
 <use f='MOS/kernel/kernel_init.c' l='29' macro='1' u='r' c='mount_initrd'/>
 <use f='MOS/kernel/kernel_init.c' l='35' macro='1' u='r' c='mount_initrd'/>
 <use f='MOS/kernel/ksyscall.c' l='98' macro='1' u='r' c='impl_syscall_exit'/>
