@@ -34,21 +34,14 @@
 <tr><th id="21">21</th><td><u>#<span data-ppcond="17">endif</span></u></td></tr>
 <tr><th id="22">22</th><td></td></tr>
 <tr><th id="23">23</th><td><u>#<span data-ppcond="23">ifndef</span> <span class="macro" data-ref="_M/__cplusplus">__cplusplus</span></u></td></tr>
-<tr><th id="24">24</th><td><u>#define <dfn class="macro" id="_M/static_assert" data-ref="_M/static_assert">static_assert</dfn> <span class='error' title="static_assert failed due to requirement &apos;sizeof(gdt_ptr32_t) == 6&apos; &quot;gdt_ptr_t is not 6 bytes&quot;"><span class='error' title="static_assert failed due to requirement &apos;sizeof(idtr32_t) == 6&apos; &quot;idtr32_t is not 6 bytes&quot;"><span class='error' title="static_assert failed due to requirement &apos;sizeof(void *) == 4&apos; &quot;x86_64 is not supported&quot;">_Static_assert</span></span></span></u></td></tr>
+<tr><th id="24">24</th><td><u>#define <dfn class="macro" id="_M/static_assert" data-ref="_M/static_assert">static_assert</dfn> <span class='error' title="static_assert failed due to requirement &apos;sizeof(long) == 32 / 8&apos; &quot;long is not the same size as the architecture&quot;"><span class='error' title="static_assert failed due to requirement &apos;sizeof(gdt_ptr32_t) == 6&apos; &quot;gdt_ptr_t is not 6 bytes&quot;"><span class='error' title="static_assert failed due to requirement &apos;sizeof(idtr32_t) == 6&apos; &quot;idtr32_t is not 6 bytes&quot;"><span class='error' title="static_assert failed due to requirement &apos;sizeof(void *) == 4&apos; &quot;x86_64 is not supported&quot;">_Static_assert</span></span></span></span></u></td></tr>
 <tr><th id="25">25</th><td><u>#<span data-ppcond="23">endif</span></u></td></tr>
 <tr><th id="26">26</th><td></td></tr>
-<tr><th id="27">27</th><td><u>#<span data-ppcond="27">if</span> <a class="macro" href="../../../build/include/mos/kconfig.h.html#9" title="32" data-ref="_M/MOS_BITS">MOS_BITS</a> == 64</u></td></tr>
-<tr><th id="28">28</th><td><u>#define MOS_64BITS 1</u></td></tr>
-<tr><th id="29">29</th><td><u>#<span data-ppcond="27">elif</span> <a class="macro" href="../../../build/include/mos/kconfig.h.html#9" title="32" data-ref="_M/MOS_BITS">MOS_BITS</a> == 32</u></td></tr>
-<tr><th id="30">30</th><td><u>#define <dfn class="macro" id="_M/MOS_32BITS" data-ref="_M/MOS_32BITS">MOS_32BITS</dfn> 1</u></td></tr>
-<tr><th id="31">31</th><td><u>#<span data-ppcond="27">else</span></u></td></tr>
-<tr><th id="32">32</th><td><u>#error "unknown size of long"</u></td></tr>
-<tr><th id="33">33</th><td><u>#<span data-ppcond="27">endif</span></u></td></tr>
-<tr><th id="34">34</th><td></td></tr>
-<tr><th id="35">35</th><td><u>#define <dfn class="macro" id="_M/MOS_LITTLE_ENDIAN" data-ref="_M/MOS_LITTLE_ENDIAN">MOS_LITTLE_ENDIAN</dfn> 1</u></td></tr>
-<tr><th id="36">36</th><td></td></tr>
-<tr><th id="37">37</th><td><a class="macro" href="#24" title="_Static_assert" data-ref="_M/static_assert">static_assert</a>(<b>sizeof</b>(<em>long</em>) == <b>sizeof</b>(<em>void</em> *), <q>"long is not the same size as a pointer"</q>);</td></tr>
-<tr><th id="38">38</th><td></td></tr>
+<tr><th id="27">27</th><td><u>#define <dfn class="macro" id="_M/MOS_LITTLE_ENDIAN" data-ref="_M/MOS_LITTLE_ENDIAN">MOS_LITTLE_ENDIAN</dfn> 1</u></td></tr>
+<tr><th id="28">28</th><td></td></tr>
+<tr><th id="29">29</th><td><a class="macro" href="#24" title="_Static_assert" data-ref="_M/static_assert">static_assert</a>(<b>sizeof</b>(<em>long</em>) == <b>sizeof</b>(<em>void</em> *), <q>"long is not the same size as a pointer"</q>);</td></tr>
+<tr><th id="30">30</th><td><a class="macro" href="#24" title="_Static_assert" data-ref="_M/static_assert">static_assert</a>(<b>sizeof</b>(<em>long</em>) == <a class="macro" href="../../../build/include/mos/kconfig.h.html#9" title="32" data-ref="_M/MOS_BITS">MOS_BITS</a> / <var>8</var>, <q>"long is not the same size as the architecture"</q>);</td></tr>
+<tr><th id="31">31</th><td></td></tr>
 </table><hr/><p id='footer'>
 Generated while processing <a href='../../../arch/x86/acpi/acpi.c.html'>MOS/arch/x86/acpi/acpi.c</a><br/>Generated on <em>2023-Jan-06</em> from project MOS<br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
 <br/>Generator usage only permitted with license.</p>

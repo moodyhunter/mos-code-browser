@@ -1,2 +1,2 @@
-<dec f='MOS/kernel/include/mos/elf/elf.h' l='70' type='2'/>
+<dec f='MOS/kernel/include/mos/elf/elf.h' l='72' type='2'/>
 <use f='MOS/kernel/elf/elf.c' l='69' u='r' c='elf_create_process'/>

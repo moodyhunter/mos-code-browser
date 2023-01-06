@@ -1,2 +1,2 @@
-<dec f='MOS/kernel/include/mos/elf/elf.h' l='163' type='4'/>
-<doc f='MOS/kernel/include/mos/elf/elf.h' l='163'>// Relocation entries with addends</doc>
+<dec f='MOS/kernel/include/mos/elf/elf.h' l='165' type='4'/>
+<doc f='MOS/kernel/include/mos/elf/elf.h' l='165'>// Relocation entries with addends</doc>

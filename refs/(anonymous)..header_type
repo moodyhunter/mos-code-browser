@@ -1,5 +1,5 @@
-<dec f='MOS/kernel/include/mos/elf/elf.h' l='142' type='elf_program_header_type'/>
-<dec f='MOS/kernel/include/mos/elf/elf.h' l='197' type='elf_section_header_type'/>
+<dec f='MOS/kernel/include/mos/elf/elf.h' l='144' type='elf_program_header_type'/>
+<dec f='MOS/kernel/include/mos/elf/elf.h' l='199' type='elf_section_header_type'/>
 <use f='MOS/kernel/elf/elf.c' l='91' u='r' c='elf_create_process'/>
 <use f='MOS/kernel/elf/elf.c' l='96' u='r' c='elf_create_process'/>
 <use f='MOS/kernel/elf/elf.c' l='173' u='r' c='elf_create_process'/>

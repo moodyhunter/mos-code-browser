@@ -15,7 +15,7 @@
 <use f='MOS/arch/x86/x86_platform_api.c' l='125' u='r' c='platform_mm_map_pages'/>
 <use f='MOS/arch/x86/x86_platform_api.c' l='141' u='w' c='platform_mm_get_block_info'/>
 <use f='MOS/arch/x86/x86_platform_api.c' l='163' u='w' c='platform_mm_copy_maps'/>
-<dec f='MOS/kernel/include/mos/elf/elf.h' l='147' type='uintptr_t'/>
+<dec f='MOS/kernel/include/mos/elf/elf.h' l='149' type='uintptr_t'/>
 <use f='MOS/kernel/elf/elf.c' l='61' u='r' c='elf_create_process'/>
 <use f='MOS/kernel/elf/elf.c' l='92' u='r' c='elf_create_process'/>
 <use f='MOS/kernel/elf/elf.c' l='126' u='r' c='elf_create_process'/>
@@ -23,7 +23,7 @@
 <use f='MOS/kernel/elf/elf.c' l='216' u='r' c='elf_create_process'/>
 <use f='MOS/kernel/elf/elf.c' l='225' u='r' c='elf_create_process'/>
 <offset>96</offset>
-<doc f='MOS/kernel/include/mos/elf/elf.h' l='147'>// Virtual address of the segment</doc>
+<doc f='MOS/kernel/include/mos/elf/elf.h' l='149'>// Virtual address of the segment</doc>
 <use f='MOS/kernel/ipc/ipc.c' l='298' u='r' c='ipc_accept'/>
 <use f='MOS/kernel/ipc/ipc.c' l='347' u='r' c='ipc_connect'/>
 <use f='MOS/kernel/ksyscall.c' l='199' u='r' c='impl_syscall_heap_control'/>

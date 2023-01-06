@@ -1,2 +1,2 @@
-<dec f='MOS/kernel/include/mos/elf/elf.h' l='187' type='64'/>
-<doc f='MOS/kernel/include/mos/elf/elf.h' l='187'>// `sh_info&apos; contains SHT index</doc>
+<dec f='MOS/kernel/include/mos/elf/elf.h' l='189' type='64'/>
+<doc f='MOS/kernel/include/mos/elf/elf.h' l='189'>// `sh_info&apos; contains SHT index</doc>

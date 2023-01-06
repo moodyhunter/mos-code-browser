@@ -17,13 +17,13 @@
 <tr><th id="4">4</th><td></td></tr>
 <tr><th id="5">5</th><td><u>#include <a href="compiler.h.html">"mos/compiler.h"</a></u></td></tr>
 <tr><th id="6">6</th><td></td></tr>
-<tr><th id="7">7</th><td><u>#<span data-ppcond="7">if</span> <a class="macro" href="compiler.h.html#30" title="1" data-ref="_M/MOS_32BITS">MOS_32BITS</a></u></td></tr>
+<tr><th id="7">7</th><td><u>#<span data-ppcond="7">if</span> <a class="macro" href="../../../build/include/mos/kconfig.h.html#9" title="32" data-ref="_M/MOS_BITS">MOS_BITS</a> == 32</u></td></tr>
 <tr><th id="8">8</th><td><u>#define <dfn class="macro" id="_M/MOS_KERNEL_START_VADDR" data-ref="_M/MOS_KERNEL_START_VADDR">MOS_KERNEL_START_VADDR</dfn> 0xC0000000</u></td></tr>
-<tr><th id="9">9</th><td><u>#<span data-ppcond="7">endif</span></u></td></tr>
-<tr><th id="10">10</th><td></td></tr>
-<tr><th id="11">11</th><td><u>#<span data-ppcond="11">if</span> MOS_64BITS</u></td></tr>
-<tr><th id="12">12</th><td><u>#define MOS_KERNEL_START_VADDR 0xFFFFFFFFC0000000</u></td></tr>
-<tr><th id="13">13</th><td><u>#<span data-ppcond="11">endif</span></u></td></tr>
+<tr><th id="9">9</th><td><u>#<span data-ppcond="7">elif</span> MOS_BITS == 64</u></td></tr>
+<tr><th id="10">10</th><td><u>#define MOS_KERNEL_START_VADDR 0xFFFFFFFFC0000000</u></td></tr>
+<tr><th id="11">11</th><td><u>#else</u></td></tr>
+<tr><th id="12">12</th><td><u>#error "Cannot determine MOS_KERNEL_START_VADDR"</u></td></tr>
+<tr><th id="13">13</th><td><u>#<span data-ppcond="7">endif</span></u></td></tr>
 <tr><th id="14">14</th><td></td></tr>
 <tr><th id="15">15</th><td><u>#define <dfn class="macro" id="_M/MOS_MAX_VADDR" data-ref="_M/MOS_MAX_VADDR">MOS_MAX_VADDR</dfn> ((uintptr_t) ~0)</u></td></tr>
 <tr><th id="16">16</th><td></td></tr>
