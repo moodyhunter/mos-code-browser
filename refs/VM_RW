@@ -4,7 +4,7 @@
 <use f='MOS/arch/x86/boot/multiboot/startup.c' l='158' u='r' c='x86_startup'/>
 <use f='MOS/arch/x86/interrupt/ioapic.c' l='100' u='r' c='ioapic_init'/>
 <use f='MOS/arch/x86/interrupt/lapic.c' l='156' u='r' c='lapic_memory_setup'/>
-<use f='MOS/arch/x86/x86_platform.c' l='250' u='r' c='x86_start_kernel'/>
+<use f='MOS/arch/x86/x86_platform.c' l='251' u='r' c='x86_start_kernel'/>
 <use f='MOS/arch/x86/x86_platform_api.c' l='70' u='r' c='platform_mm_create_user_pgd'/>
 <use f='MOS/kernel/elf/elf.c' l='60' u='r' c='elf_create_process'/>
 <use f='MOS/kernel/ipc/ipc.c' l='341' u='r' c='ipc_connect'/>

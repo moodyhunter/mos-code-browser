@@ -1,7 +1,7 @@
 <dec f='MOS/lib/include/lib/structures/list.h' l='32'/>
 <doc f='MOS/lib/include/lib/structures/list.h' l='30'>// clang-format on</doc>
 <use f='MOS/arch/x86/devices/text_mode_console.c' l='166' u='c'/>
-<use f='MOS/kernel/device/console.c' l='26' u='c'/>
+<use f='MOS/kernel/device/console.c' l='25' u='c'/>
 <use f='MOS/tests/linked_list/test_linked_list.c' l='15' u='c'/>
 <use f='MOS/tests/linked_list/test_linked_list.c' l='32' u='c'/>
 <use f='MOS/tests/linked_list/test_linked_list.c' l='41' u='c'/>

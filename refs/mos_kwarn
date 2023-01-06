@@ -85,7 +85,7 @@
 <use f='MOS/lib/liballoc.c' l='647' macro='1' u='c' c='liballoc_realloc'/>
 <use f='MOS/lib/stdio_impl.c' l='173' macro='1' u='c' c='parse_printf_flags'/>
 <use f='MOS/lib/stdio_impl.c' l='179' macro='1' u='c' c='parse_printf_flags'/>
-<use f='MOS/lib/stdio_impl.c' l='203' macro='1' u='c' c='printf_diouxX'/>
+<use f='MOS/lib/stdio_impl.c' l='206' macro='1' u='c' c='printf_diouxX'/>
 <use f='MOS/lib/stdio_impl.c' l='220' macro='1' u='c' c='printf_diouxX'/>
 <use f='MOS/lib/stdio_impl.c' l='225' macro='1' u='c' c='printf_diouxX'/>
 <use f='MOS/lib/stdio_impl.c' l='378' macro='1' u='c' c='printf_cs'/>

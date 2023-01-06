@@ -27,9 +27,9 @@
 <use f='MOS/arch/x86/x86_platform.c' l='130' u='w' c='x86_start_kernel'/>
 <use f='MOS/arch/x86/x86_platform.c' l='135' u='w' c='x86_start_kernel'/>
 <use f='MOS/arch/x86/x86_platform.c' l='149' u='r' c='x86_start_kernel'/>
-<use f='MOS/arch/x86/x86_platform.c' l='181' u='w' c='x86_start_kernel'/>
-<use f='MOS/arch/x86/x86_platform.c' l='213' u='w' c='x86_start_kernel'/>
-<use f='MOS/arch/x86/x86_platform.c' l='250' u='w' c='x86_start_kernel'/>
+<use f='MOS/arch/x86/x86_platform.c' l='182' u='w' c='x86_start_kernel'/>
+<use f='MOS/arch/x86/x86_platform.c' l='214' u='w' c='x86_start_kernel'/>
+<use f='MOS/arch/x86/x86_platform.c' l='251' u='w' c='x86_start_kernel'/>
 <use f='MOS/arch/x86/x86_platform_api.c' l='125' u='r' c='platform_mm_map_pages'/>
 <use f='MOS/arch/x86/x86_platform_api.c' l='144' u='w' c='platform_mm_get_block_info'/>
 <use f='MOS/arch/x86/x86_platform_api.c' l='165' u='w' c='platform_mm_copy_maps'/>

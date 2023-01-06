@@ -1,3 +1,3 @@
-<dec f='MOS/kernel/include/mos/filesystem/filesystem.h' l='94' type='_Bool vfs_path_open(fsnode_t * path, file_open_flags flags, file_t * file)'/>
+<dec f='MOS/kernel/include/mos/filesystem/filesystem.h' l='94' type='_Bool vfs_path_open(const fsnode_t * path, file_open_flags flags, file_t * file)'/>
 <use f='MOS/kernel/filesystem/filesystem.c' l='64' u='c' c='vfs_open'/>
-<def f='MOS/kernel/filesystem/filesystem.c' l='102' ll='139' macro='1' type='_Bool vfs_path_open(fsnode_t * path, file_open_flags flags, file_t * file)'/>
+<def f='MOS/kernel/filesystem/filesystem.c' l='102' ll='139' macro='1' type='_Bool vfs_path_open(const fsnode_t * path, file_open_flags flags, file_t * file)'/>

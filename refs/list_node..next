@@ -4,11 +4,11 @@
 <use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='251' macro='1' u='r' c='x86_handle_irq'/>
 <use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='251' macro='1' u='r' c='x86_handle_irq'/>
 <use f='MOS/kernel/device/console.c' l='22' macro='1' u='w'/>
-<use f='MOS/kernel/device/console.c' l='26' macro='1' u='w'/>
-<use f='MOS/kernel/device/console.c' l='51' macro='1' u='r' c='console_get'/>
-<use f='MOS/kernel/device/console.c' l='51' macro='1' u='r' c='console_get'/>
-<use f='MOS/kernel/device/console.c' l='61' macro='1' u='r' c='console_get_by_prefix'/>
-<use f='MOS/kernel/device/console.c' l='61' macro='1' u='r' c='console_get_by_prefix'/>
+<use f='MOS/kernel/device/console.c' l='25' macro='1' u='w'/>
+<use f='MOS/kernel/device/console.c' l='49' macro='1' u='r' c='console_get'/>
+<use f='MOS/kernel/device/console.c' l='49' macro='1' u='r' c='console_get'/>
+<use f='MOS/kernel/device/console.c' l='59' macro='1' u='r' c='console_get_by_prefix'/>
+<use f='MOS/kernel/device/console.c' l='59' macro='1' u='r' c='console_get_by_prefix'/>
 <use f='MOS/kernel/panic.c' l='17' macro='1' u='w'/>
 <use f='MOS/kernel/panic.c' l='60' macro='1' u='r' c='mos_kpanic'/>
 <use f='MOS/kernel/panic.c' l='60' macro='1' u='r' c='mos_kpanic'/>

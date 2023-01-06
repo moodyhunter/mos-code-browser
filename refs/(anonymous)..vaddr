@@ -7,9 +7,9 @@
 <use f='MOS/arch/x86/x86_platform.c' l='122' u='w' c='x86_start_kernel'/>
 <use f='MOS/arch/x86/x86_platform.c' l='127' u='w' c='x86_start_kernel'/>
 <use f='MOS/arch/x86/x86_platform.c' l='132' u='w' c='x86_start_kernel'/>
-<use f='MOS/arch/x86/x86_platform.c' l='180' u='w' c='x86_start_kernel'/>
-<use f='MOS/arch/x86/x86_platform.c' l='212' u='w' c='x86_start_kernel'/>
-<use f='MOS/arch/x86/x86_platform.c' l='249' u='w' c='x86_start_kernel'/>
+<use f='MOS/arch/x86/x86_platform.c' l='181' u='w' c='x86_start_kernel'/>
+<use f='MOS/arch/x86/x86_platform.c' l='213' u='w' c='x86_start_kernel'/>
+<use f='MOS/arch/x86/x86_platform.c' l='250' u='w' c='x86_start_kernel'/>
 <use f='MOS/arch/x86/x86_platform_api.c' l='71' u='r' c='platform_mm_create_user_pgd'/>
 <use f='MOS/arch/x86/x86_platform_api.c' l='121' u='r' c='platform_mm_map_pages'/>
 <use f='MOS/arch/x86/x86_platform_api.c' l='125' u='r' c='platform_mm_map_pages'/>

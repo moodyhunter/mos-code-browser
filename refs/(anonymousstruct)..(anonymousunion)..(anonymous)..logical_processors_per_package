@@ -1,6 +1,6 @@
-<dec f='MOS/arch/x86/include/mos/x86/cpu/cpuid.h' l='55' type='u8'/>
+<dec f='MOS/arch/x86/include/mos/x86/cpu/cpuid.h' l='53' type='u8'/>
 <offset>16</offset>
-<doc f='MOS/arch/x86/include/mos/x86/cpu/cpuid.h' l='49'>/** Maximum number of addressable IDs for logical processors in this physical package;
+<doc f='MOS/arch/x86/include/mos/x86/cpu/cpuid.h' l='47'>/** Maximum number of addressable IDs for logical processors in this physical package;
              * The nearest power-of-2 integer that is not smaller than this value is the number of
              * unique initial APIC IDs reserved for addressing different logical processors in a
              * physical package.

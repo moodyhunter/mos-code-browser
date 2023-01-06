@@ -4,7 +4,7 @@
 <use f='MOS/arch/x86/mm/mm.c' l='14' u='w' c='mem_add_region'/>
 <use f='MOS/arch/x86/mm/mm.c' l='26' u='w' c='x86_mem_init'/>
 <use f='MOS/arch/x86/x86_platform.c' l='157' u='r' c='x86_start_kernel'/>
-<use f='MOS/arch/x86/x86_platform.c' l='203' u='r' c='x86_start_kernel'/>
+<use f='MOS/arch/x86/x86_platform.c' l='204' u='r' c='x86_start_kernel'/>
 <dec f='MOS/kernel/include/mos/elf/elf.h' l='107' type='u16'/>
 <dec f='MOS/kernel/include/mos/elf/elf.h' l='112' type='u16'/>
 <use f='MOS/kernel/elf/elf.c' l='67' u='r' c='elf_create_process'/>
@@ -12,4 +12,4 @@
 <use f='MOS/kernel/elf/elf.c' l='107' u='r' c='elf_create_process'/>
 <use f='MOS/kernel/elf/elf.c' l='120' u='r' c='elf_create_process'/>
 <offset>16</offset>
-<use f='MOS/kernel/mm/paging/pmalloc.c' l='39' u='r' c='mos_pmalloc_setup'/>
+<use f='MOS/kernel/mm/paging/pmalloc.c' l='39' u='r' c='mos_pmm_setup'/>

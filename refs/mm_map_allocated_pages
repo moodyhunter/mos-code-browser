@@ -14,10 +14,10 @@
  * not managed by the physical memory allocator.
  */</doc>
 <use f='MOS/arch/x86/interrupt/lapic.c' l='158' u='c' c='lapic_memory_setup'/>
-<use f='MOS/arch/x86/x86_platform.c' l='168' u='c' c='x86_start_kernel'/>
 <use f='MOS/arch/x86/x86_platform.c' l='169' u='c' c='x86_start_kernel'/>
-<use f='MOS/arch/x86/x86_platform.c' l='216' u='c' c='x86_start_kernel'/>
-<use f='MOS/arch/x86/x86_platform.c' l='253' u='c' c='x86_start_kernel'/>
+<use f='MOS/arch/x86/x86_platform.c' l='170' u='c' c='x86_start_kernel'/>
+<use f='MOS/arch/x86/x86_platform.c' l='217' u='c' c='x86_start_kernel'/>
+<use f='MOS/arch/x86/x86_platform.c' l='254' u='c' c='x86_start_kernel'/>
 <use f='MOS/kernel/mm/memops.c' l='87' u='c' c='mm_alloc_zeroed_pages'/>
 <use f='MOS/kernel/mm/paging/paging.c' l='109' u='c' c='mm_alloc_pages_at'/>
 <use f='MOS/kernel/mm/paging/paging.c' l='122' u='c' c='mm_map_pages'/>

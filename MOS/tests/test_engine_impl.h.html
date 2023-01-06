@@ -47,7 +47,7 @@
 <tr><th id="34">34</th><td><u>#define <dfn class="macro" id="_M/MOS_TEST_DEFAULT" data-ref="_M/MOS_TEST_DEFAULT">MOS_TEST_DEFAULT</dfn> MOS_TEST_GRAY</u></td></tr>
 <tr><th id="35">35</th><td></td></tr>
 <tr><th id="36">36</th><td><u>#define <dfn class="macro" id="_M/MOS_TEST_DEFINE_CONDITION" data-ref="_M/MOS_TEST_DEFINE_CONDITION">MOS_TEST_DEFINE_CONDITION</dfn>(condition, message)                                                                                                                    \</u></td></tr>
-<tr><th id="37">37</th><td><u>    const char *_mt_test_cond_##condition##_message = message;                                                                                                           \</u></td></tr>
+<tr><th id="37">37</th><td><u>    const char *const _mt_test_cond_##condition##_message = message;                                                                                                     \</u></td></tr>
 <tr><th id="38">38</th><td><u>    static bool condition</u></td></tr>
 <tr><th id="39">39</th><td></td></tr>
 <tr><th id="40">40</th><td><u>#define <dfn class="macro" id="_M/MOS_TEST_CONDITIONAL" data-ref="_M/MOS_TEST_CONDITIONAL">MOS_TEST_CONDITIONAL</dfn>(cond)                                                                                                                                       \</u></td></tr>

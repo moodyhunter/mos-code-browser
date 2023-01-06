@@ -1,3 +1,0 @@
-<dec f='MOS/kernel/include/mos/mm/paging/pmalloc.h' l='7' type='void mos_pmalloc_setup()'/>
-<use f='MOS/arch/x86/x86_platform.c' l='158' u='c' c='x86_start_kernel'/>
-<def f='MOS/kernel/mm/paging/pmalloc.c' l='30' ll='55' type='void mos_pmalloc_setup()'/>

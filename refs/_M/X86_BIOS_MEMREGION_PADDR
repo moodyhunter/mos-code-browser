@@ -2,4 +2,4 @@
 <use f='MOS/arch/x86/boot/multiboot/startup.c' l='153' u='c'/>
 <use f='MOS/arch/x86/x86_platform.c' l='44' u='c'/>
 <use f='MOS/arch/x86/x86_platform.c' l='46' u='c'/>
-<use f='MOS/arch/x86/x86_platform.c' l='197' u='c'/>
+<use f='MOS/arch/x86/x86_platform.c' l='198' u='c'/>

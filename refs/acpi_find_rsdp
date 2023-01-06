@@ -1,4 +1,4 @@
 <dec f='MOS/arch/x86/include/mos/x86/acpi/acpi_types.h' l='239' type='acpi_rsdp_t * acpi_find_rsdp(uintptr_t start, size_t size)'/>
 <def f='MOS/arch/x86/acpi/acpi.c' l='78' ll='107' type='acpi_rsdp_t * acpi_find_rsdp(uintptr_t start, size_t size)'/>
-<use f='MOS/arch/x86/x86_platform.c' l='194' u='c' c='x86_start_kernel'/>
-<use f='MOS/arch/x86/x86_platform.c' l='197' u='c' c='x86_start_kernel'/>
+<use f='MOS/arch/x86/x86_platform.c' l='195' u='c' c='x86_start_kernel'/>
+<use f='MOS/arch/x86/x86_platform.c' l='198' u='c' c='x86_start_kernel'/>

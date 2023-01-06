@@ -2,3 +2,4 @@
 <doc f='MOS/kernel/include/mos/mos_global.h' l='65'>/**
  * @brief Returns true for the first call, false for all subsequent calls.
  */</doc>
+<use f='MOS/kernel/device/console.c' l='40' u='c'/>

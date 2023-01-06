@@ -6,7 +6,7 @@
 <use f='MOS/arch/x86/x86_platform.c' l='115' u='r' c='x86_kpanic_hook'/>
 <use f='MOS/arch/x86/x86_platform.c' l='152' u='m' c='x86_start_kernel'/>
 <use f='MOS/arch/x86/x86_platform.c' l='153' u='m' c='x86_start_kernel'/>
-<use f='MOS/arch/x86/x86_platform.c' l='253' u='r' c='x86_start_kernel'/>
+<use f='MOS/arch/x86/x86_platform.c' l='254' u='r' c='x86_start_kernel'/>
 <use f='MOS/kernel/elf/elf.c' l='60' u='r' c='elf_create_process'/>
 <use f='MOS/kernel/elf/elf.c' l='215' u='r' c='elf_create_process'/>
 <use f='MOS/kernel/elf/elf.c' l='225' u='r' c='elf_create_process'/>

@@ -14,9 +14,9 @@
 <use f='MOS/arch/x86/x86_platform.c' l='115' macro='1' u='r' c='x86_kpanic_hook'/>
 <use f='MOS/arch/x86/x86_platform.c' l='152' macro='1' u='r' c='x86_start_kernel'/>
 <use f='MOS/arch/x86/x86_platform.c' l='153' macro='1' u='r' c='x86_start_kernel'/>
-<use f='MOS/arch/x86/x86_platform.c' l='232' macro='1' u='r' c='x86_start_kernel'/>
-<use f='MOS/arch/x86/x86_platform.c' l='253' macro='1' u='r' c='x86_start_kernel'/>
-<def f='MOS/arch/x86/x86_platform.c' l='260' type='mos_platform_info_t *const'/>
+<use f='MOS/arch/x86/x86_platform.c' l='233' macro='1' u='r' c='x86_start_kernel'/>
+<use f='MOS/arch/x86/x86_platform.c' l='254' macro='1' u='r' c='x86_start_kernel'/>
+<def f='MOS/arch/x86/x86_platform.c' l='261' type='mos_platform_info_t *const'/>
 <use f='MOS/kernel/elf/elf.c' l='60' macro='1' u='r' c='elf_create_process'/>
 <use f='MOS/kernel/elf/elf.c' l='215' macro='1' u='r' c='elf_create_process'/>
 <use f='MOS/kernel/elf/elf.c' l='225' macro='1' u='r' c='elf_create_process'/>
@@ -85,8 +85,8 @@
 <use f='MOS/kernel/mm/paging/paging.c' l='12' u='r' c='mm_copy_maps'/>
 <use f='MOS/kernel/mm/paging/paging.c' l='12' u='r' c='mm_get_block_info'/>
 <use f='MOS/kernel/mm/paging/pmalloc.c' l='27' u='r' c='freelist_size'/>
-<use f='MOS/kernel/mm/paging/pmalloc.c' l='39' u='r' c='mos_pmalloc_setup'/>
-<use f='MOS/kernel/mm/paging/pmalloc.c' l='41' u='r' c='mos_pmalloc_setup'/>
+<use f='MOS/kernel/mm/paging/pmalloc.c' l='39' u='r' c='mos_pmm_setup'/>
+<use f='MOS/kernel/mm/paging/pmalloc.c' l='41' u='r' c='mos_pmm_setup'/>
 <use f='MOS/kernel/tasks/fork.c' l='62' macro='1' u='r' c='process_handle_fork'/>
 <use f='MOS/kernel/tasks/kthread.c' l='25' macro='1' u='r' c='kthread_entry'/>
 <use f='MOS/kernel/tasks/process.c' l='72' u='r' c='process_allocate'/>

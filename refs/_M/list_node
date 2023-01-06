@@ -5,5 +5,5 @@
  */</doc>
 <use f='MOS/arch/x86/devices/serial_console.c' l='23' u='c'/>
 <use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='76' u='c'/>
-<use f='MOS/kernel/device/console.c' l='38' u='c'/>
+<use f='MOS/kernel/device/console.c' l='37' u='c'/>
 <use f='MOS/tests/linked_list/test_linked_list.c' l='182' u='c'/>

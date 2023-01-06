@@ -2,7 +2,7 @@
 <dec f='MOS/arch/x86/include/mos/x86/x86_platform.h' l='39' type='reg32_t'/>
 <offset>320</offset>
 <dec f='MOS/arch/x86/include/mos/x86/cpu/cpuid.h' l='11' type='u32'/>
-<dec f='MOS/arch/x86/include/mos/x86/cpu/cpuid.h' l='102' type='union (unnamed union at /home/runner/work/MOS/MOS/arch/x86/include/mos/x86/cpu/cpuid.h:61:5)'/>
+<dec f='MOS/arch/x86/include/mos/x86/cpu/cpuid.h' l='100' type='union (unnamed union at /home/runner/work/MOS/MOS/arch/x86/include/mos/x86/cpu/cpuid.h:59:5)'/>
 <use f='MOS/arch/x86/cpu/cpuid.c' l='16' c='x86_call_cpuid'/>
 <use f='MOS/arch/x86/cpu/cpuid.c' l='26' u='r' c='cpuid_get_manufacturer'/>
 <use f='MOS/arch/x86/cpu/cpuid.c' l='36' u='m' c='cpuid_get_processor_info'/>

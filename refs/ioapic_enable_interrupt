@@ -1,4 +1,4 @@
 <def f='MOS/arch/x86/include/mos/x86/interrupt/apic.h' l='69' ll='72' macro='1' type='void ioapic_enable_interrupt(u32 irq, u32 cpu)'/>
-<use f='MOS/arch/x86/x86_platform.c' l='241' u='c' c='x86_start_kernel'/>
 <use f='MOS/arch/x86/x86_platform.c' l='242' u='c' c='x86_start_kernel'/>
 <use f='MOS/arch/x86/x86_platform.c' l='243' u='c' c='x86_start_kernel'/>
+<use f='MOS/arch/x86/x86_platform.c' l='244' u='c' c='x86_start_kernel'/>

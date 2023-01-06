@@ -1,4 +1,4 @@
 <dec f='MOS/arch/x86/include/mos/x86/x86_platform.h' l='27'/>
 <use f='MOS/arch/x86/devices/text_mode_console.c' l='27' u='c'/>
-<use f='MOS/arch/x86/x86_platform.c' l='249' u='c'/>
-<use f='MOS/arch/x86/x86_platform.c' l='251' u='c'/>
+<use f='MOS/arch/x86/x86_platform.c' l='250' u='c'/>
+<use f='MOS/arch/x86/x86_platform.c' l='252' u='c'/>

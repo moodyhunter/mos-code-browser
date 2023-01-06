@@ -2,7 +2,7 @@
 <offset>0</offset>
 <use f='MOS/arch/x86/devices/text_mode_console.c' l='166' macro='1' u='w'/>
 <use f='MOS/kernel/device/console.c' l='22' macro='1' u='w'/>
-<use f='MOS/kernel/device/console.c' l='26' macro='1' u='w'/>
+<use f='MOS/kernel/device/console.c' l='25' macro='1' u='w'/>
 <use f='MOS/kernel/panic.c' l='17' macro='1' u='w'/>
 <use f='MOS/lib/structures/list.c' l='17' u='w' c='linked_list_init'/>
 <use f='MOS/lib/structures/list.c' l='39' u='r' c='list_node_remove'/>

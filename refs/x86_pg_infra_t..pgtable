@@ -1,10 +1,10 @@
 <dec f='MOS/arch/x86/include/mos/x86/mm/paging_impl.h' l='52' type='x86_pgtable_entry[1048576]'/>
 <offset>32768</offset>
-<use f='MOS/arch/x86/mm/paging.c' l='45' u='r' c='page_table_dump_range'/>
-<use f='MOS/arch/x86/mm/paging.c' l='72' u='r' c='page_table_dump_range'/>
-<use f='MOS/arch/x86/mm/paging.c' l='108' u='m' c='x86_mm_dump_page_table'/>
-<use f='MOS/arch/x86/mm/paging.c' l='130' u='r' c='x86_mm_dump_page_table'/>
-<use f='MOS/arch/x86/mm/paging.c' l='132' u='r' c='x86_mm_dump_page_table'/>
+<use f='MOS/arch/x86/mm/paging.c' l='39' u='r' c='page_table_dump_range'/>
+<use f='MOS/arch/x86/mm/paging.c' l='66' u='r' c='page_table_dump_range'/>
+<use f='MOS/arch/x86/mm/paging.c' l='102' u='m' c='x86_mm_dump_page_table'/>
+<use f='MOS/arch/x86/mm/paging.c' l='124' u='r' c='x86_mm_dump_page_table'/>
+<use f='MOS/arch/x86/mm/paging.c' l='126' u='r' c='x86_mm_dump_page_table'/>
 <use f='MOS/arch/x86/mm/paging_impl.c' l='36' u='m' c='pg_page_flag'/>
 <use f='MOS/arch/x86/mm/paging_impl.c' l='39' u='m' c='pg_page_flag'/>
 <use f='MOS/arch/x86/mm/paging_impl.c' l='42' u='m' c='pg_page_flag'/>

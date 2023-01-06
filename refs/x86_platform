@@ -34,19 +34,19 @@
 <use f='MOS/arch/x86/x86_platform.c' l='152' u='m' c='x86_start_kernel'/>
 <use f='MOS/arch/x86/x86_platform.c' l='153' u='m' c='x86_start_kernel'/>
 <use f='MOS/arch/x86/x86_platform.c' l='157' u='m' c='x86_start_kernel'/>
-<use f='MOS/arch/x86/x86_platform.c' l='163' u='m' c='x86_start_kernel'/>
-<use f='MOS/arch/x86/x86_platform.c' l='163' u='m' c='x86_start_kernel'/>
 <use f='MOS/arch/x86/x86_platform.c' l='164' u='m' c='x86_start_kernel'/>
 <use f='MOS/arch/x86/x86_platform.c' l='164' u='m' c='x86_start_kernel'/>
 <use f='MOS/arch/x86/x86_platform.c' l='165' u='m' c='x86_start_kernel'/>
 <use f='MOS/arch/x86/x86_platform.c' l='165' u='m' c='x86_start_kernel'/>
-<use f='MOS/arch/x86/x86_platform.c' l='168' u='m' c='x86_start_kernel'/>
+<use f='MOS/arch/x86/x86_platform.c' l='166' u='m' c='x86_start_kernel'/>
+<use f='MOS/arch/x86/x86_platform.c' l='166' u='m' c='x86_start_kernel'/>
 <use f='MOS/arch/x86/x86_platform.c' l='169' u='m' c='x86_start_kernel'/>
-<use f='MOS/arch/x86/x86_platform.c' l='185' u='m' c='x86_start_kernel'/>
-<use f='MOS/arch/x86/x86_platform.c' l='203' u='m' c='x86_start_kernel'/>
-<use f='MOS/arch/x86/x86_platform.c' l='205' u='m' c='x86_start_kernel'/>
-<use f='MOS/arch/x86/x86_platform.c' l='216' u='m' c='x86_start_kernel'/>
-<use f='MOS/arch/x86/x86_platform.c' l='232' u='m' c='x86_start_kernel'/>
-<def f='MOS/arch/x86/x86_platform.c' l='259' type='mos_platform_info_t'/>
-<use f='MOS/arch/x86/x86_platform.c' l='260' u='a'/>
+<use f='MOS/arch/x86/x86_platform.c' l='170' u='m' c='x86_start_kernel'/>
+<use f='MOS/arch/x86/x86_platform.c' l='186' u='m' c='x86_start_kernel'/>
+<use f='MOS/arch/x86/x86_platform.c' l='204' u='m' c='x86_start_kernel'/>
+<use f='MOS/arch/x86/x86_platform.c' l='206' u='m' c='x86_start_kernel'/>
+<use f='MOS/arch/x86/x86_platform.c' l='217' u='m' c='x86_start_kernel'/>
+<use f='MOS/arch/x86/x86_platform.c' l='233' u='m' c='x86_start_kernel'/>
+<def f='MOS/arch/x86/x86_platform.c' l='260' type='mos_platform_info_t'/>
+<use f='MOS/arch/x86/x86_platform.c' l='261' u='a'/>
 <use f='MOS/arch/x86/x86_platform_api.c' l='70' u='m' c='platform_mm_create_user_pgd'/>
