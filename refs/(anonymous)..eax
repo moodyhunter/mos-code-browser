@@ -17,5 +17,5 @@
 <use f='MOS/arch/x86/cpu/cpuid.c' l='71' u='m' c='cpuid_print_cpu_info'/>
 <offset>0</offset>
 <use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='92' u='r' c='x86_dump_registers'/>
-<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='280' u='w' c='x86_handle_interrupt'/>
-<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='280' u='r' c='x86_handle_interrupt'/>
+<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='282' u='w' c='x86_handle_interrupt'/>
+<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='282' u='r' c='x86_handle_interrupt'/>

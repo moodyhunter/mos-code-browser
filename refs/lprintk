@@ -42,7 +42,7 @@
 <use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='200' macro='1' u='c' c='x86_handle_exception'/>
 <use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='216' macro='1' u='c' c='x86_handle_exception'/>
 <use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='258' macro='1' u='c' c='x86_handle_irq'/>
-<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='284' macro='1' u='c' c='x86_handle_interrupt'/>
+<use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='286' macro='1' u='c' c='x86_handle_interrupt'/>
 <use f='MOS/arch/x86/mm/mm.c' l='30' macro='1' u='c' c='x86_mem_init'/>
 <use f='MOS/arch/x86/mm/mm.c' l='43' macro='1' u='c' c='x86_mem_init'/>
 <use f='MOS/arch/x86/mm/mm.c' l='51' macro='1' u='c' c='x86_mem_init'/>
