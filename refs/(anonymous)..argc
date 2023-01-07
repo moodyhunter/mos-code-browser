@@ -1,0 +1,5 @@
+<dec f='MOS/kernel/include/mos/platform/platform.h' l='75' type='size_t'/>
+<offset>0</offset>
+<use f='MOS/arch/x86/tasks/context.c' l='39' u='r' c='x86_switch_impl_setup_user_thread'/>
+<use f='MOS/kernel/kernel_init.c' l='114' u='w' c='mos_start_kernel'/>
+<use f='MOS/kernel/ksyscall.c' l='153' u='w' c='impl_syscall_spawn'/>

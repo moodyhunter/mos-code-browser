@@ -1,14 +1,16 @@
 <dec f='MOS/kernel/include/mos/tasks/task_types.h' l='63' type='pid_t'/>
 <use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='204' u='r' c='x86_handle_exception'/>
 <offset>128</offset>
+<use f='MOS/arch/x86/tasks/context.c' l='34' u='r' c='x86_switch_impl_setup_user_thread'/>
+<use f='MOS/arch/x86/tasks/context.c' l='36' u='r' c='x86_switch_impl_setup_user_thread'/>
 <use f='MOS/arch/x86/x86_platform.c' l='96' u='r' c='x86_kpanic_hook'/>
-<use f='MOS/kernel/ksyscall.c' l='94' u='r' c='impl_syscall_exit'/>
-<use f='MOS/kernel/ksyscall.c' l='116' u='r' c='impl_syscall_fork'/>
-<use f='MOS/kernel/ksyscall.c' l='130' u='r' c='impl_syscall_get_pid'/>
-<use f='MOS/kernel/ksyscall.c' l='136' u='r' c='impl_syscall_get_parent_pid'/>
-<use f='MOS/kernel/ksyscall.c' l='148' u='r' c='impl_syscall_spawn'/>
-<use f='MOS/kernel/ksyscall.c' l='246' u='r' c='impl_syscall_wait_for_thread'/>
-<use f='MOS/kernel/ksyscall.c' l='246' u='r' c='impl_syscall_wait_for_thread'/>
+<use f='MOS/kernel/ksyscall.c' l='96' u='r' c='impl_syscall_exit'/>
+<use f='MOS/kernel/ksyscall.c' l='118' u='r' c='impl_syscall_fork'/>
+<use f='MOS/kernel/ksyscall.c' l='132' u='r' c='impl_syscall_get_pid'/>
+<use f='MOS/kernel/ksyscall.c' l='138' u='r' c='impl_syscall_get_parent_pid'/>
+<use f='MOS/kernel/ksyscall.c' l='157' u='r' c='impl_syscall_spawn'/>
+<use f='MOS/kernel/ksyscall.c' l='255' u='r' c='impl_syscall_wait_for_thread'/>
+<use f='MOS/kernel/ksyscall.c' l='255' u='r' c='impl_syscall_wait_for_thread'/>
 <use f='MOS/kernel/tasks/fork.c' l='20' u='r' c='process_handle_fork'/>
 <use f='MOS/kernel/tasks/fork.c' l='20' u='r' c='process_handle_fork'/>
 <use f='MOS/kernel/tasks/fork.c' l='38' u='r' c='process_handle_fork'/>
@@ -24,13 +26,13 @@
 <use f='MOS/kernel/tasks/process.c' l='50' u='r' c='process_allocate'/>
 <use f='MOS/kernel/tasks/process.c' l='54' u='r' c='process_allocate'/>
 <use f='MOS/kernel/tasks/process.c' l='70' u='r' c='process_allocate'/>
-<use f='MOS/kernel/tasks/process.c' l='118' u='a' c='process_new'/>
-<use f='MOS/kernel/tasks/process.c' l='137' u='r' c='process_attach_ref_fd'/>
-<use f='MOS/kernel/tasks/process.c' l='169' u='r' c='process_attach_thread'/>
-<use f='MOS/kernel/tasks/process.c' l='183' u='r' c='process_handle_exit'/>
-<use f='MOS/kernel/tasks/process.c' l='185' u='r' c='process_handle_exit'/>
-<use f='MOS/kernel/tasks/process.c' l='197' u='r' c='process_handle_exit'/>
-<use f='MOS/kernel/tasks/process.c' l='212' u='r' c='process_handle_cleanup'/>
-<use f='MOS/kernel/tasks/process.c' l='255' u='r' c='process_grow_heap'/>
-<use f='MOS/kernel/tasks/process.c' l='261' u='r' c='process_grow_heap'/>
-<use f='MOS/kernel/tasks/process.c' l='268' u='r' c='process_dump_mmaps'/>
+<use f='MOS/kernel/tasks/process.c' l='119' u='a' c='process_new'/>
+<use f='MOS/kernel/tasks/process.c' l='138' u='r' c='process_attach_ref_fd'/>
+<use f='MOS/kernel/tasks/process.c' l='170' u='r' c='process_attach_thread'/>
+<use f='MOS/kernel/tasks/process.c' l='184' u='r' c='process_handle_exit'/>
+<use f='MOS/kernel/tasks/process.c' l='186' u='r' c='process_handle_exit'/>
+<use f='MOS/kernel/tasks/process.c' l='200' u='r' c='process_handle_exit'/>
+<use f='MOS/kernel/tasks/process.c' l='215' u='r' c='process_handle_cleanup'/>
+<use f='MOS/kernel/tasks/process.c' l='258' u='r' c='process_grow_heap'/>
+<use f='MOS/kernel/tasks/process.c' l='264' u='r' c='process_grow_heap'/>
+<use f='MOS/kernel/tasks/process.c' l='271' u='r' c='process_dump_mmaps'/>

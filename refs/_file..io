@@ -5,4 +5,4 @@
 <use f='MOS/kernel/elf/elf.c' l='236' u='a' c='elf_create_process'/>
 <use f='MOS/kernel/filesystem/filesystem.c' l='72' u='m' c='vfs_open'/>
 <use f='MOS/kernel/filesystem/filesystem.c' l='137' u='a' c='vfs_path_open'/>
-<use f='MOS/kernel/ksyscall.c' l='43' u='a' c='impl_syscall_file_open'/>
+<use f='MOS/kernel/ksyscall.c' l='45' u='a' c='impl_syscall_file_open'/>

@@ -4,6 +4,6 @@
 <use f='MOS/kernel/ipc/ipc.c' l='286' u='c' c='ipc_accept'/>
 <use f='MOS/kernel/ipc/ipc.c' l='317' u='c' c='ipc_connect'/>
 <use f='MOS/kernel/ipc/ipc.c' l='350' u='c' c='ipc_connect'/>
-<use f='MOS/kernel/ksyscall.c' l='257' u='c' c='impl_syscall_wait_for_thread'/>
-<use f='MOS/kernel/ksyscall.c' l='275' u='c' c='impl_syscall_mutex_acquire'/>
+<use f='MOS/kernel/ksyscall.c' l='266' u='c' c='impl_syscall_wait_for_thread'/>
+<use f='MOS/kernel/ksyscall.c' l='284' u='c' c='impl_syscall_mutex_acquire'/>
 <def f='MOS/kernel/tasks/schedule.c' l='76' ll='84' type='void reschedule_for_wait_condition(wait_condition_t * wait_condition)'/>

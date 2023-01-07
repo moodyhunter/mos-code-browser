@@ -11,4 +11,4 @@
 
 // defined in stdio.c</doc>
 <def f='MOS/lib/stdio.c' l='7' ll='14' type='int sprintf(char *restrict str, const char *restrict format)'/>
-<use f='MOS/userspace/ping-pong/ping.c' l='16' u='c' c='thread_main'/>
+<use f='MOS/userspace/ping-pong/ping.c' l='17' u='c' c='thread_main'/>

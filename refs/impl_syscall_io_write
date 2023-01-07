@@ -1,4 +1,4 @@
 <dec f='MOS/build/include/mos/syscall/dispatcher.h' l='37' type='size_t impl_syscall_io_write(fd_t fd, const void * buffer, size_t size, size_t offset)'/>
 <use f='MOS/build/include/mos/syscall/dispatcher.h' l='39' u='c' c='dispatch_syscall'/>
 <dec f='MOS/build/include/mos/syscall/decl.h' l='19' type='size_t impl_syscall_io_write(fd_t fd, const void * buffer, size_t size, size_t offset)'/>
-<def f='MOS/kernel/ksyscall.c' l='69' macro='1' type='size_t impl_syscall_io_write(fd_t fd, const void * buf, size_t count, size_t offset)'/>
+<def f='MOS/kernel/ksyscall.c' l='71' macro='1' type='size_t impl_syscall_io_write(fd_t fd, const void * buf, size_t count, size_t offset)'/>

@@ -1,4 +1,4 @@
 <dec f='MOS/kernel/include/mos/device/console.h' l='35' type='2'/>
 <use f='MOS/arch/x86/devices/text_mode_console.c' l='167' u='r'/>
 <use f='MOS/kernel/device/console.c' l='32' u='r' c='console_register'/>
-<use f='MOS/kernel/kernel_init.c' l='106' u='r' c='mos_start_kernel'/>
+<use f='MOS/kernel/kernel_init.c' l='108' u='r' c='mos_start_kernel'/>

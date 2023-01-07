@@ -1,5 +1,5 @@
 <dec f='MOS/kernel/include/mos/platform/platform.h' l='17'/>
-<use f='MOS/arch/x86/tasks/context.c' l='44' u='c'/>
+<use f='MOS/arch/x86/tasks/context.c' l='85' u='c'/>
 <use f='MOS/arch/x86/x86_platform.c' l='92' u='c'/>
 <use f='MOS/arch/x86/x86_platform.c' l='99' u='c'/>
 <use f='MOS/arch/x86/x86_platform.c' l='115' u='c'/>

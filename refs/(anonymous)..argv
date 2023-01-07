@@ -1,0 +1,8 @@
+<dec f='MOS/kernel/include/mos/platform/platform.h' l='76' type='const char **'/>
+<offset>64</offset>
+<use f='MOS/arch/x86/tasks/context.c' l='38' u='r' c='x86_switch_impl_setup_user_thread'/>
+<use f='MOS/kernel/kernel_init.c' l='115' u='w' c='mos_start_kernel'/>
+<use f='MOS/kernel/kernel_init.c' l='118' u='r' c='mos_start_kernel'/>
+<use f='MOS/kernel/kernel_init.c' l='119' u='r' c='mos_start_kernel'/>
+<use f='MOS/kernel/kernel_init.c' l='120' u='r' c='mos_start_kernel'/>
+<use f='MOS/kernel/ksyscall.c' l='153' u='w' c='impl_syscall_spawn'/>

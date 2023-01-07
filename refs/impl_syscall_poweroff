@@ -1,4 +1,4 @@
 <dec f='MOS/build/include/mos/syscall/dispatcher.h' l='21' type='void impl_syscall_poweroff(_Bool reboot, u32 magic)'/>
 <use f='MOS/build/include/mos/syscall/dispatcher.h' l='23' u='c' c='dispatch_syscall'/>
 <dec f='MOS/build/include/mos/syscall/decl.h' l='11' type='void impl_syscall_poweroff(_Bool reboot, u32 magic)'/>
-<def f='MOS/kernel/ksyscall.c' l='19' macro='1' type='void impl_syscall_poweroff(_Bool reboot, u32 magic)'/>
+<def f='MOS/kernel/ksyscall.c' l='21' macro='1' type='void impl_syscall_poweroff(_Bool reboot, u32 magic)'/>

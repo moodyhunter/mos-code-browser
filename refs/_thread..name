@@ -1,4 +1,4 @@
-<dec f='MOS/kernel/include/mos/tasks/task_types.h' l='83' type='const char *'/>
+<dec f='MOS/kernel/include/mos/tasks/task_types.h' l='85' type='const char *'/>
 <use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='203' u='r' c='x86_handle_exception'/>
 <offset>64</offset>
 <use f='MOS/kernel/tasks/fork.c' l='68' u='w' c='process_handle_fork'/>

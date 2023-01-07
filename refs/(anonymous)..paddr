@@ -1,5 +1,5 @@
 <dec f='MOS/arch/x86/include/mos/x86/acpi/acpi_types.h' l='57' type='u64'/>
-<dec f='MOS/kernel/include/mos/platform/platform.h' l='95' type='uintptr_t'/>
+<dec f='MOS/kernel/include/mos/platform/platform.h' l='101' type='uintptr_t'/>
 <offset>64</offset>
 <use f='MOS/arch/x86/interrupt/ioapic.c' l='98' u='w' c='ioapic_init'/>
 <use f='MOS/arch/x86/interrupt/lapic.c' l='154' u='w' c='lapic_memory_setup'/>

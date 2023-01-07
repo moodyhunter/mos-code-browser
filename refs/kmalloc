@@ -1,6 +1,6 @@
 <def f='MOS/kernel/include/mos/mm/kmalloc.h' l='10' ll='13' macro='1' type='void * kmalloc(size_t size)'/>
 <use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='74' u='c' c='x86_install_interrupt_handler'/>
-<use f='MOS/arch/x86/tasks/context.c' l='37' u='c' c='x86_copy_thread_context'/>
+<use f='MOS/arch/x86/tasks/context.c' l='78' u='c' c='x86_copy_thread_context'/>
 <use f='MOS/kernel/cmdline.c' l='13' u='c' c='mos_cmdline_create'/>
 <use f='MOS/kernel/cmdline.c' l='21' u='c' c='mos_cmdline_create'/>
 <use f='MOS/kernel/cmdline.c' l='42' u='c' c='mos_cmdline_create'/>
@@ -8,6 +8,8 @@
 <use f='MOS/kernel/filesystem/cpio/cpio.c' l='128' u='c' c='cpio_open'/>
 <use f='MOS/kernel/filesystem/filesystem.c' l='91' u='c' c='vfs_readlink'/>
 <use f='MOS/kernel/filesystem/pathutils.c' l='155' u='c' c='path_to_string_relative'/>
+<use f='MOS/kernel/kernel_init.c' l='115' u='c' c='mos_start_kernel'/>
+<use f='MOS/kernel/ksyscall.c' l='145' u='c' c='impl_syscall_spawn'/>
 <use f='MOS/kernel/mm/cow.c' l='29' u='c' c='copy_cow_pages_inplace'/>
 <use f='MOS/kernel/panic.c' l='94' u='c' c='mos_install_kpanic_hook'/>
 <use f='MOS/kernel/tasks/wait.c' l='33' u='c' c='wc_wait_for'/>

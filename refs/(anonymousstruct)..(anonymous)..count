@@ -1,4 +1,4 @@
-<dec f='MOS/kernel/include/mos/platform/platform.h' l='117' type='size_t'/>
+<dec f='MOS/kernel/include/mos/platform/platform.h' l='123' type='size_t'/>
 <offset>0</offset>
 <use f='MOS/arch/x86/mm/mm.c' l='11' u='r' c='mem_add_region'/>
 <use f='MOS/arch/x86/mm/mm.c' l='14' u='w' c='mem_add_region'/>

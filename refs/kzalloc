@@ -1,5 +1,5 @@
 <def f='MOS/kernel/include/mos/mm/kmalloc.h' l='30' ll='33' macro='1' type='void * kzalloc(size_t size)'/>
-<use f='MOS/arch/x86/tasks/context.c' l='27' u='c' c='x86_setup_thread_context'/>
+<use f='MOS/arch/x86/tasks/context.c' l='68' u='c' c='x86_setup_thread_context'/>
 <use f='MOS/arch/x86/x86_platform.c' l='188' u='c' c='x86_start_kernel'/>
 <use f='MOS/kernel/filesystem/filesystem.c' l='63' u='c' c='vfs_open'/>
 <use f='MOS/kernel/filesystem/mount.c' l='41' u='c' c='kmount'/>

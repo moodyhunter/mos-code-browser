@@ -1,4 +1,4 @@
 <dec f='MOS/kernel/include/mos/ipc/ipc.h' l='10' type='io_t * ipc_create(const char * name, size_t max_pending_connections)'/>
 <use f='MOS/kernel/device/device_manager.c' l='29' u='c' c='device_manager_init'/>
 <def f='MOS/kernel/ipc/ipc.c' l='238' ll='258' type='io_t * ipc_create(const char * name, size_t max_pending_connections)'/>
-<use f='MOS/kernel/ksyscall.c' l='303' u='c' c='impl_syscall_ipc_create'/>
+<use f='MOS/kernel/ksyscall.c' l='312' u='c' c='impl_syscall_ipc_create'/>

@@ -1,6 +1,6 @@
-<dec f='MOS/kernel/include/mos/tasks/task_types.h' l='89' type='thread_mode'/>
+<dec f='MOS/kernel/include/mos/tasks/task_types.h' l='91' type='thread_mode'/>
 <offset>704</offset>
-<use f='MOS/arch/x86/tasks/context.c' l='29' u='r' c='x86_setup_thread_context'/>
-<use f='MOS/arch/x86/tasks/context.c' l='59' u='r' c='x86_switch_to_thread'/>
+<use f='MOS/arch/x86/tasks/context.c' l='70' u='r' c='x86_setup_thread_context'/>
+<use f='MOS/arch/x86/tasks/context.c' l='100' u='r' c='x86_switch_to_thread'/>
 <use f='MOS/kernel/tasks/fork.c' l='65' u='r' c='process_handle_fork'/>
 <use f='MOS/kernel/tasks/thread.c' l='41' u='w' c='thread_allocate'/>

@@ -1,5 +1,5 @@
 <dec f='MOS/arch/x86/include/mos/x86/acpi/acpi_types.h' l='151' type='u32'/>
-<dec f='MOS/kernel/include/mos/platform/platform.h' l='102' type='uintptr_t'/>
+<dec f='MOS/kernel/include/mos/platform/platform.h' l='108' type='uintptr_t'/>
 <offset>0</offset>
 <use f='MOS/arch/x86/acpi/madt.c' l='56' u='r' c='madt_parse_table'/>
 <use f='MOS/arch/x86/acpi/madt.c' l='59' u='r' c='madt_parse_table'/>

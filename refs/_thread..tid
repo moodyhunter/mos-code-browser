@@ -1,19 +1,20 @@
-<dec f='MOS/kernel/include/mos/tasks/task_types.h' l='82' type='tid_t'/>
+<dec f='MOS/kernel/include/mos/tasks/task_types.h' l='84' type='tid_t'/>
 <use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='202' u='r' c='x86_handle_exception'/>
 <use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='291' u='r' c='x86_handle_interrupt'/>
 <offset>32</offset>
+<use f='MOS/arch/x86/tasks/context.c' l='34' u='r' c='x86_switch_impl_setup_user_thread'/>
 <use f='MOS/arch/x86/x86_platform.c' l='96' u='r' c='x86_kpanic_hook'/>
-<use f='MOS/kernel/ksyscall.c' l='158' u='r' c='impl_syscall_create_thread'/>
-<use f='MOS/kernel/ksyscall.c' l='164' u='r' c='impl_syscall_get_tid'/>
-<use f='MOS/kernel/ksyscall.c' l='170' u='r' c='impl_syscall_thread_exit'/>
-<use f='MOS/kernel/ksyscall.c' l='267' u='r' c='impl_syscall_mutex_acquire'/>
-<use f='MOS/kernel/ksyscall.c' l='271' u='r' c='impl_syscall_mutex_acquire'/>
+<use f='MOS/kernel/ksyscall.c' l='167' u='r' c='impl_syscall_create_thread'/>
+<use f='MOS/kernel/ksyscall.c' l='173' u='r' c='impl_syscall_get_tid'/>
+<use f='MOS/kernel/ksyscall.c' l='179' u='r' c='impl_syscall_thread_exit'/>
 <use f='MOS/kernel/ksyscall.c' l='276' u='r' c='impl_syscall_mutex_acquire'/>
-<use f='MOS/kernel/ksyscall.c' l='287' u='r' c='impl_syscall_mutex_release'/>
-<use f='MOS/kernel/ksyscall.c' l='293' u='r' c='impl_syscall_mutex_release'/>
+<use f='MOS/kernel/ksyscall.c' l='280' u='r' c='impl_syscall_mutex_acquire'/>
+<use f='MOS/kernel/ksyscall.c' l='285' u='r' c='impl_syscall_mutex_acquire'/>
+<use f='MOS/kernel/ksyscall.c' l='296' u='r' c='impl_syscall_mutex_release'/>
+<use f='MOS/kernel/ksyscall.c' l='302' u='r' c='impl_syscall_mutex_release'/>
 <use f='MOS/kernel/tasks/fork.c' l='73' u='a' c='process_handle_fork'/>
-<use f='MOS/kernel/tasks/process.c' l='169' u='r' c='process_attach_thread'/>
-<use f='MOS/kernel/tasks/process.c' l='191' u='r' c='process_handle_exit'/>
+<use f='MOS/kernel/tasks/process.c' l='170' u='r' c='process_attach_thread'/>
+<use f='MOS/kernel/tasks/process.c' l='194' u='r' c='process_handle_exit'/>
 <use f='MOS/kernel/tasks/schedule.c' l='47' u='r' c='schedule_to_thread'/>
 <use f='MOS/kernel/tasks/schedule.c' l='50' u='r' c='schedule_to_thread'/>
 <use f='MOS/kernel/tasks/schedule.c' l='79' u='r' c='reschedule_for_wait_condition'/>

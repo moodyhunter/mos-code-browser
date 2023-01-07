@@ -5,3 +5,4 @@
 <use f='MOS/arch/x86/include/mos/x86/x86_platform.h' l='75' u='c'/>
 <use f='MOS/arch/x86/boot/multiboot/startup.c' l='129' u='c'/>
 <use f='MOS/arch/x86/tasks/context.c' l='23' u='c'/>
+<use f='MOS/arch/x86/tasks/context.c' l='26' u='c'/>

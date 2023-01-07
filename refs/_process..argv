@@ -1,0 +1,5 @@
+<dec f='MOS/kernel/include/mos/tasks/task_types.h' l='69' type='argv_t'/>
+<offset>512</offset>
+<use f='MOS/arch/x86/tasks/context.c' l='38' u='m' c='x86_switch_impl_setup_user_thread'/>
+<use f='MOS/arch/x86/tasks/context.c' l='39' u='m' c='x86_switch_impl_setup_user_thread'/>
+<use f='MOS/kernel/tasks/process.c' l='108' u='w' c='process_new'/>

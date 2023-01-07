@@ -1,3 +1,3 @@
-<dec f='MOS/kernel/include/mos/platform/platform.h' l='156' type='vmblock_t platform_mm_get_block_info(paging_handle_t table, uintptr_t vaddr, size_t npages)'/>
+<dec f='MOS/kernel/include/mos/platform/platform.h' l='162' type='vmblock_t platform_mm_get_block_info(paging_handle_t table, uintptr_t vaddr, size_t npages)'/>
 <def f='MOS/arch/x86/x86_platform_api.c' l='137' ll='146' type='vmblock_t platform_mm_get_block_info(paging_handle_t table, uintptr_t vaddr, size_t npages)'/>
 <use f='MOS/kernel/mm/paging/paging.c' l='165' u='c' c='mm_get_block_info'/>

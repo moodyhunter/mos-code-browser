@@ -1,3 +1,5 @@
 <dec f='MOS/arch/x86/include/mos/x86/tasks/context.h' l='13' type='void *'/>
 <offset>736</offset>
-<use f='MOS/arch/x86/tasks/context.c' l='30' u='w' c='x86_setup_thread_context'/>
+<use f='MOS/arch/x86/tasks/context.c' l='36' u='r' c='x86_switch_impl_setup_user_thread'/>
+<use f='MOS/arch/x86/tasks/context.c' l='60' u='a' c='x86_switch_impl_setup_user_thread'/>
+<use f='MOS/arch/x86/tasks/context.c' l='71' u='w' c='x86_setup_thread_context'/>

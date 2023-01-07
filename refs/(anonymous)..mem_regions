@@ -1,4 +1,4 @@
-<dec f='MOS/kernel/include/mos/platform/platform.h' l='119' type='struct (unnamed struct at /home/runner/work/MOS/MOS/kernel/include/mos/platform/platform.h:115:5)'/>
+<dec f='MOS/kernel/include/mos/platform/platform.h' l='125' type='struct (unnamed struct at /home/runner/work/MOS/MOS/kernel/include/mos/platform/platform.h:121:5)'/>
 <offset>5952</offset>
 <use f='MOS/arch/x86/mm/mm.c' l='11' u='m' c='mem_add_region'/>
 <use f='MOS/arch/x86/mm/mm.c' l='14' u='m' c='mem_add_region'/>

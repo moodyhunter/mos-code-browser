@@ -7,6 +7,7 @@
  */</doc>
 <use f='MOS/arch/x86/devices/serial_console.c' l='32' u='c' c='serial_console_write'/>
 <use f='MOS/arch/x86/devices/serial_console.c' l='80' u='c' c='serial_console_set_color'/>
+<use f='MOS/arch/x86/tasks/context.c' l='44' u='c' c='x86_switch_impl_setup_user_thread'/>
 <use f='MOS/kernel/device/console.c' l='61' u='c' c='console_get_by_prefix'/>
 <use f='MOS/kernel/filesystem/pathutils.c' l='15' u='c' c='path_node_get_name'/>
 <use f='MOS/kernel/filesystem/pathutils.c' l='79' u='c' c='path_next_segment'/>

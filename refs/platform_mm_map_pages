@@ -1,4 +1,4 @@
-<dec f='MOS/kernel/include/mos/platform/platform.h' l='154' type='void platform_mm_map_pages(paging_handle_t table, vmblock_t block)'/>
-<doc f='MOS/kernel/include/mos/platform/platform.h' l='153'>// Platform Paging APIs</doc>
+<dec f='MOS/kernel/include/mos/platform/platform.h' l='160' type='void platform_mm_map_pages(paging_handle_t table, vmblock_t block)'/>
+<doc f='MOS/kernel/include/mos/platform/platform.h' l='159'>// Platform Paging APIs</doc>
 <def f='MOS/arch/x86/x86_platform_api.c' l='119' ll='126' type='void platform_mm_map_pages(paging_handle_t table, vmblock_t block)'/>
 <use f='MOS/kernel/mm/paging/paging.c' l='128' u='c' c='mm_map_allocated_pages'/>

@@ -1,9 +1,10 @@
-<dec f='MOS/kernel/include/mos/tasks/task_types.h' l='88' type='platform_context_t *'/>
+<dec f='MOS/kernel/include/mos/tasks/task_types.h' l='90' type='platform_context_t *'/>
 <use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='269' u='r' c='x86_handle_interrupt'/>
 <use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='270' u='r' c='x86_handle_interrupt'/>
 <use f='MOS/arch/x86/interrupt/x86_interrupt.c' l='292' u='r' c='x86_handle_interrupt'/>
 <offset>640</offset>
-<use f='MOS/arch/x86/tasks/context.c' l='31' u='w' c='x86_setup_thread_context'/>
-<use f='MOS/arch/x86/tasks/context.c' l='49' u='r' c='x86_switch_to_thread'/>
+<use f='MOS/arch/x86/tasks/context.c' l='29' u='r' c='x86_switch_impl_setup_user_thread'/>
+<use f='MOS/arch/x86/tasks/context.c' l='72' u='w' c='x86_setup_thread_context'/>
+<use f='MOS/arch/x86/tasks/context.c' l='90' u='r' c='x86_switch_to_thread'/>
 <use f='MOS/kernel/tasks/fork.c' l='70' u='r' c='process_handle_fork'/>
 <use f='MOS/kernel/tasks/fork.c' l='70' u='a' c='process_handle_fork'/>

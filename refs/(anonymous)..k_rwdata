@@ -1,4 +1,4 @@
-<dec f='MOS/kernel/include/mos/platform/platform.h' l='113' type='vmblock_t'/>
+<dec f='MOS/kernel/include/mos/platform/platform.h' l='119' type='vmblock_t'/>
 <offset>5440</offset>
 <use f='MOS/arch/x86/x86_platform.c' l='127' u='m' c='x86_start_kernel'/>
 <use f='MOS/arch/x86/x86_platform.c' l='128' u='m' c='x86_start_kernel'/>

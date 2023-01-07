@@ -30,17 +30,17 @@
 <use f='MOS/kernel/filesystem/mount.c' l='40' macro='1' u='r' c='kmount'/>
 <use f='MOS/kernel/ipc/ipc.c' l='38' macro='1' u='r' c='ipc_server_close'/>
 <use f='MOS/kernel/ipc/ipc.c' l='233' macro='1' u='r' c='ipc_init'/>
-<use f='MOS/kernel/kernel_init.c' l='61' macro='1' u='r' c='dump_cmdline'/>
-<use f='MOS/kernel/kernel_init.c' l='68' macro='1' u='r' c='dump_cmdline'/>
-<use f='MOS/kernel/kernel_init.c' l='69' macro='1' u='r' c='dump_cmdline'/>
-<use f='MOS/kernel/kernel_init.c' l='81' macro='1' u='r' c='mos_start_kernel'/>
-<use f='MOS/kernel/kernel_init.c' l='114' macro='1' u='r' c='mos_start_kernel'/>
+<use f='MOS/kernel/kernel_init.c' l='63' macro='1' u='r' c='dump_cmdline'/>
+<use f='MOS/kernel/kernel_init.c' l='70' macro='1' u='r' c='dump_cmdline'/>
+<use f='MOS/kernel/kernel_init.c' l='71' macro='1' u='r' c='dump_cmdline'/>
+<use f='MOS/kernel/kernel_init.c' l='83' macro='1' u='r' c='mos_start_kernel'/>
+<use f='MOS/kernel/kernel_init.c' l='125' macro='1' u='r' c='mos_start_kernel'/>
 <use f='MOS/kernel/mm/paging/pmalloc.c' l='32' macro='1' u='r' c='mos_pmm_setup'/>
 <use f='MOS/kernel/mm/paging/pmalloc.c' l='59' macro='1' u='r' c='pmalloc_dump'/>
 <use f='MOS/kernel/mm/paging/pmalloc.c' l='67' macro='1' u='r' c='pmalloc_dump'/>
 <use f='MOS/kernel/mm/shm.c' l='13' macro='1' u='r' c='shm_init'/>
 <use f='MOS/kernel/printk.c' l='61' c='deduce_level_color'/>
 <use f='MOS/kernel/printk.c' l='126' u='r' c='printk'/>
-<use f='MOS/kernel/tasks/process.c' l='183' macro='1' u='r' c='process_handle_exit'/>
-<use f='MOS/kernel/tasks/process.c' l='268' macro='1' u='r' c='process_dump_mmaps'/>
-<use f='MOS/kernel/tasks/process.c' l='286' macro='1' u='r' c='process_dump_mmaps'/>
+<use f='MOS/kernel/tasks/process.c' l='184' macro='1' u='r' c='process_handle_exit'/>
+<use f='MOS/kernel/tasks/process.c' l='271' macro='1' u='r' c='process_dump_mmaps'/>
+<use f='MOS/kernel/tasks/process.c' l='289' macro='1' u='r' c='process_dump_mmaps'/>

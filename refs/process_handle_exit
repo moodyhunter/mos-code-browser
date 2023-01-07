@@ -1,3 +1,3 @@
 <dec f='MOS/kernel/include/mos/tasks/process.h' l='33' type='void process_handle_exit(process_t * process, int exit_code)'/>
-<use f='MOS/kernel/ksyscall.c' l='99' u='c' c='impl_syscall_exit'/>
-<def f='MOS/kernel/tasks/process.c' l='180' ll='205' type='void process_handle_exit(process_t * process, int exit_code)'/>
+<use f='MOS/kernel/ksyscall.c' l='101' u='c' c='impl_syscall_exit'/>
+<def f='MOS/kernel/tasks/process.c' l='181' ll='208' type='void process_handle_exit(process_t * process, int exit_code)'/>

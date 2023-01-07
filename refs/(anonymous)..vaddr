@@ -1,4 +1,4 @@
-<dec f='MOS/kernel/include/mos/platform/platform.h' l='95' type='uintptr_t'/>
+<dec f='MOS/kernel/include/mos/platform/platform.h' l='101' type='uintptr_t'/>
 <offset>0</offset>
 <use f='MOS/arch/x86/interrupt/ioapic.c' l='97' u='w' c='ioapic_init'/>
 <use f='MOS/arch/x86/interrupt/lapic.c' l='153' u='w' c='lapic_memory_setup'/>
@@ -26,12 +26,12 @@
 <doc f='MOS/kernel/include/mos/elf/elf.h' l='149'>// Virtual address of the segment</doc>
 <use f='MOS/kernel/ipc/ipc.c' l='298' u='r' c='ipc_accept'/>
 <use f='MOS/kernel/ipc/ipc.c' l='346' u='r' c='ipc_connect'/>
-<use f='MOS/kernel/ksyscall.c' l='199' u='r' c='impl_syscall_heap_control'/>
-<use f='MOS/kernel/ksyscall.c' l='200' u='r' c='impl_syscall_heap_control'/>
-<use f='MOS/kernel/ksyscall.c' l='203' u='r' c='impl_syscall_heap_control'/>
-<use f='MOS/kernel/ksyscall.c' l='215' u='r' c='impl_syscall_heap_control'/>
-<use f='MOS/kernel/ksyscall.c' l='218' u='r' c='impl_syscall_heap_control'/>
+<use f='MOS/kernel/ksyscall.c' l='208' u='r' c='impl_syscall_heap_control'/>
+<use f='MOS/kernel/ksyscall.c' l='209' u='r' c='impl_syscall_heap_control'/>
+<use f='MOS/kernel/ksyscall.c' l='212' u='r' c='impl_syscall_heap_control'/>
 <use f='MOS/kernel/ksyscall.c' l='224' u='r' c='impl_syscall_heap_control'/>
+<use f='MOS/kernel/ksyscall.c' l='227' u='r' c='impl_syscall_heap_control'/>
+<use f='MOS/kernel/ksyscall.c' l='233' u='r' c='impl_syscall_heap_control'/>
 <use f='MOS/kernel/mm/cow.c' l='67' u='r' c='cow_handle_page_fault'/>
 <use f='MOS/kernel/mm/cow.c' l='68' u='r' c='cow_handle_page_fault'/>
 <use f='MOS/kernel/mm/cow.c' l='77' u='r' c='cow_handle_page_fault'/>
@@ -69,8 +69,8 @@
 <use f='MOS/kernel/tasks/fork.c' l='44' u='r' c='process_handle_fork'/>
 <use f='MOS/kernel/tasks/fork.c' l='44' u='r' c='process_handle_fork'/>
 <use f='MOS/kernel/tasks/fork.c' l='46' u='r' c='process_handle_fork'/>
-<use f='MOS/kernel/tasks/process.c' l='243' u='r' c='process_grow_heap'/>
-<use f='MOS/kernel/tasks/process.c' l='253' u='r' c='process_grow_heap'/>
-<use f='MOS/kernel/tasks/process.c' l='288' u='r' c='process_dump_mmaps'/>
+<use f='MOS/kernel/tasks/process.c' l='246' u='r' c='process_grow_heap'/>
+<use f='MOS/kernel/tasks/process.c' l='256' u='r' c='process_grow_heap'/>
+<use f='MOS/kernel/tasks/process.c' l='291' u='r' c='process_dump_mmaps'/>
 <use f='MOS/kernel/tasks/thread.c' l='68' u='r' c='thread_new'/>
 <use f='MOS/kernel/tasks/thread.c' l='75' u='r' c='thread_new'/>

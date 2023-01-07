@@ -1,1 +1,1 @@
-<def f='MOS/userspace/libuserspace.c' l='48' ll='55' type='void _start()'/>
+<def f='MOS/userspace/libuserspace.c' l='48' ll='55' type='void _start(size_t argc, char ** argv)'/>
