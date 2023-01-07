@@ -1,1 +1,3 @@
+mutex_release|mutex_release
+mutex_try_acquire_may_reschedule|mutex_try_acquire_may_reschedule
 multi_args_with_multiple_options|multi_args_with_multiple_options

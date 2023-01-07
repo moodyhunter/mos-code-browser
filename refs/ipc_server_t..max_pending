@@ -1,7 +1,7 @@
 <dec f='MOS/kernel/include/mos/ipc/ipc_types.h' l='59' type='size_t'/>
 <offset>384</offset>
-<use f='MOS/kernel/ipc/ipc.c' l='46' u='r' c='ipc_server_close'/>
-<use f='MOS/kernel/ipc/ipc.c' l='65' u='r' c='ipc_server_get_pending'/>
-<use f='MOS/kernel/ipc/ipc.c' l='252' u='w' c='ipc_create'/>
-<use f='MOS/kernel/ipc/ipc.c' l='272' u='r' c='ipc_accept'/>
-<use f='MOS/kernel/ipc/ipc.c' l='326' u='r' c='ipc_connect'/>
+<use f='MOS/kernel/ipc/ipc.c' l='47' u='r' c='ipc_server_close'/>
+<use f='MOS/kernel/ipc/ipc.c' l='66' u='r' c='ipc_server_get_pending'/>
+<use f='MOS/kernel/ipc/ipc.c' l='273' u='w' c='ipc_create'/>
+<use f='MOS/kernel/ipc/ipc.c' l='293' u='r' c='ipc_accept'/>
+<use f='MOS/kernel/ipc/ipc.c' l='347' u='r' c='ipc_connect'/>

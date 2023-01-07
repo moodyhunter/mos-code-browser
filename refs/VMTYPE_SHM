@@ -2,4 +2,4 @@
 <doc f='MOS/kernel/include/mos/platform/platform.h' l='60'>// shared memory</doc>
 <use f='MOS/kernel/mm/shm.c' l='21' u='r' c='shm_allocate'/>
 <use f='MOS/kernel/mm/shm.c' l='30' u='r' c='shm_map_shared_block'/>
-<use f='MOS/kernel/tasks/process.c' l='284' c='process_dump_mmaps'/>
+<use f='MOS/kernel/tasks/process.c' l='298' c='process_dump_mmaps'/>

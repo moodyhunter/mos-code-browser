@@ -1,5 +1,5 @@
 <dec f='MOS/kernel/include/mos/ipc/ipc_types.h' l='69' type='uintptr_t'/>
 <offset>1024</offset>
-<use f='MOS/kernel/ipc/ipc.c' l='131' u='r' c='ipc_connection_server_read'/>
-<use f='MOS/kernel/ipc/ipc.c' l='146' u='r' c='ipc_connection_server_write'/>
-<use f='MOS/kernel/ipc/ipc.c' l='298' u='w' c='ipc_accept'/>
+<use f='MOS/kernel/ipc/ipc.c' l='136' u='r' c='ipc_connection_server_read'/>
+<use f='MOS/kernel/ipc/ipc.c' l='155' u='r' c='ipc_connection_server_write'/>
+<use f='MOS/kernel/ipc/ipc.c' l='319' u='w' c='ipc_accept'/>

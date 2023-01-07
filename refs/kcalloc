@@ -1,7 +1,7 @@
 <def f='MOS/kernel/include/mos/mm/kmalloc.h' l='15' ll='18' macro='1' type='void * kcalloc(size_t nmemb, size_t size)'/>
 <use f='MOS/kernel/include/mos/mm/kmalloc.h' l='32' u='c' c='kzalloc'/>
 <use f='MOS/kernel/elf/elf.c' l='67' u='c' c='elf_create_process'/>
-<use f='MOS/kernel/ipc/ipc.c' l='253' u='c' c='ipc_create'/>
+<use f='MOS/kernel/ipc/ipc.c' l='274' u='c' c='ipc_create'/>
 <use f='MOS/tests/memops/test_memops.c' l='9' u='c' c='test_lib_memcpy'/>
 <use f='MOS/tests/memops/test_memops.c' l='10' u='c' c='test_lib_memcpy'/>
 <use f='MOS/tests/memops/test_memops.c' l='26' u='c' c='test_lib_memmove_simple'/>

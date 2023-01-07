@@ -1,4 +1,4 @@
 <dec f='MOS/kernel/include/mos/ipc/ipc_types.h' l='68' type='io_t'/>
 <offset>768</offset>
-<use f='MOS/kernel/ipc/ipc.c' l='357' u='a' c='ipc_connect'/>
-<use f='MOS/kernel/ipc/ipc.c' l='358' u='a' c='ipc_connect'/>
+<use f='MOS/kernel/ipc/ipc.c' l='378' u='a' c='ipc_connect'/>
+<use f='MOS/kernel/ipc/ipc.c' l='379' u='a' c='ipc_connect'/>

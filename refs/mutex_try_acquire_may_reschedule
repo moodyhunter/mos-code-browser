@@ -1,0 +1,9 @@
+<dec f='MOS/kernel/include/mos/mutex/mutex.h' l='13' type='void mutex_try_acquire_may_reschedule(_Bool * lock)'/>
+<use f='MOS/kernel/ipc/ipc.c' l='117' u='c' c='ipc_connection_server_read'/>
+<use f='MOS/kernel/ipc/ipc.c' l='126' u='c' c='ipc_connection_server_read'/>
+<use f='MOS/kernel/ipc/ipc.c' l='152' u='c' c='ipc_connection_server_write'/>
+<use f='MOS/kernel/ipc/ipc.c' l='183' u='c' c='ipc_connection_client_read'/>
+<use f='MOS/kernel/ipc/ipc.c' l='192' u='c' c='ipc_connection_client_read'/>
+<use f='MOS/kernel/ipc/ipc.c' l='218' u='c' c='ipc_connection_client_write'/>
+<use f='MOS/kernel/ksyscall.c' l='280' u='c' c='impl_syscall_mutex_acquire'/>
+<def f='MOS/kernel/mutex/mutex.c' l='9' ll='29' type='void mutex_try_acquire_may_reschedule(_Bool * mutex)'/>

@@ -1,0 +1,14 @@
+<dec f='MOS/kernel/include/mos/ipc/ipc_types.h' l='72' type='_Bool'/>
+<offset>1536</offset>
+<use f='MOS/kernel/ipc/ipc.c' l='117' u='a' c='ipc_connection_server_read'/>
+<use f='MOS/kernel/ipc/ipc.c' l='121' u='a' c='ipc_connection_server_read'/>
+<use f='MOS/kernel/ipc/ipc.c' l='126' u='a' c='ipc_connection_server_read'/>
+<use f='MOS/kernel/ipc/ipc.c' l='139' u='a' c='ipc_connection_server_read'/>
+<use f='MOS/kernel/ipc/ipc.c' l='152' u='a' c='ipc_connection_server_write'/>
+<use f='MOS/kernel/ipc/ipc.c' l='158' u='a' c='ipc_connection_server_write'/>
+<use f='MOS/kernel/ipc/ipc.c' l='183' u='a' c='ipc_connection_client_read'/>
+<use f='MOS/kernel/ipc/ipc.c' l='189' u='a' c='ipc_connection_client_read'/>
+<use f='MOS/kernel/ipc/ipc.c' l='192' u='a' c='ipc_connection_client_read'/>
+<use f='MOS/kernel/ipc/ipc.c' l='205' u='a' c='ipc_connection_client_read'/>
+<use f='MOS/kernel/ipc/ipc.c' l='218' u='a' c='ipc_connection_client_write'/>
+<use f='MOS/kernel/ipc/ipc.c' l='224' u='a' c='ipc_connection_client_write'/>

@@ -26,3 +26,4 @@
 <use f='MOS/kernel/mm/paging/paging.c' l='147' u='c'/>
 <use f='MOS/kernel/mm/paging/paging.c' l='157' u='c'/>
 <use f='MOS/kernel/mm/paging/paging.c' l='158' u='c'/>
+<use f='MOS/kernel/mutex/mutex.c' l='11' u='c'/>

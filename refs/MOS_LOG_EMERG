@@ -2,6 +2,7 @@
 <use f='MOS/kernel/elf/elf.c' l='71' macro='1' u='r' c='elf_create_process'/>
 <use f='MOS/kernel/elf/elf.c' l='78' macro='1' u='r' c='elf_create_process'/>
 <use f='MOS/kernel/mm/cow.c' l='102' macro='1' u='r' c='cow_handle_page_fault'/>
+<use f='MOS/kernel/mutex/mutex.c' l='13' macro='1' u='r' c='mutex_try_acquire_may_reschedule'/>
 <use f='MOS/kernel/panic.c' l='52' macro='1' u='r' c='mos_kpanic'/>
 <use f='MOS/kernel/panic.c' l='56' macro='1' u='r' c='mos_kpanic'/>
 <use f='MOS/kernel/panic.c' l='57' macro='1' u='r' c='mos_kpanic'/>

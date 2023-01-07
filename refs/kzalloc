@@ -6,8 +6,8 @@
 <use f='MOS/kernel/filesystem/pathutils.c' l='59' u='c' c='impl_path_get_subpath'/>
 <use f='MOS/kernel/io/terminal.c' l='61' u='c' c='terminal_create_console'/>
 <use f='MOS/kernel/io/terminal.c' l='70' u='c' c='terminal_create_pipe'/>
-<use f='MOS/kernel/ipc/ipc.c' l='234' u='c' c='ipc_init'/>
-<use f='MOS/kernel/ipc/ipc.c' l='249' u='c' c='ipc_create'/>
+<use f='MOS/kernel/ipc/ipc.c' l='255' u='c' c='ipc_init'/>
+<use f='MOS/kernel/ipc/ipc.c' l='270' u='c' c='ipc_create'/>
 <use f='MOS/kernel/mm/paging/paging.c' l='171' u='c' c='mm_create_user_pgd'/>
 <use f='MOS/kernel/tasks/kthread.c' l='37' u='c' c='kthread_create'/>
 <use f='MOS/kernel/tasks/process.c' l='37' u='c' c='process_allocate'/>

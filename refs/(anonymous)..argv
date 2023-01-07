@@ -5,4 +5,4 @@
 <use f='MOS/kernel/kernel_init.c' l='118' u='r' c='mos_start_kernel'/>
 <use f='MOS/kernel/kernel_init.c' l='119' u='r' c='mos_start_kernel'/>
 <use f='MOS/kernel/kernel_init.c' l='120' u='r' c='mos_start_kernel'/>
-<use f='MOS/kernel/ksyscall.c' l='153' u='w' c='impl_syscall_spawn'/>
+<use f='MOS/kernel/ksyscall.c' l='160' u='w' c='impl_syscall_spawn'/>

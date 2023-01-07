@@ -1,3 +1,3 @@
 <dec f='MOS/kernel/include/mos/mm/shm.h' l='13' type='shm_block_t shm_allocate(process_t * owner, size_t npages, mmap_flags flags, vm_flags vmflags)'/>
-<use f='MOS/kernel/ipc/ipc.c' l='341' u='c' c='ipc_connect'/>
+<use f='MOS/kernel/ipc/ipc.c' l='362' u='c' c='ipc_connect'/>
 <def f='MOS/kernel/mm/shm.c' l='16' ll='23' type='shm_block_t shm_allocate(process_t * owner, size_t npages, mmap_flags flags, vm_flags vmflags)'/>

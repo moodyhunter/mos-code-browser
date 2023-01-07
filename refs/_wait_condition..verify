@@ -1,5 +1,5 @@
 <dec f='MOS/kernel/include/mos/tasks/task_types.h' l='55' type='_Bool (*)(wait_condition_t *)'/>
 <offset>64</offset>
-<use f='MOS/kernel/tasks/wait.c' l='35' u='w' c='wc_wait_for'/>
-<use f='MOS/kernel/tasks/wait.c' l='42' u='r' c='wc_condition_verify'/>
+<use f='MOS/kernel/tasks/wait.c' l='36' u='w' c='wc_wait_for'/>
 <use f='MOS/kernel/tasks/wait.c' l='43' u='r' c='wc_condition_verify'/>
+<use f='MOS/kernel/tasks/wait.c' l='44' u='r' c='wc_condition_verify'/>

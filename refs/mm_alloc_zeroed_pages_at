@@ -1,4 +1,4 @@
 <dec f='MOS/kernel/include/mos/mm/memops.h' l='9' type='vmblock_t mm_alloc_zeroed_pages_at(paging_handle_t handle, uintptr_t vaddr, size_t npages, vm_flags flags)'/>
 <use f='MOS/kernel/elf/elf.c' l='209' u='c' c='elf_create_process'/>
 <def f='MOS/kernel/mm/memops.c' l='96' ll='114' type='vmblock_t mm_alloc_zeroed_pages_at(paging_handle_t handle, uintptr_t vaddr, size_t npages, vm_flags flags)'/>
-<use f='MOS/kernel/tasks/process.c' l='250' u='c' c='process_grow_heap'/>
+<use f='MOS/kernel/tasks/process.c' l='264' u='c' c='process_grow_heap'/>

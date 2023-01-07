@@ -1,4 +1,4 @@
 <dec f='MOS/kernel/include/mos/tasks/thread.h' l='22' type='thread_t * thread_allocate(process_t * owner, thread_mode tflags)'/>
-<use f='MOS/kernel/tasks/fork.c' l='65' u='c' c='process_handle_fork'/>
+<use f='MOS/kernel/tasks/fork.c' l='69' u='c' c='process_handle_fork'/>
 <def f='MOS/kernel/tasks/thread.c' l='34' ll='45' type='thread_t * thread_allocate(process_t * owner, thread_mode tflags)'/>
 <use f='MOS/kernel/tasks/thread.c' l='61' u='c' c='thread_new'/>

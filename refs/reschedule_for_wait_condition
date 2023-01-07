@@ -1,9 +1,9 @@
 <dec f='MOS/kernel/include/mos/tasks/schedule.h' l='12' type='void reschedule_for_wait_condition(wait_condition_t * wait_condition)'/>
-<use f='MOS/kernel/ipc/ipc.c' l='120' u='c' c='ipc_connection_server_read'/>
-<use f='MOS/kernel/ipc/ipc.c' l='176' u='c' c='ipc_connection_client_read'/>
-<use f='MOS/kernel/ipc/ipc.c' l='286' u='c' c='ipc_accept'/>
-<use f='MOS/kernel/ipc/ipc.c' l='317' u='c' c='ipc_connect'/>
-<use f='MOS/kernel/ipc/ipc.c' l='350' u='c' c='ipc_connect'/>
-<use f='MOS/kernel/ksyscall.c' l='266' u='c' c='impl_syscall_wait_for_thread'/>
-<use f='MOS/kernel/ksyscall.c' l='284' u='c' c='impl_syscall_mutex_acquire'/>
+<use f='MOS/kernel/ipc/ipc.c' l='124' u='c' c='ipc_connection_server_read'/>
+<use f='MOS/kernel/ipc/ipc.c' l='190' u='c' c='ipc_connection_client_read'/>
+<use f='MOS/kernel/ipc/ipc.c' l='307' u='c' c='ipc_accept'/>
+<use f='MOS/kernel/ipc/ipc.c' l='338' u='c' c='ipc_connect'/>
+<use f='MOS/kernel/ipc/ipc.c' l='371' u='c' c='ipc_connect'/>
+<use f='MOS/kernel/ksyscall.c' l='273' u='c' c='impl_syscall_wait_for_thread'/>
+<use f='MOS/kernel/mutex/mutex.c' l='26' u='c' c='mutex_try_acquire_may_reschedule'/>
 <def f='MOS/kernel/tasks/schedule.c' l='76' ll='84' type='void reschedule_for_wait_condition(wait_condition_t * wait_condition)'/>

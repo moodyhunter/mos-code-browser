@@ -1,5 +1,5 @@
-<dec f='MOS/kernel/include/mos/tasks/wait.h' l='10' type='0'/>
-<use f='MOS/kernel/ksyscall.c' l='274' u='r' c='impl_syscall_mutex_acquire'/>
-<use f='MOS/kernel/ksyscall.c' l='294' u='r' c='impl_syscall_mutex_release'/>
-<use f='MOS/kernel/ksyscall.c' l='300' u='r' c='impl_syscall_mutex_release'/>
-<use f='MOS/kernel/tasks/wait.c' l='18' u='r' c='mutex_is_ready'/>
+<dec f='MOS/kernel/include/mos/mutex/mutex.h' l='10' type='0'/>
+<use f='MOS/kernel/mutex/mutex.c' l='16' u='r' c='mutex_try_acquire_may_reschedule'/>
+<use f='MOS/kernel/mutex/mutex.c' l='34' u='r' c='mutex_release'/>
+<use f='MOS/kernel/mutex/mutex.c' l='40' u='r' c='mutex_release'/>
+<use f='MOS/kernel/tasks/wait.c' l='19' u='r' c='mutex_is_ready'/>

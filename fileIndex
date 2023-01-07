@@ -103,6 +103,7 @@ MOS/kernel/io/terminal.c
 MOS/kernel/include/mos/io/terminal.h
 MOS/kernel/ipc/ipc.c
 MOS/kernel/include/mos/mm/shm.h
+MOS/kernel/include/mos/mutex/mutex.h
 MOS/kernel/include/mos/tasks/thread.h
 MOS/kernel/include/mos/tasks/wait.h
 MOS/kernel/kernel_init.c
@@ -113,6 +114,7 @@ MOS/kernel/mm/memops.c
 MOS/kernel/mm/paging/paging.c
 MOS/kernel/mm/paging/pmalloc.c
 MOS/kernel/mm/shm.c
+MOS/kernel/mutex/mutex.c
 MOS/kernel/panic.c
 MOS/lib/include/lib/stdio.h
 MOS/kernel/printk.c

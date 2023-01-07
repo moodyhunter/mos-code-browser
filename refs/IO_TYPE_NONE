@@ -1,2 +1,2 @@
 <dec f='MOS/kernel/include/mos/io/io.h' l='12' type='0'/>
-<use f='MOS/kernel/ipc/ipc.c' l='254' u='r' c='ipc_create'/>
+<use f='MOS/kernel/ipc/ipc.c' l='275' u='r' c='ipc_create'/>

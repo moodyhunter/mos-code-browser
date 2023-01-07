@@ -3,6 +3,6 @@
 <def f='MOS/kernel/io/io.c' l='8' ll='14' type='void io_init(io_t * io, io_flags_t flags, const io_op_t * ops)'/>
 <use f='MOS/kernel/io/terminal.c' l='64' u='c' c='terminal_create_console'/>
 <use f='MOS/kernel/io/terminal.c' l='74' u='c' c='terminal_create_pipe'/>
-<use f='MOS/kernel/ipc/ipc.c' l='254' u='c' c='ipc_create'/>
-<use f='MOS/kernel/ipc/ipc.c' l='296' u='c' c='ipc_accept'/>
-<use f='MOS/kernel/ipc/ipc.c' l='357' u='c' c='ipc_connect'/>
+<use f='MOS/kernel/ipc/ipc.c' l='275' u='c' c='ipc_create'/>
+<use f='MOS/kernel/ipc/ipc.c' l='317' u='c' c='ipc_accept'/>
+<use f='MOS/kernel/ipc/ipc.c' l='378' u='c' c='ipc_connect'/>

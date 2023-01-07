@@ -28,8 +28,8 @@
 <use f='MOS/arch/x86/x86_platform.c' l='247' macro='1' u='r' c='x86_start_kernel'/>
 <use f='MOS/kernel/device/console.c' l='38' macro='1' u='r' c='console_register'/>
 <use f='MOS/kernel/filesystem/mount.c' l='40' macro='1' u='r' c='kmount'/>
-<use f='MOS/kernel/ipc/ipc.c' l='38' macro='1' u='r' c='ipc_server_close'/>
-<use f='MOS/kernel/ipc/ipc.c' l='233' macro='1' u='r' c='ipc_init'/>
+<use f='MOS/kernel/ipc/ipc.c' l='39' macro='1' u='r' c='ipc_server_close'/>
+<use f='MOS/kernel/ipc/ipc.c' l='254' macro='1' u='r' c='ipc_init'/>
 <use f='MOS/kernel/kernel_init.c' l='63' macro='1' u='r' c='dump_cmdline'/>
 <use f='MOS/kernel/kernel_init.c' l='70' macro='1' u='r' c='dump_cmdline'/>
 <use f='MOS/kernel/kernel_init.c' l='71' macro='1' u='r' c='dump_cmdline'/>
@@ -41,6 +41,6 @@
 <use f='MOS/kernel/mm/shm.c' l='13' macro='1' u='r' c='shm_init'/>
 <use f='MOS/kernel/printk.c' l='61' c='deduce_level_color'/>
 <use f='MOS/kernel/printk.c' l='126' u='r' c='printk'/>
-<use f='MOS/kernel/tasks/process.c' l='184' macro='1' u='r' c='process_handle_exit'/>
-<use f='MOS/kernel/tasks/process.c' l='271' macro='1' u='r' c='process_dump_mmaps'/>
-<use f='MOS/kernel/tasks/process.c' l='289' macro='1' u='r' c='process_dump_mmaps'/>
+<use f='MOS/kernel/tasks/process.c' l='189' macro='1' u='r' c='process_handle_exit'/>
+<use f='MOS/kernel/tasks/process.c' l='285' macro='1' u='r' c='process_dump_mmaps'/>
+<use f='MOS/kernel/tasks/process.c' l='303' macro='1' u='r' c='process_dump_mmaps'/>

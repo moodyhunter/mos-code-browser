@@ -4,7 +4,7 @@
 <use f='MOS/kernel/filesystem/cpio/cpio.c' l='27' u='c' c='cpio_read_metadata'/>
 <use f='MOS/kernel/filesystem/cpio/cpio.c' l='60' u='c' c='cpio_read_metadata'/>
 <use f='MOS/kernel/filesystem/mount.c' l='111' u='c' c='kmount_find_submp'/>
-<use f='MOS/kernel/ipc/ipc.c' l='33' u='c' c='ipc_server_compare'/>
+<use f='MOS/kernel/ipc/ipc.c' l='34' u='c' c='ipc_server_compare'/>
 <def f='MOS/lib/string.c' l='16' ll='22' type='s32 strcmp(const char * s1, const char * s2)'/>
 <use f='MOS/lib/structures/hashmap_common.c' l='27' u='c' c='hashmap_compare_string'/>
 <use f='MOS/tests/cmdline_parser/test_cmdline_parser.c' l='12' macro='1' u='c' c='simple_cmdline'/>

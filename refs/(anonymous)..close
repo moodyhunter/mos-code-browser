@@ -4,6 +4,6 @@
 <use f='MOS/kernel/io/io.c' l='56' u='r' c='io_unref'/>
 <use f='MOS/kernel/io/io.c' l='63' u='r' c='io_unref'/>
 <use f='MOS/kernel/io/terminal.c' l='51' u='w'/>
-<use f='MOS/kernel/ipc/ipc.c' l='60' u='w'/>
-<use f='MOS/kernel/ipc/ipc.c' l='222' u='w'/>
-<use f='MOS/kernel/ipc/ipc.c' l='228' u='w'/>
+<use f='MOS/kernel/ipc/ipc.c' l='61' u='w'/>
+<use f='MOS/kernel/ipc/ipc.c' l='243' u='w'/>
+<use f='MOS/kernel/ipc/ipc.c' l='249' u='w'/>

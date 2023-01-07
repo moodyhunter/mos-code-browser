@@ -1,4 +1,4 @@
 <dec f='MOS/kernel/include/mos/io/io.h' l='39' type='size_t io_write(io_t * io, const void * buf, size_t count)'/>
 <def f='MOS/kernel/io/io.c' l='91' ll='114' type='size_t io_write(io_t * io, const void * buf, size_t count)'/>
 <use f='MOS/kernel/io/terminal.c' l='27' u='c' c='terminal_io_write'/>
-<use f='MOS/kernel/ksyscall.c' l='83' u='c' c='impl_syscall_io_write'/>
+<use f='MOS/kernel/ksyscall.c' l='90' u='c' c='impl_syscall_io_write'/>
