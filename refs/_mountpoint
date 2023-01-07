@@ -4,7 +4,7 @@
 <size>64</size>
 <mbr r='_mountpoint::refcount' o='0' t='mos_refcount_t'/>
 <mbr r='_mountpoint::path' o='64' t='fsnode_t *'/>
-<mbr r='_mountpoint::fs' o='128' t='filesystem_t *'/>
+<mbr r='_mountpoint::fs' o='128' t='const filesystem_t *'/>
 <mbr r='_mountpoint::dev' o='192' t='blockdev_t *'/>
 <mbr r='_mountpoint::fs_data' o='256' t='void *'/>
 <mbr r='_mountpoint::children_count' o='320' t='size_t'/>
