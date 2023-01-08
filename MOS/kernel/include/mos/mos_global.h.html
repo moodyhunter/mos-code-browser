@@ -44,7 +44,7 @@
 <tr><th id="31">31</th><td></td></tr>
 <tr><th id="32">32</th><td><u>#define <dfn class="macro" id="_M/to_union" data-ref="_M/to_union">to_union</dfn>(u) __extension__(u)</u></td></tr>
 <tr><th id="33">33</th><td></td></tr>
-<tr><th id="34">34</th><td><u>#define <dfn class="macro" id="_M/container_of" data-ref="_M/container_of">container_of</dfn>(ptr, type, member) ((type *) (<span class='warning' title="cast to &apos;char *&apos; from smaller integer type &apos;unsigned int&apos;">(</span>char *) (ptr) - (offsetof(type, member))))</u></td></tr>
+<tr><th id="34">34</th><td><u>#define <dfn class="macro" id="_M/container_of" data-ref="_M/container_of">container_of</dfn>(ptr, type, member) ((type *) ((char *) (ptr) - (offsetof(type, member))))</u></td></tr>
 <tr><th id="35">35</th><td></td></tr>
 <tr><th id="36">36</th><td><u>#define <dfn class="macro" id="_M/GET_BIT" data-ref="_M/GET_BIT">GET_BIT</dfn>(x, n)               (((x) &gt;&gt; (n)) &amp; 1)</u></td></tr>
 <tr><th id="37">37</th><td><u>#define <dfn class="macro" id="_M/MASK_BITS" data-ref="_M/MASK_BITS">MASK_BITS</dfn>(value, width)     ((value) &amp; ((1 &lt;&lt; (width)) - 1))</u></td></tr>
