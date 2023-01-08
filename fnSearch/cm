@@ -1,3 +1,4 @@
+cmdline_arg_get_bool|cmdline_arg_get_bool
 cmdline_create|cmdline_create
 cmdline_destroy|cmdline_destroy
 cmdline_remove_option|cmdline_remove_option

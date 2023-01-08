@@ -1,5 +1,13 @@
 <dec f='MOS/lib/include/lib/string.h' l='14' type='s32 strcmp(const char * str1, const char * str2)'/>
-<use f='MOS/kernel/cmdline.c' l='77' u='c' c='cmdline_remove_option'/>
+<use f='MOS/kernel/cmdline.c' l='78' u='c' c='cmdline_remove_option'/>
+<use f='MOS/kernel/cmdline.c' l='101' u='c' c='cmdline_is_truthy'/>
+<use f='MOS/kernel/cmdline.c' l='101' u='c' c='cmdline_is_truthy'/>
+<use f='MOS/kernel/cmdline.c' l='101' u='c' c='cmdline_is_truthy'/>
+<use f='MOS/kernel/cmdline.c' l='101' u='c' c='cmdline_is_truthy'/>
+<use f='MOS/kernel/cmdline.c' l='106' u='c' c='cmdline_is_falsy'/>
+<use f='MOS/kernel/cmdline.c' l='106' u='c' c='cmdline_is_falsy'/>
+<use f='MOS/kernel/cmdline.c' l='106' u='c' c='cmdline_is_falsy'/>
+<use f='MOS/kernel/cmdline.c' l='106' u='c' c='cmdline_is_falsy'/>
 <use f='MOS/kernel/device/console.c' l='51' u='c' c='console_get'/>
 <use f='MOS/kernel/filesystem/cpio/cpio.c' l='27' u='c' c='cpio_read_metadata'/>
 <use f='MOS/kernel/filesystem/cpio/cpio.c' l='60' u='c' c='cpio_read_metadata'/>

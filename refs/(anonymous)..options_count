@@ -1,11 +1,11 @@
 <dec f='MOS/kernel/include/mos/cmdline.h' l='19' type='size_t'/>
 <use f='MOS/kernel/cmdline.c' l='20' u='r' c='cmdline_create'/>
 <use f='MOS/kernel/cmdline.c' l='21' u='w' c='cmdline_create'/>
-<use f='MOS/kernel/cmdline.c' l='75' u='r' c='cmdline_remove_option'/>
-<use f='MOS/kernel/cmdline.c' l='80' u='w' c='cmdline_remove_option'/>
-<use f='MOS/kernel/cmdline.c' l='81' u='r' c='cmdline_remove_option'/>
+<use f='MOS/kernel/cmdline.c' l='76' u='r' c='cmdline_remove_option'/>
+<use f='MOS/kernel/cmdline.c' l='81' u='w' c='cmdline_remove_option'/>
 <use f='MOS/kernel/cmdline.c' l='82' u='r' c='cmdline_remove_option'/>
-<use f='MOS/kernel/cmdline.c' l='91' u='r' c='cmdline_destroy'/>
+<use f='MOS/kernel/cmdline.c' l='83' u='r' c='cmdline_remove_option'/>
+<use f='MOS/kernel/cmdline.c' l='92' u='r' c='cmdline_destroy'/>
 <offset>0</offset>
 <use f='MOS/kernel/kernel_init.c' l='66' u='r' c='mos_start_kernel'/>
 <use f='MOS/kernel/kernel_init.c' l='67' u='r' c='mos_start_kernel'/>

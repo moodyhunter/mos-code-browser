@@ -2,5 +2,5 @@
 <use f='MOS/kernel/kernel_init.c' l='42' u='c'/>
 <use f='MOS/kernel/printk.c' l='48' u='c'/>
 <use f='MOS/tests/test_engine.c' l='88' u='c'/>
-<use f='MOS/tests/test_engine.c' l='98' u='c'/>
-<use f='MOS/tests/test_engine.c' l='153' u='c'/>
+<use f='MOS/tests/test_engine.c' l='96' u='c'/>
+<use f='MOS/tests/test_engine.c' l='151' u='c'/>

@@ -1,4 +1,4 @@
 <dec f='MOS/kernel/include/mos/platform/platform.h' l='141' type='void platform_shutdown()'/>
 <def f='MOS/arch/x86/x86_platform_api.c' l='16' ll='23' macro='1' type='void platform_shutdown()'/>
 <use f='MOS/kernel/ksyscall.c' l='30' u='c' c='impl_syscall_poweroff'/>
-<use f='MOS/tests/test_engine.c' l='148' u='c' c='mos_test_engine_run_tests'/>
+<use f='MOS/tests/test_engine.c' l='146' u='c' c='mos_test_engine_run_tests'/>

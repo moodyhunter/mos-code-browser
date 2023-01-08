@@ -1,5 +1,5 @@
 <dec f='MOS/kernel/include/mos/cmdline.h' l='27' type='void cmdline_destroy(cmdline_t * cmdline)'/>
-<def f='MOS/kernel/cmdline.c' l='89' ll='96' type='void cmdline_destroy(cmdline_t * cmdline)'/>
+<def f='MOS/kernel/cmdline.c' l='90' ll='97' type='void cmdline_destroy(cmdline_t * cmdline)'/>
 <use f='MOS/tests/cmdline_parser/test_cmdline_parser.c' l='14' u='c' c='simple_cmdline'/>
 <use f='MOS/tests/cmdline_parser/test_cmdline_parser.c' l='27' u='c' c='two_arguments'/>
 <use f='MOS/tests/cmdline_parser/test_cmdline_parser.c' l='56' u='c' c='many_arguments'/>

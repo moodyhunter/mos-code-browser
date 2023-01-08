@@ -180,5 +180,5 @@
 <use f='MOS/lib/structures/tree.c' l='25' macro='1' u='c' c='tree_remove_if'/>
 <use f='MOS/lib/structures/tree.c' l='27' macro='1' u='c' c='tree_remove_if'/>
 <use f='MOS/tests/test_engine.c' l='71' macro='1' u='c' c='test_engine_warning_handler'/>
-<use f='MOS/tests/test_engine.c' l='137' macro='1' u='c' c='mos_test_engine_run_tests'/>
-<use f='MOS/tests/test_engine.c' l='150' macro='1' u='c' c='mos_test_engine_run_tests'/>
+<use f='MOS/tests/test_engine.c' l='135' macro='1' u='c' c='mos_test_engine_run_tests'/>
+<use f='MOS/tests/test_engine.c' l='148' macro='1' u='c' c='mos_test_engine_run_tests'/>

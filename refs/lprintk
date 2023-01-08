@@ -74,6 +74,8 @@
 <use f='MOS/arch/x86/x86_platform.c' l='247' macro='1' u='c' c='x86_start_kernel'/>
 <use f='MOS/arch/x86/x86_platform_api.c' l='121' macro='1' u='c' c='platform_mm_map_pages'/>
 <use f='MOS/arch/x86/x86_platform_api.c' l='130' macro='1' u='c' c='platform_mm_unmap_pages'/>
+<use f='MOS/kernel/cmdline.c' l='115' macro='1' u='c' c='cmdline_arg_get_bool'/>
+<use f='MOS/kernel/cmdline.c' l='122' macro='1' u='c' c='cmdline_arg_get_bool'/>
 <use f='MOS/kernel/device/console.c' l='38' macro='1' u='c' c='console_register'/>
 <use f='MOS/kernel/device/console.c' l='42' macro='1' u='c' c='console_register'/>
 <use f='MOS/kernel/elf/elf.c' l='71' macro='1' u='c' c='elf_create_process'/>
@@ -188,8 +190,8 @@
 <use f='MOS/kernel/printk.c' l='38' macro='1' u='c' c='printk_setup_console'/>
 <def f='MOS/kernel/printk.c' l='109' ll='115' type='void lprintk(mos_log_level_t loglevel, const char * format)'/>
 <use f='MOS/kernel/setup.c' l='29' macro='1' u='c' c='invoke_setup_functions'/>
-<use f='MOS/kernel/setup.c' l='34' macro='1' u='c' c='invoke_setup_functions'/>
-<use f='MOS/kernel/setup.c' l='38' macro='1' u='c' c='invoke_setup_functions'/>
+<use f='MOS/kernel/setup.c' l='33' macro='1' u='c' c='invoke_setup_functions'/>
+<use f='MOS/kernel/setup.c' l='37' macro='1' u='c' c='invoke_setup_functions'/>
 <use f='MOS/kernel/tasks/fork.c' l='20' macro='1' u='c' c='process_handle_fork'/>
 <use f='MOS/kernel/tasks/fork.c' l='28' macro='1' u='c' c='process_handle_fork'/>
 <use f='MOS/kernel/tasks/fork.c' l='38' macro='1' u='c' c='process_handle_fork'/>
@@ -208,4 +210,4 @@
 <use f='MOS/kernel/tasks/schedule.c' l='50' macro='1' u='c' c='schedule_to_thread'/>
 <use f='MOS/tests/test_engine.c' l='69' u='c' c='test_engine_warning_handler'/>
 <use f='MOS/tests/test_engine.c' l='70' u='c' c='test_engine_warning_handler'/>
-<use f='MOS/tests/test_engine.c' l='143' macro='1' u='c' c='mos_test_engine_run_tests'/>
+<use f='MOS/tests/test_engine.c' l='141' macro='1' u='c' c='mos_test_engine_run_tests'/>

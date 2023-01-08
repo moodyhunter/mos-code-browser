@@ -2,10 +2,10 @@
 <use f='MOS/arch/x86/x86_platform_api.c' l='96' u='c' c='platform_mm_destroy_user_pgd'/>
 <use f='MOS/kernel/cmdline.c' l='66' u='c' c='cmdline_free_option'/>
 <use f='MOS/kernel/cmdline.c' l='68' u='c' c='cmdline_free_option'/>
-<use f='MOS/kernel/cmdline.c' l='69' u='c' c='cmdline_free_option'/>
 <use f='MOS/kernel/cmdline.c' l='70' u='c' c='cmdline_free_option'/>
-<use f='MOS/kernel/cmdline.c' l='94' u='c' c='cmdline_destroy'/>
+<use f='MOS/kernel/cmdline.c' l='71' u='c' c='cmdline_free_option'/>
 <use f='MOS/kernel/cmdline.c' l='95' u='c' c='cmdline_destroy'/>
+<use f='MOS/kernel/cmdline.c' l='96' u='c' c='cmdline_destroy'/>
 <use f='MOS/kernel/elf/elf.c' l='231' u='c' c='elf_create_process'/>
 <use f='MOS/kernel/filesystem/filesystem.c' l='24' u='c' c='vfs_io_ops_close'/>
 <use f='MOS/kernel/filesystem/filesystem.c' l='67' u='c' c='vfs_open'/>

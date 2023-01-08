@@ -1,0 +1,3 @@
+<dec f='MOS/kernel/include/mos/cmdline.h' l='29' type='_Bool cmdline_arg_get_bool(const char * s, int argc, const char ** argv, _Bool default_value)'/>
+<def f='MOS/kernel/cmdline.c' l='109' ll='125' macro='1' type='_Bool cmdline_arg_get_bool(const char * s, int argc, const char ** argv, _Bool default_value)'/>
+<use f='MOS/tests/test_engine.c' l='92' u='c' c='mos_tests_setup_halt_on_success'/>

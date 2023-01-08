@@ -87,7 +87,7 @@
 <use f='MOS/kernel/mutex/mutex.c' l='42' macro='1' u='r' c='mutex_release'/>
 <use f='MOS/kernel/printk.c' l='55' c='deduce_level_color'/>
 <use f='MOS/kernel/setup.c' l='29' macro='1' u='r' c='invoke_setup_functions'/>
-<use f='MOS/kernel/setup.c' l='34' macro='1' u='r' c='invoke_setup_functions'/>
+<use f='MOS/kernel/setup.c' l='33' macro='1' u='r' c='invoke_setup_functions'/>
 <use f='MOS/kernel/tasks/fork.c' l='28' macro='1' u='r' c='process_handle_fork'/>
 <use f='MOS/kernel/tasks/fork.c' l='38' macro='1' u='r' c='process_handle_fork'/>
 <use f='MOS/kernel/tasks/fork.c' l='46' macro='1' u='r' c='process_handle_fork'/>
