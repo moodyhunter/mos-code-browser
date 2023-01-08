@@ -16,5 +16,5 @@
 <use f='MOS/arch/x86/boot/multiboot/startup.c' l='54' u='r' c='x86_startup'/>
 <use f='MOS/arch/x86/boot/multiboot/startup.c' l='54' u='r' c='x86_startup'/>
 <use f='MOS/arch/x86/devices/serial_console.c' l='53' u='r' c='get_ansi_color'/>
-<use f='MOS/kernel/printk.c' l='61' u='r' c='deduce_level_color'/>
-<use f='MOS/tests/test_engine.c' l='46' u='r' c='mos_test_engine_log'/>
+<use f='MOS/kernel/printk.c' l='56' u='r' c='deduce_level_color'/>
+<use f='MOS/tests/test_engine.c' l='48' u='r' c='mos_test_engine_log'/>

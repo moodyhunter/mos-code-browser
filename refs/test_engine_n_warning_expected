@@ -281,6 +281,6 @@
 <use f='MOS/tests/printf/test_printf.c' l='798' macro='1' u='w' c='printf_tests_github'/>
 <use f='MOS/tests/printf/test_printf.c' l='798' macro='1' u='r' c='printf_tests_github'/>
 <use f='MOS/tests/printf/test_printf.c' l='798' macro='1' u='r' c='printf_tests_github'/>
-<def f='MOS/tests/test_engine.c' l='15' type='s32'/>
-<use f='MOS/tests/test_engine.c' l='60' u='r' c='test_engine_warning_handler'/>
-<use f='MOS/tests/test_engine.c' l='72' u='w' c='test_engine_warning_handler'/>
+<def f='MOS/tests/test_engine.c' l='17' type='s32'/>
+<use f='MOS/tests/test_engine.c' l='62' u='r' c='test_engine_warning_handler'/>
+<use f='MOS/tests/test_engine.c' l='74' u='w' c='test_engine_warning_handler'/>

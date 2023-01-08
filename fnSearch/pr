@@ -1,7 +1,6 @@
 print_debug_info|print_debug_info
 process_is_valid|process_is_valid
 printk|printk
-printk_setup_console|printk_setup_console
 process_handle_fork|process_handle_fork
 process_allocate|process_allocate
 process_attach_mmap|process_attach_mmap

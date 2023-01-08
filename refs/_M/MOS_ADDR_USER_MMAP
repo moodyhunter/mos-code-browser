@@ -1,2 +1,2 @@
-<dec f='MOS/build/include/mos/kconfig.h' l='37'/>
+<dec f='MOS/build/include/mos/kconfig.h' l='38'/>
 <use f='MOS/kernel/mm/paging/paging.c' l='68' u='c'/>

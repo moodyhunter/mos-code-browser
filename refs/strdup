@@ -3,10 +3,12 @@
 <use f='MOS/kernel/filesystem/pathutils.c' l='152' u='c' c='path_to_string_relative'/>
 <use f='MOS/kernel/ipc/ipc.c' l='272' u='c' c='ipc_create'/>
 <use f='MOS/kernel/ipc/ipc.c' l='337' u='c' c='ipc_connect'/>
-<use f='MOS/kernel/kernel_init.c' l='118' u='c' c='mos_start_kernel'/>
-<use f='MOS/kernel/kernel_init.c' l='119' u='c' c='mos_start_kernel'/>
+<use f='MOS/kernel/kernel_init.c' l='37' u='c' c='setup_init_path'/>
+<use f='MOS/kernel/kernel_init.c' l='104' u='c' c='mos_start_kernel'/>
+<use f='MOS/kernel/kernel_init.c' l='105' u='c' c='mos_start_kernel'/>
 <use f='MOS/kernel/ksyscall.c' l='157' u='c' c='impl_syscall_spawn'/>
 <use f='MOS/kernel/tasks/fork.c' l='72' u='c' c='process_handle_fork'/>
 <use f='MOS/kernel/tasks/process.c' l='61' u='c' c='process_allocate'/>
 <use f='MOS/kernel/tasks/thread.c' l='63' u='c' c='thread_new'/>
 <def f='MOS/lib/string.c' l='147' ll='152' type='char * strdup(const char * src)'/>
+<use f='MOS/tests/test_engine.c' l='84' u='c' c='mos_test_engine_setup_skip_prefix_list'/>

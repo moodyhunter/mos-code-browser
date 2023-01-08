@@ -1,8 +1,8 @@
 <dec f='MOS/kernel/include/mos/mos_global.h' l='26'/>
-<use f='MOS/arch/x86/include/mos/x86/cpu/cpu.h' l='8' u='c'/>
-<use f='MOS/arch/x86/include/mos/x86/cpu/cpu.h' l='13' u='c'/>
-<use f='MOS/arch/x86/include/mos/x86/cpu/cpu.h' l='18' u='c'/>
-<use f='MOS/arch/x86/include/mos/x86/cpu/cpu.h' l='23' u='c'/>
+<use f='MOS/arch/x86/include/mos/x86/cpu/cpu.h' l='9' u='c'/>
+<use f='MOS/arch/x86/include/mos/x86/cpu/cpu.h' l='14' u='c'/>
+<use f='MOS/arch/x86/include/mos/x86/cpu/cpu.h' l='19' u='c'/>
+<use f='MOS/arch/x86/include/mos/x86/cpu/cpu.h' l='25' u='c'/>
 <use f='MOS/arch/x86/acpi/acpi.c' l='20' u='c'/>
 <use f='MOS/lib/include/lib/sync/spinlock.h' l='17' u='c'/>
 <use f='MOS/lib/include/lib/sync/spinlock.h' l='23' u='c'/>

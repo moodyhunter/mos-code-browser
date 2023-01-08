@@ -1,4 +1,4 @@
-<dec f='MOS/build/include/mos/kconfig.h' l='34'/>
+<dec f='MOS/build/include/mos/kconfig.h' l='35'/>
 <use f='MOS/kernel/include/mos/boot/startup.h' l='34' u='c'/>
 <use f='MOS/kernel/include/mos/boot/startup.h' l='34' u='c'/>
 <use f='MOS/kernel/include/mos/boot/startup.h' l='41' u='c'/>

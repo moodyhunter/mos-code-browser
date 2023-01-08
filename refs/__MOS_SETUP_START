@@ -1,0 +1,3 @@
+<dec f='MOS/kernel/setup.c' l='21' type='const setup_func_t[]'/>
+<use f='MOS/kernel/setup.c' l='24' u='r' c='invoke_setup_functions'/>
+<doc f='MOS/kernel/setup.c' l='21'>// defined in linker script</doc>

@@ -297,7 +297,7 @@
 <tr><th id="284">284</th><td>} <dfn class="typedef" id="mos_test_func_t" title='mos_test_func_t' data-type='struct mos_test_func_t' data-ref="mos_test_func_t" data-ref-filename="mos_test_func_t">mos_test_func_t</dfn>;</td></tr>
 <tr><th id="285">285</th><td></td></tr>
 <tr><th id="286">286</th><td><i>// ELF Section based test registration</i></td></tr>
-<tr><th id="287">287</th><td><u>#define <dfn class="macro" id="_M/_MT_REGISTER_TEST_CASE" data-ref="_M/_MT_REGISTER_TEST_CASE">_MT_REGISTER_TEST_CASE</dfn>(_TName, _TFunc) const mos_test_func_t __section(.mos.test_cases) MOS_CONCAT(test_cases_##_TName##_L, __LINE__) = { _TFunc, #_TName }</u></td></tr>
+<tr><th id="287">287</th><td><u>#define <dfn class="macro" id="_M/_MT_REGISTER_TEST_CASE" data-ref="_M/_MT_REGISTER_TEST_CASE">_MT_REGISTER_TEST_CASE</dfn>(_TName, _TFunc) const mos_test_func_t __section(".mos.test_cases") MOS_CONCAT(test_cases_##_TName##_L, __LINE__) = { _TFunc, #_TName }</u></td></tr>
 <tr><th id="288">288</th><td><u>#define <dfn class="macro" id="_M/MOS_TEST_FOREACH_TEST_CASE" data-ref="_M/MOS_TEST_FOREACH_TEST_CASE">MOS_TEST_FOREACH_TEST_CASE</dfn>(_FPtr)      for (const mos_test_func_t *_FPtr = __MOS_TEST_CASES_START; _FPtr != __MOS_TEST_CASES_END; _FPtr++)</u></td></tr>
 <tr><th id="289">289</th><td></td></tr>
 <tr><th id="290">290</th><td><i>// Defined by the linker, do not rename.</i></td></tr>

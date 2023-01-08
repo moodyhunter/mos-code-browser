@@ -61,8 +61,9 @@
 <use f='MOS/kernel/ipc/ipc.c' l='339' macro='1' u='r' c='ipc_connect'/>
 <use f='MOS/kernel/ipc/ipc.c' l='344' macro='1' u='r' c='ipc_connect'/>
 <use f='MOS/kernel/ipc/ipc.c' l='377' macro='1' u='r' c='ipc_connect'/>
-<use f='MOS/kernel/kernel_init.c' l='31' macro='1' u='r' c='mount_initrd'/>
-<use f='MOS/kernel/kernel_init.c' l='37' macro='1' u='r' c='mount_initrd'/>
+<use f='MOS/kernel/kernel_init.c' l='49' macro='1' u='r' c='mount_initrd'/>
+<use f='MOS/kernel/kernel_init.c' l='55' macro='1' u='r' c='mount_initrd'/>
+<use f='MOS/kernel/kernel_init.c' l='74' macro='1' u='r' c='mos_start_kernel'/>
 <use f='MOS/kernel/ksyscall.c' l='107' macro='1' u='r' c='impl_syscall_exit'/>
 <use f='MOS/kernel/ksyscall.c' l='186' macro='1' u='r' c='impl_syscall_thread_exit'/>
 <use f='MOS/kernel/mm/cow.c' l='77' macro='1' u='r' c='cow_handle_page_fault'/>
@@ -84,7 +85,9 @@
 <use f='MOS/kernel/mutex/mutex.c' l='22' macro='1' u='r' c='mutex_try_acquire_may_reschedule'/>
 <use f='MOS/kernel/mutex/mutex.c' l='27' macro='1' u='r' c='mutex_try_acquire_may_reschedule'/>
 <use f='MOS/kernel/mutex/mutex.c' l='42' macro='1' u='r' c='mutex_release'/>
-<use f='MOS/kernel/printk.c' l='60' c='deduce_level_color'/>
+<use f='MOS/kernel/printk.c' l='55' c='deduce_level_color'/>
+<use f='MOS/kernel/setup.c' l='29' macro='1' u='r' c='invoke_setup_functions'/>
+<use f='MOS/kernel/setup.c' l='34' macro='1' u='r' c='invoke_setup_functions'/>
 <use f='MOS/kernel/tasks/fork.c' l='28' macro='1' u='r' c='process_handle_fork'/>
 <use f='MOS/kernel/tasks/fork.c' l='38' macro='1' u='r' c='process_handle_fork'/>
 <use f='MOS/kernel/tasks/fork.c' l='46' macro='1' u='r' c='process_handle_fork'/>

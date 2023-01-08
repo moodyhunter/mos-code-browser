@@ -5,9 +5,6 @@ mos_startup_map_pages|mos_startup_map_pages
 mos_startup_memzero|mos_startup_memzero
 mos_startup_strlen|mos_startup_strlen
 mos_startup_map_single_page|mos_startup_map_single_page
-mos_cmdline_create|mos_cmdline_create
-mos_cmdline_destroy|mos_cmdline_destroy
-mos_cmdline_get_arg|mos_cmdline_get_arg
 mos_start_kernel|mos_start_kernel
 mount_initrd|mount_initrd
 mos_kernel_mm_init|mos_kernel_mm_init
@@ -17,4 +14,3 @@ mos_kpanic|mos_kpanic
 mos_kwarn|mos_kwarn
 mos_update_current|mos_update_current
 mos_test_engine_log|mos_test_engine_log
-mos_test_engine_run_tests|mos_test_engine_run_tests

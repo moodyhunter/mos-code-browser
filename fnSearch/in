@@ -1,4 +1,5 @@
 initrd_read|initrd_read
+invoke_setup_functions|invoke_setup_functions
 integer_extreme_case|integer_extreme_case
 integer_left_justified|integer_left_justified
 integer_no_precision|integer_no_precision

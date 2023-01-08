@@ -12,7 +12,7 @@
 <use f='MOS/kernel/filesystem/pathutils.c' l='15' u='c' c='path_node_get_name'/>
 <use f='MOS/kernel/filesystem/pathutils.c' l='79' u='c' c='path_next_segment'/>
 <use f='MOS/kernel/filesystem/pathutils.c' l='160' u='c' c='path_to_string_relative'/>
-<use f='MOS/kernel/printk.c' l='99' u='c' c='lvprintk'/>
+<use f='MOS/kernel/printk.c' l='94' u='c' c='lvprintk'/>
 <use f='MOS/lib/stdio_impl.c' l='316' u='c' c='printf_diouxX'/>
 <use f='MOS/lib/stdio_impl.c' l='328' u='c' c='printf_diouxX'/>
 <use f='MOS/lib/stdio_impl.c' l='328' u='c' c='printf_diouxX'/>
@@ -21,6 +21,6 @@
 <use f='MOS/lib/string.c' l='149' u='c' c='strdup'/>
 <use f='MOS/lib/string.c' l='164' u='c' c='strtoll'/>
 <use f='MOS/lib/structures/hashmap_common.c' l='22' u='c' c='hashmap_hash_string'/>
-<use f='MOS/tests/test_engine.c' l='54' u='c' c='mos_test_engine_log'/>
-<use f='MOS/tests/test_engine.c' l='101' u='c' c='mos_test_engine_run_tests'/>
+<use f='MOS/tests/test_engine.c' l='56' u='c' c='mos_test_engine_log'/>
+<use f='MOS/tests/test_engine.c' l='107' u='c' c='mos_test_engine_should_skip'/>
 <use f='MOS/userspace/libuserspace.c' l='70' u='c' c='dvprintf'/>

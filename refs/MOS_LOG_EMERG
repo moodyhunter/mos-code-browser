@@ -8,5 +8,5 @@
 <use f='MOS/kernel/panic.c' l='57' macro='1' u='r' c='mos_kpanic'/>
 <use f='MOS/kernel/panic.c' l='58' macro='1' u='r' c='mos_kpanic'/>
 <use f='MOS/kernel/panic.c' l='65' macro='1' u='r' c='mos_kpanic'/>
-<use f='MOS/kernel/printk.c' l='64' c='deduce_level_color'/>
+<use f='MOS/kernel/printk.c' l='59' c='deduce_level_color'/>
 <use f='MOS/kernel/tasks/process.c' l='54' macro='1' u='r' c='process_allocate'/>

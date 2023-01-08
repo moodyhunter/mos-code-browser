@@ -2,5 +2,5 @@
 <def f='MOS/lib/stdio.c' l='16' ll='23' type='int snprintf(char *restrict str, size_t size, const char *restrict format)'/>
 <use f='MOS/lib/stdlib.c' l='69' u='c' c='format_size'/>
 <use f='MOS/lib/stdlib.c' l='73' u='c' c='format_size'/>
-<use f='MOS/tests/test_engine.c' l='42' u='c' c='mos_test_engine_log'/>
 <use f='MOS/tests/test_engine.c' l='44' u='c' c='mos_test_engine_log'/>
+<use f='MOS/tests/test_engine.c' l='46' u='c' c='mos_test_engine_log'/>

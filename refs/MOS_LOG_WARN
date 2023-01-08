@@ -18,7 +18,8 @@
 <use f='MOS/kernel/ipc/ipc.c' l='331' macro='1' u='r' c='ipc_connect'/>
 <use f='MOS/kernel/ipc/ipc.c' l='358' macro='1' u='r' c='ipc_connect'/>
 <use f='MOS/kernel/ipc/ipc.c' l='374' macro='1' u='r' c='ipc_connect'/>
-<use f='MOS/kernel/kernel_init.c' l='50' macro='1' u='r' c='cmdline_get_init_path'/>
+<use f='MOS/kernel/kernel_init.c' l='31' macro='1' u='r' c='setup_init_path'/>
+<use f='MOS/kernel/kernel_init.c' l='33' macro='1' u='r' c='setup_init_path'/>
 <use f='MOS/kernel/ksyscall.c' l='76' macro='1' u='r' c='impl_syscall_io_write'/>
 <use f='MOS/kernel/ksyscall.c' l='87' macro='1' u='r' c='impl_syscall_io_write'/>
 <use f='MOS/kernel/ksyscall.c' l='262' macro='1' u='r' c='impl_syscall_wait_for_thread'/>
@@ -28,9 +29,9 @@
 <use f='MOS/kernel/panic.c' l='28' macro='1' u='r' c='kwarn_handler_remove'/>
 <use f='MOS/kernel/panic.c' l='88' u='r' c='mos_kwarn'/>
 <use f='MOS/kernel/panic.c' l='89' u='r' c='mos_kwarn'/>
-<use f='MOS/kernel/printk.c' l='24' macro='1' u='r' c='printk_setup_console'/>
-<use f='MOS/kernel/printk.c' l='29' macro='1' u='r' c='printk_setup_console'/>
-<use f='MOS/kernel/printk.c' l='63' c='deduce_level_color'/>
+<use f='MOS/kernel/printk.c' l='21' macro='1' u='r' c='printk_setup_console'/>
+<use f='MOS/kernel/printk.c' l='58' c='deduce_level_color'/>
+<use f='MOS/kernel/setup.c' l='38' macro='1' u='r' c='invoke_setup_functions'/>
 <use f='MOS/kernel/tasks/process.c' l='199' macro='1' u='r' c='process_handle_exit'/>
-<use f='MOS/tests/test_engine.c' l='67' u='r' c='test_engine_warning_handler'/>
-<use f='MOS/tests/test_engine.c' l='68' u='r' c='test_engine_warning_handler'/>
+<use f='MOS/tests/test_engine.c' l='69' u='r' c='test_engine_warning_handler'/>
+<use f='MOS/tests/test_engine.c' l='70' u='r' c='test_engine_warning_handler'/>

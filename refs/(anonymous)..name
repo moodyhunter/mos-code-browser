@@ -1,9 +1,11 @@
-<dec f='MOS/kernel/include/mos/cmdline.h' l='27' type='const char *'/>
-<use f='MOS/kernel/cmdline.c' l='33' u='w' c='mos_cmdline_create'/>
-<use f='MOS/kernel/cmdline.c' l='93' u='r' c='mos_cmdline_destroy'/>
-<use f='MOS/kernel/cmdline.c' l='114' u='r' c='mos_cmdline_get_arg'/>
+<dec f='MOS/kernel/include/mos/cmdline.h' l='12' type='const char *'/>
+<use f='MOS/kernel/cmdline.c' l='28' u='w' c='cmdline_create'/>
+<use f='MOS/kernel/cmdline.c' l='66' u='r' c='cmdline_free_option'/>
+<use f='MOS/kernel/cmdline.c' l='77' u='r' c='cmdline_remove_option'/>
 <offset>0</offset>
-<use f='MOS/kernel/kernel_init.c' l='63' u='r' c='dump_cmdline'/>
+<use f='MOS/kernel/kernel_init.c' l='72' u='r' c='mos_start_kernel'/>
+<use f='MOS/kernel/setup.c' l='13' u='r' c='cmdline_get_option'/>
+<use f='MOS/kernel/setup.c' l='42' u='r' c='invoke_setup_functions'/>
 <use f='MOS/tests/cmdline_parser/test_cmdline_parser.c' l='12' u='r' c='simple_cmdline'/>
 <use f='MOS/tests/cmdline_parser/test_cmdline_parser.c' l='12' u='r' c='simple_cmdline'/>
 <use f='MOS/tests/cmdline_parser/test_cmdline_parser.c' l='23' u='r' c='two_arguments'/>
@@ -32,11 +34,11 @@
 <use f='MOS/tests/cmdline_parser/test_cmdline_parser.c' l='54' u='r' c='many_arguments'/>
 <use f='MOS/tests/cmdline_parser/test_cmdline_parser.c' l='65' u='r' c='one_arg_with_an_option'/>
 <use f='MOS/tests/cmdline_parser/test_cmdline_parser.c' l='65' u='r' c='one_arg_with_an_option'/>
-<use f='MOS/tests/cmdline_parser/test_cmdline_parser.c' l='78' u='r' c='one_arg_with_multiple_options'/>
-<use f='MOS/tests/cmdline_parser/test_cmdline_parser.c' l='78' u='r' c='one_arg_with_multiple_options'/>
-<use f='MOS/tests/cmdline_parser/test_cmdline_parser.c' l='100' u='r' c='multi_args_with_multiple_options'/>
-<use f='MOS/tests/cmdline_parser/test_cmdline_parser.c' l='100' u='r' c='multi_args_with_multiple_options'/>
-<use f='MOS/tests/cmdline_parser/test_cmdline_parser.c' l='113' u='r' c='multi_args_with_multiple_options'/>
-<use f='MOS/tests/cmdline_parser/test_cmdline_parser.c' l='113' u='r' c='multi_args_with_multiple_options'/>
-<use f='MOS/tests/cmdline_parser/test_cmdline_parser.c' l='126' u='r' c='multi_args_with_multiple_options'/>
-<use f='MOS/tests/cmdline_parser/test_cmdline_parser.c' l='126' u='r' c='multi_args_with_multiple_options'/>
+<use f='MOS/tests/cmdline_parser/test_cmdline_parser.c' l='77' u='r' c='one_arg_with_multiple_options'/>
+<use f='MOS/tests/cmdline_parser/test_cmdline_parser.c' l='77' u='r' c='one_arg_with_multiple_options'/>
+<use f='MOS/tests/cmdline_parser/test_cmdline_parser.c' l='94' u='r' c='multi_args_with_multiple_options'/>
+<use f='MOS/tests/cmdline_parser/test_cmdline_parser.c' l='94' u='r' c='multi_args_with_multiple_options'/>
+<use f='MOS/tests/cmdline_parser/test_cmdline_parser.c' l='102' u='r' c='multi_args_with_multiple_options'/>
+<use f='MOS/tests/cmdline_parser/test_cmdline_parser.c' l='102' u='r' c='multi_args_with_multiple_options'/>
+<use f='MOS/tests/cmdline_parser/test_cmdline_parser.c' l='110' u='r' c='multi_args_with_multiple_options'/>
+<use f='MOS/tests/cmdline_parser/test_cmdline_parser.c' l='110' u='r' c='multi_args_with_multiple_options'/>

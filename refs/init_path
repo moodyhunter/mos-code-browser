@@ -1,0 +1,5 @@
+<def f='MOS/kernel/kernel_init.c' l='25' type='const char *'/>
+<use f='MOS/kernel/kernel_init.c' l='37' u='w' c='setup_init_path'/>
+<use f='MOS/kernel/kernel_init.c' l='38' u='r' c='setup_init_path'/>
+<use f='MOS/kernel/kernel_init.c' l='104' u='r' c='mos_start_kernel'/>
+<use f='MOS/kernel/kernel_init.c' l='109' u='r' c='mos_start_kernel'/>

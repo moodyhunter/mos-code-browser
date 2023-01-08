@@ -1,1 +1,1 @@
-<def f='MOS/arch/x86/include/mos/x86/cpu/cpu.h' l='8' ll='11' macro='1' type='void cpu_get_msr(u32 msr, u32 * lo, u32 * hi)'/>
+<def f='MOS/arch/x86/include/mos/x86/cpu/cpu.h' l='9' ll='12' macro='1' type='void cpu_get_msr(u32 msr, u32 * lo, u32 * hi)'/>

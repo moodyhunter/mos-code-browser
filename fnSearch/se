@@ -18,3 +18,4 @@ serial_console_read|serial_console_read
 serial_console_set_color|serial_console_set_color
 serial_console_setup|serial_console_setup
 serial_console_write|serial_console_write
+setup_init_path|setup_init_path

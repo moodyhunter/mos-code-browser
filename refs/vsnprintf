@@ -2,10 +2,10 @@
 <use f='MOS/kernel/panic.c' l='49' u='c' c='mos_kpanic'/>
 <use f='MOS/kernel/panic.c' l='85' u='c' c='mos_kwarn'/>
 <doc f='MOS/lib/include/lib/stdio.h' l='24'>// defined in stdio_impl.c</doc>
-<use f='MOS/kernel/printk.c' l='98' u='c' c='lvprintk'/>
+<use f='MOS/kernel/printk.c' l='93' u='c' c='lvprintk'/>
 <use f='MOS/lib/stdio.c' l='20' u='c' c='snprintf'/>
 <use f='MOS/lib/stdio.c' l='27' u='c' c='vsprintf'/>
 <def f='MOS/lib/stdio_impl.c' l='435' ll='574' type='int vsnprintf(char * buf, size_t size, const char * format, struct __va_list_tag * args)'/>
 <use f='MOS/tests/printf/test_printf.c' l='31' u='c' c='tst_printf'/>
-<use f='MOS/tests/test_engine.c' l='66' u='c' c='test_engine_warning_handler'/>
+<use f='MOS/tests/test_engine.c' l='68' u='c' c='test_engine_warning_handler'/>
 <use f='MOS/userspace/libuserspace.c' l='69' u='c' c='dvprintf'/>

@@ -12,8 +12,8 @@
 <use f='MOS/kernel/panic.c' l='17' macro='1' u='w'/>
 <use f='MOS/kernel/panic.c' l='60' macro='1' u='r' c='mos_kpanic'/>
 <use f='MOS/kernel/panic.c' l='60' macro='1' u='r' c='mos_kpanic'/>
-<use f='MOS/kernel/printk.c' l='107' macro='1' u='r' c='lvprintk'/>
-<use f='MOS/kernel/printk.c' l='107' macro='1' u='r' c='lvprintk'/>
+<use f='MOS/kernel/printk.c' l='102' macro='1' u='r' c='lvprintk'/>
+<use f='MOS/kernel/printk.c' l='102' macro='1' u='r' c='lvprintk'/>
 <use f='MOS/lib/structures/list.c' l='18' u='w' c='linked_list_init'/>
 <use f='MOS/lib/structures/list.c' l='34' u='r' c='list_is_empty'/>
 <use f='MOS/lib/structures/list.c' l='39' u='w' c='list_node_remove'/>
@@ -116,5 +116,5 @@
 <use f='MOS/tests/linked_list/test_linked_list.c' l='203' u='r' c='test_list_foreach'/>
 <use f='MOS/tests/linked_list/test_linked_list.c' l='210' macro='1' u='r' c='test_list_foreach'/>
 <use f='MOS/tests/linked_list/test_linked_list.c' l='210' macro='1' u='r' c='test_list_foreach'/>
-<use f='MOS/tests/test_engine.c' l='19' macro='1' u='r' c='for_each_console_print_with_color'/>
-<use f='MOS/tests/test_engine.c' l='19' macro='1' u='r' c='for_each_console_print_with_color'/>
+<use f='MOS/tests/test_engine.c' l='21' macro='1' u='r' c='for_each_console_print_with_color'/>
+<use f='MOS/tests/test_engine.c' l='21' macro='1' u='r' c='for_each_console_print_with_color'/>

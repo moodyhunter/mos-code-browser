@@ -1,3 +1,3 @@
-<dec f='MOS/tests/cmdline_parser/test_cmdline_parser.c' l='93' type='void multi_args_with_multiple_options(mos_test_result_t * , _Bool * , _Bool * )'/>
-<use f='MOS/tests/cmdline_parser/test_cmdline_parser.c' l='93' u='c' c='__mos_test_wrapped_test_multi_args_with_multiple_options'/>
-<def f='MOS/tests/cmdline_parser/test_cmdline_parser.c' l='93' ll='139' macro='1' type='void multi_args_with_multiple_options(mos_test_result_t * _MT_result, _Bool * _mt_test_skipped, _Bool * _mt_loop_leave)'/>
+<dec f='MOS/tests/cmdline_parser/test_cmdline_parser.c' l='87' type='void multi_args_with_multiple_options(mos_test_result_t * , _Bool * , _Bool * )'/>
+<use f='MOS/tests/cmdline_parser/test_cmdline_parser.c' l='87' u='c' c='__mos_test_wrapped_test_multi_args_with_multiple_options'/>
+<def f='MOS/tests/cmdline_parser/test_cmdline_parser.c' l='87' ll='118' macro='1' type='void multi_args_with_multiple_options(mos_test_result_t * _MT_result, _Bool * _mt_test_skipped, _Bool * _mt_loop_leave)'/>

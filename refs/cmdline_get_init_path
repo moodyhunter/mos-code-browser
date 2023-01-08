@@ -1,2 +1,0 @@
-<def f='MOS/kernel/kernel_init.c' l='41' ll='53' type='const char * cmdline_get_init_path()'/>
-<use f='MOS/kernel/kernel_init.c' l='98' u='c' c='mos_start_kernel'/>

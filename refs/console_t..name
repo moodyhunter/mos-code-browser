@@ -7,4 +7,4 @@
 <use f='MOS/kernel/device/console.c' l='42' u='r' c='console_register'/>
 <use f='MOS/kernel/device/console.c' l='51' u='r' c='console_get'/>
 <use f='MOS/kernel/device/console.c' l='61' u='r' c='console_get_by_prefix'/>
-<use f='MOS/kernel/printk.c' l='46' u='r' c='printk_setup_console'/>
+<use f='MOS/kernel/printk.c' l='38' u='r' c='printk_setup_console'/>

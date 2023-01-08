@@ -1,2 +1,2 @@
-<def f='MOS/arch/x86/include/mos/x86/cpu/cpu.h' l='23' ll='28' macro='1' type='reg_t x86_get_cr3()'/>
+<def f='MOS/arch/x86/include/mos/x86/cpu/cpu.h' l='25' ll='30' macro='1' type='reg_t x86_get_cr3()'/>
 <use f='MOS/arch/x86/x86_platform.c' l='142' u='c' c='x86_start_kernel'/>

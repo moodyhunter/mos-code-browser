@@ -1,4 +1,4 @@
 <dec f='MOS/kernel/include/mos/filesystem/cpio/cpio.h' l='43' type='const filesystem_t'/>
 <use f='MOS/kernel/filesystem/cpio/cpio.c' l='108' u='a' c='cpio_unmount'/>
 <def f='MOS/kernel/filesystem/cpio/cpio.c' l='216' ll='227' type='const filesystem_t'/>
-<use f='MOS/kernel/kernel_init.c' l='33' u='a' c='mount_initrd'/>
+<use f='MOS/kernel/kernel_init.c' l='51' u='a' c='mount_initrd'/>

@@ -1,0 +1,2 @@
+<def f='MOS/kernel/kernel_init.c' l='27' ll='40' macro='1' type='_Bool setup_init_path(int argc, const char ** argv)'/>
+<use f='MOS/kernel/kernel_init.c' l='42'/>

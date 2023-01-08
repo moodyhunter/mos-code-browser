@@ -4,8 +4,6 @@
 <use f='MOS/arch/x86/acpi/acpi.c' l='54' u='c' c='acpi_parse_rsdt'/>
 <use f='MOS/arch/x86/acpi/acpi.c' l='61' u='c' c='acpi_parse_rsdt'/>
 <use f='MOS/arch/x86/acpi/acpi.c' l='82' u='c' c='acpi_find_rsdp'/>
-<use f='MOS/kernel/cmdline.c' l='47' u='c' c='mos_cmdline_create'/>
-<use f='MOS/kernel/cmdline.c' l='53' u='c' c='mos_cmdline_create'/>
 <use f='MOS/kernel/device/console.c' l='61' u='c' c='console_get_by_prefix'/>
 <use f='MOS/kernel/elf/elf.c' l='25' u='c' c='elf_verify_header'/>
 <use f='MOS/kernel/filesystem/cpio/cpio.c' l='37' u='c' c='cpio_read_metadata'/>
@@ -31,4 +29,4 @@
 <use f='MOS/tests/ring_buffer/test_ring_buffer.c' l='468' u='c' c='ringbuffer_push_pop_multiple_bytes'/>
 <use f='MOS/tests/ring_buffer/test_ring_buffer.c' l='475' u='c' c='ringbuffer_push_pop_multiple_bytes'/>
 <use f='MOS/tests/ring_buffer/test_ring_buffer.c' l='475' u='c' c='ringbuffer_push_pop_multiple_bytes'/>
-<use f='MOS/tests/test_engine.c' l='101' u='c' c='mos_test_engine_run_tests'/>
+<use f='MOS/tests/test_engine.c' l='107' u='c' c='mos_test_engine_should_skip'/>

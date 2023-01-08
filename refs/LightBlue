@@ -4,8 +4,8 @@
 <use f='MOS/tests/cmdline_parser/test_cmdline_parser.c' l='17' macro='1' u='r' c='__mos_test_wrapped_test_two_arguments'/>
 <use f='MOS/tests/cmdline_parser/test_cmdline_parser.c' l='30' macro='1' u='r' c='__mos_test_wrapped_test_many_arguments'/>
 <use f='MOS/tests/cmdline_parser/test_cmdline_parser.c' l='59' macro='1' u='r' c='__mos_test_wrapped_test_one_arg_with_an_option'/>
-<use f='MOS/tests/cmdline_parser/test_cmdline_parser.c' l='72' macro='1' u='r' c='__mos_test_wrapped_test_one_arg_with_multiple_options'/>
-<use f='MOS/tests/cmdline_parser/test_cmdline_parser.c' l='93' macro='1' u='r' c='__mos_test_wrapped_test_multi_args_with_multiple_options'/>
+<use f='MOS/tests/cmdline_parser/test_cmdline_parser.c' l='71' macro='1' u='r' c='__mos_test_wrapped_test_one_arg_with_multiple_options'/>
+<use f='MOS/tests/cmdline_parser/test_cmdline_parser.c' l='87' macro='1' u='r' c='__mos_test_wrapped_test_multi_args_with_multiple_options'/>
 <use f='MOS/tests/downwards_stack/test_downwards_stack.c' l='7' macro='1' u='r' c='__mos_test_wrapped_test_stack_init_deinit'/>
 <use f='MOS/tests/downwards_stack/test_downwards_stack.c' l='21' macro='1' u='r' c='__mos_test_wrapped_test_stack_push_pop_stack'/>
 <use f='MOS/tests/fs_api/test_fs_api.c' l='9' macro='1' u='r' c='__mos_test_wrapped_test_test_fs_api_path_is_prefix'/>

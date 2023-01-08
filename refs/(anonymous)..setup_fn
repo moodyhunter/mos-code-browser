@@ -1,0 +1,8 @@
+<dec f='MOS/kernel/include/mos/setup.h' l='11' type='_Bool (*)(int, const char **)'/>
+<use f='MOS/kernel/kernel_init.c' l='42' macro='1' u='w'/>
+<offset>64</offset>
+<use f='MOS/kernel/printk.c' l='48' macro='1' u='w'/>
+<use f='MOS/kernel/setup.c' l='35' u='r' c='invoke_setup_functions'/>
+<use f='MOS/tests/test_engine.c' l='88' macro='1' u='w'/>
+<use f='MOS/tests/test_engine.c' l='98' macro='1' u='w'/>
+<use f='MOS/tests/test_engine.c' l='153' macro='1' u='w'/>
