@@ -3,8 +3,8 @@
 <use f='MOS/arch/x86/acpi/acpi.c' l='30' macro='1' u='r' c='acpi_parse_rsdt'/>
 <use f='MOS/arch/x86/acpi/acpi.c' l='98' macro='1' u='r' c='acpi_find_rsdp'/>
 <use f='MOS/arch/x86/acpi/madt.c' l='117' macro='1' u='r' c='madt_parse_table'/>
-<use f='MOS/arch/x86/cpu/smp.c' l='42' macro='1' u='r' c='ap_begin_exec'/>
-<use f='MOS/arch/x86/cpu/smp.c' l='101' macro='1' u='r' c='x86_smp_start_all'/>
+<use f='MOS/arch/x86/cpu/ap_entry.c' l='19' macro='1' u='r' c='ap_begin_exec'/>
+<use f='MOS/arch/x86/cpu/smp.c' l='74' macro='1' u='r' c='x86_smp_start_all'/>
 <use f='MOS/arch/x86/devices/serial.c' l='22' macro='1' u='r' c='serial_irq_handler'/>
 <use f='MOS/arch/x86/interrupt/lapic.c' l='144' macro='1' u='r' c='lapic_memory_setup'/>
 <use f='MOS/arch/x86/interrupt/lapic.c' l='148' macro='1' u='r' c='lapic_memory_setup'/>

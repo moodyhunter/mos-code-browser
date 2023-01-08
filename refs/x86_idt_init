@@ -1,4 +1,4 @@
 <dec f='MOS/arch/x86/include/mos/x86/x86_platform.h' l='68' type='void x86_idt_init()'/>
-<use f='MOS/arch/x86/cpu/smp.c' l='35' u='c' c='ap_begin_exec'/>
+<use f='MOS/arch/x86/cpu/ap_entry.c' l='12' u='c' c='ap_begin_exec'/>
 <def f='MOS/arch/x86/interrupt/idt.c' l='29' ll='43' type='void x86_idt_init()'/>
 <use f='MOS/arch/x86/x86_platform.c' l='145' u='c' c='x86_start_kernel'/>

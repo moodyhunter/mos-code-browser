@@ -1,5 +1,5 @@
 <dec f='MOS/arch/x86/include/mos/x86/cpu/cpuid.h' l='158' type='void cpuid_get_processor_info(processor_version_t * info)'/>
+<use f='MOS/arch/x86/cpu/ap_entry.c' l='17' u='c' c='ap_begin_exec'/>
 <def f='MOS/arch/x86/cpu/cpuid.c' l='30' ll='38' type='void cpuid_get_processor_info(processor_version_t * info)'/>
 <use f='MOS/arch/x86/cpu/cpuid.c' l='66' u='c' c='cpuid_print_cpu_info'/>
-<use f='MOS/arch/x86/cpu/smp.c' l='40' u='c' c='ap_begin_exec'/>
 <use f='MOS/arch/x86/interrupt/lapic.c' l='135' u='c' c='lapic_memory_setup'/>

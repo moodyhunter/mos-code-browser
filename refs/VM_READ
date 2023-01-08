@@ -2,7 +2,7 @@
 <use f='MOS/kernel/include/mos/platform/platform.h' l='40' u='r'/>
 <use f='MOS/arch/x86/boot/multiboot/startup.c' l='153' u='r' c='x86_startup'/>
 <use f='MOS/arch/x86/boot/multiboot/startup.c' l='154' u='r' c='x86_startup'/>
-<use f='MOS/arch/x86/cpu/smp.c' l='87' u='r' c='x86_smp_copy_trampoline'/>
+<use f='MOS/arch/x86/cpu/smp.c' l='60' u='r' c='x86_smp_copy_trampoline'/>
 <use f='MOS/arch/x86/mm/paging_impl.c' l='162' u='r' c='pg_page_get_flags'/>
 <use f='MOS/arch/x86/x86_platform.c' l='45' u='r'/>
 <use f='MOS/arch/x86/x86_platform.c' l='52' u='r'/>

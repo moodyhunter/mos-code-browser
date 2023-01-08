@@ -26,13 +26,14 @@ MOS/arch/x86/boot/multiboot/startup.c
 MOS/kernel/include/mos/device/console.h
 MOS/lib/include/lib/sync/spinlock.h
 MOS/arch/x86/include/mos/x86/mm/paging_impl.h
-MOS/arch/x86/cpu/cpuid.c
+MOS/arch/x86/cpu/ap_entry.c
 MOS/arch/x86/include/mos/x86/cpu/cpuid.h
+MOS/arch/x86/include/mos/x86/interrupt/apic.h
+MOS/arch/x86/include/mos/x86/mm/paging.h
+MOS/arch/x86/cpu/cpuid.c
 MOS/arch/x86/cpu/smp.c
 MOS/arch/x86/include/mos/x86/cpu/smp.h
 MOS/arch/x86/include/mos/x86/delays.h
-MOS/arch/x86/include/mos/x86/interrupt/apic.h
-MOS/arch/x86/include/mos/x86/mm/paging.h
 MOS/arch/x86/devices/initrd_blockdev.c
 MOS/arch/x86/include/mos/x86/devices/initrd_blockdev.h
 MOS/kernel/include/mos/device/block.h

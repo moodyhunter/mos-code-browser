@@ -1,5 +1,5 @@
 <def f='MOS/arch/x86/include/mos/x86/delays.h' l='23' ll='28' macro='1' type='void mdelay(u64 ms)'/>
-<use f='MOS/arch/x86/cpu/smp.c' l='65' u='c' c='x86_cpu_start'/>
-<use f='MOS/arch/x86/cpu/smp.c' l='71' u='c' c='x86_cpu_start'/>
-<use f='MOS/arch/x86/cpu/smp.c' l='73' u='c' c='x86_cpu_start'/>
+<use f='MOS/arch/x86/cpu/smp.c' l='38' u='c' c='x86_cpu_start'/>
+<use f='MOS/arch/x86/cpu/smp.c' l='44' u='c' c='x86_cpu_start'/>
+<use f='MOS/arch/x86/cpu/smp.c' l='46' u='c' c='x86_cpu_start'/>
 <use f='MOS/arch/x86/x86_platform_api.c' l='37' u='c' c='platform_msleep'/>

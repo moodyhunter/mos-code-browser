@@ -2,5 +2,5 @@
 <dec f='MOS/kernel/include/mos/platform/platform.h' l='93' type='u32'/>
 <offset>0</offset>
 <use f='MOS/arch/x86/acpi/madt.c' l='56' u='r' c='madt_parse_table'/>
-<use f='MOS/arch/x86/cpu/smp.c' l='45' u='w' c='ap_begin_exec'/>
+<use f='MOS/arch/x86/cpu/ap_entry.c' l='22' u='w' c='ap_begin_exec'/>
 <use f='MOS/arch/x86/x86_platform.c' l='233' u='w' c='x86_start_kernel'/>

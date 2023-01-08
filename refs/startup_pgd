@@ -6,5 +6,5 @@
 <use f='MOS/arch/x86/boot/multiboot/startup.c' l='85' u='a' c='mos_startup_map_single_page'/>
 <use f='MOS/arch/x86/boot/multiboot/startup.c' l='136' u='r' c='x86_startup'/>
 <use f='MOS/arch/x86/boot/multiboot/startup.c' l='179' c='x86_startup'/>
-<dec f='MOS/arch/x86/cpu/smp.c' l='28' type='x86_pgdir_entry[1024]'/>
-<use f='MOS/arch/x86/cpu/smp.c' l='30' u='a'/>
+<dec f='MOS/arch/x86/cpu/smp.c' l='25' type='x86_pgdir_entry[1024]'/>
+<use f='MOS/arch/x86/cpu/smp.c' l='27' u='a'/>
