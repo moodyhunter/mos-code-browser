@@ -1,1 +1,2 @@
 <dec f='MOS/kernel/include/mos/constants.h' l='20'/>
+<use f='MOS/arch/x86/acpi/acpi.c' l='45' u='c'/>

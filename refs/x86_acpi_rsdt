@@ -1,5 +1,5 @@
-<dec f='MOS/arch/x86/include/mos/x86/acpi/acpi.h' l='8' type='acpi_rsdt_t *'/>
-<def f='MOS/arch/x86/acpi/acpi.c' l='16' type='acpi_rsdt_t *'/>
+<dec f='MOS/arch/x86/include/mos/x86/acpi/acpi.h' l='8' type='const acpi_rsdt_t *'/>
+<def f='MOS/arch/x86/acpi/acpi.c' l='16' type='const acpi_rsdt_t *'/>
 <use f='MOS/arch/x86/acpi/acpi.c' l='35' u='w' c='acpi_parse_rsdt'/>
 <use f='MOS/arch/x86/acpi/acpi.c' l='36' u='r' c='acpi_parse_rsdt'/>
 <use f='MOS/arch/x86/acpi/acpi.c' l='39' u='r' c='acpi_parse_rsdt'/>

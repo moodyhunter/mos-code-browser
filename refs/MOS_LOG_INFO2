@@ -2,7 +2,6 @@
 <use f='MOS/arch/x86/acpi/acpi.c' l='52' macro='1' u='r' c='acpi_parse_rsdt'/>
 <use f='MOS/arch/x86/acpi/acpi.c' l='59' macro='1' u='r' c='acpi_parse_rsdt'/>
 <use f='MOS/arch/x86/acpi/acpi.c' l='69' macro='1' u='r' c='acpi_parse_rsdt'/>
-<use f='MOS/arch/x86/acpi/acpi.c' l='73' macro='1' u='r' c='acpi_parse_rsdt'/>
 <use f='MOS/arch/x86/acpi/acpi.c' l='84' macro='1' u='r' c='acpi_find_rsdp'/>
 <use f='MOS/arch/x86/acpi/acpi.c' l='94' macro='1' u='r' c='acpi_find_rsdp'/>
 <use f='MOS/arch/x86/acpi/acpi.c' l='97' macro='1' u='r' c='acpi_find_rsdp'/>

@@ -2,7 +2,6 @@
 <use f='MOS/arch/x86/acpi/acpi.c' l='52' u='c'/>
 <use f='MOS/arch/x86/acpi/acpi.c' l='59' u='c'/>
 <use f='MOS/arch/x86/acpi/acpi.c' l='69' u='c'/>
-<use f='MOS/arch/x86/acpi/acpi.c' l='73' u='c'/>
 <use f='MOS/arch/x86/acpi/acpi.c' l='84' u='c'/>
 <use f='MOS/arch/x86/acpi/acpi.c' l='94' u='c'/>
 <use f='MOS/arch/x86/acpi/acpi.c' l='97' u='c'/>

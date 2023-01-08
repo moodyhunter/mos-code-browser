@@ -1,5 +1,4 @@
 <dec f='MOS/kernel/include/mos/types.h' l='31'/>
-<use f='MOS/arch/x86/acpi/acpi.c' l='30' u='c'/>
 <use f='MOS/arch/x86/cpu/smp.c' l='74' u='c'/>
 <use f='MOS/arch/x86/interrupt/lapic.c' l='144' u='c'/>
 <use f='MOS/arch/x86/interrupt/lapic.c' l='148' u='c'/>
