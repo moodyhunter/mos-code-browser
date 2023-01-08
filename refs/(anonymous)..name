@@ -4,6 +4,9 @@
 <use f='MOS/kernel/cmdline.c' l='78' u='r' c='cmdline_remove_option'/>
 <offset>0</offset>
 <use f='MOS/kernel/kernel_init.c' l='72' u='r' c='mos_start_kernel'/>
+<use f='MOS/kernel/kernel_init.c' l='112' u='r' c='mos_start_kernel'/>
+<use f='MOS/kernel/kernel_init.c' l='118' u='r' c='mos_start_kernel'/>
+<use f='MOS/kernel/kernel_init.c' l='119' u='r' c='mos_start_kernel'/>
 <use f='MOS/kernel/setup.c' l='13' u='r' c='cmdline_get_option'/>
 <use f='MOS/kernel/setup.c' l='41' u='r' c='invoke_setup_functions'/>
 <use f='MOS/tests/cmdline_parser/test_cmdline_parser.c' l='12' u='r' c='simple_cmdline'/>

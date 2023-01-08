@@ -32,7 +32,7 @@
 <use f='MOS/kernel/ipc/ipc.c' l='254' macro='1' u='r' c='ipc_init'/>
 <use f='MOS/kernel/kernel_init.c' l='63' macro='1' u='r' c='mos_start_kernel'/>
 <use f='MOS/kernel/kernel_init.c' l='72' macro='1' u='r' c='mos_start_kernel'/>
-<use f='MOS/kernel/kernel_init.c' l='111' macro='1' u='r' c='mos_start_kernel'/>
+<use f='MOS/kernel/kernel_init.c' l='138' macro='1' u='r' c='mos_start_kernel'/>
 <use f='MOS/kernel/mm/paging/pmalloc.c' l='32' macro='1' u='r' c='mos_pmm_setup'/>
 <use f='MOS/kernel/mm/paging/pmalloc.c' l='59' macro='1' u='r' c='pmalloc_dump'/>
 <use f='MOS/kernel/mm/paging/pmalloc.c' l='67' macro='1' u='r' c='pmalloc_dump'/>

@@ -1,3 +1,3 @@
 <dec f='MOS/kernel/include/mos/cmdline.h' l='26' type='_Bool cmdline_remove_option(cmdline_t * cmdline, const char * arg)'/>
-<def f='MOS/kernel/cmdline.c' l='74' ll='88' macro='1' type='_Bool cmdline_remove_option(cmdline_t * cmdline, const char * arg)'/>
+<def f='MOS/kernel/cmdline.c' l='74' ll='91' macro='1' type='_Bool cmdline_remove_option(cmdline_t * cmdline, const char * arg)'/>
 <use f='MOS/kernel/setup.c' l='41' u='c' c='invoke_setup_functions'/>

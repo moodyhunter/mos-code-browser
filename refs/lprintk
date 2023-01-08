@@ -74,8 +74,8 @@
 <use f='MOS/arch/x86/x86_platform.c' l='247' macro='1' u='c' c='x86_start_kernel'/>
 <use f='MOS/arch/x86/x86_platform_api.c' l='121' macro='1' u='c' c='platform_mm_map_pages'/>
 <use f='MOS/arch/x86/x86_platform_api.c' l='130' macro='1' u='c' c='platform_mm_unmap_pages'/>
-<use f='MOS/kernel/cmdline.c' l='115' macro='1' u='c' c='cmdline_arg_get_bool'/>
-<use f='MOS/kernel/cmdline.c' l='122' macro='1' u='c' c='cmdline_arg_get_bool'/>
+<use f='MOS/kernel/cmdline.c' l='118' macro='1' u='c' c='cmdline_arg_get_bool'/>
+<use f='MOS/kernel/cmdline.c' l='125' macro='1' u='c' c='cmdline_arg_get_bool'/>
 <use f='MOS/kernel/device/console.c' l='38' macro='1' u='c' c='console_register'/>
 <use f='MOS/kernel/device/console.c' l='42' macro='1' u='c' c='console_register'/>
 <use f='MOS/kernel/elf/elf.c' l='71' macro='1' u='c' c='elf_create_process'/>
@@ -134,7 +134,7 @@
 <use f='MOS/kernel/kernel_init.c' l='67' macro='1' u='c' c='mos_start_kernel'/>
 <use f='MOS/kernel/kernel_init.c' l='72' macro='1' u='c' c='mos_start_kernel'/>
 <use f='MOS/kernel/kernel_init.c' l='74' macro='1' u='c' c='mos_start_kernel'/>
-<use f='MOS/kernel/kernel_init.c' l='111' macro='1' u='c' c='mos_start_kernel'/>
+<use f='MOS/kernel/kernel_init.c' l='138' macro='1' u='c' c='mos_start_kernel'/>
 <use f='MOS/kernel/ksyscall.c' l='76' macro='1' u='c' c='impl_syscall_io_write'/>
 <use f='MOS/kernel/ksyscall.c' l='87' macro='1' u='c' c='impl_syscall_io_write'/>
 <use f='MOS/kernel/ksyscall.c' l='107' macro='1' u='c' c='impl_syscall_exit'/>

@@ -82,7 +82,7 @@
 <use f='MOS/kernel/io/terminal.c' l='28' macro='1' u='c' c='terminal_io_write'/>
 <use f='MOS/kernel/kernel_init.c' l='84' macro='1' u='c' c='mos_start_kernel'/>
 <use f='MOS/kernel/kernel_init.c' l='91' macro='1' u='c' c='mos_start_kernel'/>
-<use f='MOS/kernel/kernel_init.c' l='117' macro='1' u='c' c='mos_start_kernel'/>
+<use f='MOS/kernel/kernel_init.c' l='144' macro='1' u='c' c='mos_start_kernel'/>
 <use f='MOS/kernel/ksyscall.c' l='105' macro='1' u='c' c='impl_syscall_exit'/>
 <use f='MOS/kernel/ksyscall.c' l='110' macro='1' u='c' c='impl_syscall_exit'/>
 <use f='MOS/kernel/ksyscall.c' l='138' macro='1' u='c' c='impl_syscall_get_pid'/>

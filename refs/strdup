@@ -4,7 +4,6 @@
 <use f='MOS/kernel/ipc/ipc.c' l='272' u='c' c='ipc_create'/>
 <use f='MOS/kernel/ipc/ipc.c' l='337' u='c' c='ipc_connect'/>
 <use f='MOS/kernel/kernel_init.c' l='37' u='c' c='setup_init_path'/>
-<use f='MOS/kernel/kernel_init.c' l='104' u='c' c='mos_start_kernel'/>
 <use f='MOS/kernel/kernel_init.c' l='105' u='c' c='mos_start_kernel'/>
 <use f='MOS/kernel/ksyscall.c' l='157' u='c' c='impl_syscall_spawn'/>
 <use f='MOS/kernel/tasks/fork.c' l='72' u='c' c='process_handle_fork'/>

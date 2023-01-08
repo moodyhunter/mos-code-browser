@@ -8,7 +8,11 @@
 <use f='MOS/kernel/cmdline.c' l='69' u='r' c='cmdline_free_option'/>
 <offset>64</offset>
 <use f='MOS/kernel/kernel_init.c' l='73' u='r' c='mos_start_kernel'/>
-<use f='MOS/kernel/kernel_init.c' l='100' u='w' c='mos_start_kernel'/>
+<use f='MOS/kernel/kernel_init.c' l='101' u='w' c='mos_start_kernel'/>
+<use f='MOS/kernel/kernel_init.c' l='113' u='r' c='mos_start_kernel'/>
+<use f='MOS/kernel/kernel_init.c' l='121' u='r' c='mos_start_kernel'/>
+<use f='MOS/kernel/kernel_init.c' l='124' u='r' c='mos_start_kernel'/>
+<use f='MOS/kernel/kernel_init.c' l='128' u='r' c='mos_start_kernel'/>
 <use f='MOS/kernel/ksyscall.c' l='160' u='w' c='impl_syscall_spawn'/>
 <use f='MOS/kernel/setup.c' l='34' u='r' c='invoke_setup_functions'/>
 <use f='MOS/tests/cmdline_parser/test_cmdline_parser.c' l='13' u='r' c='simple_cmdline'/>

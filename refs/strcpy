@@ -1,5 +1,7 @@
 <dec f='MOS/lib/include/lib/string.h' l='23' type='char * strcpy(char * dest, const char * src)'/>
 <use f='MOS/arch/x86/tasks/context.c' l='45' u='c' c='x86_switch_impl_setup_user_thread'/>
+<use f='MOS/kernel/kernel_init.c' l='118' u='c' c='mos_start_kernel'/>
+<use f='MOS/kernel/kernel_init.c' l='126' u='c' c='mos_start_kernel'/>
 <def f='MOS/lib/string.c' l='114' ll='120' type='char * strcpy(char * dest, const char * src)'/>
 <use f='MOS/lib/string.c' l='150' u='c' c='strdup'/>
 <use f='MOS/userspace/init/main.c' l='135' u='c' c='main'/>

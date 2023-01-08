@@ -6,6 +6,10 @@
 <use f='MOS/kernel/kernel_init.c' l='69' u='r' c='mos_start_kernel'/>
 <use f='MOS/kernel/kernel_init.c' l='71' u='r' c='mos_start_kernel'/>
 <use f='MOS/kernel/kernel_init.c' l='77' u='r' c='mos_start_kernel'/>
+<use f='MOS/kernel/kernel_init.c' l='101' u='r' c='mos_start_kernel'/>
+<use f='MOS/kernel/kernel_init.c' l='102' u='r' c='mos_start_kernel'/>
+<use f='MOS/kernel/kernel_init.c' l='107' u='r' c='mos_start_kernel'/>
+<use f='MOS/kernel/kernel_init.c' l='109' u='r' c='mos_start_kernel'/>
 <use f='MOS/kernel/setup.c' l='10' u='r' c='cmdline_get_option'/>
 <use f='MOS/kernel/setup.c' l='11' u='r' c='cmdline_get_option'/>
 <use f='MOS/kernel/setup.c' l='13' u='r' c='cmdline_get_option'/>
